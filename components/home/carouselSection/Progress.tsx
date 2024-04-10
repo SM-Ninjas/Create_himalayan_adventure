@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -14,7 +13,7 @@ function Progress({ curIndex, length }: Props) {
           style={{
             width: (((curIndex + 1) / length) * 100).toString() + "%",
           }}
-          className={` h-[1px] rounded-full bg-yellow-400  bg-opacity-50`}
+          className={`h-[1px] rounded-full bg-blue-600  bg-opacity-50`}
         ></div>
       </div>
       <span
@@ -36,7 +35,7 @@ function Progress({ curIndex, length }: Props) {
             duration: 0.6,
             ease: "easeInOut",
           }}
-          className=" flex items-center text-4xl font-medium "
+          className="flex items-center text-4xl font-medium "
         >
           0{curIndex + 1}
         </motion.div>
