@@ -1,7 +1,7 @@
+import { CurrentSlideData, Data } from "@/components/home/CarouselSection";
 import React from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Progress from "./Progress";
-import { CurrentSlideData, Data } from "@/pages";
 
 type Props = {
   currentSlideData: CurrentSlideData;
@@ -58,10 +58,10 @@ function Controls({
   return (
     <div className="flex items-center gap-3 px-0 py-3 md:px-1 md:py-5">
       <SliderButton handleClick={handlePrev}>
-        <IoIosArrowBack className=" text-xl" />
+        <IoIosArrowBack className="text-xl " />
       </SliderButton>
       <SliderButton handleClick={handleNext}>
-        <IoIosArrowForward className=" text-xl" />
+        <IoIosArrowForward className="text-xl " />
       </SliderButton>
       <Progress curIndex={currentSlideData.index} length={sliderData.length} />
     </div>
