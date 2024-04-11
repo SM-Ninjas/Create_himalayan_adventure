@@ -111,7 +111,7 @@ export function MenuItems() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Trekking in Nepal</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white">Trekking in Nepal</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 bg-white p-4 md:w-[500px] md:grid-cols-2 lg:w-[800px]">
               {trekRegions.map((item, index) => (
@@ -120,7 +120,7 @@ export function MenuItems() {
                     {item.options.map((each, index) => (
                       <p
                         key={index}
-                        className="mb-2 line-clamp-2 font-light text-gray-600 hover:text-blue-700"
+                        className="mb-2 font-light text-gray-600 line-clamp-2 hover:text-blue-700"
                       >
                         {each}
                       </p>
@@ -132,7 +132,7 @@ export function MenuItems() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Tourns in Nepal</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white">Tourns in Nepal</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 bg-white p-4 md:w-[500px] md:grid-cols-2 lg:w-[800px]">
               {tourRegions.map((item, index) => (
@@ -141,7 +141,7 @@ export function MenuItems() {
                     {item.options.map((each, index) => (
                       <p
                         key={index}
-                        className="mb-1 line-clamp-2 font-light text-gray-600 hover:text-blue-700"
+                        className="mb-1 font-light text-gray-600 line-clamp-2 hover:text-blue-700"
                       >
                         {each}
                       </p>

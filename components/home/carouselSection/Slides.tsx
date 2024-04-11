@@ -1,4 +1,4 @@
-import { Data } from "@/pages";
+import { Data } from "@/components/home/CarouselSection";
 import React from "react";
 import SliderCard from "./SliderCard";
 
@@ -8,7 +8,7 @@ type Props = {
 
 function Slides({ data }: Props) {
   return (
-    <div className=" flex w-full gap-6">
+    <div className="flex w-full gap-6 ">
       {data.map((data) => {
         return <SliderCard key={data.img} data={data} />;
       })}

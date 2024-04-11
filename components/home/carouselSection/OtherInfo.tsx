@@ -17,7 +17,7 @@ const item = {
 
 function OtherInfo({ data }: Props) {
   return (
-    <motion.div initial="hidden" animate={"visible"} className=" flex flex-col">
+    <motion.div initial="hidden" animate={"visible"} className="flex flex-col ">
       <AnimatedText
         className=" spacing overflow-hidden text-[#D5D5D6]"
         data={data?.location}

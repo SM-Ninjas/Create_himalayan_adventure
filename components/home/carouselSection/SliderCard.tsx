@@ -8,7 +8,7 @@ type Props = {
 function SliderCard({ data }: Props) {
   return (
     <motion.div
-      className=" relative h-52 min-w-[250px] rounded-2xl shadow-md md:h-80 md:min-w-[208px]"
+      className="relative h-52 min-w-[250px] rounded-2xl shadow-md md:h-80 md:min-w-[208px]"
       layout
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{
@@ -29,9 +29,9 @@ function SliderCard({ data }: Props) {
         layoutId={data.img}
         alt="Transition Image"
         src={data.img}
-        className=" absolute h-full w-full  rounded-2xl  object-cover brightness-75 "
+        className="absolute object-cover w-full h-full rounded-2xl brightness-75"
       />
-      <motion.div className=" absolute z-10 flex h-full items-end p-4">
+      <motion.div className="absolute z-10 flex items-end h-full p-4 ">
         <motion.div>
           <motion.div
             layout
