@@ -1,7 +1,8 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
 import { Noto_Sans } from "next/font/google";
 
+import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/navbar/Header";
 
 const inter = Noto_Sans({
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
     >
       <Header />
       <Component {...pageProps} />
-    </main> 
-  )
+      <Footer />
+    </main>
+  );
 }

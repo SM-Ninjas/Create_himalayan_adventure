@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -26,10 +25,7 @@ function OtherInfo({ data }: Props) {
         className=" my-1 text-4xl font-semibold md:my-3 md:text-8xl md:leading-[100px]"
         data={data?.title}
       />
-      <AnimatedText
-        className=" text-xs text-[#D5D5D6]"
-        data={data?.description}
-      />
+      <AnimatedText className=" text-[#D5D5D6]" data={data?.description} />
     </motion.div>
   );
 }

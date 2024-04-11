@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -29,15 +28,15 @@ function SliderCard({ data }: Props) {
         layoutId={data.img}
         alt="Transition Image"
         src={data.img}
-        className="absolute object-cover w-full h-full rounded-2xl brightness-75"
+        className="absolute h-full w-full rounded-2xl object-cover brightness-75"
       />
-      <motion.div className="absolute z-10 flex items-end h-full p-4 ">
+      <motion.div className="absolute z-10 flex h-full items-end p-4 ">
         <motion.div>
           <motion.div
             layout
             className=" mb-2 h-[2px] w-3 rounded-full bg-white"
           ></motion.div>
-          <motion.p layoutId={data.location} className="text-xs text-[#D5D5D6]">
+          <motion.p layoutId={data.location} className="text-sm text-[#D5D5D6]">
             {data.location}
           </motion.p>
           <motion.h1
