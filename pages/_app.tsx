@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main
       className={`
        ${inter.className}
-        relative min-h-screen overflow-x-hidden bg-gray-100`}
+        relative min-h-screen bg-gray-100`}
     >
       <Header />
       <Component {...pageProps} />
