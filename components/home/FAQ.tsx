@@ -1,17 +1,50 @@
-import { fadeIn, staggerContainer } from "@/lib/motion";
+import { fadeIn, staggerContainer, zoomIn } from "@/lib/motion";
 import { motion } from "framer-motion";
-import { TitleText, TypingText } from "../ui/text/typingText";
+import { TitleText } from "../ui/text/typingText";
 
 const FAQ = () => {
   return (
-    <section className="container mx-auto">
+    <section className="container relative mx-auto">
+      <div
+        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 -translate-x-1/2 transform"
+        aria-hidden="true"
+      >
+        <svg
+          width="1760"
+          height="518"
+          viewBox="0 0 1760 518"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              x1="50%"
+              y1="0%"
+              x2="50%"
+              y2="100%"
+              id="illustration-02"
+            >
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g
+            transform="translate(0 -3)"
+            fill="url(#illustration-02)"
+            fillRule="evenodd"
+          >
+            <circle cx="1630" cy="128" r="128" />
+            <circle cx="178" cy="481" r="40" />
+          </g>
+        </svg>
+      </div>
       <motion.div
         variants={staggerContainer(0, 0)}
         className="mx-auto flex flex-col justify-center gap-y-16 px-4 py-8 md:p-8"
       >
         <div className="flex flex-col gap-y-4">
           <div>
-            <TypingText title="FAQ" />
+            {/* <TypingText title="FAQ" /> */}
             <TitleText title="Frequently Asked Questions" />
           </div>
           <motion.p
@@ -23,7 +56,10 @@ const FAQ = () => {
           </motion.p>
         </div>
         <div className="space-y-4">
-          <details className="w-full rounded-lg bg-white transition-all">
+          <motion.details
+            variants={zoomIn(1, 0.25)}
+            className="w-full rounded-lg bg-white transition-all"
+          >
             <summary className="focus-visible:ri px-4 py-6 focus:outline-none">
               What are the accomodation service like?
             </summary>
@@ -34,8 +70,11 @@ const FAQ = () => {
               on providing comfort and shelter. Luxurious options are rare, as
               the emphasis is on experiencing nature and local culture.
             </p>
-          </details>
-          <details className="w-full rounded-lg bg-white">
+          </motion.details>
+          <motion.details
+            variants={zoomIn(1.25, 0.25)}
+            className="w-full rounded-lg bg-white"
+          >
             <summary className="focus-visible:ri px-4 py-6 focus:outline-none">
               What kind of gear do I need for trekking?
             </summary>
@@ -46,8 +85,11 @@ const FAQ = () => {
               the trek's difficulty and duration, you may also need items like a
               sleeping bag, tent, and cooking equipment.
             </p>
-          </details>
-          <details className="w-full rounded-lg bg-white">
+          </motion.details>
+          <motion.details
+            variants={zoomIn(1.5, 0.25)}
+            className="w-full rounded-lg bg-white"
+          >
             <summary className="focus-visible:ri px-4 py-6 focus:outline-none">
               Can I rent trekking gear at the destination?
             </summary>
@@ -58,7 +100,7 @@ const FAQ = () => {
               vary, so it's best to check in advance or bring your own gear if
               possible.
             </p>
-          </details>
+          </motion.details>
         </div>
       </motion.div>
     </section>

@@ -2,7 +2,7 @@ import { fadeIn, planetVariants, staggerContainer } from "@/lib/motion";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import StartSteps from "../ui/text/startSteps";
-import { TitleText, TypingText } from "../ui/text/typingText";
+import { TitleText } from "../ui/text/typingText";
 
 const HowTo = () => {
   return (
@@ -31,7 +31,7 @@ const HowTo = () => {
           className="flex flex-[0.75] flex-col justify-center gap-12"
         >
           <div className="flex flex-col gap-y-2">
-            <TypingText title="How To Book" />
+            {/* <TypingText title="How To Book" /> */}
             <TitleText title="Get Started by booking your first vacation" />
           </div>
           <div className="flex flex-col gap-[24px]">

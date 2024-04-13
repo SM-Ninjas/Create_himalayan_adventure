@@ -12,7 +12,10 @@
   @apply text-gray-600;
 }
 .title-text {
-  @apply text-[27px] font-bold text-gray-900;
+  @apply text-[36px] font-black text-gray-900;
+}
+.subtitle-text {
+  @apply text-[24px] font-bold text-gray-800;
 }
 .emphasized-text {
   @apply text-lg text-gray-800;

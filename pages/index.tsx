@@ -1,6 +1,7 @@
 import CarouselSection from "@/components/home/CarouselSection";
 import FAQ from "@/components/home/FAQ";
 import AboutUs from "@/components/home/HowTo";
+import Testimonials from "@/components/home/Testimonials";
 import TopChoices from "@/components/home/TopChoices";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import { Metadata } from "next";
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUs />
       <TopChoices />
       <FAQ />
+      <Testimonials />
     </section>
   );
 }
