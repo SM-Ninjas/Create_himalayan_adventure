@@ -122,7 +122,7 @@ export function MenuItems() {
                     {item.options.map((each, index) => (
                       <p
                         key={index}
-                        className="regular-text mb-2 line-clamp-2 font-light hover:text-blue-700"
+                        className="small-text mb-2 line-clamp-2 font-light hover:text-blue-700"
                       >
                         {each}
                       </p>
@@ -145,7 +145,7 @@ export function MenuItems() {
                     {item.options.map((each, index) => (
                       <p
                         key={index}
-                        className="regular-text mb-1 line-clamp-2 font-light hover:text-blue-700"
+                        className="small-text mb-1 line-clamp-2 font-light hover:text-blue-700"
                       >
                         {each}
                       </p>

@@ -1,5 +1,6 @@
-import AboutUs from "@/components/home/AboutUs";
 import CarouselSection from "@/components/home/CarouselSection";
+import FAQ from "@/components/home/FAQ";
+import AboutUs from "@/components/home/HowTo";
 import TopChoices from "@/components/home/TopChoices";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import { Metadata } from "next";
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyChooseUs />
       <AboutUs />
       <TopChoices />
+      <FAQ />
     </section>
   );
 }

@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
         <div className="flex-1">
           <motion.p
             variants={fadeIn("up", "tween", 0.2, 1)}
-            className="emphasized-text text-sm text-gray-600"
+            className="regular-text text-gray-600"
           >
             Choose us for your trekking adventure because we're more than just
             guides; we're your companions on the path to discovery. With our

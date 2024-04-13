@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main
       className={`
        ${inter.className}
-        relative min-h-screen bg-gray-100`}
+        max-w-screen relative mx-0 min-h-screen bg-gray-50 px-0`}
     >
       <Header />
       <Component {...pageProps} />
