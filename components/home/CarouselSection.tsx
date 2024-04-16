@@ -1,13 +1,10 @@
 import { AnimatePresence } from "framer-motion";
 import React from "react";
-import { AnimatePresence } from "framer-motion";
-import React from "react";
 
 import BackgroundImage from "./carouselSection/BackgroundImage";
 import Controls from "@/components/home/carouselSection/Controls";
 import SlideInfo from "@/components/home/carouselSection/SlideInfo";
 import Slides from "@/components/home/carouselSection/Slides";
-import BackgroundImage from "./carouselSection/BackgroundImage";
 
 export type Data = {
   img: string;
@@ -15,23 +12,16 @@ export type Data = {
   description: string;
   location: string;
   id: number;
-  img: string;
-  title: string;
-  description: string;
-  location: string;
 };
 
-
 export type CurrentSlideData = {
-  data: Data;
-  index: number;
   data: Data;
   index: number;
 };
 
 const CarouselSection = () => {
   const [data, setData] = React.useState<Data[]>(sliderData.slice(1));
-  const [data, setData] = React.useState<Data[]>(sliderData.slice(1));
+
   const [transitionData, setTransitionData] = React.useState<Data>(
     sliderData[0]
   );
@@ -105,50 +95,8 @@ const CarouselSection = () => {
     </article>
   );
 };
-  );
-};
 
 export default CarouselSection;
-export default CarouselSection;
-
-const sliderData = [
-  {
-    img: "/locations/annapurna.webp",
-    location: "Gandaki",
-    description: "14 Days Annapurna Base Camp Trek guided by the professionals",
-    title: "Annapurna Base Camp",
-  },
-  {
-    img: "/locations/everest.avif",
-    title: "Everest Base Camp",
-    description:
-      "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world",
-    location: "Mahalangpur",
-  },
-  {
-    img: "/locations/chitwan.jpeg",
-    title: "Chitwan National Park Tour",
-    description:
-      "Wild animals in their natural environment, luxury safari lodges",
-    location: "Bagmati",
-  },
-  {
-    img: "/locations/rara.jpeg",
-    title: "Rara Lake Tour",
-    description:
-      "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
-    location: "Jumla",
-  },
-  {
-    img: "/locations/pokhara.jpeg",
-    title: "Adverture in Pokhara",
-    description:
-      "Spectacular scenery, adventure activities, and accommodation and food choices galore",
-    location: "Pokhara",
-  },
-];
-
-const initData = sliderData[0];
 
 export const sliderData = [
   {
