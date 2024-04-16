@@ -1,6 +1,7 @@
 import { CurrentSlideData, Data } from "@/components/home/CarouselSection";
 import { motion } from "framer-motion";
 import OtherInfo from "./OtherInfo";
+import Link from "next/link";
 
 type Props = {
   transitionData: Data;
@@ -23,13 +24,14 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
         >
           <IoMdBookmark className="text-xl " />
         </button> */}
-
-        <button
-          className=" w-fit rounded-full border-[1px] border-[#ffffff8f] px-6 py-3 text-sm font-thin transition duration-300 
-            ease-in-out hover:bg-white hover:text-black "
-        >
-          DETAILS
-        </button>
+        <Link href={`/${transitionData.location}`}>
+          <button
+            className="w-fit rounded-full  border-[1px] border-[#ffffff8f] px-6 py-3 text-sm font-thin transition duration-300 
+          ease-in-out hover:bg-white hover:text-black "
+          >
+            DETAILS
+          </button>
+        </Link>
       </motion.div>
     </>
   );
