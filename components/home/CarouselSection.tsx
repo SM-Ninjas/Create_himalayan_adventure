@@ -6,13 +6,27 @@ import Controls from "@/components/home/carouselSection/Controls";
 import SlideInfo from "@/components/home/carouselSection/SlideInfo";
 import Slides from "@/components/home/carouselSection/Slides";
 
-export type Data = {
-  img: string;
-  title: string;
-  description: string;
-  location: string;
+export interface Data {
   id: number;
-};
+  category: string; // Optional, based on feedback
+  img: string;
+  description: string;
+  title: string;
+  location: string;
+  days: string; 
+  people: string; 
+  subImages?: string[]; 
+  overView?: OverView;
+}
+
+export interface OverView {
+  duration: string;
+  startingPoint: string;
+  endingPoint: string;
+  peoples?: string;
+  category?: string;
+  bestSeason: string;
+}
 
 export type CurrentSlideData = {
   data: Data;
@@ -68,15 +82,15 @@ const CarouselSection = () => {
           transitionData={transitionData}
           currentSlideData={currentSlideData}
         />
-        <div className="absolute z-20 w-full h-full">
-          <div className="flex flex-col w-full h-full grid-cols-10 md:grid">
-            <div className="flex flex-col justify-end flex-1 h-full col-span-4 px-5 mb-3 md:mb-0 md:justify-center md:px-10">
+        <div className="absolute z-20 h-full w-full">
+          <div className="flex h-full w-full grid-cols-10 flex-col md:grid">
+            <div className="col-span-4 mb-3 flex h-full flex-1 flex-col justify-end px-5 md:mb-0 md:justify-center md:px-10">
               <SlideInfo
                 transitionData={transitionData}
                 currentSlideData={currentSlideData}
               />
             </div>
-            <div className="flex flex-col justify-start flex-1 h-full col-span-6 p-4 md:justify-center md:p-10">
+            <div className="col-span-6 flex h-full flex-1 flex-col justify-start p-4 md:justify-center md:p-10">
               <Slides data={data} />
               <Controls
                 currentSlideData={currentSlideData}
@@ -106,11 +120,26 @@ export const sliderData = [
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
     title: "Annapurna Base Camp",
     location: "Gandaki",
+    days: "14 days",
+    people: "1-12",
     subImages: [
       // Add sub-images if available
       "/locations/annapurna_sub1.jpg",
       "/locations/annapurna_sub2.jpg",
     ],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
   },
   {
     id: 1,
@@ -120,7 +149,22 @@ export const sliderData = [
     description:
       "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world",
     location: "Mahalangpur",
+    days: "14 days",
+    people: "1-12",
     subImages: ["/locations/everest_sub1.avif", "/locations/everest_sub2.avif"],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
   },
   {
     id: 2,
@@ -130,7 +174,9 @@ export const sliderData = [
     description:
       "Wild animals in their natural environment, luxury safari lodges",
     location: "Bagmati",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/chitwan_sub2.jpg"],
+    days: "14 days",
+    people: "1-12",
+    subImages: ["/locations/chitwan_sub1.png", "/locations/gil_sub1.png"],
   },
   {
     id: 3,
@@ -140,7 +186,22 @@ export const sliderData = [
     description:
       "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
     location: "Jumla",
+    days: "14 days",
+    people: "1-12",
     subImages: ["/locations/rara_sub1.jpeg", "/locations/rara_sub2.jpeg"],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
   },
   {
     id: 4,
@@ -150,7 +211,22 @@ export const sliderData = [
     description:
       "Spectacular scenery, adventure activities, and accommodation and food choices galore",
     location: "Pokhara",
+    days: "14 days",
+    people: "1-12",
     subImages: ["/locations/pokhara_sub1.jpg", "/locations/pokhara_sub2.jpg"],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
   },
 ];
 

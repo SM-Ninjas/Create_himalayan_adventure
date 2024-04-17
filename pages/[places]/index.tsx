@@ -1,29 +1,47 @@
 import { sliderData } from "@/components/home/CarouselSection";
+import Carousel from "@/components/ui/carousel";
 import { useRouter } from "next/router";
 import React from "react";
+import { FaClock } from "react-icons/fa";
+import { MdGroups } from "react-icons/md";
+import { Data } from "@/components/home/CarouselSection";
 
 function PlacesDetails() {
   const router = useRouter();
   const { places } = router.query;
-  const filtered = sliderData.filter((slider) => slider.location === places);
-  console.log(filtered);
+
+  const filtered: Data[] = sliderData.filter(
+    (slider) => slider.location === places
+  );
+ 
 
   return (
-    <div className="mt-20">
-      {/* {transitionData.title} */}
-      {filtered.map((place) => (
-        <div key={place.id}>
-          <h1>{place.title}</h1>
-          <h1>Desctiption: {place.description}</h1>
-          <img src={place.img} alt="myimg" />
-          {place.subImages.map((subImg, i) => (
-            <div>
-              <img src={subImg} alt="myimg" />
+    <div className="mt-[100px] flex w-full justify-center">
+      <div className="w-[80%] border">
+        <div className=" ">
+          {filtered.map((place) => (
+            <div key={place.id}>
+              <div className="">
+                <h1 className="text-[24px] font-bold">{place.title}</h1>
+                <div className="mb-[30px] flex gap-[30px]">
+                  <p className="flex items-center gap-2 text-[#1F1F1F]">
+                    <FaClock size={20} />
+                    {place.days}
+                  </p>
+                  <p className="flex items-center gap-2 text-[#1F1F1F]">
+                    <MdGroups size={30} />
+                    {place.people}
+                  </p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
-      ))}
-      {/* {places} */}
+        <div className="">
+          {/* here lies the carousel */}
+          <Carousel filteredData={filtered} />
+        </div>
+      </div>
     </div>
   );
 }
