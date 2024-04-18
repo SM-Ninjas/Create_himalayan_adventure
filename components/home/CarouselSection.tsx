@@ -6,6 +6,7 @@ import Controls from "@/components/home/carouselSection/Controls";
 import SlideInfo from "@/components/home/carouselSection/SlideInfo";
 import Slides from "@/components/home/carouselSection/Slides";
 
+export type subImages = string[];
 export interface Data {
   id: number;
   category: string; // Optional, based on feedback
@@ -13,12 +14,11 @@ export interface Data {
   description: string;
   title: string;
   location: string;
-  days: string; 
-  people: string; 
-  subImages?: string[]; 
+  days: string;
+  people: string;
+  subImages?: subImages;
   overView?: OverView;
 }
-
 export interface OverView {
   duration: string;
   startingPoint: string;
@@ -122,11 +122,7 @@ export const sliderData = [
     location: "Gandaki",
     days: "14 days",
     people: "1-12",
-    subImages: [
-      // Add sub-images if available
-      "/locations/annapurna_sub1.jpg",
-      "/locations/annapurna_sub2.jpg",
-    ],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -151,7 +147,7 @@ export const sliderData = [
     location: "Mahalangpur",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/everest_sub1.avif", "/locations/everest_sub2.avif"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -176,7 +172,7 @@ export const sliderData = [
     location: "Bagmati",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/gil_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
   },
   {
     id: 3,
@@ -188,7 +184,7 @@ export const sliderData = [
     location: "Jumla",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/rara_sub1.jpeg", "/locations/rara_sub2.jpeg"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -213,7 +209,7 @@ export const sliderData = [
     location: "Pokhara",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/pokhara_sub1.jpg", "/locations/pokhara_sub2.jpg"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",

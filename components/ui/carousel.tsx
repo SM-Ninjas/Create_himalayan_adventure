@@ -1,63 +1,60 @@
 import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { Data as Place } from "../home/CarouselSection";
+import { Data as Place, subImages } from "../home/CarouselSection";
 
 interface CarouselProps {
-  filteredData: Place[];
+  images: subImages;
 }
 
-function Carousel({ filteredData }: CarouselProps) {
+function Carousel({ images }: CarouselProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  console.log(images, "images");
 
   const handlePrevClick = () => {
     setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? filteredData.length - 1 : prevIndex - 1
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
   const handleNextClick = () => {
     setCurrentImageIndex((prevIndex) =>
-      prevIndex === filteredData.length - 1 ? 0 : prevIndex + 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   return (
     <div className="w-full">
-      {filteredData.map((place, index) => (
-        <div key={place.id} className={`flex justify-center gap-4`}>
-          <div>
-            <img src={place.img} className="rounded-[14px]" alt="" />
-          </div>
-          <div className="">
-            {place.subImages?.map((img, subIndex) => (
-              <div key={subIndex} className="ml-2">
-                <img
-                  src={img}
-                  className="cursor-pointer rounded-[14px]"
-                  alt=""
-                  onClick={() => setCurrentImageIndex(index)}
-                />
-              </div>
+      <div className={``}>
+        <div className="flex gap-[30px]">
+          <div className="ml-2 flex gap-4 overflow-hidden">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                className="h-[230px] w-[60%] cursor-pointer rounded-[14px] object-cover"
+                alt=""
+                onClick={() => setCurrentImageIndex(index)}
+              />
             ))}
-            <div className="mt-2 flex ml-2">
-              <FaChevronLeft
-                size={35}
-                color="#0075FF"
-                className="cursor-pointer rounded-[6px] border border-[#0075FF]"
-                style={{ border: "1px solid #0075FF" }}
-                onClick={handlePrevClick}
-              />
-              <FaChevronRight
-                size={35}
-                color="#0075FF"
-                className="ml-2 cursor-pointer rounded-[6px] border border-[#0075FF]"
-                style={{ border: "1px solid #0075FF" }}
-                onClick={handleNextClick}
-              />
-            </div>
           </div>
         </div>
-      ))}
+        <div className="ml-4 mt-[35px] flex gap-4">
+          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
+            <FaChevronLeft
+              size={25}
+              color="#0075FF"
+              onClick={handlePrevClick}
+            />
+          </div>
+          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
+            <FaChevronRight
+              size={25}
+              color="#0075FF"
+              onClick={handleNextClick}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
