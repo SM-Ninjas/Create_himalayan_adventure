@@ -2,9 +2,13 @@ import { fadeIn, staggerContainer, zoomIn } from "@/lib/motion";
 import { motion } from "framer-motion";
 import { TitleText } from "../ui/text/typingText";
 
-const FAQ = () => {
+interface FAQProps {
+  faqRef: React.RefObject<HTMLDivElement>;
+}
+
+const FAQ = ({ faqRef }: FAQProps) => {
   return (
-    <section className="container relative mx-auto">
+    <section className="container relative mx-auto" ref={faqRef}>
       <div
         className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 -translate-x-1/2 transform"
         aria-hidden="true"

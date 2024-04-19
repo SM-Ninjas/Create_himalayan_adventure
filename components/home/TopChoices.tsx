@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 
 import { staggerContainer, textVariant } from "@/lib/motion";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaMouse } from "react-icons/fa";
 
 interface CardProps {
   url: string;
@@ -12,7 +13,11 @@ interface CardProps {
   id: number;
 }
 
-const TopChoices = () => {
+interface TopChoicesProps {
+  scrollToSection: () => void;
+}
+
+const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -27,13 +32,13 @@ const TopChoices = () => {
   }, [scrollYProgress]);
 
   return (
-    <section className="px-sm mx-0 lg:px-0">
+    <section className="px-sm relative mx-0 lg:px-0">
       <motion.article
         variants={staggerContainer(0, 0)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.1 }}
-        className="relative flex flex-col items-start gap-y-2"
+        className="relative flex flex-col items-center gap-y-2"
       >
         <div className="container sticky top-20 mx-auto flex flex-col gap-y-4">
           <motion.h2 className="title-text" variants={textVariant(0.2)}>
@@ -55,7 +60,7 @@ const TopChoices = () => {
         </div>
 
         <div ref={targetRef} className="relative h-[300vh]">
-          <div className="sticky top-48 flex h-[75vh] w-screen items-center overflow-hidden">
+          <div className="sticky top-56 flex h-[75vh] w-screen items-center overflow-hidden">
             <motion.div style={{ x }} className="flex gap-4">
               {exploreMoreItems.map((item) => (
                 <Card card={item} key={item.id} />
@@ -68,6 +73,12 @@ const TopChoices = () => {
                 </div>
               </div>
             </motion.div>
+          </div>
+          <div
+            className="sticky left-1/2 top-[90%] h-max w-max -translate-x-1/2 cursor-pointer rounded-full bg-blue-600 p-4"
+            onClick={scrollToSection}
+          >
+            <FaMouse className="h-6 w-6 text-white" />
           </div>
         </div>
       </motion.article>
