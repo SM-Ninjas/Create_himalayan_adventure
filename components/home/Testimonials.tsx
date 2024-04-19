@@ -47,7 +47,7 @@ const Testimonials = () => {
       >
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="mx-auto pb-12 text-center md:pb-16">
+          <div className="mx-auto pb-12 md:pb-16">
             <TitleText title="A Message of Adventure and Connection" />
             <motion.p
               variants={fadeIn("up", "tween", 0.25, 1)}
@@ -65,8 +65,8 @@ const Testimonials = () => {
           <motion.div variants={zoomIn(1, 0.5)} className="mx-auto mt-4">
             <div className="relative flex items-start rounded bg-white">
               {/* Testimonial */}
-              <div className="mx-4 px-12 py-8 pt-20 text-center md:mx-0">
-                <div className="absolute left-1/2 top-0 -mt-8 -translate-x-1/2 transform">
+              <div className="mx-4 px-12 py-8 pt-20 md:mx-0">
+                <div className="absolute top-0 -mt-8 transform">
                   <svg
                     className="absolute right-0 top-0 -mr-8 -mt-3 h-16 w-16 fill-current text-blue-600"
                     viewBox="0 0 64 64"

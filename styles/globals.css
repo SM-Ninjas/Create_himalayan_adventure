@@ -6,22 +6,34 @@
   @apply mx-auto w-full px-4 md:w-3/4 xl:w-3/5 xl:p-0;
 }
 .small-text {
-  @apply text-sm text-gray-600;
+  @apply text-sm;
 }
 .regular-text {
-  @apply text-gray-600;
 }
 .title-text {
-  @apply text-[36px] font-black text-gray-900;
+  @apply text-[36px] font-black;
 }
 .subtitle-text {
-  @apply text-[24px] font-bold text-gray-800;
+  @apply text-[24px] font-bold;
 }
 .emphasized-text {
-  @apply text-lg text-gray-800;
+  @apply text-lg;
 }
 .zoom-in-transition {
   @apply transition-transform duration-500 ease-in-out;
+}
+
+.get-started-bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0) 0%,
+      rgba(17, 17, 17, 0.8) 50%,
+      rgba(17, 17, 17, 0.8491771708683473) 100%
+    ),
+    url("/images/trek.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* custom scrollbar */
