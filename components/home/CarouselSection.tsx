@@ -19,6 +19,12 @@ export interface Data {
   subImages?: subImages;
   overView?: OverView;
 }
+export interface infoContentTypes {
+  about: string;
+  highLight: string;
+  Benefits: string;
+  Itenary: string;
+}
 export interface OverView {
   duration: string;
   startingPoint: string;
@@ -136,6 +142,7 @@ export const sliderData = [
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
     },
+    
   },
   {
     id: 1,

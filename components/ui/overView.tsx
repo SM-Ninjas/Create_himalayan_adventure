@@ -1,3 +1,5 @@
+"useClient"
+
 import React from "react";
 import { Data } from "../home/CarouselSection";
 import { FaClock } from "react-icons/fa";
@@ -5,9 +7,9 @@ import { MdGroups } from "react-icons/md";
 import { FaFlag } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 interface OverViewProps {
-  placeData: Data | undefined;
+  currentPlaceDataData: Data | undefined;
 }
-export default function OverView({ placeData }: OverViewProps) {
+export default function OverView({ currentPlaceDataData }: OverViewProps) {
   return (
     <div>
       <div className="grid grid-cols-3 gap-[20px]">
@@ -15,10 +17,12 @@ export default function OverView({ placeData }: OverViewProps) {
           <div className="mb-2 flex items-center gap-[9px]">
             <FaClock color="#0075FF" />
             <h1 className=" text-[14px] font-semibold">
-              Duration:{placeData?.days}
+              Duration:{currentPlaceDataData?.days}
             </h1>
           </div>
-          <p className="px-4 text-[12px]">{placeData?.overView?.duration}</p>
+          <p className="px-4 text-[12px]">
+            {currentPlaceDataData?.overView?.duration}
+          </p>
         </div>
 
         <div className="p-2">
@@ -35,33 +39,33 @@ export default function OverView({ placeData }: OverViewProps) {
                 fill="#0075FF"
               />
             </svg>
-            <h1 className=" text-[14px] font-semibold">
-              Start From
-            </h1>
+            <h1 className=" text-[14px] font-semibold">Start From</h1>
           </div>
           <p className="px-4 text-[12px]">
-            {placeData?.overView?.startingPoint}
+            {currentPlaceDataData?.overView?.startingPoint}
           </p>
         </div>
 
         <div className="p-1">
           <div className="mb-2 flex items-center gap-[9px]">
             <FaFlag color="#0075FF" />
-            <h1 className=" text-[14px] font-semibold">
-              Ends At
-            </h1>
+            <h1 className=" text-[14px] font-semibold">Ends At</h1>
           </div>
-          <p className="px-4 text-[12px]">{placeData?.overView?.endingPoint}</p>
+          <p className="px-4 text-[12px]">
+            {currentPlaceDataData?.overView?.endingPoint}
+          </p>
         </div>
 
         <div className="p-2">
           <div className="mb-2 flex items-center gap-[9px]">
             <MdGroups size={30} color="#0075FF" />
             <h1 className="text-[14px] font-semibold">
-              Group:{placeData?.people} Peoples
+              Group:{currentPlaceDataData?.people} Peoples
             </h1>
           </div>
-          <p className="px-4 text-[12px]">{placeData?.overView?.peoples}</p>
+          <p className="px-4 text-[12px]">
+            {currentPlaceDataData?.overView?.peoples}
+          </p>
         </div>
 
         <div className="p-2">
@@ -79,10 +83,12 @@ export default function OverView({ placeData }: OverViewProps) {
               />
             </svg>
             <h1 className="font-semiboldtext-[14px] text-[14px] font-semibold">
-              Activity: {placeData?.category}
+              Activity: {currentPlaceDataData?.category}
             </h1>
           </div>
-          <p className="px-4 text-[12px]">{placeData?.overView?.category}</p>
+          <p className="px-4 text-[12px]">
+            {currentPlaceDataData?.overView?.category}
+          </p>
         </div>
 
         <div className="p-2">
@@ -90,7 +96,9 @@ export default function OverView({ placeData }: OverViewProps) {
             <TiWeatherPartlySunny color="#0075FF" size={26} />
             <h1 className="text-[14px] font-semibold">Best Season</h1>
           </div>
-          <p className="px-4 text-[12px]">{placeData?.overView?.bestSeason}</p>
+          <p className="px-4 text-[12px]">
+            {currentPlaceDataData?.overView?.bestSeason}
+          </p>
         </div>
       </div>
     </div>
