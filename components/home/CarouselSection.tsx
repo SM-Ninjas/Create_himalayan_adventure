@@ -1,10 +1,10 @@
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 
-import BackgroundImage from "./carouselSection/BackgroundImage";
 import Controls from "@/components/home/carouselSection/Controls";
 import SlideInfo from "@/components/home/carouselSection/SlideInfo";
 import Slides from "@/components/home/carouselSection/Slides";
+import BackgroundImage from "./carouselSection/BackgroundImage";
 
 export type subImages = string[];
 export interface Data {
