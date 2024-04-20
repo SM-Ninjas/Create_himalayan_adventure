@@ -22,8 +22,8 @@ export interface Data {
 export interface infoContentTypes {
   about: string;
   highLight: string;
-  Benefits: string;
-  Itenary: string;
+  benefits: string;
+  itenary: string;
 }
 export interface OverView {
   duration: string;

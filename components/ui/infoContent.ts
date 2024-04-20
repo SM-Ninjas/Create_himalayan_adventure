@@ -7,7 +7,7 @@
     ],
   },
   {
-    Highlights: [
+    highlights: [
       "Trek through lovely rhododendron forests, rivers, mountain terraces, and charming villages of Magar, Gurung, Tamang, Thakali, etc.",
       "Discover the vibrant culture, traditions, and way of life of the inhabitants.",
       "Trek to Poon Hill to see the magnificent sunrise and the breathtaking Himalayan range.",

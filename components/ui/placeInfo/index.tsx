@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Highlight from "./details/highlights";
 import AboutActivity from "./details/about";
 import Benefits from "./details/benefits";
-import Itenary from "./details/itenary";
-import { infoContent } from "../infoContent";
+import Itenary from "./details/itinerary";
+// import { infoContent } from "../infoContent";
 
 function PlaceInfo() {
   const [visibleContent, setVisibleContent] = useState("about");

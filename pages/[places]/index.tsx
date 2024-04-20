@@ -19,7 +19,7 @@ function PlacesDetails() {
   const subImg: subImages = currentPlaceData?.subImages || [];
 
   return (
-    <div className="mt-[100px] flex w-full justify-center">
+    <div className="container">
       <div className="w-[80%]">
         <div className="">
           <div key={currentPlaceData?.id}>
