@@ -1,4 +1,4 @@
-"useClient"
+"useClient";
 
 import React from "react";
 import { Data } from "../home/CarouselSection";
@@ -12,7 +12,7 @@ interface OverViewProps {
 export default function OverView({ currentPlaceDataData }: OverViewProps) {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-[20px]">
+      <div className="grid grid-cols-3 gap-[8px]">
         <div className="p-2">
           <div className="mb-2 flex items-center gap-[9px]">
             <FaClock color="#0075FF" />
@@ -20,7 +20,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
               Duration:{currentPlaceDataData?.days}
             </h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.duration}
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
             </svg>
             <h1 className=" text-[14px] font-semibold">Start From</h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.startingPoint}
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
             <FaFlag color="#0075FF" />
             <h1 className=" text-[14px] font-semibold">Ends At</h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.endingPoint}
           </p>
         </div>
@@ -63,7 +63,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
               Group:{currentPlaceDataData?.people} Peoples
             </h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.peoples}
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
               Activity: {currentPlaceDataData?.category}
             </h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.category}
           </p>
         </div>
@@ -96,7 +96,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
             <TiWeatherPartlySunny color="#0075FF" size={26} />
             <h1 className="text-[14px] font-semibold">Best Season</h1>
           </div>
-          <p className="px-4 text-[12px]">
+          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
             {currentPlaceDataData?.overView?.bestSeason}
           </p>
         </div>

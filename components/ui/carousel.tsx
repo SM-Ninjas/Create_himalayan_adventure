@@ -8,7 +8,6 @@ interface CarouselProps {
 
 function Carousel({ images }: CarouselProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  console.log(images, "images");
 
   const handlePrevClick = () => {
     setCurrentImageIndex((prevIndex) =>

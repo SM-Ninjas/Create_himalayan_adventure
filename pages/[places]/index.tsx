@@ -19,8 +19,8 @@ function PlacesDetails() {
   const subImg: subImages = currentPlaceData?.subImages || [];
 
   return (
-    <div className="container">
-      <div className="w-[80%]">
+    <div className="container mt-[5rem]">
+      <div className="">
         <div className="">
           <div key={currentPlaceData?.id}>
             <div className="">
@@ -55,13 +55,13 @@ function PlacesDetails() {
             <Carousel images={subImg} />
           </div>
         </div>
-        <div className="my-[30px]">
+        <div className="">
           <h1 className="text-[20px] font-semibold">Overview</h1>
           <div className="w-[60%]">
             <OverView currentPlaceDataData={currentPlaceData} />
           </div>
         </div>
-        <div>
+        <div className="mt-[30px]">
           <PlaceInfo />
         </div>
       </div>
