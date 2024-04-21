@@ -1,7 +1,5 @@
-import { Data, sliderData, subImages } from "@/components/home/CarouselSection";
+import { sliderData, subImages } from "@/components/home/CarouselSection";
 import Carousel from "@/components/ui/carousel";
-import OverView from "@/components/ui/overView";
-import PlaceInfo from "@/components/ui/placeInfo";
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
