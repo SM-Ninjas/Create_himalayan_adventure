@@ -8,7 +8,6 @@ interface CarouselProps {
 
 function Carousel({ images }: CarouselProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  console.log(images, "images");
 
   const handlePrevClick = () => {
     setCurrentImageIndex((prevIndex) =>
@@ -38,7 +37,7 @@ function Carousel({ images }: CarouselProps) {
             ))}
           </div>
         </div>
-        <div className="ml-4 mt-[35px] flex gap-4">
+        <div className="ml-4 mt-4 flex gap-4">
           <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
             <FaChevronLeft
               size={25}

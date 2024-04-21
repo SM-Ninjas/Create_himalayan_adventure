@@ -2,18 +2,24 @@ import React, { useState } from "react";
 import Highlight from "./details/highlights";
 import AboutActivity from "./details/about";
 import Benefits from "./details/benefits";
-import Itenary from "./details/itinerary";
-// import { infoContent } from "../infoContent";
+import infoContent, { itineraryType } from "../infoContent";
+import Itinerary from "./details/itinerary";
 
 function PlaceInfo() {
   const [visibleContent, setVisibleContent] = useState("about");
+
+  // Data for each groups
+  const aboutData = infoContent.about;
+  const benefitData = infoContent.facilities;
+  const highlightData = infoContent.highlights;
+  const itineraryData = infoContent.itinerary;
 
   const handleRenderComponent = (currentString: string) => {
     setVisibleContent(currentString);
   };
 
   return (
-    <div className="">
+    <div className="w-[70%]">
       <div className="flex gap-10">
         <button
           className={`text-[18px] font-semibold ${
@@ -25,7 +31,7 @@ function PlaceInfo() {
         >
           About {}
         </button>
-        {/* // add activities */}
+        |{/* // add activities */}
         <button
           className={`text-[18px] font-semibold ${
             visibleContent === "highlight" ? "text-blue-500" : ""
@@ -36,6 +42,7 @@ function PlaceInfo() {
         >
           Highlight
         </button>
+        |
         <button
           className={`text-[18px] font-semibold ${
             visibleContent === "benefit" ? "text-blue-500" : ""
@@ -46,6 +53,7 @@ function PlaceInfo() {
         >
           Benefits
         </button>
+        |
         <button
           className={`text-[18px] font-semibold ${
             visibleContent === "itenary" ? "text-blue-500" : ""
@@ -57,10 +65,14 @@ function PlaceInfo() {
           Itenary
         </button>
       </div>
-      {visibleContent === "about" && <AboutActivity />}
-      {visibleContent === "itenary" && <Itenary />}
-      {visibleContent === "highlight" && <Highlight />}
-      {visibleContent === "benefit" && <Benefits />}
+      {visibleContent === "about" && <AboutActivity aboutData={aboutData} />}
+      {visibleContent === "itenary" && (
+        <Itinerary itineraryData={itineraryData} />
+      )}
+      {visibleContent === "highlight" && (
+        <Highlight highlightData={highlightData} />
+      )}
+      {visibleContent === "benefit" && <Benefits benefitData={benefitData} />}
     </div>
   );
 }
