@@ -1,11 +1,9 @@
 "useClient";
 
-import React from "react";
-import { Data } from "../home/CarouselSection";
-import { FaClock } from "react-icons/fa";
+import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
-import { FaFlag } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
+import { Data } from "../home/CarouselSection";
 interface OverViewProps {
   currentPlaceDataData: Data | undefined;
 }
@@ -15,7 +13,7 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
       <div className="grid grid-cols-3 gap-[8px]">
         <div className="p-2">
           <div className="mb-2 flex items-center gap-[9px]">
-            <FaClock color="#0075FF" />
+            <FaClock className="subtitle-text text-blue-600" />
             <h1 className=" text-[14px] font-semibold">
               Duration:{currentPlaceDataData?.days}
             </h1>

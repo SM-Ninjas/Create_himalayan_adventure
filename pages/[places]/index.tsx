@@ -1,12 +1,10 @@
-import { sliderData, subImages } from "@/components/home/CarouselSection";
+import { Data, sliderData, subImages } from "@/components/home/CarouselSection";
 import Carousel from "@/components/ui/carousel";
-import { useRouter } from "next/router";
-import React from "react";
-import { FaClock } from "react-icons/fa";
-import { MdGroups } from "react-icons/md";
-import { Data } from "@/components/home/CarouselSection";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
+import { useRouter } from "next/router";
+import { FaClock } from "react-icons/fa";
+import { MdGroups } from "react-icons/md";
 
 function PlacesDetails() {
   const router = useRouter();
@@ -19,21 +17,21 @@ function PlacesDetails() {
   const subImg: subImages = currentPlaceData?.subImages || [];
 
   return (
-    <div className="container mt-[5rem]">
+    <div className="container mt-24">
       <div className="">
         <div className="">
           <div key={currentPlaceData?.id}>
             <div className="">
-              <h1 className="text-[24px] font-bold">
+              <h1 className="title-text font-bold">
                 {currentPlaceData?.title}
               </h1>
               <div className="mb-[30px] flex gap-[30px]">
-                <p className="flex items-center gap-2 text-[#1F1F1F]">
-                  <FaClock size={20} /> {currentPlaceData?.days}{" "}
+                <p className="small-text flex items-center gap-2 text-gray-800">
+                  <FaClock className="text-xl" /> {currentPlaceData?.days}{" "}
                 </p>
 
-                <p className="flex items-center gap-2 text-[#1F1F1F]">
-                  <MdGroups size={30} />
+                <p className="small-text flex items-center gap-2 text-gray-800">
+                  <MdGroups className="text-xl" />
                   {currentPlaceData?.people}
                 </p>
               </div>
@@ -56,7 +54,7 @@ function PlacesDetails() {
           </div>
         </div>
         <div className="">
-          <h1 className="text-[20px] font-semibold">Overview</h1>
+          <h1 className="subtitle-text">Overview</h1>
           <div className="w-[60%]">
             <OverView currentPlaceDataData={currentPlaceData} />
           </div>
