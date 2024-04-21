@@ -1,11 +1,9 @@
 "useClient";
 
-import React from "react";
-import { Data } from "../home/CarouselSection";
-import { FaClock } from "react-icons/fa";
+import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
-import { FaFlag } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
+import { Data } from "../home/CarouselSection";
 interface OverViewProps {
   currentPlaceDataData: Data | undefined;
 }
