@@ -19,7 +19,7 @@ function PlaceInfo() {
   };
 
   return (
-    <div className="">
+    <div className="w-[70%]">
       <div className="flex gap-10">
         <button
           className={`text-[18px] font-semibold ${

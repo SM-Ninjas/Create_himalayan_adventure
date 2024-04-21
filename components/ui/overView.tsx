@@ -11,22 +11,25 @@ interface OverViewProps {
 }
 export default function OverView({ currentPlaceDataData }: OverViewProps) {
   return (
-    <div>
-      <div className="grid grid-cols-3 gap-[8px]">
-        <div className="p-2">
-          <div className="mb-2 flex items-center gap-[9px]">
-            <FaClock color="#0075FF" />
-            <h1 className=" text-[14px] font-semibold">
+    <div className="w-[70%]">
+      <h1 className="text-[24px] font-semibold">Overview</h1>
+      <div className="grid grid-cols-3 gap-6 pt-6">
+        <div className="flex gap-2">
+          <div>
+            <FaClock color="#0075FF" size={24} />
+          </div>
+          <div className="">
+            <h1 className=" text-sm font-semibold">
               Duration:{currentPlaceDataData?.days}
             </h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.duration}
+            </p>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.duration}
-          </p>
         </div>
 
-        <div className="p-2">
-          <div className="mb-2 flex items-center gap-[9px]">
+        <div className="flex gap-2">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -39,37 +42,42 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
                 fill="#0075FF"
               />
             </svg>
-            <h1 className=" text-[14px] font-semibold">Start From</h1>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.startingPoint}
-          </p>
+          <div className="">
+            <h1 className=" text-sm font-semibold">Start From</h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.startingPoint}
+            </p>
+          </div>
         </div>
 
-        <div className="p-1">
-          <div className="mb-2 flex items-center gap-[9px]">
+        <div className="flex gap-2">
+          <div>
             <FaFlag color="#0075FF" />
-            <h1 className=" text-[14px] font-semibold">Ends At</h1>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.endingPoint}
-          </p>
+          <div className="">
+            <h1 className=" text-sm font-semibold">Ends At</h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.endingPoint}
+            </p>
+          </div>
         </div>
 
-        <div className="p-2">
-          <div className="mb-2 flex items-center gap-[9px]">
+        <div className="flex gap-2">
+          <div>
             <MdGroups size={30} color="#0075FF" />
-            <h1 className="text-[14px] font-semibold">
-              Group:{currentPlaceDataData?.people} Peoples
-            </h1>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.peoples}
-          </p>
+          <div className="">
+            <h1 className="text-sm font-semibold">
+              Group: {currentPlaceDataData?.people} Peoples
+            </h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.peoples}
+            </p>
+          </div>
         </div>
-
-        <div className="p-2">
-          <div className="mb-2 flex items-center gap-[9px]">
+        <div className="flex gap-2">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
@@ -82,23 +90,26 @@ export default function OverView({ currentPlaceDataData }: OverViewProps) {
                 fill="#0075FF"
               />
             </svg>
-            <h1 className="font-semiboldtext-[14px] text-[14px] font-semibold">
+          </div>
+          <div className="">
+            <h1 className="text-sm font-semibold">
               Activity: {currentPlaceDataData?.category}
             </h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.category}
+            </p>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.category}
-          </p>
         </div>
-
-        <div className="p-2">
-          <div className="mb-2 flex items-center gap-[9px]">
+        <div className="flex gap-2">
+          <div>
             <TiWeatherPartlySunny color="#0075FF" size={26} />
-            <h1 className="text-[14px] font-semibold">Best Season</h1>
           </div>
-          <p className="px-4 text-[12px] text-[#000] opacity-[70%]">
-            {currentPlaceDataData?.overView?.bestSeason}
-          </p>
+          <div className="">
+            <h1 className="text-sm font-semibold">Best Season</h1>
+            <p className="text-sm text-[#000] opacity-[70%]">
+              {currentPlaceDataData?.overView?.bestSeason}
+            </p>
+          </div>
         </div>
       </div>
     </div>
