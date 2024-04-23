@@ -1,19 +1,19 @@
-import { CurrentSlideData, Data } from "@/components/home/CarouselSection";
+import { CurrentSlideData, DataTypes } from "@/components/home/CarouselSection";
 import React from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Progress from "./Progress";
 
 type Props = {
   currentSlideData: CurrentSlideData;
-  sliderData: Data[];
-  data: Data[];
-  transitionData: Data;
-  handleData: React.Dispatch<React.SetStateAction<Data[]>>;
-  handleTransitionData: React.Dispatch<React.SetStateAction<Data>>;
+  sliderData: DataTypes[];
+  data: DataTypes[];
+  transitionData: DataTypes;
+  handleData: React.Dispatch<React.SetStateAction<DataTypes[]>>;
+  handleTransitionData: React.Dispatch<React.SetStateAction<DataTypes>>;
   handleCurrentSlideData: React.Dispatch<
     React.SetStateAction<CurrentSlideData>
   >;
-  initData: Data;
+  initData: DataTypes;
 };
 
 function Controls({
