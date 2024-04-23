@@ -3,15 +3,15 @@
 import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import { TiWeatherPartlySunny } from "react-icons/ti";
-import { Data } from "../home/CarouselSection";
+import { DataTypes } from "../home/CarouselSection";
 interface OverViewProps {
-  currentPlaceDataData: Data | undefined;
+  currentPlaceDataData: DataTypes | undefined;
 }
 export default function OverView({ currentPlaceDataData }: OverViewProps) {
   return (
-    <div className="w-[70%]">
+    <div className="mt-8">
       <h1 className="text-[24px] font-semibold">Overview</h1>
-      <div className="grid grid-cols-3 gap-6 pt-6">
+      <div className="grid grid-cols-3 gap-6 pt-4">
         <div className="flex gap-2">
           <div>
             <FaClock color="#0075FF" size={24} />

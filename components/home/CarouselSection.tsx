@@ -7,7 +7,7 @@ import Slides from "@/components/home/carouselSection/Slides";
 import BackgroundImage from "./carouselSection/BackgroundImage";
 
 export type subImages = string[];
-export interface Data {
+export interface DataTypes {
   id: number;
   category: string; // Optional, based on feedback
   img: string;
@@ -35,14 +35,14 @@ export interface OverView {
 }
 
 export type CurrentSlideData = {
-  data: Data;
+  data: DataTypes;
   index: number;
 };
 
 const CarouselSection = () => {
-  const [data, setData] = React.useState<Data[]>(sliderData.slice(1));
+  const [data, setData] = React.useState<DataTypes[]>(sliderData.slice(1));
 
-  const [transitionData, setTransitionData] = React.useState<Data>(
+  const [transitionData, setTransitionData] = React.useState<DataTypes>(
     sliderData[0]
   );
   const [currentSlideData, setCurrentSlideData] =
