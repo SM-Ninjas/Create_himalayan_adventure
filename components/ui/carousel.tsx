@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { Data as Place, subImages } from "../home/CarouselSection";
+import { DataTypes as Place, subImages } from "../home/CarouselSection";
 
 interface CarouselProps {
   images: subImages;

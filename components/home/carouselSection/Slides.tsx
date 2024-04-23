@@ -1,9 +1,9 @@
-import { Data } from "@/components/home/CarouselSection";
+import { DataTypes } from "@/components/home/CarouselSection";
 import React from "react";
 import SliderCard from "./SliderCard";
 
 type Props = {
-  data: Data[];
+  data: DataTypes[];
 };
 
 function Slides({ data }: Props) {

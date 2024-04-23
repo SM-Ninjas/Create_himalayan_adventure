@@ -1,8 +1,9 @@
-import { CurrentSlideData, Data } from "@/components/home/CarouselSection";
+import { CurrentSlideData } from "@/components/home/CarouselSection";
+import { DataTypes } from "@/components/home/CarouselSection";
 import { motion } from "framer-motion";
 
 type Props = {
-  transitionData: Data;
+  transitionData: DataTypes;
   currentSlideData: CurrentSlideData;
 };
 

@@ -3,20 +3,24 @@ import Carousel from "@/components/ui/carousel";
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
-import { Data } from "@/components/home/CarouselSection";
+import { DataTypes } from "@/components/home/CarouselSection";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
 import InfoCard from "@/components/ui/infoCard";
+import Gallery from "@/components/ui/Gallery";
+import Equipment from "@/components/ui/Equipment";
 
 function PlacesDetails() {
   const router = useRouter();
   const index = router?.query.index;
 
-  const currentPlaceData: Data | undefined = sliderData.find(
+  const currentPlaceData: DataTypes | undefined = sliderData.find(
     (item) => item.id.toString() === index
   );
 
   const subImg: subImages = currentPlaceData?.subImages || [];
+  const equiment = currentPlaceData?.equipment;
+  console.log(equiment,'quiu');
 
   return (
     <div className="container mt-[5rem]">
@@ -35,27 +39,27 @@ function PlacesDetails() {
           </div>
         </div>
       </div>
-      <div className="">
-        <div className="flex gap-8">
-          <img
-            src={currentPlaceData?.img}
-            className="rounded-[14px] w-[70%]"
-            alt=""
-          />
+      <div className="w-full flex gap-12">
+        <div className="w-[67%]">
+          <div className="">
+            <img
+              src={currentPlaceData?.img}
+              className="rounded-[14px]"
+              alt=""
+            />
+          </div>
+          <OverView currentPlaceData={currentPlaceData} />
+          <PlaceInfo />
+        </div>
+
+        <div className=" w-[35%] ">
           <Carousel images={subImg} />
+          <InfoCard currentPlaceDataData={currentPlaceData} />
         </div>
       </div>
-
-      <div className="mt-8 flex">
-        <div>
-          <OverView currentPlaceDataData={currentPlaceData} />
-          <div className="mt-8">
-            <PlaceInfo />
-          </div>
-        </div>
-        <div>
-          <InfoCard />
-        </div>
+      <div>
+        <Gallery />
+        <Equipment currentEquipmentData={equiment} />
       </div>
     </div>
   );
