@@ -7,6 +7,8 @@ import { DataTypes } from "@/components/home/CarouselSection";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
 import InfoCard from "@/components/ui/infoCard";
+import Gallery from "@/components/ui/Gallery";
+import Equipment from "@/components/ui/Equipment";
 
 function PlacesDetails() {
   const router = useRouter();
@@ -17,6 +19,8 @@ function PlacesDetails() {
   );
 
   const subImg: subImages = currentPlaceData?.subImages || [];
+  const equiment = currentPlaceData?.equipment;
+  console.log(equiment,'quiu');
 
   return (
     <div className="container mt-[5rem]">
@@ -35,7 +39,7 @@ function PlacesDetails() {
           </div>
         </div>
       </div>
-      <div className="w-full flex gap-8">
+      <div className="w-full flex gap-12">
         <div className="w-[67%]">
           <div className="">
             <img
@@ -44,14 +48,18 @@ function PlacesDetails() {
               alt=""
             />
           </div>
-          <OverView currentPlaceDataData={currentPlaceData} />
+          <OverView currentPlaceData={currentPlaceData} />
           <PlaceInfo />
         </div>
 
-        <div className=" w-[35%] shrink-2 ">
+        <div className=" w-[35%] ">
           <Carousel images={subImg} />
           <InfoCard currentPlaceDataData={currentPlaceData} />
         </div>
+      </div>
+      <div>
+        <Gallery />
+        <Equipment currentEquipmentData={equiment} />
       </div>
     </div>
   );

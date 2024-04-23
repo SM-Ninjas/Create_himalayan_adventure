@@ -1,15 +1,14 @@
-import { CurrentSlideData, Data } from "@/components/home/CarouselSection";
+import { CurrentSlideData, DataTypes } from "@/components/home/CarouselSection";
 import { motion } from "framer-motion";
 import OtherInfo from "./OtherInfo";
 import Link from "next/link";
 
 type Props = {
-  transitionData: Data;
+  transitionData: DataTypes;
   currentSlideData: CurrentSlideData;
 };
 
 function SlideInfo({ transitionData, currentSlideData }: Props) {
-  console.log(currentSlideData, "current slide data");
   return (
     <>
       <motion.span layout className="mb-2 h-1 w-5 rounded-full bg-white " />

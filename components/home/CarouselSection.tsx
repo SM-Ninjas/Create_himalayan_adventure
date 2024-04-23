@@ -18,6 +18,7 @@ export interface DataTypes {
   people: string;
   subImages?: subImages;
   overView?: OverView;
+  equipment?: string[];
 }
 export interface infoContentTypes {
   about: string;
@@ -141,8 +142,13 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
+      equipment: [
+        "Trekking Backpack",
+        "Walking Stick",
+        "Sunglasses",
+        "Trekking Shoes",
+      ],
     },
-    
   },
   {
     id: 1,
@@ -167,6 +173,12 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
+      equipment: [
+        "Trekking Backpack",
+        "Walking Stick",
+        "Sunglasses",
+        "Trekking Shoes",
+      ],
     },
   },
   {
@@ -180,6 +192,7 @@ export const sliderData = [
     days: "14 days",
     people: "1-12",
     subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    equipment: [],
   },
   {
     id: 3,
@@ -204,6 +217,12 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
+      equipment: [
+        "Trekking Backpack",
+        "Walking Stick",
+        "Sunglasses",
+        "Trekking Shoes",
+      ],
     },
   },
   {
@@ -217,19 +236,7 @@ export const sliderData = [
     days: "14 days",
     people: "1-12",
     subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
-    overView: {
-      duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
-      startingPoint:
-        "Meet up at the designated location in Kathmandu at sharp 6 AM",
-      endingPoint:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      bestSeason: "Spring and Autumn",
-    },
+    equipment: [],
   },
 ];
 
