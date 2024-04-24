@@ -9,6 +9,7 @@ import PlaceInfo from "@/components/ui/placeInfo";
 import InfoCard from "@/components/ui/infoCard";
 import Gallery from "@/components/ui/Gallery";
 import Equipment from "@/components/ui/Equipment";
+import CustomTestimonials from "@/components/customTestomonial";
 
 function PlacesDetails() {
   const router = useRouter();
@@ -17,10 +18,8 @@ function PlacesDetails() {
   const currentPlaceData: DataTypes | undefined = sliderData.find(
     (item) => item.id.toString() === index
   );
-
   const subImg: subImages = currentPlaceData?.subImages || [];
-  const equiment = currentPlaceData?.equipment;
-  console.log(equiment,'quiu');
+  const equiment = currentPlaceData?.equipment
 
   return (
     <div className="container mt-[5rem]">
@@ -60,6 +59,13 @@ function PlacesDetails() {
       <div>
         <Gallery />
         <Equipment currentEquipmentData={equiment} />
+        <div >
+          <h1 className="mt-6 text-lg font-semibold">What our clients have to say about this trip</h1>
+          <div className="flex gap-4">
+            <CustomTestimonials name="Michelle Copper" />
+            <CustomTestimonials name="Jason Brown" />
+          </div>
+        </div>
       </div>
     </div>
   );
