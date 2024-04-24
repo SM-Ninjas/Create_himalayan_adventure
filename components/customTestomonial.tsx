@@ -1,5 +1,5 @@
 import React from 'react'
-import { staggerContainer, zoomIn } from "@/lib/motion";
+// import { staggerContainer, zoomIn } from "@/lib/motion";
 import { motion } from "framer-motion";
 // import { TitleText } from "../ui/text/typingText";
 import Image from "next/image";
@@ -23,7 +23,7 @@ function CustomTestimonials({ name }: TestimonialProps) {
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <defs>
-                        <linearGradient
+                        {/* <linearGradient
                             x1="50%"
                             y1="0%"
                             x2="50%"
@@ -33,7 +33,7 @@ function CustomTestimonials({ name }: TestimonialProps) {
                             <stop stopColor="#FFF" offset="0%" />
                             <stop stopColor="#EAEAEA" offset="77.402%" />
                             <stop stopColor="#DFDFDF" offset="100%" />
-                        </linearGradient>
+                        </linearGradient> */}
                     </defs>
                     <g
                         transform="translate(0 -3)"
@@ -46,18 +46,18 @@ function CustomTestimonials({ name }: TestimonialProps) {
                 </svg>
             </div>
 
-            <motion.div
-                variants={staggerContainer(0, 0)}
+            <div
+                // variants={staggerContainer(0, 0)}
                 className="mx-auto max-w-6xl sm:px-1"
             >
                 <div className="md:py-1">
-                    {/* Section header */}
                     <div className="mx-auto pb-12 md:pb-16">
                         <motion.h1 title="What our clients have to say about this trip" />
                     </div>
 
-                    {/* Testimonials */}
-                    <motion.div variants={zoomIn(1, 0.5)} className="mx-auto mt-4 rounded-[8px]">
+                    <div
+                        // variants={zoomIn(1, 0.5)}
+                        className="mx-auto mt-4 rounded-[8px]">
                         <div className="relative flex items-start rounded bg-white">
                             {/* Testimonial */}
                             <div className="mx-4 px-4 py-2 pt-20 md:mx-0">
@@ -103,9 +103,9 @@ function CustomTestimonials({ name }: TestimonialProps) {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
-            </motion.div>
+            </div>
         </section>
     )
 }
