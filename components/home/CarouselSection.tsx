@@ -18,7 +18,7 @@ export interface DataTypes {
   people: string;
   subImages?: subImages;
   overView?: OverView;
-  equipment?: string[];
+  equipment?: Equipment[];
 }
 export interface infoContentTypes {
   about: string;
@@ -38,6 +38,12 @@ export interface OverView {
 export type CurrentSlideData = {
   data: DataTypes;
   index: number;
+};
+
+export type Equipment = {
+  title?: string;
+  image?: string;
+  description?: string;
 };
 
 const CarouselSection = () => {
@@ -142,13 +148,30 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
-      equipment: [
-        "Trekking Backpack",
-        "Walking Stick",
-        "Sunglasses",
-        "Trekking Shoes",
-      ],
     },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
   },
   {
     id: 1,
@@ -173,13 +196,30 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
-      equipment: [
-        "Trekking Backpack",
-        "Walking Stick",
-        "Sunglasses",
-        "Trekking Shoes",
-      ],
     },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/trekking_backpack.jpg",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walking_stick.jpg",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/sunglasses.jpg",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/trekking_shoes.jpg",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
   },
   {
     id: 2,
@@ -192,6 +232,19 @@ export const sliderData = [
     days: "14 days",
     people: "1-12",
     subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
     equipment: [],
   },
   {
@@ -217,13 +270,30 @@ export const sliderData = [
       category:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       bestSeason: "Spring and Autumn",
-      equipment: [
-        "Trekking Backpack",
-        "Walking Stick",
-        "Sunglasses",
-        "Trekking Shoes",
-      ],
     },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/trekking_backpack.jpg",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walking_stick.jpg",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/sunglasses.jpg",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/trekking_shoes.jpg",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
   },
   {
     id: 4,
@@ -236,6 +306,19 @@ export const sliderData = [
     days: "14 days",
     people: "1-12",
     subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
     equipment: [],
   },
 ];
