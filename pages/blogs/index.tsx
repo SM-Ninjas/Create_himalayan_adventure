@@ -7,36 +7,35 @@ function Blogs() {
 
     return (
         <div className='mt-[76px]'>
-
             <div className='relative'>
                 <Image src={mainImg} className='w-full h-[430px]' alt="mainImage" />
-                <h1 className='absolute left-[24rem] text-2xl bottom-10 text-white '>Blogs</h1>
+                <h1 className='absolute left-[24rem] text-3xl bottom-10 text-white '>Blogs</h1>
             </div>
-            <div className='container'>
+            <div className='container mt-12'>
                 {blogPosts.filter((blog) => (blog.isFeatured)).map((post) => (
-                    <div key={post.id} className='border'>
-                        <h2>{post.title}</h2>
-                        <p>Author: {post.author}</p>
-                        <p>Publish Date: {post.publish_date}</p>
-                        {/* You can render more details of the blog post here */}
-                        <Link href={`/blogs/${post.id}`}>
-                            <h1>Read more</h1>
-                        </Link>
-                    </div>
+                    <Link href={`/blogs/${post.id}`} key={post.id} className='flex p-4 gap-6'>
+                        <img src={post.featured_image} alt="my-img" className='w-[500px] rounded-[14px]' />
+                        <div className=''>
+                            <h2 className='text-2xl text-gray-800 mb-2 font-semibold'>{post.title.split(".")}</h2>
+                            <p className='text-[#0075FF] mb-2'>{post.publish_date}</p>
+                            <p className='text-[#372040] opacity-80'>{post.content}</p>
+
+                        </div>
+                    </Link>
                 ))}
             </div>
 
-            <div className='container'>
+            <div className='mt-8 container grid grid-cols-3'>
                 {blogPosts.filter((blog) => (!blog.isFeatured)).map((post) => (
-                    <div key={post.id}>
-                        <h2>{post.title}</h2>
-                        <p>Author: {post.author}</p>
-                        <p>Publish Date: {post.publish_date}</p>
-                        {/* You can render more details of the blog post here */}
-                        <Link href={`/blogs/${post.id}`}>
-                            <h1>Read more</h1>
-                        </Link>
-                    </div>
+                    <Link href={`/blogs/${post.id}`} key={post.id} className='  p-4 gap-6'>
+                        <img src={post.featured_image} alt="my-img" className='2w-[250px] rounded-[14px]' />
+                        <div className=''>
+                            <h2 className='text-xl text-gray-800 my-4 font-semibold'>{post.title.split(".")}</h2>
+                            <p className='text-[#0075FF] mb-2'>{post.publish_date}</p>
+                            <p className='text-[#372040] text-sm opacity-80 text-justify'>{post.content}</p>
+
+                        </div>
+                    </Link>
                 ))}
             </div>
         </div>
@@ -50,32 +49,34 @@ export default Blogs;
 export const blogPosts = [
     {
         id: 1,
-        title: "The Importance of Data Security",
-        author: "John Doe",
-        publish_date: "2023-10-26",
-        content: "In today's digital age, data security is more important than ever. This blog post will discuss the importance of data security and how to keep your data safe.",
-        categories: ["Tech", "Security"],
-        featured_image: "https://example.com/images/data-security.jpg",
+        title: "Art of Organizing and Factoring the essential gears for your trek/tour.",
+        publish_date: "18 Dec, 2023",
+        content: "Embarking on a trek or tour is an adventure that promises breathtaking landscapes, unforgettable experiences, and a chance to connect with nature. However, to ensure a smooth and enjoyable journey, proper organization and the right gear are crucial. Here's a guide to help you master the art of organizing and factor in the essential gears for your trek or tour. Before packing your bags, research your destination thoroughly. Understand the terrain, weather conditions, and any specific requirements or restrictions. This will help you determine the gear you need and avoid unnecessary items.",
+        featured_image: "/images/packingScience.png",
         isFeatured: true,
     },
     {
         id: 2,
-        title: "Top 5 Tips for Baking the Perfect Cake",
-        author: "Jane Smith",
-        publish_date: "2023-11-15",
-        content: "Baking a cake can be a fun and rewarding experience. But sometimes, cakes can turn out dry, dense, or uneven. In this blog post, we'll share 5 tips to help you bake the perfect cake every time!",
-        categories: ["Food", "Baking"],
-        featured_image: "https://example.com/images/cake-baking.jpg",
+        title: "Unconventional Treks: Exploring Off-The-Beaten-Path Trails",
+        publish_date: "11 May, 2023",
+        content: "When we think of trekking, our minds often wander to well-known routes like the Inca Trail or the Everest Base Camp trek. However, for adventurers seeking something different, there's a whole world of unconventional treks waiting to be explored. These off-the-beaten-path trails offer unique landscapes, cultural experiences, and a chance to escape the crowds. Let's dive into some lesser-known treks that are worth adding to your bucket list",
+        featured_image: "/images/img2.png",
         isFeatured: false,
     },
     {
         id: 3,
-        title: "Must-Have Travel Apps for Your Next Adventure",
-        author: "David Lee",
-        publish_date: "2023-12-01",
-        content: "Planning a trip? There are a number of travel apps that can make your journey smoother and more enjoyable. This blog post will explore some of the must-have travel apps for your next adventure.",
-        categories: ["Travel", "Apps"],
-        featured_image: "https://example.com/images/travel-apps.jpg",
+        title: "Leave No Trace Principles for Eco-Friendly Adventures",
+        publish_date: "27 Dec, 2022",
+        content: "Trekking is a fantastic way to connect with nature, but it's essential to ensure our adventures have minimal impact on the environment. Sustainable trekking practices, guided by the Leave No Trace principles, help preserve the beauty of our natural landscapes for future generations to enjoy. Let's explore how you can minimize your ecological footprint while still enjoying the great outdoors.",
+        featured_image: "/images/img1.png",
+        isFeatured: false,
+    },
+    {
+        id: 4,
+        title: "Tips for Capturing the Beauty of the Trail",
+        publish_date: "23 Feb, 2024",
+        content: "Trekking is a fantastic way to connect with nature, but it's essential to ensure our adventures have minimal impact on the environment. Sustainable trekking practices, guided by the Leave No Trace principles, help preserve the beauty of our natural landscapes for future generations to enjoy. Let's explore how you can minimize your ecological footprint while still enjoying the great outdoors.",
+        featured_image: "/images/girlCamera.png",
         isFeatured: false,
     }
 ];
