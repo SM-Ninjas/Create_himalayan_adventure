@@ -1,6 +1,6 @@
 import React from 'react'
 // import { staggerContainer, zoomIn } from "@/lib/motion";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import { TitleText } from "../ui/text/typingText";
 import Image from "next/image";
 import { FaStar } from 'react-icons/fa';
@@ -52,7 +52,7 @@ function CustomTestimonials({ name }: TestimonialProps) {
             >
                 <div className="md:py-1">
                     <div className="mx-auto pb-12 md:pb-16">
-                        <motion.h1 title="What our clients have to say about this trip" />
+                        <h1 title="What our clients have to say about this trip" />
                     </div>
 
                     <div
