@@ -52,7 +52,7 @@
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
   height: 0;
 }
 ::-webkit-scrollbar-thumb {

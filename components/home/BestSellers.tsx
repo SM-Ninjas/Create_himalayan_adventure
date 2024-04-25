@@ -23,7 +23,7 @@ const BestSellers = () => {
           spaceBetween={30}
           loop={false}
           autoplay={{
-            delay: 2500,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           navigation
@@ -72,7 +72,7 @@ const BestSellers = () => {
           {bestSellers.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col gap-y-2">
-                <div className="relative h-16 w-auto">
+                <div className="relative h-96 w-auto">
                   <Image
                     src={item.url}
                     alt={item.title}
@@ -80,8 +80,12 @@ const BestSellers = () => {
                     objectFit="cover"
                     className="rounded-lg"
                   />
+                  <div className="absolute inset-0 z-10 grid place-content-center">
+                    <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                      {item.title}
+                    </p>
+                  </div>
                 </div>
-                <p className="emphasized-text">{item.title}</p>
               </div>
             </SwiperSlide>
           ))}
@@ -106,7 +110,7 @@ const BestSellers = () => {
           {bestSellers.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col gap-y-2">
-                <div className="relative h-16 w-auto">
+                <div className="relative h-96 w-auto">
                   <Image
                     src={item.url}
                     alt={item.title}
@@ -114,8 +118,12 @@ const BestSellers = () => {
                     objectFit="cover"
                     className="rounded-lg"
                   />
+                  <div className="absolute inset-0 z-10 grid place-content-center">
+                    <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                      {item.title}
+                    </p>
+                  </div>
                 </div>
-                <p className="emphasized-text">{item.title}</p>
               </div>
             </SwiperSlide>
           ))}

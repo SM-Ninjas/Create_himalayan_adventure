@@ -61,7 +61,7 @@ const CarouselSection = () => {
   return (
     <article
       className={`
-        relative flex min-h-screen w-full select-none flex-col gap-y-16 text-white antialiased`}
+        relative hidden min-h-screen w-full select-none flex-col gap-y-16 text-white antialiased lg:flex`}
     >
       <AnimatePresence>
         <BackgroundImage
