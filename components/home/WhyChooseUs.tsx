@@ -85,7 +85,7 @@ const WhyChooseUs = () => {
             className="relative flex h-full flex-col gap-y-4 rounded-lg bg-white px-6 pb-6 pt-16"
             key={index}
           >
-            <div className="absolute -top-8 left-6 rounded-md bg-gray-800 p-6">
+            <div className="absolute -top-8 left-6 rounded-md bg-blue-600 p-6">
               <item.icon className="text-lg text-white" />
             </div>
 

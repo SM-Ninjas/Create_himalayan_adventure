@@ -1,3 +1,4 @@
+import BestSellers from "@/components/home/BestSellers";
 import CarouselSection from "@/components/home/CarouselSection";
 import FAQ from "@/components/home/FAQ";
 import AboutUs from "@/components/home/HowTo";
@@ -24,6 +25,7 @@ export default function Home() {
     <section className="flex flex-col gap-y-24">
       <CarouselSection />
       <WhyChooseUs />
+      <BestSellers />
       <AboutUs />
       <TopChoices scrollToSection={scrollToFAQ} />
       <FAQ faqRef={faqRef} />
