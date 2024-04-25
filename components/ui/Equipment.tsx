@@ -1,5 +1,5 @@
 import React from "react";
-import { DataTypes } from "../home/CarouselSection";
+// import { DataTypes } from "../home/CarouselSection";
 import { Equipment as EquipmentTypes } from "../home/CarouselSection";
 
 interface currentEquipmentData {

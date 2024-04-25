@@ -15,7 +15,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
       <OtherInfo
         data={transitionData ? transitionData : currentSlideData.data}
       />
-      <motion.div layout className="mt-5 flex items-center gap-3 ">
+      <motion.div layout className="mt-5 flex items-center gap-3  ">
         {/* Uncomment this if in future bookmark feature is required */}
 
         {/* <button
