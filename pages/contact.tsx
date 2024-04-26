@@ -2,7 +2,7 @@ import React from 'react'
 import mainImg from "../public//images/upHill.png"
 import Image from 'next/image'
 import Form from '@/components/form'
-import image from "../public/images/googleMap.png"
+import GoogleMaps from '@/components/googleMaps'
 
 function Contact() {
     return (
@@ -11,12 +11,12 @@ function Contact() {
                 <Image src={mainImg} className='w-full h-[430px]' alt="mainImage" />
                 <h1 className='absolute left-[24rem] text-3xl bottom-10 text-white '>Contact Us</h1>
             </div>
-            <div className=' container  flex mt-8'>
+            <div className=' container  flex gap-6 mt-8'>
                 <div className='w-1/2'>
                     <Form />
                 </div>
-                <div className='w-1/2 '>
-                    <Image src={image} alt="" />
+                <div className=' border border-black w-[60%]'>
+                    <GoogleMaps />
                 </div>
             </div>
         </div>

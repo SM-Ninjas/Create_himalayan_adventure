@@ -1,8 +1,9 @@
-
+import { StyledSelect } from "@/styles/style";
 
 import { useState } from "react";
 interface FormData {
     fullName: string;
+    lastName: string;
     emailAddress: string;
     contactNumber: string;
     subject: string;
@@ -10,14 +11,38 @@ interface FormData {
 }
 
 function Form() {
+    const [selectedCountry, setSelectedCountry] = useState<string | null>("Nep");
+
     const [formData, setFormData] = useState<FormData>({
         // types of all the input we need
         fullName: "",
+        lastName: "",
         emailAddress: "",
         contactNumber: "",
         subject: "",
         message: "",
     });
+
+    const countries = [
+        { value: "Nep", },
+        { value: "CA", },
+        { value: "US", },
+        { value: "IN", },
+        { value: "AU", },
+        { value: "FR", },
+        { value: "DE", },
+        { value: "JP", },
+        { value: "BR", },
+        { value: "MX", },
+    ];
+    const options = countries.map((country) => ({
+        value: country.value,
+    }));
+
+
+    const handleChangeCountry = (value: string, _option: any) => {
+        setSelectedCountry(value);
+    };
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -31,10 +56,11 @@ function Form() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        // Handle form submission with formData
+        // form submission with formData
         alert("Your Form data has been saved!");
         setFormData({
             fullName: "",
+            lastName: "",
             emailAddress: "",
             contactNumber: "",
             subject: "",
@@ -44,25 +70,25 @@ function Form() {
     };
 
     return (
-        <div className="w-1/2">
-            <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
-                <div className="">
+        <div className="">
+            <form className=" flex flex-col gap-4" onSubmit={handleSubmit}>
+                <div className="flex gap-2">
                     <input
                         type="text"
                         name="fullName"
                         placeholder="First Name"
-                        className="p-2 bg-[#FFFFFF]"
+                        className="p-4 rounded-[8px] border w-full bg-[#FFFFFF]"
                         required
                         value={formData.fullName}
                         onChange={handleChange}
                     />
                     <input
                         type="text"
-                        className="p-2"
-                        name="last name"
+                        className="p-4 rounded-[8px] border w-full bg-[#FFFFFF]"
+                        name="lastName"
                         placeholder="Last Name"
                         required
-                        value={formData.fullName}
+                        value={formData.lastName}
                         onChange={handleChange}
                     />
                 </div>
@@ -70,35 +96,42 @@ function Form() {
                     type="text"
                     name="emailAddress"
                     placeholder="Email Address"
-                    className="p-2"
+                    className="p-4 rounded-[8px] border"
                     required
                     value={formData.emailAddress}
                     onChange={handleChange}
                 />
-
-                <input
-                    type="number"
-                    name="contactNumber"
-                    placeholder="Contact Number"
-                    className="p-2"
-                    required
-                    value={formData.contactNumber}
-                    onChange={handleChange}
-                />
+                <div className="flex items-center border rounded-[8px] ">
+                    <StyledSelect
+                        variant="borderless"
+                        value={selectedCountry}
+                        onChange={(value: unknown, _option: any) => handleChangeCountry(value as string, _option)}
+                        options={options}
+                    />
+                    <input
+                        type="number"
+                        name="contactNumber"
+                        placeholder="Contact Number"
+                        className="p-4 w-full"
+                        required
+                        value={formData.contactNumber}
+                        onChange={handleChange}
+                    />
+                </div>
                 <textarea
                     name="message"
                     placeholder="Message"
                     required
-                    className="text-[#111] p-3"
+                    className="border rounded-[8px] p-4 w-full bg-[#FFFFFF]"
                     rows={8}
                     value={formData.message}
                     onChange={handleChange}
                 ></textarea>
                 <button
-                    className=" bg-[#0075FF] border py-[.5rem] px-[2rem] rounded-[4px] my-[24px] "
+                    className=" bg-[#0075FF] border py-4 px-2 w-[200px] text-white rounded-[50px] my-4 "
                     type="submit"
                 >
-                    Submit
+                    Send Message
                 </button>
             </form>
         </div>
