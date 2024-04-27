@@ -48,7 +48,9 @@ export default function Form() {
                 placeholder="Message"
                 rows={6}
                 className="border rounded-[8px] p-4 w-full bg-[#FFFFFF]"
-                {...register("message", { required: true, max: 1000, min: 20 })} />
+                {...register("message", { required: true, minLength: 6, maxLength: 500 })} />
+            {errors.message && <span className='text-red-500'>Message should be at least 6 character long</span>}
+
 
             <button
                 className=" bg-[#0075FF] border py-4 px-2 w-[200px] text-white  rounded-[50px] my-2"
