@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Importance of Data Security",
+    "author": "John Doe",
+    "publish_date": "2023-10-26",
+    "content": "In today's digital age, data security is more important than ever. This blog post will discuss the importance of data security and how to keep your data safe.",
+    "categories": ["Tech", "Security"],
+    "featured_image": "https://example.com/images/data-security.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Top 5 Tips for Baking the Perfect Cake",
+    "author": "Jane Smith",
+    "publish_date": "2023-11-15",
+    "content": "Baking a cake can be a fun and rewarding experience. But sometimes, cakes can turn out dry, dense, or uneven. In this blog post, we'll share 5 tips to help you bake the perfect cake every time!",
+    "categories": ["Food", "Baking"],
+    "featured_image": "https://example.com/images/cake-baking.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Must-Have Travel Apps for Your Next Adventure",
+    "author": "David Lee",
+    "publish_date": "2023-12-01",
+    "content": "Planning a trip? There are a number of travel apps that can make your journey smoother and more enjoyable. This blog post will explore some of the must-have travel apps for your next adventure.",
+    "categories": ["Travel", "Apps"],
+    "featured_image": "https://example.com/images/travel-apps.jpg"
+  }
+]

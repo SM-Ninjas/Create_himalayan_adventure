@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { DataTypes } from "@/components/home/CarouselSection";
 import { MdAddBox } from "react-icons/md";
-import { FaCalendar, FaMinusSquare } from "react-icons/fa";
+import { FaMinusSquare } from "react-icons/fa";
 
 interface infoCardType {
   currentPlaceDataData: DataTypes | undefined;
@@ -9,10 +9,7 @@ interface infoCardType {
 
 function InfoCard({ currentPlaceDataData }: infoCardType) {
   const [count, setCount] = useState(1);
-  const dateString = "2024-07-10";
-  const date = new Date(dateString);
-  const formattedDate = date.toLocaleDateString("en-CA");
-
+  const [currentDate, setCurrentDate] = useState(new Date().toISOString().slice(0, 10));
   function handleIncreasePeople() {
     if (count < 10) setCount(count + 1);
   }
@@ -44,9 +41,8 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
         <p className="mb-3 text-lg font-semibold">$1400 USD</p>
         <div className="flex items-center gap-4">
           <h3 className="text-sm opacity-80">Set to Departure on </h3>
-          <h1 className="text-lg font-semibold">{formattedDate}</h1>
-
-          <FaCalendar color="#0075FF" />
+          {/* <input type="date" value={2022} /> */}
+          <input type="date" id="myDate" value={currentDate} onChange={(event) => setCurrentDate(event.target.value)} />
         </div>
         <div className="flex gap-4 my-6">
           <button className="w-[180px] border rounded-[50px] px-2 py-1 text-white bg-[#0075FF]">

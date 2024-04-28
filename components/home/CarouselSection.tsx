@@ -200,22 +200,23 @@ export const sliderData = [
     equipment: [
       {
         title: "Trekking Backpack",
-        image: "/images/trekking_backpack.jpg",
+        image: "/images/bagpack.png",
         description: "A durable backpack designed for trekking adventures.",
       },
       {
         title: "Walking Stick",
-        image: "/images/walking_stick.jpg",
+        image: "/images/walkingStick.png",
         description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "/images/sunglasses.jpg",
+        image: "/images/glasses.png",
         description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
         title: "Trekking Shoes",
-        image: "/images/trekking_shoes.jpg",
+        image: "/images/shoes.png",
+
         description:
           "Waterproof and high-ankle shoes with good grip for trekking.",
       },
