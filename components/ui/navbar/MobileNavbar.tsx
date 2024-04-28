@@ -8,7 +8,7 @@ import { MdTour } from "react-icons/md";
 import { TbTrekking } from "react-icons/tb";
 import { IoLogIn } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
-import { BiSolidContact } from "react-icons/bi";
+// import { BiSolidContact } from "react-icons/bi";
 import { FaBlogger } from "react-icons/fa";
 //import { useRouter } from 'next/router';
 
@@ -47,7 +47,7 @@ function MobileNavbar() {
                         <IoLogIn />
                         login</Link>
                     <Link className='flex items-center text-xl' href="/contact" >
-                        <BiSolidContact />
+                        {/* <BiSolidContact /> */}
                         contact</Link>
                 </div>}
 
