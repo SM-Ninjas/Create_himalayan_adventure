@@ -1,22 +1,30 @@
-import { staggerContainer } from "@/lib/motion";
+import { staggerContainer, textVariant } from "@/lib/motion";
 import { motion } from "framer-motion";
-import { TitleText } from "../ui/text/typingText";
 
-import Image from "next/image";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const BestSellers = () => {
+import Image from "next/image";
+import { blogPosts } from "../../pages/blogs/index";
+
+interface BlogsProps {
+  blogsRef: React.RefObject<HTMLDivElement>;
+}
+
+const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
   return (
-    <motion.div
+    <motion.article
+      ref={blogsRef}
+      variants={staggerContainer(0, 0)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
       className="flex flex-col gap-y-4 px-8"
-      variants={staggerContainer(0, 0)}
     >
       <div className="container">
-        <TitleText title="Our Best Sellers" />
+        <motion.h2 className="title-text" variants={textVariant(0.2)}>
+          Tips, Guides and Blogs
+        </motion.h2>
       </div>
 
       <div className="hidden lg:block">
@@ -34,12 +42,12 @@ const BestSellers = () => {
           modules={[Pagination, Navigation]}
           className="mySwiper hidden w-full lg:block"
         >
-          {bestSellers.map((item, index) => (
+          {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
-                    src={item.url}
+                    src={item.featured_image}
                     alt={item.title}
                     layout="fill"
                     objectFit="cover"
@@ -72,12 +80,12 @@ const BestSellers = () => {
           modules={[Navigation, Pagination]}
           className="mySwiper hidden w-full md:block lg:hidden"
         >
-          {bestSellers.map((item, index) => (
+          {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
-                    src={item.url}
+                    src={item.featured_image}
                     alt={item.title}
                     layout="fill"
                     objectFit="cover"
@@ -110,12 +118,12 @@ const BestSellers = () => {
           modules={[Navigation]}
           className="mySwiper w-full md:hidden"
         >
-          {bestSellers.map((item, index) => (
+          {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
-                    src={item.url}
+                    src={item.featured_image}
                     alt={item.title}
                     layout="fill"
                     objectFit="cover"
@@ -132,36 +140,8 @@ const BestSellers = () => {
           ))}
         </Swiper>
       </div>
-    </motion.div>
+    </motion.article>
   );
 };
 
-export default BestSellers;
-
-const bestSellers = [
-  {
-    id: 1,
-    url: "/locations/annapurna.webp",
-    title: "Annapurna Circuit Trek",
-  },
-  {
-    id: 2,
-    url: "/locations/everest.avif",
-    title: "Everest Base Camp",
-  },
-  {
-    id: 3,
-    url: "/locations/chitwan.jpeg",
-    title: "Chitwan Sightseeing",
-  },
-  {
-    id: 4,
-    url: "/locations/upper-mustang.jpeg",
-    title: "Upper Mustang Trek",
-  },
-  {
-    id: 5,
-    url: "/locations/rara.jpeg",
-    title: "Trek to Rara Lake",
-  },
-];
+export default BlogsComponentHome;
