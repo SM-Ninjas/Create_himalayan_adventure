@@ -135,7 +135,7 @@ export const sliderData = [
     location: "Gandaki",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -183,7 +183,7 @@ export const sliderData = [
     location: "Mahalangpur",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/girl_sub1.png"],
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -232,7 +232,8 @@ export const sliderData = [
     location: "Bagmati",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/girl_sub1.png"],
+
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -258,7 +259,8 @@ export const sliderData = [
     location: "Jumla",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/girl_sub1.png"],
+
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
@@ -306,7 +308,8 @@ export const sliderData = [
     location: "Pokhara",
     days: "14 days",
     people: "1-12",
-    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png"],
+    subImages: ["/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/chitwan_sub1.png", "/locations/girl_sub1.png", "/locations/girl_sub1.png"],
+
     overView: {
       duration:
         "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",

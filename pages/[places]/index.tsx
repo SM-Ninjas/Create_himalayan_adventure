@@ -39,21 +39,13 @@ function PlacesDetails() {
           </div>
         </div>
       </div>
-      <div className="w-full flex gap-12">
+      <Carousel images={subImg} />
+      <div className="flex gap-4">
         <div className="w-[67%]">
-          <div className="">
-            <img
-              src={currentPlaceData?.img}
-              className="rounded-[14px]"
-              alt=""
-            />
-          </div>
           <OverView currentPlaceData={currentPlaceData} />
           <PlaceInfo />
         </div>
-
-        <div className=" w-[35%] ">
-          <Carousel images={subImg} />
+        <div className="w-[33%]">
           <InfoCard currentPlaceDataData={currentPlaceData} />
         </div>
       </div>
