@@ -36,9 +36,23 @@
   background-position: center;
 }
 
+/* animation */
+.infinite-scroll-animation {
+  animation: infiniteScroll 10s infinite;
+}
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
   height: 0;
 }
 ::-webkit-scrollbar-thumb {
