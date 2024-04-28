@@ -11,6 +11,7 @@ import Gallery from "@/components/ui/Gallery";
 import Equipment from "@/components/ui/Equipment";
 import CustomTestimonials from "@/components/customTestomonial";
 
+
 function PlacesDetails() {
   const router = useRouter();
   const index = router?.query.index;

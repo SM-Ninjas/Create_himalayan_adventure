@@ -21,7 +21,7 @@ export default function Form() {
     // console.log(data)
     form.reset();
   };
-  console.log(errors);
+  // console.log(errors, "errors");
 
   return (
     <form
