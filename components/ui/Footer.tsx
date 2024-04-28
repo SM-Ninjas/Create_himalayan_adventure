@@ -1,3 +1,5 @@
+import { HiPhone } from "react-icons/hi2";
+import { IoLocationSharp, IoMail } from "react-icons/io5";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -26,6 +28,36 @@ const Footer = () => {
               >
                 Privacy Policy
               </a>
+            </div>
+            <div className="mt-4 flex cursor-pointer flex-col gap-y-2">
+              <div className="flex items-center gap-x-4">
+                <IoLocationSharp />
+                <a
+                  href="https://maps.app.goo.gl/SWa8dYXRTtAp4bQYA"
+                  target="_blank"
+                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                >
+                  Kathmandu, Nepal
+                </a>
+              </div>
+              <div className="flex items-center gap-x-4">
+                <HiPhone />
+                <a
+                  href="tel:9800000000"
+                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                >
+                  9800000000
+                </a>
+              </div>
+              <div className="flex items-center gap-x-4">
+                <IoMail />
+                <a
+                  href="mailto:example@mail.com"
+                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                >
+                  example@mail.com
+                </a>
+              </div>
             </div>
           </div>
 

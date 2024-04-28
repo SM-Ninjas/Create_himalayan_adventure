@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
       className={cn("container", "relative flex flex-col gap-8")}
     >
       <div
-        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 -translate-x-1/2 transform"
+        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 hidden -translate-x-1/2 transform lg:block"
         aria-hidden="true"
       >
         <svg
@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
           </g>
         </svg>
       </div>
-      <div className="flex items-center justify-between gap-8">
+      <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
         <div className="flex-[0.75]">
           <motion.h2
             variants={fadeIn("up", "tween", 0.2, 1)}
@@ -78,14 +78,14 @@ const WhyChooseUs = () => {
         </div>
       </div>
 
-      <div className="mt-24 grid grid-cols-3 gap-8">
+      <div className="mt-24 flex flex-col justify-between gap-8 lg:flex-row">
         {reasons.map((item, index) => (
           <motion.div
             variants={fadeIn("up", "tween", 0.2 * (index + 1), 1)}
             className="relative flex h-full flex-col gap-y-4 rounded-lg bg-white px-6 pb-6 pt-16"
             key={index}
           >
-            <div className="absolute -top-8 left-6 rounded-md bg-gray-800 p-6">
+            <div className="absolute -top-8 left-6 rounded-md bg-blue-600 p-6">
               <item.icon className="text-lg text-white" />
             </div>
 
