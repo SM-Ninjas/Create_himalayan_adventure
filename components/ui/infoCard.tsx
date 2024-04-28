@@ -1,37 +1,23 @@
 import React, { useState } from "react";
 import { DataTypes } from "@/components/home/CarouselSection";
 import { MdAddBox } from "react-icons/md";
-import { FaCalendar, FaMinusSquare } from "react-icons/fa";
-import Calendar from 'react-calendar';
+import { FaMinusSquare } from "react-icons/fa";
 
 interface infoCardType {
   currentPlaceDataData: DataTypes | undefined;
 }
 
-// type ValuePiece = Date | null;
-
-// type Value = ValuePiece | [ValuePiece, ValuePiece];
-
 function InfoCard({ currentPlaceDataData }: infoCardType) {
   const [count, setCount] = useState(1);
-  const dateString = "2024-07-10";
-  const date = new Date(dateString);
-  const formattedDate = date.toLocaleDateString("en-CA");
-  const [showcalendar, setShowCalendar] = useState(false);
-  // const [value, onChange] = useState<Value>(new Date());
-
+  const [currentDate, setCurrentDate] = useState(new Date().toISOString().slice(0, 10));
   function handleIncreasePeople() {
     if (count < 10) setCount(count + 1);
   }
   function handleDecreasePeople() {
     if (count > 1) setCount(count - 1);
   }
-  function handleCalenderToggle() {
-    setShowCalendar(!showcalendar);
-  }
-
   return (
-    <div className="w-full relative mt-10 border p-2 px-6 rounded-[14px] bg-[#fff]">
+    <div className="w-full mt-10 border p-2 px-6 rounded-[14px] bg-[#fff]">
       <div className="">
         <h1 className="text-gray-800 text-[24px] font-semibold mt-2">
           {currentPlaceDataData?.title}
@@ -55,10 +41,8 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
         <p className="mb-3 text-lg font-semibold">$1400 USD</p>
         <div className="flex items-center gap-4">
           <h3 className="text-sm opacity-80">Set to Departure on </h3>
-          <h1 className="text-lg font-semibold">{formattedDate}</h1>
-          {/* <input type="date" /> */}
-          {/* <Calendar onChange={onChange} value={value} /> */}
-          <FaCalendar onClick={handleCalenderToggle} color="#0075FF" />
+          {/* <input type="date" value={2022} /> */}
+          <input type="date" id="myDate" value={currentDate} onChange={(event) => setCurrentDate(event.target.value)} />
         </div>
         <div className="flex gap-4 my-6">
           <button className="w-[180px] border rounded-[50px] px-2 py-1 text-white bg-[#0075FF]">
@@ -76,10 +60,6 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
           </p>
         </div>
       </div>
-      {showcalendar && <div className="relative bottom-[15rem] border left-[400px]">
-        <Calendar />
-      </div>
-      }
     </div>
   );
 }
