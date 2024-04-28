@@ -6,7 +6,7 @@ const Footer = () => {
   const date = new Date().getFullYear();
   return (
     <footer>
-      <div className="container mx-auto px-4 sm:px-6">
+      <div className="container mx-auto mt-8 px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div className="grid gap-8 border-t border-gray-200 py-8 sm:grid-cols-12 md:py-12">
           {/* 1st block */}

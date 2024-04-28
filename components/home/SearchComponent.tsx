@@ -10,7 +10,7 @@ type Duration = {
 const SearchComponent = () => {
   return (
     <div className="container">
-      <div className="flex w-full flex-col items-center justify-between gap-x-8 rounded-full bg-white px-4 py-4 md:flex-row md:flex-wrap lg:px-8">
+      <div className="flex w-full flex-col items-center justify-between gap-x-8 rounded-full border border-[#14141515] bg-white px-4 py-4 md:flex-row md:flex-wrap lg:px-8">
         <div className="flex items-center gap-x-4">
           <IoSearch className="text-xl text-gray-400" />
           <input
