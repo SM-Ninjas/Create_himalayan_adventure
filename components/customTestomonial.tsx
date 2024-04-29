@@ -1,6 +1,3 @@
-// import { staggerContainer, zoomIn } from "@/lib/motion";
-// import { motion } from "framer-motion";
-// import { TitleText } from "../ui/text/typingText";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 

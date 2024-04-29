@@ -13,22 +13,21 @@ interface CarouselProps {
 function Carousel({ images }: CarouselProps) {
 
   return (
-    <div className="w-full border p-1">
+    <div className="w-full p-1">
       <div className="">
         <div className="flex gap-[30px]">
           <Swiper
-            className=" w-full mySwiper"
+            className="w-full mySwiper overflow-auto"
             slidesPerView={2}
             slidesPerGroup={2}
             spaceBetween={30}
-            loop={true}
+            navigation={true}
+            // loop={true}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
             }}
-            navigation
             pagination={{ clickable: true }}
-            modules={[Navigation, Pagination]}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}

@@ -11,7 +11,7 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
   return (
     <div className="mt-8">
       <h1 className="text-[24px] font-semibold">Overview</h1>
-      <div className="grid grid-cols-3 gap-6 pt-4">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 pt-4">
         <div className="flex gap-2">
           <div>
             <FaClock color="#0075FF" size={24} />

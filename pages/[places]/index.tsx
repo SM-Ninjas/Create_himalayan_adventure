@@ -23,7 +23,7 @@ function PlacesDetails() {
   const equiment = currentPlaceData?.equipment
 
   return (
-    <div className="container mt-[5rem]">
+    <div className="container  mt-[1rem] sm:mt-[5rem]">
       <div key={currentPlaceData?.id}>
         <div className="">
           <h1 className="text-[24px] font-bold">{currentPlaceData?.title}</h1>
@@ -39,14 +39,16 @@ function PlacesDetails() {
           </div>
         </div>
       </div>
+
+
       <Carousel images={subImg} />
-      <div className="flex gap-4">
-        <div className="w-[67%]">
+      <div className="flex gap-6">
+        <div className="w-full  xl:w-[75%]">
           <OverView currentPlaceData={currentPlaceData} />
           <PlaceInfo />
         </div>
-        <div className="w-[33%]">
-          <InfoCard currentPlaceDataData={currentPlaceData} />
+        <div className="w-1/3 sm:hidden xl:block hidden">
+          <InfoCard currentPlaceDataData={currentPlaceData} />``
         </div>
       </div>
       <div>
@@ -54,7 +56,7 @@ function PlacesDetails() {
         <Equipment currentEquipmentData={equiment} />
         <div >
           <h1 className="mt-6 text-lg font-semibold">What our clients have to say about this trip</h1>
-          <div className="flex gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-4">
             <CustomTestimonials name="Michelle Copper" />
             <CustomTestimonials name="Jason Brown" />
           </div>
