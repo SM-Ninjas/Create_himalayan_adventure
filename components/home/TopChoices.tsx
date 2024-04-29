@@ -9,6 +9,7 @@ import { FaMouse } from "react-icons/fa";
 
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { TitleText } from "../ui/text/typingText";
 
 interface CardProps {
   url: string;
@@ -44,9 +45,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
         className="relative flex flex-col items-center gap-y-2"
       >
         <div className="container top-20 mx-auto flex flex-col gap-y-4 px-4 lg:sticky lg:px-0">
-          <motion.h2 className="title-text" variants={textVariant(0.2)}>
-            Explore More
-          </motion.h2>
+          <TitleText title="Explore More" />
           <motion.p variants={textVariant(0.25)} className="regular-text">
             Embark on a journey of discovery with our "Explore More" section,
             where adventure knows no bounds. Dive deeper into the heart of
@@ -123,11 +122,11 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           </Swiper>
         </div>
 
-        <div className="md:hidden">
+        <div className="block w-full px-4 md:hidden">
           <Swiper
             slidesPerView={1}
             slidesPerGroup={1}
-            spaceBetween={30}
+            spaceBetween={10}
             loop={true}
             autoplay={{
               delay: 2500,
