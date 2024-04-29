@@ -22,11 +22,11 @@ const Partners = () => {
         breakpoints={{
           640: {
             slidesPerView: 3,
-            spaceBetween: 20,
+            spaceBetween: 10,
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 20,
           },
           1024: {
             slidesPerView: 5,
@@ -35,11 +35,15 @@ const Partners = () => {
         }}
         navigation
         modules={[Autoplay, Navigation]}
-        className="flex w-full items-center"
+        className="flex items-center"
       >
         {partners.map((partner, index) => (
           <SwiperSlide key={index}>
-            <img className="h-10" src={partner.src} alt={partner.name} />
+            <img
+              className="h-16 lg:h-10"
+              src={partner.src}
+              alt={partner.name}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

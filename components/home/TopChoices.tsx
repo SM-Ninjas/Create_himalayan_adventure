@@ -7,6 +7,9 @@ import { staggerContainer, textVariant } from "@/lib/motion";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaMouse } from "react-icons/fa";
 
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 interface CardProps {
   url: string;
   title: string;
@@ -32,7 +35,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
   }, [scrollYProgress]);
 
   return (
-    <section className="px-sm relative mx-0 lg:px-0">
+    <section className="relative mx-0 lg:px-0">
       <motion.article
         variants={staggerContainer(0, 0)}
         initial="hidden"
@@ -40,7 +43,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
         viewport={{ once: false, amount: 0.1 }}
         className="relative flex flex-col items-center gap-y-2"
       >
-        <div className="container sticky top-20 mx-auto flex flex-col gap-y-4">
+        <div className="container top-20 mx-auto flex flex-col gap-y-4 px-4 lg:sticky lg:px-0">
           <motion.h2 className="title-text" variants={textVariant(0.2)}>
             Explore More
           </motion.h2>
@@ -59,7 +62,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           </motion.p>
         </div>
 
-        <div ref={targetRef} className="relative h-[300vh]">
+        <div ref={targetRef} className="relative hidden h-[300vh] lg:block">
           <div className="sticky top-56 flex h-[75vh] w-screen items-center overflow-hidden">
             <motion.div style={{ x }} className="flex gap-4">
               {exploreMoreItems.map((item) => (
@@ -80,6 +83,82 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           >
             <FaMouse className="h-6 w-6 text-white" />
           </div>
+        </div>
+
+        <div className="hidden md:block lg:hidden">
+          <Swiper
+            slidesPerView={2}
+            slidesPerGroup={2}
+            spaceBetween={30}
+            loop={true}
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            navigation={true}
+            modules={[Navigation, Pagination]}
+            className="mySwiper w-full"
+          >
+            {exploreMoreItems.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="flex flex-col gap-y-2">
+                  <div className="relative h-96 w-auto">
+                    <Image
+                      src={item.url}
+                      alt={item.title}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                    <div className="absolute inset-0 z-10 grid place-content-center">
+                      <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                        {item.title}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        <div className="md:hidden">
+          <Swiper
+            slidesPerView={1}
+            slidesPerGroup={1}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            navigation={true}
+            pagination={{ clickable: true }}
+            modules={[Navigation]}
+            className="mySwiper w-full"
+          >
+            {exploreMoreItems.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="flex flex-col gap-y-2">
+                  <div className="relative h-96 w-auto">
+                    <Image
+                      src={item.url}
+                      alt={item.title}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                    <div className="absolute inset-0 z-10 grid place-content-center">
+                      <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                        {item.title}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </motion.article>
     </section>

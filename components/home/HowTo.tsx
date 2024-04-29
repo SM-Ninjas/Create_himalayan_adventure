@@ -5,7 +5,7 @@ import { TitleText } from "../ui/text/typingText";
 
 const HowTo = () => {
   return (
-    <section className={`page-wrapper relative z-10`}>
+    <section className={`relative z-10 w-screen`}>
       <motion.div
         variants={staggerContainer(0, 0)}
         initial="hidden"
@@ -13,10 +13,10 @@ const HowTo = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`get-started-bg`}
       >
-        <div className="container flex flex-col gap-8 lg:flex-row">
+        <div className="container flex gap-8 overflow-x-hidden lg:overflow-auto">
           <motion.div
             variants={planetVariants("left")}
-            className={`flex aspect-square flex-1 items-center justify-center`}
+            className={`hidden aspect-square flex-1 items-center justify-center lg:flex`}
           >
             {/* <Image
               src="/images/trek.jpg"
@@ -28,7 +28,7 @@ const HowTo = () => {
           </motion.div>
           <motion.div
             variants={fadeIn("left", "tween", 0.2, 1)}
-            className="flex flex-[0.75] flex-col justify-center gap-12 py-24"
+            className="flex flex-1 flex-col justify-center gap-12 py-24 lg:flex-[0.75]"
           >
             <div className="flex flex-col gap-y-2">
               {/* <TypingText title="How To Book" /> */}

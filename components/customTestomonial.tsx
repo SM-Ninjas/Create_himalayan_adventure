@@ -14,7 +14,7 @@ function CustomTestimonials({ name, title, message }: TestimonialProps) {
   return (
     <section className="">
       <div
-        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 -translate-x-1/2 transform"
+        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 hidden -translate-x-1/2 transform lg:block"
         aria-hidden="true"
       >
         <svg
@@ -47,10 +47,7 @@ function CustomTestimonials({ name, title, message }: TestimonialProps) {
         </svg>
       </div>
 
-      <div
-        // variants={staggerContainer(0, 0)}
-        className="mx-auto max-w-6xl sm:px-1"
-      >
+      <div className="mx-auto sm:px-1">
         <div className="md:py-1">
           <div className="mx-auto pb-12 md:pb-16">
             <h1 title="What our clients have to say about this trip" />
