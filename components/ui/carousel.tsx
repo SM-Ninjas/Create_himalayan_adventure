@@ -1,57 +1,50 @@
 import React, { useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { DataTypes as Place, subImages } from "../home/CarouselSection";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import Image from "next/image";
+
+
 
 interface CarouselProps {
   images: subImages;
 }
 
 function Carousel({ images }: CarouselProps) {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const handlePrevClick = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
-  const handleNextClick = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
 
   return (
-    <div className="w-full">
-      <div className={``}>
+    <div className="w-full border p-1">
+      <div className="">
         <div className="flex gap-[30px]">
-          <div className="ml-2 flex gap-4 overflow-hidden">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                className="h-[230px] w-[60%] cursor-pointer rounded-[14px] object-cover"
-                alt=""
-                onClick={() => setCurrentImageIndex(index)}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="ml-4 mt-4 flex gap-4">
-          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
-            <FaChevronLeft
-              size={25}
-              color="#0075FF"
-              onClick={handlePrevClick}
-            />
-          </div>
-          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
-            <FaChevronRight
-              size={25}
-              color="#0075FF"
-              onClick={handleNextClick}
-            />
-          </div>
+          <Swiper
+            className=" w-full mySwiper"
+            slidesPerView={2}
+            slidesPerGroup={2}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            navigation
+            pagination={{ clickable: true }}
+            modules={[Navigation, Pagination]}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+          >
+            <SwiperSlide className="flex gap-4">
+              {images.map((image, index) => (
+                <Image
+                  src={image}
+                  alt={image}
+                  width={500}
+                  height={200}
+                  className="rounded-lg"
+                />
+              ))}
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>
