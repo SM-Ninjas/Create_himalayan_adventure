@@ -2,7 +2,7 @@ import React from 'react'
 
 function Forum() {
     return (
-        <div>
+        <div className='mt-20'>
             <h1>Welcome to forum of create himalayan adventure </h1>
         </div>
     )

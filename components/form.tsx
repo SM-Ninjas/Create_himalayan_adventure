@@ -18,10 +18,8 @@ export default function Form() {
   } = form;
   const onSubmit = (data: formDataTypes) => {
     // Make post request here to the admin panel
-    // console.log(data)
     form.reset();
   };
-  // console.log(errors, "errors");
 
   return (
     <form
@@ -31,20 +29,20 @@ export default function Form() {
       <div className="flex gap-2">
         <input
           type="text"
-          className="small-text w-full rounded-md border bg-[#FFFFFF] px-4 py-3"
+          className="small-text w-full rounded-md border bg-white px-4 py-3"
           placeholder="First name"
           {...register("firstName", { required: true, maxLength: 80 })}
         />
         <input
           type="text"
-          className="small-text w-full rounded-md border bg-[#FFFFFF] px-4 py-3"
+          className="small-text w-full rounded-md border bg-white px-4 py-3"
           placeholder="Last name"
           {...register("lastName", { required: true, maxLength: 100 })}
         />
       </div>
       <input
         type="text"
-        className="small-text w-full rounded-md border bg-[#FFFFFF] px-4 py-3"
+        className="small-text w-full rounded-md border bg-white px-4 py-3"
         placeholder="Email"
         {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
       />
@@ -53,7 +51,7 @@ export default function Form() {
       )}
       <input
         type="tel"
-        className="small-text w-full rounded-md border bg-[#FFFFFF] px-4 py-3"
+        className="small-text w-full rounded-md border bg-white px-4 py-3"
         typeof="number"
         placeholder="Mobile number"
         {...register("mobileNumber", {
@@ -69,7 +67,7 @@ export default function Form() {
       <textarea
         placeholder="Message"
         rows={6}
-        className="small-text w-full rounded-md border bg-[#FFFFFF] px-4 py-3"
+        className="small-text w-full rounded-md border bg-white px-4 py-3"
         {...register("message", {
           required: true,
           minLength: 6,
@@ -84,7 +82,7 @@ export default function Form() {
 
       <Buttons
         text="Send Message"
-        customColor="bg-blue-600 text-gray-50 hover:bg-blue-500"
+        customColor="bg-blue-600 text-gray-50 hover:bg-blue-500 w-24"
       />
     </form>
   );

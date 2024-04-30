@@ -21,7 +21,7 @@ function Equipment({ currentEquipmentData }: currentEquipmentData) {
           with confidence and peace of mind.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-4  mt-4 p-[2px]">
+      <div className="grid grid-cols-1 xl:grid-cols-4  mt-4 p-1">
         {currentEquipmentData?.map((equipment, i) => (
           <div key={i} className="flex m-2  bg-[#FFFF] rounded-[8px] border">
             <img className="w-[110px] h-[125px] rounded-[8px]" src={equipment.image} alt="alts" />

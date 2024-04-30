@@ -4,10 +4,10 @@ import mainImg from "../../public/images/upHill.png";
 
 function Blogs() {
   return (
-    <div className="mt-[76px]">
+    <div className="mt-20">
       <div className="relative">
         <Image src={mainImg} className="h-[430px] w-full" alt="mainImage" />
-        <h1 className="absolute bottom-10 left-[24rem] text-3xl text-white ">
+        <h1 className="absolute bottom-10 right-3/4 title-text text-white ">
           Blogs
         </h1>
       </div>
@@ -28,11 +28,11 @@ function Blogs() {
                 className="w-full xl:w-[500px] rounded-[14px]"
               />
               <div className="">
-                <h2 className="my-2 xl:mb-2 text-2xl font-semibold text-gray-800">
+                <h2 className="my-2 xl:mb-2 subtitle-text font-bold text-gray-800">
                   {post.title.split(".")}
                 </h2>
-                <p className="mb-2 text-[#0075FF]">{post.publish_date}</p>
-                <p className="text-[#372040] opacity-80">{post.content}</p>
+                <p className="mb-2 text-blue-500">{post.publish_date}</p>
+                <p className="small-text opacity-80">{post.content}</p>
               </div>
             </Link>
           ))}
@@ -50,14 +50,14 @@ function Blogs() {
               <img
                 src={post.featured_image}
                 alt="my-img"
-                className="2w-[250px] rounded-[14px]"
+                className="rounded"
               />
               <div className="">
-                <h2 className="my-4 text-xl font-semibold text-gray-800">
+                <h2 className="my-4 subtitle-text font-bold text-gray-800">
                   {post.title.split(".")}
                 </h2>
-                <p className="mb-2 text-[#0075FF]">{post.publish_date}</p>
-                <p className="text-justify text-sm text-[#372040] opacity-80">
+                <p className="mb-2 text-blue-500">{post.publish_date}</p>
+                <p className="text-justify text-sm text-gray-600 opacity-80">
                   {post.content}
                 </p>
               </div>

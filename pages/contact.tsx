@@ -8,15 +8,15 @@ function Contact() {
     <div className="">
       <div className="relative">
         <Image src={mainImg} className="h-[430px] w-full" alt="mainImage" />
-        <h1 className="absolute bottom-10 left-[24rem] text-3xl text-white ">
+        <h1 className="absolute bottom-10  left-1/4 title-text text-white ">
           Contact Us
         </h1>
       </div>
-          <div className="container mt-8 md:flex  gap-8 ">
-        <div className="w-1/2">
+          <div className="container gap-12 flex justify-center mt-8 md:flex ">
+        <div className="">
           <Form />
         </div>
-        <div className="w-1/2 rounded-md">
+        <div className="rounded-md">
           <GoogleMaps />
         </div>
       </div>

@@ -86,17 +86,17 @@ function CustomTestimonials({ name, title, message }: TestimonialProps) {
                       <FaStar color="#33e0a1" />
                     </div>
                     <div className="flex gap-2">
-                      <p className="text-sm font-semibold text-gray-800">
+                      <p className="small-text font-semibold text-gray-800">
                         {name}
                       </p>
-                      <p className="text-sm text-gray-600">Sept 23, 2020</p>
+                      <p className="small-text text-gray-600">Sept 23, 2020</p>
                     </div>
                   </div>
-                  <h1 className="mt-5 text-sm font-semibold text-gray-800">
+                  <h1 className="mt-5 small-text font-semibold text-gray-800">
                     {title ??
                       "Outstanding Trekking Journey In Annapurna Region"}
                   </h1>
-                  <p className="mb-4 mt-1 text-sm text-gray-600">
+                  <p className="mb-4 mt-1 small-text text-gray-600">
                     {message ??
                       "Elevate your trekking experience with our carefully curated selection of recommended gear. From essential equipment to specialized tools, we've handpicked items to ensure you're fully prepared for the challenges and wonders of the trail. Gear up for your next adventure with these recommended essentials, and embark on your trekking journey with confidence and peace of mind"}
                   </p>
