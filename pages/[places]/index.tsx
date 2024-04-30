@@ -48,7 +48,7 @@ function PlacesDetails() {
           <PlaceInfo />
         </div>
         <div className="w-1/3 sm:hidden xl:block hidden">
-          <InfoCard currentPlaceDataData={currentPlaceData} />``
+          <InfoCard currentPlaceDataData={currentPlaceData} />
         </div>
       </div>
       <div>
