@@ -12,7 +12,7 @@ const BestSellers = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
-      className="flex flex-col gap-y-4 px-8"
+      className="flex flex-col gap-y-4 px-4"
       variants={staggerContainer(0, 0)}
     >
       <div className="container">

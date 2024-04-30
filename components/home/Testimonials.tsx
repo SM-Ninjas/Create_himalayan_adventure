@@ -8,7 +8,7 @@ const Testimonials = () => {
     <section className="container relative">
       {/* Illustration behind content */}
       <div
-        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 -translate-x-1/2 transform"
+        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 hidden -translate-x-1/2 transform lg:block"
         aria-hidden="true"
       >
         <svg
@@ -43,7 +43,7 @@ const Testimonials = () => {
 
       <motion.div
         variants={staggerContainer(0, 0)}
-        className="mx-auto max-w-6xl px-4 sm:px-6"
+        className="mx-auto px-4 sm:px-6"
       >
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -65,7 +65,7 @@ const Testimonials = () => {
           <motion.div variants={zoomIn(1, 0.5)} className="mx-auto mt-4">
             <div className="relative flex items-start rounded bg-white">
               {/* Testimonial */}
-              <div className="mx-4 px-12 py-8 pt-20 md:mx-0">
+              <div className="mx-4 px-4 py-8 pt-20 md:mx-0 lg:px-12">
                 <div className="absolute top-0 -mt-8 transform">
                   <svg
                     className="absolute right-0 top-0 -mr-8 -mt-3 h-16 w-16 fill-current text-blue-600"
@@ -97,10 +97,10 @@ const Testimonials = () => {
                   horizons and every moment is infused with the spirit of
                   adventure. “
                 </blockquote>
-                <cite className="mb-1 block text-lg font-bold not-italic">
+                <cite className="emphasized-text mb-1 block font-bold not-italic">
                   Founder Name
                 </cite>
-                <div className="text-gray-600">
+                <div className="regular-text text-gray-600">
                   <span>CEO & Co-Founder</span>{" "}
                   <a className="text-blue-600 hover:underline" href="#0">
                     @Reach Founder

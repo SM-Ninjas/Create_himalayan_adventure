@@ -19,7 +19,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
-      className="flex flex-col gap-y-4 px-8"
+      className="flex flex-col gap-y-4 px-4"
     >
       <div className="container">
         <motion.h2 className="title-text" variants={textVariant(0.2)}>
