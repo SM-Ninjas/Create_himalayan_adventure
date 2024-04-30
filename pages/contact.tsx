@@ -12,7 +12,7 @@ function Contact() {
           Contact Us
         </h1>
       </div>
-      <div className="container mt-8 flex gap-8 ">
+          <div className="container mt-8 md:flex  gap-8 ">
         <div className="w-1/2">
           <Form />
         </div>
