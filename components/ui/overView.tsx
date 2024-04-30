@@ -1,26 +1,29 @@
 "useClient";
 
+import { staggerContainer } from "@/lib/motion";
+import { motion } from "framer-motion";
 import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { DataTypes } from "../home/CarouselSection";
+import { TitleText } from "./text/typingText";
 interface OverViewProps {
   currentPlaceData: DataTypes | undefined;
 }
 export default function OverView({ currentPlaceData }: OverViewProps) {
   return (
-    <div className="mt-8">
-      <h1 className="text-[24px] font-semibold">Overview</h1>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 pt-4">
+    <motion.div variants={staggerContainer(0, 0)} className="mt-8">
+      <TitleText title="Overview" textStyles="subtitle-text" />
+      <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3 sm:gap-6">
         <div className="flex gap-2">
           <div>
-            <FaClock color="#0075FF" size={24} />
+            <FaClock className="text-blue-500" size={18} />
           </div>
-          <div className="">
-            <h1 className=" text-sm font-semibold">
-              Duration:{currentPlaceData?.days}
-            </h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+          <div className="flex flex-col gap-y-2">
+            <p className="small-text font-semibold text-gray-900">
+              Duration: {currentPlaceData?.days}
+            </p>
+            <p className="small-text text-gray-600">
               {currentPlaceData?.overView?.duration}
             </p>
           </div>
@@ -42,7 +45,7 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             </svg>
           </div>
           <div className="">
-            <h1 className=" text-sm font-semibold">Start From</h1>
+            <h1 className="text-sm font-semibold ">Start From</h1>
             <p className="text-sm text-[#000] opacity-[70%]">
               {currentPlaceData?.overView?.startingPoint}
             </p>
@@ -54,7 +57,7 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <FaFlag color="#0075FF" />
           </div>
           <div className="">
-            <h1 className=" text-sm font-semibold">Ends At</h1>
+            <h1 className="text-sm font-semibold ">Ends At</h1>
             <p className="text-sm text-[#000] opacity-[70%]">
               {currentPlaceData?.overView?.endingPoint}
             </p>
@@ -110,6 +113,6 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

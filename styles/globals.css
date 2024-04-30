@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  @apply mx-auto w-full px-4 md:w-3/4 xl:w-3/5 xl:p-0;
+  @apply mx-auto w-full px-4 md:w-3/4 xl:w-2/3 xl:p-0;
 }
 .small-text {
   @apply text-sm;
