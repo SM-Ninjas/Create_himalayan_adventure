@@ -26,7 +26,7 @@ export const TitleText = ({ title, textStyles }: TextProps) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`${textStyles} text-[36px] font-black`}
+    className={`${textStyles ?? "title-text font-black"}`}
   >
     {title}
   </motion.h3>

@@ -13,22 +13,22 @@ function Blogs() {
       </div>
 
       {/* Featured Blogs */}
-      <div className="container mt-12">
+      <div className="container  mt-12">
         {blogPosts
           .filter((blog) => blog.isFeatured)
           .map((post) => (
             <Link
               href={`/blogs/${post.id}`}
               key={post.id}
-              className="flex gap-6 p-4"
+              className="block xl:flex gap-6 p-4"
             >
               <img
                 src={post.featured_image}
                 alt="my-img"
-                className="w-[500px] rounded-[14px]"
+                className="w-full xl:w-[500px] rounded-[14px]"
               />
               <div className="">
-                <h2 className="mb-2 text-2xl font-semibold text-gray-800">
+                <h2 className="my-2 xl:mb-2 text-2xl font-semibold text-gray-800">
                   {post.title.split(".")}
                 </h2>
                 <p className="mb-2 text-[#0075FF]">{post.publish_date}</p>
@@ -38,14 +38,14 @@ function Blogs() {
           ))}
       </div>
       {/* Normal blogs */}
-      <div className="container mt-8 grid grid-cols-3">
+      <div className="container mt-8 grid grid-cols-1  xl:grid-cols-3">
         {blogPosts
           .filter((blog) => !blog.isFeatured)
           .map((post) => (
             <Link
               href={`/blogs/${post.id}`}
               key={post.id}
-              className="gap-6 p-4 "
+              className="p-4 "
             >
               <img
                 src={post.featured_image}

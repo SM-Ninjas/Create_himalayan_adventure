@@ -4,7 +4,9 @@ import { Noto_Sans } from "next/font/google";
 
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/navbar/Header";
+import MobileNavbar from "@/components/ui/navbar/MobileNavbar";
 import Head from "next/head";
+import "swiper/css";
 
 const inter = Noto_Sans({
   subsets: ["latin"],
@@ -27,6 +29,7 @@ export default function App({ Component, pageProps }: AppProps) {
           relative mx-0 min-h-screen w-screen bg-gray-50 px-0`}
       >
         <Header />
+        <MobileNavbar />
         <Component {...pageProps} />
         <Footer />
       </main>

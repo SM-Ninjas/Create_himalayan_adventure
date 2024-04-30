@@ -1,58 +1,110 @@
-import React, { useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { DataTypes as Place, subImages } from "../home/CarouselSection";
+import Image from "next/image";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { subImages } from "../home/CarouselSection";
 
 interface CarouselProps {
   images: subImages;
 }
 
 function Carousel({ images }: CarouselProps) {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const handlePrevClick = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
-  const handleNextClick = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
   return (
-    <div className="w-full">
-      <div className={``}>
-        <div className="flex gap-[30px]">
-          <div className="ml-2 flex gap-4 overflow-hidden">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                className="h-[230px] w-[60%] cursor-pointer rounded-[14px] object-cover"
-                alt=""
-                onClick={() => setCurrentImageIndex(index)}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="ml-4 mt-4 flex gap-4">
-          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
-            <FaChevronLeft
-              size={25}
-              color="#0075FF"
-              onClick={handlePrevClick}
-            />
-          </div>
-          <div className="cursor-pointer rounded-[6px] border border-[#0075FF] p-2">
-            <FaChevronRight
-              size={25}
-              color="#0075FF"
-              onClick={handleNextClick}
-            />
-          </div>
-        </div>
+    <div className="">
+      <div className="hidden lg:block">
+        <Swiper
+          slidesPerView={3}
+          slidesPerGroup={3}
+          spaceBetween={30}
+          loop={false}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          navigation
+          pagination={{ clickable: true }}
+          modules={[Pagination, Navigation]}
+          className="mySwiper flex w-full"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex">
+                <div className="relative aspect-video flex-1 justify-center rounded-lg">
+                  <Image
+                    src={image}
+                    alt={image}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+      <div className="hidden md:block lg:hidden">
+        <Swiper
+          slidesPerView={2}
+          slidesPerGroup={2}
+          spaceBetween={30}
+          loop={false}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          navigation
+          pagination={{ clickable: true }}
+          modules={[Pagination, Navigation]}
+          className="mySwiper flex w-full"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex">
+                <div className="relative aspect-video flex-1 justify-center rounded-lg">
+                  <Image
+                    src={image}
+                    alt={image}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+      <div className="px-4 md:hidden">
+        <Swiper
+          slidesPerView={1}
+          slidesPerGroup={1}
+          spaceBetween={10}
+          loop={false}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          navigation
+          pagination={{ clickable: true }}
+          modules={[Pagination, Navigation]}
+          className="mySwiper flex w-full"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex">
+                <div className="relative aspect-video flex-1 justify-center rounded-lg">
+                  <Image
+                    src={image}
+                    alt={image}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

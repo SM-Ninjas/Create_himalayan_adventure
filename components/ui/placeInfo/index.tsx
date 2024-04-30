@@ -20,7 +20,7 @@ function PlaceInfo() {
 
   return (
     <div className="mt-16">
-      <div className="flex gap-10">
+      <div className="flex  gap-4 sm:gap-10">
         <button
           className={`text-[18px] font-semibold ${
             visibleContent === "about" ? "text-blue-500" : ""

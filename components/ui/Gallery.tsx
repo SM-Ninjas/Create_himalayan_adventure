@@ -13,13 +13,15 @@ function Gallery() {
     <div className="mt-12">
       <div>
         <h1 className="text-lg font-semibold mb-6">Gallery</h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {images.map((img, i) => (
             <div key={i}>
               <Image
                 src={img}
                 alt={`myimg-${i}`}
-                className="w-[430px] h-[260px] rounded-[8px]"
+                className="w-[400px] h-[300px] rounded-[8px]"
+                // layout="fill"
+                objectFit="cover"
                 loading="lazy"
               />
             </div>
