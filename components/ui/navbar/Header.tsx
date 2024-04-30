@@ -9,7 +9,7 @@ import { ContentWrapper } from "./ContentWrapper";
 import { MenuItems } from "./NavMenuItems";
 
 function Header() {
-  const [active, setActive] = React.useState(0);
+  // const [active, setActive] = React.useState(0);
   const [top, setTop] = useState<boolean>(true);
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
 
@@ -30,7 +30,7 @@ function Header() {
   return (
     <nav
       className={cn(
-        "fixed top-0 z-50 flex w-full gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-90 backdrop-blur-xl md:px-10 hidden md:block",
+        "fixed top-0 z-50 flex w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-90 backdrop-blur-xl md:px-10",
         top && "border-b border-gray-800 bg-black/60 backdrop-blur-sm"
       )}
     >
