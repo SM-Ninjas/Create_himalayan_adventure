@@ -3,7 +3,6 @@ import GroupComponent from '../ui/group'
 import group1 from "../../public/images/group1.png"
 import group2 from "../../public/images/group2.png"
 import group3 from "../../public/images/group3.png"
-import { Swiper, SwiperSlide } from "swiper/react";
 
 
 function DesktopGroups() {
