@@ -3,7 +3,7 @@ import { NavigationMenuLink } from "@radix-ui/react-navigation-menu";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { IoMdPerson, IoMdSearch } from "react-icons/io";
+import { IoMdPerson } from "react-icons/io";
 import Logo from "../Logo";
 import { ContentWrapper } from "./ContentWrapper";
 import { MenuItems } from "./NavMenuItems";
@@ -30,7 +30,7 @@ function Header() {
   return (
     <nav
       className={cn(
-        "fixed top-0 z-50 flex w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-90 backdrop-blur-xl md:px-10",
+        "fixed top-0 z-50 hidden w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-90 backdrop-blur-xl md:px-10 lg:flex",
         top && "border-b border-gray-800 bg-black/60 backdrop-blur-sm"
       )}
     >
@@ -66,7 +66,6 @@ function Header() {
           </div>
         </div>
         <div className="flex items-center gap-x-8">
-          <IoMdSearch className={`text-lg`} />
           <IoMdPerson className={`text-lg`} />
         </div>
       </ContentWrapper>
