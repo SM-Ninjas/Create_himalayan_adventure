@@ -3,7 +3,7 @@ import { NavigationMenuLink } from "@radix-ui/react-navigation-menu";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { IoMdPerson, IoMdSearch } from "react-icons/io";
+import { IoMdPerson } from "react-icons/io";
 import Logo from "../Logo";
 import { ContentWrapper } from "./ContentWrapper";
 import { MenuItems } from "./NavMenuItems";
@@ -66,7 +66,6 @@ function Header() {
           </div>
         </div>
         <div className="flex items-center gap-x-8">
-          <IoMdSearch className={`text-lg`} />
           <IoMdPerson className={`text-lg`} />
         </div>
       </ContentWrapper>
