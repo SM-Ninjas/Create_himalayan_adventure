@@ -21,7 +21,7 @@ function Question() {
             <div className='flex gap-4'>
                 <Image width={500} height={500} className='w-16 h-16 rounded-lg' src={hands} alt={'myimage'} />
                 <div>
-                    <h1 className='regular-text font-semibold text-gray-800'>Gabriel HHofstader</h1>
+                    <h1 className='regular-text font-semibold text-gray-800'>Gabriel Hofstader</h1>
                     <p className='regular-text text-gray-500'>22nd April, 2024</p>
                 </div>
             </div>
