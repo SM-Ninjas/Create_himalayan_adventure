@@ -20,7 +20,7 @@ function GroupComponent({ title, image, members }: groupTypes) {
             </div>
             <Buttons
                 text="Join"
-                customColor="bg-white text-gray-600 hover:bg-blue-500 w-24 border"
+                customColor="bg-white text-gray-600 hover:bg-blue-500 hover:text-white w-24 border"
             />
         </div>
     )

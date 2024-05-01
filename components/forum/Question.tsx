@@ -15,7 +15,7 @@ function Question() {
                 />
                 <Buttons
                     text="Group"
-                    customColor="bg-white text-gray-800 hover:bg-blue-500 w-24 border"
+                    customColor="bg-white text-gray-800 hover:bg-blue-500 w-24 border hover:text"
                 />
             </div>
             <div className='flex gap-4'>

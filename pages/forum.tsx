@@ -31,16 +31,16 @@ function Forum() {
                     />
                 </div>
             </div>
-            <div className="container ">
-                <div className='mt-6 block sm:flex gap-12'>
-                    <div className='w-3/5'>
+            <div className="container">
+                <div className='mt-6  lg:flex lg:flex-cols-reverse gap-12'>
+                    <div className='w-full md:w-3/5 '>
                         <Question />
                     </div>
-                    <div className='w-2/5'>
+                    <div className='w-full md:w-2/5 hidden md:block'>
                         <Groups />
                     </div>
                 </div>
-                <div className='w-3/5'>
+                <div className='w-full md:w-3/5 mt-8 md:mt-0'>
                     <Reply image={peson1.src} replyText={reply1} name='Stuart Robbins' />
                     <div className='ml-20 mt-2'>
                         <h1 onClick={handleFunctionOpen} className='regular-text font-semibold my-4 cursor-pointer'>Reply</h1>
