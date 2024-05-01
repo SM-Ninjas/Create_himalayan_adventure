@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Buttons from '../ui/Buttons'
 import hands from "../../public/images/hands.png"
-import { IoEyeSharp } from "react-icons/io5";
-import { FaMessage } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
+import { RiMessageFill } from "react-icons/ri";
 
 function Question() {
     return (
@@ -21,7 +21,7 @@ function Question() {
             <div className='flex gap-4'>
                 <Image width={500} height={500} className='w-16 h-16 rounded-lg' src={hands} alt={'myimage'} />
                 <div>
-                    <h1 className='regular-text font-semibold text-gray-800'>Gabriel HHofstader</h1>
+                    <h1 className='regular-text font-semibold text-gray-800'>Gabriel Hofstader</h1>
                     <p className='regular-text text-gray-500'>22nd April, 2024</p>
                 </div>
             </div>
@@ -38,8 +38,8 @@ function Question() {
             </div>
             <div >
                 <div className='flex gap-6 mt-4'>
-                    <div className='flex items-center gap-2 text-gray-500'><IoEyeSharp size={20} /> 100K</div>
-                    <div className='flex items-center gap-2 text-blue-500'><FaMessage size={20} /> 74</div>
+                    <div className='flex items-center gap-2 text-gray-500'><FaEye size={20} /> 100K</div>
+                    <div className='flex items-center gap-2 text-blue-500'><RiMessageFill size={20} /> 74</div>
                 </div>
                 <div className='flex gap-2 mt-4'>
                     <Buttons
