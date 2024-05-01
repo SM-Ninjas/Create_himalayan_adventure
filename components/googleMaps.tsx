@@ -2,7 +2,7 @@ import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import React from "react";
 
 const containerStyle = {
-  width: "580px",
+  width: "480px",
   height: "400px",
   borderRadius: "8px",
 };
@@ -33,7 +33,7 @@ function GoogleMaps() {
   }, []);
 
   return isLoaded ? (
-    <div className="w-[100%]">
+    <div className=""> 
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
@@ -41,7 +41,6 @@ function GoogleMaps() {
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
-        {/* Child components, such as markers, info windows, etc. */}
         <></>
       </GoogleMap>
     </div>
