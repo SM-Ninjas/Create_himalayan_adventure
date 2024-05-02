@@ -10,10 +10,10 @@ interface groupTypes {
 
 function GroupComponent({ title, image, members }: groupTypes) {
     return (
-        <div className='flex flex-col items-center md:gap-4 md:flex md:justify-between md:flex-row '>
-            <div className='flex flex-col items-center md:flex md:flex-row gap-4'>
-                <Image width={500} height={500} className='w-24 md:w-18 h-20 md:h-16 rounded-lg' src={image} alt={'myimage'} />
-                <div className='text-center md:text-left'>
+        <div className='flex flex-col items-center lg:gap-4 lg:flex lg:justify-between lg:flex-row '>
+            <div className='flex flex-col justify-center items-center lg:flex lg:flex-row gap-4'>
+                <Image width={500} height={500} className='w-24 lg:w-18 h-20 lg:h-16 rounded-lg' src={image} alt={'myimage'} />
+                <div className='text-center lg:text-left'>
                     <h1 className='regular-text font-semibold text-gray-800'>{title}</h1>
                     <p className='regular-text text-gray-500'>{members}Members</p>
                 </div>

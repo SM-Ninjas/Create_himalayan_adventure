@@ -4,7 +4,7 @@ import mainImg from "../../public/images/upHill.png";
 
 function Blogs() {
   return (
-    <div className="mt-20">
+    <div className="mt-[76px]">
       <div className="relative">
         <Image src={mainImg} className="h-[430px] w-full" alt="mainImage" />
         <h1 className="absolute bottom-10 right-3/4 title-text text-white ">

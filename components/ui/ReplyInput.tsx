@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { FaMessage } from "react-icons/fa6";
+import { RiMessage2Fill } from "react-icons/ri";
 
 interface replyInputTypes {
     image: string
@@ -18,7 +18,7 @@ function ReplyInput(image: replyInputTypes) {
                 />
             </form>
             <div className='border p-4 bg-blue-500 rounded-lg'>
-                <FaMessage size={28} color='#ffffff' />
+                <RiMessage2Fill size={28} color='#ffffff' />
             </div>
 
         </div>

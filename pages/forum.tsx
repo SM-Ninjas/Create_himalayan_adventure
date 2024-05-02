@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Image from "next/image";
 
 import Buttons from '@/components/ui/Buttons';
-import Groups from '@/components/forum/Groups';
+import Groups from '@/components/forum/MobileGroups';
 import Question from '@/components/forum/Question';
 import Reply from '@/components/forum/Reply';
 
@@ -10,6 +10,8 @@ import mainImg from "../public/images/forumimg.jpg";
 import peson1 from "../public/images/person1.png"
 import peson2 from "../public/images/hands.png"
 import ReplyInput from '@/components/ui/ReplyInput';
+import DesktopGroups from '@/components/forum/desktopGroups';
+import MobileGroups from '@/components/forum/MobileGroups';
 
 
 function Forum() {
@@ -18,10 +20,10 @@ function Forum() {
         setReplyOpen(!replyOpen)
     }
     return (
-        <div className='mt-20'>
+        <div className='mt-[76px]'>
             <div className="relative">
                 <Image width={800} src={mainImg} className="w-full h-96 object-cover" alt="mainImage" />
-                <div className='absolute bottom-16 right-2/5 ml-4  sm:right-3/4'>
+                <div className='absolute bottom-10 right-3/4  sm:right-3/4'>
                     <h1 className="title-text text-white">
                         Community Forum
                     </h1>
@@ -31,16 +33,16 @@ function Forum() {
                     />
                 </div>
             </div>
-            <div className='md:hidden'>
-                <Groups />
+            <div className='lg:hidden'>
+                <MobileGroups />
             </div>
             <div className="container">
                 <div className='mt-2 flex gap-12'>
                     <div className='w-full md:w-3/5 '>
                         <Question />
                     </div>
-                    <div className='w-full md:w-2/5 hidden md:block'>
-                        <Groups />
+                    <div className='w-full md:w-2/5 hidden lg:block'>
+                        <DesktopGroups />
                     </div>
                 </div>
                 <div className='w-full md:w-3/5 mt-8 md:mt-0'>
