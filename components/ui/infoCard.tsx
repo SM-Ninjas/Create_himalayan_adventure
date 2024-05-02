@@ -20,7 +20,7 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
     if (count > 1) setCount(count - 1);
   }
   return (
-    <div className="mt-8 w-full rounded-[14px] border bg-[#fff] p-2 px-6">
+    <div className="mt-8 w-full rounded-xl border bg-[#fff] p-2 px-6">
       <div className="">
         <h1 className="subtitle-text mt-2 text-gray-800">
           {currentPlaceDataData?.title}

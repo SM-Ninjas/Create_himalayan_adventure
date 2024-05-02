@@ -11,8 +11,9 @@ const Footer = () => {
         <div className="grid gap-8 border-t border-gray-200 py-8 sm:grid-cols-12 md:py-12">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
-            <div className="mb-2">
+            <div className="mb-2 flex gap-2">
               <Logo />
+              <p className="small-text">Create Himalayan <br /> Adventure</p>
             </div>
             <div className="text-sm text-gray-600">
               <a

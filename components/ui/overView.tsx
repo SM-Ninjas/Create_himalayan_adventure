@@ -12,18 +12,18 @@ interface OverViewProps {
 }
 export default function OverView({ currentPlaceData }: OverViewProps) {
   return (
-    <motion.div variants={staggerContainer(0, 0)} className="mt-8">
+    <motion.div variants={staggerContainer(0, 0)} className="mt-8 bg-[#ECF6FF] p-2 rounded">
       <TitleText title="Overview" textStyles="subtitle-text" />
       <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3 sm:gap-6">
         <div className="flex gap-2">
           <div>
             <FaClock className="text-blue-500" size={18} />
           </div>
-          <div className="flex flex-col gap-y-2">
-            <p className="small-text font-semibold text-gray-900">
+          <div className="flex flex-col">
+            <p className="small-text text-gray-900 font-semibold mb-2 ">
               Duration: {currentPlaceData?.days}
             </p>
-            <p className="small-text text-gray-600">
+            <p className="small-text text-gray-600 opacity-70">
               {currentPlaceData?.overView?.duration}
             </p>
           </div>
@@ -45,8 +45,8 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             </svg>
           </div>
           <div className="">
-            <h1 className="text-sm font-semibold ">Start From</h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+            <h1 className="small-text text-gray-900 font-semibold mb-2 ">Start From</h1>
+            <p className="small-text  text-gray-600 opacity-70">
               {currentPlaceData?.overView?.startingPoint}
             </p>
           </div>
@@ -57,8 +57,8 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <FaFlag color="#0075FF" />
           </div>
           <div className="">
-            <h1 className="text-sm font-semibold ">Ends At</h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+            <h1 className="small-text text-gray-900 font-semibold mb-2 ">Ends At</h1>
+            <p className="small-text  text-gray-600 opacity-70">
               {currentPlaceData?.overView?.endingPoint}
             </p>
           </div>
@@ -69,10 +69,10 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <MdGroups size={30} color="#0075FF" />
           </div>
           <div className="">
-            <h1 className="text-sm font-semibold">
+            <h1 className="small-text text-gray-900 font-semibold mb-2">
               Group: {currentPlaceData?.people} Peoples
             </h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+            <p className="small-text  text-gray-600 opacity-70">
               {currentPlaceData?.overView?.peoples}
             </p>
           </div>
@@ -93,10 +93,10 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             </svg>
           </div>
           <div className="">
-            <h1 className="text-sm font-semibold">
+            <h1 className="small-text text-gray-900 font-semibold mb-2">
               Activity: {currentPlaceData?.category}
             </h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+            <p className="small-text tex text-gray-600 opacity-70">
               {currentPlaceData?.overView?.category}
             </p>
           </div>
@@ -106,8 +106,8 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <TiWeatherPartlySunny color="#0075FF" size={26} />
           </div>
           <div className="">
-            <h1 className="text-sm font-semibold">Best Season</h1>
-            <p className="text-sm text-[#000] opacity-[70%]">
+            <h1 className="small-text text-gray-900 font-semibold mb-2">Best Season</h1>
+            <p className="small-text  text-gray-600 opacity-70">
               {currentPlaceData?.overView?.bestSeason}
             </p>
           </div>

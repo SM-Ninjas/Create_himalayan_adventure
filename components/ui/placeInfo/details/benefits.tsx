@@ -1,4 +1,6 @@
 import React from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 type BenefitProps = {
   benefitData: string[];
@@ -7,12 +9,16 @@ type BenefitProps = {
 function Benefits({ benefitData }: BenefitProps) {
   return (
     <div>
-      <div className="py-3">
+      <div className="py-2">
         {benefitData.map((data, i) => (
-          <li key={i} className="flex gap-4 py-1 text-[12px] opacity-70">
-            <span className="mt-[6px] h-[5px] w-[5px] rounded-full border bg-[#111] p-[2px]"></span>
-            {data}
-          </li>
+          <div key={i} className="flex mb-2 gap-6 ">
+            <div>
+              <FaLongArrowAltRight color="#0075FF" size={20} />
+            </div>
+            <h1 key={i} className="small-text opacity-70 regular-text">
+              {data}
+            </h1>
+          </div>
         ))}
       </div>
     </div>
