@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 type highlightType = {
   highlightData: string[];
@@ -7,14 +8,18 @@ type highlightType = {
 function Highlight({ highlightData }: highlightType) {
   return (
     <div>
-      <ul className="py-3">
+      <div className="py-3">
         {highlightData.map((data, i) => (
-          <li key={i} className="flex gap-4 py-1 text-[12px] opacity-70">
-            <span className="mt-3 h-[5px] w-[5px] rounded-full bg-black"></span>
-            {data}
-          </li>
+          <div key={i} className="flex mb-2 gap-6">
+            <div>
+              <FaLongArrowAltRight color="#0075FF" size={20} />
+            </div>
+            <h1 key={i} className="regular-text opacity-70">
+              {data}
+            </h1>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

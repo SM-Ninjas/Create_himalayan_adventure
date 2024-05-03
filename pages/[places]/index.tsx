@@ -43,27 +43,31 @@ function PlacesDetails() {
       </div>
 
       <Carousel images={subImg} />
-      <div className="container">
-        <div className="flex gap-16">
-          <div className="w-full xl:w-3/5">
-            <OverView currentPlaceData={currentPlaceData} />
-            <PlaceInfo />
+      <div className="flex gap-8  container mt-8">
+        <div className="w-full xl:w-8/12">
+          <div className="flex gap-16 "> 
+            <div className="">
+              <OverView currentPlaceData={currentPlaceData} />
+              <PlaceInfo />
+            </div>
           </div>
-          <div className="sticky top-0 hidden flex-1 sm:hidden xl:block">
+        </div>
+        <div className=" hidden sm:hidden xl:block w-4/12">
+          <div className="sticky top-40">
             <InfoCard currentPlaceDataData={currentPlaceData} />
           </div>
         </div>
+      </div>
+      <div className="container">
+        <Gallery />
+        <Equipment currentEquipmentData={equiment} />
         <div>
-          <Gallery />
-          <Equipment currentEquipmentData={equiment} />
-          <div>
-            <h1 className="mt-6 text-lg font-semibold">
-              What our clients have to say about this trip
-            </h1>
-            <div className="grid grid-cols-1 gap-10 sm:gap-4 lg:grid-cols-2">
-              <CustomTestimonials name="Michelle Copper" />
-              <CustomTestimonials name="Jason Brown" />
-            </div>
+          <h1 className="mt-6 text-lg font-semibold">
+            What our clients have to say about this trip
+          </h1>
+          <div className="grid grid-cols-1 gap-10 sm:gap-4 lg:grid-cols-2">
+            <CustomTestimonials name="Michelle Copper" />
+            <CustomTestimonials name="Jason Brown" />
           </div>
         </div>
       </div>
