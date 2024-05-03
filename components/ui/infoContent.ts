@@ -4,6 +4,7 @@ type TrekkingContent = {
   facilities: string[];
   itinerary: itineraryType[];
   howtoprepare: HowToPrepare[];
+  path: string[];
 };
 
 export type HowToPrepare = {
@@ -99,5 +100,6 @@ const infoContent = {
       "Make sure to read the package completely and thoroughly or contact us in case of any queries before booking the Full Day Pokhara Tour.",
     ],
   },
+  path: "/images/abc-road-img.jpg",
 };
 export default infoContent;

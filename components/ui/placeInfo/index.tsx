@@ -6,11 +6,16 @@ import infoContent from "../infoContent";
 import Itinerary from "./details/itinerary";
 import HowToPrepare from "./details/Howtoprepare";
 import { useRouter } from "next/router";
+import PathImg from "./details/pathImg";
 
 
 function PlaceInfo() {
   const router = useRouter()
-  const currentPlace =  router.query.place
+  const currentPlace = router.query.places
+  // console.log(,'place data')
+  console.log(currentPlace, 'place data')
+  console.log(currentPlace, 'place data')
+  console.log(currentPlace, 'place data')
 
   // Data for each groups
   const aboutData = infoContent.about;
@@ -19,37 +24,43 @@ function PlaceInfo() {
   const itineraryData = infoContent.itinerary;
   const howToPrepare = infoContent.howtoprepare;
 
+
   return (
     <div className="mt-16">
       <div className="">
-        <div>
-          <h1 className="text-gray-800 subtitle-text">
+        <div className="my-6">
+          <h1 className="text-gray-800 subtitle-text mb-4">
             Highlight
           </h1>
           <Highlight highlightData={highlightData} />
-        </div>
-        <div>
           <AboutActivity aboutData={aboutData} />
         </div>
 
-        <div>
-          <h1 className="text-gray-800 subtitle-text">
+        <div className="mb-6">
+          <h1 className="text-gray-800 subtitle-text mb-4">
             Benefits
           </h1>
           <Benefits benefitData={benefitData} />
         </div>
-        <div>
-          <h1 className="text-gray-800 subtitle-text">
+        <div className="mb-6">
+          <h1 className="text-gray-800 subtitle-text mb-4">
             Itinerary
           </h1>
           <Itinerary itineraryData={itineraryData} />
         </div>
-        <div>
-          <h1 className="text-gray-800 subtitle-text">
+        <div className="mb-6">
+          <h1 className="text-gray-800 subtitle-text mb-4">
+            Road map of this journey
+          </h1>
+          <PathImg pathImg={infoContent.path} />
+        </div>
+        <div className="mb-6">
+          <h1 className="text-gray-800 subtitle-text mb-4">
             How to Prepare for {currentPlace} Tour
           </h1>
           <HowToPrepare howToPrepare={howToPrepare} />
         </div>
+
       </div>
     </div>
   );

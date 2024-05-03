@@ -6,7 +6,7 @@ type aboutTypes = {
 export default function AboutActivity({ aboutData }: aboutTypes) {
   return (
     <div>
-      <div className="pb-3">
+      <div className="">
         {aboutData.map((data) => (
           <p key={data} className="py-2  regular-text text-gray-700 opacity-70">
             {data}

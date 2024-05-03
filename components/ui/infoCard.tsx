@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { FiMinus } from "react-icons/fi";
 import Buttons from "./Buttons";
+import Link from "next/link";
 
 interface infoCardType {
   currentPlaceDataData: DataTypes | undefined;
@@ -60,7 +61,10 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
           />
         </div>
         <div className="mb-8 mt-12 flex gap-4">
-          <Buttons text="Book Now" customColor="bg-blue-500 text-white" />
+          <Link href={'/bookingForm'}>
+            {/* pass the current place details to the booking form so that i can send that in email about the selected place and the input box for that place should be disabled */}
+            <Buttons text="Book Now" customColor="bg-blue-500 text-white" />
+          </Link>
           <p className="my-2 text-sm opacity-80">
             Note that, you can only book if the date picked is available
           </p>

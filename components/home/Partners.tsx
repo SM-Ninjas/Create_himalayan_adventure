@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Partners = () => {
   return (
     <div className="container overflow-hidden">
+      <h1 className="title-text mb-8">Our Partners</h1>
       {/* <div className="flex gap-24 infinite-scroll-animation">
         {partners.map((partner, index) => (
           <div key={index} className="flex items-center justify-center">
@@ -40,7 +41,7 @@ const Partners = () => {
         {partners.map((partner, index) => (
           <SwiperSlide key={index}>
             <img
-              className="h-16 lg:h-10"
+              className="h-16 lg:h-16"
               src={partner.src}
               alt={partner.name}
             />
