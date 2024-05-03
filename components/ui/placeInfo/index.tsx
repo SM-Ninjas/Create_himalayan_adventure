@@ -10,7 +10,11 @@ import { useRouter } from "next/router";
 
 function PlaceInfo() {
   const router = useRouter()
-  const currentPlace =  router.query.place
+  const currentPlace =  router.query.places
+  // console.log(,'place data')
+  console.log(currentPlace,'place data')
+  console.log(currentPlace,'place data')
+  console.log(currentPlace,'place data')
 
   // Data for each groups
   const aboutData = infoContent.about;

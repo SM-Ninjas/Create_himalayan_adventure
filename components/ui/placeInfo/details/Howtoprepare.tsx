@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import type { HowToPrepare } from "../../infoContent";
 
 type howToPrepareType = {
@@ -20,7 +20,7 @@ function HowToPrepare({ howToPrepare }: howToPrepareType) {
                 {howToPrepare.points.map((data, i) => (
                     <div key={i} className="flex mb-2 gap-6">
                         <div>
-                            <FaLongArrowAltRight color="#0075FF" size={20} />
+                            <FaArrowRight color="#0075FF" size={20} />
                         </div>
                         <h1 className="regular-text opacity-70">
                             {data}
