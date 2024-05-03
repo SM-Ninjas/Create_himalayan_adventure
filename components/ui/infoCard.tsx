@@ -61,7 +61,7 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
           />
         </div>
         <div className="mb-8 mt-12 flex gap-4">
-          <Link href={'/bookingF  orm'}>
+          <Link href={'/bookingForm'}>
             {/* pass the current place details to the booking form so that i can send that in email about the selected place and the input box for that place should be disabled */}
             <Buttons text="Book Now" customColor="bg-blue-500 text-white" />
           </Link>

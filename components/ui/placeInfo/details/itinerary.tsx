@@ -13,7 +13,7 @@ function Itinerary(itineraryData: itineraryTypes) {
   }
 
   return (
-    <div className="mt-4 ">
+    <div className="">
       {itineraryData.itineraryData?.map((data, i) => (
         <div className="mb-2" key={i}>
           <div
