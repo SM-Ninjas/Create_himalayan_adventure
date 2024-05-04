@@ -39,7 +39,7 @@ export default function BookingForm() {
   }
 
   return (
-    <div className="container mt-24">
+    <div className="container mt-24 flex justify-center">
       <form
         onSubmit={handleSubmit(onSubmit)}
         action={''}

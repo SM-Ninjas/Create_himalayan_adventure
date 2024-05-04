@@ -32,17 +32,20 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
         <div className="mb-4 flex items-center gap-2">
           {/* <MdAddBox onClick={handleIncreasePeople} color="#0075FF" size={27} /> */}
           <div
-            onClick={handleIncreasePeople}
-            className="rounded bg-blue-500 p-2"
-          >
-            <FaPlus size={8} className="text-gray-50" />
-          </div>
-          <p className="text-lg font-semibold">{count} </p>
-          <div
             onClick={handleDecreasePeople}
             className="rounded bg-blue-500 p-2"
           >
-            <FiMinus size={8} className="text-white" />
+            <FiMinus
+              size={8} className="text-white" />
+          </div>
+          <p className="text-lg font-semibold">{count} </p>
+          <div
+            onClick={handleIncreasePeople}
+
+            className="rounded bg-blue-500 p-2"
+          >
+            <FaPlus
+              size={8} className="text-gray-50" />
           </div>
           <p className="small-text">Number of Travelers</p>
         </div>
