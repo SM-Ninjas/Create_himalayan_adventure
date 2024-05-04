@@ -1,7 +1,8 @@
 import { CurrentSlideData, DataTypes } from "@/components/home/CarouselSection";
+import { routes } from "@/lib/routes";
 import { motion } from "framer-motion";
-import OtherInfo from "./OtherInfo";
 import Link from "next/link";
+import OtherInfo from "./OtherInfo";
 
 type Props = {
   transitionData: DataTypes;
@@ -15,7 +16,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
       <OtherInfo
         data={transitionData ? transitionData : currentSlideData.data}
       />
-      <motion.div layout className="mt-5 flex items-center gap-3  ">
+      <motion.div layout className="mt-5 flex items-center gap-3">
         {/* Uncomment this if in future bookmark feature is required */}
 
         {/* <button
@@ -27,7 +28,7 @@ function SlideInfo({ transitionData, currentSlideData }: Props) {
 
         <Link
           href={{
-            pathname: `/${transitionData.location}`,
+            pathname: `${routes.treks}/${transitionData.slug}`,
             query: {
               index: currentSlideData.index,
             },

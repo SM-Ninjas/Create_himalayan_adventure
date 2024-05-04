@@ -236,10 +236,51 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Partners */}
+        <div className="mb-8 flex flex-col gap-8 border-t border-gray-200 pt-6 md:flex-row md:items-center md:justify-between md:pt-8">
+          <div className="flex flex-col gap-y-4">
+            <h2 className="emphasized-text">We are associated with</h2>
+            <div className="flex flex-wrap gap-x-8">
+              {associated.map((partner) => (
+                <img
+                  key={partner.id}
+                  src={partner.src}
+                  alt={partner.name}
+                  className="h-6 md:h-8"
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-4">
+            <h2 className="emphasized-text">Partners</h2>
+            <div className="flex flex-wrap gap-x-8">
+              {partners.map((partner) => (
+                <img
+                  key={partner.id}
+                  src={partner.src}
+                  alt={partner.name}
+                  className="h-6 md:h-8"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* Bottom area */}
-        <div className="border-t border-gray-200 py-4 md:flex md:items-center md:justify-between md:py-8">
+        <div className="flex flex-col items-center justify-center gap-y-8 border-t border-gray-200 py-6 md:flex md:flex-row md:justify-between md:py-8">
+          {/* Copyrights note */}
+          <div className="mr-4 text-sm text-gray-600">
+            &copy; Copyright {date} All rights reserved.
+          </div>
+
+          <img
+            src="/images/footer-cards.svg"
+            alt="Payment methods"
+            className="-ml-8 h-6 w-auto md:h-8"
+          />
+
           {/* Social as */}
-          <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
+          <ul className="mb-4 flex md:mb-0 md:ml-4">
             <li>
               <a
                 href="#0"
@@ -272,11 +313,6 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-
-          {/* Copyrights note */}
-          <div className="mr-4 text-sm text-gray-600">
-            &copy; Copyright {date} All rights reserved.
-          </div>
         </div>
       </div>
     </footer>
@@ -284,3 +320,44 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const associated = [
+  {
+    id: 1,
+    name: "Nepal Government",
+    src: "partners/nepalGoverment.svg",
+  },
+  {
+    id: 2,
+    name: "NMA",
+    src: "partners/nma.svg",
+  },
+  {
+    id: 3,
+    name: "NTB",
+    src: "partners/ntb.svg",
+  },
+  {
+    id: 4,
+    name: "TAAN",
+    src: "partners/taan.svg",
+  },
+  {
+    id: 5,
+    name: "keep",
+    src: "partners/keep.webp",
+  },
+];
+
+const partners = [
+  {
+    id: 1,
+    name: "Bookmundi",
+    src: "partners/bookmudi.webp",
+  },
+  {
+    id: 2,
+    name: "Guide",
+    src: "partners/guide.webp",
+  },
+];

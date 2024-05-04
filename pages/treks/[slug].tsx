@@ -1,15 +1,12 @@
 import CustomTestimonials from "@/components/customTestomonial";
-import {
-  DataTypes,
-  sliderData,
-  subImages,
-} from "@/components/home/CarouselSection";
+import { DataTypes, subImages } from "@/components/home/CarouselSection";
 import Equipment from "@/components/ui/Equipment";
 import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
+import { carouselData } from "@/mock-data/carousel-data";
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
@@ -18,9 +15,11 @@ function PlacesDetails() {
   const router = useRouter();
   const index = router?.query.index;
 
-  const currentPlaceData: DataTypes | undefined = sliderData.find(
-    (item) => item.id.toString() === index
-  );
+  // ----- Too many data in json, so for static version, better to statically render a single content ------------
+  // const currentPlaceData: DataTypes | undefined = sliderData.find(
+  //   (item) => item.id.toString() === index
+  // );
+  const currentPlaceData: DataTypes | undefined = carouselData[0];
   const subImg: subImages = currentPlaceData?.subImages || [];
   const equiment = currentPlaceData?.equipment;
 
