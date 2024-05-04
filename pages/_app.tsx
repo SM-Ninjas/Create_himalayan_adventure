@@ -4,6 +4,7 @@ import { Noto_Sans } from "next/font/google";
 
 
 import Footer from "@/components/ui/Footer";
+import ToTop from "@/components/ui/ToTop";
 import Header from "@/components/ui/navbar/Header";
 import MobileNavbar from "@/components/ui/navbar/MobileNavbar";
 import Head from "next/head";
@@ -32,6 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Header />
         <MobileNavbar />
         <Component {...pageProps} />
+        <ToTop />
         <Footer />
       </main>
     </>

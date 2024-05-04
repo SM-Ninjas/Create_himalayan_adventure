@@ -1,10 +1,11 @@
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import { routes } from "@/lib/routes";
+import { carouselData } from "@/mock-data/carousel-data";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { sliderData } from "./CarouselSection";
 
 const CarouselMobileResponsive = () => {
   return (
@@ -23,7 +24,7 @@ const CarouselMobileResponsive = () => {
         modules={[Navigation]}
         className="mySwiper w-full"
       >
-        {sliderData.map((item, index) => (
+        {carouselData.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="relative h-[60vh] w-full">
               <Image
@@ -58,7 +59,7 @@ const CarouselMobileResponsive = () => {
                   </motion.p>
                   <Link
                     href={{
-                      pathname: `/${item.location}`,
+                      pathname: `${routes.treks}/${item.slug}`,
                       query: {
                         index: index,
                       },
