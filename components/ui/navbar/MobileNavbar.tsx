@@ -20,10 +20,10 @@ function MobileNavbar() {
   }
   return (
     <div
-      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl md:hidden ${toggleNavBar && "h-screen"
+      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl lg:hidden ${toggleNavBar && "h-screen"
         }`}
     >
-      <div className="flex h-full flex-col justify-start md:hidden">
+      <div className="flex h-full flex-col justify-start lg:hidden">
         <div className="flex items-center justify-between p-2">
           <Link href="/">
             <Logo />
