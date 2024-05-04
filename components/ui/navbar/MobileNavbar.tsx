@@ -20,9 +20,8 @@ function MobileNavbar() {
   }
   return (
     <div
-      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl md:hidden ${
-        toggleNavBar && "h-screen"
-      }`}
+      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl md:hidden ${toggleNavBar && "h-screen"
+        }`}
     >
       <div className="flex h-full flex-col justify-start md:hidden">
         <div className="flex items-center justify-between p-2">
@@ -35,23 +34,20 @@ function MobileNavbar() {
             onClick={handleNavToggle}
           >
             <div
-              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${
-                toggleNavBar
-                  ? "translate-y-1 rotate-45"
-                  : "mt-2 -translate-y-0 rotate-0"
-              }`}
+              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${toggleNavBar
+                ? "translate-y-1 rotate-45"
+                : "mt-2 -translate-y-0 rotate-0"
+                }`}
             ></div>
             <div
-              className={`h-0.5 w-6 rounded-full bg-white ${
-                toggleNavBar ? "opacity-0" : "mt-2 opacity-100"
-              }`}
+              className={`h-0.5 w-6 rounded-full bg-white ${toggleNavBar ? "opacity-0" : "mt-2 opacity-100"
+                }`}
             ></div>
             <div
-              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${
-                toggleNavBar
-                  ? "-translate-y-1 -rotate-45"
-                  : "mt-2 translate-y-0 rotate-0"
-              }`}
+              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${toggleNavBar
+                ? "-translate-y-1 -rotate-45"
+                : "mt-2 translate-y-0 rotate-0"
+                }`}
             ></div>
           </div>
         </div>
@@ -69,7 +65,7 @@ function MobileNavbar() {
               <Link
                 className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border hover:border-black"
                 onClick={handleCloseToggleOnClick}
-                href="/tour"
+                href="/Pokhara?index=4"
               >
                 <MdTour className="text-xl text-gray-200" />
                 tour
@@ -77,7 +73,7 @@ function MobileNavbar() {
               <Link
                 className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border "
                 onClick={handleCloseToggleOnClick}
-                href="/trek"
+                href="/Gandaki?index=0"
               >
                 <TbTrekking className="text-xl text-gray-200" />
                 trek

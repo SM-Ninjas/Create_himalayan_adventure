@@ -28,7 +28,7 @@ const trekRegions = [
       "Poon Hill Mardi Himal Trek - 12 Days",
       "Annapurna Full Circuit Trek - 17 Days",
     ],
-    route: routes.treks,
+    route: routes.aanapurna,
   },
   {
     name: "Everest Region Trekking",
@@ -63,7 +63,7 @@ const tourRegions = [
       "Pokhara Day Tour with Sunrise View from Sarangkot",
       "Five Himalayan Viewpoint Tour from Pokhara",
     ],
-    route: routes.treks,
+    route: routes.tour,
   },
   {
     name: "Day Hikes Nepal",
@@ -74,7 +74,7 @@ const tourRegions = [
       "Nagarjung Jamcho Day Hike - 1 Day",
       "Champadevi Day Hike - 1 day",
     ],
-    routes: routes.treks,
+    routes: routes.aanapurna,
   },
   {
     name: "Multiple Day Tours",
@@ -91,7 +91,7 @@ const tourRegions = [
       "EBC Trek via Gokyo Cho La Pass - 17 Days",
       "Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days",
     ],
-    routes: routes.treks,
+    routes: routes.everest,
   },
   {
     name: "Wildlife Tours",
@@ -104,7 +104,7 @@ const tourRegions = [
       "Pikey Peak Trek - 10 Days",
       "Everest Base Camp Trek by Road - 16 Days",
     ],
-    routes: routes.treks,
+    routes: routes.everest,
   },
 ];
 

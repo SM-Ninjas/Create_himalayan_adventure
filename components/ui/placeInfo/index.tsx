@@ -12,13 +12,9 @@ import PathImg from "./details/pathImg";
 function PlaceInfo() {
   const router = useRouter()
   const currentPlace = router.query.places
-  
-  // Data for each groups
-  const aboutData = infoContent.about;
-  const benefitData = infoContent.facilities;
-  const highlightData = infoContent.highlights;
-  const itineraryData = infoContent.itinerary;
-  const howToPrepare = infoContent.howtoprepare;
+
+
+
 
 
   return (
@@ -28,21 +24,21 @@ function PlaceInfo() {
           <h1 className="text-gray-800 subtitle-text mb-4">
             Highlight
           </h1>
-          <Highlight highlightData={highlightData} />
-          <AboutActivity aboutData={aboutData} />
+          <Highlight highlightData={infoContent.highlights} />
+          <AboutActivity aboutData={infoContent.about} />
         </div>
 
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">
             Benefits
           </h1>
-          <Benefits benefitData={benefitData} />
+          <Benefits benefitData={infoContent.facilities} />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">
             Itinerary
           </h1>
-          <Itinerary itineraryData={itineraryData} />
+          <Itinerary itineraryData={infoContent.itinerary} />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">
@@ -54,7 +50,7 @@ function PlaceInfo() {
           <h1 className="text-gray-800 subtitle-text mb-4">
             How to Prepare for {currentPlace} Tour
           </h1>
-          <HowToPrepare howToPrepare={howToPrepare} />
+          <HowToPrepare howToPrepare={infoContent.howtoprepare} />
         </div>
 
       </div>

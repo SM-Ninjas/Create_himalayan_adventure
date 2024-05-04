@@ -45,14 +45,17 @@ function PlacesDetails() {
       <Carousel images={subImg} />
       <div className="flex gap-8  container mt-8">
         <div className="w-full xl:w-8/12">
-          <div className="flex gap-16 "> 
+          <div className="flex gap-16 ">
             <div className="">
               <OverView currentPlaceData={currentPlaceData} />
               <PlaceInfo />
             </div>
           </div>
+          <div className="xl:hidden">
+            <InfoCard currentPlaceDataData={currentPlaceData} />
+          </div>
         </div>
-        <div className=" hidden sm:hidden xl:block w-4/12">
+        <div className=" hidden sm:hidden xl:block w-5/12">
           <div className="sticky top-40">
             <InfoCard currentPlaceDataData={currentPlaceData} />
           </div>
