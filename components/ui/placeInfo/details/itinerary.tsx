@@ -13,24 +13,24 @@ function Itinerary(itineraryData: itineraryTypes) {
   }
 
   return (
-    <div className="mt-[2rem]  w-[70%]">
+    <div className="">
       {itineraryData.itineraryData?.map((data, i) => (
-        <div className="my-4" key={i}>
+        <div className="mb-2" key={i}>
           <div
-            className="flex cursor-pointer items-center text-[12px] font-medium "
+            className="flex regular-text cursor-pointer items-center small-text text-gray-900 font-medium "
             onClick={() => {
               handleToggleDetails(i);
             }}
           >
             {openIndex === i ? <FaAngleDown /> : <FaAngleRight />}
-            Day:{" "}
-            <h1 className="">
-              {data.day} {data.description}
+            Day:{" "} {data.day}
+            <h1 className="regular-text ml-2">
+              {data.description}
             </h1>
           </div>
-          <p className="p-2 text-[12px] opacity-70">
+          <h1 className="ml-6 p-2 text small-text text-gray-600 opacity-70">
             {openIndex === i && <div>{data.details}</div>}
-          </p>
+          </h1>
         </div>
       ))}
     </div>

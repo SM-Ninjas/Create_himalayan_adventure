@@ -1,8 +1,15 @@
-export type TrekkingContent = {
+type TrekkingContent = {
   about: string[];
   highlights: string[];
   facilities: string[];
-  itinerary: itineraryType;
+  itinerary: itineraryType[];
+  howtoprepare: HowToPrepare[];
+  path: string[];
+};
+
+export type HowToPrepare = {
+  paragraph: string[];
+  points: string[];
 };
 
 export type itineraryType = {
@@ -54,10 +61,45 @@ const infoContent = {
     },
     {
       day: 3,
-      description: "Take Tourists Delux Bus from Kathmandu to Pokhara",
+      description:
+        "Drive from Pokhara (822m) to Birethanti (1263m) then Trek to Ulleri (1960m)",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
+    },
+    {
+      day: 4,
+      description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Ghorepani (2880m) to Poon Hill (3210m) then Tadapani (2630m)",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tadapani (2630m) to Chomrong (2165m)",
       details:
         "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
     },
   ],
+  howtoprepare: {
+    paragraph: [
+      "This is just a single-day tour so, you might not have to prepare for a lot of things. Our representatives will pick you up in the morning and show you the beauties and mysteries of Pokhara city for one whole day before dropping you off at your hotel by the evening or night.",
+      "In between, Green Valley Nepal Treks' guide will always be with you if you have any problems or queries. So, preparation for this trip is not so difficult or worth spending a lot of energy and time. However, here are a few things that we suggest you be prepared with for this trip.",
+    ],
+    points: [
+      "Please wake up early, have your breakfast, and get ready by the time when our representative comes to pick you up.",
+      "This tour also includes the sunrise view from Sarangkot, so, you might have to wake up a little earlier than usual because sunrise is best witnessed at around six in the morning.",
+      "There are a lot of drives throughout the day, so if you have any problems with traveling (sometimes people have problems like vomiting and headaches if they travel by road for a long time), please carry your medicine and inform us beforehand.",
+      "Remember to carry some cash with you. That is because the trip cost does not include the ticket and pass price that you will need in some places like Davis' Falls, Gupteswor Cave, etc.",
+      "Don't forget to carry sun protection with you because you might be exposed to scorching sunlight.",
+      "Make sure to read the package completely and thoroughly or contact us in case of any queries before booking the Full Day Pokhara Tour.",
+    ],
+  },
+  path: "/images/abc-road-img.jpg",
 };
 export default infoContent;
