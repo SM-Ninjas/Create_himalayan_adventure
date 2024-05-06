@@ -21,7 +21,7 @@ export function MenuItems() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white">
+          <NavigationMenuTrigger className="text-white regular-text">
             Trekking in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -46,7 +46,7 @@ export function MenuItems() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white">
+          <NavigationMenuTrigger className="text-white regular-text">
             Tourns in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -71,22 +71,22 @@ export function MenuItems() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/blogs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+          <Link href="/blogs" className="regular-text" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
               Blogs
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/contact" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+          <Link href="/contact" className="regular-text" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
               Contact
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/forum" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
               Forum
             </NavigationMenuLink>
           </Link>

@@ -10,8 +10,8 @@ const Logo = ({ width, height }: Logo) => {
     <Image
       src={"/logo.png"}
       alt="Logo"
-      width={width ?? 36}
-      height={height ?? 36}
+      width={width ?? 60}
+      height={height ?? 60}
     />
   );
 };

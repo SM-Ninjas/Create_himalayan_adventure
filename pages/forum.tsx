@@ -12,6 +12,7 @@ import peson2 from "../public/images/hands.png"
 import ReplyInput from '@/components/ui/ReplyInput';
 import DesktopGroups from '@/components/forum/desktopGroups';
 import MobileGroups from '@/components/forum/MobileGroups';
+import Video from '@/components/home/Video';
 
 
 function Forum() {

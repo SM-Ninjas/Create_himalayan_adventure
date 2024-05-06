@@ -30,7 +30,7 @@ function Header() {
   return (
     <nav
       className={cn(
-        "fixed top-0 z-50 hidden w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-90 backdrop-blur-xl md:px-10 lg:flex",
+        "fixed top-0 z-50 hidden w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-70 backdrop-blur-xl md:px-10 lg:flex",
         top && "border-b border-gray-800 bg-black/60 backdrop-blur-sm"
       )}
     >
@@ -38,8 +38,8 @@ function Header() {
         <div className="flex items-center gap-2 text-lg font-medium ">
           <Logo />
           <div>
-            <p className={`leading-tight`}>Create Himalayan</p>
-            <p className={`leading-tight`}>Adventure</p>
+            <p className={` leading-tight`}>Create Himalayan</p>
+            <p className={` title-text leading-tight`}>Adventure</p>
           </div>
         </div>
         <div className="ml-auto flex items-center gap-8">
@@ -52,10 +52,10 @@ function Header() {
             <div className="flex items-center gap-2 font-medium tracking-[4px]">
               <Logo />
               <div>
-                <p className="scale-90 leading-tight text-gray-300">
+                <p className="subtitle-text scale-90 leading-tight text-white">
                   Create Himalayan
                 </p>
-                <p className="scale-90 leading-tight text-gray-400">
+                <p className="scale-90 subtitle-text leading-tight text-white">
                   Adventure
                 </p>
               </div>
