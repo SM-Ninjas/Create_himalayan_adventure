@@ -110,8 +110,8 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
                       objectFit="cover"
                       className="rounded-lg"
                     />
-                    <div className="absolute inset-0 z-10 grid place-content-center">
-                      <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                      <p className="text-xl font-black uppercase text-white">
                         {item.title}
                       </p>
                     </div>
@@ -148,8 +148,8 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
                       objectFit="cover"
                       className="rounded-lg"
                     />
-                    <div className="absolute inset-0 z-10 grid place-content-center">
-                      <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                      <p className="text-xl font-black uppercase text-white">
                         {item.title}
                       </p>
                     </div>
@@ -176,10 +176,8 @@ const Card = ({ card }: { card: CardProps }) => {
           objectPosition="center"
         />
       </div>
-      <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-white backdrop-blur-lg">
-          {card.title}
-        </p>
+      <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+        <p className="text-xl font-black uppercase text-white">{card.title}</p>
       </div>
     </div>
   );
