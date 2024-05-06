@@ -2,9 +2,10 @@ import { motion } from "framer-motion";
 
 type Props = {
   data: any;
+  handleChangeSlide: (id: number) => void;
 };
 
-function SliderCard({ data }: Props) {
+function SliderCard({ data, handleChangeSlide }: Props) {
   return (
     <motion.div
       className="relative h-52 min-w-[250px] rounded-2xl shadow-md md:h-80 md:min-w-[208px]"
@@ -17,6 +18,7 @@ function SliderCard({ data }: Props) {
           duration: 0.4,
         },
       }}
+      onClick={() => handleChangeSlide(data.id)}
       exit={{ scale: 0.8, opacity: 0 }}
       transition={{
         type: "spring",
