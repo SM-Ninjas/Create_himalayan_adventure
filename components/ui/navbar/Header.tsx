@@ -39,7 +39,7 @@ function Header() {
           <Logo />
           <div>
             <p className={` leading-tight`}>Create Himalayan</p>
-            <p className={` title-text leading-tight`}>Adventure</p>
+            <p className={` leading-tight`}>Adventure</p>
           </div>
         </div>
         <div className="ml-auto flex items-center gap-8">
@@ -53,7 +53,7 @@ function Header() {
               <Logo />
               <div>
                 <p className="subtitle-text scale-90 leading-tight text-white">
-                  Create Himalayan
+                  Create Himalaya
                 </p>
                 <p className="scale-90 subtitle-text leading-tight text-white">
                   Adventure
