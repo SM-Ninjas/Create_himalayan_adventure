@@ -9,6 +9,7 @@ import Header from "@/components/ui/navbar/Header";
 import MobileNavbar from "@/components/ui/navbar/MobileNavbar";
 import Head from "next/head";
 import "swiper/css";
+import ContactLinks from "@/components/ui/contactLink";
 
 const inter = Noto_Sans({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <MobileNavbar />
         <Component {...pageProps} />
         <ToTop />
+        <ContactLinks />
         <Footer />
       </main>
     </>

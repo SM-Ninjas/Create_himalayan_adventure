@@ -87,7 +87,7 @@ const Footer = () => {
                   href="#0"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Gosaikundo Trip
+                  Gosaikunda Trip
                 </a>
               </li>
             </ul>
