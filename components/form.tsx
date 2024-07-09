@@ -15,7 +15,7 @@ export default function Form() {
     register,
     handleSubmit,
     formState: { errors },
-  } = form;
+  } = form; 
   const onSubmit = (data: formDataTypes) => {
     // Make post request here to the admin panel
     form.reset();

@@ -116,22 +116,37 @@ const tripAdvisorReviewList = [
   },
   {
     id: 2,
-    name: "Phil Dunphy",
-    title: "The Best Hiking Trails in the World",
+    name: "Emily Harper",
+    title: "Incredible Journey!",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam at ultricies nunc. Nullam",
+      "This was by far the best trip I've ever taken. The guides were knowledgeable and friendly, and the scenery was breathtaking. Highly recommended!",
   },
   {
     id: 3,
     name: "Megan LcCain",
     title: "Awesome Experience!",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    message:
+      "From start to finish, everything was perfect. The team was professional, and the activities were well-organized. I'll definitely be booking another trip soon!",
   },
   {
     id: 4,
     name: "John Doe",
     title: "Great Service!",
     message:
-      "100 out of 10 would recommend! The service was amazing and the trip was unforgettable! If you're looking for a great experience, look no further!. I am so happy with the service and the trip was unforgettable!",
+      "100 out of 10 would recommend! The service was amazing and the trip was unforgettable! If you're looking for a great experience, look no further! I am so happy with the service and the trip was unforgettable!",
+  },
+  {
+    id: 5,
+    name: "Ava Smith",
+    title: "Adventure of a Lifetime",
+    message:
+      "The entire trip exceeded my expectations. The landscapes were stunning, and the support from the team was top-notch. I can't wait to go back!",
+  },
+  {
+    id: 6,
+    name: "Michael Johnson",
+    title: "Unforgettable Experience!",
+    message:
+      "Everything was perfect, from the accommodations to the activities. The staff went above and beyond to ensure we had a great time. Highly recommended!",
   },
 ];

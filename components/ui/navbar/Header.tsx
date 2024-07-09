@@ -29,9 +29,9 @@ function Header() {
 
   return (
     <nav
-      className={cn(
-        "fixed top-0 z-50 hidden w-screen gap-2 bg-black/80 px-5 py-4 font-medium text-white opacity-70 backdrop-blur-xl md:px-10 lg:flex",
-        top && "border-b border-gray-800 bg-black/60 backdrop-blur-sm"
+      className={cn( 
+        "fixed top-0 z-50 hidden w-screen gap-2 bg-black px-5 py-4 font-medium text-white opacity-80 backdrop-blur-sm md:px-10 lg:flex",
+        top && "border-b border-gray-800 bg-black backdrop-blur"
       )}
     >
       <ContentWrapper className="flex items-center justify-between gap-4 md:hidden">

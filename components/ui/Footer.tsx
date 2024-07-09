@@ -13,7 +13,9 @@ const Footer = () => {
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2 flex gap-2">
               <Logo />
-              <p className="small-text">Create Himalayan <br /> Adventure</p>
+              <p className="small-text">
+                Create Himalaya <br /> Adventure
+              </p>
             </div>
             <div className="text-sm text-gray-600">
               <a
@@ -44,10 +46,10 @@ const Footer = () => {
               <div className="flex items-center gap-x-4">
                 <HiPhone />
                 <a
-                  href="tel:9800000000"
+                  href="tel:9841128881"
                   className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
-                  9800000000
+                  984-1128881
                 </a>
               </div>
               <div className="flex items-center gap-x-4">
@@ -56,7 +58,7 @@ const Footer = () => {
                   href="mailto:example@mail.com"
                   className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
-                  example@mail.com
+                  createhimalaya16@gmail.com
                 </a>
               </div>
             </div>
