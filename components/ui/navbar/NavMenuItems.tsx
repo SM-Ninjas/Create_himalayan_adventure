@@ -21,14 +21,14 @@ export function MenuItems() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white regular-text">
+          <NavigationMenuTrigger className="text-white regular-text ">
             Trekking in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 bg-white p-4 md:w-[500px] md:grid-cols-2 lg:w-[800px]">
               {trekRegions.map((item, index) => (
                 <ListItem title={item.name} key={index}>
-                  <div className="flex max-h-[60vh] flex-col overflow-auto">
+                  <div className="flex max-h-[60vh] flex-col overflow-auto">  
                     {item.options.map((each, index) => (
                       <Link href={`${item.route}/${each.slug}`}>
                         <p
