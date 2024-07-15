@@ -16,10 +16,10 @@ function PlacesDetails() {
   const index = router?.query.index;
 
   // ----- Too many data in json, so for static version, better to statically render a single content ------------
-  // const currentPlaceData: DataTypes | undefined = sliderData.find(
-  //   (item) => item.id.toString() === index
-  // );
-  const currentPlaceData: DataTypes | undefined = carouselData[0];
+  const currentPlaceData: DataTypes | undefined = carouselData.find(
+    (item) => item.id.toString() === index
+  );
+  // const currentPlaceData: DataTypes | undefined = carouselData[0];
   const subImg: subImages = currentPlaceData?.subImages || [];
   const equiment = currentPlaceData?.equipment;
 
