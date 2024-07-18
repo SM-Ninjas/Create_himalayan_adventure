@@ -1,11 +1,11 @@
 export const carouselData = [
   {
     id: 0,
-    slug: "annapurna-base-camp-trek",
+    slug: "annapurnaBaseCampTreck",   
     category: "Trekking",
     img: "/locations/annapurna.webp",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
-    title: "Annapurna Base Camp",
+    title: "Annapurna Base",
     location: "Gandaki",
     days: "14 days",
     people: "1-12",
@@ -22,7 +22,7 @@ export const carouselData = [
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.", 
       peoples:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
       category:
@@ -55,7 +55,7 @@ export const carouselData = [
   },
   {
     id: 1,
-    slug: "everest-base-camp-trek",
+    slug: "everestBaseCampTreck",
     category: "Trekking",
     img: "/locations/everest.avif",
     title: "Everest Base Camp",
@@ -111,7 +111,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    slug: "chitwan-national-park-tour",
+    slug: "chitwanNationalParkTour",
     category: "National Parks",
     img: "/locations/chitwan.jpeg",
     title: "Chitwan National Park Tour",
@@ -145,7 +145,7 @@ export const carouselData = [
   },
   {
     id: 3,
-    slug: "rara-lake-tour",
+    slug: "raraLakeTour",
     category: "Lakes",
     img: "/locations/rara.jpeg",
     title: "Rara Lake Tour",
@@ -201,7 +201,7 @@ export const carouselData = [
   },
   {
     id: 4,
-    slug: "pokhara-adventure",
+    slug: "pokharaAdventure",
     category: "Adventure",
     img: "/locations/pokhara.jpeg",
     title: "Adverture in Pokhara",

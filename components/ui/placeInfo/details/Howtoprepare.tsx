@@ -17,7 +17,7 @@ function HowToPrepare({ howToPrepare }: howToPrepareType) {
                         </h1>
                     </div>
                 ))}
-                {howToPrepare.points.map((data, i) => (
+                {/* {howToPrepare.points.map((data, i) => (
                     <div key={i} className="flex mb-2 gap-6">
                         <div>
                             <FaArrowRight color="#0075FF" size={20} />
@@ -26,7 +26,7 @@ function HowToPrepare({ howToPrepare }: howToPrepareType) {
                             {data}
                         </h1>
                     </div>
-                ))}
+                ))} */}
             </div>
         </div>
     );

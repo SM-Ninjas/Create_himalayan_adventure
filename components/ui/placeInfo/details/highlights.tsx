@@ -6,6 +6,7 @@ type highlightType = {
 };
 
 function Highlight({ highlightData }: highlightType) {
+  console.log(highlightData,"data");
   return (
     <div>
       <div className="">
