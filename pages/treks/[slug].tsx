@@ -15,13 +15,11 @@ function PlacesDetails() {
   const router = useRouter();
   const index = router?.query.index;
 
-  // ----- Too many data in json, so for static version, better to statically render a single content ------------
   const currentPlaceData: DataTypes | undefined = carouselData.find(
     (item) => item.id.toString() === index
   );
-  // const currentPlaceData: DataTypes | undefined = carouselData[0];
   const subImg: subImages = currentPlaceData?.subImages || [];
-  const equiment = currentPlaceData?.equipment;
+  const equipment = currentPlaceData?.equipment;
 
   return (
     <div className="relative pt-24">
@@ -32,7 +30,6 @@ function PlacesDetails() {
             <p className="small-text flex items-center gap-2 text-gray-600">
               <FaClock size={18} /> {currentPlaceData?.days}{" "}
             </p>
-
             <p className="flex items-center gap-2 text-gray-600">
               <MdGroups size={30} />
               {currentPlaceData?.people}
@@ -42,10 +39,10 @@ function PlacesDetails() {
       </div>
 
       <Carousel images={subImg} />
-      <div className="flex gap-8  container mt-8">
+      <div className="flex gap-8 container mt-8">
         <div className="w-full xl:w-8/12">
-          <div className="flex gap-16 ">
-            <div className="">
+          <div className="flex gap-16">
+            <div>
               <OverView currentPlaceData={currentPlaceData} />
               <PlaceInfo />
             </div>
@@ -54,7 +51,7 @@ function PlacesDetails() {
             <InfoCard currentPlaceDataData={currentPlaceData} />
           </div>
         </div>
-        <div className=" hidden sm:hidden xl:block w-5/12">
+        <div className="hidden sm:hidden xl:block w-5/12">
           <div className="sticky top-40">
             <InfoCard currentPlaceDataData={currentPlaceData} />
           </div>
@@ -62,7 +59,7 @@ function PlacesDetails() {
       </div>
       <div className="container">
         <Gallery />
-        <Equipment currentEquipmentData={equiment} />
+        <Equipment currentEquipmentData={equipment} />
         <div>
           <h1 className="mt-6 text-lg font-semibold">
             What our clients have to say about this trip
@@ -78,5 +75,3 @@ function PlacesDetails() {
 }
 
 export default PlacesDetails;
-
-//
