@@ -1,24 +1,27 @@
 import CustomTestimonials from "@/components/customTestomonial";
-import { DataTypes, subImages } from "@/components/home/CarouselSection";
 import Equipment from "@/components/ui/Equipment";
 import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
+import infoContent, {
+  TrekkingContent,
+  subimages,
+} from "@/components/ui/infoContent";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
-import { carouselData } from "@/mock-data/carousel-data";
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 
 function PlacesDetails() {
-  const router = useRouter();
-  const index = router?.query.index;
+  const { query } = useRouter();
+  const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
 
-  const currentPlaceData: DataTypes | undefined = carouselData.find(
-    (item) => item.id.toString() === index
-  );
-  const subImg: subImages = currentPlaceData?.subImages || [];
+  const currentPlaceData = infoContent[index] ;
+  console.log(currentPlaceData?.id, "placedata hehhhhhhhhhhh hhhhhhhhh");
+  // const currentPlaceOverview = currentPlaceDat.overView;
+
+  const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
 
   return (
@@ -43,17 +46,17 @@ function PlacesDetails() {
         <div className="w-full xl:w-8/12">
           <div className="flex gap-16">
             <div>
-              <OverView currentPlaceData={currentPlaceData} />
-              <PlaceInfo />
+              <OverView currentPlaceInfo={currentPlaceData} />
+              <PlaceInfo currentPlaceInfo={currentPlaceData} />
             </div>
           </div>
           <div className="xl:hidden">
-            <InfoCard currentPlaceDataData={currentPlaceData} />
+            <InfoCard currentPlaceData={currentPlaceData} />
           </div>
         </div>
         <div className="hidden sm:hidden xl:block w-5/12">
           <div className="sticky top-40">
-            <InfoCard currentPlaceDataData={currentPlaceData} />
+            <InfoCard currentPlaceData={currentPlaceData} />
           </div>
         </div>
       </div>

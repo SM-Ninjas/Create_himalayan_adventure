@@ -3,14 +3,14 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 type BenefitProps = {
-  benefitData: string[];
+  benefitData: string[] | undefined;
 };
 
 function Benefits({ benefitData }: BenefitProps) {
   return (
     <div>
       <div className="">
-        {benefitData.map((data, i) => (
+        {benefitData?.map((data, i) => (
           <div key={i} className="flex mb-2 gap-6 ">
             <div>
               <FaLongArrowAltRight color="#0075FF" size={20} />

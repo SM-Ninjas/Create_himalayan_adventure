@@ -5,14 +5,18 @@ import { motion } from "framer-motion";
 import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import { TiWeatherPartlySunny } from "react-icons/ti";
-import { DataTypes } from "../home/CarouselSection";
 import { TitleText } from "./text/typingText";
+import { TrekkingContent } from "@/components/ui/infoContent";
+
 interface OverViewProps {
-  currentPlaceData: DataTypes | undefined;
+  currentPlaceInfo: TrekkingContent | undefined;
 }
-export default function OverView({ currentPlaceData }: OverViewProps) {
+export default function OverView({ currentPlaceInfo }: OverViewProps) {
   return (
-    <motion.div variants={staggerContainer(0, 0)} className="mt-8 bg-[#ECF6FF] p-2 rounded">
+    <motion.div
+      variants={staggerContainer(0, 0)}
+      className="mt-8 bg-[#ECF6FF] p-2 rounded"
+    >
       <TitleText title="Overview" textStyles="subtitle-text" />
       <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3 sm:gap-6">
         <div className="flex gap-2">
@@ -21,10 +25,10 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
           </div>
           <div className="flex flex-col">
             <p className="small-text text-gray-900 font-semibold mb-2 ">
-              Duration: {currentPlaceData?.days}
+              Duration
             </p>
             <p className="small-text text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.duration}
+              {currentPlaceInfo?.overView?.duration}
             </p>
           </div>
         </div>
@@ -45,9 +49,11 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             </svg>
           </div>
           <div className="">
-            <h1 className="small-text text-gray-900 font-semibold mb-2 ">Start From</h1>
+            <h1 className="small-text text-gray-900 font-semibold mb-2 ">
+              Start From
+            </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.startingPoint}
+              {currentPlaceInfo?.overView?.startingPoint}
             </p>
           </div>
         </div>
@@ -57,9 +63,11 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <FaFlag color="#0075FF" />
           </div>
           <div className="">
-            <h1 className="small-text text-gray-900 font-semibold mb-2 ">Ends At</h1>
+            <h1 className="small-text text-gray-900 font-semibold mb-2 ">
+              Ends At
+            </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.endingPoint}
+              {currentPlaceInfo?.overView?.endingPoint}
             </p>
           </div>
         </div>
@@ -70,10 +78,10 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
           </div>
           <div className="">
             <h1 className="small-text text-gray-900 font-semibold mb-2">
-              Group: {currentPlaceData?.people} Peoples
+              Group:
             </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.peoples}
+              {currentPlaceInfo?.overView?.peoples}
             </p>
           </div>
         </div>
@@ -94,10 +102,10 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
           </div>
           <div className="">
             <h1 className="small-text text-gray-900 font-semibold mb-2">
-              Activity: {currentPlaceData?.category}
+              Activity
             </h1>
             <p className="small-text tex text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.category}
+              {currentPlaceInfo?.overView?.category}
             </p>
           </div>
         </div>
@@ -106,9 +114,11 @@ export default function OverView({ currentPlaceData }: OverViewProps) {
             <TiWeatherPartlySunny color="#0075FF" size={26} />
           </div>
           <div className="">
-            <h1 className="small-text text-gray-900 font-semibold mb-2">Best Season</h1>
+            <h1 className="small-text text-gray-900 font-semibold mb-2">
+              Best Season
+            </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceData?.overView?.bestSeason}
+              {currentPlaceInfo?.overView?.bestSeason}
             </p>
           </div>
         </div>
