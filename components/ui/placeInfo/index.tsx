@@ -7,23 +7,20 @@ import Itinerary from "./details/itinerary";
 import HowToPrepareComponent from "./details/Howtoprepare";
 import { useRouter } from "next/router";
 import PathImg from "./details/pathImg";
+import { TrekkingContent } from "@/components/ui/infoContent";
 
-function PlaceInfo() {
-  const { query } = useRouter();
-  const places = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
-  const formatPlaceName = (slug: string) => {
+interface CurrentPlaceType {
+  currentPlaceInfo: TrekkingContent | undefined;
+}
+
+function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
+  const formatPlaceName = (slug: string | undefined) => {
     if (!slug) return "";
-    return slug
-      .split(/(?=[A-Z])/)
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
+    return slug.replaceAll("_", " ");
   };
-  const currentPlaceName = formatPlaceName(places);
+  const currentPlaceName = formatPlaceName(currentPlaceInfo?.title);
 
-  const currentPlaceData = infoContent[places];
-  console.log(currentPlaceData?.path[0]);
-
-  if (!currentPlaceData) {
+  if (!currentPlaceInfo) {
     return <div>Loading...</div>;
   }
 
@@ -32,29 +29,32 @@ function PlaceInfo() {
       <div className="">
         <div className="my-6">
           <h1 className="text-gray-800 subtitle-text mb-4">Highlight</h1>
-          <Highlight highlightData={currentPlaceData.highlights} />
-          <AboutActivity aboutData={currentPlaceData.about} />
+          <Highlight highlightData={currentPlaceInfo?.highlights} />
+          <AboutActivity aboutData={currentPlaceInfo?.about} />
         </div>
 
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">Benefits</h1>
-          <Benefits benefitData={currentPlaceData.facilities} />
+          <Benefits benefitData={currentPlaceInfo.facilities} />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">Itinerary</h1>
-          <Itinerary itineraryData={currentPlaceData.itinerary} />
+          <Itinerary itineraryData={currentPlaceInfo.itinerary} />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">
             Road map of this journey
           </h1>
-          <PathImg pathImg={currentPlaceData.path[0]} />
+          <PathImg pathImg={currentPlaceInfo?.path[0]} />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">
-            How to Prepare for {currentPlaceName}
+            How to Prepare for{" "}
+            <span className="capitalize">{currentPlaceName}</span>
           </h1>
-          <HowToPrepareComponent howToPrepare={currentPlaceData.howtoprepare} />
+          <HowToPrepareComponent
+            howToPrepare={currentPlaceInfo?.HowToPrepare}
+          />
         </div>
       </div>
     </div>

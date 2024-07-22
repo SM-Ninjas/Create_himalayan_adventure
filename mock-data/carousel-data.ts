@@ -1,7 +1,11 @@
+// we have to merge this file and the infocontent files in each individual page these data are used so it will be good to have these together
+
+
+
 export const carouselData = [
   {
     id: 0,
-    slug: "annapurnaBaseCampTreck",   
+    slug: "annapurna_base_camp_trek",   
     category: "Trekking",
     img: "/locations/annapurna.webp",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
@@ -18,7 +22,7 @@ export const carouselData = [
     ],
     overView: {
       duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit ",
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
@@ -55,7 +59,7 @@ export const carouselData = [
   },
   {
     id: 1,
-    slug: "everestBaseCampTreck",
+    slug: "everest_base_camp_treck",
     category: "Trekking",
     img: "/locations/everest.avif",
     title: "Everest Base Camp",
@@ -111,7 +115,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    slug: "chitwanNationalParkTour",
+    slug: "chitwan_national_park_tour",
     category: "National Parks",
     img: "/locations/chitwan.jpeg",
     title: "Chitwan National Park Tour",
@@ -145,7 +149,7 @@ export const carouselData = [
   },
   {
     id: 3,
-    slug: "raraLakeTour",
+    slug: "rara_lake_tour",
     category: "Lakes",
     img: "/locations/rara.jpeg",
     title: "Rara Lake Tour",
@@ -201,8 +205,8 @@ export const carouselData = [
   },
   {
     id: 4,
-    slug: "pokharaAdventure",
-    category: "Adventure",
+    slug: "pokhara_adventure",
+    category: "Adventure", 
     img: "/locations/pokhara.jpeg",
     title: "Adverture in Pokhara",
     description:

@@ -3,14 +3,14 @@ import { FaArrowRight } from "react-icons/fa";
 import type { HowToPrepare } from "../../infoContent";
 
 type howToPrepareType = {
-    howToPrepare: HowToPrepare;
+    howToPrepare: HowToPrepare | undefined 
 };
 function HowToPrepare({ howToPrepare }: howToPrepareType) {
 
     return (
         <div>
             <div className="">
-                {howToPrepare.paragraph.map((data, i) => (
+                {howToPrepare?.paragraph.map((data, i) => (
                     <div key={i} className="flex mb-4 gap-6">
                         <h1 key={i} className="regular-tex t opacity-70">
                             {data}

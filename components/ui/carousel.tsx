@@ -25,7 +25,7 @@ function Carousel({ images }: CarouselProps) {
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
         >
-          {images.map((image, index) => (
+          {images?.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="flex">
                 <div className="relative aspect-video flex-1 justify-center rounded-lg">

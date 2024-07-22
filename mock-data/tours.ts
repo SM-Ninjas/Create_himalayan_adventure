@@ -12,11 +12,11 @@ export const tourRegions: TrekAndTours[] = [
     options: [
       {
         name: "Pokhara Day Tour with Sunrise View from Sarangkot",
-        slug: "pokhara-day-tour-sunrise-sarangkot",
+        slug: "pokhara_day_tour_sunrise_sarangkot",
       },
       {
         name: "Five Himalayan Viewpoint Tour from Pokhara",
-        slug: "five-himalayan-viewpoint-tour-pokhara",
+        slug: "five_himalayan_viewpoint_tour_pokhara",
       },
     ],
     route: routes.treks,
@@ -26,23 +26,23 @@ export const tourRegions: TrekAndTours[] = [
     options: [
       {
         name: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
-        slug: "nagarkot-dhulikhel-day-hike",
+        slug: "nagarkot_dhulikhel_day_hike",
       },
       {
         name: "Nagarkot Sunrise View and Nagarkot to Changunarayan Hike",
-        slug: "nagarkot-sunrise-view-changunarayan-hike",
+        slug: "nagarkot_sunrise_view_changunarayan_hike",
       },
       {
-        name: "Namobuddha to Panauti Day Hiking - 1 Day",
-        slug: "namobuddha-panauti-day-hike",
+        name: "Namobuddha to Panauti Day Hiking _ 1 Day",
+        slug: "namobuddha_panauti_day_hike",
       },
       {
-        name: "Nagarjung Jamcho Day Hike - 1 Day",
-        slug: "nagarjung-jamcho-day-hike",
+        name: "Nagarjung Jamcho Day Hike _ 1 Day",
+        slug: "nagarjung_jamcho_day_hike",
       },
       {
-        name: "Champadevi Day Hike - 1 Day",
-        slug: "champadevi-day-hike",
+        name: "Champadevi Day Hike _ 1 Day",
+        slug: "champadevi_day_hike",
       },
     ],
     route: routes.treks,
@@ -51,48 +51,54 @@ export const tourRegions: TrekAndTours[] = [
     name: "Multiple Day Tours",
     options: [
       {
-        name: "Everest Three High Passes Trek - 18 Days",
-        slug: "everest-three-high-passes-trek-18-days",
+        name: "Everest Three High Passes Trek _ 18 Days",
+        slug: "everest_three_high_passes_trek_18_days",
+      },
+
+      // no data for this as well
+      {
+        name: "Budget Everest Base Camp Trek _ 12 Days",
+        slug: "budget_everest_base_camp_trek_12_days",
       },
       {
-        name: "Budget Everest Base Camp Trek - 12 Days",
-        slug: "budget-everest-base-camp-trek-12-days",
+        name: "Everest High Passes Trek Clockwise _ 18 Days",
+        slug: "everest_high_passes_trek_clockwise_18_days",
       },
       {
-        name: "Everest High Passes Trek Clockwise - 18 Days",
-        slug: "everest-high-passes-trek-clockwise-18-days",
+        name: "Gokyo Valley Circuit Trek _ 13 Days",
+        slug: "gokyo_valley_circuit_trek_13_days",
       },
       {
-        name: "Gokyo Valley Circuit Trek - 13 Days",
-        slug: "gokyo-valley-circuit-trek-13-days",
+        name: "Everest View Trek _ 9 Days",
+        slug: "everest_view_trek_9_days",
       },
       {
-        name: "Everest View Trek - 9 Days",
-        slug: "everest-view-trek-9-days",
+        name: "Everest Trek Cost for Indians _ 14 Days",
+        slug: "everest_trek_cost_indians_14_days",
       },
       {
-        name: "Everest Trek Cost for Indians - 14 Days",
-        slug: "everest-trek-cost-indians-14-days",
+        name: "Everest Gokyo Trek via Salleri _ 20 Days",
+        slug: "everest_gokyo_trek_via_salleri_20_days",
       },
-      {
-        name: "Everest Gokyo Trek via Salleri - 20 Days",
-        slug: "everest-gokyo-trek-via-salleri-20-days",
-      },
+      // no data
       {
         name: "12 Days Everest Base Camp Trek",
-        slug: "12-days-everest-base-camp-trek",
+        slug: "12_days_everest_base_camp_trek",
+      },
+      // no data for this 
+      {
+        name: "Rapid (Short) Everest Base Camp Trek _ 9 Days",
+        slug: "rapid_short_everest_base_camp_trek_9_days",
       },
       {
-        name: "Rapid (Short) Everest Base Camp Trek - 9 Days",
-        slug: "rapid-short-everest-base-camp-trek-9-days",
+        name: "EBC Trek via Gokyo Cho La Pass _ 17 Days",
+        slug: "ebc_trek_via_gokyo_cho_la_pass_17_days",
       },
+
+      // no data for this one 
       {
-        name: "EBC Trek via Gokyo Cho La Pass - 17 Days",
-        slug: "ebc-trek-via-gokyo-cho-la-pass-17-days",
-      },
-      {
-        name: "Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days",
-        slug: "everest-base-camp-trek-helicopter-return-kathmandu-10-days",
+        name: "Everest Base Camp Trek Helicopter Return to Kathmandu _ 10 Days",
+        slug: "everest_base_camp_trek_helicopter_return_kathmandu_10_days",
       },
     ],
     route: routes.treks,
@@ -101,32 +107,29 @@ export const tourRegions: TrekAndTours[] = [
     name: "Wildlife Tours",
     options: [
       {
-        name: "Everest High Passes Trek Clockwise - 18 Days",
-        slug: "everest-high-passes-trek-clockwise-18-days",
+        name: "Everest High Passes Trek Clockwise _ 18 Days",
+        slug: "everest_high_passes_trek_clockwise_18_days",
       },
       {
-        name: "Gokyo Valley Circuit Trek - 13 Days",
-        slug: "gokyo-valley-circuit-trek-13-days",
+        name: "Gokyo Valley Circuit Trek _ 13 Days",
+        slug: "gokyo_valley_circuit_trek_13_days",
       },
       {
-        name: "Everest View Trek - 9 Days",
-        slug: "everest-view-trek-9-days",
+        name: "Everest View Trek _ 9 Days",
+        slug: "everest_view_trek_9_days",
       },
       {
-        name: "Gokyo Chola Pass Trekking via EBC - 17 Days",
-        slug: "gokyo-chola-pass-trekking-via-ebc-17-days",
+        name: "Gokyo Chola Pass Trekking via EBC _ 17 Days",
+        slug: "gokyo_chola_pass_trekking_via_ebc_17_days",
       },
       {
-        name: "Everest Base Camp Trek Heli Out to Lukla - 12 Days",
-        slug: "everest-base-camp-trek-heli-out-lukla-12-days",
+        name: "Pikey Peak Trek _ 10 Days",
+        slug: "pikey_peak_trek_10_days",
       },
+      // No data for this
       {
-        name: "Pikey Peak Trek - 10 Days",
-        slug: "pikey-peak-trek-10-days",
-      },
-      {
-        name: "Everest Base Camp Trek by Road - 16 Days",
-        slug: "everest-base-camp-trek-by-road-16-days",
+        name: "Everest Base Camp Trek by Road _ 16 Days",
+        slug: "everest_base_camp_trek_by_road_16_days",
       },
     ],
     route: routes.treks,

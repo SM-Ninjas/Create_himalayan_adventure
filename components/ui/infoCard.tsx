@@ -1,15 +1,18 @@
-import { DataTypes } from "@/components/home/CarouselSection";
+// import { DataTypes } from "@/components/home/CarouselSection";
+
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { FiMinus } from "react-icons/fi";
 import Buttons from "./Buttons";
 import Link from "next/link";
+import{ TrekkingContent } from "@/components/ui/infoContent";
+
 
 interface infoCardType {
-  currentPlaceDataData: DataTypes | undefined;
+  currentPlaceData: TrekkingContent | undefined;
 }
 
-function InfoCard({ currentPlaceDataData }: infoCardType) {
+function InfoCard({ currentPlaceData }: infoCardType) {
   const [count, setCount] = useState(1);
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().slice(0, 10)
@@ -24,10 +27,10 @@ function InfoCard({ currentPlaceDataData }: infoCardType) {
     <div className="mt-8 w-full rounded-xl border bg-[#fff] p-2 px-6">
       <div className="">
         <h1 className="subtitle-text mt-2 text-gray-800">
-          {currentPlaceDataData?.title}
+          {currentPlaceData?.title}
         </h1>
         <h3 className="small-text mb-4 opacity-80">
-          {currentPlaceDataData?.days}
+          {currentPlaceData?.days}
         </h3>
         <div className="mb-4 flex items-center gap-2">
           {/* <MdAddBox onClick={handleIncreasePeople} color="#0075FF" size={27} /> */}
