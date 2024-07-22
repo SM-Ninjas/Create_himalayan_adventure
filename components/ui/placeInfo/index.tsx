@@ -45,7 +45,13 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
           <h1 className="text-gray-800 subtitle-text mb-4">
             Road map of this journey
           </h1>
-          <PathImg pathImg={currentPlaceInfo?.path[0]} />
+          <PathImg
+            pathImg={
+              currentPlaceInfo && currentPlaceInfo.path
+                ? currentPlaceInfo.path[0]
+                : undefined
+            }
+          />
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
-import { itineraryType } from "../../infoContent";
+import { ItineraryType } from "../../infoContent";
 type itineraryTypes = {
-  itineraryData?: itineraryType[]; // as it's array of objects
+  itineraryData?: ItineraryType[]; // as it's array of objects
 };
 
 function Itinerary(itineraryData: itineraryTypes) {
