@@ -57,7 +57,7 @@ annapurna_base_camp_trek: {
   category: "Trekking",
   img: "/images/Annapurnabasecamp.jpg",
   description: "14 Days Annapurna Base Camp Trek guided by the professionals",
-  title: "Annapurna Base",
+  title: "Annapurna Base Camp",
   location: "Kaski",
   days: "14 days",
   people: "1-12",
@@ -407,7 +407,7 @@ everest_base_camp_treck: {
       "At the same time, keep in mind that preparing for the 14-day trek to Everest Base Camp includes a significant amount of mental preparation. It is a tough path with a high degree of difficulty that lasts many days, even if the rank of the adventure cannot be compared to climbing Everest. Be ready for everyday occurrences, constantly changing weather, and the high likelihood of altitude sickness.",
     ],
   },
-  path: ["/images/abc-road-img.jpg"],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 
 //                                                                        chitwan-national-park-tour
@@ -420,19 +420,19 @@ chitwan_national_park_tour: {
   description:
     "Wild animals in their natural environment, luxury safari lodges",
   location: "Bagmati",
-  days: "14 days",
+  days: "4 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/images/chitwannationalpark1.jpg",
+    "/images/chitwannationalpark2.jpg",
+    "/images/chitwannationalpark3.jpg",
+    "/images/chitwannationalpark4.jpg",
+    "/images/chitwannationalpark5.jpg",
   ],
 
   overView: {
     duration:
-      "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      "A full 4 days 3 nights worth of adventurous and exciting trek throughout the circuit",
     startingPoint:
       "Meet up at the designated location in Kathmandu at sharp 6 AM",
     endingPoint:
@@ -514,92 +514,92 @@ chitwan_national_park_tour: {
       "Always follow the safety guidelines provided by your tour guide or park officials. Avoid venturing into the jungle alone or without a guide, and do not feed or touch the animals. In case of an emergency, contact the park officials immediately.    ",
     ],
   },
-  path: ["/images/abc-road-img.jpg"],
+  path: ["/images/ChitawanMap.png"],
 },
 //                                                                               rara-lake-tour
-// rara_lake_tour: {
-//   id: 3,
-//   slug: "rara_lake_tour",
-//   category: "Lakes",
-//   img: "/locations/rara.jpeg",
-//   title: "Rara Lake Tour",
-//   description:
-//     "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
-//   location: "Jumla",
-//   days: "14 days",
-//   people: "1-12",
-//   subimages: [
-//     "/locations/chitwan_sub1.png",
-//     "/locations/girl_sub1.png",
-//     "/locations/chitwan_sub1.png",
-//     "/locations/girl_sub1.png",
-//     "/locations/girl_sub1.png",
-//   ],
+rara_lake_tour: {
+  id: 3,
+  slug: "rara_lake_tour",
+  category: "Lakes",
+  img: "/images/raralaketour.jpg",
+  title: "Rara Lake Tour",
+  description:
+    "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
+  location: "Jumla",
+  days: "4 days",
+  people: "1-12",
+  subimages: [
+    "/images/raralaketour1.jpg",
+    "/images/raralaketour2.jpg",
+    "/images/raralaketour3.jpg",
+    "/images/raralaketour4.jpg",
+    "/images/raralaketour5.jpg",
+  ],
 
-//   overView: {
-//     duration:
-//       "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
-//     startingPoint:
-//       "Meet up at the designated location in Kathmandu at sharp 6 AM",
-//     endingPoint:
-//       "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-//     peoples:
-//       "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-//     category:
-//       "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-//     bestSeason: "Spring and Autumn",
-//   },
-//   equipment: [
-//     {
-//       title: "Trekking Backpack",
-//       image: "/images/trekking_backpack.jpg",
-//       description: "A durable backpack designed for trekking adventures.",
-//     },
-//     {
-//       title: "Walking Stick",
-//       image: "/images/walking_stick.jpg",
-//       description: "A sturdy walking stick to provide support during treks.",
-//     },
-//     {
-//       title: "Sunglasses",
-//       image: "/images/sunglasses.jpg",
-//       description: "UV-protected sunglasses to protect your eyes from glare.",
-//     },
-//     {
-//       title: "Trekking Shoes",
-//       image: "/images/trekking_shoes.jpg",
-//       description:
-//         "Waterproof and high-ankle shoes with good grip for trekking.",
-//     },
-//   ],
-//   about: [""],
-//   highlights: [
-//     "Discover the pristine beauty of Rara Lake surrounded by lush forests and stunning mountain views",
-//     "Explore the diverse flora and fauna in the Rara National Park",
-//     "Witness the traditional way of life of local communities",
-//     "Enjoy a peaceful boat ride on the crystal-clear waters of the lake",
-//     "Capture the majestic views of snow-capped peaks reflected in the tranquil lake",
-//     "Relax and unwind in a serene natural environment, away from the hustle and bustle of city life",
-//     "Experience a professionally curated day tour by the Green Valley Nepal Treks Team",
-//   ],
-//   facilities: [
-//     "Free International Airport Pickup and Drop off facilities",
-//     "Green Valley Nepal Trek T-Shirt and Duffle Bag",
-//     "Medical Kits might be necessary in Certain Cases",
-//     "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
-//     "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
-//     "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
-//   ],
-//   itinerary: [],
-//   HowToPrepare: {
-//     paragraph: [
-//       "This is just a single-day tour so, you might not have to prepare for a lot of things. Our representatives will pick you up in the morning and show you the beauties and mysteries of Pokhara city for one whole day before dropping you off at your hotel by the evening or night.",
-//       "In between, Create Himalaya Adventure' guide will always be with you if you have any problems or queries. So, preparation for this trip is not so difficult or worth spending a lot of energy and time. However, here are a few things that we suggest you be prepared with for this trip.",
-//     ],
-//     points: [""],
-//   },
-//   path: ["/images/abc-road-img.jpg"],
-// },
+  overView: {
+    duration:
+      "A full 4 days 3 nights worth of adventurous and exciting trek throughout the circuit",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    peoples:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    category:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/trekking_backpack.jpg",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walking_stick.jpg",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/sunglasses.jpg",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/trekking_shoes.jpg",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [""],
+  highlights: [
+    "Discover the pristine beauty of Rara Lake surrounded by lush forests and stunning mountain views",
+    "Explore the diverse flora and fauna in the Rara National Park",
+    "Witness the traditional way of life of local communities",
+    "Enjoy a peaceful boat ride on the crystal-clear waters of the lake",
+    "Capture the majestic views of snow-capped peaks reflected in the tranquil lake",
+    "Relax and unwind in a serene natural environment, away from the hustle and bustle of city life",
+    "Experience a professionally curated day tour by the Green Valley Nepal Treks Team",
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Green Valley Nepal Trek T-Shirt and Duffle Bag",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [],
+  HowToPrepare: {
+    paragraph: [
+      "This is just a single-day tour so, you might not have to prepare for a lot of things. Our representatives will pick you up in the morning and show you the beauties and mysteries of Pokhara city for one whole day before dropping you off at your hotel by the evening or night.",
+      "In between, Create Himalaya Adventure' guide will always be with you if you have any problems or queries. So, preparation for this trip is not so difficult or worth spending a lot of energy and time. However, here are a few things that we suggest you be prepared with for this trip.",
+    ],
+    points: [""],
+  },
+  path: ["/images/raramap.jpg"]
+},
 
 //                                                                              pokhara-adventure
 pokhara_adventure: {
@@ -614,16 +614,16 @@ pokhara_adventure: {
   days: "2 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/images/pokharaadventure1.jpg",
+    "/images/pokharaadventure2.jpg",
+    "/images/pokharaadventure3.jpg",
+    "/images/pokharaadventure4.jpg",
+    "/images/pokharaadventure5.jpg",
   ],
 
   overView: {
     duration:
-      "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+      "A full 2 days 1 nights worth of adventurous and exciting trek throughout the circuit",
     startingPoint:
       "Meet up at the designated location in Kathmandu at sharp 6 AM",
     endingPoint:
@@ -695,7 +695,7 @@ pokhara_adventure: {
       "Be aware of your surroundings and take necessary safety precautions to ensure that you stay safe during your journey. Avoid walking alone at night, carry a copy of your passport and other important documents, and be cautious when using public transportation.",
     ],
   },
-  path: ["/images/abc-road-img.jpg"],
+  path: ["/images/PokharaMap.jpg"],
 },
 
 /////////////////////////////////////////////////////////////////////////Add More/////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -849,25 +849,25 @@ mardi_himal_trek: {
       "Trekking to Mardi Himal Base Camp is not very simple. To reach the most stunning trekking location in Nepal, you only need to put in some practice, dedication, planning, and assistance. Anyone may participate in this trekking, but it is necessary to be in good physical condition, physically fit, and motivated. You need to go on a few short trips and walk for 6 to 8 hours a day, both uphill and downhill before you go trekking in Nepal. You may increase your stamina by doing aerobic workouts like running, swimming, cycling, and more. Try some yoga poses that will immediately improve your breathing, and before the journey, keep your body hydrated by drinking plenty of water. ",
     ],
   },
-  path:[ ""],
+  path:[ "/images/Mardimap.jpg"],
 },
 ///////////////////////////////////////////////////Ghorepani Poonhill Trek - 8 Days/////////////////////////////////////////////////////////////////////////////////////
 ghorepani_poonhill_trek: {
   id: 6,
   slug: " ghorepani_poonhill_trek",
   category: "Trekking",
-  img: "/locations/annapurna.webp",
+  img: "/images/GhorepaniPoonhill.jpg",
   description: "8Days Ghorepani Poonhill Trek guided by the professionals",
   title: "Ghorepani Poonhill Trek",
   location: "Gandaki",
   days: "8 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/images/GhorepaniPoonhill.jpg",
+    "/images/GhorepaniPoonhill4.jpg",
+    "/images/GhorepaniPoonhill1.jpg",
+    "/images/GhorepaniPoonhill2.jpg",
+    "/images/GhorepaniPoonhill4.jpg",
   ],
   overView: {
     duration:
@@ -989,7 +989,7 @@ ghorepani_poonhill_trek: {
       "To reach Nepal's most extravagant trekking locations, you will need to warm up, practice, have discipline, plan ahead, and follow the finest guidance. Despite the fact that anybody may take part in Ghorepani Poonhill Trekking Journey, it does require good health, physical fitness, and self-motivation. There are a few things you may do before beginning the walk as naive hikers. You should start out with short strolls and go on 5 to 6 hours of daily walking, both uphill and downhill. Your endurance may be improved through aerobic exercises like running, swimming, cycling, and others. Even before the walk, increase your water intake and keep your body hydrated. You may quickly improve your breathing by performing a few easy yoga poses.",
     ],
   },
-  path: [""],
+  path: ["/images/ghorepanimap.jpg"],
 },
 ///////////////////////////////////////////////////////////Short ABC Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////
 short_abc_trek: {
@@ -1143,25 +1143,25 @@ short_abc_trek: {
       "Research: Researching the trek and the route is an important step in preparing for the short ABC Trek. It's important to know the distance, elevation, and trail conditions, as well as the best time of year to go, the availability of accommodation, and the estimated cost of the trek.",
     ],
   },
-  path: [""],
+  path: ["/images/abc-road-img.jpg"],
 },
 ////////////////////////////////Poon Hill Trek - 2 Days//////////////////////////////////////////////////////////////////////////////////////////////////////////
 poon_hill_trek: {
     id: 8,
     slug: "poon_hill_trek",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/GhorepaniPoonhill.jpg",
     description: "2 Days Poon Hill Trek guided by the professionals",
     title: "Poon Hill Trek - 2 Days",
     location: "Gandaki",
     days: "2 days",
     people: "1-12",
     subimages: [
-      "/images/Annapurnabasecamp2.jpg",
-      "/images/Annapurnabasecamp3.jpg",
-      "/images/Annapurnabasecamp4.jpg",
-      "/images/Annapurnabasecamp5.jpg",
-      "/images/Annapurnabasecamp6.jpg",
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/GhorepaniPoonhill4.jpg",
+      "/images/GhorepaniPoonhill1.jpg",
+      "/images/GhorepaniPoonhill2.jpg",
+      "/images/GhorepaniPoonhill4.jpg",
     ],
     overView: {
       duration:
@@ -1251,29 +1251,29 @@ poon_hill_trek: {
       "If you are new to trekking or prefer not to carry your own gear, you may want to consider hiring a guide or porter. They can help you navigate the trail, carry your gear, and provide valuable information about the local culture and environment.",
     ],
   },
-  path:[ ""],
+  path:[ "/images/ghorepanimap.jpg"],
 },
 /////////////////////////////////////////////////////////////////////////Poon Hill Mardi Himal Trek - 12 Days///////////////////////////////////////////////////////////////////////
 poon_hill_mardi_himal_trek: {
   id: 9,
     slug: "poon_hill_mardi_himal_trek",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/GhorepaniPoonhill.jpg",
     description: "12 Days Poon Hill Mardi Himal Trek guided by the professionals",
     title: "Poon Hill Mardi Himal Trek - 12 Days",
     location: "Gandaki",
     days: "12 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/mardihimaltrek1.jpg",
+      "/images/mardihimaltrek2.jpg",
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/GhorepaniPoonhill.jpg",
     ],
     overView: {
       duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit ",
+        "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
@@ -1415,7 +1415,7 @@ poon_hill_mardi_himal_trek: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/Mardimap.jpg"],
 },
 ////////////////////////////////////////////////////////////////////Annapurna Full Circuit Trek - 17 Days//////////////////////////////////////////////////////////////////////////
 annapurna_full_circuit_trek: {
@@ -1611,7 +1611,7 @@ annapurna_full_circuit_trek: {
       "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
     ],
   },
-  path:[ ""],
+  path:[ "/images/ABC.jpg"],
 },
 /////////////////////////////////////////////////////////////////////Everest Region Trekking////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////EBC Trek via Gokyo with Helicopter Return – 15 Days////////////////////////////////////////////////////////
@@ -1801,25 +1801,25 @@ ebc_trek_gokyo_helicopter: {
       "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
     ],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////////////////////////////////////Luxury Everest Heli Trek - 6 Days///////////////////////////////////////////////////////////////////////
 luxury_trek_gokyo_helicopter: {
   id: 12,
     slug: "luxury_trek_gokyo_helicopter",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/EverestBaseCampTreck1.jpg",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
     title: "Luxury Everest Heli Trek - 6 Days",
     location: "Solukhumbu",
     days: "6 days",
     people: "1-10",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
     ],
     overView: {
       duration:
@@ -1921,7 +1921,7 @@ luxury_trek_gokyo_helicopter: {
     paragraph: [],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////////Sleep at Base Camp on Everest Trek - 15 Days//////////////////////////////////////////////////////////////////////////////////////
 sleep_at_base_camp_everest: {
@@ -2127,7 +2127,7 @@ sleep_at_base_camp_everest: {
       "Ensure your backpack is comfortable and well-fitted.",
     ],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////////////////////////Everest Base Camp Trek - 14 Days/////////////////////////////////////////////////////////////////////
 ebc_trek_14_days: {
@@ -2299,7 +2299,7 @@ ebc_trek_14_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////13 Days Luxury Everest Trek////////////////////////////////////////////////////////////////////////////////////////////////////
 luxury_everest_trek_13_days: {
@@ -2464,7 +2464,7 @@ luxury_everest_trek_13_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////////////Everest Three High Passes Trek - 18 Days/////////////////////////////////////////////////////////////////////////////////////////
 everest_three_high_passes_trek_18_days: {
@@ -2665,14 +2665,14 @@ everest_three_high_passes_trek_18_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ////////////////////////////////////////////////////Budget Everest Base Camp Trek - 12 Days////////////////////////////////////////////////////////////////////////////
 budget_ebc_trek_12_days: {
   id: 17,
     slug: "budget_ebc_trek_12_days",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/EverestBaseCampTreck1.jpg",
     description: "12 Days Budget Everest Base Camp Trekguided by the professionals",
     title: "Budget Everest Base Camp Trek - 12 Days",
     location: "Solukhumbu",
@@ -2826,7 +2826,7 @@ budget_ebc_trek_12_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////////Everest High Passes Trek Clockwise - 18 Days///////////////////////////////////////////////////////////////
 everest_high_passes_trek_clockwise_18_days: {
@@ -3025,25 +3025,25 @@ everest_high_passes_trek_clockwise_18_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////////////////////////////////////////Gokyo Valley Circuit Trek - 13 Days//////////////////////////////////////////////////////////////////////////////////////////////
 gokyo_valley_circuit_trek_13_days: {
   id: 19,
     slug: "gokyo_valley_circuit_trek_13_days",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/Gokyo1.jpeg",
     description: "13 Days Gokyo Valley Circuit Trek guided by the professionals",
     title: "Gokyo Valley Circuit Trek - 13 Days",
     location: "Solukhumbu",
     days: "13 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/Gokyo1.jpeg",
+      "/images/gokyo2.jpg",
+      "/images/gokyo3.jpg",
+      "/images/gokyo2.jpg",
+      "/images/gokyo3.jpg",
     ],
     overView: {
       duration:
@@ -3192,7 +3192,7 @@ gokyo_valley_circuit_trek_13_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////////////////Everest View Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -3333,7 +3333,7 @@ everest_view_trek_9_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ////////////////////////////////////////////////////Everest Trek Cost for Indians - 14 Days//////////////////////////////////////////////////////////////////////////////
 everest_trek_cost_indians_14_days: {
@@ -3494,7 +3494,7 @@ everest_trek_cost_indians_14_days: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////////////////////////////////////////Everest Gokyo Trek via Salleri - 20 Days////////////////////////////////////////////////////////////////
 everest_gokyo_trek_via_salleri_20_days: {
@@ -3699,7 +3699,7 @@ everest_gokyo_trek_via_salleri_20_days: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/EverestBaseCampMap.jpg"],
 },
 /////////////////////////////////////////////////////12 Days Everest Base Camp Trek//////////////////////////////////////////////////
 ebc_trek_12_days: {
@@ -3860,7 +3860,7 @@ ebc_trek_12_days: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/EverestBaseCampMap.jpg"],
 },
 //////////////////////////////////////////////Rapid (Short) Everest Base Camp Trek - 9 Days//////////////////////////////////////////
 rapid_ebc_trek_9_days: {
@@ -3997,7 +3997,7 @@ rapid_ebc_trek_9_days: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////////////EBC Trek via Gokyo Cho La Pass - 17 Days////////////////////////////////////////////
 ebc_trek_via_gokyo_cho_la_pass_17_days: {
@@ -4188,7 +4188,7 @@ ebc_trek_via_gokyo_cho_la_pass_17_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ///////////////////////////////////////////Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days////////////////////////////
 ebc_trek_helicopter_return_kathmandu_10_days: {
@@ -4335,7 +4335,7 @@ ebc_trek_helicopter_return_kathmandu_10_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ////////////////////////////////////////////////////////Gokyo Chola Pass Trekking via EBC - 17 Days//////////////////////////////////
 gokyo_chola_pass_trekking_via_ebc_17_days: {
@@ -4530,7 +4530,7 @@ gokyo_chola_pass_trekking_via_ebc_17_days: {
       "ental Preparation: The EBC with Gokyo Chola Pass Trek is a challenging trek that requires a good level of mental preparation. It is important to be mentally prepared for the physical challenges and the lack of amenities and services in a remote and rugged area.",
     ],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ////////////////////////////////////////////Everest Base Camp Trek Heli Out to Lukla - 12 Days////////////////////////////////
 ebc_trek_heli_out_lukla_12_days: {
@@ -4693,25 +4693,25 @@ ebc_trek_heli_out_lukla_12_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 ////////////////////////////////////////////Pikey Peak Trek - 10 Days//////////////////////////////////////////////////////////
 pikey_peak_trek_10_days: {
   id: 29,
   slug: "pikey_peak_trek_10_days",
   category: "Trekking",
-  img: "/locations/annapurna.webp",
+  img: "/images/pikeypeaktrek1.jpg",
   description: "10 Days Pikey Peak Trek guided by the professionals",
   title: "Pikey Peak Trek - 10 Days",
   location: "Solukhumbu",
   days: "10 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/images/pikeypeaktrek1.jpg",
+    "/images/pikeypeaktrek2.jpg",
+    "/images/pikeypeaktrek3.jpg",
+    "/images/pikeypeaktrek4.jpeg",
+    "/images/pikeypeaktrek5.jpg",
   ],
   overView: {
     duration:
@@ -4843,7 +4843,7 @@ pikey_peak_trek_10_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/Pikey map.jpg"],
 },
 ////////////////////////////////////////////////////Everest Base Camp Trek by Road - 16 Days/////////////////////////////////////////
 ebc_trek_by_road_16_days: {
@@ -5032,7 +5032,7 @@ ebc_trek_by_road_16_days: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/EverestBaseCampMap.jpg"],
 },
 
 // Drop Down Tourns In Nepal
@@ -5051,7 +5051,7 @@ pokhara_day_tour_sunrise_sarangkot: {
   people: "1-12",
   subimages: [
    "/images/pokharaadventure1.jpg",
-    "/images/pokharaadventure2.jpg",
+    "/images/pokharaadventure2.jpeg",
     "/images/pokharaadventure3.jpg",
     "/images/pokharaadventure4.jpg",
     "/images/pokharaadventure5.jpg",
@@ -5124,7 +5124,7 @@ pokhara_day_tour_sunrise_sarangkot: {
     paragraph: [],
     points: [],
   },
-  path: [""],
+  path: ["/images/PokharaMap.jpg"],
 },
 //                                                Five Himalayan Viewpoint Tour from Pokhara
 five_himalayan_viewpoint_tour_pokhara: {
@@ -5139,7 +5139,7 @@ five_himalayan_viewpoint_tour_pokhara: {
   people: "1-12",
   subimages: [
     "/images/pokharaadventure1.jpg",
-    "/images/pokharaadventure2.jpg",
+    "/images/pokharaadventure2.jpeg",
     "/images/pokharaadventure3.jpg",
     "/images/pokharaadventure4.jpg",
     "/images/pokharaadventure5.jpg",
@@ -5209,7 +5209,7 @@ five_himalayan_viewpoint_tour_pokhara: {
     paragraph: [],
     points: [],
   },
-  path: [""],
+  path: ["/images/PokharaMap.jpg"],
 },
 //                                            Nagarkot to Dhulikhel Day Hiking Trip – 1 Day
 nagarkot_dhulikhel_day_hike: {
@@ -5295,7 +5295,7 @@ nagarkot_dhulikhel_day_hike: {
   //   paragraph: [],
   //   points: [],
   // },
-  path: [],
+  path: ["/images/NagarMap.jpg"],
 },
 //                                            Nagarkot Sunrise View and Nagarkot to Changunarayan Hike
 nagarkot_sunrise_view_changunarayan_hike: {
@@ -5383,7 +5383,7 @@ nagarkot_sunrise_view_changunarayan_hike: {
     ],
     points: [],
   },
-  path: [""],
+  path: ["/images/mapmain.jpg"],
 },
 //                                                        Namobuddha to Panauti Day Hiking - 1 Day
 namobuddha_panauti_day_hike: {
@@ -5475,7 +5475,7 @@ namobuddha_panauti_day_hike: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/images/mapmain.jpg"],
 },
 //                                                  Nagarjung Jamcho Day Hike - 1 Day
 nagarjung_jamcho_day_hike: {
@@ -5563,7 +5563,7 @@ nagarjung_jamcho_day_hike: {
     ],
     points: [],
   },
-  path:[ ""],
+  path:[ "/image/mapmain.jpg"],
 },
 //                                                          Champadevi Day Hike - 1 Day
 champadevi_day_hike: {
@@ -5627,13 +5627,179 @@ champadevi_day_hike: {
     "After an early morning drive to Pharping, 16 kilometers south of Kathmandu, we commence our journey. Pharping itself is bountiful in pilgrimage sites which include the renowned Dakshinkali Temple. The trail takes passes through pine forests along the north ridge for about half-hour. Through trails along lush greenery, the route gradually ascends to Champadevi. The three hours nature walk is good for bird watching as well.",
     "Situated at an elevation of 2285m, Champadevi’s pilgrimage site consists of a Buddhist Stupa and a Hindu Shrine. With excellent views of the mountain ranges, the quiet and calm of the place is a perfect retreat from the valley’s humdrum. The walk to Hattiban (Elephant Forest) takes around two hours. Hattiban situated between Dakshinkali Temple and Kirtipur offers a detailed view of Kathmandu Valley as well as some mountain ranges. The place is also popular for rock climbing.",
   ],
-  facilities: [],
-  itinerary: [],
-  HowToPrepare: {
-    paragraph: [],
-    points: [],
-  },
-  path:[ ""],
+ 
+  path:[ "/images/mapmain.jpg"],
 },
+//Annapurna Circuit Trek - 12 Days
+
+annapurna_circuit_trek:{
+  id: 0,
+  slug: "annapurna_circuit_trek",
+  category: "Trekking",
+  img: "/images/Annapurnabasecamp.jpg",
+  description: "14 Days Annapurna Base Camp Trek guided by the professionals",
+  title: "Annapurna Circuit Trek",
+  location: "Kaski",
+  days: "12 days",
+  people: "1-12",
+  subimages: [
+    "/images/Annapurnabasecamp2.jpg",
+    "/images/Annapurnabasecamp3.jpg",
+    "/images/Annapurnabasecamp4.jpg",
+    "/images/Annapurnabasecamp5.jpg",
+    "/images/Annapurnabasecamp6.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "The 12-day Annapurna Circuit Trek is a famous Trekking in Nepal. This trek is located in the Annapurna Region in Nepal, which is protected by the Annapurna Conservation Area Project (ACAP) ",
+    "12 days Annapurna Circuit Trek starts through altitudes of 800 m and ascends to 5,416 m (Throng La Pass) through rice paddy fields, subtropical forests, rural villages, and glacial zones. Panoramic view of the Himalayas, including Mt. Dhaulagiri (8,167m), Mt. Annapurna I (8,091m), Mt. Manaslu (8,163 m), Mt. Annapurna II (7,937 m.), Mt. Annapurna III (7,555m), Mt. Annapurna IV (7,525m), Mt. Annapurna south (7,219m), Mt. Nilgiri (7,041m), Mt. Machhapuchhare (6,998m), Mt. Hiunchuli (6,441m), Mt. Lamjung Himal (6,986m), Tukuche peak (6,920m), and Tilicho peak (7134m) are the major attraction of the Annapurna Circuit Trek.",
+     "On day one of the Annapurna Circuit Trek Itinerary, we drive to Chamje from Kathmandu by public bus and share a Jeep. On day four we will reach the Chame (2630m) headquarters of the Manang district where we can visit a small natural hot spring as well. On day six of the Annapurna Circuit Trek we hike to Manang via Gheru and Nawal from where you could see panoramic views of the Annapurna Himalaya Range including the valley and glacier. In Manang, we spend one extra day for acclimatization, and we continue the hike to Throng High Camp by spending one overnight in Letdar (4250m. We leave early morning from Throng High Camp to cross Throng La Pass on day 10 of the Annapurna Circuit Trek. Throng La Pass (5416m) connects Manang village and Muktinath Temple. After lunch in Muktinath town, we visit Muktinath Temple.",
+     "After spending an overnight night in Muktinath Village we continue the hike to Jomsom (headquarters of Mustang district) via the windy valley of Kali Gandaki River."
+    ],
+  highlights: [
+    "Along the Annapurna Circuit Trek, climb to the elevation of 5416 meters at Throng La Pass.",
+    "By trekking through woods of oak, rhododendron, and rice fields, you can discover the various facets of the Himalayas.",
+    "Obtain information about the Nepalese mountain culture as you pass through small villages along the trail.",
+    "Visit historical sites and temples while exploring Nepal's capital city.",
+    "After the trip, spend a day exploring Pokhara, Nepal's haven city. Boating on Fewa Lake and the Pokhara Valley Tour is wonderful.",
+    "Visit the 108 stone faucets at the Muktinath Temple, which is revered by both Hindus and Buddhists.",
+    "Visit the largest Monastery of Manang in Braga",
+    "Fly to Pokhara from Jomsom while admiring the breathtaking panorama of the Annapurna Himalaya Range.",
+    "Magnificent lakes, glaciers, deep gorges, and stunning waterfalls",
+    "Stunning views of Mt. Annapurna, Thorung Peak, Nilgiri, Chulu, Tukuche Peak, Dhaulagiri, Lamjung Himal, Annapurna"
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Create Himalaya Adventure T-Shirt and Duffle Bag",
+    "Map of Annapurna Base Camp Trekking",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Create Himalaya Adventure Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival To Kathmandu(1400m)",
+      details:
+      "At the Tribhuwan International Airport, our airport representative will receive you. He will transport you to the hotel in a private tourist vehicle and help you check-in. After a lengthy flight, get some rest. To obtain your first sights of Kathmandu city, go outside to your hotel and explore some of the beautiful places. In the evening, there will be a trek briefing where you will also get to know your guide. The guide will provide you with information about the Annapurna Circuit Trek Itinerary and assist you with any missing equipment."
+    },
+    {
+      day: 2,
+      description:
+        "Drive from Kathmandu (1400m) to Dharapani (1860m)",
+      details:
+      "Departing early in the morning, a public bus will take you from Kathmandu to Bhulbhule through Besisahar. Following that, you will be placed in a shared jeep and driven to your final stop for the day, Dharapani. Beautiful waterfalls, snow-capped mountains, and several suspension bridges will astound you on your Annapurna Circuit Trek Excursion. As you follow the Marsayangdi River side by side, you will travel through charming small villages like Ngadi, Bahundanda, Syange, Jagat, Chamje, and Tal before arriving at Dharapani. Travelers should register their identities and trekking permits at the police checkpoint in Dharapani."
+    },
+    {
+      day: 3,
+      description:
+        "Trek from Dharapani (1860m) to Chame (2610m)",
+      details:
+        "Today your Annapurna Circuit Trek Route will travel over alpine territory, where the weather will change and become colder. Bagarchhap and Danakyu Tibetan settlements are reached after traveling through woodlands. Along with pine trees, farms, and vistas of the Lamjung and Annapurna II peaks, you will witness the apple-growing region. After passing through the lovely settlements of Timang, Thanchowk, and Koto, where the Naar-Phu path connects with the Annapurna Circuit trek, you will eventually arrive in Chame. At the entrance to the settlement, there is a sizable mani wall with prayer wheels. Manang's district headquarters, Chame, is home to a number of amenities, including top-notch hotels, Internet cafés, stores selling hiking equipment, banks, and facilities for communication and health."
+    },
+    {
+      day: 4,
+      description: "Trek from Chame (2610m) to Upper Pisang (3300m)",
+      details:
+     "The Chame route travels through a stunning pine and rhododendron forest in a small, rocky valley. The route goes up and provides breathtaking views of rocky surfaces, including the face of Pangdi Danda and Swargadwari Danda, after crossing the Marshyangdi River on a suspension bridge. If you continue on your Annapurna Circuit Trekking Route, you will pass through the villages of Talekhu and Bhratang and arrive in Dhikur Pokhari. Many mountains, including Annapurna II, Pisang Peak, Chulu Peak, Tilicho Peak, and others, are visible from Dhikur Pokhari. You will next cross a suspension bridge across a river and begin walking toward Upper Pisang. Upper Pisang has magnificent views of the Annapurna Range's Kuntu Danda, Longyo Danda, and Pisang Peak. Due to the thin air at Upper Pisang, some hikers may have trouble breathing."
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Upper Pisang (3300m) to Manang (3540m)",
+      details:
+      "You will travel the toughest path, which includes several steep ascents and twists, starting from Pisang. You will be trekking on the higher trails through Upper Pisang via Ghyaru and Ngawal, from where you can see magnificent views of Lamjung Himal (6,983m), Annapurna II (7,937m), Annapurna IV (7,525m), Gandarbha Chuli (6,250m), Annapurna III (7555m), Gangapurna (7,544m), Glacier Dome (7,193m), Khangsar Kan (6,091m). You will notice that the air becomes chilly, dry, and harsher as the trail increases. You will have the opportunity to learn about Buddhist culture as you go through the Tibetan communities on this path. Before arriving at Manang, it goes past the picturesque town of Munchi and the obscure hamlet of Braga. The biggest monastery in Manang is Barge Monastery, which you will be exploring. When you eventually get to Manang bazaar after passing several monasteries, you will see that the road is studded with Buddhist shrines. One of the largest settlements along the Annapurna Circuit Trek is Manang. All amenities are available here."
+    },
+    {
+      day: 6,
+      description: "Acclimatization at Manang (3540m)",
+      details:
+     "A crucial rest day is needed for acclimatization before ascending to high elevation and the Thorung La Pass. As per your Annapurna Circuit Trek Itinerary, today is your acclimatization day. Make the most of your time by taking a quick acclimatization stroll to Gangapurna Lake and its surroundings. This tourist attraction's route is a little rocky and littered with tiny pebbles and garbage, but the scenery is spectacular. The Gangapurna Lake itself is serene and draws its water from melting glaciers since it is surrounded by gleaming mountains and rugged hills. Mt. Gangapurna, Khangsar Kang, Glacial Dom, and Annapurna can all be seen from the shoreline. Some hikers also like to go on a side hike to Ice Lake and Base Camp, which provide stunning landscapes. Their path offers stunning views of Chulu Peak, Tilicho, and Annapurna III."
+    },
+    {
+      day: 7,
+      description: "Trek from Manang (3540m) to Ledar (4200m)",
+      details:
+     "Your Annapurna Circuit Route will ascend to the settlement of Tengi from Manang village, crosses a spring, and then continues to ascend out of the Marshyangdi Valley before turning northwest and ascending the Jarsang Khola valley. The path proceeds northward through this valley, slowly gaining altitude as it passes through a few meadows and a juniper tree scrub. The little settlement of Ghusang, which consists of a collection of mud-roofed structures, is located close to where the route continues to travel. The trail passes through yak and horse grazing meadows known as Yak Kharka. The path crosses a historic old Mani wall in a peaceful meadow after passing a small river on a wooden bridge, and it eventually reaches the lovely hamlet of Ledar."
+    },
+    {
+      day: 8,
+      description: "Trek from Ledar (4200m) to Thorung Phedi (4525m) or Thorung High Camp (4925m)",
+      details:
+    "You will walk to Thorung High Camp, also known as Thorung Phedi, today. Depending on your physical condition and the weather, it will take 4 to 5 hours to reach Thorung Phedi or Thorung High Camp. In these higher locations, the difficulty level and frequently severe winds are impacted by the higher altitude. Snow on the Annapurna Circuit Trek Route can make it take considerably longer. Following your guide, go gently and carefully. You may observe herds of Yaks and blue sheep grazing on the other side of the river, across from the course. In Thorung Phedi, there aren't many tea places. Unlike the lush lowlands you crossed on the way up during the first part of the hike, the deserted, rocky environment is unearthly and quite different. Trekking to the High Camp will make the next day's trip simpler if you are not exhausted and eager to go further."    },
+    {
+      day: 9,
+      description:
+        "Trek from Thorung Phedi (4525m) to Muktinath (3760m) then Drive to Jomsom (2720m)",
+      details:
+      "Thorung La Pass, at 5416 meters, will be reached after a steeply ascending path from Thorung Phedi or Thorung High Camp. From Thorung La Pass, you can see the Annapurna Range, Thorong Peak, Dhaulagiri Range, Nilgiri, and other mountains in the distance. Your Annapurna Circuit Trek Route will descend down to Muktinath once you have taken a few pictures and taken in the scenery. All the way downhill is the route from Thorung La Pass to Muktinath. In addition to being a Buddhist temple, Muktinath is the second-largest Hindu temple. The Muktinath temple attracts plenty of Hindu pilgrims. In Muktinath, there are two small ponds and 108 water taps. Hindu peoples believe that if you take showers with 108 taps, you will be cleansed of the sin you did in your previous life. A holy natural gas flame glows behind a grill immediately above the spring at Dhola Mebar Gompa, or the Jwalamai (goddess of fire) temple, which is just a short distance away through a group of Chorten"
+    },
+    {
+      day: 10,
+      description: "Take Flight from Jomsom (2720m) to Pokhara (822m) ",
+        details:
+         "A major town called Jomsom is spread out along both sides of the Kali Gandaki River. The town serves as the primary transition point for trips to Muktinath and Upper Mustang. The Nepalese Army has a company stationed here. Jomsom Airport, which can accommodate aircraft from the Nepalese Army Air Service, has regular flights to Pokhara. You will go to the Jomsom airport this morning early in order to catch your aircraft to Pokhara. This will be your last trekking day on the mountain as per your Annapurna Circuit Trekking Itinerary. The flight time to Pokhara will be between 30 and 40 minutes. You can observe the route leading to Tatopani and Ghorepani as well as panoramic vistas of the Annapurna Himalaya Range throughout the flight."
+      },
+    {
+      day: 11,
+      description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
+      details:
+          "This is the last day of your Annapurna Circuit Trek Itinerary. This A major town called Jomsom is spread out along both sides of the Kali Gandaki River. The town serves as the primary transition point for trips to Muktinath and Upper Mustang. The Nepalese Army has a company stationed here. Jomsom Airport, which can accommodate aircraft from the Nepalese Army Air Service, has regular flights to Pokhara. You will go to the Jomsom airport this morning early in order to catch your aircraft to Pokhara. This will be your last trekking day on the mountain as per your Annapurna Circuit Trekking Itinerary. The flight time to Pokhara will be between 30 and 40 minutes. You can observe the route leading to Tatopani and Ghorepani as well as panoramic vistas of the Annapurna Himalaya Range throughout the flight., after waking up in Pokhara, you'll board a tourist bus to return to Kathmandu. The distance between Pokhara and Kathmandu is around 205 kilometers long, which follows the captivating Marsyangdi River and then the Trishuli River. Damauli bazaar, Dumre bazaar, and several other picturesque villages are all on the route from Pokhara to Kathmandu. Stunning views of snow-capped mountains, hilly terrain, and waterfalls are also provided by the drive. Our team will meet you as you arrive in the valley and lead you to your hotel so you can freshen up before spending your final evening in Nepal exploring Thamel or doing shopping."
+    },
+    {
+      day: 12,
+      description:
+        "Final Departure",
+      details:
+          "Depending on your departure schedule, we will often set up an airport transfer service three hours before departure. If you have additional time, we can set up some side trips for you, or you may go exploring on your own.",
+    },
+   
+  ],
+
+  HowToPrepare: {
+    paragraph: [
+          "To build endurance and strengthen core strength, Annapurna Circuit trekkers must devote enough time to physical preparation and exercise. They should concentrate on aerobic workouts like jogging, cycling, running, and squat jumps to improve joint muscles. To improve balance and provide a more stable foundation for navigating uneven terrain, aerobic training can be incorporated into the fitness routine. To complete the Annapurna Circuit Trek, trekkers need to be physically fit in addition to being able to walk on various terrains. Before traveling to Nepal, you can begin with a short hike and then go on longer hikes as they get more comfortable. Trekkers need to be emotionally charged since a lack of confidence can frequently result in unease and anxiety. Research on the weather and timetable for the Annapurna Circuit Trekking is essential. It will provide you with tips on how to manage the situation and assist you in getting ready for the trip."
+          ],
+  },
+  path: ["/images/abc-road-img.jpg"],
+
+}
 };
+
 export default infoContent;
