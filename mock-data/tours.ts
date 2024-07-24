@@ -58,7 +58,7 @@ export const tourRegions: TrekAndTours[] = [
       // no data for this as well
       {
         name: "Budget Everest Base Camp Trek _ 12 Days",
-        slug: "budget_everest_base_camp_trek_12_days",
+        slug: "budget_ebc_trek_12_days",
       },
       {
         name: "Everest High Passes Trek Clockwise _ 18 Days",
@@ -83,12 +83,12 @@ export const tourRegions: TrekAndTours[] = [
       // no data
       {
         name: "12 Days Everest Base Camp Trek",
-        slug: "12_days_everest_base_camp_trek",
+        slug: "ebc_trek_12_days",
       },
       // no data for this 
       {
         name: "Rapid (Short) Everest Base Camp Trek _ 9 Days",
-        slug: "rapid_short_everest_base_camp_trek_9_days",
+        slug: "rapid_ebc_trek_9_days",
       },
       {
         name: "EBC Trek via Gokyo Cho La Pass _ 17 Days",
@@ -98,7 +98,7 @@ export const tourRegions: TrekAndTours[] = [
       // no data for this one 
       {
         name: "Everest Base Camp Trek Helicopter Return to Kathmandu _ 10 Days",
-        slug: "everest_base_camp_trek_helicopter_return_kathmandu_10_days",
+        slug: "ebc_trek_helicopter_return_kathmandu_10_days",
       },
     ],
     route: routes.treks,
@@ -129,7 +129,7 @@ export const tourRegions: TrekAndTours[] = [
       // No data for this
       {
         name: "Everest Base Camp Trek by Road _ 16 Days",
-        slug: "everest_base_camp_trek_by_road_16_days",
+        slug: "ebc_trek_by_road_16_days",
       },
     ],
     route: routes.treks,

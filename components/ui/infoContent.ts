@@ -1,72 +1,2151 @@
 
 export type TrekkingContent = {
 
-    id?: number;
-    slug?: string;
-    category?: string;
-    img?: string;
-    description?: string;
-    title?: string;
-    location?: string;
-    days?: string;
-    people?: string;
-    equipment?: EquipmentType[];
-    overView?: OverViewType;
-    about?: string[];
-    highlights?: string[];
-    facilities?: string[];
-    itinerary?: ItineraryType[];
-    subimages?: subimages;
-    HowToPrepare? : HowToPrepare
-    path?:string[]
-  
+  id?: number;
+  slug?: string;
+  category?: string;
+  img?: string;
+  description?: string;
+  title?: string;
+  location?: string;
+  days?: string;
+  people?: string;
+  equipment?: EquipmentType[];
+  overView?: OverViewType;
+  about?: string[];
+  highlights?: string[];
+  facilities?: string[];
+  itinerary?: ItineraryType[];
+  subimages?: subimages;
+  HowToPrepare? : HowToPrepare
+  path?:string[]
+
 };
 export type subimages = string[];
 
 interface EquipmentType {
-  title: string;
-  image: string;
-  description: string;
+title: string;
+image: string;
+description: string;
 }
 
 export interface OverViewType {
-  duration: string;
-  startingPoint: string;
-  endingPoint: string;
-  peoples: string;
-  category: string;
-  bestSeason: string;
+duration: string;
+startingPoint: string;
+endingPoint: string;
+peoples: string;
+category: string;
+bestSeason: string;
 }
 
 export type HowToPrepare = {
-  paragraph: string[];
-  points?: string[];
+paragraph: string[];
+points?: string[];
 };
 
 export type ItineraryType = {
-  day: number;
-  description: string;
-  details?: string;
+day: number;
+description: string;
+details?: string;
 };
 
 const infoContent:{ [key: string]: TrekkingContent} = {
-  //                                                                               AnnapurnaBaseCampTreck
-  annapurna_base_camp_trek: {
-    id: 0,
-    slug: "annapurna_base_camp_trek",
+//                                                                               AnnapurnaBaseCampTreck
+annapurna_base_camp_trek: {
+  id: 0,
+  slug: "annapurna_base_camp_trek",
+  category: "Trekking",
+  img: "/images/Annapurnabasecamp.jpg",
+  description: "14 Days Annapurna Base Camp Trek guided by the professionals",
+  title: "Annapurna Base Camp",
+  location: "Kaski",
+  days: "14 days",
+  people: "1-12",
+  subimages: [
+    "/images/Annapurnabasecamp2.jpg",
+    "/images/Annapurnabasecamp3.jpg",
+    "/images/Annapurnabasecamp4.jpg",
+    "/images/Annapurnabasecamp5.jpg",
+    "/images/Annapurnabasecamp6.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "A professionally developed trekking itinerary for those looking for excitement is the 14 Days Annapurna Base Camp Trek by Create Himalaya Adventure Team. A peak above 8,000 meters, thirteen peaks over 7,000 meters, and sixteen more over 6,000 meters are all located within about 60 70 km lateral distance. More beautiful vistas of the Himalayas will gradually open out in front of you as you approach your ultimate goal, Annapurna Base Camp. Throughout the Annapurna Base Camp Trek Journey, each sunrise will increase the thrill and delight. ",
+    "An awe-inspiring scenery is provided by the area's terrain. The mountains look magnificent in the early morning. The Annapurna Base Camp Trek Itinerary offers stunning morning views. The hikes include a wide variety of sceneries and get you quite near the foot of peaks that are 7,000 and 8,000 meters high. The Annapurna First (8,091 m), Mt. Dhaulagiri (8,167 m), Mt. Nilgiri, Mt. Gangapurna, Mt. Machhapuchhre (6,993 m), Lamjung Himal, and other peaks will all be seen from here.  Along with seeing a wealth of cultural variety, the trip takes you past rural fields and villages inhabited by Gurung ethnic groupings. Gurung people are well-known for their fearlessness all around the world.",
+    "Annapurna Base Camp 14 Days Trek will provide you with a sublime perspective of the Annapurna Himalayan Range and the natural world.Annapurna Base Camp Trekking is a once -in -alifetime experience that will always stick in your memory, from the breathtaking scenery of the farmlands, colorful rhododendron woods, gorgeous terraced fields, and picturesque towns to high snow - capped Himalayan Mountains.Annapurna Base Camp Trekking is located in Nepal's Gandaki Province's Annapurna region. The ABC Trek course will wind its way through several ascents and descents along a rocky and steep road.You will be able to see the customs, culture, and way of life of the inhabitants as you drive through gorgeous towns.In this region of Nepal, people belong to numerous ethnic groups.You may learn about and appreciate life's simplicity by staying with them.",
+    "Starting with a beautiful journey from Kathmandu to Pokhara, the Annapurna Base Camp Trek itinerary begins. To go to Nayapul from here, you will just need to make one more little drive. Thetunning Nepali landscape will be visible to you as you travel. Your journey to the Annapurna Base Camp will start from Nayapul. To ultimately get to the impressive Annapurna Base Camp, one must go through the towns of Tikhedhunga, Ghorepani, Poonhill, Tadapani, Chhomrong, and Deurali. As you retrace your ways out of Modi River Valley to a tranquil resting place called Sinuwa, where you will spend the night, the next day will take you outside of the Annapurna Sanctuary. You will depart Sinuwa the next morning and make your way to Jhinu Danda on foot. Natural hot springs may be found at Jhinu Danda, where you can unwind and ease your aching muscles.  You will travel from Jhinu Danda to Siwai to catch a jeep to Pokhara. The 14-day Annapurna Base Camp Trek itinerary will come to an end when you board a luxurious tourist bus in Pokhara and travel back toKathmandu.",
+    "We at Create Himalaya Adventure and Research Hub are pleased to present our well planned Annapurna Base Camp 14 Days Trek Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, money, and endurance, we are willing to alter this package to meet your necessities. For any more questions regarding the 14 Days Annapurna Base Camp Trek package cost, please don't hesitate to get in touch with us",
+  ],
+  highlights: [
+    "Explore Pokhara, known as Lake City, which is naturally stunning. ",
+    "Trek through lovely rhododendron forests, rivers, mountain terraces, and charming villages of Magar, Gurung, Tamang, Thakali, etc. ",
+    "Discover the vibrant culture, traditions, and way of life of the inhabitants. ",
+    "Trek to Poon Hill to see the magnificent sunrise and the breathtaking Himalayan range. ",
+    "Discover the abundant flora and animals as you explore the area around Annapurna glacier. ",
+    "Explore Jhinu Danda's Natural Hot Springs. ",
+    "Experience breathtaking views of the Himalayan Mountains, including the Annapurna range, Dhaulagiri, Nilgiri, Fishtail, etc. ",
+    "From Annapurna Base Camp, you can see the entire snow-covered Himalayas in all their glory.",
+    "On the same journey, visit the Annapurna and Machhapucchre base camps.",
+    "Spend a night in one of the most gorgeous villages of the Annapurna region, Ghorepani",
+    "Witness stunning views of Himalayan mountains like the Annapurna range, Mt. Dhaulagiri, Mt.Nilgiri, Mt. Fishtail, etc",
+    "Overnight in the shadow of Annapurna at Base Camp",
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Create Himalaya Adventure T-Shirt and Duffle Bag",
+    "Map of Annapurna Base Camp Trekking",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Create Himalaya Adventure Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival To Kathmandu(1400m)",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
+    },
+    {
+      day: 2,
+      description:
+        "Take Tourists Delux Bus from Kathmandu(1400m) to Pokhara(822m)",
+      details:
+        "After an early breakfast, you will take a tourist bus to start your 14-day ABC Trek, which might take 7 to 8 hours to reach Pokhara. On the way, you can see the picturesque Trishuli and Marsyangdi rivers along the green, Rocky Mountains, rivers connecting each other, and small springs. We can also arrange an airline ticket for you at an additional cost. This will get you to Pokhara from Kathmandu in just 25 minutes, saving you time to explore Pokhara Valley. Pokhara is a beautiful valley known for several lakes such as Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. We can also get a glimpse of Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal from Pokhara Valley.",
+    },
+    {
+      day: 3,
+      description:
+        "Drive from Pokhara (822m) to Birethanti (1263m) then Trek to Ulleri (1960m)",
+      details:
+        "After a delicious breakfast in Pokhara, you will travel a short distance over picturesque scenery into Birethanti. The Annapurna Base Camp Trek Route will travel through Nayapul and is generally easy. Along the Bhurungdi Khola, you will pass across beautiful terraced fields. The trip begins in Birethanti and concludes in Ulleri after passing through the villages of Sudame, Hile, and Tikhedhungga. After crossing the suspension bridge, the route from Tikhedhungga begins to climb steeply up a stone stairway. When you are at Ulleri, a big Magar settlement, you can see Mount Hiunchuli and Mount Annapurna South.",
+    },
+    {
+      day: 4,
+      description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
+      details:
+        "The path ascends gradually, making the trek from Ulleri to Ghorepani fascinating. You may enjoy views of the Annapurna, Machhapuchre, and Hiunchuli snow peaks all along the ABC Trekking Route. You may witness a variety of natural creatures, cool springs, and rivers as you stroll through the rhododendron woodland. The route next takes you to Ghorepani, a magnificent town located on a hillside. This settlement offers amazing views of the Himalayas, including Dhaulagiri, Tukuche, Dhampus, Nilgiri, Annapurna, Barah Sikhar, and Machhapuchhre. The Poonhill trek, which offers a magnificent view of the sunrise and an excellent panoramic view of the mountain ranges, is a popular attraction at the Ghorepani Guesthouse. ",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Ghorepani (2880m) to Poon Hill (3210m) then Tadapani (2630m)",
+      details:
+        "You will climb Poon Hill early in the morning to see the sunrise over the Himalayan mountain range. From Poon Hill, you can view the Annapurna and Dhaulagiri mountain ranges, as well as the Nilgiri and achhapuchhre Mountains. You will descend to your lodge after spending some time on Poon Hill, eat breakfast, and then continu your Annapurna Base Camp Trek through the steep ascent route to Deurali. Langurs and monkeys can be seen along the straightforward forest path from Deurali to Banthani. Walking farther downhill while taking in the scenery will bring you to Tadapani, where you will spend the night.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tadapani (2630m) to Chomrong (2165m)",
+      details:
+        "Your ABC Trekking Trail will continue to Chomrong after breakfast in Tadapani. To get to the Gurung settlement of Ghandruk, you will gradually descend through rhododendron woods and cross the Kimrong River. Chomrong is reached by making a straight ascent from Ghandruk. You will be treated to breathtaking vistas of Annapurna South and Fishtail along the route. Chomrong hamlet, which is a popular destination for hikers trekking to Annapurna Base Camp, is located on the flank of the enormous Annapurna Mountain. As you settle into your lodgings, you'll encounter a lot of welcoming Gurung residents in Chomrong, a vast hillside community. You will be staying at a local teahouse or hiking lodge.",
+    },
+    {
+      day: 7,
+      description: "Trek from Chomrong (2165m) to Dovan (2600m)",
+      details:
+        "Your 14-day Annapurna Trekking Journey will take a little longer today. You will descend a stone staircase to reach Chomrong Khola after a delicious breakfast in Chomrong. Following the suspension bridge, you will rise over terraced fields and lush hills toward the small settlement of Sinuwa. A small settlement on a ridge, Sinuwa provides a breathtaking up-close view of Mt. Fishtail as well as an amazing landscape. It takes a few hours to go to the village of Khuldighar from Sinuwa. You may reach the village of Bamboo by descending a stone stairway from Khuldighar to a region of unusually thick bamboo, rhododendron, and oak trees next to the Modi River. After a slow ascent in the cool shade of theforest, while following Modi Khola, you will eventually arrive at Dovan.",
+    },
+    {
+      day: 8,
+      description: ":Trek from Dovan (2600m) to Deurali (3230m) ",
+      details:
+        "Today's walk will begin in Dovan and finish in Deurali. The ABC Trek Route will pass through rhododendron and bamboo woods and is dotted with waterfalls. When you get to the Himalaya, the jungle opens up to the sun and you have a breathtaking glimpse of the glacier river. You will go down the Modi Khola through the small gorge starting from Himalaya. Before reaching Hinku Cave, you must next ascend steeply through a much drier forest. In order to reach Deurali, the day's most picturesque section, the path descends from here and then climbs once again. Because there is less greenery, it is possible to see the valley, the river below, and the sheer granite cliffs above with bands of wispy waterfalls. Deurali is a great place to spend the night. ",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Deurali (3230m) to Annapurna Base Camp (4130m) via Machhapuchhre Base Camp (3700m)",
+      details:
+        "You will eventually reach Machhapuchhre Base Camp after a strenuous ascent from Deurali, where the Annapurna Base Camp Trek Route will wind through a riverbed. A breathtaking panoramic view of the surrounding mountains, including Annapurna, Machhapuchhre, Gangapurna, Himchuli, and others, can be found at Machhapuchhre Base Camp. To finally reach Annapurna Base Camp, you must continue traveling northwest. The route to ABC is broader, has less vegetation, and is vulnerable to avalanches; care should be given to avoid any potential risks. Hiunchuli, Annapurna South to Annapurna I, Khangsar Kang, Gangapurna, Annapurna III, and Machhapuchhare can all be seen in from ABC. The absolute magnificence of the surrounding snow-capped mountains will make this day that you will never forget in your entire life. At Base Camp, you will stay the night.",
+    },
+    {
+      day: 10,
+      description: "Trek from Annapurna Base Camp (4130m) to Sinuwa (2360m) ",
+      details:
+        "You will leave your footprint on the Annapurna Sanctuary after witnessing an amazing sunrise from ABC and walking down to Sinuwa. Returning to Sinuwa requires traveling along the same route through MBC, Deurali, Himalaya, Bamboo, and Khuldighar. You will start to notice how the path is different when traveled in reverse as you pass serene homesteads, climb through alpine valleys, and pass through beautiful woods. When you descend from the base camp's high heights, the terrain will also be a little bit simpler to navigate. You will check into a cozy trekking lodge when you get to Sinuwa, and you may spend the afternoon and evening based on your choice.",
+    },
+    {
+      day: 11,
+      description: "Trek from Sinuwa (2360m) to Jhinu Danda (1780m) ",
+      details:
+        "Your last trekking day of the 14-day Annapurna Base Camp Trek Itinerary has arrived. You will follow the straightforward dust road along the Modi Khola after leaving Jhinu Danda. The trek's current leg is the most leisurely stroll of the whole journey. You will arrive in Siwai after a three-hour journey. You will board a local taxi or bus in downtown to take you back to Pokhara. It takes two to three hours to travel this final section of the route. You will say farewell to the trails and travel to Pokhara across the lovely countryside. You will arrive back in Pokhara with plenty of time to check into your accommodation. As a reward for all of your arduous hiking, you may wander through the town, continue boating on Fewa Lake, and tuck into a delectable lunch. In Pokhara, you will spend the night.",
+    },
+    {
+      day: 12,
+      description:
+        ":Trek from Jhinu Danda (1780m) to Siwai (1530m) then Drive Back to Pokhara (822m)",
+      details:
+        "Your last trekking day of the 14-day Annapurna Base Camp Trek Itinerary has arrived. You will follow the straightforward dust road along the Modi Khola after leaving Jhinu Danda. The trek's current leg is the most leisurely stroll of the whole journey. You will arrive in Siwai after a three-hour journey. You will board a local taxi or bus in downtown to take you back to Pokhara. It takes two to three hours to travel this final section of the route. You will say farewell to the trails and travel to Pokhara across the lovely countryside. You will arrive back in Pokhara with plenty of time to check into your accommodation. As a reward for all of your arduous hiking, you may wander through the town, continue boating on Fewa Lake, and tuck into a delectable lunch. In Pokhara, you will spend the night.",
+    },
+    {
+      day: 13,
+      description:
+        "Take Tourist Deluxe Bus from Pokhara (822m) to Kathmandu (1400m) ",
+      details:
+        "You will board a tourist bus this morning after waking up in Pokhara to travel back to Kathmandu. The 205 kilometers that separate Pokhara from Kathmandu follows the enthralling Marsyangdi River and then the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive market areas, including Damaul bazaar, Dumre bazaar, Mugling Bazaar, and others. The route also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the Kathmandu valley, a member of our crew will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel, which finally concludes your Annapurna Base Camp Trek successfully. ",
+    },
+    {
+      day: 14,
+      description: "Final Departure or on-ward for next destination. ",
+      details:
+        "Three hours prior to departure, we arrange an airport shuttle service based on your scheduled departure time. If you have more time, we can arrange for you to do some side trips, or you may go exploring on your own. ",
+    },
+  ],
+
+  HowToPrepare: {
+    paragraph: [
+      "ABC Trek is a moderate-difficult trek. Usually, it takes 6 to 7 hours each day to complete the hiking, with intervals to take in the magnificent mountain vistas. Long ascents, sharp descents, and straight tracks are all included in the trek itineraries. Although prior hiking experience would be a benefit for the ABC trek, no special technical knowledge or abilities are required. This walk may be finished by hikers who can cover the distance in 6 to 7 hours while maintaining a decent pace and carrying only a small daypack. Before you go trekking in Nepal, you should do a few small excursions and walk for 6 to 8 hours a day, both uphill and downhill, to prepare for this trek.",
+      "By engaging in cardiovascular exercises like running, swimming, cycling, and other sports, you may improve your stamina. Try some yoga positions to help your breathing right away, and make sure you're well-hydrated before the travel by drinking lots of water. You will appreciate hiking more if you are physically fit. You can accomplish the journey if you are in excellent health, physically active, have a positive outlook, and have self-confidence. Before registering for the trek, those with pre-existing medical issues such as heart, lung, and chronic conditions should let us know. ",
+    ],
+  },
+  path: ["/images/abc-road-img.jpg"],
+},
+//                                                                            EverestBaseCampTreck
+everest_base_camp_treck: {
+  id: 1,
+  slug: "everest_base_camp_treck",
+  category: "Trekking",
+  img: "/locations/everest.avif",
+  title: "Everest Base Camp",
+  description:
+    "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world",
+  location: "Solukhumbu",
+  days: "14 days",
+  people: "1-12",
+  subimages: [
+    "/images/EverestBaseCampTreck1.jpg",
+    "/images/EverestBaseCampTreck2.jpg",
+    "/images/EverestBaseCampTreck3.jpg",
+    "/images/EverestBaseCampTreck4.jpg",
+    "/images/EverestBaseCampTreck5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world, and we are offering 14 Days Everest Base Camp Trekking Package at a very affordable cost. ",
+    "Everest Base Camp Trekking is one of the most well-known trekking in the world. During 14 days at Everest Base Camp Trek, we experience amazing mountain views, get glimpses of the Sherpa people, and Sagarmatha National Park, and visit high-altitude Buddhist monasteries.",
+    "The Everest Base Camp Trekking package is the best-selling trekking package for Create Himalaya adventure . Always we are focusing on providing Everest Base Camp trips to our clients with the best cost and quality services. We prepared standard 14-day Everest Base camp Trekking packages for beginner and regular trekkers with enough acclimatization days. If you are an exporter and have well experience with high-altitude treks we suggest you take a Rapid Everest Base Camp Trek. We pride ourselves on our team because of them we got a 98% success rate. We assure you, that our team will make it a success to bring your dream of truth to be at the Everest Base Camp. ",
+    "We begin our 14-day Everest Base Camp Trek with the 35-minute scenic flight to Lukla with a small twin otter plane from Kathmandu. On reaching Lukla airport Create Himalaya adventure trekking guide welcomes you and introduces you to team members. After a short break and breakfast, we start our journey to Phakding. Crossing the highest Hillary Bridge and climbing uphill to reach Namche Bazaar itself glorious part of the Everest Base Camp Trek. During the Everest Base Camp Trekking, our trail passes through many viewpoints, villages, monasteries, and glaciers to the foot of Mount Everest, which will provide one of the most remarkable experiences of your lifetime. ",
+    "14 Days Everest Base Camp Trek provides a magnificent taste of Tibetan culture at a high altitude, as well as wonderfully colored vistas of rhododendron woods and gigantic views of the Himalayas, including the world's tallest peak, Mt Everest. After arriving in Kathmandu, the stunning venture begins at Lukla (2840m) and continues to Phakding (2610m), Namche Bazar (3440m), Phortse Village (3810m), Dingboche (4260m), Duglha (4620m), Lobuche (4190m), Gorakshep (5140m), Kalapatthar (5545m), upto Mt. Everest base camp (5364m).",
+    "If you are curious about the altitudes of different landmarks on your trekking adventure, look no further than our comprehensive Everest Base Camp Trek Map. It provides detailed information to assist you in determining the best places to acclimate and allows you to strategically plan your itinerary. Whether you are scaling towering peaks or exploring scenic valleys, our map offers a wealth of knowledge on elevation levels. By consulting this invaluable resource, you can make informed decisions, ensuring a safer and more enjoyable journey. Discover the heights you will conquer, and embark on your trek with confidence and clarity. ",
+  ],
+  highlights: [
+    " Get to see an aerial view of the Khumbu region during the flight to Lukla",
+    "Trek through Sagarmatha National Park which is home to several species of flora & fauna",
+    "Explore Namche Bazar",
+    "Experience the rich culture and tradition of Sherpa's",
+    "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
+    " Head to Everest Base Camp, the base of the world's highest mountain, Mt. Everest",
+    " Hike to Kala Patthar to observe a gorgeous sunrise and a 360-degree view of  Everest",
+    " Witness panoramic views of Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, Mt. Kongde",
+  ],
+  facilities: [],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival To Kathmandu",
+      details:
+        "When you arrive in Kathmandu, our Airport Representative at the Tribhuwan International Airport will receive you. A private tourist vehicle will transport you to your hotel. You can either relax or meet us at our office to learn more about the 14 days Everest Trek details. You will spend your first night in Kathmandu at a hotel.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu or Ramechhap to Lukla (2840m), by plane Then Trek to Phakding (2610m)",
+      details:
+        "After breakfast, drive from the hotel to the domestic airport terminal in the early morning. The early morning sunshine on the snowcapped mountains is spectacular on the ride to Lukla. It will take around 40 minutes to arrive in Lukla at Tenzing-Hillary Airport, the Himalayan entryway. The hike begins shortly after meeting our staff at the airport, from where Phakding is a short walk. You will relax at Phakding because it is the first day of the Everest Base Camp Trek Itinerary. ",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding to Namche Bazaar (3440m)",
+      details:
+        "The trip begins in Phakding after breakfast and travels through lovely pine trees, the Dudh Koshi River, and views of Mount Thamserku. You will arrive at a checkpoint, the entrance to Sagarmatha National Park, after traveling through a few communities. You will continue walking via the Dudh Koshi River and Bhote Koshi River confluences before ascending steeply to Namche Bazaar, where you will be greeted by the magnificent Mount Everest and the ridges of Mount Lhotse (8,516m) and Mount Nuptse (7,861m).",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazar (3440m)",
+      details:
+        "Namche Bazaar, the largest village in the Khumbu area, has ATMs, Internet cafés, restaurants, bakeries, and other amenities. As per your 14-day Everest trekking itinerary, today will be your acclimatization day, which you can utilize by doing a short trek to a nearby viewpoint (Everest View Hotel, Thamo, and Khunde) and taking a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa culture, and the flora and wildlife of the region.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
+      details:
+        "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
+    },
+    {
+      day: 7,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 14 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
+      details:
+        "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m)",
+      details:
+        "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m)",
+      details:
+        "You will start your hike considerably earlier than usual since you want to be at Kalapatthar before sunrise to take in the breathtaking sunrise panorama from Kalapatthar. Faced with the problems of thin air, you will take the scenic route to Kalapatthar, with views of Lingtren, Khumbutse, and other peaks. You will take in a close-up look at Everest and the spectacular dawn before returning to Gorakshep for breakfast. You will end this day by trekking down to Pangboche, where you can see the oldest monastery in the region, which contains the scalp and bones of a Yeti.",
+    },
+    {
+      day: 11,
+      description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m)",
+      details:
+        "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
+    },
+    {
+      day: 12,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
+      details:
+        "The steep descending route continues on the final day of the expedition. Trekkers must travel slowly, steadily, and in a balanced way over the steep rocky terrain till they reach the Dudh Koshi suspension bridge, passing through the wide plain and rhododendron woodland while taking in the distant vista of snow-capped mountains. Take a last glance at the beautiful Himalayan Mountains and bid farewell to the Khumbu Valley and Mount Everest in the early hours of the day.",
+    },
+    {
+      day: 13,
+      description:
+        "Flight back to Kathmandu from Lukla or Ramechhap by plane and drive to hotel",
+      details:
+        "This is the day that the Mountain Flight from Lukla is once again appreciated. When you get in Kathmandu, you may go shopping and take a stroll around the city. The evening is intended to commemorate the accomplishment of the Everest Base Camp trek.",
+    },
+    {
+      day: 14,
+      description: "Final Departure or Onward For Next Program",
+      details:
+        "The final day in Nepal is the last opportunity to enjoy shopping and touring Kathmandu Valley's cultural metropolis before departing for Tribhuwan International Airport on time.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Considering that you will have to climb up and down on an unsteady route for 14 days while carrying a bag that weighs at least 6 kg and spends, on average, 5 to 6 hours a day on foot. It will be necessary for you to begin increasing your strength and endurance a few months early. Make a schedule for your workout that includes walking up and down hills while wearing a backpack that is packed with 6 to 12 kg at least once every week.",
+      "Your legs and muscles will be better prepared for the hike with more hill training. It is crucial because your lungs cannot provide your muscles with enough oxygen at higher altitudes where there is less oxygen. Start working out, start weightlifting, and walk with your hefty rucksack to be fit if you want to successfully reach Base Camp and avoid upsetting fellow trekkers. Even professional climbers prepare themselves for a task like this beforehand.",
+      "At the same time, keep in mind that preparing for the 14-day trek to Everest Base Camp includes a significant amount of mental preparation. It is a tough path with a high degree of difficulty that lasts many days, even if the rank of the adventure cannot be compared to climbing Everest. Be ready for everyday occurrences, constantly changing weather, and the high likelihood of altitude sickness.",
+    ],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+
+//                                                                        chitwan-national-park-tour
+chitwan_national_park_tour: {
+  id: 2,
+  slug: "chitwan_national_park_tour",
+  category: "National Parks",
+  img: "/locations/chitwan.jpeg",
+  title: "Chitwan National Park Tour",
+  description:
+    "Wild animals in their natural environment, luxury safari lodges",
+  location: "Bagmati",
+  days: "4 days",
+  people: "1-12",
+  subimages: [
+    "/images/chitwannationalpark1.jpg",
+    "/images/chitwannationalpark2.jpg",
+    "/images/chitwannationalpark3.jpg",
+    "/images/chitwannationalpark4.jpg",
+    "/images/chitwannationalpark5.jpg",
+  ],
+
+  overView: {
+    duration:
+      "A full 4 days 3 nights worth of adventurous and exciting trek throughout the circuit",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [],
+  about: [
+    "Chitwan National Park is a wildlife sanctuary and conservation area located in the southern part of Nepal, covering an area of 952.63 square kilometers. It is one of the most popular destinations in Nepal, attracting thousands of tourists every year. If you are interested in a wildlife tour then the 3 Nights and 4 Days Chitwan National Park Tour Package is best suitable for you. The park is home to a wide range of flora and fauna, including Bengal tigers, one-horned rhinoceros, Asian elephants, and over 500 species of birds. The park is also recognized as a UNESCO World Heritage Site.",
+    "4 Days Chitwan National Park Tour Package is ideal for nature lovers and wildlife enthusiasts. The park offers a unique opportunity to witness some of the rarest and most endangered species of animals in their natural habitat. Our 4 Days Chitwan National Park Tour Itinerary provides an opportunity to participate in adventure sports like jungle safaris, elephant rides, and canoeing. The most popular way to explore Chitwan National Park is by taking a jungle safari. The safari can be done on an elephant or in a jeep, and it takes you deep into the heart of the jungle, where you can spot a variety of wildlife. The park is home to around 68 species of mammals, including Bengal tigers, leopards, sloth bears, and one-horned rhinoceros.",
+    "Another popular activity in the 3 Nights 4 Days Chitwan National Park Tour Package is canoeing. Canoeing is a great way to explore the Rapti River, which flows through the park. The river is home to a variety of fish species and aquatic animals, and you can spot them from your canoe. Canoeing also provides an opportunity to observe the local way of life, as many people depend on the river for their livelihood.",
+    "Chitwan National Park is also a paradise for bird lovers, with over 500 species of birds found here. The park is a bird watcher's paradise, with many rare and endangered species like the Bengal florican, giant hornbill, and the lesser adjutant stork. The best time for bird watching is early morning or late afternoon when the birds are most active. Apart from wildlife and adventure activities, the 3 Nights 4 Days Chitwan National Park Tour Package also helps to explore the rich cultural heritage. The park is home to several ethnic groups like the Tharu people, who have a unique way of life and culture. The Tharu people have been living in harmony with the wildlife and nature of the park for centuries and have their festivals, dances, and music.",
+    "The best time to participate in the 3 Nights and 4 Days Chitwan National Park Tour is from October to March, as the weather during this time is pleasant, and the park is at its greenest. During the monsoon season, which lasts from June to September, the park is closed due to heavy rainfall and flooding.",
+    "Chitwan National Park is a unique and beautiful destination that offers a variety of experiences for you. From wildlife safaris to bird watching, canoeing, and cultural experiences, the park has something for everyone. A 3 Nights 4 Days Chitwan National Park tour is an ideal way to explore the park and experience its beauty and diversity. Whether you are a nature lover, adventure enthusiast, or a culture buff, Chitwan National Park is a destination that should be on your bucket list.",
+    "We at Green Valley Nepal Treks and Research Hub are pleased to present our well-planned 3 Nights 4 Days Chitwan National Park Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the 4 Days Chitwan National Park Tour Package Cost, please don't hesitate to contact us.",
+  ],
+  highlights: [
+    "Explore the stunning Chitwan National Park, a UNESCO World Heritage Site known for its rich biodiversity and wildlife.",
+    "Embark on an exciting wildlife safari to spot the park's famous residents, including tigers, rhinoceroses, elephants, and crocodiles.",
+    "Go on a jungle walk with a local guide to learn about the flora and fauna of the park and see different species of birds, reptiles, and insects.",
+    "Experience a cultural program featuring performances by the Tharu people, an indigenous community with a unique way of life and traditions.",
+    "Enjoy a relaxing canoe ride on the Rapti River, where you can spot various species of birds and aquatic animals.",
+    "Take a refreshing dip in the pool or indulge in a spa treatment at your accommodation, which may range from rustic lodges to luxury resorts.",
+    "Interact with trained elephants at an elephant breeding center and learn about their care and training.",
+    "Visit a Tharu village to experience their culture and daily life, and purchase handmade crafts and souvenirs.",
+    "Enjoy delicious Nepali and Tharu cuisine, including a traditional Tharu meal, served on a leaf plate.",
+    "Participate in a bird-watching excursion to spot some of the over 500 species of birds that call the park home.",
+    "Explore the nearby town of Sauraha, which offers a range of shops and markets selling local handicrafts, textiles, and souvenirs.",
+  ],
+  facilities: [
+    "International and Domestic Airport Pickup And Drop off service",
+    "Create Himalaya Adventure T-Shirt and Duffle Bag",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Discounts and Extra services for old customers",
+    "Arrangement of the best hotels at reasonable price",
+    "Free Excess Luggage Storing At Create Himalaya Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Drive from Katmandu or Pokhara or Sunauli to Chitwan",
+      details:
+        "On the first day of your 4 Days Chitwan National Park Tour, you will arrive at the park's headquarters in Sauraha. After checking into your hotel, you can spend the rest of the day exploring the town and its surroundings. Sauraha has a bustling market where you can find local handicrafts, clothing, and souvenirs. You can also visit the Elephant Breeding Center, which is home to over 70 elephants, including babies. Here, you can learn about elephant breeding and its role in the park's conservation efforts.In the evening, you can attend a cultural program featuring traditional Tharu dance and music. The Tharu people are the indigenous inhabitants of the area and have a unique culture and way of life. The program is a great opportunity to learn about their traditions and enjoy their lively music and dance performances.",
+    },
+    {
+      day: 2,
+      description: "Whole Day Jungle Activities in Chitwan National Park",
+      details:
+        "On the second day of your 4 Days Chitwan National Park Tour Itinerary, you will explore the park on foot and by boat. After breakfast, you will set off on a jungle walk with an experienced guide. The walk takes you through dense forests, grasslands, and riverside habitats. You will have the chance to spot a variety of wildlife, including deer, monkeys, wild boars, and various bird species. Your guide will also provide you with information about the park's ecology, conservation efforts, and the different animal and plant species you encounter.After the jungle walk, you will embark on a canoe ride down the Rapti River. The river is home to crocodiles, otters, and various water birds. As you float down the river, you can observe the wildlife from a different perspective and enjoy the peaceful surroundings.",
+    },
+    {
+      day: 3,
+      description: "Full Day Jungle Activities in Chitwan National Park",
+      details:
+        "The third day of your 4 Days Chitwan National Park Tour Package is dedicated to exploring the park on the elephant's back. After breakfast, you will head to the park's elephant stables, where you will meet your gentle giants for the day. The elephants are well-trained and cared for, and the safari is a unique opportunity to observe wildlife from a close distance. During the safari, you will ride through grasslands and forests, looking for rhinos, tigers, and other animals. Your mahout (elephant handler) will also point out different bird species and provide you with interesting facts about them. The safari lasts for about three hours, and you will return to your hotel for lunch. In the afternoon, you will go bird watching with a local expert. Chitwan National Park is home to over 500 species of birds, including several endangered species such as the Bengal florican and the lesser adjutant stork. Your guide will help you identify the different birds and provide you with information about their habits and habitat.",
+    },
+    {
+      day: 4,
+      description: "Departure to Your Destination",
+      details:
+        "On the final day of your Chitwan National Park Jungle Safari Tour, you will check out of your hotel and depart from Chitwan. If time permits, you can visit the park's museum and visitor center, which provides information about the park's history, geography, and wildlife. You can also buy souvenirs and handicrafts from the park's gift shop.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Chitwan National Park Tour of 4 Days can be an exciting and memorable experience, but it's important to be prepared to ensure a smooth and enjoyable trip. Here are some tips to help you prepare for your Chitwan National Park Tour.",
+    ],
+    points: [
+      "Before you travel, check the weather conditions in Chitwan National Park. The best time to visit the park is between October and March when the weather is dry and pleasant. However, if you plan to visit during the monsoon season (June-September), be prepared for heavy rain and muddy conditions.",
+      "Bring comfortable and lightweight clothing suitable for the weather and outdoor activities. You may also want to bring a hat, sunglasses, sunscreen, insect repellent, and sturdy shoes for walking. If you plan to go on a jeep safari or a jungle walk, avoid wearing bright colors as they may scare the animals.",
+      "It is recommended to get vaccinated before visiting Nepal to protect against diseases such as hepatitis A, typhoid, and rabies. Make sure to consult with your doctor or a travel health clinic before your trip.",
+      "It is essential to purchase travel insurance that covers medical expenses and emergencies, especially when visiting a remote area like Chitwan National Park.",
+      "Choose an itinerary that suits your interests and fitness level. The park offers a variety of activities, including wildlife safaris, canoe rides, jungle walks, and cultural experiences. Be sure to book your activities in advance to avoid disappointment.",
+      "Chitwan National Park is home to the Tharu people, an indigenous community with a rich culture and traditions. Respect their customs and traditions by dressing modestly, asking permission before taking photographs, and following their guidelines when visiting their villages.",
+      "Always follow the safety guidelines provided by your tour guide or park officials. Avoid venturing into the jungle alone or without a guide, and do not feed or touch the animals. In case of an emergency, contact the park officials immediately.    ",
+    ],
+  },
+  path: ["/images/ChitawanMap.png"],
+},
+//                                                                               rara-lake-tour
+rara_lake_tour: {
+  id: 3,
+  slug: "rara_lake_tour",
+  category: "Lakes",
+  img: "/images/raralaketour.jpg",
+  title: "Rara Lake Tour",
+  description:
+    "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
+  location: "Jumla",
+  days: "4 days",
+  people: "1-12",
+  subimages: [
+    "/images/raralaketour1.jpg",
+    "/images/raralaketour2.jpg",
+    "/images/raralaketour3.jpg",
+    "/images/raralaketour4.jpg",
+    "/images/raralaketour5.jpg",
+  ],
+
+  overView: {
+    duration:
+      "A full 4 days 3 nights worth of adventurous and exciting trek throughout the circuit",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    peoples:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    category:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/trekking_backpack.jpg",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walking_stick.jpg",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/sunglasses.jpg",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/trekking_shoes.jpg",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [""],
+  highlights: [
+    "Discover the pristine beauty of Rara Lake surrounded by lush forests and stunning mountain views",
+    "Explore the diverse flora and fauna in the Rara National Park",
+    "Witness the traditional way of life of local communities",
+    "Enjoy a peaceful boat ride on the crystal-clear waters of the lake",
+    "Capture the majestic views of snow-capped peaks reflected in the tranquil lake",
+    "Relax and unwind in a serene natural environment, away from the hustle and bustle of city life",
+    "Experience a professionally curated day tour by the Green Valley Nepal Treks Team",
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Green Valley Nepal Trek T-Shirt and Duffle Bag",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [],
+  HowToPrepare: {
+    paragraph: [
+      "This is just a single-day tour so, you might not have to prepare for a lot of things. Our representatives will pick you up in the morning and show you the beauties and mysteries of Pokhara city for one whole day before dropping you off at your hotel by the evening or night.",
+      "In between, Create Himalaya Adventure' guide will always be with you if you have any problems or queries. So, preparation for this trip is not so difficult or worth spending a lot of energy and time. However, here are a few things that we suggest you be prepared with for this trip.",
+    ],
+    points: [""],
+  },
+  path: ["/images/raramap.jpg"]
+},
+
+//                                                                              pokhara-adventure
+pokhara_adventure: {
+  id: 4,
+  slug: "pokhara_adventure",
+  category: "Adventure",
+  img: "/locations/pokhara.jpeg",
+  title: "Adverture in Pokhara",
+  description:
+    "Spectacular scenery, adventure activities, and accommodation and food choices galore",
+  location: "Pokhara",
+  days: "2 days",
+  people: "1-12",
+  subimages: [
+    "/images/pokharaadventure1.jpg",
+    "/images/pokharaadventure2.jpg",
+    "/images/pokharaadventure3.jpg",
+    "/images/pokharaadventure4.jpg",
+    "/images/pokharaadventure5.jpg",
+  ],
+
+  overView: {
+    duration:
+      "A full 2 days 1 nights worth of adventurous and exciting trek throughout the circuit",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [],
+
+  about: [
+    "The Pokhara Valley, located in Nepal under the shadow of the Annapurna mountain range, is a lovely paradise with stunning scenery, tranquil lakes, and lush vegetation. Located roughly 205 km west of Kathmandu, Pokhara is also a starting point for many trekking and rafting destinations. A Pokhara Tour Package is a must-do for anyone looking to explore the natural beauty of Nepal and experience its rich cultural heritage.",
+    "The Pokhara Nepal Tour takes you on a journey through the stunning natural landscapes of Nepal, starting with the Phewa Lake, the second-largest lake in Nepal. The lake is surrounded by lush green hills and is home to various fish species. You can take a boat ride on the lake and explore its scenic beauty while soaking in the tranquility of the surroundings. The Pokhara Sightseeing Tour also includes a visit to the World Peace Pagoda, a Buddhist stupa on a hilltop overlooking the Pokhara Valley. The pagoda offers panoramic views of the surrounding mountains and is a peaceful retreat for those seeking spiritual solace. Similarly, you can also visit Pumdikot, which is a viewpoint but currently, is famous for the statue of Lord Shiva.",
+    "Another must-visit destination on the Pokhara City Tour is Devi's Fall, which is a stunning waterfall that cascades down into a deep gorge. The waterfall is said to be named after a woman who drowned in the falls, and her body was never found. For those interested in history and culture, the Pokhara Travel Package includes a visit to the International Mountain Museum, showcasing the Himalayan region's rich history and culture. The museum features exhibits on mountaineering, the Sherpa people, and the various flora and fauna found in the area.",
+    "The Pokhara Vacation Package also takes you on a journey through the local bazaars and markets, where you can shop for traditional handicrafts, clothing, and souvenirs. The bustling markets are a great place to immerse yourself in the local culture and taste the local cuisine. One of the highlights of the Pokhara Trip Package is a visit to Sarangkot Hill, which offers panoramic views of the Annapurna mountain range and the surrounding valleys. The hill is a popular spot for paragliding, and you can experience the thrill of soaring through the air while enjoying the breathtaking views of the mountains and valleys.",
+    "The Pokhara Valley Tour is not just about sightseeing and experiencing the natural beauty of Nepal. It is also an opportunity to connect with the local people and learn about their way of life. Pokhara Tour Package takes you through traditional villages, where you can interact with the locals and get a glimpse into their daily lives. You can witness their conventional farming practices, learn about their culture and customs, and even try your hand at some traditional crafts. This immersive experience is a great way to gain a deeper understanding of Nepal's rich cultural heritage and appreciate the resilience and hospitality of its people. Magars and Gurungs are the local inhabitants, and ethnic groups like the Thakalis live here.",
+    "The Pokhara Holiday Package is a journey through Nepal's natural beauty and cultural heritage, and it offers an experience that will surely leave you enchanted. Whether you are a nature lover, a history buff, or an adventure seeker, the tour has something to offer for everyone.",
+    "We at Create Himalaya Adventure and Research Hub are pleased to present our well-planned 2-day Pokhara Valley Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the Pokhara Tour Package Cost, please don't hesitate to contact us.",
+  ],
+  highlights: [
+    "Enjoy stunning views of the Annapurna Mountain Range, including Annapurna I, II, III, IV, and South, and the beautiful Phewa Lake.",
+    "Explore the natural beauty of the Pokhara Valley through hiking, or paragliding, and experience the thrill of adventure activities like zip-lining and bungee jumping.",
+    "Visit the famous Davis Falls, a natural waterfall that cascades into a deep pool, and the Gupteshwor Mahadev Cave, a mysterious cave temple dedicated to Lord Shiva.",
+    "Witness the sunrise over the Himalayas from the Sarangkot viewpoint, which offers panoramic views of the Annapurna range and the Pokhara Valley.",
+    "Learn about the rich culture and traditions of Nepal through visits to local villages, museums, and temples, such as the Bindhyabasini Temple, Tal Barahi Temple, and the International Mountain Museum.",
+    "Experience the hospitality of the Nepalese people through homestays, local cuisine, and cultural performances, such as the traditional dance of the Gurung people.",
+    "Take a boat ride on Phewa Lake to enjoy the peaceful surroundings and scenic views of the Himalayas and the Pokhara Valley.",
+    "Enjoy the vibrant nightlife of Pokhara, with its bars, restaurants, and live music performances.",
+    "Visit the World Peace Pagoda, a beautiful Buddhist stupa situated on a hilltop overlooking the Phewa Lake and the Annapurna Range. The Pagoda is a symbol of peace and tranquility and offers a serene environment for meditation and reflection.",
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Green Valley Nepal Trek T-Shirt and Duffle Bag",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Phewa Lake, Barahi Temple, Davis Falls, Gupteshwor Cave, and World Peace Pagoda To Kathmandu",
+      details:
+        "Phewa Lake is the second largest in Nepal and stands as the center of attraction in Pokhara. It is the most enchanting of the three lakes of Pokhara. You can sail or row a hired boat across the water or visit the island temple Barahi in its middle. The eastern shore, popularly known as lakeside, is the favorite among travelers. This is where most of the hotels, restaurants, and handicraft shops are located.     Built-in the center of Phewa Lake, the Barahi temple is the most important monument in Pokhara. This two-storied structure is dedicated to the boar manifestation of Ajima, the protester's deity representing the female force Shakti. Devotees can be seen, especially on Saturdays, carrying male animals and fowl across the lake to be sacrificed to the deity.        Davis Falls, also known as Devi's Fall, is a popular tourist attraction located in Pokhara, Nepal. It is a unique waterfall that flows into an underground tunnel and disappears, creating a mysterious and intriguing experience for visitors. The waterfall was named after a Swiss couple who tragically died in the area in the 1960s. The water flow is particularly strong during monsoon season, and visitors can also enjoy the beautiful garden surrounding the falls. Davis Falls is a must-visit attraction for anyone exploring Pokhara Valley.       Gupteshwor Cave is a natural wonder located in Pokhara, Nepal. It is a limestone cave that boasts intricate rock formations, underground waterfalls, and serene meditation chambers. The cave is dedicated to Lord Shiva, and visitors can see a large Shiva lingam as they enter the cave. The highlight of the cave is the majestic waterfall that cascades down into a small pool, creating a magical atmosphere. The Gupteshwor Cave is a unique and mystical experience that should not be missed by anyone visiting Pokhara Valley.         This pagoda is situated on the top of a hill on the southern shore of Phewa Lake. It has four images of Buddha facing in four directions. The pagoda is an impressive sight and its hilltop location commands a great view. It is a great vantage point, which offers spectacular views of the Annapurna range and Pokhara city. ",
+    },
+    {
+      day: 2,
+      description:
+        "Take Tourists Delux Phewa Lake, Barahi Temple, Davis Falls, Gupteshwor Cave, and World Peace Pagoda from Kathmandu to Pokhara",
+      details:
+        "Sarangkot is a popular hill station located in the Pokhara Valley of Nepal. It offers stunning panoramic views of the Himalayan range, including the Annapurna range and Mount Machhapuchhre. The hilltop is particularly famous for its sunrise and sunset views, which attract thousands of visitors every year. Paragliding is another popular activity that can be enjoyed from Sarangkot, with visitors being able to soar over the valley and take in the breathtaking views. The hill station is also home to several tea houses, restaurants, and souvenir shops. A trip to Sarangkot is an essential part of any Pokhara Valley tour and a must-visit destination for adventure seekers and nature lovers alike.     This is one of the oldest temples in Pokhara. It is said that when Pokhara was a part of the Kaski Kingdom, the main deity of the temple, Goddess Durga, was brought from India. Apart from the peace and tranquility that can be felt in this region, the premises of the temple offers a good view of the Himalayas on a clear day. The temple is in the area of the Bazaar; hence, a journey of the old bazaar can be combined with a visit to the temple.      Pokhara's traditional bazaar is colorful and so are its ethnically diverse traders. In its temples and monuments, you can see ties to the Newar architecture of the Kathmandu Valley. Located about four kilometers from Lakeside, the market's original charm is still alive and well. This area strewn with shops selling commodities ranging from edibles and cloth to cosmetics and gold is a pleasant and shady spot to stroll around.     The old bazaar is also home to one of Pokhara's most important shrines. Locally called the Bindabasini Mandir, this white dome-like structure dominates a spacious stone-paved courtyard built atop a shady hillock. It is dedicated to Goddess Bhagwati, yet another manifestation of Shakti. The park-like ground offers a fine picnic area, and on Saturdays and Tuesdays when devotees flock there to offer sacrifices, it takes on a festive flavor.      The Pokhara Museum, located between the bus stop and Mahendra Pul, reflects the ethnic mosaic of western Nepal. The lifestyles and history of ethnic groups such as Gurungs, Thakalis, and Tharus are attractively displayed through models, photographs, and artifacts. One major attraction on display is a model highlighting the newly-discovered remains of an 8000-year-old settlement in Mustang. The museum is open daily, except on Tuesdays and holidays, from 10 am to 5 pm.    The Annapurna Regional Museum, also known as the Natural History Museum, is another interesting visit to Pokhara. Run by the Annapurna Conservation Area Project (ACAP), the museum has an exceptional collection of butterflies, insects, birds, and models of wildlife found in the area. Located at Prithvi Narayan Campus east of the old bazaar, it is open daily except Saturdays and holidays from 9 am to 5 pm.    Seti Gandaki’s elusive depth makes it an attraction to most visitors. Flowing right through the city, the river runs completely underground at places. Amazingly, at certain points, the river appears hardly two meters wide. But its depth is quite beyond imagination (over 20 meters). Mahendra Pul, a small bridge near the old Mission Hospital, provides a perfect view of the river's dreadful rush and the deep gorge made by its powerful flow.    Another of nature's wonders in Pokhara is the Mahendra Gupha. This large limestone cave is locally known as the House of Bats. The cave is a two-hour walk to the north of Pokhara. It is best to bring your own torch to see the stalactites and stalagmites, as well as the bats residing in the cave.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparing for the Pokhara Trip Package is an essential step to ensure that you have a comfortable, safe, and enjoyable journey. Here are some tips to help you prepare for your trip:",
+    ],
+    points: [
+      "Before your trip, research the Pokhara Valley region to familiarize yourself with its geography, weather, and culture. This will help you pack accordingly and be prepared for any cultural differences you may encounter.",
+      "Decide which activities you want to participate in and plan your itinerary accordingly. Consider the time of year, the duration of your trip, and your fitness level when planning your itinerary.",
+      "Pack comfortable, weather-appropriate clothing, sturdy footwear, and any necessary gear for your chosen activities. Consider packing a first-aid kit, insect repellent, and sunscreen to ensure that you are prepared for any situation.",
+      "Purchase travel insurance before your trip to ensure that you are covered in case of any unexpected emergencies or incidents.",
+      "Check with your healthcare provider to ensure that you are up-to-date on any necessary vaccinations or health precautions for travel to Nepal.",
+      "Exchange your currency for Nepali rupees before your trip or withdraw cash from ATMs in Nepal. Make sure to carry enough cash for your trip, as credit cards may not be accepted in all locations.",
+      "Research the local customs and traditions before your trip to ensure that you are respectful of the local culture. Dress modestly, remove your shoes when entering temples or homes, and ask permission before taking photographs.",
+      "Be aware of your surroundings and take necessary safety precautions to ensure that you stay safe during your journey. Avoid walking alone at night, carry a copy of your passport and other important documents, and be cautious when using public transportation.",
+    ],
+  },
+  path: ["/images/PokharaMap.jpg"],
+},
+
+/////////////////////////////////////////////////////////////////////////Add More/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///Drop Down Trekking in Nepal
+
+/////////////////////////////////////////////////////////////////////////Annapurna Region Trekking/////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////Mardi Himal Trek - 9 Days/////////////////////////////////////////////////////////////////////////////////////////
+
+mardi_himal_trek: {
+  id: 5,
+  slug: "mardi_himal_trek",
+  category: "Trekking",
+  img: "/locations/annapurna.webp",
+  description: "9 Days Mardi Himal Trek guided by the professionals",
+  title: "Mardi Himal Trek",
+  location: "Kaski",
+  days: "9 days",
+  people: "1-12",
+  subimages: [
+    "/locations/chitwan_sub1.png",
+    "/locations/girl_sub1.png",
+    "/locations/chitwan_sub1.png",
+    "/locations/girl_sub1.png",
+    "/locations/girl_sub1.png",
+  ],
+  overView: {
+    duration:
+      "A full 9 days 8 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "A new route that was launched in 2012 is the 9 days Mardi Himal Trek. This journey, which enters the Annapurna Sanctuary Area, is becoming more and more well-known. The Mardi Himal Trek, though less well-known than the Annapurna Circuit Trek and the Annapurna base Camp Trek, offers breathtaking views of the Mardi Himal (5,587m), as well as snow-capped peaks like Annapurna I (8,091m), Annapurna South (7,219m), Machhapuchre (6,997m), and Gangapurna Himal (7,454m), making the trek well worth the money.",
+    "You will travel through winding roads in a dense rhododendron forest with Mardi Himal Trekking. The scenery will change into high mountains as you continue to climb, providing a stunning vista of Machhapuchhare, popularly known as Fishtail. The forests you go through typically have a variety of trees, bamboo, and chirping plants. The greatest method for avoiding crowds is to do this Mardi Base Camp Trek. You may view a variety of wild animals, like Himalayan Thar, long-tailed langurs, and birds like Danphe, Kalij, and Monal, on this trip through the forests.",
+    "The Mardi Himal Trek is the only trip in Nepal that takes you quickly to an altitude of at least 4,000 meters. With more alternatives for lunch and dinner as well as lodging, the expanding number of tea houses along the trail has made this short journey simpler for individuals of all fitness levels. Mardi Himal Trekking is a hidden gem that allows hikers to take in stunning mountain views, come face-to-face with wildlife in lush woods, and cross rivers and hills all in one trip. Follow the narrow, winding roads through the jungle until you emerge from it to see the magnificent vistas of the Mardi Himal, Annapurna South, and Machhapuchre from the Badal Danda.",
+    "The Mardi Himal Trek Itinerary begins in Kathmandu, where you may explore the city's most important world heritage sites before flying to Pokhara. Kande, where your major trekking experience will begin, is only a short drive from Pokhara. You will ascend from Kande to Australian Camp, then Pothana, to arrive at Pitam Durali, where you will spend the night. The next day your Mardi Trek Journey will then begin from Pitam Durali toward Low Camp, passing via Forest Camp, and Rest Camp. You will spend the night at Low Camp. You will arrive at High Camp the next day. You will hike down to Siding from Mardi Himal Base Camp after setting off from High Camp in the morning. You will ride a shared jeep to Pokhara from Siding, which will conclude your Mardi Himal Trek in Annapurna Region. You will get the chance to boat on Phewa Lake and discover wonderful locations in Pokhara. Your great Mardi Himal trekking journey will then come to a conclusion as you ride a tourist bus back to Kathmandu.",
+  ],
+  highlights: [
+    "Visit the Kathmandu valley's ancient landmarks, including as Pashupatinath Temple, Boudhanath Stupa, Swayambhunath, Patan Durbar Square, and Bhaktapur Durbar Square.",
+    "Less crowded trekking trail in Nepal",
+    "Trekking in a green atmosphere via a rhododendron forest",
+    "The Mardi Himal Trek Route is surrounded by lush scenery, wildlife, fauna, and terraced farms.",
+    "Trek to Mardi Himal's base to take in the breathtaking panorama of the snowy Himalayan Mountains.",
+    "Fantastic views of Mount Dhauglagiri, Mount Annapurna (II, III, IV, and South), Mount Hiunchuli, Mount Machhapuchhare, and more.",
+    "Discover about the people' lifestyles, culture, and traditions by visiting the settlement of Siding.",
+    "Amazing view of snow-capped mountains including Dhaulagiri, Machhapuchhre, and Annapurna from Sarangkot, Pokhara.",
+    "Enjoy boating on Fewa Lake's tranquil waters.",
+    "Visit the historic sites on the way to the Bindabasini temple.",
+  ],
+  facilities: [
+    "Free pick-up and drop-off service from/to the international airport",
+    "T-shirt and duffel bag from Create Himalayan Adventure",
+    "Free Mardi Himal Trek Map",
+    "Medical kits could be required in several circumstances",
+    "Free Extra Luggage Storage During the Trek at Create Himalayan Adventure Store",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "Our airport representative will meet you at Tribhuwan International Airport. He will drive you to the hotel in a private car and assist you to check in. You can take a rest after a long travel or go out of your hotel and explore some of the lovely places of Kathmandu city. You will meet your guide during the Mardi Himal Trek briefing that will take place in the evening. The hike's information and any missing equipment will be provided by the guide.",
+    },
+    {
+      day: 2,
+      description:
+        "Take Tourist Deluxe Bus from Kathmandu (1400m) to Pokhara (822m)",
+      details:
+        "After breakfast in the hotel, you will take a tourist bus to start your Mardi Himal Trek, which might take 8 to 9 hours to reach Pokhara. On the way, you can see the picturesque Trishuli and Marsyangdi rivers along the green Rocky Mountains, rivers connecting each other, and small springs. Pokhara is a beautiful valley known for several lakes such as Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. We can also get a glimpse of Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal from Pokhara Valley.",
+    },
+    {
+      day: 3,
+      description: "Dive Pokhara to Kande - Trek from Pitam Deurali (2142m)",
+
+      details:
+        "After Breakfast in the hotel, you arrange private vehicle oo reach Kande, the beginning site of the Mardi Base Camp Trekking, you will depart from Pokhara with our guide. You will climb up from Kande to Australian Camp, then Pothana through a rhododendron forest, and finally Pitam Deurali. You are welcomed by magnificent vistas of the Annapurna peaks as you pass via ethnic Brahmin, Magar, and Gurung communities. For viewing the Pokhara valley and the Annapurna range, Pitam Deurali is the ideal vantage point. Once you've checked in, spend the night at a hotel to relax and acclimatize before the next day's hike.",
+    },
+    {
+      day: 4,
+      description: "Trek from Pitam Deurali (2142m) to Low Camp (3050m)",
+      details:
+        "You must go cautiously and slowly forward since your Mardi Himal Trek Route from Pitam Deurali will gradually climb in elevation. You will encounter more gorgeous greenery as you go to higher elevations. You will go along a trail that passes through rhododendron, birch, oak, maple, and hemlock forest. Wildlife such as leopards, deer, monkeys, and several bird species may be seen throughout your route. A steep crossing towards Annapurna South and views of Hiuchuli may be seen as you travel along the path and through the dense wood. After passing through Forest Camp (Kokar) and Rest Camp you will arrive at Low Camp, where you will be treated to a spectacular panorama of Fishtail Mountain.",
+    },
+    {
+      day: 5,
+      description: "Trek from Low Camp (3050m) to High Camp (3600m) ",
+      details:
+        "Your Mardi Himal Trek journey will begin from Low Camp and travel via Badal Danda to High Camp. You must ascend through a rhododendron forest for one hour to reach Badal Danda. Although the routes are challenging, you will be rewarded with stunning views of the Mardi Himal, Annapurna Range, and Machhapuchhre (fishtail mountain). The ridge gets thinner as you go up, and you can see the huge valleys on each side. You will be facing the Modi Khola river valley to your left, which is bordered by communities that rise up to the Annapurna Sanctuary. You can see the Mardi Khola and Seti river valleys to your right. You can even see the Pokhara Valley on clear days. To get to High Camp, you must keep trudging along the ridgeline. On your trip to the high camp, if you're lucky, you could get the chance to witness Daphne, the national bird of Nepal.",
+    },
+    {
+      day: 6,
+      description:
+        "Trek from High Camp (3600m) to Mardi Base Camp (4500m) then Trek Down to Badal Danda (3250m) ",
+      details:
+        "In order to witness the sunrise over the mountains today, you will get up early. It will be the most memorable and challenging journey of your whole Mardi Himal Trek Itinerary today. Mardi Trek Route is more difficult than you may imagine because of a series of rapid ascents that you must accomplish on uneven and steep steps. To go to Mardi Himal Base Camp, will take you around 5 hours. At the elevation of 4500 meters, reaching the base camp while traversing a lush, green, High Mountain will make you feel extremely accomplished. You will also be captivated by the expansive panorama of the snow-capped mountain ranges of Mt. Machhapuchhre, Mardi Himal, Annapurna I (8,091m), Annapurna III (7,555m), and Gangapurna (7,455m). You will travel down to Badal Danda to enjoy the floating cloud that goes through you after capturing those amazing and delightful views in your heart.",
+    },
+    {
+      day: 7,
+      description:
+        "Trek Down from Badal Danda (3250m) to Siding (1700m) then take Shared Jeep to Pokhara (827m)",
+      details:
+        "It's time to descend to Siding after spending some wonderful time at Badal Danda capturing lovely memories, taking in the stunning Himalayan scenery, and discovering the natural environment with rare flora and wildlife. Instead of returning to Forest Camp, this Mardi Himal Trek alternate path descends to the remarkable settlement of Siding. You will eat lunch at Siding, and then you will take a shared jeep to Pokhara. You will have evening free time in Pokhara to go boating or explore the lovely lakeside surroundings.",
+    },
+    {
+      day: 8,
+      description:
+        "Take Deluxe Tourist Bus from Pokhara (827m) to Kathmandu (1400m)",
+      details:
+        "You will wake up early today and travel to Sarangkot to take in the splendor of the sunrise. Dhaulagiri, Annapurna, and Manaslu may all be seen from Sarangkot. It also offers a wide-ranging vista of the Pokhara Valley, including the Phewa Lake. When returning to your hotel from Sarangkot, you may also tour Bindabasini, the city's oldest temple. You will take a deluxe tourist bus through the Prithvi Highway from Pokhara to Kathmandu after breakfast. Depending on traffic, it takes 7 to 8 hours to go around 205 kilometers. Along the way, you will pass through various landscapes and see the vibrant and busy bazaars of Damauli, Dumre, Mugling, etc. The Mardi Himal Base Camp Trek will be successfully concluded with a celebration that you will attend in the evening. Live ethnic music is available as you eat a typical Nepalese supper. You can purchase mementos to take home or take some photographs to remember your trip.",
+    },
+    {
+      day: 9,
+      description: "Final Departure or onward for next program",
+      details:
+        "Depending on your departure schedule, we will often set up an airport transfer service three hours before departure. If you have additional time, we can set up some side trips for you, or you may go exploring on your own.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Trekking to Mardi Himal Base Camp is not very simple. To reach the most stunning trekking location in Nepal, you only need to put in some practice, dedication, planning, and assistance. Anyone may participate in this trekking, but it is necessary to be in good physical condition, physically fit, and motivated. You need to go on a few short trips and walk for 6 to 8 hours a day, both uphill and downhill before you go trekking in Nepal. You may increase your stamina by doing aerobic workouts like running, swimming, cycling, and more. Try some yoga poses that will immediately improve your breathing, and before the journey, keep your body hydrated by drinking plenty of water. ",
+    ],
+  },
+  path:[ "/images/Mardimap.jpg"],
+},
+///////////////////////////////////////////////////Ghorepani Poonhill Trek - 8 Days/////////////////////////////////////////////////////////////////////////////////////
+ghorepani_poonhill_trek: {
+  id: 6,
+  slug: " ghorepani_poonhill_trek",
+  category: "Trekking",
+  img: "/images/GhorepaniPoonhill.jpg",
+  description: "8Days Ghorepani Poonhill Trek guided by the professionals",
+  title: "Ghorepani Poonhill Trek",
+  location: "Gandaki",
+  days: "8 days",
+  people: "1-12",
+  subimages: [
+    "/images/GhorepaniPoonhill.jpg",
+    "/images/GhorepaniPoonhill4.jpg",
+    "/images/GhorepaniPoonhill1.jpg",
+    "/images/GhorepaniPoonhill2.jpg",
+    "/images/GhorepaniPoonhill4.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 8 days 7 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "Ghorepani Poon Hill Trek is known as Poon Hill Trek, Ghorepani Trek, Annapurna Sunrise Trek, Annapurna Panorama Trek, and Family Trek located in the Annapurna region, Nepal.",
+    "Ghorepani Poonhill Trek is one of the short trek in Nepal. Poon Hill Trek is known as Annapurna Panorama Trek as well. Ghorepani Poon Hill Trek is one of the easiest trekking routes in the Annapurna Region. Poon Hill Trek is suitable for inexperienced trekkers. You can do this trek with your children as well. This trek calls the family Annapurna trekking as well. Ghorepani Poon Hill trek can be done within 2 days to 6 days; it depends on where you will start the trek and where you will finish it. Poon Hill is the best viewpoint for the sunrise view. Ghorepani Poon Hill Trek is known as the sunrise trek also. If you have a short time period in Nepal and want to see the Nepal Himalayas including the Sunrise view, Ghorepani Poon Hill Trek is the best choice.",
+    "Ghorepani Poon Hill Trek starts from Birethanti after about an hour's drive from Pokhara. During the hiking to Ghorepani, you will pass through beautiful villages, forests, streams, and river banks. If you do this trip in March or April you could see the blooming rhododendron forest. Sunrise view from Poon Hill is the main attraction of the Ghorepani Poon Hill trek from where you can see more than 32 different snow Himalaya peaks. On our itinerary, we adjust Jhinu Danda as well for a natural hot spring where you could take a bath. Details information of Ghorepani Poon Hill trek Route.",
+  ],
+  highlights: [
+    "Enjoy the greatest short hikes in the Nepalese Himalayas.",
+    "Explore the Annapurna region's charming landscapes, Rhododendron forests, and small settlements of the Gurung People.",
+    "Enjoy the breathtaking view of majestic Annapurna South and Fishtail.",
+    "Along the trekking path, spend the night in cozy teahouses.",
+    "Enjoy a time at the picturesque Phewa Lake in Pokhara.",
+    "Admire magnificent sunrises across the Dhaulagiri and Annapurna mountains from Poonhill.",
+    "The most beautiful vistas of Annapurna, Dhaulagiri, Machhapucche, Hiunchuli, Nilgiri, and Mardi",
+    "The stunning villages of Ulleri, Ghorepani, Tadapani, and Ghandruk will enchant you",
+    "Get excellent hospitality from the natives and forget all your fatigue and walking aches.,",
+  ],
+  facilities: [
+    " Free pick-up and drop-off service for the international airport",
+    "T-shirt and duffel bag as souvenirs from Create Himalayan Adventure",
+    "Ghorepani Poon Hill Trek route map",
+    "Medical kits could be required in several circumstances",
+    "Free Extra Luggage Storage During the Trek at Create Himalayan Adventure Store",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m) ",
+      details:
+        "At Tribhuwan International Airport, our representative will receive you. He will provide you with a private ride to the hotel and help you check in. After a long journey, you may either relax at your hotel or venture outside to discover some of Kathmandu's beautiful locations. At nighttime, you will meet your guide, the guide will supply any equipment that is lacking as well as information about the Ghorepani Poonhill Trek Itinerary.",
+    },
+    {
+      day: 2,
+      description:
+        "Take Tourist Bus from Kathmandu (1400m) to Pokhara (822m)",
+      details:
+        "After breakfast, you will board a tourist bus and travel 205 kilometers from Kathmandu to the stunning Pokhara Valley to start Ghorepani Trekking. As you travel, you will see breathtaking landscapes of terraced farms, small towns, Manaslu, Ganesh Himal, Lamjung Himal, and several more highlands. After six to seven hours of bus travel, you will eat lunch. You have a choice between touring and relaxing in your hotel in Pokhara. With so many stores, pubs, and restaurants, Lakeside offers a wealth of sights and activities. Another option is to take a 30-minute flight to Pokhara, after which you can visit the city famed for its stunning beauty and accommodations near lakes.",
+    },
+    {
+      day: 3,
+      description:
+        ":Drive from Pokhara (822m) to Birethanti (1263m) then Trek to Ulleri (1960m) ",
+
+      details:
+        "The travel to Birethanti from Pokhara takes roughly 1.5 hours. Your Poon Hill Trek will begin in Birethanti, where you can reach by following Modi Khola. You will pass numerous local villages, teahouses, beautiful green rolling hills, rivers, and locals throughout the journey. After passing through the charming village of Hile, you will arrive in Tikhedhunga. The trail then starts to ascend pretty steeply on a stone staircase once you cross the suspension bridge. You will be in the sizable Magar village of Ulleri, where you can get a sight of Hiunchuli and Mount Annapurna South.",
+    },
+    {
+      day: 4,
+      description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
+      details:
+        "Ghorepani Poon Hill Trek Route from Ulleri to Banthanti travels through rhododendron and oak woodlands. You will arrive at Nangge Thanti by following Bhurungdi Khola side by side. The portion of the adventure where you spend the majority of the day trekking through the jungle will be really exciting. If you schedule your Poon Hill Trek for the spring, you will see lots of rhododendron blooms, many wild birds and animals, and a stunning vista of numerous snow-capped mountains. You can reach Ghorepani after a short hike through the jungle. It's wonderful to stay in Ghorepani and enjoy the breathtaking views of Dhaulagiri, Annapurna South, Hiunchuli, and Annapurna.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Ghorepani (2880m) to Poon Hill (3210m) then to Tadapani (2630m)",
+      details:
+        "From Ghorepani, a short trek will take you to Poonhill, where you can enjoy a magnificent panorama of the mountain ranges and a stunning sunrise. Poon Hill is the greatest vantage point along this Ghorepani and Poon Hill Trek Journey and is undoubtedly a photographer's aspiration. You can walk to the top of the hill, which is at a height of 3210m, in about an hour. From there, you can see the Himalayas, including the Annapurna, Bahari Shikhar, Hiuchuli, Nilgiri, Dhaulagiri, Tukuche, Lamjung Himal, Manaslu, Machhapuchhre, and other peaks. After capturing enough breathtaking images of the sun rising over the mountains, you will return to the guesthouse in Ghorepani for a breakfast before heading towards Tadapani. The Ghorepani and Annapurna Circuit Trek is connected by a lovely woodland track that passes through forests of oak and rhododendron trees and leads to Deurali. Banthanti is reached by a route that descends through rhododendron woodland. Then the way ascends and passes through a cane field to get to Bhurungdi Khola, after which it climbs once again via a series of steep woods for 20 minutes before arriving at Tadapani, another lovely settlement that offers breathtaking views of the Annapurna peaks.",
+    },
+    {
+      day: 6,
+      description:
+        "Trek from Tadapani (2630m) to Ghandruk (1940m) then take Bus/Jeep to Pokhara (822m)",
+      details:
+        "Ghorepani with Poon Hill Trek Journey from Tadapani to Ghandruk through oak and rhododendron woodland is relatively easy. Along the walk, wildflowers may be seen, which enhances the region's remarkable attractiveness. You will carry on your journey via the Baisi Kharka to Ghandruk. Once you get to Ghandruk, you will be able to see Annapurna South, Gangapurna, Machapuchare, Annapurna III, and Hiunchuli. A museum and a Buddhist monastery are among their many cultural attractions. Its distinctive architectural design, with the majority of homes having stone walls and slate-tiled roofs, is what most fascinates people. It is now the end of your trek. It takes around three hours to go from Ghandruk to Pokhara by bus or vehicle.",
+    },
+    {
+      day: 7,
+      description:
+        "Ride Tourist Deluxe Bus from Pokhara (822m) to Kathmandu (1400m)",
+      details:
+        "You will board a tourist deluxe bus this morning after waking up in Pokhara to travel back to Kathmandu, which will conclude the 8-day Ghorepani Poon Hill Trek. The 205 kilometers that separate Pokhara from Kathmandu follows the enthralling Marsyangdi River and then the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive villages, including Damauli bazaar, Dumre bazaar, Mugling bazaar, and others. The route also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the valley, a member of our crew will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel.",
+    },
+    {
+      day: 8,
+      description: "Final Departure ",
+      details:
+        "We arrange an airport transfer service three hours before departure, depending on your scheduled departure time. If you have more time, we can plan some side trips for you, or you may go exploring on your own.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "To reach Nepal's most extravagant trekking locations, you will need to warm up, practice, have discipline, plan ahead, and follow the finest guidance. Despite the fact that anybody may take part in Ghorepani Poonhill Trekking Journey, it does require good health, physical fitness, and self-motivation. There are a few things you may do before beginning the walk as naive hikers. You should start out with short strolls and go on 5 to 6 hours of daily walking, both uphill and downhill. Your endurance may be improved through aerobic exercises like running, swimming, cycling, and others. Even before the walk, increase your water intake and keep your body hydrated. You may quickly improve your breathing by performing a few easy yoga poses.",
+    ],
+  },
+  path: ["/images/ghorepanimap.jpg"],
+},
+///////////////////////////////////////////////////////////Short ABC Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////
+short_abc_trek: {
+  id: 7,
+  slug: "short_abc_trek",
+  category: "Trekking",
+  img: "/locations/annapurna.webp",
+  description: "9 Days Short ABC Trek guided by the professionals",
+  title: "Short ABC Trek - 9 Days",
+  location: "Kaski",
+  days: "9 days",
+  people: "1-12",
+  subimages: [
+    "/images/Annapurnabasecamp2.jpg",
+    "/images/Annapurnabasecamp3.jpg",
+    "/images/Annapurnabasecamp4.jpg",
+    "/images/Annapurnabasecamp5.jpg",
+    "/images/Annapurnabasecamp6.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 9 days 8 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "Short ABC Trek is one of the most popular treks in Nepal, and for good reason. This trek offers a unique combination of natural beauty, cultural diversity, and adventure that is hard to find elsewhere. The Annapurna region is home to some of the most spectacular mountain landscapes in the world, and the Short ABC Trek allows you to experience these mountains up close and personal.",
+    "As you trek higher, the landscape becomes more rugged and the views of the mountains become more spectacular. Along the way, you will pass through several traditional villages such as Ghandruk, Chomrong, and Dovan, which offer a glimpse into the local culture and way of life. These villages also serve as great places to rest, replenish supplies, and spend the night. One of the highlights of the Short ABC Trek is the stunning views of the Annapurna range. You will have the opportunity to see some of the most famous mountains in the world, including Annapurna South, Hiunchuli, Gangapurna, and of course, the majestic Annapurna itself. The Annapurna base camp, located at an altitude of 4,130 meters, offers panoramic views of the entire Annapurna range and is the perfect place to enjoy the beauty of the mountains and take some unforgettable photos.",
+    "The short ABC Trek is a challenging but rewarding experience that requires a good level of fitness and preparation. It is important to note that altitude sickness can be a concern, so it is essential to take the necessary precautions and acclimatize properly. The best time for booking a short ABC Trek is from September to November and March to May, as the weather is the most stable during these months.",
+    "Starting with a domestic flight from Kathmandu to Pokhara, the Short ABC Trek Itinerary begins. After that, you will take a private vehicle from Pokhara to Siwai, where the trip begins. The route to Chomrong from Siwai will take you via lush rhododendron and bamboo woods, breathtaking terraced farms, and suspension bridges. Views of the Machhapuchre and Annapurna massifs are available as you go to Chomrong. The next day, you will depart Chomrong and go to Dovan. Now, as your road continues through more rhododendrons and bamboo trees, you will see that it is gradually ascending.",
+    "Your Short ABC Trek route will leave Dovan on the fourth day and go toward Deurali through Modi Khola, the Himalayas, and Hinku Cave. The most interesting day of your Short ABC Trek Itinerary will be Day 5, as you will get the opportunity to visit two Base Camps. After passing Machhapuchhre Base Camp, proceed through Modi Khola Glacier Valley in the direction of Annapurna Base Camp. You may obtain stunning views of Hiunchuli, the Annapurna ranges, including Annapurna I, Khangsar Kang, Gangapurna, and Machhapuchhre, from Annapurna Base Camp. You will spend the night at Annapurna Base Camp.",
+    "On the sixth day of the Short ABC Trek journey, the descent begins after spending the night at the Annapurna Base Camp and ends in Sinuwa. You will depart Sinuwa and go to Jhinu Danda the next morning. When you get to Jhinu Danda, you may unwind in the local natural hot springs. Once you have had a wonderful time in Jhinu Dada, your short AB C Trek will lead you to Siwai, from where you may drive to Pokhara. The rest of the day will be spent touring the fascinating Pokhara Valley, shopping, or boating on Phewa Lake. Your Short ABC Trek will come to an end the next morning after you finish eating breakfast and board a tourist bus from Pokhara to Kathmandu. This trek is a condensed version of our 14-day Annapurna Base Camp trek, making it simpler and adding additional rest breaks along the way.",
+  ],
+  highlights: [
+    "Taking a flight to Pokhara is equivalent to taking a mountain flight with lots of mountain vistas.",
+    "Discover the beauty of a leisurely hike in the highlands while breathing in the pure mountain air.",
+    "Enjoy the world-class hiking route, which is brimming with breathtaking natural features including green hills, valleys, rivers, forests, and mountains hidden behind the shadow of the Annapurna massifs.",
+    "Visit ethnic communities like Birethati, Jhinu Danda, Chhomrung, Sinuwa, and Deurali to observe the way of life of the locals.",
+    "Experience the dawn above the Annapurna gigantic and the sunset over Machhapuchhre (Fish Tail) peak.",
+    " Witness breathtaking mountain peaks including Fishtail (6993m), Nilgiri (7061m), Gangapurna (7455m), Annapurna I (8091m), and Annapurna II (7647m).",
+    "With a quick trekking journey to ABC, see the base camps of Machhapuchhre and Annapurna.",
+    "Immerse yourself in Jhinu Danda's magnificent natural Hot Spring (Tatopani).",
+    "A day in Pokhara, a city blessed with natural beauty, to see the captivating landmarks, such as the stunning Phewa Lake.",
+  ],
+  facilities: [
+    "International and Domestic Airport Pickup And Drop off service",
+    " Create Himalayan Adventure  Duffle Bag",
+    " Create Himalayan Adventure T-Shirt",
+    "Free Annapurna Base Camp Short Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m) ",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long journey or explore some of Kathmandu's beautiful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Short Trek Itinerary during the overnight trek briefing.",
+    },
+    {
+      day: 2,
+      description:
+        ":Flight from Kathmandu (1400m) to Pokhara (822m) then Drive to Siwai (1530m) after that Trek to Chomrong (2170m) ",
+      details:
+        "Your flight to Pokhara will depart from Kathmandu Domestic Airport after our driver picks you up from your accommodation in Kathmandu. Your trekking party will be picked up by our driver at the Pokhara airport and driven to Siwai in around two to three hours. You will have lunch once you get to Siwai. You will begin your Annapurna Short Trekking Itinerary to Chomrong after lunch with a refreshment while climbing stone stairs and taking in the breathtaking scenery with farm remnants.",
+    },
+    {
+      day: 3,
+      description: "Trek from Chomrong (2170m) to Dovan (2600m)",
+      details:
+        "After breakfast in Chomrong, your Annapurna Base Camp Short Trek will start. From Chomrong, your hiking route will go through stone stairs that lead down to Chomrong Khola, where you will cross a suspension bridge. After there, you will travel upward to reach Sinuwa. You will arrive at Bamboo crossing Khuldighar after a brief trek through the woods and a short, flat descent. You will descend steeply to Dovan, the gorge's bottom, after passing through a soggy bamboo grove.",
+    },
+    {
+      day: 4,
+      description: "Trek from Dovan (2600m) to Deurali (3230m) ",
+      details:
+        "Due to a nearby temple, loud noises are prohibited in the jungle on the route between Dovan and Himalaya. As a result, the walk is quiet. The Short ABC Trek route has several waterfalls and first passes through bamboo woods before switching to rhododendron forests. As you continue up the route to Hinku cave after reaching Himalaya, clearings and glacial rivers become visible. After a short distance, the route initially descends to the river before rising once again to reach Deurali, which gives fascinating views of the valley below. Accommodations for the night in a Deurali guesthouse.",
+    },
+    {
+      day: 5,
+      description: "Trek from Deurali (3230m) to Annapurna Base Camp (413m)",
+      details:
+        "After a strenuous ascent, you will arrive at Machhapuchhre Base Camp on the Short Annapurna Base Camp Trekking route from Deurali. Views of Annapurna, Machhapuchhre, Gangapurna, Himchuli and other mountains are spectacular since they can be seen from all directions. A more significant, less vegetated path leads to ABC. Awareness of potential risks is advised since the area is vulnerable to avalanches. Mountain vistas get more straightforward as you ascend from MBC. Awe-inspiring views of snow-covered mountains, such as the Annapurna range, Singuchuli, Macchhapuchhre, Tent Peak, etc., may be seen from Annapurna Base Camp.",
+    },
+    {
+      day: 6,
+      description: "Trek from Annapurna Base Camp (4130m) to Sinuwa (2360m)",
+      details:
+        "You will see a stunning dawn today above the sparkling Alps. At sunrise, the peaks' 360-degree alignment is magnificent. Mardi Himal, Machhapuchhre, Annapurna III, Gangapurna, Singu Chuli, Khangsar Kang, Annapurna I, Hiunchuli, and Annapurna South all have imposing appearances. The view is breathtaking. Your Annapurna Short Trekking Route will return to Sinuwa after viewing the dawn. You will say farewell to the captivating views of the snow-capped Himalayas on the way back. Through Deurali, Himalaya, Bamboo, Dovan, and Macchapuchre Base Camp, you will make your way back. It feels fantastic to go through these towns. Interacting with the locals will be possible. If you like, you may learn more about their culture, way of life, customs, and religions. You will arrive in Sinuwa after several hours of hiking.",
+    },
+    {
+      day: 7,
+      description:
+        "Trek from Sinuwa (2360m) to Siwai (2170m) then Drive to Pokhara (822m) ",
+      details:
+        "Your short trip to Annapurna Base Camp will end on this day. You will go to Chomorong after a delightful breakfast in Sinuwa, passing Tilche and a suspension bridge. You will arrive at Jhinu Danda after a 45-minute descent. Lunch will be served in Jhinu Danda, a natural hot springs destination. You will continue your journey from Jhinu Danda to Siwai, where you may pick up a private vehicle and travel to Pokhara. Pokhara can be reached in around 3 hours. After arriving in Pokhara, you may spend the evening shopping, visiting the area, or perhaps taking a boat out on Phewa Lake.",
+    },
+    {
+      day: 8,
+      description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
+      details:
+        "You will board a tourist bus this morning after waking up in Pokhara to travel back to Kathmandu. The 205 kilometers separating Pokhara from Kathmandu follow the enthralling Marsyangdi River and the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive market areas, including Damauli bazaar, Dumre bazaar, Mugling Bazaar, and others. The course also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the Kathmandu valley, a crew member will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel, which finally concludes your Annapurna Base Camp Short Trek successfully.",
+    },
+    {
+      day: 9,
+      description: "Final Departure ",
+      details:
+        "Three hours prior to departure, we arrange an airport shuttle service based on your scheduled departure time. If you have more time, we can arrange for you to do some side trips, or you may go exploring on your own.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparing for the Short ABC Trek is crucial for a successful and enjoyable experience. Proper preparation will ensure that you are physically and mentally ready for the trek and that you have all the necessary gear, clothing, and equipment.",
+    ],
+    points: [
+      "Physical preparation: The short ABC Trek is a challenging hike that requires a good level of fitness. In order to prepare for the trek, it is important to start a regular exercise routine several months before the trek. This can include cardio exercises such as running, cycling, or swimming, and strength training exercises such as weightlifting or resistance training. It's also important to do some specific training such as hiking, stair climbing, or carrying a heavy backpack.",
+      "Mental preparation: The short ABC Trek can be mentally challenging, especially when it comes to dealing with altitude sickness, unpredictable weather conditions, and long days of hiking. It is important to be mentally prepared for these challenges and to have a positive attitude.",
+      "Gear, Clothing, and Equipment: Having the right gear, clothing, and equipment is essential for the Short Annapurna Base Camp Trekking. It's important to have the right hiking boots, warm clothing, rain gear, a good quality backpack, a sleeping bag, a sleeping mat, a headlamp, a water filter, and a first aid kit.",
+      "Acclimatization: The short ABC Trek takes you to an altitude of 4,130 meters, which can cause altitude sickness. To avoid altitude sickness, it's important to acclimatize properly by spending at least one night in Pokhara, and then gradually increasing altitude.",
+      "Research: Researching the trek and the route is an important step in preparing for the short ABC Trek. It's important to know the distance, elevation, and trail conditions, as well as the best time of year to go, the availability of accommodation, and the estimated cost of the trek.",
+    ],
+  },
+  path: ["/images/abc-road-img.jpg"],
+},
+////////////////////////////////Poon Hill Trek - 2 Days//////////////////////////////////////////////////////////////////////////////////////////////////////////
+poon_hill_trek: {
+    id: 8,
+    slug: "poon_hill_trek",
+    category: "Trekking",
+    img: "/images/GhorepaniPoonhill.jpg",
+    description: "2 Days Poon Hill Trek guided by the professionals",
+    title: "Poon Hill Trek - 2 Days",
+    location: "Gandaki",
+    days: "2 days",
+    people: "1-12",
+    subimages: [
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/GhorepaniPoonhill4.jpg",
+      "/images/GhorepaniPoonhill1.jpg",
+      "/images/GhorepaniPoonhill2.jpg",
+      "/images/GhorepaniPoonhill4.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 2 days 1 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Have fun on the quick excursion from Pokhara to Poon Hill and back.",
+    "One of Nepal's shortest treks that offers the greatest view of the Himalayas.",
+    "Travel through the stunning rhododendron forests, which are home to a variety of plants and wildlife.",
+    "Trekking through the stunning villages of Gurung, Magar, and Thakali provides a once-in-a-lifetime adventure.",
+    " Enjoy the warm welcome of the Gurung people and the chance to quickly learn about their distinctive culture, heritage, and way of life.",
+    "Enjoy the flavor of genuine Thakali Khana Set while staying in tea houses run by locals.",
+    "Beautiful view of the Annapurna ranges, Himchuli, Machhapuchhre, Dhaulagiri, and many more mountains",
+    "A fully guided 2-day journey that allows you to take in the sunset from Ghorepani and a 360-degree vista of the snow-capped mountains.",
+    "The most beautiful sunrise view from Poon Hill is best for those who are short on time.",
+    "There is no age restriction for hikers, so take in the alluring mountain views of the Annapurna and Dhaulagiri mountains.",
+  ],
+  facilities: [
+    "International and Domestic Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag",
+    "Create Himalayan Adventure T-Shirt",
+    "Free Ghorepani Poonhill Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Drive from Pokhara (822m) to Ulleri (1960m) via Nayapul (1070m), and Hile (1430m) then trek to Ghorepani (2880m) ",
+      details:
+        "You will board a jeep to Tikhedhunga, the beginning location of the 2 Days Poon Hill Trekking, after completing your breakfast in the hotel in Pokhara. On a Jeep, it will take around 3 to 4 hours to get to the starting point of the walk. You will pass via Sudame and Hile en route to Tikhedhunga. Most people who hike to Poon Hill begin their journey in Nayapul. You will go by Jeep to Ulleri since you have less time to do the 2 Days Short Poon Hill Trek. Even though you will be traveling by Jeep to Ulleri, you will get to see scenic towns, mountains like Machhapuchhre and Annapurna South, lovely hillocks, and streams along the road. As you pass, you will avoid the steep hills that many hikers find challenging. However, you won't have enough time to meet with folks in Hile and Sudame.You will eat lunch when you get to Ulleri, then climb upward to Ghorepani. From Ulleri, it will take around 6 to 7 hours. On your route to Ghorepani, you must climb a series of difficult slopes. You will trek from Ulleri to Ghorepani via meadows, rhododendron and oak forests, and pastureland. Nearly two hours of hiking will get you to Banthanti (2200m). The Gurung community predominates in the little town of Banthanti, which has a few eateries and guesthouses. Your 2 Days Ghorepani Poon Hill Trek Route will go north to Nangthanti from Banthanti (2500m). You will reach Nangthanti after navigating a number of creeks and minor hills. Mountain vistas are closer and more stunning as you go in a northerly direction. The two-hour hike from Nangthanti to Ghorepani is all uphill. The breathtaking vistas of Machhapuchhre, Annapurna I, and more await you when you arrive at Ghorepani. You will spend the night in a spotless tea house in Ghorepani.",
+    },
+    {
+      day: 2,
+      description:
+        "Hike to Poon Hill (3210m) then trek back to Thikhedhunga (1540m) and then Ride back to Pokhara (822m)",
+      details:
+        "The hike will begin before daybreak in the early morning hours. Your goal will be to get to the 3,210-meter-high Poon Hill viewpoint in time to witness the spectacular dawn. You will thus need to take a 45-minute trek from your accommodation to Poon Hill. You must act quickly because if you miss the sunrise, the enjoyment will be ruined. You will wait for the sun to rise after you reach the summit. The sun slowly emerges on the horizon from behind the hills. The dawn is magnificent. You will be spellbound by the breathtaking image created when the sun's rays hit the mountains. You will make the almost 45-minute ascent to the summit before making the descent to Ghorepani. After breakfast, 2 Days Poon Hill Trek from Pokhara Route will take you back to Tikhedhunga (1,500m), and it will take around 5 to 6 hours. As you move southward, the hike will also get a little easier. You may reach Nangthanti by hiking for two hours in the downward direction. From there, you can see Annapurna I in stunning detail. One additional hour of walking separates Nangthanti from Banthanti. From Banthanti, you may reach Ulleri by navigating a number of streamlets and stunning waterfalls. As you go down through the countryside and gorgeous mustard fields from Ulleri to Tikhedhunga, a tiny settlement area in Nepal home to the Gurung population, you can enjoy mesmerizing views of stunning villages and breathtaking mountains. You will eat lunch in Tikhedhunga before boarding a Jeep to travel to Pokhara. You will arrive in Pokhara (822m) after traveling for around 3 hours on a Jeep when the unforgettable Poonhill Trek 2 Days comes to a conclusion.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparation is key to ensuring that you have a safe and enjoyable trek to Poon Hill. Here are some things to keep in mind when preparing for the 2 Days Poon Hill Trekking:",
+    ],
+    points: [
+      "The trek is considered easy to moderate in terms of difficulty, but it is still important to be in good physical shape. Start training well in advance of your trek by going for regular hikes and incorporating cardio and strength training exercises into your routine.",
+      "The Poon Hill viewpoint is at an altitude of 3,210 meters, which is above the altitude where some people may experience altitude sickness. To prepare for the altitude, it's important to acclimatize properly by spending a few days in Pokhara or another lower-altitude location before starting the trek.",
+      "Make sure you have the right clothing and equipment for the trek. You will need warm clothes, a waterproof jacket, good hiking boots, a backpack, water bottles, a headlamp, and other essentials. It's also a good idea to bring a first aid kit, as well as any personal medications you may need.",
+      "Research the trek beforehand, and plan your route and itinerary. Make sure you have a good map and a guidebook and familiarize yourself with the trail and the locations of the tea houses and lodges.",
+      "Make sure you have travel insurance that covers trekking and emergency evacuation.",
+      "You will need TIMS (Trekkers' Information Management System) and Annapurna Conservation Area Permit (ACAP) to trek in the Annapurna region. You can get these permits from Kathmandu or Pokhara.",
+      "If you are new to trekking or prefer not to carry your own gear, you may want to consider hiring a guide or porter. They can help you navigate the trail, carry your gear, and provide valuable information about the local culture and environment.",
+    ],
+  },
+  path:[ "/images/ghorepanimap.jpg"],
+},
+/////////////////////////////////////////////////////////////////////////Poon Hill Mardi Himal Trek - 12 Days///////////////////////////////////////////////////////////////////////
+poon_hill_mardi_himal_trek: {
+  id: 9,
+    slug: "poon_hill_mardi_himal_trek",
+    category: "Trekking",
+    img: "/images/GhorepaniPoonhill.jpg",
+    description: "12 Days Poon Hill Mardi Himal Trek guided by the professionals",
+    title: "Poon Hill Mardi Himal Trek - 12 Days",
+    location: "Gandaki",
+    days: "12 days",
+    people: "1-12",
+    subimages: [
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/mardihimaltrek1.jpg",
+      "/images/mardihimaltrek2.jpg",
+      "/images/GhorepaniPoonhill.jpg",
+      "/images/GhorepaniPoonhill.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples:
+        "1 to 12.",
+      category:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [
+    "The Mardi Himal Trek via Poon Hill will be the most appropriate for you if you are looking for an easy to moderate difficulty level trek in the Annapurna area of Nepal. Two locations, Poon Hill and Mardi Base Camp offer the best opportunities for seeing the top of the snow-capped mountain. This trip is an excellent substitute for the congested hikes to Annapurna Base Camp since it gives you breathtaking Himalayan vistas in a short period. Spectacular views of some of the world's highest mountains, including Annapurna South, Macchapucchre, Himalchuli, and others, are available from Ghorepani Poon Hill with Mardi Himal Trek. Similar to this, the route passes through great villages with friendly locals and excellent common sceneries. This hike combines elements of two hikes. You will finish the Ghorepani Poon Hill Trek first, and then you will move on to the Mardi Himal Trek. One of the most well-known treks in the Annapurna region is Poon Hill Trek, whereas Mardi Trek is a recently launched trek in a less visited and off-the-beaten-path location. After taking a tourist bus from Kathmandu to Pokhara, the Mardi Himal Trek via Poon Hill begins. You will arrive in Birethanti, the starting site of the major trek, after traveling from Pokhara for around an hour and fifteen minutes. The journey begins by passing past terraced farms that are brimming with paddy and mustard. Ulleri is reached after passing through the Magar and Gurung settlements of Hile and Tikhedhunga. The next day, you will trek through a rhododendron forest and via the picturesque village of Banthanti to get to Ghorepani. You will leave Ghorepani early in the morning to go to Poon Hill to see the stunning sunrise over Machhapuchhre and the adjacent mountain ranges. After seeing a breathtaking sunrise at Poon Hill, you will make the trip down to Ghorepani for breakfast. After breakfast, your adventure will continue via Tadapani, Ghandruk, and Landruk before beginning your second trek, the Mardi Himal Trek, in Landruk. From Landruk, proceed toward Low Camp through Forest Camp and a lovely rhododendron, pine, and oak forest. The next morning, you will leave for High Camp after spending the night at Low Camp. The next day, you will depart from High Camp and travel to Mardi Base Camp without your backpack. You will then climb down from Mardi Himal Base Camp to Badal Danda and ultimately to Siding. To go to Pokhara from Siding, you'll use a shared vehicle. The opportunity to boat on Phewa Lake will let you explore some of Pokhara's most beautiful areas. Your 12 Days Mardi Himal Poon Hill Trek will then conclude as you ride a tourist bus back to Kathmandu.",
+  ],
+  highlights: [
+    "Enjoy your free time by seeing some incredible Pokhara attractions including the World Peace Pagoda, David Fall, Phewa Lake, and International Mountaineering Museum.",
+    "Discover the beautiful landscapes, rhododendron woods, animals, fauna, terraced fields, and Gurung People's modest communities in the Annapurna region.",
+    "Enjoy the stunning views of the spectacular Annapurna South and Fishtail while hiking along the Poon Hill Mardi Himal Trek Route, and spend the night in comfortable teahouses.",
+    "Experience breathtaking sunrises over the Dhaulagiri and Annapurna ranges from the Poonhill viewpoint.",
+    "Get wonderful hospitality from the locals and forget about your tiredness and pain from walking.",
+    "Trek to Mardi Himal's foot to experience the mesmerizing view of the snow-covered Himalayan Mountains.",
+    "Fantastic views of Mount Dhaulagiri, Mount Annapurna (II, III, IV, and South), Mount Hiunchuli, Mount Machhapuchhare, and more.",
+    "Visit the community of Siding to learn about the way of life, culture, and customs of the locals.",
+  ],
+  facilities: [
+    "Free International Airport Pickup And Drop Services",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt as a souvenir",
+    "Free Poon Hill Mardi Himal Trek Map",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Oximeter to check oxygen level at high altitude",
+    "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
+    "Arrangement of sleeping bags and down jackets if required",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "Our agent will meet you at Tribhuwan International Airport. In addition to helping you check in, he will provide you a private transport to the hotel. You might choose to unwind at your hotel after a long travel or go exploring to find some of Kathmandu's lovely sights. You will meet your guide during your trek briefing on the Poon Hill and Mardi Himal Trek Itinerary that takes place in the evening. He will provide you with any information you need regarding the trek as well as any equipment that is missing.",
+    },
+    {
+      day: 2,
+      description: "Drive from Kathmandu (1400m) to Pokhara (822m)",
+      details:
+        "You will board a tourist bus to Pokhara after a leisurely breakfast; the trip might last 7 to 8 hours. Pokhara is considered the starting point for the Poon Hill to Mardi Himal Trek. Numerous springs and the picturesque Trishuli and Marsyangdi Rivers flowing next to the verdant Rocky Mountains may be seen throughout the route. We can also arrange for a direct flight for you from Kathmandu to Pokhara if you pay an additional charge. This would enable you to reach Pokhara from Kathmandu in only 25 minutes, giving you more time to enjoy the Pokhara Valley. The Pokhara valley is home to several stunning lakes, including Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. Views of the Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal may be seen from the Pokhara Valley.",
+    },
+    {
+      day: 3,
+      description:
+        "Drive from Pokhara (822m) to Birethanti (1263m) then trek to Ulleri (1960m)",
+
+      details:
+        "The travel to Birethanti from Pokhara takes roughly 1.5 hours. Mardi Himal Trek via Poon Hill will begin in Birethanti, where you can reach by following Modi Khola. You will pass numerous local villages, teahouses, beautiful green rolling hills, rivers, and locals throughout the journey. After passing through the charming village of Hile, you will arrive in Tikhedhunga. The trail then starts to ascend pretty steeply on a stone staircase once you cross the suspension bridge. You will be in the sizable Magar village of Ulleri, where you can get a sight of Hiunchuli and Mount Annapurna South.",
+    },
+    {
+      day: 4,
+      description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
+      details:
+        "Your Ghorepani Poon Hill with Mardi Himal Trek Route will depart from Ulleri after a delectable breakfast. The route from Ulleri to Banthanti travels through rhododendron and oak woodlands. You will arrive at Nangge Thanti by following Bhurungdi Khola side by side. The portion of the adventure where you spend the majority of the day trekking through the jungle will be really exciting. If you schedule your Trek for the spring, you will see lots of rhododendron blooms, many wild birds and animals, and a stunning vista of numerous snow-capped mountains. You can reach Ghorepani after a short hike through the jungle. It's wonderful to stay in Ghorepani and enjoy the breathtaking views of Dhaulagiri, Annapurna South, Hiunchuli, and Annapurna.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Ghorepani (2880m) to Poon Hill (3210m) then Tadapani (2630m) ",
+      details:
+        "From Ghorepani, a short hike will take you to Poonhill, where you can enjoy a magnificent panorama of the mountain ranges and a stunning sunrise. Poon Hill is the greatest vantage point along this path and is undoubtedly a photographer's aspiration. You can walk to the top of the hill, which is at a height of 3210m, in about an hour. From there, you can see the Himalayas, including the Annapurna, Bahari Shikhar, Hiuchuli, Nilgiri, Dhaulagiri, Tukuche, Lamjung Himal, Manaslu, Machhapuchhre, and other peaks. After capturing enough incredible images of the sun rising over the mountains, you will return to the guesthouse in Ghorepani for a breakfast before continuing Mardi Himal Trek with Poon Hill towards Tadapani. The Ghorepani and Annapurna Circuit Trek is connected by a lovely woodland track that passes through forests of oak and rhododendron trees and leads to Deurali. Banthanti is reached by a route that descends through rhododendron woodland. Then the route ascends and passes through a cane field to get to Bhurungdi Khola, after which it climbs once again via a series of steep woods for 20 minutes before arriving at Tadapani, another lovely settlement that offers breathtaking views of the Annapurna peaks.",
+    },
+    {
+      day: 6,
+      description:
+        "Trek from Tadapani (2630m) to Landruk (1565m) via Ghandruk (1940m)",
+      details:
+        "The journey from Tadapani to Ghandruk through oak and rhododendron woodland is relatively easy. Along the walk, wildflowers may be seen, which enhances the region's remarkable attractiveness. You will continue your Mardi Himal Poon Hill Trek via the Baisi Kharka to Ghandruk. Once you get to Ghandruk, you will be able to see Annapurna South, Gangapurna, Machapuchare, Annapurna III, and Hiunchuli. A museum and a Buddhist monastery are among their many cultural attractions. Its distinctive architectural design, with the majority of homes having stone walls and slate-tiled roofs, is what most fascinates people. From Ghandruk, the settlement of Landruk is ultimately reached after passing via the small village of Phedi and navigating the Modi River.",
+    },
+    {
+      day: 7,
+      description: "Trek from Landruk (1565m) to Low Camp (3050m)",
+      details:
+        "To reach Forest Camp from Landruk, it is a steep trek through pine and juniper hamlets. As you travel further, you can see more of the high peaks. The forest camp is incredibly quiet and remote, with only a few simple and basic lodges scattered around. You will travel to Low Camp along the Poon Hill and Mardi Himal Trek route across moss and lichen-covered woodlands from Forest Camp. Rhododendron bushes dominate the landscape, and the horizon is adorned with breathtaking vistas of the Annapurna, Machhapuchhre, and Dhaulagiri Mountain Peaks. Low Camp, like Forest Camp, features only a few simple lodges, and a sweeping vista of the Himalayan valley wraps up the atmosphere.",
+    },
+    {
+      day: 8,
+      description: "Trek from Low Camp (3050m) to High Camp (3600m)",
+      details:
+        "Your Ghorepani Mardi Himal Trek route will begin with Low Camp and travel via Badal Danda to High Camp. You must ascend through a rhododendron forest for one hour to reach Badal Danda. Although the routes are challenging, you will be rewarded with stunning views of Mardi Himal, Annapurna Range, and Machhapuchhre. The ridge gets thinner as you go up, and you can see the huge valleys on each side. You will be facing the Modi Khola river valley to your left, which is bordered by communities that rise up to the Annapurna Sanctuary. You can see the Mardi Khola and Seti river valleys to your right. You can even see the Pokhara Valley on clear days. To get to High Camp, you must keep trudging along the ridgeline. On your trip to the high camp, if you are lucky, you could get the chance to witness Daphne, the national bird of Nepal.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from High Camp (3600m) to Mardi Base Camp (4500m) then return to Badal Danda (3250m) ",
+      details:
+        "In order to witness the sunrise over the mountains today, you will get up early. It will be the most memorable and challenging journey of your whole Poon Hill to Mardi Himal Trek Itinerary. The track is more difficult than you may imagine because of a series of rapid ascents that you must accomplish on uneven and steep steps. To go to Mardi Himal Base Camp, will take you around 5 hours. At the elevation of 4500 meters, reaching the base camp while traversing a lush, green, High Mountain will make you feel extremely accomplished. You will also be captivated by the expansive panorama of the snow-capped mountain ranges of Mt. Machhapuchhre, Mardi Himal, Annapurna I (8,091m), Annapurna III (7,555m), and Gangapurna (7,455m). You will travel down to Badal Danda to enjoy the floating cloud that goes through you after capturing those amazing and delightful views in your heart.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Badal Danda (3250m) to Siding (1700m) then Drive to Pokhara (822m)",
+      details:
+        "After spending some fantastic time at Badal Danda making amazing memories, admiring the breathtaking Himalayan views, and learning about the local ecosystem with its uncommon flora and fauna, it's time to descend to Siding village. The Mardi Himal Trek via Poon Hill's alternative route will descend to the amazing town of Siding rather than returning to Forest Camp. After eating lunch in Siding, you will go to Pokhara in a shared jeep. In Pokhara, you will have free time in the evening to go boating or explore the wonderful lakeside area.",
+    },
+    {
+      day: 11,
+      description: "Drive from Pokhara (822m) to Kathmandu (1400m) ",
+      details:
+        "You will take a deluxe tourist bus through the Prithvi Highway from Pokhara to Kathmandu after breakfast. Depending on traffic, it takes 7 to 8 hours to go around 205 kilometers. Along the way, you will pass through various landscapes and see the vibrant and busy bazaars of Damauli, Dumre, Mugling, etc. The Ghorepani Poon Hill with Mardi Himal Trek will be successfully concluded with a celebration that you will attend in the evening. Live ethnic music is available as you eat a typical Nepalese supper. You can purchase mementos to take home or take some photographs to remember your trip.",
+    },
+    {
+      day: 12,
+      description: "Final Departure",
+      details:
+        "Depending on your departure schedule, we will often set up an airport transfer service three hours before to departure. If you have additional time, we can set up some side trips for you, or you may go exploring on your own.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Trekking up Mardi Himal is not as simple as Ghorepani Poon Hill Trek. To reach the most stunning trekking location in Nepal, you need to put in some practice, dedication, planning, and assistance. Anyone may participate in Ghorepani Poon Hill with Mardi Himal Trekking, but it is necessary to be in good physical condition, physically fit, and motivated. You need to go on a few short trips and walk for 5 to 6 hours a day, both uphill and downhill before you go trekking in Nepal. You may increase your stamina by doing aerobic workouts like running, swimming, cycling, and more. Try some yoga poses that will immediately improve your breathing, and before the journey, keep your body hydrated by drinking plenty of water.",
+    ],
+    points: [],
+  },
+  path:[ "/images/Mardimap.jpg"],
+},
+////////////////////////////////////////////////////////////////////Annapurna Full Circuit Trek - 17 Days//////////////////////////////////////////////////////////////////////////
+annapurna_full_circuit_trek: {
+  id: 10,
+    slug: "annapurna_full_circuit_trek",
     category: "Trekking",
     img: "/locations/annapurna.webp",
+    description: "17 Days Annapurna Full Circuit Trek guided by the professionals",
+    title: "Annapurna Full Circuit Trek - 17 Days",
+    location: "Kaski",
+    days: "17 days",
+    people: "1-12",
+    subimages: [
+     "/images/Annapurnabasecamp2.jpg",
+      "/images/Annapurnabasecamp3.jpg",
+      "/images/Annapurnabasecamp4.jpg",
+      "/images/Annapurnabasecamp5.jpg",
+      "/images/Annapurnabasecamp6.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 17 days 16 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "One of the top hiking routes in the world is the Annapurna Full Circuit Trek.",
+    " On the way, pass through two beautiful river valleys: the Marshyangdi River Valley and the Kali Gandaki River Valley.",
+    "You may explore the numerous features of the Himalayas by hiking through oak, rhododendron, and rice field forests.",
+    "Embark on the Throng La Pass challenge, a fantastic and remarkable trekking accomplishment.",
+    "Enjoy the stunning vista of the Annapurna massif, Dhaulagiri, and Lamjung Himal ranges",
+    "A brief tour of the biggest monastery in the Manang area, Barge Monastery",
+    "One of the most revered temples for both Hindus and Buddhists is the Muktinath Temple.",
+    "Visit the 108 stone faucets at the Muktinath Temple, which is revered by both Hindus and Buddhists.",
+    "Tatopani's natural thermal springs are a great location to unwind after a long day.",
+    "Immerse yourself in the indigenous Himalayan culture and way of life.",
+    "Drive through communities populated by several ethnic groups to get a sense of the lively local culture.",
+    "Enjoy the stunning view from Poonhill, then have a wonderful day in the stunning Pokhara valley.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop Services",
+    "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+    "Map of Annapurna Full Circuit Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
+    "Arrangement of sleeping bags and down jackets if required",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m) ",
+      details:
+        "You will be met by our airport representative at Tribhuwan International Airport. He will transport you to the hotel in a special tourist vehicle and help you check-in. After a long travel, relax with a nap. To get your first sights of Kathmandu city, explore some of the lovely spots outside of your lodging. In the evening, you will meet your guide for a briefing on the Annapurna Full Circuit Trek Itinerary. The guide will provide you with any equipment that is lacking as well as information on the trek.",
+    },
+    {
+      day: 2,
+      description: "Drive from Kathmandu (1400m) to Dharapani (1860m)",
+      details:
+        "A regular bus that departs early in the morning will take you from Kathmandu to Bhulbhule via Besisahar. Your journey to Dharapani, your final stop for the day, will next be made in a shared jeep. With its breathtaking waterfalls, snow-capped mountains, and several suspension bridges, the experience of Annapurna Full Circuit Trekking will astound you. Before reaching Dharapani, you will travel beside the Marsayangdi River via charming rural villages like Ngadi, Bahundanda, Syange, Jagat, Chamje, and Tal. Visitors should register their IDs and hiking permits at the Dharapani police checkpoint.",
+    },
+    {
+      day: 3,
+      description: "Trek from Dharapani (1860m) to Chame (2610m)",
+      details:
+        "You will travel through the alpine country today, where the temperature will decline. One gets to the Tibetan settlements of Bagarchhap and Danakyu after trekking through the woodlands. Along with pine forests, farms, and vistas of the Lamjung and Annapurna II peaks, you will witness the apple-growing region. After passing through the lovely towns of Timang, Thanchowk, and Koto, where the Naar-Phu road connects the Full Annapurna Circuit Trek Route, you will eventually arrive at Chame. The village's main entrance is framed by a sizable mani wall with prayer wheels. The district seat of Manang, Chame, offers a wide range of amenities, including lodging, Internet cafés, outdoor equipment stores, banks, and communication and medical centers.",
+    },
+    {
+      day: 4,
+      description: "Trek from Chame (2610m) to Upper Pisang (3300m) ",
+      details:
+        "The Chame route winds through stunning pine and rhododendron woods in a small, steep valley. The Full Annapurna Circuit Trekking Route ascends after a suspension bridge over the Marshyangdi River and provides stunning views of mountainous terrain, including the face of Pangdi Danda and Swargadwari Danda. You will pass through the villages of Talekhu and Bhratang and arrive at Dhikur Pokhari if you keep going. Annapurna II, Pisang Peak, Chulu Peak, and Tilicho Peak, among many more peaks, can be viewed from Dhikur Pokhari. After that, you will go toward Upper Pisang by crossing a suspension bridge over a river. Upper Pisang offers stunning views of the Annapurna Range's Kuntu Danda, Longyo Danda, and Pisang Peak.",
+    },
+    {
+      day: 5,
+      description: "Trek from Upper Pisang (3300m) to Manang (3540m)",
+      details:
+        "You will take the toughest path, which includes multiple steep ascents and twists, starting from Upper Pisang. You can experience breathtaking views of the Lamjung Himal (6,983m), Annapurna II (7,937m), Annapurna IV (7,525m), Gandarbha Chuli (6,250m), Annapurna III (7555m), Gangapurna (7,544m), Glacier Dome (7,193m), and Khangsar Kan while trekking on the upper paths of Upper Pisang through Ghyaru and Ngawal (6,091m). You will notice that the air gets colder, dryer, and harsher as the Annapurna Complete Circuit Trek Route ascend. You will get the chance to learn about Buddhist culture as you go through the Tibetan settlements along this trail. On the route to Manang, it passes through the endearing village of Munchi and the inconspicuous hamlet of Braga. You will eventually arrive at Manang market after passing through a number of monasteries. Along the way, you will notice that the road is lined with Buddhist temples. One of the largest settlements in Manang, which is situated along the Annapurna Full Circuit Trekking route.",
+    },
+    {
+      day: 6,
+      description: "Acclimatization at Manang (3540m)",
+      details:
+        "Before continuing to Tilicho Lake, this is a rest day as per Annapurna Full Circuit Trek Itinerary. Make the most of your time by taking a little stroll to acclimate yourself by visiting Gangapurna Lake and the neighborhood. The scenery is stunning, despite the route of this tourist attraction is a little challenging and littered with tiny pebbles. The serene Gangapurna Lake receives its water from melting glaciers while being surrounded by gleaming mountains and rugged hills. Glacial Dom, Khangsar Kang, Mt. Gangapurna, and Annapurna can all be seen from the lake. Also popular among hikers are side trips to the beautiful Ice Lake and Base Camp.",
+    },
+    {
+      day: 7,
+      description: "Trek from Manang (3540m) to Ledar (4200m)",
+      details:
+        "Your Annapurna Full Circuit Trekking Route will ascend to the settlement of Tengi from Manang village, crosses a spring, and then continues to ascend out of the Marshyangdi Valley before turning northwest and ascending the Jarsang Khola valley. The path proceeds northward through this valley, slowly gaining altitude as it passes through a few meadows and a juniper tree scrub. The little settlement of Ghusang, which consists of a collection of mud-roofed structures, is located close to where the route continues to travel. The trail passes through yak and horse grazing meadows known as Yak Kharka. The path crosses a historic old Mani wall in a peaceful meadow after passing a small river on a wooden bridge, and it eventually reaches to the lovely hamlet of Ledar.",
+    },
+    {
+      day: 8,
+      description: "Trek from Ledar (4200m) to Thorung Phedi (4525m)",
+      details:
+        "You will walk to Thorung High Camp, also known as Thorung Phedi, today. Depending on your physical condition and the weather, it will take 4 to 5 hours to reach Thorung Phedi or Thorung High Camp. In these higher locations, the difficulty level and frequently severe winds are impacted by the higher altitude. Snow on the Complete Annapurna Circuit Trek Route can make it take considerably longer. Following your guide, go gently and carefully. You may observe herds of Yaks and blue sheep grazing on the other side of the river, across from the course. In Thorung Phedi, there aren't many tea places. Unlike the lush lowlands you crossed on the way up during the first part of the hike, the deserted, rocky environment is unearthly and quite different. Trekking to the High Camp will make the next day's trip simpler if you are not exhausted and eager to go further.",
+    },
+    {
+      day: 9,
+      description: "Trek from Thorang Phedi (4550m) to Muktinath (3760m)",
+      details:
+        "The journey you will do today is one of the toughest in the whole Annapurna Full Circuit Trek Itinerary. You may reach the 5416-meter Thorung La Pass by way of Thorung Phedi or Thorung High Camp. Thorung La Pass offers a distant view of the Annapurna Range, Thorong Peak, Dhaulagiri Range, Nilgiri, and other mountains. You will wander down to Muktinath after savoring the splendor and snapping a few pictures. There is only downhill travel between Thorung La Pass to Muktinath. In addition to being a Buddhist temple, Muktinath is the second-largest Hindu temple. The Muktinath shrine receives a high number of Hindu pilgrims. In Muktinath, there are two small ponds and 108 water taps. A holy natural gas flame sparkles behind a grill just above the spring at Dhola Mebar Gompa, or the Jwalamai (goddess of fire) temple, a little distance away via a group of Chorten.",
+    },
+    {
+      day: 10,
+      description: "Trek from Muktinath (3760m) to Tukuche (2590m)",
+      details:
+        "Today's Annapurna Full Circuit Trekking route will leave from Muktinath once breakfast is over. As you descend, you will pass through several charming villages, including Jharkot, Kagbeni, and Ekle Bhatti. The journey to Jomsom is considerably less difficult than the previous one because the majority of the roads are downhill. The last few sections of the route are a little more challenging due to steep inclines. You must ascend the mountains that lead to the Kali Gandaki River and a windswept valley in order to reach Jomsom. Jomsom, which serves as the district's administrative hub for the Mustang area, is home to the Thakali people and the traditional salt dealers. Jomsom offers a clear view of Tilicho Peak, Nilgiri, and Dhaulagiri. From Jomsom, you will continue your trek via Syang, and Marpha to finally reach Tukuche.",
+    },
+    {
+      day: 11,
+      description: "Trek from Tukuche (2590m) to Ghasa (2010m)",
+      details:
+        "Your Full Annapurna Circuit Trek route will depart for Ghasa today after breakfast in Tukuche. As you travel from Tukuche to Lete, you will pass through the picturesque towns of Kobang, Larjung, Kokhethanti, and Kalopani. You may enjoy a stunning view of Dhaulagiri and Annapurna from Lete. The Kaligandaki River will be followed on the trip from Lete until you reach Ghasa. You will spend the night at Ghasa.",
+    },
+    {
+      day: 12,
+      description: "Trek from Ghasa (2010m) to Tatopani (1190m)",
+      details:
+        "As the Annapurna Full Circuit Trekking Route descends from Ghasa to lower heights, subtropical flora becomes more noticeable. Rupse Chahara (a waterfall) is located along this road, and if you continue down the east bank from Kopchepani, you'll arrive at Narchyang Besi, which has a power plant that provides the community with electricity. You will pass via the villages of Dana, Duwarikhola Gaon, Guithe, and Jalthale on your way to Tatopani, your final stop for the day. There are hot springs in Tatopani where you may have a revitalizing soak.",
+    },
+    {
+      day: 13,
+      description: "Trek from Tatopani (1190m) to Ghorepani (2880m) ",
+      details:
+        "After enjoying a sumptuous breakfast in Tatopani, you will set off on your Annapurna Full Circuit Trek route from the highway. You will pass through picturesque villages with terraced and sloping farmlands, such Ghara, Shikha, and Phalate. Throughout the trek, you may see how villagers live. Ghorepani is reached after a hard climb largely along stone-paved routes. A variety of vibrant plants can be seen along the way, and as you climb, you can see more and more majestic mountain peaks. The next morning, additional beauty can be seen at Poon Hill.",
+    },
+    {
+      day: 14,
+      description: "Trek from Ghorepani (2880m) to Tikhedhunga (1540m) ",
+      details:
+        "For the Poon Hill excursion, you must get up early. The most breathtaking panoramic views of the Himalayas are provided by Poon Hill, which is located 3210 meters above sea level. The golden summits come to life with the dawn's first light. Following an hour of taking in the breathtaking scenery, you will return to Ghorepani for a delicious supper before continuing the Annapurna Full Circuit Trek in the direction of Tikhedhunga. To ultimately get to Tikhedhunga, your final stop for the day, you will walk through rhododendron woods, passing through magnificent towns like Nangethanti, Banthanti, and Ulleri, a sizable Magar hamlet.",
+    },
+    {
+      day: 15,
+      description:
+        "Trek from Tikhedhunga (1540m) to Nayapul (1070m) then Drive to Pokhara (822m) ",
+      details:
+        "You will begin your Full Annapurna Circuit Trek from Tikhedhunga to Nayapul today after breakfast. To ultimately reach Nayapul, you will stroll through picturesque towns like Hile, Sudame, and Birethanti. Following Bhurungdi Khola from Sudame to Birethanti and then Modi Khola to Nayapul is your hiking route. You will take a private vehicle from Nayapul to Pokhara. You will have free time in Pokhara to spend any way you choose. You may go shopping, explore the area around your hotel, or perhaps rent a boat and cruise Phewa Lake.",
+    },
+    {
+      day: 16,
+      description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
+      details:
+        "This will be the last day of your Annapurna Full Circuit Trek Itinerary which involves trekking. After a sumptuous breakfast in Pokhara, you will board a tourist bus for Kathmandu. The travel time to the Kathmandu Valley will be between 7 and 8 hours. From the bus's windows, you can take in the breathtaking scenery as you journey. Once in Kathmandu, our driver will assist you in getting to your accommodation. We will celebrate the successful conclusion of your trekking with an incredible farewell dinner in the evening.",
+    },
+    {
+      day: 17,
+      description: "Final Departure ",
+      details:
+        "A drop from the hotel to the airport 3 hours before the scheduled time of the flight is arranged in a private tourist vehicle. You can also opt for another program with us and elongate your stay.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparation for the Annapurna Full Circuit Trek includes both physical and mental preparation.",
+    ],
+    points: [
+      "Physical preparation includes increasing your cardiovascular endurance through activities such as hiking, running, cycling, and swimming. It is also important to strengthen your leg muscles, as the trek involves a lot of uphill and downhill hiking. Additionally, it is essential to acclimatize yourself to the altitude, as the trek reaches elevations of up to 5,416 meters (17,769 feet).",
+      "Mental preparation includes familiarizing yourself with the trek route and itinerary, as well as researching the culture and customs of the local people. It is also important to be prepared for the challenges of high-altitude trekking, such as altitude sickness.",
+      "You should also carry the appropriate gear and clothing, such as a good pair of hiking boots, a waterproof jacket, warm clothing, and a first aid kit. It's always good to be prepared and hire a guide or porter, or join a group of trekkers.",
+      "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
+    ],
+  },
+  path:[ "/images/ABC.jpg"],
+},
+/////////////////////////////////////////////////////////////////////Everest Region Trekking////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////EBC Trek via Gokyo with Helicopter Return – 15 Days////////////////////////////////////////////////////////
+ebc_trek_gokyo_helicopter: {
+  id: 11,
+    slug: "ebc_trek_gokyo_helicopter",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "15 Days EBC Trek via Gokyo with Helicopter Return guided by the professionals",
+    title: "EBC Trek via Gokyo with Helicopter Return – 15 Days",
+    location: "Solukhumbu",
+    days: "15 days",
+    people: "1-10",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 15 days 14 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [
+    "Would you like to explore several places in a single trip? If the answer is yes then the EBC Trek via Gokyo with Helicopter Return is the most appealing option for you.You will be able to visit all six of the Gokyo Lakes on this trip: Gokyo Cho, Thonak Cho, Gyazumpa Cho, Tanjung Cho, Ngojumba Cho, and Longpanga Cho. Following that, you will get the incredible chance to explore the 5420-meter-high Cho La Pass. Other significant sites included in the EBC Trek via Gokyo with Helicopter Return are the popular observation point Kala Patthar, which is located at an elevation of 5545 meters, and Everest Base Camp, which is located at 5364 meters.The most enjoyable aspect of the EBC Trek via Gokyo with Helicopter Return is the helicopter ride back to Kathmandu from Gorakshep, which helps you see the trip from a different angle and shortens your trekking distance.You will be able to get a bird’s eye view of the snow-covered Khumbu glacier and several other high peaks, including Ama Dablam, Everest, Thamserku, Lhotse, and many more.The 15-day EBC Trek via Gokyo with Helicopter Return is a fantastic experience for nature lovers and adventure explorers. The beginning of your journey will involve a quick flight to Lukla from the domestic terminal of Tribhuvan International Airport. This flight has a duration of 35 to 45 minutes. During the busiest trekking season, when there is a lot of traffic and a large number of visitors, the Lukla flight may detour to Manthali airport. Create Himalayan Adventure Treks also offers daily helicopter flights from Kathmandu to Lukla if you don't want to waste three or four hours driving to Ramechhap by road. Prepare to follow the Dudh Koshi River valley and arrive at Namche Bazaar, a bustling market town, once you arrive in Lukla. As you pass through charming towns like Chheplung, Phakding, Monjo, and so forth, the ambiance will be wonderful. You will also get plenty of opportunities to take in the magnificent mountain vistas. The breathtaking views of some of the tallest mountains, which are just as stunning as Everest, will welcome you here. Following your acclimatization in Namche, your EBC Trek via Gokyo with Helicopter Return will pass through Machhermo and Dole before arriving at the next acclimatization site, which is Gokyo Valley. You will have a wonderful opportunity to take in the breathtaking Gokyo Valley, with its calm lakes and majestic peaks. Marching to Gokyo Ri, which is located at an elevation of 5357 meters, is another way to prolong your journey. According to some trekkers, Gokyo Ri offers a better view of Mount Everest than Kala Patthar. Following your time spent admiring the splendor of Gokyo Valley, you will travel through gorgeous destinations like Dragnag, Cho La Pass, Dzongla, Lobuche, and lastly Gorakshep on your way to approaching Everest Base Camp. You will explore the neighboring snow-capped peaks for a while after arriving at EBC before heading back to Gorakshep. The next day, you will spend roughly two hours trekking to Kala Patthar, where you can get a closer look at Mount Everest. After that, you will hop on a helicopter and head back to Kathmandu to wrap up your EBC Trek via Gokyo with Helicopter Return Package in style. Get more information about the EBC Trek via Gokyo with Helicopter Return package by contacting us right now. We are willing to make any necessary customizations to this bundle based on your preference. Don't hesitate to contact us at any time if you have any questions about the price or any other aspect of this package. To make your journey as simple and pleasurable as possible, we are available to you around the clock.",
+  ],
+  highlights: [
+    "Experience breathtaking views of the Himalayas, including Mount Everest, from various vantage points like Gokyo Ri and Kala Patthar.",
+    "Explore the stunning Gokyo Lakes region, renowned for its turquoise waters and picturesque surroundings.",
+    "Enjoy trekking on less crowded trails compared to the traditional Everest Base Camp route, offering a more serene and immersive experience.",
+    "Conclude your trek with a thrilling helicopter ride back to Kathmandu, providing a convenient and scenic alternative to the standard return journey.",
+    "Save time on your return journey, allowing for more flexibility in your travel plans and additional time to explore other attractions in Nepal.",
+    "Trek with experienced guides who are knowledgeable about the region's terrain, culture, and safety protocols.",
+    "Stay in comfortable teahouses along the trekking route, providing essential amenities and a cozy retreat after a day of hiking.",
+    "Interact with local Sherpa communities and learn about their unique culture, traditions, and way of life.",
+    "Embark on an unforgettable adventure and achieve the milestone of reaching Everest Base Camp while enjoying the added thrill of a helicopter return journey.",
+  ],
+  facilities: [
+    "We offer a simple and safe online reservation method.",
+    " We provide the option to customize the trek itinerary to suit the needs of our clients.",
+    "We have an English-fluent certified NTA guide on staff.",
+    "On the trek, you will get the greatest lodging and meals.",
+    "Our guides have received extensive training and are knowledgeable on trekking routes, altitude sickness, and other related topics.",
+    "Our track record of 99% client satisfaction makes us proud.",
+    " To spend quality time with our clients, we plan a farewell and trek completion celebration supper after the trip.",
+    "We always have medical kits on hand in case they become necessary at any time.",
+    " We always have emergency rescue and evacuation plans in action.",
+    " We give our customers t-shirts and our company's duffle bag.",
+    "We also offer free storage for extra luggage at our office while on the trek.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m)",
+      details:
+        "A Green Valley Nepal Treks representative will greet you when you arrive at Tribhuvan International Airport. You will be driven to your accommodation in a private vehicle after completing the necessary paperwork for your visa and other requirements.You will receive an orientation with the trekking guide regarding your trip itinerary after taking a short break at your hotel.",
+    },
+    {
+      day: 2,
+      description: "Fly to Lukla (2840m) then Trek to Phakding (2610m)",
+      details:
+        "The exhilarating journey from Kathmandu to Lukla kicks off the first day of the EBC Trek via Gokyo with a Helicopter Return excursion. An early glimpse of the magnificent scenery seen in the Himalayas is provided by this sightseeing take-off. The journey to Phakding starts after landing in Lukla. Together with lush trees and the Dudh Koshi River, the trail travels past charming Sherpa communities. An ideal preamble to the trekking adventure ahead is provided by the tranquil surroundings and easy terrain. Along the journey, trekkers will be greeted by prayer flags waving in the breeze and the warm hospitality of the villagers. As a prelude to the days ahead, today's hike provides a well-balanced mix of scenic natural features and cultural exposure.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "You will depart Phakding on the second day of the hike and head towards the colorful and energetic Namche Bazaar. The trail highlights a peek of the beautiful scenery that lies ahead as it winds through charming rhododendron trees and passes the Dudh Koshi River suspension bridges. The majestic Thamserku and Kongde Ri peaks, as well as the other towering Himalayan giants, will be visible for the first time to you as you ascend. Tucked deep in the Himalayas, Namche Bazaar is a lively Sherpa village with a breathtaking backdrop of the world's tallest peaks. Namche Bazaar for acclimatization provides the appropriate balance of contemporary conveniences and cultural immersion, making it a great spot to unwind, restock, and visit the regional markets.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m)",
+      details:
+        "Acclimatization is very important for trekkers hiking at high elevations to get used to the climate and situation. For the speedy adjustment to the higher altitude, you can hike to the Everest View Hotel which is considered to be located at the highest place. From the hotel, you will get a splendid view of the Himalayas such as Mount Everest, Lhotse, Nuptse, Ama Dablam, Thamserku, Kongde, and others. After having a tea or a coffee break, you will gradually descend to the Sherpa villages of Khumjung where you will have lunch. You may also visit the Khumjung Monastery. The legend has it that the monastery houses a Yeti’s scalp. When you return to Namche, you may choose to relax or enjoy roaming about the town. You may visit the Sherpa museum to learn about the Sherpa culture and the history of mountaineering, or nearby Thame, a historic village. It is worth visiting the school established by Sir Edmond Hillary, the first person to climb Mt Everest.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Dole (4110m)",
+      details:
+        "You will leave Namche Bazar's lively atmosphere behind and continue your journey towards Dole on the fourth day of the EBC Trek via Gokyo with Helicopter Return. The trek offers a mesmerizing combination of expansive mountain views and quaint local communities as you climb higher into the Himalayas. The trail winds through alpine scenery and rhododendron woods, offering a tranquil and absorbing experience in the embrace of nature. This portion of the journey provides a special chance to observe the customs of the nearby Sherpa communities, providing insights into their rich cultural history. You will be greeted by calm surroundings and a feeling of achievement as soon as you get inside your lodging for the night in Dole.",
+    },
+    {
+      day: 6,
+      description: "Trek from Dole (4110m) to Machhermo (4470m)",
+      details:
+        "Stepping out of Dole, you will ascend to stunning meadows where yaks congregate on the fifth day of the EBC Trek via Gokyo with Helicopter Return. Aside from colorful prayer flags, you will also see some interesting shrines. The Dudh Kosi Valley, which is located much above the river, will be followed as you continue your ascent. Although it's an easy walk, the altitude could still affect you on even the smallest hill. With very few plants and shrubs in the alpine terrain, this area has a very different landscape. With the gorgeous snow-capped peaks and the clear blue sky overhead, it stands in stark contrast. You will reach Luza (4360m) after approximately two hours, and it will only take you an additional hour of walking to reach Machhermo (4465m), where you will spend the night.",
+    },
+    {
+      day: 7,
+      description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
+      details:
+        "The journey continues as you hike from Machhermo to the enchanted destination of Gokyo on the sixth day of the voyage. The walk takes you through amazing scenery that changes dramatically as you go from alpine meadows to the immaculate Gokyo Lake tucked away behind towering rocks. Ascending offers ever-more amazing scenery, as you remain in awe of the majesty of nature with every step you take. The trail offers a chance to fully experience the unspoiled splendor of the Himalayas, offering both calm and thrilling experiences. Approaching the charming Gokyo Valley, perched at the edge of a serene lake and encircled by towering mountains that appear to reach the sky, is undoubtedly the highlight of the entire journey.",
+    },
+    {
+      day: 8,
+      description: "Acclimatization Day at Gokyo (4790m)",
+      details:
+        "Day seven of the EBC Trek via Gokyo with a Helicopter Return is planned as an acclimatization day. To enjoy the breathtaking dawn and a panoramic view of the entire Khumbu region, you will travel early in the morning to Gokyo Ri, a famous peak above Gokyo Valley. You will enjoy an increasingly breathtaking perspective of Nepal's tallest peaks, such as Everest, Makalu, Barun, Cho Oyu, and Lhotse, the higher you ascend. You will enjoy the tranquility of Thonak Tsho, the fourth lake, and then follow the path back to the third lake. If permits and physical conditions allow, you can also hike to the fifth lake, the longest glacier in the Himalayas, Ngozumba Glacier, and spend the night back in Gokyo.",
+    },
+    {
+      day: 9,
+      description: "Trek from Gokyo (4790m) to Dragnag (4750m)",
+      details:
+        "You will resume your EBC Trek via Gokyo with Helicopter Return today toward Dragnag, completing a day of acclimatization in Gokyo Valley. As you proceed on your walk, you will encounter Ngozumpa Glacier. The route is shorter and gains only a small amount of elevation, but it is full of ups and downs. Strolling along the valley on the eastern side of the glacial moraine is unquestionably magnificent and gorgeous. Tawache and Cholatse peaks will be directly beside you as you enter the yak grazing region. Trekkers can easily reach Cho-La High Pass from Dragnag Village, which is situated next to Ngozumpa Glacier in a tranquil area.",
+    },
+    {
+      day: 10,
+      description: "Trek from Dragnag (4750m) to Dzongla (4830m)",
+      details:
+        "Your hike today will be quite difficult as you will be crossing the challenging Cho La Pass, a high mountain pass. For Cho La Pass, everything will be uphill from the start i.e. Dragnag. Be careful not to slip on the incline because the trail is extremely steep and covered in rocks. A snow wonderland and breathtaking vistas of the towering Himalayan range await you when you ascend Cho La Pass. After that, you will descend sharply and stroll next to a glacier. Ascending the trail will bring you to the foot of Awi Peak, where you can descend its lower slope. Get ready to be in complete amazement at the breathtaking vistas of Tawoche and Cholatse, two of the Himalayan giants. You will arrive at Dzongla and spend the night there as you go forward across the snowy terrain that gives way to verdant grasslands.",
+    },
+    {
+      day: 11,
+      description: "Trek from Dzongla (4830m) to Lobuche (4910m) ",
+      details:
+        "The tenth day of the EBC Trek via Gokyo with Helicopter Return unfolds as you continue your trip from Dzongla. You will climb higher still to reach the Khumbu glacier's perilous moraine. Walking a row of memorial stone monuments dedicated to Sherpas and Climbers who perished on Everest mountaineering missions. The trail then heads west along the western rim of the valley, dropping down to Lobuche. Seeing the sunset over Nuptse from this viewpoint is just breathtaking. The climb up to Lobuche will be enjoyable, unlike the day before, and you will travel with Imja Khola to the summit. Traveling to Lobuche will require four hours.",
+    },
+    {
+      day: 12,
+      description:
+        "Trek from Lobuche (4910m) to Everest Base Camp (5365m) - Back to Gorakshep (5140m)",
+      details:
+        "You will commence your journey to Everest Base Camp early in the morning today. Trekking via the Khumbu Glacier's deep crevasses and icy peaks will take several hours. Rest assured, though; before hitting the path again, you will enjoy a brief lunch break. Gorakshep can be reached by following the trail.The real accomplishment, though, comes from reaching Everest Base Camp at last. That's when you start to genuinely admire those courageous climbers who successfully navigate the treacherous Khumbu icefall. Particularly in the spring and fall, vibrant tents stand out against drab, gray surroundings. The views of the Nuptse, Khumbuste, and Pumori mountains are breathtaking from the Everest Base Camp. You can choose a higher route on the way back to have an even greater perspective of the South Col trail and the Khumbu icefall. Once you've had enough time to enjoy yourself on the Everest Base Camp, you'll return to Gorakshep and spend the night relaxing.",
+    },
+    {
+      day: 13,
+      description:
+        "Trek from Gorakshep (5140m) to Kala Patthar (5545m) then Fly Back to Kathmandu (1400m) by Helicopter",
+      details:
+        "Get up early and head to the best viewpoint in the Everest Region, Kala Patthar, to start your day. This location also denotes the highest point you will climb on your journey. A magnificent 360-degree vista will be shown to you, showcasing Mount Everest, Lhotse, Nuptse, Pumori, and Changtse. You will take a helicopter ride back to Kathmandu, leaving Gorakshep with amazing views of the mysterious mountains in the distance. During the flight, take in the breathtaking mountain ranges up close. You will be taken straight to the hotel upon arrival at Tribhuvan Airport's domestic terminal. Spend the day unwinding and letting your sore muscles rest to help you feel more at ease. One of the greatest hotels in Thamel is where you will stay the night.",
+    },
+    {
+      day: 14,
+      description:
+        "One Buffer Day If In Case Flight Cancel or Delay Because Of Any Reason ",
+      details:
+        "As a preventive measure, one buffer day will lessen the impact of any flight delays or cancellations due to unanticipated circumstances during your EBC Trek via Gokyo with Helicopter Return. This extra day serves as a safety net, giving hikers a chance to deal with changes to their itinerary without unnecessary anxiety or difficulty. Trekkers can handle unforeseen obstacles with more flexibility and peace of mind when they include a buffer day in their itinerary since they will have a little breathing space to change plans or find alternatives if needed.",
+    },
+    {
+      day: 15,
+      description: "Final Departure or Onward to Other Destination",
+      details:
+        "Since this is your last day in Nepal, it's your last chance to shop and enjoy exploring the valley's cultural hub, Kathmandu. Three hours before the departure of your flight, we will drop you off at the airport. If you have more time, you can also talk with us about exploring Nepal's other destinations.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparation for the Annapurna Full Circuit Trek includes both physical and mental preparation.",
+    ],
+    points: [
+      "Physical preparation includes increasing your cardiovascular endurance through activities such as hiking, running, cycling, and swimming. It is also important to strengthen your leg muscles, as the trek involves a lot of uphill and downhill hiking. Additionally, it is essential to acclimatize yourself to the altitude, as the trek reaches elevations of up to 5,416 meters (17,769 feet).",
+      "Mental preparation includes familiarizing yourself with the trek route and itinerary, as well as researching the culture and customs of the local people. It is also important to be prepared for the challenges of high-altitude trekking, such as altitude sickness.",
+      "You should also carry the appropriate gear and clothing, such as a good pair of hiking boots, a waterproof jacket, warm clothing, and a first aid kit. It's always good to be prepared and hire a guide or porter, or join a group of trekkers.",
+      "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
+    ],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////////////////////////////////////Luxury Everest Heli Trek - 6 Days///////////////////////////////////////////////////////////////////////
+luxury_trek_gokyo_helicopter: {
+  id: 12,
+    slug: "luxury_trek_gokyo_helicopter",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck1.jpg",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
-    title: "Annapurna Base",
-    location: "Gandaki",
+    title: "Luxury Everest Heli Trek - 6 Days",
+    location: "Solukhumbu",
+    days: "6 days",
+    people: "1-10",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 6 days 5 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Make your dream to reach Everest Base Camp into reality within short amount of time.",
+    "Stunning views of the Himalayas, including Mount Everest, Lhotse, Nuptse, Ama Dablam, and more.",
+    "Helicopter ride over the Everest region, providing unparalleled views of the highest peaks in the world.",
+    " Luxurious accommodation throughout the trek, ensuring a comfortable and enjoyable experience.",
+    "Experience the Sherpa culture and hospitality in the heart of the Everest region.",
+    "Visit iconic destinations such as Namche Bazaar, Everest View Hotel, and Everest Base Camp.",
+    "Avoid the strenuous trekking involved in a traditional Everest Base Camp trek, making this experience accessible to a wider range of travelers.",
+    "Flexibility and customization options to tailor the trek to own interests and preferences.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "With views of the Himalayas and the terraced valley floor, the flight into the Kathmandu Valley is stunning. One of our employees will meet you at Tribhuvan International Airport and drive you to your accommodation after your arrival. Your ability to tour the city will depend on your arrival time. Among the well-known attractions in the Kathmandu Valley are the Durbar Square and its winding lanes filled with quaint stores, historic temples, and neighborhood eateries. There is also Swayambhunath Temple, from where you may observe the Himalayas to your north and the setting sun over the valley. Join our Kathmandu City Sightseeing Tour if you're eager to discover more about the Kathmandu Valley. You should eat your first meal in Thamel, a popular tourist destination, where there are many restaurants to select from serving both Western and native Nepali cuisine. Then, if it is still possible, proceed to Asan Tole, the busiest market in the city, where you can find a genuine collection of spice, seafood, and vegetable stands that make for fantastic photo opportunities. Chat with welcoming locals while practicing a few basic Nepali phrases!",
+    },
+    {
+      day: 2,
+      description:
+        ":Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Monjo (2835m) via Phakding (2610m) ",
+      details:
+        "Following breakfast, you will fly domestically from Kathmandu to Lukla, where your Luxury Everest Heli Trek will begin. On clear days, the Himalaya is clearly visible as the airplane crosses across valleys and over mountains. However, the Lukla flight is currently being redirected to Ramechhap's Manthali airstrip, which would require a 3–4 hour drive from Kathmandu. We can arrange a helicopter flight from Kathmandu to Lukla if you want to avoid this detour or don't want to land at the most hazardous airport in the world. After that, you'll journey a short distance through nearby settlements, where you can run into other hikers, villagers, and yaks with tinkling bells. It is planned for the first day to be easy to give you time to adjust to the higher elevation. On a clearly indicated trail, continue into the Dudh Koshi Valley and spend the night in Phakding.",
+    },
+    {
+      day: 3,
+      description: "Trek from Monjo (2835m) to Namche Bazaar (3440m) ",
+      details:
+        "After eating breakfast in Monjo, you'll begin the steady ascent to Namche. It's a difficult day since you'll start to feel the effects of the altitude. You must also pass several high-suspension bridges along the route that spans the Dudh Kosi River. The Sagarmatha National Park, which was established to safeguard and conserve the delicate mountain ecosystem, is just beyond the settlement of Monjo (your guide will cover your permission payments here). If the weather is clear, you will catch your first sight of Mount Everest as the trail becomes steeper. Once you get to Namche, check into your accommodations and start exploring the area. Namche is a fantastic site to restock on supplies because it has lots of little stores offering food and hiking equipment, as well as eateries and pubs. If you visit on a Saturday, check out the Saturday market, which serves as a meeting spot for Tibetan yak caravans and Hindu traders from the lowlands who have both traversed the glaciated Nangpa La.",
+    },
+    {
+      day: 4,
+      description:
+        ":Hike from Namche Bazaar (3440m) to Everest View Hotel (3880m)",
+      details:
+        "You'll be taking a tour around town today. Enjoy the Everest Photo Gallery and the Sherpa Culture Museum, two of Namche Bazaar's numerous tourist attractions. Local handicrafts are also sold in the town's market. You'll hike to the well-known Everest View Hotel today after that. Occupying one of the highest locations on Earth, the hotel offers views from every window of Mount Everest and several of its summits. Moreover, it offers stunning views of Namche Bazaar below and the Himalayas above. Be in the Everest View Hotel for the night.",
+    },
+    {
+      day: 5,
+      description:
+        "Helicopter Ride from Everest View Hotel (3880m) to Explore Mount Everest (8848m) and Nearby Peaks",
+      details:
+        "You won't have to hike back the way you came after an early breakfast since you will be picked up from Everest View Hotel for a private helicopter tour of the Himalayas. get overhead views of Ama Dablam, Thamserku, Kantega, Lhotse, and Nuptse. After reaching Kathmandu, you can spend the afternoon and evening at leisure, taking in any sights you might have missed at the start of your Luxury Everest Heli Trek. You will meet the rest of the Green Valley Nepal Treks Team in the evening to eat dinner together and discuss the trip's great conclusion.",
+    },
+    {
+      day: 6,
+      description: "Final Departure",
+      details:
+        "Three hours prior to the flight's scheduled departure time, a private tourist car is scheduled to transport guests from the hotel to the airport. You might also make your journey longer by selecting a different curriculum.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////////Sleep at Base Camp on Everest Trek - 15 Days//////////////////////////////////////////////////////////////////////////////////////
+sleep_at_base_camp_everest: {
+  id: 13,
+    slug: "sleep_at_base_camp_everest",
+    category: "Trekking",
+    img: "/locations/annapurna.webp",
+    description: "15 Days Sleep at Everest Base Camp Trek guided by the professionals",
+    title: "Sleep at Base Camp on Everest Trek - 15 Days",
+    location: "Solukhumbu",
+    days: "15 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 15 days 14 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Spectacular Views: Witness breathtaking views of the Himalayan peaks, including Mount Everest, Lhotse, and Nuptse.",
+    "Unique Experience: Sleep at one of the world's highest base camps, located at an altitude of about 17,600 feet (5,364 meters).",
+    "Challenging Trek: Embark on a physically demanding journey through rugged terrain and high altitudes.",
+    "Cultural Immersion: Interact with the Sherpa people and experience their rich culture and traditions.",
+    "Scenic Landscapes: Traverse through diverse landscapes, including lush forests, alpine meadows, and glacial moraines.",
+    "Everest Base Camp: Explore the iconic Everest Base Camp, where climbers begin their ascent of the world's highest peak.",
+    "Starry Nights: Enjoy clear, unpolluted skies for stargazing and a chance to see the Milky Way.",
+    "Adventure of a Lifetime: A once-in-a-lifetime adventure for trekkers and outdoor enthusiasts.",
+    "Altitude Acclimatization: Gradual ascent and acclimatization days to minimize the risk of altitude sickness.",
+    " Local Teahouses: Stay in rustic teahouses along the trek, providing basic accommodations and warm hospitality.",
+    "Chilly Nights: Be prepared for cold temperatures, even during the sleeping hours, at higher elevations.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m) ",
+      details:
+        "Arrival at Nepal's Tribhuvan International Airport. Please make your way to the arrivals hall exit after completing the airport's visa formalities and retrieving your luggage. Your trip leader will be waiting for you outside the arrivals area and will drive you to your hotel in Kathmandu. Please keep an eye out for a Green Valley Nepal Treks sign at the entrance to the arrivals area. In the evening, your trek leader will update you about your trip in the lobby of your hotel after serving you welcome drinks and giving you a chance to rehydrate. Take a stroll along the street to get acquainted with your surroundings, and at night, enjoy a welcome dinner at a typical Nepalese eatery.",
+    },
+    {
+      day: 2,
+      description: "Flight to Lukla (2860m) then Trek to Phakding (2610m)",
+      details:
+        "During the busiest times of the year, Ramechhap airport may be used as the hub for all flights to and from Lukla. To guarantee a smooth flight operation free of air traffic and delays, the flight base for flights to Lukla has changed. When you arrive at Lukla, the size of the towering peaks that surround the settlement will overwhelm you, but this is merely a preview of what is to come. You'll meet the team, take a clearly indicated trek up the Dudh Koshi Valley, and spend the night in Phakding.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "Along the Dudh Koshi River and valley, as you ascend the trek, you pass through a pine forest. Continue to Monjo after crossing the river to the opposite bank at Bengkar. As you arrive at Jorsalle, the entrance of Sagarmatha National Park, the breathtaking views of Kusum Kanguru (6367m) and Thamserku (6603m) take your breath away. After crossing the immaculate Dudh Koshi, you'll reach Namche Bazaar, the center of Khumbu, after a difficult ascent in the final stretch. Stay the night at Namche.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day at Namche Bazaar (3440m)",
+      details:
+        "You take this day off the main trail to explore the lovely village of Namche Bazaar as you acclimate to the significant altitude gain. There is a Sherpa Museum in this town that contains artifacts from the Sherpa people, who are Himalayan inhabitants. A popular activity for seeing Mount Everest (8848m) is to climb up to Hotel Everest View. Stop in Namche's local market to stock up on supplies for the remainder of this hike, including comfort foods. Stay the night at Namche.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3810m)",
+      details:
+        "Although the route to Tengboche is lengthy and dusty, the sweeping views from the monastery are well worth the effort. There are plenty of opportunities to concentrate on photography because there aren't many challenging ascents and descents. All of these subjects make for interesting photographs, as do stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved Upon Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "The journey to Dingboche begins with a crossing of the Imja Khola River. Trek along the west side of the Imja Khola via Orso on the way to Pangboche for stunning vistas of the ascending Himalayas and descending lowlands. You can catch various glances of Mounts Taboche (6367), Pokalde (5806m), and Nuptse (7861m) as you travel past Himalayan inhabitants' homes. After several hours of hiking through birch and rhododendron forests, you arrive at Dingboche. Stay the night at Dingboche.",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4410m)",
+      details:
+        "According to the Sleep at EBC trip plan, today is your second acclimatization day because of the increased altitude. Although you will be rewarded with a breathtaking vista, you will need to take some time to recover before continuing on your expedition. You may decide to take a break for the following walk on this day, or you may choose to visit Dingboche and the nearby villages of Chhukung and Imja. There are numerous ways to do short hikes. It is feasible to hike up Nagarjun Hill (2,128 meters) and Chhukung Ri (5,546 meters). Views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks can be seen from Nagarjun Hill's summit.",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
+      details:
+        "Climbing through the Khumbu Khola valley to Duglha marks the start of the journey. The valley shortens as you come nearer to Dusa. The path is challenging because of numerous enormous rocks and adjacent, high-flying mountain yaks. There are a lot of monuments with praying flags and stones in memory of climbers who passed away en route to Mount Everest. After that, you will reach the route that leads from Cho-La Pass to Gokyo Lakes. You could also be able to see peaks like Khumbuste (6,636 m), Lingtren (6,749 m), and Pumori (7,161 m). You could easily feel exhausted while hiking across the hilly terrain on a typical journey to Lobuche. In Lobuche, there aren't many houses.",
+    },
+    {
+      day: 9,
+      description: "Trek from Lobuche (4910m) to Gorak Shep (5140m)",
+      details:
+        "The day starts with a trek past a fine crevasse between the lateral moraine of a glacier and a mountain. Then a gradual climb will take to Changri Nup Glacier. The undulating terrain takes you on a whirlwind of a walk. Descending slightly in the final stretch, you land in a barren setting with a sandy moraine and a cluster of lodges amidst the jagged rocky terrain surrounded by mammoth mountains. This is Gorakshep where you’ll spend the night.",
+    },
+    {
+      day: 10,
+      description:
+        "Explore Kalapatthar (5545m) then Hike to Everest Base Camp (5340m) for Overnight",
+      details:
+        "After receiving an early morning wake-up call, you begin the day with a frigid hike up Kala Patthar, which is Hindi for black rock. When you reach the peak, prepare to be astounded by the unimpeded view of the Himalayan range, which includes, among others, Mount Everest (8848m), Nuptse (7861m), Lhotse (8414m), Ama Dablam (6856m), Thamserku (6608m), and Pumori (7165m). Once you've returned to Gorakshep, you can begin the ascent up the Khumbu Glacier to Everest Base Camp. Finally, you will reach the base of the highest peak on earth. The sensation here can only be compared to climbing Everest itself. Even more magnificent are the views of several mountains, the Khumbu Icefall, and a glacier. At Everest Base Camp, spend the night near some of the tallest mountains in the world.",
+    },
+    {
+      day: 11,
+      description:
+        "Descend from Everest Base Camp (5340m) to Pangboche (3930m)",
+      details:
+        "You finish it up at the Mount Everest base camp and then make your way back through the challenging terrain. The hard trek back along the same trail follows. Arrive at Gorak Shep before continuing on to Lobuche and then Pangboche as you descend along the Khumbu glacier. Return to Dughla and cross the Khumbu River, which flows directly from the glacier. As you approach Pheriche, magnificent views of the Himalayas keep you inspired. After crossing Pheriche and Somare you will reach Pangboche, where you will spend the night.",
+    },
+    {
+      day: 12,
+      description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m)",
+      details:
+        "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
+    },
+    {
+      day: 13,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2800m)",
+      details:
+        "On your last day in the Himalayas, you can reach Lukla by taking a short downhill walk. Prior to reaching Monjo, you must first go from Jorsalle to a suspension bridge and cross the Dudh Koshi River. Take on a climb via the Khumbu valley from Phakding to Lukla. Enjoy a refreshing beer or a hot coffee on your final night here in the Himalayan transit point. Stay the night at Lukla.",
+    },
+    {
+      day: 14,
+      description:
+        "Flight from Lukla to Ramechhap then Drive to Kathmandu (1400m)",
+      details:
+        "You will take a morning flight to Ramechhap. From Ramechhap, you will take the roadway toward Kathmandu. You can utilize your remaining time by shopping in Thamel. In the evening time, you will meet the team of Green Valley Nepal Treks for dinner to celebrate the successful completion of sleep at Everest Base Camp Trek.",
+    },
+    {
+      day: 15,
+      description: "Final Departure",
+      details:
+        "One of our staff members will assist you in getting to the airport when it is time for your flight to depart. If you want to extend your trip, Green Valley Nepal Treks can make the appropriate arrangements. If your flight is scheduled for a late evening, you might even go shopping to get some gifts for your loved ones. We hope you had a good time when you were here and we wish you luck on your upcoming journey to Nepal.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparing for a Sleep at Everest Base Camp Trek is essential to ensure a safe and enjoyable adventure in the Himalayas. Here's a comprehensive guide on how to get ready for this extraordinary journey:",
+    ],
+    points: [
+      "Physical Fitness",
+      "Start a regular fitness routine at least 2-3 months before your trek. Focus on cardiovascular endurance, strength training, and flexibility exercises.",
+      "Incorporate uphill and downhill walking to simulate trekking conditions.",
+      "Mental Preparation",
+      "Mental resilience is just as important as physical fitness. Be prepared for challenging terrain, weather changes, and potential altitude-related discomfort.",
+      "Develop a positive mindset and determination to overcome obstacles.",
+      "Trekking Gear",
+      "Invest in high-quality trekking gear, including a good pair of waterproof hiking boots, a warm sleeping bag, a down jacket, trekking poles, and comfortable clothing suitable for layering.",
+      "Don't forget essential accessories like a hat, gloves, sunglasses, and a headlamp with spare batteries.",
+      " Altitude Sickness Prevention",
+      "Acclimatization is crucial to avoid altitude sickness. Plan for extra days in your itinerary to adjust to higher altitudes gradually.",
+      " Consider taking altitude sickness medication, such as Diamox, after consulting with a healthcare professional.",
+      "Permits and Documentation",
+      "Obtain the necessary trekking permits and documentation, including a TIMS (Trekkers' Information Management System) card and a Sagarmatha National Park permit.",
+      "Keep multiple photocopies of your identification, passport, and permits in a waterproof pouch.",
+      "Training Hikes",
+      " Before your Everest Base Camp Trek, do shorter training hikes at higher altitudes to assess your body's response to reduced oxygen levels.",
+      "This will help you gauge your fitness and acclimatization progress.",
+      "Hydration and Nutrition",
+      " Stay well-hydrated throughout the trek. Carry a reusable water bottle and use water purification methods or iodine tablets.",
+      "Consume a balanced diet with a mix of carbohydrates, proteins, and fats to fuel your body for the trek.",
+      "Travel Insurance",
+      "Purchase comprehensive travel insurance that covers high-altitude trekking, medical emergencies, and evacuation if needed.",
+      "Packing",
+      " Pack light, as porters and yaks will carry your main luggage. Keep essential items in your daypack.",
+      "Ensure your backpack is comfortable and well-fitted.",
+    ],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////////////////////////Everest Base Camp Trek - 14 Days/////////////////////////////////////////////////////////////////////
+ebc_trek_14_days: {
+  id: 14,
+    slug: "ebc_trek_14_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "14 Days Everest Base Camp Trek guided by the professionals",
+    title: "Everest Base Camp Trek - 14 Days",
+    location: "Solukhumbu",
     days: "14 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/EverestBaseCampTreck1.jpg",
+    "/images/EverestBaseCampTreck2.jpg",
+    "/images/EverestBaseCampTreck3.jpg",
+    "/images/EverestBaseCampTreck4.jpg",
+    "/images/EverestBaseCampTreck5.jpg",
     ],
     overView: {
       duration:
@@ -75,10 +2154,10 @@ const infoContent:{ [key: string]: TrekkingContent} = {
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
       bestSeason: "Spring and Autumn",
     },
     equipment: [
@@ -104,167 +2183,153 @@ const infoContent:{ [key: string]: TrekkingContent} = {
           "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
-    about: [
-      "A professionally developed trekking itinerary for those looking for excitement is the 14 Days Annapurna Base Camp Trek by Create Himalaya Adventure Team. A peak above 8,000 meters, thirteen peaks over 7,000 meters, and sixteen more over 6,000 meters are all located within about 60 70 km lateral distance. More beautiful vistas of the Himalayas will gradually open out in front of you as you approach your ultimate goal, Annapurna Base Camp. Throughout the Annapurna Base Camp Trek Journey, each sunrise will increase the thrill and delight. ",
-      "An awe-inspiring scenery is provided by the area's terrain. The mountains look magnificent in the early morning. The Annapurna Base Camp Trek Itinerary offers stunning morning views. The hikes include a wide variety of sceneries and get you quite near the foot of peaks that are 7,000 and 8,000 meters high. The Annapurna First (8,091 m), Mt. Dhaulagiri (8,167 m), Mt. Nilgiri, Mt. Gangapurna, Mt. Machhapuchhre (6,993 m), Lamjung Himal, and other peaks will all be seen from here.  Along with seeing a wealth of cultural variety, the trip takes you past rural fields and villages inhabited by Gurung ethnic groupings. Gurung people are well-known for their fearlessness all around the world.",
-      "Annapurna Base Camp 14 Days Trek will provide you with a sublime perspective of the Annapurna Himalayan Range and the natural world.Annapurna Base Camp Trekking is a once -in -alifetime experience that will always stick in your memory, from the breathtaking scenery of the farmlands, colorful rhododendron woods, gorgeous terraced fields, and picturesque towns to high snow - capped Himalayan Mountains.Annapurna Base Camp Trekking is located in Nepal's Gandaki Province's Annapurna region. The ABC Trek course will wind its way through several ascents and descents along a rocky and steep road.You will be able to see the customs, culture, and way of life of the inhabitants as you drive through gorgeous towns.In this region of Nepal, people belong to numerous ethnic groups.You may learn about and appreciate life's simplicity by staying with them.",
-      "Starting with a beautiful journey from Kathmandu to Pokhara, the Annapurna Base Camp Trek itinerary begins. To go to Nayapul from here, you will just need to make one more little drive. Thetunning Nepali landscape will be visible to you as you travel. Your journey to the Annapurna Base Camp will start from Nayapul. To ultimately get to the impressive Annapurna Base Camp, one must go through the towns of Tikhedhunga, Ghorepani, Poonhill, Tadapani, Chhomrong, and Deurali. As you retrace your ways out of Modi River Valley to a tranquil resting place called Sinuwa, where you will spend the night, the next day will take you outside of the Annapurna Sanctuary. You will depart Sinuwa the next morning and make your way to Jhinu Danda on foot. Natural hot springs may be found at Jhinu Danda, where you can unwind and ease your aching muscles.  You will travel from Jhinu Danda to Siwai to catch a jeep to Pokhara. The 14-day Annapurna Base Camp Trek itinerary will come to an end when you board a luxurious tourist bus in Pokhara and travel back toKathmandu.",
-      "We at Create Himalaya Adventure and Research Hub are pleased to present our well planned Annapurna Base Camp 14 Days Trek Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, money, and endurance, we are willing to alter this package to meet your necessities. For any more questions regarding the 14 Days Annapurna Base Camp Trek package cost, please don't hesitate to get in touch with us",
-    ],
-    highlights: [
-      "Explore Pokhara, known as Lake City, which is naturally stunning. ",
-      "Trek through lovely rhododendron forests, rivers, mountain terraces, and charming villages of Magar, Gurung, Tamang, Thakali, etc. ",
-      "Discover the vibrant culture, traditions, and way of life of the inhabitants. ",
-      "Trek to Poon Hill to see the magnificent sunrise and the breathtaking Himalayan range. ",
-      "Discover the abundant flora and animals as you explore the area around Annapurna glacier. ",
-      "Explore Jhinu Danda's Natural Hot Springs. ",
-      "Experience breathtaking views of the Himalayan Mountains, including the Annapurna range, Dhaulagiri, Nilgiri, Fishtail, etc. ",
-      "From Annapurna Base Camp, you can see the entire snow-covered Himalayas in all their glory.",
-      "On the same journey, visit the Annapurna and Machhapucchre base camps.",
-      "Spend a night in one of the most gorgeous villages of the Annapurna region, Ghorepani",
-      "Witness stunning views of Himalayan mountains like the Annapurna range, Mt. Dhaulagiri, Mt.Nilgiri, Mt. Fishtail, etc",
-      "Overnight in the shadow of Annapurna at Base Camp",
-    ],
-    facilities: [
-      "Free International Airport Pickup and Drop off facilities",
-      "Create Himalaya Adventure T-Shirt and Duffle Bag",
-      "Map of Annapurna Base Camp Trekking",
-      "Medical Kits might be necessary in Certain Cases",
-      "Free Excess Luggage Stored at Create Himalaya Adventure Store During the Trek",
-      "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
-      "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival To Kathmandu(1400m)",
-        details:
-          "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long travel or go exploring to find some of Kathmandu's wonderful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Trek Itinerary during the overnight trek briefing.",
-      },
-      {
-        day: 2,
-        description:
-          "Take Tourists Delux Bus from Kathmandu(1400m) to Pokhara(822m)",
-        details:
-          "After an early breakfast, you will take a tourist bus to start your 14-day ABC Trek, which might take 7 to 8 hours to reach Pokhara. On the way, you can see the picturesque Trishuli and Marsyangdi rivers along the green, Rocky Mountains, rivers connecting each other, and small springs. We can also arrange an airline ticket for you at an additional cost. This will get you to Pokhara from Kathmandu in just 25 minutes, saving you time to explore Pokhara Valley. Pokhara is a beautiful valley known for several lakes such as Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. We can also get a glimpse of Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal from Pokhara Valley.",
-      },
-      {
-        day: 3,
-        description:
-          "Drive from Pokhara (822m) to Birethanti (1263m) then Trek to Ulleri (1960m)",
-        details:
-          "After a delicious breakfast in Pokhara, you will travel a short distance over picturesque scenery into Birethanti. The Annapurna Base Camp Trek Route will travel through Nayapul and is generally easy. Along the Bhurungdi Khola, you will pass across beautiful terraced fields. The trip begins in Birethanti and concludes in Ulleri after passing through the villages of Sudame, Hile, and Tikhedhungga. After crossing the suspension bridge, the route from Tikhedhungga begins to climb steeply up a stone stairway. When you are at Ulleri, a big Magar settlement, you can see Mount Hiunchuli and Mount Annapurna South.",
-      },
-      {
-        day: 4,
-        description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
-        details:
-          "The path ascends gradually, making the trek from Ulleri to Ghorepani fascinating. You may enjoy views of the Annapurna, Machhapuchre, and Hiunchuli snow peaks all along the ABC Trekking Route. You may witness a variety of natural creatures, cool springs, and rivers as you stroll through the rhododendron woodland. The route next takes you to Ghorepani, a magnificent town located on a hillside. This settlement offers amazing views of the Himalayas, including Dhaulagiri, Tukuche, Dhampus, Nilgiri, Annapurna, Barah Sikhar, and Machhapuchhre. The Poonhill trek, which offers a magnificent view of the sunrise and an excellent panoramic view of the mountain ranges, is a popular attraction at the Ghorepani Guesthouse. ",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Ghorepani (2880m) to Poon Hill (3210m) then Tadapani (2630m)",
-        details:
-          "You will climb Poon Hill early in the morning to see the sunrise over the Himalayan mountain range. From Poon Hill, you can view the Annapurna and Dhaulagiri mountain ranges, as well as the Nilgiri and achhapuchhre Mountains. You will descend to your lodge after spending some time on Poon Hill, eat breakfast, and then continu your Annapurna Base Camp Trek through the steep ascent route to Deurali. Langurs and monkeys can be seen along the straightforward forest path from Deurali to Banthani. Walking farther downhill while taking in the scenery will bring you to Tadapani, where you will spend the night.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tadapani (2630m) to Chomrong (2165m)",
-        details:
-          "Your ABC Trekking Trail will continue to Chomrong after breakfast in Tadapani. To get to the Gurung settlement of Ghandruk, you will gradually descend through rhododendron woods and cross the Kimrong River. Chomrong is reached by making a straight ascent from Ghandruk. You will be treated to breathtaking vistas of Annapurna South and Fishtail along the route. Chomrong hamlet, which is a popular destination for hikers trekking to Annapurna Base Camp, is located on the flank of the enormous Annapurna Mountain. As you settle into your lodgings, you'll encounter a lot of welcoming Gurung residents in Chomrong, a vast hillside community. You will be staying at a local teahouse or hiking lodge.",
-      },
-      {
-        day: 7,
-        description: "Trek from Chomrong (2165m) to Dovan (2600m)",
-        details:
-          "Your 14-day Annapurna Trekking Journey will take a little longer today. You will descend a stone staircase to reach Chomrong Khola after a delicious breakfast in Chomrong. Following the suspension bridge, you will rise over terraced fields and lush hills toward the small settlement of Sinuwa. A small settlement on a ridge, Sinuwa provides a breathtaking up-close view of Mt. Fishtail as well as an amazing landscape. It takes a few hours to go to the village of Khuldighar from Sinuwa. You may reach the village of Bamboo by descending a stone stairway from Khuldighar to a region of unusually thick bamboo, rhododendron, and oak trees next to the Modi River. After a slow ascent in the cool shade of theforest, while following Modi Khola, you will eventually arrive at Dovan.",
-      },
-      {
-        day: 8,
-        description: ":Trek from Dovan (2600m) to Deurali (3230m) ",
-        details:
-          "Today's walk will begin in Dovan and finish in Deurali. The ABC Trek Route will pass through rhododendron and bamboo woods and is dotted with waterfalls. When you get to the Himalaya, the jungle opens up to the sun and you have a breathtaking glimpse of the glacier river. You will go down the Modi Khola through the small gorge starting from Himalaya. Before reaching Hinku Cave, you must next ascend steeply through a much drier forest. In order to reach Deurali, the day's most picturesque section, the path descends from here and then climbs once again. Because there is less greenery, it is possible to see the valley, the river below, and the sheer granite cliffs above with bands of wispy waterfalls. Deurali is a great place to spend the night. ",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Deurali (3230m) to Annapurna Base Camp (4130m) via Machhapuchhre Base Camp (3700m)",
-        details:
-          "You will eventually reach Machhapuchhre Base Camp after a strenuous ascent from Deurali, where the Annapurna Base Camp Trek Route will wind through a riverbed. A breathtaking panoramic view of the surrounding mountains, including Annapurna, Machhapuchhre, Gangapurna, Himchuli, and others, can be found at Machhapuchhre Base Camp. To finally reach Annapurna Base Camp, you must continue traveling northwest. The route to ABC is broader, has less vegetation, and is vulnerable to avalanches; care should be given to avoid any potential risks. Hiunchuli, Annapurna South to Annapurna I, Khangsar Kang, Gangapurna, Annapurna III, and Machhapuchhare can all be seen in from ABC. The absolute magnificence of the surrounding snow-capped mountains will make this day that you will never forget in your entire life. At Base Camp, you will stay the night.",
-      },
-      {
-        day: 10,
-        description: "Trek from Annapurna Base Camp (4130m) to Sinuwa (2360m) ",
-        details:
-          "You will leave your footprint on the Annapurna Sanctuary after witnessing an amazing sunrise from ABC and walking down to Sinuwa. Returning to Sinuwa requires traveling along the same route through MBC, Deurali, Himalaya, Bamboo, and Khuldighar. You will start to notice how the path is different when traveled in reverse as you pass serene homesteads, climb through alpine valleys, and pass through beautiful woods. When you descend from the base camp's high heights, the terrain will also be a little bit simpler to navigate. You will check into a cozy trekking lodge when you get to Sinuwa, and you may spend the afternoon and evening based on your choice.",
-      },
-      {
-        day: 11,
-        description: "Trek from Sinuwa (2360m) to Jhinu Danda (1780m) ",
-        details:
-          "Your last trekking day of the 14-day Annapurna Base Camp Trek Itinerary has arrived. You will follow the straightforward dust road along the Modi Khola after leaving Jhinu Danda. The trek's current leg is the most leisurely stroll of the whole journey. You will arrive in Siwai after a three-hour journey. You will board a local taxi or bus in downtown to take you back to Pokhara. It takes two to three hours to travel this final section of the route. You will say farewell to the trails and travel to Pokhara across the lovely countryside. You will arrive back in Pokhara with plenty of time to check into your accommodation. As a reward for all of your arduous hiking, you may wander through the town, continue boating on Fewa Lake, and tuck into a delectable lunch. In Pokhara, you will spend the night.",
-      },
-      {
-        day: 12,
-        description:
-          ":Trek from Jhinu Danda (1780m) to Siwai (1530m) then Drive Back to Pokhara (822m)",
-        details:
-          "Your last trekking day of the 14-day Annapurna Base Camp Trek Itinerary has arrived. You will follow the straightforward dust road along the Modi Khola after leaving Jhinu Danda. The trek's current leg is the most leisurely stroll of the whole journey. You will arrive in Siwai after a three-hour journey. You will board a local taxi or bus in downtown to take you back to Pokhara. It takes two to three hours to travel this final section of the route. You will say farewell to the trails and travel to Pokhara across the lovely countryside. You will arrive back in Pokhara with plenty of time to check into your accommodation. As a reward for all of your arduous hiking, you may wander through the town, continue boating on Fewa Lake, and tuck into a delectable lunch. In Pokhara, you will spend the night.",
-      },
-      {
-        day: 13,
-        description:
-          "Take Tourist Deluxe Bus from Pokhara (822m) to Kathmandu (1400m) ",
-        details:
-          "You will board a tourist bus this morning after waking up in Pokhara to travel back to Kathmandu. The 205 kilometers that separate Pokhara from Kathmandu follows the enthralling Marsyangdi River and then the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive market areas, including Damaul bazaar, Dumre bazaar, Mugling Bazaar, and others. The route also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the Kathmandu valley, a member of our crew will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel, which finally concludes your Annapurna Base Camp Trek successfully. ",
-      },
-      {
-        day: 14,
-        description: "Final Departure or on-ward for next destination. ",
-        details:
-          "Three hours prior to departure, we arrange an airport shuttle service based on your scheduled departure time. If you have more time, we can arrange for you to do some side trips, or you may go exploring on your own. ",
-      },
-    ],
-
-    HowToPrepare: {
-      paragraph: [
-        "ABC Trek is a moderate-difficult trek. Usually, it takes 6 to 7 hours each day to complete the hiking, with intervals to take in the magnificent mountain vistas. Long ascents, sharp descents, and straight tracks are all included in the trek itineraries. Although prior hiking experience would be a benefit for the ABC trek, no special technical knowledge or abilities are required. This walk may be finished by hikers who can cover the distance in 6 to 7 hours while maintaining a decent pace and carrying only a small daypack. Before you go trekking in Nepal, you should do a few small excursions and walk for 6 to 8 hours a day, both uphill and downhill, to prepare for this trek.",
-        "By engaging in cardiovascular exercises like running, swimming, cycling, and other sports, you may improve your stamina. Try some yoga positions to help your breathing right away, and make sure you're well-hydrated before the travel by drinking lots of water. You will appreciate hiking more if you are physically fit. You can accomplish the journey if you are in excellent health, physically active, have a positive outlook, and have self-confidence. Before registering for the trek, those with pre-existing medical issues such as heart, lung, and chronic conditions should let us know. ",
-      ],
+  about: [],
+  highlights: [
+    "  Get to see an aerial view of the Khumbu region during the flight to Lukla",
+    "Trek through Sagarmatha National Park which is home to several species of flora & fauna",
+    "Explore Namche Bazar",
+    " Experience the rich culture and tradition of Sherpa's",
+    "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
+    "Head to Everest Base Camp, the base of the world's highest mountain, Mt. Everest",
+    "Hike to Kala Patthar to observe a gorgeous sunrise and a 360-degree view of  Everest",
+    "Witness panoramic views of Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, Mt. Kongde",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "When you arrive in Kathmandu, our Airport Representative at the Tribhuwan International Airport will receive you. A private tourist vehicle will transport you to your hotel. You can either relax or meet us at our office to learn more about the 14 days Everest Trek details. You will spend your first night in Kathmandu at a hotel.",
     },
-    path: ["/images/abc-road-img.jpg"],
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu or Ramechhap to Lukla (2840m), by plane Then Trek to Phakding (2610m)",
+      details:
+        "After breakfast, drive from the hotel to the domestic airport terminal in the early morning. The early morning sunshine on the snowcapped mountains is spectacular on the ride to Lukla. It will take around 40 minutes to arrive in Lukla at Tenzing-Hillary Airport, the Himalayan entryway. The hike begins shortly after meeting our staff at the airport, from where Phakding is a short walk. You will relax at Phakding because it is the first day of the Everest Base Camp Trek Itinerary. ",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding to Namche Bazaar (3440m)",
+
+      details:
+        "The trip begins in Phakding after breakfast and travels through lovely pine trees, the Dudh Koshi River, and views of Mount Thamserku. You will arrive at a checkpoint, the entrance to Sagarmatha National Park, after traveling through a few communities. You will continue walking via the Dudh Koshi River and Bhote Koshi River confluences before ascending steeply to Namche Bazaar, where you will be greeted by the magnificent Mount Everest and the ridges of Mount Lhotse (8,516m) and Mount Nuptse (7,861m).",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazar (3440m) ",
+      details:
+        "Namche Bazaar, the largest village in the Khumbu area, has ATMs, Internet cafés, restaurants, bakeries, and other amenities. As per your 14-day Everest trekking itinerary, today will be your acclimatization day, which you can utilize by doing a short trek to a nearby viewpoint (Everest View Hotel, Thamo, and Khunde) and taking a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa culture, and the flora and wildlife of the region.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazar (3440m) to Tengboche (3810m) ",
+      details:
+        "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m) ",
+      details:
+        "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4410m)",
+      details:
+        "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
+      details:
+        "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
+      details:
+        "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
+    },
+    {
+      day: 10,
+      description:
+        ":Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m) ",
+      details:
+        "You will start your hike considerably earlier than usual since you want to be at Kalapatthar before sunrise to take in the breathtaking sunrise panorama from Kalapatthar. Faced with the problems of thin air, you will take the scenic route to Kalapatthar, with views of Lingtren, Khumbutse, and other peaks. You will take in a close-up look at Everest and the spectacular dawn before returning to Gorakshep for breakfast. You will end this day by trekking down to Pangboche, where you can see the oldest monastery in the region, which contains the scalp and bones of a Yeti.",
+    },
+    {
+      day: 11,
+      description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m) ",
+      details:
+        "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
+    },
+    {
+      day: 12,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
+      details:
+        "The steep descending route continues on the final day of the expedition. Trekkers must travel slowly, steadily, and in a balanced way over the steep rocky terrain till they reach the Dudh Koshi suspension bridge, passing through the wide plain and rhododendron woodland while taking in the distant vista of snow-capped mountains. Take a last glance at the beautiful Himalayan Mountains and bid farewell to the Khumbu Valley and Mount Everest in the early hours of the day.",
+    },
+    {
+      day: 13,
+      description:
+        ":Flight back to Kathmandu from Lukla or Ramechhap by plane and drive to hotel ",
+      details:
+        "This is the day that the Mountain Flight from Lukla is once again appreciated. When you get in Kathmandu, you may go shopping and take a stroll around the city. The evening is intended to commemorate the accomplishment of the Everest Base Camp trek.",
+    },
+    {
+      day: 14,
+      description: "Final Departure or Onward For Next Program",
+      details:
+        "The final day in Nepal is the last opportunity to enjoy shopping and touring Kathmandu Valley's cultural metropolis before departing for Tribhuwan International Airport on time.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Considering that you will have to climb up and down on an unsteady route for 14 days while carrying a bag that weighs at least 6 kg and spends, on average, 5 to 6 hours a day on foot. It will be necessary for you to begin increasing your strength and endurance a few months early. Make a schedule for your workout that includes walking up and down hills while wearing a backpack that is packed with 6 to 12 kg at least once every week. Your legs and muscles will be better prepared for the hike with more hill training. It is crucial because your lungs cannot provide your muscles with enough oxygen at higher altitudes where there is less oxygen. Start working out, start weightlifting, and walk with your hefty rucksack to be fit if you want to successfully reach Base Camp and avoid upsetting fellow trekkers. Even professional climbers prepare themselves for a task like this beforehand. At the same time, keep in mind that preparing for the 14-day trek to Everest Base Camp includes a significant amount of mental preparation. It is a tough path with a high degree of difficulty that lasts many days, even if the rank of the adventure cannot be compared to climbing Everest. Be ready for everyday occurrences, constantly changing weather, and the high likelihood of altitude sickness.",
+    ],
+    points: [],
   },
-  //                                                                            EverestBaseCampTreck
-  everest_base_camp_treck: {
-    id: 1,
-    slug: "everest_base_camp_treck",
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////13 Days Luxury Everest Trek////////////////////////////////////////////////////////////////////////////////////////////////////
+luxury_everest_trek_13_days: {
+  id: 15,
+    slug: "luxury_everest_trek_13_days",
     category: "Trekking",
-    img: "/locations/everest.avif",
-    title: "Everest Base Camp",
-    description:
-      "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world",
-    location: "Mahalangpur",
-    days: "14 days",
+    img: "/locations/annapurna.webp",
+    description: "13 Days Luxury Everest Trek guided by the professionals",
+    title: "13 Days Luxury Everest Trek",
+    location: "Solukhumbu",
+    days: "13 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
     ],
     overView: {
       duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+        "A full 13 days 12 nights worth of adventurous and exciting trek throughout the circuit ",
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
       bestSeason: "Spring and Autumn",
     },
     equipment: [
@@ -286,3638 +2351,3455 @@ const infoContent:{ [key: string]: TrekkingContent} = {
       {
         title: "Trekking Shoes",
         image: "/images/shoes.png",
-
         description:
           "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
-    about: [
-      "Everest Base Camp Trek in short EBC Trek is one of the best hikes in the world, and we are offering 14 Days Everest Base Camp Trekking Package at a very affordable cost. ",
-      "Everest Base Camp Trekking is one of the most well-known trekking in the world. During 14 days at Everest Base Camp Trek, we experience amazing mountain views, get glimpses of the Sherpa people, and Sagarmatha National Park, and visit high-altitude Buddhist monasteries.",
-      "The Everest Base Camp Trekking package is the best-selling trekking package for Create Himalaya adventure . Always we are focusing on providing Everest Base Camp trips to our clients with the best cost and quality services. We prepared standard 14-day Everest Base camp Trekking packages for beginner and regular trekkers with enough acclimatization days. If you are an exporter and have well experience with high-altitude treks we suggest you take a Rapid Everest Base Camp Trek. We pride ourselves on our team because of them we got a 98% success rate. We assure you, that our team will make it a success to bring your dream of truth to be at the Everest Base Camp. ",
-      "We begin our 14-day Everest Base Camp Trek with the 35-minute scenic flight to Lukla with a small twin otter plane from Kathmandu. On reaching Lukla airport Create Himalaya adventure trekking guide welcomes you and introduces you to team members. After a short break and breakfast, we start our journey to Phakding. Crossing the highest Hillary Bridge and climbing uphill to reach Namche Bazaar itself glorious part of the Everest Base Camp Trek. During the Everest Base Camp Trekking, our trail passes through many viewpoints, villages, monasteries, and glaciers to the foot of Mount Everest, which will provide one of the most remarkable experiences of your lifetime. ",
-      "14 Days Everest Base Camp Trek provides a magnificent taste of Tibetan culture at a high altitude, as well as wonderfully colored vistas of rhododendron woods and gigantic views of the Himalayas, including the world's tallest peak, Mt Everest. After arriving in Kathmandu, the stunning venture begins at Lukla (2840m) and continues to Phakding (2610m), Namche Bazar (3440m), Phortse Village (3810m), Dingboche (4260m), Duglha (4620m), Lobuche (4190m), Gorakshep (5140m), Kalapatthar (5545m), upto Mt. Everest base camp (5364m).",
-      "If you are curious about the altitudes of different landmarks on your trekking adventure, look no further than our comprehensive Everest Base Camp Trek Map. It provides detailed information to assist you in determining the best places to acclimate and allows you to strategically plan your itinerary. Whether you are scaling towering peaks or exploring scenic valleys, our map offers a wealth of knowledge on elevation levels. By consulting this invaluable resource, you can make informed decisions, ensuring a safer and more enjoyable journey. Discover the heights you will conquer, and embark on your trek with confidence and clarity. ",
-    ],
-    highlights: [
-      " Get to see an aerial view of the Khumbu region during the flight to Lukla",
-      "Trek through Sagarmatha National Park which is home to several species of flora & fauna",
-      "Explore Namche Bazar",
-      "Experience the rich culture and tradition of Sherpa's",
-      "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
-      " Head to Everest Base Camp, the base of the world's highest mountain, Mt. Everest",
-      " Hike to Kala Patthar to observe a gorgeous sunrise and a 360-degree view of  Everest",
-      " Witness panoramic views of Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, Mt. Kongde",
-    ],
-    facilities: [],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival To Kathmandu",
-        details:
-          "When you arrive in Kathmandu, our Airport Representative at the Tribhuwan International Airport will receive you. A private tourist vehicle will transport you to your hotel. You can either relax or meet us at our office to learn more about the 14 days Everest Trek details. You will spend your first night in Kathmandu at a hotel.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu or Ramechhap to Lukla (2840m), by plane Then Trek to Phakding (2610m)",
-        details:
-          "After breakfast, drive from the hotel to the domestic airport terminal in the early morning. The early morning sunshine on the snowcapped mountains is spectacular on the ride to Lukla. It will take around 40 minutes to arrive in Lukla at Tenzing-Hillary Airport, the Himalayan entryway. The hike begins shortly after meeting our staff at the airport, from where Phakding is a short walk. You will relax at Phakding because it is the first day of the Everest Base Camp Trek Itinerary. ",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding to Namche Bazaar (3440m)",
-        details:
-          "The trip begins in Phakding after breakfast and travels through lovely pine trees, the Dudh Koshi River, and views of Mount Thamserku. You will arrive at a checkpoint, the entrance to Sagarmatha National Park, after traveling through a few communities. You will continue walking via the Dudh Koshi River and Bhote Koshi River confluences before ascending steeply to Namche Bazaar, where you will be greeted by the magnificent Mount Everest and the ridges of Mount Lhotse (8,516m) and Mount Nuptse (7,861m).",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazar (3440m)",
-        details:
-          "Namche Bazaar, the largest village in the Khumbu area, has ATMs, Internet cafés, restaurants, bakeries, and other amenities. As per your 14-day Everest trekking itinerary, today will be your acclimatization day, which you can utilize by doing a short trek to a nearby viewpoint (Everest View Hotel, Thamo, and Khunde) and taking a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa culture, and the flora and wildlife of the region.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
-        details:
-          "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
-      },
-      {
-        day: 7,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 14 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
-        details:
-          "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m)",
-        details:
-          "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m)",
-        details:
-          "You will start your hike considerably earlier than usual since you want to be at Kalapatthar before sunrise to take in the breathtaking sunrise panorama from Kalapatthar. Faced with the problems of thin air, you will take the scenic route to Kalapatthar, with views of Lingtren, Khumbutse, and other peaks. You will take in a close-up look at Everest and the spectacular dawn before returning to Gorakshep for breakfast. You will end this day by trekking down to Pangboche, where you can see the oldest monastery in the region, which contains the scalp and bones of a Yeti.",
-      },
-      {
-        day: 11,
-        description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m)",
-        details:
-          "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
-      },
-      {
-        day: 12,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
-        details:
-          "The steep descending route continues on the final day of the expedition. Trekkers must travel slowly, steadily, and in a balanced way over the steep rocky terrain till they reach the Dudh Koshi suspension bridge, passing through the wide plain and rhododendron woodland while taking in the distant vista of snow-capped mountains. Take a last glance at the beautiful Himalayan Mountains and bid farewell to the Khumbu Valley and Mount Everest in the early hours of the day.",
-      },
-      {
-        day: 13,
-        description:
-          "Flight back to Kathmandu from Lukla or Ramechhap by plane and drive to hotel",
-        details:
-          "This is the day that the Mountain Flight from Lukla is once again appreciated. When you get in Kathmandu, you may go shopping and take a stroll around the city. The evening is intended to commemorate the accomplishment of the Everest Base Camp trek.",
-      },
-      {
-        day: 14,
-        description: "Final Departure or Onward For Next Program",
-        details:
-          "The final day in Nepal is the last opportunity to enjoy shopping and touring Kathmandu Valley's cultural metropolis before departing for Tribhuwan International Airport on time.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Considering that you will have to climb up and down on an unsteady route for 14 days while carrying a bag that weighs at least 6 kg and spends, on average, 5 to 6 hours a day on foot. It will be necessary for you to begin increasing your strength and endurance a few months early. Make a schedule for your workout that includes walking up and down hills while wearing a backpack that is packed with 6 to 12 kg at least once every week.",
-        "Your legs and muscles will be better prepared for the hike with more hill training. It is crucial because your lungs cannot provide your muscles with enough oxygen at higher altitudes where there is less oxygen. Start working out, start weightlifting, and walk with your hefty rucksack to be fit if you want to successfully reach Base Camp and avoid upsetting fellow trekkers. Even professional climbers prepare themselves for a task like this beforehand.",
-        "At the same time, keep in mind that preparing for the 14-day trek to Everest Base Camp includes a significant amount of mental preparation. It is a tough path with a high degree of difficulty that lasts many days, even if the rank of the adventure cannot be compared to climbing Everest. Be ready for everyday occurrences, constantly changing weather, and the high likelihood of altitude sickness.",
-      ],
+  about: [],
+  highlights: [
+    "Excursion of UNESCO World Heritage Site in Kathmandu ",
+    "Scenic flight from Kathmandu to the world’s most extreme airport - Lukla Airport",
+    " Exploration of Sagarmatha National park and its diverse species of alpine flora and fauna as well as Sherpa culture",
+    "Best available local lodges during the trek",
+    "Exploration of the base camp of the world’s highest mountain along with Khumbu icefall and glacier",
+    " A complete guide for Everest Base Camp Trek",
+    "Closest to the highest mountain in the world (8848 m)",
+    "Visit the largest monastery in the Khumbu region",
+    "World's highest airport in Syangboche (3780 m)",
+    "Spectacular panoramic view of mountains at Kalapatthar (5545m)",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "As soon as you land at the airport, a representative from Green Valley Nepal Treks will pick you up and transport you to your accommodation. After a few hours of relaxation in the hotel, a tour operator and tour guide from Green Valley Nepal Treks will greet you and discuss about Luxury Everest Base Camp Itinerary. After the pre-trip briefing, you will have a welcome dinner from our side. At dinner, you are going to enjoy traditional Nepalese Cuisine along with a cultural dance program.",
     },
-    path: ["/images/abc-road-img.jpg"],
+    {
+      day: 2,
+      description: ":Kathmandu Valley Sightseeing and Trek Preparation",
+      details:
+        "After breakfast, your sightseeing trip will start. You will have a private vehicle and a professional tour guide for your sightseeing tour. You will visit the following sites. Swyambunath Stupa: The Monkey Temple (World Heritage Site): You can watch over the valley from the top of a hillock on its western side. Swyambhu is also known as Samhengu and the Monkey temple because of the countless monkeys living on the premises. Pashupatinath Temple: Pashupatinath Temple is one of the holiest Hindu temples in Nepal. It is located on the banks of the Bagmati River on the eastern outskirts of Kathmandu. Pashupatinath is the most important temple dedicated to the god Shiva. Boudhanath Stupa: Boudhanath Stupa is 2500 years old Buddhist stupa in the Valley built in the 5th century with four pairs of eyes of Lord Buddha in four cardinal directions keeping an eternal watch over the people and their doings. You will find Buddhist pilgrims from Tibet going around the stupa spinning the prayer wheels.Patan Durbar Square: Patan Durbar Square - located in central city Lalitpur. It displays the Newari architecture that had reached its pinnacle during the reign of the Malla kings who were great builders and patrons of the arts. After the sightseeing, we will have a pre-trip meeting we will describe the whole trip and how it will be going. However, if you arrive late at night the meeting will be held the next day after the Kathmandu city Tour. For the verification, Tourist Information, and documentation process, we required a Copy of the Passport, PP Size Photos 3 pics, and a copy of traveler insurance. ",
+    },
+    {
+      day: 3,
+      description: "Flight to Lukla (2840m) then Trek to Phakding (2610m) ",
+      details:
+        "To catch a domestic flight from Kathmandu to Lukla, you must get up at 5 a.m. This flight will provide you with a breathtaking view of spectacular mountain ranges and magnificent alpine sceneries. After landing in Lukla, you will meet our guide, who will brief you about the first day of the Luxury trek to Everest Base Camp and introduce you to our porters. After breakfast in Lukla, begin your first day of trekking with a gentle hike via Chauri Kharka hamlet to Phakding. You will pass through a rhododendron forest and a few small settlements on your journey to Phakding. Because Phakding is a remote town and primitive community on the Dudh Koshi River's bank, you must descend from Lukla.",
+    },
+    {
+      day: 4,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+      details:
+        "You will continue your Luxury Everest Base Camp Trek along the Dudh Koshi's banks, crossing the gorgeous river on spectacular suspension bridges draped in prayer flags. The path climbs sharply with beautiful vistas After entering Sagamartha National Park. Namche Bazaar, also known as the Everest Gateway, is home to a variety of high-quality restaurants, hotels, lodges, stores, money exchange, internet cafes, and a bakery. Namche is one of the most populous communities on the Everest Base Camp route.",
+    },
+    {
+      day: 5,
+      description: "Acclimatization Day at Namche Bazaar (3440m)",
+      details:
+        "Your bodies must adjust to the Himalayan environment and climate because you are now above 3440 meters. As a result, you must allow your bodies to adjust to the alpine environment today. You will trek to Everest View Point and then visit the Everest View Hotel on this day. This hotel, located at an altitude of 3880 meters, is considered the world's highest-star hotel. This is your first acclimatization day as per Everest Base Camp Luxury Trek Itinerary. Mt. Everest, Mt. Lhotse, Mt. Ama Dablam, and many more gorgeous mountains like Mt. Thamserku, Mt. Kongde, Mt. Kusum Kanguru, and Mt. Nuptse can all be seen from Everest View Hotel. On the outskirts of Namche Bazaar, there is a small airport called Syangboche, from which you can shoot wonderful views of Namche. You can go to the Sherpa museum after your short excursion to learn more about the vivid Sherpa culture and customs. The National Park Museum, which is next to the Sherpa Museum, also has information about Everest and adjacent mountains. After your tour, you will have free time to explore Namche or relax at our hotel.",
+    },
+    {
+      day: 6,
+      description: "Trek from Namche Bazaar (3440m) to Deboche (3820m)",
+      details:
+        "You may be familiar with the Himalayas and Sherpa culture after acclimatization day. Today your Luxury Everest Base Camp Trek Route will move closer to Sagarmatha through Sagarmatha's designated national park. Thankfully, Dudh Koshi would continue to enthrall you as you progress. The path begins to straighten out after leaving Namche Bazaar. After around 6 kilometers of travel, the road begins to ascend. At Phungi Thanga, on the road to Deboche, you may see water-driven prayer wheels. In another 3 kilometers, you'll reach Tengboche monastery, the largest monastery in the Khumbu region. After seeing the monastery, you'll head downhill to Deboche hamlet for an overnight stay at a lodge.",
+    },
+    {
+      day: 7,
+      description: "Trek from Deboche (3820m) to Dingboche (4410m)",
+      details:
+        "You will arrive at a Buddhist monastery in Deboche and pass through a few chortens on your route to Pangboche, where you will be rewarded with a breathtaking panorama of the Himalayas. The morning view of the mountain panorama from Deboche is breathtaking, with views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse. Your day will begin with a short descent through a rhododendron and birch forests to the Imja Khola riverbed. You will arrive in Pangboche after passing through the lovely Milinggo village. The fading greenery may be seen during the Luxury Everest Base Camp Trek from the high Pangboche to the dry and alpine environment of Shomare. Before reaching the freezing and windy village of Dingboche, you may glimpse Mt. Pumori's apical ridge from Orsho.",
+    },
+    {
+      day: 8,
+      description: "Acclimatization or Rest Day at Dingboche (4410m)",
+      details:
+        "This is the second day of acclimatization for the 16 days Luxury Everest Base Camp Trek. You can hike to the hill behind the village on the northern side after breakfast. For amazing views of Ama Dablam, Lhotse, and Nuptse, explore this lovely valley that leads up to Island Peak. The trek to Island Peak is short and provides a relaxing afternoon activity. Another option is to go up to Chhukung Ri, where you can see Island peak, Ama Dablam, Makalu, Tawoche peak, and other peaks. You may also walk to Nagarjuna (5100m) for a breathtaking panorama of the Chhukung valley, which includes Kangtega, Ama Dablam, Taboche, Lobuche east, and many more magnificent peaks.",
+    },
+    {
+      day: 9,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
+      details:
+        "Today’s Everest Base Camp Luxury Trek path will ascend gradually till it reaches Thokla Dughla Pass, then mildly descends until it reaches Lobuche. On the slope above the Thokla Dughla Pass, there is a memorial stupa and a prayer flag. The stupas were created in honor of climbers who died while attempting to summit Mt. Everest. You will be able to see the mountains such as Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru. The Lobuche glacier ridge provides views of the Everest base camp, Kala Pattar, Khumbu glacier, and glacier moraines. The trek to the hotel Italian pyramid will take around 20 minutes, where you are going to overnight stay.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then to Everest Base Camp (5364m), and back to Gorakshep ",
+      details:
+        "This is a historic day for those trekkers, who have aspired to travel to the foot of the world's tallest peak. The first part of the Luxury Everest Base Camp Journey will be very simple because you won't have to trek much elevation until you reach Gorakshep. The path will be tough and steep, leading to Base Camp via the Khumbu glacier. It will take nearly three hours to reach Gorakshep, which is located above 5,000 meters, and then you will relax for a few hours, and have your lunch, after that your journey will resume to Everest base camp. Everest base camp is enhanced by the stunning views of the Khumbu Glacier, Everest's pinnacle, and glacier-covered mountains that are mesmerizing. You can encounter hundreds of climbers aiming to summit Everest and Lhotse if you do hiking in the spring. For the lodging, you have to return back to Gorakshep.",
+    },
+    {
+      day: 11,
+      description:
+        "Trek from Gorak shep (5140m) to Kala Patthar (5545m) and then back to Gorakshep (5140m) After that Helicopter Flight to Kathmandu (1400m)",
+      details:
+        "Early in the morning, you will depart for the morning tour at Kala Patthar. From Gorak Shep, it takes roughly 2 hours to reach Kala Patthar Peak. Your efforts will be rewarded with breathtaking vistas of Mount Everest from a much closer vantage point. You will return to Gorakshep for breakfast after having a glimpse of the sunrise from Kala Patthar. Your Luxury Everest Base Camp Trekking journey will end after taking a helicopter flight from Gorakshep to Kathmandu after packing your belongings.",
+    },
+    {
+      day: 12,
+      description: "Reserve Day in Kathmandu (1400m) ",
+      details:
+        "It’s an extra day in Kathmandu just for contingency. Sometimes, things may not go as swiftly as intended. Sometimes flight delays/cancellations, poor weather, or ill health can cause a barrier to your journey. Hence, a contingency day on the trip will always be helpful. In case you finished the trek on time, you can use this day for resting or shopping in Kathmandu.",
+    },
+    {
+      day: 13,
+      description: "Departure Day (Farewell) ",
+      details:
+        "Today, you will travel back to your home from Kathmandu and continue your adventure to many destinations across the world. We will drop you off at the airport three hours before to your flight time. We hope you had a great time with us and made some wonderful memories. Thank you very much for joining us, and have a safe journey to your destination.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Walking, running, swimming, and cycling are examples of cardio exercises that train your body to operate better with less oxygen. This will help you to retain your breath and concentrate when walking at a high altitude, allowing you to enjoy the Everest Base Camp Luxury Trek more properly. Remember why you're working out and progressively increase the intensity and duration of your exercises when you're weary and want to quit. The most efficient approach to prepare for your climb to base camp is to go hiking. Find some local trails, stroll through town, or simply go for a walk. Get in the habit of going for long walks. Determine where your body has difficulty and how far you can push it. Once you've become used to pushing past the first wave of agony, you'll be astonished at how far you can go.",
+    ],
+    points: [],
   },
-
-  //                                                                        chitwan-national-park-tour
-  chitwan_national_park_tour: {
-    id: 2,
-    slug: "chitwan_national_park_tour",
-    category: "National Parks",
-    img: "/locations/chitwan.jpeg",
-    title: "Chitwan National Park Tour",
-    description:
-      "Wild animals in their natural environment, luxury safari lodges",
-    location: "Bagmati",
-    days: "14 days",
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////////////Everest Three High Passes Trek - 18 Days/////////////////////////////////////////////////////////////////////////////////////////
+everest_three_high_passes_trek_18_days: {
+  id: 16,
+    slug: "everest_three_high_passes_trek_18_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "18 Days Everest Three High Passes Trek guided by the professionals",
+    title: "Everest Three High Passes Trek - 18 Days",
+    location: "Solukhumbu",
+    days: "18 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
     ],
-
     overView: {
       duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+        "A full 18 days 17 nights worth of adventurous and exciting trek throughout the circuit ",
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      bestSeason: "Spring and Autumn",
-    },
-    equipment: [],
-    about: [
-      "Chitwan National Park is a wildlife sanctuary and conservation area located in the southern part of Nepal, covering an area of 952.63 square kilometers. It is one of the most popular destinations in Nepal, attracting thousands of tourists every year. If you are interested in a wildlife tour then the 3 Nights and 4 Days Chitwan National Park Tour Package is best suitable for you. The park is home to a wide range of flora and fauna, including Bengal tigers, one-horned rhinoceros, Asian elephants, and over 500 species of birds. The park is also recognized as a UNESCO World Heritage Site.",
-      "4 Days Chitwan National Park Tour Package is ideal for nature lovers and wildlife enthusiasts. The park offers a unique opportunity to witness some of the rarest and most endangered species of animals in their natural habitat. Our 4 Days Chitwan National Park Tour Itinerary provides an opportunity to participate in adventure sports like jungle safaris, elephant rides, and canoeing. The most popular way to explore Chitwan National Park is by taking a jungle safari. The safari can be done on an elephant or in a jeep, and it takes you deep into the heart of the jungle, where you can spot a variety of wildlife. The park is home to around 68 species of mammals, including Bengal tigers, leopards, sloth bears, and one-horned rhinoceros.",
-      "Another popular activity in the 3 Nights 4 Days Chitwan National Park Tour Package is canoeing. Canoeing is a great way to explore the Rapti River, which flows through the park. The river is home to a variety of fish species and aquatic animals, and you can spot them from your canoe. Canoeing also provides an opportunity to observe the local way of life, as many people depend on the river for their livelihood.",
-      "Chitwan National Park is also a paradise for bird lovers, with over 500 species of birds found here. The park is a bird watcher's paradise, with many rare and endangered species like the Bengal florican, giant hornbill, and the lesser adjutant stork. The best time for bird watching is early morning or late afternoon when the birds are most active. Apart from wildlife and adventure activities, the 3 Nights 4 Days Chitwan National Park Tour Package also helps to explore the rich cultural heritage. The park is home to several ethnic groups like the Tharu people, who have a unique way of life and culture. The Tharu people have been living in harmony with the wildlife and nature of the park for centuries and have their festivals, dances, and music.",
-      "The best time to participate in the 3 Nights and 4 Days Chitwan National Park Tour is from October to March, as the weather during this time is pleasant, and the park is at its greenest. During the monsoon season, which lasts from June to September, the park is closed due to heavy rainfall and flooding.",
-      "Chitwan National Park is a unique and beautiful destination that offers a variety of experiences for you. From wildlife safaris to bird watching, canoeing, and cultural experiences, the park has something for everyone. A 3 Nights 4 Days Chitwan National Park tour is an ideal way to explore the park and experience its beauty and diversity. Whether you are a nature lover, adventure enthusiast, or a culture buff, Chitwan National Park is a destination that should be on your bucket list.",
-      "We at Green Valley Nepal Treks and Research Hub are pleased to present our well-planned 3 Nights 4 Days Chitwan National Park Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the 4 Days Chitwan National Park Tour Package Cost, please don't hesitate to contact us.",
-    ],
-    highlights: [
-      "Explore the stunning Chitwan National Park, a UNESCO World Heritage Site known for its rich biodiversity and wildlife.",
-      "Embark on an exciting wildlife safari to spot the park's famous residents, including tigers, rhinoceroses, elephants, and crocodiles.",
-      "Go on a jungle walk with a local guide to learn about the flora and fauna of the park and see different species of birds, reptiles, and insects.",
-      "Experience a cultural program featuring performances by the Tharu people, an indigenous community with a unique way of life and traditions.",
-      "Enjoy a relaxing canoe ride on the Rapti River, where you can spot various species of birds and aquatic animals.",
-      "Take a refreshing dip in the pool or indulge in a spa treatment at your accommodation, which may range from rustic lodges to luxury resorts.",
-      "Interact with trained elephants at an elephant breeding center and learn about their care and training.",
-      "Visit a Tharu village to experience their culture and daily life, and purchase handmade crafts and souvenirs.",
-      "Enjoy delicious Nepali and Tharu cuisine, including a traditional Tharu meal, served on a leaf plate.",
-      "Participate in a bird-watching excursion to spot some of the over 500 species of birds that call the park home.",
-      "Explore the nearby town of Sauraha, which offers a range of shops and markets selling local handicrafts, textiles, and souvenirs.",
-    ],
-    facilities: [
-      "International and Domestic Airport Pickup And Drop off service",
-      "Create Himalaya Adventure T-Shirt and Duffle Bag",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Discounts and Extra services for old customers",
-      "Arrangement of the best hotels at reasonable price",
-      "Free Excess Luggage Storing At Create Himalaya Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Drive from Katmandu or Pokhara or Sunauli to Chitwan",
-        details:
-          "On the first day of your 4 Days Chitwan National Park Tour, you will arrive at the park's headquarters in Sauraha. After checking into your hotel, you can spend the rest of the day exploring the town and its surroundings. Sauraha has a bustling market where you can find local handicrafts, clothing, and souvenirs. You can also visit the Elephant Breeding Center, which is home to over 70 elephants, including babies. Here, you can learn about elephant breeding and its role in the park's conservation efforts.In the evening, you can attend a cultural program featuring traditional Tharu dance and music. The Tharu people are the indigenous inhabitants of the area and have a unique culture and way of life. The program is a great opportunity to learn about their traditions and enjoy their lively music and dance performances.",
-      },
-      {
-        day: 2,
-        description: "Whole Day Jungle Activities in Chitwan National Park",
-        details:
-          "On the second day of your 4 Days Chitwan National Park Tour Itinerary, you will explore the park on foot and by boat. After breakfast, you will set off on a jungle walk with an experienced guide. The walk takes you through dense forests, grasslands, and riverside habitats. You will have the chance to spot a variety of wildlife, including deer, monkeys, wild boars, and various bird species. Your guide will also provide you with information about the park's ecology, conservation efforts, and the different animal and plant species you encounter.After the jungle walk, you will embark on a canoe ride down the Rapti River. The river is home to crocodiles, otters, and various water birds. As you float down the river, you can observe the wildlife from a different perspective and enjoy the peaceful surroundings.",
-      },
-      {
-        day: 3,
-        description: "Full Day Jungle Activities in Chitwan National Park",
-        details:
-          "The third day of your 4 Days Chitwan National Park Tour Package is dedicated to exploring the park on the elephant's back. After breakfast, you will head to the park's elephant stables, where you will meet your gentle giants for the day. The elephants are well-trained and cared for, and the safari is a unique opportunity to observe wildlife from a close distance. During the safari, you will ride through grasslands and forests, looking for rhinos, tigers, and other animals. Your mahout (elephant handler) will also point out different bird species and provide you with interesting facts about them. The safari lasts for about three hours, and you will return to your hotel for lunch. In the afternoon, you will go bird watching with a local expert. Chitwan National Park is home to over 500 species of birds, including several endangered species such as the Bengal florican and the lesser adjutant stork. Your guide will help you identify the different birds and provide you with information about their habits and habitat.",
-      },
-      {
-        day: 4,
-        description: "Departure to Your Destination",
-        details:
-          "On the final day of your Chitwan National Park Jungle Safari Tour, you will check out of your hotel and depart from Chitwan. If time permits, you can visit the park's museum and visitor center, which provides information about the park's history, geography, and wildlife. You can also buy souvenirs and handicrafts from the park's gift shop.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Chitwan National Park Tour of 4 Days can be an exciting and memorable experience, but it's important to be prepared to ensure a smooth and enjoyable trip. Here are some tips to help you prepare for your Chitwan National Park Tour.",
-      ],
-      points: [
-        "Before you travel, check the weather conditions in Chitwan National Park. The best time to visit the park is between October and March when the weather is dry and pleasant. However, if you plan to visit during the monsoon season (June-September), be prepared for heavy rain and muddy conditions.",
-        "Bring comfortable and lightweight clothing suitable for the weather and outdoor activities. You may also want to bring a hat, sunglasses, sunscreen, insect repellent, and sturdy shoes for walking. If you plan to go on a jeep safari or a jungle walk, avoid wearing bright colors as they may scare the animals.",
-        "It is recommended to get vaccinated before visiting Nepal to protect against diseases such as hepatitis A, typhoid, and rabies. Make sure to consult with your doctor or a travel health clinic before your trip.",
-        "It is essential to purchase travel insurance that covers medical expenses and emergencies, especially when visiting a remote area like Chitwan National Park.",
-        "Choose an itinerary that suits your interests and fitness level. The park offers a variety of activities, including wildlife safaris, canoe rides, jungle walks, and cultural experiences. Be sure to book your activities in advance to avoid disappointment.",
-        "Chitwan National Park is home to the Tharu people, an indigenous community with a rich culture and traditions. Respect their customs and traditions by dressing modestly, asking permission before taking photographs, and following their guidelines when visiting their villages.",
-        "Always follow the safety guidelines provided by your tour guide or park officials. Avoid venturing into the jungle alone or without a guide, and do not feed or touch the animals. In case of an emergency, contact the park officials immediately.    ",
-      ],
-    },
-    path: ["/images/abc-road-img.jpg"],
-  },
-  //                                                                               rara-lake-tour
-  rara_lake_tour: {
-    id: 3,
-    slug: "rara_lake_tour",
-    category: "Lakes",
-    img: "/locations/rara.jpeg",
-    title: "Rara Lake Tour",
-    description:
-      "Amazingly deep blue lake with an hour-long shift is the best part you can see in desert Nepal",
-    location: "Jumla",
-    days: "14 days",
-    people: "1-12",
-    subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
-    ],
-
-    overView: {
-      duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
-      startingPoint:
-        "Meet up at the designated location in Kathmandu at sharp 6 AM",
-      endingPoint:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
       bestSeason: "Spring and Autumn",
     },
     equipment: [
       {
         title: "Trekking Backpack",
-        image: "/images/trekking_backpack.jpg",
+        image: "/images/bagpack.png",
         description: "A durable backpack designed for trekking adventures.",
       },
       {
         title: "Walking Stick",
-        image: "/images/walking_stick.jpg",
+        image: "/images/walkingStick.png",
         description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "/images/sunglasses.jpg",
+        image: "/images/glasses.png",
         description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
         title: "Trekking Shoes",
-        image: "/images/trekking_shoes.jpg",
+        image: "/images/shoes.png",
         description:
           "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
-    about: [""],
-    highlights: [
-      "Discover the pristine beauty of Rara Lake surrounded by lush forests and stunning mountain views",
-      "Explore the diverse flora and fauna in the Rara National Park",
-      "Witness the traditional way of life of local communities",
-      "Enjoy a peaceful boat ride on the crystal-clear waters of the lake",
-      "Capture the majestic views of snow-capped peaks reflected in the tranquil lake",
-      "Relax and unwind in a serene natural environment, away from the hustle and bustle of city life",
-      "Experience a professionally curated day tour by the Green Valley Nepal Treks Team",
-    ],
-    facilities: [
-      "Free International Airport Pickup and Drop off facilities",
-      "Green Valley Nepal Trek T-Shirt and Duffle Bag",
-      "Medical Kits might be necessary in Certain Cases",
-      "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
-      "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
-      "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
-    ],
-    itinerary: [],
-    HowToPrepare: {
-      paragraph: [
-        "This is just a single-day tour so, you might not have to prepare for a lot of things. Our representatives will pick you up in the morning and show you the beauties and mysteries of Pokhara city for one whole day before dropping you off at your hotel by the evening or night.",
-        "In between, Create Himalaya Adventure' guide will always be with you if you have any problems or queries. So, preparation for this trip is not so difficult or worth spending a lot of energy and time. However, here are a few things that we suggest you be prepared with for this trip.",
-      ],
-      points: [""],
+  about: [],
+  highlights: [
+    "The three high passes Kongma La (5535m), Cho La (5420m), and Renjo La (5464m) provide a breathtaking perspective of the Himalayas",
+    "This trip will take you through the Gokyo valley's five frozen lakes.",
+    "While traversing these passes, you will have an exciting and challenging experience.",
+    "In addition to the experience, you will gain an intimate understanding of the Sherpa culture in the Himalayas.",
+    "From Kala Patthar (5545 meters), you will have the best views of Mt. Everest along with the highest glacier on Earth- Khumbu Glacier (4900m)",
+    "Stunning vistas of the world's tallest peaks",
+    "Exploring prayer wheels, colorful flags, Mani stones, and huge suspension bridges will astound you.",
+    "A diverse diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar, will astonish you.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest High Passes Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arriving In Kathmandu (1400m)",
+      details:
+        "At the Tribhuvan International Airport, our representative will meet and greet you. A private tourist car will transport you to the hotel. You have the option of taking a break or seeing us at our office to discuss the Three High Passes Everest Trekking Itinerary.",
     },
-    path: ["/images/abc-road-img.jpg"],
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m) ",
+      details:
+        "After a 30 to 40-minute flight from Tribhuvan International Airport to Lukla, your Three Passes Everest Trek will begin. This magnificent flight offers incredible views of the Langtang Himalayan range and the Annapurna Himalayan range. You'll first descend from Lukla to the Thado Koshi River, crossing a few suspension bridges along the way. Then you will arrive at a Chheplung village after an hour of gentle descent, with a view of Mt. Khumbila (5,761 m), a sacred peak that has never been climbed. As you will be acclimating, the journey will be easier and more pleasurable. You will descend from Chheplung to Phakding, where you will get the opportunity to see Pemacholing and Rimishung Monastery.",
+    },
+    {
+      day: 3,
+      description:
+        "Trek from Phakding (2610m) to Monjo (2835m) then Namche Bazaar (3440m) ",
+      details:
+        "After your breakfast in Phakding, you continue on the Everest Three High Passes Route. Your trip will include uphill and downhill sections, as well as many river crossings and a spectacular view of Mt. Thamserku (6,608 m) from the Bengkar hamlet. Your route will take you past Monjo Village, dense forests, and rugged trails to the Sagarmatha National Park's entrance. You'll register your permits and make your way into the woods. For the first time, you will be able to see Mt. Everest from this forest. Then, after traveling through Jorsale hamlet, you'll cross the Hillary Suspension Bridge and proceed to Namche Bazaar. Beautiful vistas of the Himalayas, including Everest, Lhotse, Tawache, and others, may be seen from here.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization and Rest Day at Namche Bazaar (3440m)",
+      details:
+        "In the Khumbu region's core, today is the day to relax and prepare your body for high altitude. The Sagarmatha National Park tourist center, traditional Sherpa communities, Hillary School, Khumjung monastery, Syangboche Airport, and Everest View Hotel are among the places to see in Namche Bazaar. Even if you stay in Namche, being active and moving is important. Banks, ATMs, and Cyber Cafés are some of the facilities available in Namche Bazaar. You may also go to the Sherpa museum, visit the local community, hike to Thamo, or explore Khunde. This is your first acclimatization day as per Everest Three High Passes Trek Itinerary.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m) ",
+      details:
+        "After eating breakfast in Namche, your Three High Passes Trek will head toward Tengboche. Mt. Everest, Mt. Nuptse, Mt. Ama Dablam, and Thamserku can all be seen from the road to Tengboche. While walking the smooth and sometimes zigzag trail, you will be astonished by the wildlife, such as musk deer, Himalayan Thar, and colorful pheasants. You will pass through a pine forest and then across the bridge, decorated with prayer flags, over the Dudh Koshi River. Trekking for a little you eventually arrive at Phungi Thanga, a small village with several teahouses and a small army post set among an alpine forest. You will also get a chance to visit the Tengboche monastery to witness a religious ceremony by the monks at Tengboche.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
+      details:
+        "Today on Everest 3 High Passes Trek, you will get a spectacular sunrise vista of the mountain landscape, including views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse. Your day begins with a hike via Imja Khola and on to Tengboche, where we descend to the riverbank via rhododendron and birch woods. You will visit a Buddhist nunnery in Deboche and cross a few chortens on the way to Pangboche, where you will enjoy a spectacular view of the Himalayas. Walking from the high Pangboche to the arid and alpine environment of Shomare, one can plainly detect the diminishing vegetation. From Orsho, you can see Mt. Pumori's coronal ridge before arriving at the chilly and windy settlement of Dingboche, where you will spend the night.",
+    },
+    {
+      day: 7,
+      description: "Trek from Dingboche (4410m) to Chhukung (4730m)",
+      details:
+        "Your 3 high passes journey will continue via the Imja Khola Valley to glacial moraines in the midst of towering peaks. Your stroll will take you down the valley for the next 3 to 4 hours, with views of Lhotse Mountain and Ama Dablam on both sides, until you arrive at yak Bibre, the herdsman's home. At the terminal moraine, you can see Imja Tse summit, which has a rocky and frosty aspect. A half-hour hike from Bibre will take you to Chhukung, where you may see glaciers and snow-capped mountains. After arriving at Chhukung, relax or trek to Chhukung Ri for even more spectacular mountain vistas. It will assist you in preparing for your trip to Kongma-la Pass in the morning.",
+    },
+    {
+      day: 8,
+      description:
+        "Trek from Chhukung (4730m) to Lobuche (4910m) via Kongma La Pass(5540m) ",
+      details:
+        "You will be entering the isolated alpine hinterlands on this day, where there are no teashops, so bring lots of water with you. You will be given two choices here. Climb the slope northwest of Chhukung to the Nuptse glacier, or stroll down to the Bibre valley and trek to the high path above Niyang Khola. After a short stroll, you will be rewarded with a spectacular view of Island Peak Valley and Amphu Lapcha's Stony Peak. You will reach a vast basin littered with ice lakes rising along the east side of Niyang Khola valley on a rocky road. After a 5-hour hike via the Kongma La Pass, you will be leaving Chhukung. Kongma La is the highest pass among Everest's three high passes. The prayer flags flapping to mark the pass at the peak can only be seen if you reach the top. The descent now begins, which will be the most arduous and strenuous part of today's expedition. You ascend the far side moraine, then head north along the Khumbu glacier route, which eventually leads to Lobuche, your today's 3 high passes trek final destination.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorak Shep (5140m) then Everest Base Camp (5364m)",
+      details:
+        "3 high passes trek trail will pass across the Khumbu Glacier's moraine heading toward Gorakshep. Passing through the pyramid landmark, you'll be treated to a breathtaking view of Everest's north ridge, which includes Mt. Pumori, Mt. Mahalangur, Mt. Lingtern, Mt. Khumbutse, and Mt. Nuptse. After ascending to Thangma Riju, you will enjoy a 360-degree panorama of snow-capped mountains. Kalapatthar, a grassy meadow under Mt. Pumori, may be seen from the summit of Changri glacier. You can see snow-capped mountains as you arrive at Gorakshep, including the world's highest peak, Mount Everest. Your walk will continue across Gorak Shep Lake, passed by memorials commemorating Indian army mountaineers, before arriving at Everest base camp. You will realize how hazardous the Khumbu icefall trail is until you get to Everest Base Camp. Although Everest is not visible from the summit's base, the close-up vistas of Nuptse and Khumbutse, which tower over the Mountaineers' vividly colored tents, are no less stunning. This is your journey's apex. You will spend the night in Gorak Shep after that.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorekhshep (5140m) to Kalapatthar (5555m) then Dzongla(4830m) ",
+      details:
+        "This is the culmination of your Everest 3 high passes trek journey, which began with a stroll to enjoy a stunning glimpse of the sun rising from Kalapatthar. After a few hours of walking, you'll arrive at Kalapatthar, where you may sit and fill your eyes' desire for a breathtaking view of the Himalayas. Everest, Lhotse, Nuptse, Pumo Ri, Ama Dablam, Khangtenga, Lobuche Peak, Everest Base Camp, Khumbu glacier, and Icefalls can all be seen from Kalapattar's 360-degree vantage point. You will leave your footprints behind and take memories and photographs that will last a lifetime. Return to Gorakshep, pack your belongings, and prepare to retrace your way back to Lobuche. Then, through the picturesque route, you'll make your way to Dzongla.",
+    },
+    {
+      day: 11,
+      description:
+        "Trek from Dzongla (4830m) to Thagnak (4750m) via Cho La Pass(5367m) ",
+      details:
+        "To witness the stunning vista of Cholatse, you must get up early in the morning. The toughest portion of the Everest 3 High Passes trek journey begins when you travel through Dzongla, passing through spur woodland before descending to a basin. As you return to the top, you will be rewarded with a beautiful view of Chola Lake and Mt Ama Dablam. The steep ascent is made more difficult by rocks, which leads to the sinuous Bergschrund pathways. You can see breathtaking peaks all around you from the summit, which are framed by flying prayer flags. Unless the rocks are covered with ice, making the path treacherous and dangerous, the descent to Thagnak is reasonably easy. You will spend the night in Thagnak.",
+    },
+    {
+      day: 12,
+      description: "Trek from Thagnak (4700m) to Gokyo (4750m)",
+      details:
+        "You have to leave the little settlement early in the morning and continue on the Three High Passes Trek Route via Nepal's longest glacier, the Ngozumpa Glacier. The second Gokyo Lake, which is one of the six series, may be seen as you approach the other side of the glacier. Gokyo hamlet may be found on the border of the third lake, which is close to the second.",
+    },
+    {
+      day: 13,
+      description:
+        "Acclimatization in Gokyo (4750m) and Hike to Gokyo Ri (5357m)",
+      details:
+        "The acclimatization day is a great chance to climb Gokyo Ri, one of the greatest places to see the Everest area and explore the six lakes. The fourth lake, with its towering cliffs and peaks rising above it, lies 3 kilometers north of Gokyo. The walk continues to the fifth and largest azure blue dazzling lake. You can even ascend the slopes at the lake's side to see Cho-Oyu, Gyachung, Everest, Lhotse, Nuptse, and Makalu in all their glory. Cho Oyu base camp is located beyond the fifth lake, and the stunning panorama is well worth seeing. It is up to your curiosity, time, and energy to see whether you can make it to the sixth lake. This is the second acclimatization day according to Everest Three High Passes Trek Itinerary.",
+    },
+    {
+      day: 14,
+      description:
+        " Trek from Gokyo (4750m) to Marulung (4210m) via Renjo La Pass (5360m)  ",
+      details:
+        "Early in the morning, you will begin hiking to Renjola pass, bypassing the main Gokyo valley route to follow the Renjola trail through Dudh Pokhari. The view of Everest, Lhotse, Cholatse, and Taboche will be appreciable after a 3-hour hike. This is also among one the difficult aspects of the climb, but once you get to the pinnacle, you will be rewarded with breathtaking 360-degree views of Mt. Cho-Oyu and other high peaks. The 3 High Passes Everest Trek route will descend the stairs to Angladumba Tsho. Further trekking will reveal Relama Tsho and Renjo Lake, after which you will pass through a small valley brimming with massive stones on your way to Lumde. After an hour's trek, you will arrive at Marlung village, where you will spend the night.",
+    },
+    {
+      day: 15,
+      description:
+        "Trek from Marulung (4210m) to Thame (3750m) then back to Namche Bazaar (3440m) ",
+      details:
+        "Your 3 high passes trek journey will descend from Marlung to Thame, which is also a traditional route used by Tibetan traders for centuries. Passing through Bhote Koshi and descending to Taranga you will reach Langmuche Khola. From the lodges next to the famous Buddhist shrine (Gompa) in Thame, you can enjoy stunning views of mountains like Thamserku, Katenga, Kusum Kangguru, etc. After that, cross the bridge to reach Samde, the place with stunning mountain views. Through the steep path, you reach the village of Thamo where you can see a monastery called Khari Goma, which is also a nunnery. You will reach the world’s highest power plant in the world built with the help of Australia, then pass through a small village called Phurte where you will see the Laudo Monastery. You are finally in Namche after passing some gompas, prayer flags, Chorten, and Mani stones.",
+    },
+    {
+      day: 16,
+      description:
+        "Trek from Namche (3440m) to Phakding (2610m) then Lukla (2840m)  ",
+      details:
+        "This is the last day of the trip through Everest Three High Passes. Your adventure will begin in Namche and conclude in Lukla. The difficulties are immense, as you'll be trekking down a steep slope with shaky legs till you reach the airport area. To cross the bridge across the Dudh Koshi and into the alpine forest, take it slowly and carefully. The flat route becomes flatter and more natural after passing the suspension bridges across the fast-flowing Dudh Koshi and its tributaries. The combination of broad plains, rhododendron and pine woods, and distant snow-capped peaks will appeal to you. As you proceed through the villages and arrive at Lukla, you will see several walls and monasteries, with a strong Buddhist conviction.",
+    },
+    {
+      day: 17,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
+      details:
+        "You will fly back to Kathmandu today on a picturesque journey. Because of the severe weather (windy or low visibility) in the afternoon, Lukla to Kathmandu flight is typically operated in the morning. Due to adverse weather in Luka or other unforeseen circumstances, scheduled flights may be delayed or canceled. As a result, you should always have an extra day for the contingency, as this will allow you to make up for your other commitments. After arriving in Kathmandu and completing your long adventurous journey, the rest of the day might be spent touring, relaxing, or celebrating. You are going to stay at the hotel overnight and have a wonderful farewell dinner at Thamel to conclude Everest 3 high pass trek successfully.",
+    },
+    {
+      day: 18,
+      description: "Final Departure or Onward For Next Program",
+      details:
+        "The penultimate day of departure from Kathmandu is today. Our assistant will pick you up from your hotel and drop you off at the airport's international terminal three hours before your flight's scheduled departure time. You can also choose to prolong your trip by selecting a different package.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "For every climb, preparation is essential. Before you begin the journey, there are a few fundamental measures you should follow if you are planning a Three Passes Hike. You must organize, plan, pack, and prepare. Before you go, make sure to complete all of these tasks. There is no going back once you leave. The stage of preparation is essential. The gear needed for multi-day walks in the Himalayas and the preparation for an Everest Three Passes Trek is comparable. Simply make sure you have the right equipment and make your plans appropriately. An Everest three-pass expedition might be planned in one of two ways. You must first determine your physical readiness for the terrain's difficulties and risks if you intend to go up the mountain. For instance, a sudden and devastating avalanche only catches many hikers in the Alps by surprise. Going to the Himalayas might be fatal because of the extreme cold. Second, make sure you have the necessary tools and attire.",
+    ],
+    points: [],
   },
-
-  //                                                                              pokhara-adventure
-  pokhara_adventure: {
-    id: 4,
-    slug: "pokhara_adventure",
-    category: "Adventure",
-    img: "/locations/pokhara.jpeg",
-    title: "Adverture in Pokhara",
-    description:
-      "Spectacular scenery, adventure activities, and accommodation and food choices galore",
-    location: "Pokhara",
-    days: "14 days",
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+////////////////////////////////////////////////////Budget Everest Base Camp Trek - 12 Days////////////////////////////////////////////////////////////////////////////
+budget_ebc_trek_12_days: {
+  id: 17,
+    slug: "budget_ebc_trek_12_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck1.jpg",
+    description: "12 Days Budget Everest Base Camp Trekguided by the professionals",
+    title: "Budget Everest Base Camp Trek - 12 Days",
+    location: "Solukhumbu",
+    days: "12 days",
     people: "1-12",
     subimages: [
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/chitwan_sub1.png",
-      "/locations/girl_sub1.png",
-      "/locations/girl_sub1.png",
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
     ],
-
     overView: {
       duration:
-        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit",
+        "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
       startingPoint:
         "Meet up at the designated location in Kathmandu at sharp 6 AM",
       endingPoint:
         "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      peoples:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
-      category:
-        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
       bestSeason: "Spring and Autumn",
     },
-    equipment: [],
-
-    about: [
-      "The Pokhara Valley, located in Nepal under the shadow of the Annapurna mountain range, is a lovely paradise with stunning scenery, tranquil lakes, and lush vegetation. Located roughly 205 km west of Kathmandu, Pokhara is also a starting point for many trekking and rafting destinations. A Pokhara Tour Package is a must-do for anyone looking to explore the natural beauty of Nepal and experience its rich cultural heritage.",
-      "The Pokhara Nepal Tour takes you on a journey through the stunning natural landscapes of Nepal, starting with the Phewa Lake, the second-largest lake in Nepal. The lake is surrounded by lush green hills and is home to various fish species. You can take a boat ride on the lake and explore its scenic beauty while soaking in the tranquility of the surroundings. The Pokhara Sightseeing Tour also includes a visit to the World Peace Pagoda, a Buddhist stupa on a hilltop overlooking the Pokhara Valley. The pagoda offers panoramic views of the surrounding mountains and is a peaceful retreat for those seeking spiritual solace. Similarly, you can also visit Pumdikot, which is a viewpoint but currently, is famous for the statue of Lord Shiva.",
-      "Another must-visit destination on the Pokhara City Tour is Devi's Fall, which is a stunning waterfall that cascades down into a deep gorge. The waterfall is said to be named after a woman who drowned in the falls, and her body was never found. For those interested in history and culture, the Pokhara Travel Package includes a visit to the International Mountain Museum, showcasing the Himalayan region's rich history and culture. The museum features exhibits on mountaineering, the Sherpa people, and the various flora and fauna found in the area.",
-      "The Pokhara Vacation Package also takes you on a journey through the local bazaars and markets, where you can shop for traditional handicrafts, clothing, and souvenirs. The bustling markets are a great place to immerse yourself in the local culture and taste the local cuisine. One of the highlights of the Pokhara Trip Package is a visit to Sarangkot Hill, which offers panoramic views of the Annapurna mountain range and the surrounding valleys. The hill is a popular spot for paragliding, and you can experience the thrill of soaring through the air while enjoying the breathtaking views of the mountains and valleys.",
-      "The Pokhara Valley Tour is not just about sightseeing and experiencing the natural beauty of Nepal. It is also an opportunity to connect with the local people and learn about their way of life. Pokhara Tour Package takes you through traditional villages, where you can interact with the locals and get a glimpse into their daily lives. You can witness their conventional farming practices, learn about their culture and customs, and even try your hand at some traditional crafts. This immersive experience is a great way to gain a deeper understanding of Nepal's rich cultural heritage and appreciate the resilience and hospitality of its people. Magars and Gurungs are the local inhabitants, and ethnic groups like the Thakalis live here.",
-      "The Pokhara Holiday Package is a journey through Nepal's natural beauty and cultural heritage, and it offers an experience that will surely leave you enchanted. Whether you are a nature lover, a history buff, or an adventure seeker, the tour has something to offer for everyone.",
-      "We at Create Himalaya Adventure and Research Hub are pleased to present our well-planned 2-day Pokhara Valley Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the Pokhara Tour Package Cost, please don't hesitate to contact us.",
-    ],
-    highlights: [
-      "Enjoy stunning views of the Annapurna Mountain Range, including Annapurna I, II, III, IV, and South, and the beautiful Phewa Lake.",
-      "Explore the natural beauty of the Pokhara Valley through hiking, or paragliding, and experience the thrill of adventure activities like zip-lining and bungee jumping.",
-      "Visit the famous Davis Falls, a natural waterfall that cascades into a deep pool, and the Gupteshwor Mahadev Cave, a mysterious cave temple dedicated to Lord Shiva.",
-      "Witness the sunrise over the Himalayas from the Sarangkot viewpoint, which offers panoramic views of the Annapurna range and the Pokhara Valley.",
-      "Learn about the rich culture and traditions of Nepal through visits to local villages, museums, and temples, such as the Bindhyabasini Temple, Tal Barahi Temple, and the International Mountain Museum.",
-      "Experience the hospitality of the Nepalese people through homestays, local cuisine, and cultural performances, such as the traditional dance of the Gurung people.",
-      "Take a boat ride on Phewa Lake to enjoy the peaceful surroundings and scenic views of the Himalayas and the Pokhara Valley.",
-      "Enjoy the vibrant nightlife of Pokhara, with its bars, restaurants, and live music performances.",
-      "Visit the World Peace Pagoda, a beautiful Buddhist stupa situated on a hilltop overlooking the Phewa Lake and the Annapurna Range. The Pagoda is a symbol of peace and tranquility and offers a serene environment for meditation and reflection.",
-    ],
-    facilities: [
-      "Free International Airport Pickup and Drop off facilities",
-      "Green Valley Nepal Trek T-Shirt and Duffle Bag",
-      "Medical Kits might be necessary in Certain Cases",
-      "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
-      "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
-      "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
-    ],
-    itinerary: [
+    equipment: [
       {
-        day: 1,
-        description:
-          "Phewa Lake, Barahi Temple, Davis Falls, Gupteshwor Cave, and World Peace Pagoda To Kathmandu",
-        details:
-          "Phewa Lake is the second largest in Nepal and stands as the center of attraction in Pokhara. It is the most enchanting of the three lakes of Pokhara. You can sail or row a hired boat across the water or visit the island temple Barahi in its middle. The eastern shore, popularly known as lakeside, is the favorite among travelers. This is where most of the hotels, restaurants, and handicraft shops are located.     Built-in the center of Phewa Lake, the Barahi temple is the most important monument in Pokhara. This two-storied structure is dedicated to the boar manifestation of Ajima, the protester's deity representing the female force Shakti. Devotees can be seen, especially on Saturdays, carrying male animals and fowl across the lake to be sacrificed to the deity.        Davis Falls, also known as Devi's Fall, is a popular tourist attraction located in Pokhara, Nepal. It is a unique waterfall that flows into an underground tunnel and disappears, creating a mysterious and intriguing experience for visitors. The waterfall was named after a Swiss couple who tragically died in the area in the 1960s. The water flow is particularly strong during monsoon season, and visitors can also enjoy the beautiful garden surrounding the falls. Davis Falls is a must-visit attraction for anyone exploring Pokhara Valley.       Gupteshwor Cave is a natural wonder located in Pokhara, Nepal. It is a limestone cave that boasts intricate rock formations, underground waterfalls, and serene meditation chambers. The cave is dedicated to Lord Shiva, and visitors can see a large Shiva lingam as they enter the cave. The highlight of the cave is the majestic waterfall that cascades down into a small pool, creating a magical atmosphere. The Gupteshwor Cave is a unique and mystical experience that should not be missed by anyone visiting Pokhara Valley.         This pagoda is situated on the top of a hill on the southern shore of Phewa Lake. It has four images of Buddha facing in four directions. The pagoda is an impressive sight and its hilltop location commands a great view. It is a great vantage point, which offers spectacular views of the Annapurna range and Pokhara city. ",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 2,
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
         description:
-          "Take Tourists Delux Phewa Lake, Barahi Temple, Davis Falls, Gupteshwor Cave, and World Peace Pagoda from Kathmandu to Pokhara",
-        details:
-          "Sarangkot is a popular hill station located in the Pokhara Valley of Nepal. It offers stunning panoramic views of the Himalayan range, including the Annapurna range and Mount Machhapuchhre. The hilltop is particularly famous for its sunrise and sunset views, which attract thousands of visitors every year. Paragliding is another popular activity that can be enjoyed from Sarangkot, with visitors being able to soar over the valley and take in the breathtaking views. The hill station is also home to several tea houses, restaurants, and souvenir shops. A trip to Sarangkot is an essential part of any Pokhara Valley tour and a must-visit destination for adventure seekers and nature lovers alike.     This is one of the oldest temples in Pokhara. It is said that when Pokhara was a part of the Kaski Kingdom, the main deity of the temple, Goddess Durga, was brought from India. Apart from the peace and tranquility that can be felt in this region, the premises of the temple offers a good view of the Himalayas on a clear day. The temple is in the area of the Bazaar; hence, a journey of the old bazaar can be combined with a visit to the temple.      Pokhara's traditional bazaar is colorful and so are its ethnically diverse traders. In its temples and monuments, you can see ties to the Newar architecture of the Kathmandu Valley. Located about four kilometers from Lakeside, the market's original charm is still alive and well. This area strewn with shops selling commodities ranging from edibles and cloth to cosmetics and gold is a pleasant and shady spot to stroll around.     The old bazaar is also home to one of Pokhara's most important shrines. Locally called the Bindabasini Mandir, this white dome-like structure dominates a spacious stone-paved courtyard built atop a shady hillock. It is dedicated to Goddess Bhagwati, yet another manifestation of Shakti. The park-like ground offers a fine picnic area, and on Saturdays and Tuesdays when devotees flock there to offer sacrifices, it takes on a festive flavor.      The Pokhara Museum, located between the bus stop and Mahendra Pul, reflects the ethnic mosaic of western Nepal. The lifestyles and history of ethnic groups such as Gurungs, Thakalis, and Tharus are attractively displayed through models, photographs, and artifacts. One major attraction on display is a model highlighting the newly-discovered remains of an 8000-year-old settlement in Mustang. The museum is open daily, except on Tuesdays and holidays, from 10 am to 5 pm.    The Annapurna Regional Museum, also known as the Natural History Museum, is another interesting visit to Pokhara. Run by the Annapurna Conservation Area Project (ACAP), the museum has an exceptional collection of butterflies, insects, birds, and models of wildlife found in the area. Located at Prithvi Narayan Campus east of the old bazaar, it is open daily except Saturdays and holidays from 9 am to 5 pm.    Seti Gandaki’s elusive depth makes it an attraction to most visitors. Flowing right through the city, the river runs completely underground at places. Amazingly, at certain points, the river appears hardly two meters wide. But its depth is quite beyond imagination (over 20 meters). Mahendra Pul, a small bridge near the old Mission Hospital, provides a perfect view of the river's dreadful rush and the deep gorge made by its powerful flow.    Another of nature's wonders in Pokhara is the Mahendra Gupha. This large limestone cave is locally known as the House of Bats. The cave is a two-hour walk to the north of Pokhara. It is best to bring your own torch to see the stalactites and stalagmites, as well as the bats residing in the cave.",
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparing for the Pokhara Trip Package is an essential step to ensure that you have a comfortable, safe, and enjoyable journey. Here are some tips to help you prepare for your trip:",
-      ],
-      points: [
-        "Before your trip, research the Pokhara Valley region to familiarize yourself with its geography, weather, and culture. This will help you pack accordingly and be prepared for any cultural differences you may encounter.",
-        "Decide which activities you want to participate in and plan your itinerary accordingly. Consider the time of year, the duration of your trip, and your fitness level when planning your itinerary.",
-        "Pack comfortable, weather-appropriate clothing, sturdy footwear, and any necessary gear for your chosen activities. Consider packing a first-aid kit, insect repellent, and sunscreen to ensure that you are prepared for any situation.",
-        "Purchase travel insurance before your trip to ensure that you are covered in case of any unexpected emergencies or incidents.",
-        "Check with your healthcare provider to ensure that you are up-to-date on any necessary vaccinations or health precautions for travel to Nepal.",
-        "Exchange your currency for Nepali rupees before your trip or withdraw cash from ATMs in Nepal. Make sure to carry enough cash for your trip, as credit cards may not be accepted in all locations.",
-        "Research the local customs and traditions before your trip to ensure that you are respectful of the local culture. Dress modestly, remove your shoes when entering temples or homes, and ask permission before taking photographs.",
-        "Be aware of your surroundings and take necessary safety precautions to ensure that you stay safe during your journey. Avoid walking alone at night, carry a copy of your passport and other important documents, and be cautious when using public transportation.",
-      ],
+  about: [],
+  highlights: [
+    " Spectacular mountain trip to one of the world’s most prominent air routes with breathtaking scenery.",
+    "Sunrise views from Kala Patthar with Mt Everest, Pumari, Nuptse, Lhotse, and many more",
+    "Throughout your 12-day expedition, you will learn about the Sherpa culture, traditions, and way of life.",
+    "Ascend the High Suspension Bridges and admire the view of dangling prayer flags on wheels.",
+    " Stunning views of Everest, Lhotse, Nuptse, Ama-Dablam, Island Peak, and other peaks on way to Everest Base Camp",
+    " Mesmerizing views of Khumbu Icefall and glacier",
+    "Feel the spirituality of Buddhist monasteries in Namche, Khumjung, Tengboche, and Pangboche",
+    "Ascend to the world's highest peak base camp and enjoy the breathtaking views.",
+    "A short hike to Kalapathar will allow you to see Mount Everest and the sunlight across the Himalayan range of Everest.",
+    "Trekking with a knowledgeable and courteous local guide while discovering Nepal.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) and Trek to Phakding (2610m)",
+      details:
+        "We will drop you off at the domestic terminal of Kathmandu Airport after breakfast to catch a scheduled morning flight to Lukla. You will arrive at the Tenzing-Hillary Airport in Lukla after a thrilling 30-minute scenic flight above the stunning green and white Himalayas. Then, following some packing procedures, you will meet our porters and other crew members and begin Everest Base Camp Budget Trekking. You will arrive at Phakding after around 4 hours of walking. To aid in appropriate acclimatization, you just have a short hike today. You may, however, take a side excursion to a neighboring monastery (Rimishung Monastery and Pemacholing Monastery) if you're interested.",
     },
-    path: ["/images/abc-road-img.jpg"],
+    {
+      day: 2,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+      details:
+        "You will leave Phakding after breakfast and go to Namche Bazaar, a small mountain town. Smaller villages such as Jorsale and Monjo are passed through on the way to Namche. Monjo is the gateway to the Sagarmatha National Park, located north of Phakding. The pathways go to Namche and then into the national park. The alpine woodlands, small rivers, and deep forests of Sagarmatha National Park all have their own inherent value. A pleasant walking atmosphere is provided by the vast farmland of Pine and Cedar. Namche Bazaar is the commercial hub of the Khumbu area due to its strategic location. It is located on a mountaintop and offers spectacular views of Thamserku and Kongdi RI.",
+    },
+    {
+      day: 3,
+      description: "Acclimatization and Rest Day in Namche Bazar (3440m)",
+
+      details:
+        "During Everest Base Camp Budget Trek, Namche is an excellent location for acclimatization. It is the Khumbu Region's primary hub, with several government offices, Internet cafes, ATMs, restaurants, shops, and other services.  Instead of sitting inactive on rest days, health experts recommend that you must be active and moving. So you can climb to Thamo or Khunde for the day. From the Everest View Hotel in Syangbuche, you will climb up to Khumjung village. Our guides will lead you to the Sagarmatha National Park Tourist Visitor Center, where you may learn about the First Everest Climbers and Sherpa Culture. In addition, you will learn about the Everest Region's vegetation and animals.",
+    },
+    {
+      day: 4,
+      description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
+      details:
+        "The Dudh Koshi Valley, at the arrangement of Phungki Thanka, is the starting point for a convenient hike from Namche. You will be able to enjoy a spectacular view of Mount Everest from this location. The settlement of Tengboche may be reached by following the trail that follows the exact side of the Dudh Koshi River. The Everest Base Camp Budget Trek start from Namche to Tengboche offering a stunning natural picture of rivers, hills, and Himalayan peaks. Tengboche is located at the confluence of the Dudh Koshi and Imja Khola rivers. The community is surrounded by towering hills covered in rhododendron plants. Tengboche Monastery, the Khumbu region's most important monastery, is also located here.",
+    },
+    {
+      day: 5,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "After breakfast, your budget trek to Everest Base Camp will continue and passes via Deboche, Pangboche, and Shomare villages. Your delightful and gentle adventure continues through the rhododendron forest, passing the Imja Khola Bridge and ascending to Pangboche over Mani stones decorated with Tibetan Buddhist blessings. To go to Dingboche, you will go across summer farmland, which is enclosed by a 1 km long wall to protect the village's crops from the chilly Imja Valley wind. From Dingboche, you can see amazing views of Mt. Lhotse, Ama Dablam, and Island Peak.",
+    },
+    {
+      day: 6,
+      description: "Acclimatization Day in Dingboche (4410m) ",
+      details:
+        "Dingboche is another excellent place to acclimate on your Budget-friendly Everest Base Camp journey. You can go to the Nagarjuna peak or Chhukung Ri on this trekking day to add more excitement. The vista from the top of Nagarjun Peak is breathtaking, with views of Lobuche East, Kangtega, Ama Dablam, Lobuche West, Thamserku, Taboche Peak, and other peaks. You may snap wonderful images of the scene after visiting the lovely place. You will return to Dingboche to learn more about the surrounding communities. There is the opportunity to learn about the cultural customs and legacy of the local community. Finally, you will spend the evening at the same tea house that you spent earlier in Dingboche.",
+    },
+    {
+      day: 7,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
+      details:
+        "Today’s Budget-friendly Everest Base Camp Trekking will begin by ascending through the Khumbu Khola valley to Dughla. The valley narrows as you approach Dusa, passing via Phalung Kharka on your way. Enjoy Chola Lake and a magnificent view of Mt. Pumori (7,138m) as the route descends and twists to a roaring stream. The route leads to Dughla after passing a carved wooden bridge. From here, you will ascend the Khumbu Glacier's precipitous terminus, which has tributes to Sherpas who died on Mt. Everest's glacier. Khumbutse, Lingtren, Pumori, and Mahalangur Himal are some of the other notable peaks.",
+    },
+    {
+      day: 8,
+      description:
+        ":Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
+      details:
+        "To get to Gorakshep, you will start your Everest Base Camp journey early in the morning with a magnificent view of the world's highest glacier, the Khumbu Glacier. To avoid altitude sickness, you must begin your excursion slowly. You will get in Gorak Shep, a pleasant location with a few hotels, after walking for several hours from Lobuche. From here, you will climb to Everest Base Camp, your final destination according to Budget Friendly Everest Base Camp Trekking Itinerary. Khumbu Icefall, Lingtren (6,749m), Khumbutse (6,665m), and many more Himalayan peaks will be visible from Everest Base Camp. We will return to Gorak Shep, where we will spend the night, after taking in the heavenly splendor of Himalayan nature.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m) ",
+      details:
+        "Today you will rise early and ascend for 2 hours to reach Kalapathar, which is located at the base of Mt. Pumori. In Everest Budget Trekking, Kalapatthar is regarded as one of the best panoramas. Mt. Everest, Nuptse, Lola, Khumbutse, Ama Table, Tabuchi, Cholatse, Thamserku, and many more peaks can all be seen from Kalapathar, with magnificent views of Everest Base Camp and the Khumbu Glacier. You will return to Gorak Shep after spending time at Kala Patthar, have breakfast, and then continue walking across the Khumbu glacier moraine, passing past Lobuche, Dughla, Pheriche, Orsho, and Shomare before descending to Pangboche.",
+    },
+    {
+      day: 10,
+      description: "Trek from Pangboche (3930m) to Monjo (2835m) ",
+      details:
+        "Today Everest Base Camp Budget Trek route will descend to the riverbed from Pangboche, passes the Imja Khola Bridge, and then continues to Tengboche. After a steep descent from Tengboche, the Dudh Koshi River is reached. On our trip to Phungi Thanga, we cross the Dudh Koshi River on a suspension bridge. We proceed through the villages of Tashinga and Sanasa on our way to Namche Bazaar. Then, to go to Monjo, take the scenic route by the Larja Dobhan. You may visit attractions like Chhumowa, Tawa, Jorsale, and Uche Chholing Monastery in Monjo.",
+    },
+    {
+      day: 11,
+      description: "Trek from Monjo (2835m) to Lukla (2840m)",
+      details:
+        "This is the final trekking day of your Budget Friendly Everest Base Camp Trekking Itinerary; the path has sharply descended Monjo. As a result, you must go slowly and carefully as your unsteady legs battle the uneven terrain. You will arrive at Phakding after passing through beautiful pine and rhododendron trees. To get to Lukla, your ultimate destination, you will need to pass through magnificent places named Sano Gumelha, Chhuthawa, Nurining, Thado Koshigaon, and Chheplung.",
+    },
+    {
+      day: 12,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m)",
+      details:
+        "The Mountain Flight from Lukla to Kathmandu is once again admired on this day. You may go shopping and have a stroll around Kathmandu after you arrive. The purpose of this evening is to celebrate the successful completion of the Everest Base Camp Budget trip.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Improved aerobic and physical endurance, as well as comfort carrying a daypack upwards for lengthy periods, should all be part of your Everest Base Camp training. You should start hiking or taking long walks at least 8 to 12 weeks before your adventure. To be able to trek or walk for 5 to 6 hours without taking many breaks, you should gradually improve your endurance. If your location lacks a lot of hills or mountains, walk hill intervals on a treadmill and stair stepper twice a week. The majority of individuals will also get an advantage from twice-weekly full-body strength training sessions. Before doing a physically demanding activity like trekking to Mount Everest Base Camp, you should always see your doctor. Before beginning any exercise program, you should also speak with your doctor.It shouldn't be too stressful to prepare yourself both physically and mentally for your expedition to Everest Base Camp. You don't have to be a marathon runner or a star athlete to make the journey but don't undervalue it either. Howev",
+    ],
+    points: [],
   },
-
-  /////////////////////////////////////////////////////////////////////////Add More/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-  ///Drop Down Trekking in Nepal
-
-  /////////////////////////////////////////////////////////////////////////Annapurna Region Trekking/////////////////////////////////////////////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////////Mardi Himal Trek - 9 Days/////////////////////////////////////////////////////////////////////////////////////////
-
-  mardi_himal_trek: {
-    about: [
-      "A new route that was launched in 2012 is the 9 days Mardi Himal Trek. This journey, which enters the Annapurna Sanctuary Area, is becoming more and more well-known. The Mardi Himal Trek, though less well-known than the Annapurna Circuit Trek and the Annapurna base Camp Trek, offers breathtaking views of the Mardi Himal (5,587m), as well as snow-capped peaks like Annapurna I (8,091m), Annapurna South (7,219m), Machhapuchre (6,997m), and Gangapurna Himal (7,454m), making the trek well worth the money.",
-      "You will travel through winding roads in a dense rhododendron forest with Mardi Himal Trekking. The scenery will change into high mountains as you continue to climb, providing a stunning vista of Machhapuchhare, popularly known as Fishtail. The forests you go through typically have a variety of trees, bamboo, and chirping plants. The greatest method for avoiding crowds is to do this Mardi Base Camp Trek. You may view a variety of wild animals, like Himalayan Thar, long-tailed langurs, and birds like Danphe, Kalij, and Monal, on this trip through the forests.",
-      "The Mardi Himal Trek is the only trip in Nepal that takes you quickly to an altitude of at least 4,000 meters. With more alternatives for lunch and dinner as well as lodging, the expanding number of tea houses along the trail has made this short journey simpler for individuals of all fitness levels. Mardi Himal Trekking is a hidden gem that allows hikers to take in stunning mountain views, come face-to-face with wildlife in lush woods, and cross rivers and hills all in one trip. Follow the narrow, winding roads through the jungle until you emerge from it to see the magnificent vistas of the Mardi Himal, Annapurna South, and Machhapuchre from the Badal Danda.",
-      "The Mardi Himal Trek Itinerary begins in Kathmandu, where you may explore the city's most important world heritage sites before flying to Pokhara. Kande, where your major trekking experience will begin, is only a short drive from Pokhara. You will ascend from Kande to Australian Camp, then Pothana, to arrive at Pitam Durali, where you will spend the night. The next day your Mardi Trek Journey will then begin from Pitam Durali toward Low Camp, passing via Forest Camp, and Rest Camp. You will spend the night at Low Camp. You will arrive at High Camp the next day. You will hike down to Siding from Mardi Himal Base Camp after setting off from High Camp in the morning. You will ride a shared jeep to Pokhara from Siding, which will conclude your Mardi Himal Trek in Annapurna Region. You will get the chance to boat on Phewa Lake and discover wonderful locations in Pokhara. Your great Mardi Himal trekking journey will then come to a conclusion as you ride a tourist bus back to Kathmandu.",
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////////Everest High Passes Trek Clockwise - 18 Days///////////////////////////////////////////////////////////////
+everest_high_passes_trek_clockwise_18_days: {
+  id: 18,
+    slug: "everest_high_passes_trek_clockwise_18_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "18 Days Everest High Passes Trek Clockwise guided by the professionals",
+    title: "Everest High Passes Trek Clockwise - 18 Days",
+    location: "Solukhumbu",
+    days: "18 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
     ],
-    highlights: [
-      "Visit the Kathmandu valley's ancient landmarks, including as Pashupatinath Temple, Boudhanath Stupa, Swayambhunath, Patan Durbar Square, and Bhaktapur Durbar Square.",
-      "Less crowded trekking trail in Nepal",
-      "Trekking in a green atmosphere via a rhododendron forest",
-      "The Mardi Himal Trek Route is surrounded by lush scenery, wildlife, fauna, and terraced farms.",
-      "Trek to Mardi Himal's base to take in the breathtaking panorama of the snowy Himalayan Mountains.",
-      "Fantastic views of Mount Dhauglagiri, Mount Annapurna (II, III, IV, and South), Mount Hiunchuli, Mount Machhapuchhare, and more.",
-      "Discover about the people' lifestyles, culture, and traditions by visiting the settlement of Siding.",
-      "Amazing view of snow-capped mountains including Dhaulagiri, Machhapuchhre, and Annapurna from Sarangkot, Pokhara.",
-      "Enjoy boating on Fewa Lake's tranquil waters.",
-      "Visit the historic sites on the way to the Bindabasini temple.",
-    ],
-    facilities: [
-      "Free pick-up and drop-off service from/to the international airport",
-      "T-shirt and duffel bag from Create Himalayan Adventure",
-      "Free Mardi Himal Trek Map",
-      "Medical kits could be required in several circumstances",
-      "Free Extra Luggage Storage During the Trek at Create Himalayan Adventure Store",
-    ],
-    itinerary: [
+    overView: {
+      duration:
+        "A full 18 days 17 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
       {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "Our airport representative will meet you at Tribhuwan International Airport. He will drive you to the hotel in a private car and assist you to check in. You can take a rest after a long travel or go out of your hotel and explore some of the lovely places of Kathmandu city. You will meet your guide during the Mardi Himal Trek briefing that will take place in the evening. The hike's information and any missing equipment will be provided by the guide.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 2,
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
         description:
-          "Take Tourist Deluxe Bus from Kathmandu (1400m) to Pokhara (822m)",
-        details:
-          "After breakfast in the hotel, you will take a tourist bus to start your Mardi Himal Trek, which might take 8 to 9 hours to reach Pokhara. On the way, you can see the picturesque Trishuli and Marsyangdi rivers along the green Rocky Mountains, rivers connecting each other, and small springs. Pokhara is a beautiful valley known for several lakes such as Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. We can also get a glimpse of Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal from Pokhara Valley.",
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
-      {
-        day: 3,
-        description: "Dive Pokhara to Kande - Trek from Pitam Deurali (2142m)",
+    ],
+  about: [],
+  highlights: [
+    "Scenic flight from Kathmandu to Lukla",
+    "Kongma La (5535m), Cho La (5420m), and Renjo La (5464m) provide awesome perspectives of the Himalayas",
+    "Gokyo Valley's five frozen lakes with a stunning view of Gokyo Ri",
+    "Exciting and most challenging experience ever, while crossing Everest high passes clockwise",
+    "Gain an intimate understanding of the Sherpa culture in the Himalayas.",
+    "Best views of Mount Everest along with Khumbu glacier (4900 meters) from Kalapatthar (5545 meters)",
+    "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
+    "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
+    "Get an opportunity to visit UNESCO World Heritage Sites along with ancient monastery",
+    "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Free Mount Everest Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m) ",
+      details:
+        "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. When you are ready to know more about the trip planning details for the Everest High Passes Clockwise Trek, you may come to our office for a pre-trip meeting.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then trek to Phakding (2610m) ",
+      details:
+        "Your Everest High Passes Trek in Clockwise adventure will start early in the morning after you catch a 45-minute scenic flight to Lukla. You will be in wonder at the magnificent mountain ranges when you fly above them. Our experienced Sherpa team will meet you at Tenzing-Hillary Airport and begin the trip to Phakding. Following the Dudh Koshi on its east side will take you to Phakding once you descend the Kusum River. Since your body requires time to get used to the thin air, moving slowly will be the most crucial thing to remember. You will arrive in Phakding after a short excursion, and you will spend the night in a local Sherpa-run teahouse.",
+    },
+    {
+      day: 3,
+      description: ":Trek from Phakding (2610m) to Namche Bazaar (3440m)",
 
-        details:
-          "After Breakfast in the hotel, you arrange private vehicle oo reach Kande, the beginning site of the Mardi Base Camp Trekking, you will depart from Pokhara with our guide. You will climb up from Kande to Australian Camp, then Pothana through a rhododendron forest, and finally Pitam Deurali. You are welcomed by magnificent vistas of the Annapurna peaks as you pass via ethnic Brahmin, Magar, and Gurung communities. For viewing the Pokhara valley and the Annapurna range, Pitam Deurali is the ideal vantage point. Once you've checked in, spend the night at a hotel to relax and acclimatize before the next day's hike.",
+      details:
+        "You will pass through gorgeous Sherpa communities like Bengkar, Monjo, and Jorsale on the way to Namche. The road from Phakding to Namche has a number of slopes in both directions. The fresh air, stunning views, and the desire to reach the summit will encourage you even though it could be quite exhausting. As you cross the Dudh Koshi River at Bengkar, you will get to see vistas of snow-capped mountains including Kusum Kanguru, Thamserku, and other summits. After passing through a few villages, you will come to the checkpoint at the entrance to Sagarmatha National Park, where your permits for the Clockwise Everest High Passes Trek will be examined. Next, move upstream along the bank until you reach the junction of the Dudh Koshi and Bhote Koshi rivers. By climbing one of the suspension bridges above the river, you may get to Namche Bazaar. From Namche Bazaar, you can see the Everest, Lhotse, Nuptse, Ama Dablam, and Taweche peaks in all their magnificence.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m) ",
+      details:
+        "Today is a day of relaxation and acclimatization for the Clockwise Everest High Passes Trek in Namche. Namche Bazaar, in the Khumbu region, is a busy town. There are several different amenities including ATMs, Internet cafes, restaurants, and bakeries. You may quickly go to a viewpoint in the vicinity, such as Thame or Khunde, and then take a tour of the neighborhood, including the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa people, and their traditions. A trek can also get you to the Everest View Hotel. From here, you may get a close-up view of numerous mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many more. You will return to Namche for the evening after exploring the area for a while. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Thame (3820m) ",
+      details:
+        "As you go toward Thame today, following Bhote Koshi, you will pass through woods of rhododendron and pine. Namche Bazaar will be your starting point. The mud-plastered stupa at Phurte is another sight you will get to visit along the trip. The next stop on your Everest High Passes Clockwise Trek is Thamo and Thamo Gompa. From here, the trail descends sharply to Khumbu Hydroelectric Plant before ending in Thame, which is located at the mouth of Khumbu Valley. Peaks such as Teng Kangpoche and Kwangde may be viewed in breathtaking detail from Thame. Additionally, Nangpa La Pass, which leads to Tibet, is visible towards the north. Thame has a distinguished history of mountain climbers, from the late Tenzing Norgay, who made the first ascent of Mount Everest, to Appa Sherpa, who scaled the summit 21 times.",
+    },
+    {
+      day: 6,
+      description: "Trek from Thame (3820m) to Marulung (4210m)",
+      details:
+        "Your clockwise Everest high passes trek starts today from Thame and travels north to Marulung. You will trek towards the first pass of the trip in the morning after seeing the monastery in Thame. The picturesque villages of Thambuteng, Hungmo, and Taranga are located along the path that leads to the Marulung hamlet above the Bhote Kosi River. You will travel through a wilderness area after passing through a number of villages, yak grazing fields, and sparsely vegetated landscapes before arriving at Marlung.",
+    },
+    {
+      day: 7,
+      description: "Trek from Marulung (4210m) to Lumde (4368m) ",
+      details:
+        "Today's Everest Clockwise High Passes Trek continues to Lumde, which is close to an ancient route used for trading salt between Tibet and Khumbu. There will be a diversion on your way from the northeastern Tibet border road. Before reaching Lumde, you will cross a few authentic and ancient Himalayan settlements that blend into the surroundings almost subtly. To get to Lumde, you must climb all the way up. Throughout the climb, you will get fantastic views of the enormous Himalayan range all the way to Renjo La Pass, as well as the stunning vistas of Kyajo Ri. For a few more hours of walking, you will get to Lumde, a little settlement with stunning views of the high snow mountains all around.",
+    },
+    {
+      day: 8,
+      description:
+        "Trek from Lumde (4368m) to Gokyo (4790m) via Renjo La Pass (5360m)",
+      details:
+        "As you will be going across the first pass along the route, Renjo La Pass, it will be one of your most thrilling days. The hike begins easily but quickly becomes difficult as you get closer to the top of Renjo La. Lumde will be left behind as you continue your Everest High Passes Trek clockwise toward the Gokyo Lakes area. You may see a variety of human activities, including yak herding, depending on the season. The spectacular vistas of lofty peaks like Everest, Lhotse, Makalu, and Cho Oyu will be seen once you pass through the Renjo La Pass. You will descend to Dudh Pokhari, the third lake in the Gokyo valley, after crossing the pass, and then you will reach the settlement of Gokyo, which is situated next to the lake. After taking a short break, you may even ascend the ridge to see the world's highest freshwater lake system and some stunning views of the lakes.",
+    },
+    {
+      day: 9,
+      description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
+      details:
+        "You will trek up to Gokyo Ri early in the morning for a breathtaking glimpse of the dawn. The views of Mount Everest and the surrounding Himalayan landscape are spectacular from the summit. You will go down to Gokyo for breakfast after having a terrific day up on Gokyo Ri. Everest High Passes Trek in clockwise orientation on the rocky slopes is strenuous. The lateral moraine is present at the other end of the glacier, where a lovely frozen lake serves as a landmark. Going up the scree slope of the moraine on a level area between the moraine and the mountain wall will take you to Thangnag if you continue along the route above the lake. After a few hours of walking past the second lake and along the moraines of the Ngozumba Glacier, you will arrive in Thangnag, where you will spend the night. This location is peaceful and ideal for crossing the Cho-La high pass.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Dragnag (4750m) to Dzongla (4830m) via Cho La Pass (5420m)",
+      details:
+        "The Cho La Pass, which is the second high pass on Everest High Passes Clockwise Trek, will be crossed today. Although the pass is not very challenging to trek, it is steep and requires a glacier traverse on the eastern side. The terrain is treacherous and has frozen rocks that make it difficult for hikers to go. From Phedi, your route will continue to ascent in a constrained and rocky valley. The view grows more and more appealing as you rise. When you reach the top of the Cho La pass, which is decorated with prayer flags, you will travel beside the frozen lake. During the journey over the Pass, you will get views of prominent peaks such as Kyajo Ri, Tengkangpoche, Numbur, Kangchung, etc. After crossing through Cho La Pass, the path descends sharply towards Dzongla, crossing via pine trees and crevasses. You can see Lobuche, Mt. Cholatse, Mt. Ama Dablam, and the Pheriche settlement in the distance from Dzongla from a wide-angle perspective. You will reach Dzongla after a little more trek.",
+    },
+    {
+      day: 11,
+      description: "Trek from Dzongla (4830m) to Gorakshep (5140m) ",
+      details:
+        "After a delicious breakfast, you will resume the Everest High Passes Trek Clockwise the next morning. Gorakshep is the destination for today. The moraine will be followed as you begin the day's descent near Chola Lake. The three passes path and the main Everest Base Camp trail will soon intersect. From the intersection, go north across a fragile moraine to Lobuche. You will pass several monuments honoring the climbers killed in this region while climbing Mount Everest. Following the Imja Khola Valley routes will provide a really delightful trip to Lobuche. Continue down the winding path that runs between the mountainside and the Khumbu Glacier's glacier moraine as you go past the Italian Pyramid and approach the Changri Glacier's terminal moraine. To get to Gorak Shep, which is at the base of Kala Patthar, you must cross the Changri Glacier's moraine on foot. Gorak Shep will let you admire the splendor of Pumori, Lingtren, Khumbutse, and Changtse. You will settle at the lodge in Gorak Shep and have the rest of the time to relax there.",
+    },
+    {
+      day: 12,
+      description:
+        "Trek from Gorakshep (5140m) to Everest Base Camp (5364m) then Descend to Lobuche (4910m) ",
+      details:
+        "The highest point on Earth, Mount Everest's base camp, is where you'll climb today. The walk starts after a delicious breakfast in Gorakshep. You will first use the trail that follows the Khumbu Glacier's moraine to get back to it from Gorak Shep. To get to the base camp of Mount Everest, which is situated below the Khumbu Icefall, you will have to go over rocky terrain, tough routes, and the smoky air of the mountains. A moving prayer flag denotes the location of Mount Everest's base camp. You may make use of your free time before returning to Gorakshep to take photographs and soak in the beauty as you celebrate accomplishing the highest point of Everest High Passes Trek clockwise. Following the same route that you took to trek to Everest Base Camp, you will return to Gorakshep and then to Lobuche.",
+    },
+    {
+      day: 13,
+      description:
+        "Trek from Lobuche (4910m) to Chhukung (4730m) via Kongma La Pass (5535m)",
+      details:
+        "You will travel via the third and tallest pass of the clockwise Everest High Passes Trek, Kongma La Pass, today. Of the three passes, this one is regarded as the most challenging. Starting in Lobuche, the trip concludes at Chhukung. Your ascent to Kongma La Pass is easy since the trail is lined with frozen lakes. A crane wrapped in a mummy denotes this pass. You can view Lhotse, Lhotse Shar, Makalu, Baruntse, and Ama Dablam from the pass. From the Kongma La pass, you will descend to the eastern side of the Nigyang Khola Valley and enter Chhukhung Village. There is no permanent dwelling here; instead, Sherpas utilize it as a yak pasture. In recent years, this area has become more well-known as a hiking peak, and trekkers frequently visit Chhukhung for acclimatization. You are welcomed by Chhukhung with a breathtaking vista of Island Peak and Amphu Lapcha. You will arrive at the resort in Chhukung before dusk.",
+    },
+    {
+      day: 14,
+      description: "Trek from Chhukung (4730m) to Tengboche (3860m)",
+      details:
+        "The trek continues from Chhukung after breakfast in the direction of Chubejung Kharka, where it rejoins the Everest High Passes Clockwise Trekking path after passing Bibre. Keeping along the Imja River's route, you will now proceed to Dingboche. The route leaves Dingboche by taking a turnoff to Pheriche and descends the valley to Orsho. To get to Somare, climb down from Orsho along the west bank of the Imja Khola. Following Pangboche, you will climb to Deboche by way of the monastery and a steep descent. You will now continue on a moderately climbing track through the forest to Tengboche. As soon as you arrive at Tengboche, you will check into the lodge. The rest of the day will be spent touring the stunning Tengboche Monastery and taking in the stunning views of Tawache, Everest, Nuptse, Lhotse, Ama Dablam, and Thamserku. Before dusk, you'll head back to the lodge.",
+    },
+    {
+      day: 15,
+      description: "Trek from Tengboche (3860m) to Monjo (2835m)",
+      details:
+        "Today you will go back down the Dudh Koshi River via stunning waterfalls and a wonderful rhododendron woodland. The trip passes through a pine forest, where musk deer frequently feed early in the morning, just before you arrive in Namche. You could encounter Tibetans, highland Sherpas, and lowland porters when you arrive at Namche. Before you get to Larja Dobhan, you could have one more chance to glimpse Mount Everest and Lhotse. The path descends to Larja Dobhan from Namche via pine trees. After passing under the bridge at Larja Dobhan, the route briefly declines before continuing along the Dudh Koshi River. Recross the Dudh Koshi and go on a flat path to Jorsale. The Clockwise Everest High Passes Trekking path ascends a little after crossing the suspension bridge again beyond Jorsale and then climbs steeply for a short distance to Monjo.",
+    },
+    {
+      day: 16,
+      description: "Trek from Monjo (2835m) to Lukla (2840m) ",
+      details:
+        "The route descends from Monjo for a bit before crossing the Dudh Koshi on a suspension bridge and continuing for a short distance to Benkar. Following Benker, the route makes a few uphill and downhill turns in the Dudh Koshi valley to bring you to Phakding. After Phakding, the trail continues to travel for a short and sharp ascend, passing various Buddhist setups in Ghat village. Following a brief steep ascend to the Thado Koshi and a brief descent, you will cross the last lengthy suspension bridge of your Everest High Passes Clockwise Trek before climbing a short distance upward. After crossing the lengthy suspension bridge, the track goes upward till Chablung before diverging in the direction of Lukla. From there, the route continues through a scrub forest above the school and homes in the settlement of Chauri Kharka before making the final ascent of your walk, which takes around 30 minutes, to reach Lukla.",
+    },
+    {
+      day: 17,
+      description: "Flight Back from Lukla (2840m) to Kathmandu (1400m)",
+      details:
+        "It's time to say goodbye to Nepal's Khumbu area. Your bags will be transported to the airport by Sherpas, and the guides will handle additional airport formalities. In the meantime, you may savor your final meal in Nepal's Khumbu Region. You will immediately board the airplane and take off for your return flight to Kathmandu once it has arrived. You will be transported to your accommodation in Kathmandu from the airport. You may make the most of your remaining time on the Everest High Passes Trek Clockwise by visiting Kathmandu's well-known marketplaces. You will gather for the goodbye meal in the evening, during which you will also talk about the trip and the feedback.",
+    },
+    {
+      day: 18,
+      description: "Final Departure",
+      details:
+        "Your Everest High Passes Trek on the clockwise route ends today. When your flight is scheduled to depart, one of our business employees will help you go to the airport. Green Valley Nepal Treks, however, can make the necessary preparations if you want to prolong your vacation. You can also go shopping to get a few presents for your friends and family if your flight is planned for a late evening",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "It is essential to consider both your physical and mental well-being before starting the Everest High Passes Trek in Clockwise Direction. If you have never gone trekking before, you must start by cycling or running and taking morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the Clockwise Everest High Passes Trek. Everest Base Camp, which is located at 5364 meters above sea level, is the trail's highest point. The path through terraced fields, and Sherpa villages, and has several ascents and descents. You must therefore be in excellent physical shape to walk for 5 to 6 hours every day. Trekkers also need to have a positive outlook because discomfort and worry are frequently caused by uncertainty. When you work with us to organize a vacation, we strongly advise that you speak with your doctor before you go about your respiratory condition and email us a copy of the report.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////////////////////////////////////////Gokyo Valley Circuit Trek - 13 Days//////////////////////////////////////////////////////////////////////////////////////////////
+gokyo_valley_circuit_trek_13_days: {
+  id: 19,
+    slug: "gokyo_valley_circuit_trek_13_days",
+    category: "Trekking",
+    img: "/images/Gokyo1.jpeg",
+    description: "13 Days Gokyo Valley Circuit Trek guided by the professionals",
+    title: "Gokyo Valley Circuit Trek - 13 Days",
+    location: "Solukhumbu",
+    days: "13 days",
+    people: "1-12",
+    subimages: [
+      "/images/Gokyo1.jpeg",
+      "/images/gokyo2.jpg",
+      "/images/gokyo3.jpg",
+      "/images/gokyo2.jpg",
+      "/images/gokyo3.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 13 days 12 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 4,
-        description: "Trek from Pitam Deurali (2142m) to Low Camp (3050m)",
-        details:
-          "You must go cautiously and slowly forward since your Mardi Himal Trek Route from Pitam Deurali will gradually climb in elevation. You will encounter more gorgeous greenery as you go to higher elevations. You will go along a trail that passes through rhododendron, birch, oak, maple, and hemlock forest. Wildlife such as leopards, deer, monkeys, and several bird species may be seen throughout your route. A steep crossing towards Annapurna South and views of Hiuchuli may be seen as you travel along the path and through the dense wood. After passing through Forest Camp (Kokar) and Rest Camp you will arrive at Low Camp, where you will be treated to a spectacular panorama of Fishtail Mountain.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        day: 5,
-        description: "Trek from Low Camp (3050m) to High Camp (3600m) ",
-        details:
-          "Your Mardi Himal Trek journey will begin from Low Camp and travel via Badal Danda to High Camp. You must ascend through a rhododendron forest for one hour to reach Badal Danda. Although the routes are challenging, you will be rewarded with stunning views of the Mardi Himal, Annapurna Range, and Machhapuchhre (fishtail mountain). The ridge gets thinner as you go up, and you can see the huge valleys on each side. You will be facing the Modi Khola river valley to your left, which is bordered by communities that rise up to the Annapurna Sanctuary. You can see the Mardi Khola and Seti river valleys to your right. You can even see the Pokhara Valley on clear days. To get to High Camp, you must keep trudging along the ridgeline. On your trip to the high camp, if you're lucky, you could get the chance to witness Daphne, the national bird of Nepal.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        day: 6,
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
         description:
-          "Trek from High Camp (3600m) to Mardi Base Camp (4500m) then Trek Down to Badal Danda (3250m) ",
-        details:
-          "In order to witness the sunrise over the mountains today, you will get up early. It will be the most memorable and challenging journey of your whole Mardi Himal Trek Itinerary today. Mardi Trek Route is more difficult than you may imagine because of a series of rapid ascents that you must accomplish on uneven and steep steps. To go to Mardi Himal Base Camp, will take you around 5 hours. At the elevation of 4500 meters, reaching the base camp while traversing a lush, green, High Mountain will make you feel extremely accomplished. You will also be captivated by the expansive panorama of the snow-capped mountain ranges of Mt. Machhapuchhre, Mardi Himal, Annapurna I (8,091m), Annapurna III (7,555m), and Gangapurna (7,455m). You will travel down to Badal Danda to enjoy the floating cloud that goes through you after capturing those amazing and delightful views in your heart.",
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Scenic flight from Kathmandu to Lukla and vice versa",
+    " Renjo La Pass (5360m) provides awesome perspectives of the Himalayas",
+    "Gokyo valley's five frozen lakes with a stunning view of Gokyo Ri",
+    "Exciting and challenging experience, during Gokyo Valley Circuit Trekking",
+    "Gokyo Ri with panoramic views of Cho Oyu, Everest, Lhotse, Makalu, Cholatse and Taboche, and Ngozumpa Glacier.",
+    "Witness yak and mountain goats grazing over the hills and mountains.",
+    " Gain an intimate understanding of the Sherpa culture in the Himalayas.",
+    "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
+    "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
+    "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
+    " Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Gokyo Valley Circuit Trek with Gokyo Ri",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m) ",
+      details:
+        "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. Whenever you are ready to know more about the Gokyo Valley Circuit Trek Itinerary, you are welcome to visit our office for a pre-trip meeting.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m) ",
+      details:
+        "Before starting your Gokyo Valley Trek adventure, you will take a 45-minute scenic flight to Lukla. You will fall in love with the gorgeous mountain ranges when you soar above them. A member of our knowledgeable Sherpa staff will greet you at Tenzing-Hillary Airport and begin the trip to Phakding. Following the Dudh Koshi on its eastern side will take you to Phakding once you have descended the Kusum River. The most crucial thing to remember is to move slowly since your body needs time to get used to the thin air. You will arrive in Phakding after a short trek, and you will spend the night at a teahouse managed by Sherpas.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "You will travel by incredible Sherpa communities like Bengkar, Monjo, and Jorsale on your way to Namche. The road between Phakding and Namche has a number of hills in both directions. As you cross the Dudh Koshi River at Bengkar, you will be able to see vistas of snow-capped mountains, including Kusum Kanguru, Thamserku, and other summits. After traveling via a few settlements, you will reach the checkpoint at the entrance to Sagarmatha National Park, where your permits for the Gokyo Valley Circuit Trek with Gokyo Ri will be examined. By climbing one of the suspension bridges above the river, you may get to Namche Bazaar. From Namche Bazaar, one can view stunning peaks including Everest, Lhotse, Nuptse, Ama Dablam, and Taweche.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m)",
+      details:
+        "Prior to beginning the Gokyo Valley Circuit Trek with Gokyo Lakes, there is time to rest and acclimatize at Namche. The Khumbu region includes the bustling town of Namche Bazaar. There are a lot of conveniences, such as bakeries, restaurants, ATMs, and Internet cafés. Before embarking on a tour of the neighborhood, you could briefly stop at a viewpoint like Thame or Khunde. To find out more about Sherpa culture, Everest climbers, and their rituals, go to the Tourist Visitor Center. The Everest View Hotel is also reachable via hiking. From here, one can see a wide range of mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many others. You will see the area for a while before returning to Namche for the evening.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Dhole (4110m)",
+      details:
+        "We start our walk early in the morning to get clear views of mountain ranges including Everest, Lhotse, Ama Dablam, and Thamserku. The trail takes a wavy path along which the pleasing vegetation and animals such as musk deer, Himalayan Thar, pheasant et cetera keep company. Passing Kayangjuma after a downhill, we reach the junction of EBC and Gokyo valley. From here, we climb to Mong La pass where the sacred Khumbila is a charming presence. Passing Mong La, Rhododendron forests and wildflowers get abundant, and so does animal life. Passing a few waterfalls and bridges, we reach the small village of Dole. Overnight stay.",
+    },
+    {
+      day: 6,
+      description: "Trek from Dole (4110m) to Machhermo (4470m)",
+      details:
+        "The Gokyo Valley Trek Map will be your guide as you make your way from Dhole to Maccharmo. As you walk the route, you will notice how the vegetation and landforms differ. After climbing a ridge, the route passes by the temporary settlements of villagers in Lhabarma and Luza. You will enjoy the stunning views of Kantega, Cho Oyu, Thamserku, and the Ngozumpa glacier while on the trek. You might be able to glimpse views of the deep Dudh Koshi valley as you go on your charming hillside stroll. Your journey ends at Machhermo after traversing the pathways' peaks and valleys. Machhermo hamlet is the starting point of a lovely stream that flows from Kyajo Ri and Phari Lapche.",
+    },
+    {
+      day: 7,
+      description: "Trek from Machhermo (4470m) to Gokyo (4790m) ",
+      details:
+        "You will begin your Gokyo Valley Circuit Trekking by ascending a ridge today, from where you will get wonderful views of Mount Cho Oyu. You will go past Phangkha before descending to the riverbed. The last moraine of the Ngazumpa glacier may be seen as you proceed down the trail. You will go toward the first lake, Longpongo, after ascending the moraine. To get there, you must cross a creek on an iron bridge. You will find the second lake, called Taboche Tsho, after seeing the Lama's Footprints on a stone. You'll be inspired to go a little farther to the third lake, Dudh Pokhari when you see this cold blue lake glittering in the sunlight. Next to the lake is where the Gokyo villages are located.",
+    },
+    {
+      day: 8,
+      description: "Acclimatization Day at Gokyo (4790m)",
+      details:
+        "The second day of the Gokyo Valley Trek with Lakes, which can be used for quick treks to adapt, is today. You can ascend to Gokyo Ri in the morning if the weather is clear. From the summit of the Gokyo Ri, you will get a close-up view of the entire Khumbu area and Mount Everest. Several additional peaks, including Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu, are magnificently visible from Gokyo Ri during the glorious early morning sunshine. A different way to make use of the acclimatization day is to go three kilometers north of Gokyo to enjoy the tranquil beauty of the fourth lake, Thonak Tsho. Depending on your level of fitness, you can continue hiking to the fifth lake, Ngozumpa Tsho, where you can enjoy incredible views of the Himalayas' longest glacier.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Gokyo (4790m) to Lumde (4380m) via Renjo La Pass (5360m) ",
+      details:
+        "It will be one of your most exciting days because you will be crossing Renjo La Pass along the way. The trek is easy at first, but as you near Renjo La's summit, it suddenly gets more challenging. As you continue on your Gokyo Valley Trekking Itinerary toward Lumde, Gokyo Valley will be left behind. You will witness the breathtaking views of towering peaks like Everest, Lhotse, Makalu, and Cho Oyu once you have crossed the Renjo La Pass. Depending on the time of year, you could witness a range of human activities, such as yak herding. To get to Angladumba Tsho, the route continues down the stairs. You will view Relama Tsho and Renjo Lake as you continue to trek, and to reach Lumde, you will pass through a slender valley filled with enormous stones.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Lumde (4380m) to Namche (3440m) via Thame (3820m)",
+      details:
+        "Your Gokyo Valley Circuit Trek will begin from Lumde today and go toward Namche Bazaar after crossing Bhote Koshi. After successfully crossing the Renjo La Pass from Lumde, you will have a straightforward descent to the Bhote Koshi River close to the rural community of Marlung. You will descend from Marlung to Taranga, a lovely settlement along Langmuche Khola. You will eventually arrive at Thame after leaving Langmuche Khola. You will arrive at Samde, where there are spectacular mountain views, after crossing the suspension bridge. You may view the monastery Khari Goma, which is also a nunnery, in the village of Thamo after ascending the steep trail. After passing through the Phurte small settlement and the Laudo Monastery, you will arrive at the tallest power plant in the world, which was constructed with Australia's assistance. After crossing a few chortens, Mani stones, gompas, prayer flags, and prayer flags, you are at last at Namche.",
+    },
+    {
+      day: 11,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
+      details:
+        "Today Gokyo Valley Circuit Trekking journey will start in Namche and end in Lukla. You must descend down a precipitous slope on shaky legs until you reach the airport area, which presents enormous challenges. Go slowly and cautiously across the bridge to enter the alpine forest and cross the Dudh Koshi River. After crossing the suspension bridges over the rapidly flowing Dudh Koshi and its tributaries, the flat road gets even flatter and more fragile. You will like the contrast between the wide plains, pine and rhododendron forests, and the distant snow-capped summits. After passing through the towns of Monjo, Phakding, and Chheplung, you will eventually reach Lukla, where you can witness a number of walls and monasteries.",
+    },
+    {
+      day: 12,
+      description: "Flight Back from Lukla (2840m) to Kathmandu (1400m) ",
+      details:
+        "It's time to say goodbye to Nepal's Khumbu area. Your bags will be transported to the airport by our Sherpas crew members, and the guides will handle additional airport formalities. You will immediately board the airplane and take off for your return flight to Kathmandu once it has arrived. You will be transported to your accommodation in Kathmandu from the airport. You may make the most of your remaining time on Gokyo Valley Complete Circuit Trek by visiting Kathmandu's well-known marketplaces. You will gather for the goodbye meal in the evening, during which you will also talk about the trip and the feedback.",
+    },
+    {
+      day: 13,
+      description: "Departure from Kathmandu (1400m)",
+      details:
+        "It's the last day of your Gokyo Valley Trek itinerary. One of our company personnel will assist you in traveling to the airport when your flight is scheduled to depart. If you want to extend your trip, Green Valley Nepal Treks, however, can make the required arrangements. If your flight is scheduled for a late evening, you can also go shopping to get a few presents for your friends and family.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Before beginning the Gokyo Valley Circuit with Lakes, it's crucial to consider your mental and physical health. Before making a reservation with us, if you have never gone trekking before, you must first start by cycling, running, and taking morning walks for a few weeks or months. The Gokyo Valley Trek through Gokyo Ri will benefit you if you have prior hiking and climbing expertise. The trail's highest point is Renjo La Pass, which rises 5360 meters above sea level. The route includes several ascents and descents, terraced farms, and Sherpa communities. Therefore, it requires an excellent physical condition to walk for 5 to 6 hours a day. Trekkers should have a cheerful mindset because uncertainty frequently results in discomfort and anxiety. When you engage with us to plan a trip, we highly suggest that you discuss your respiratory health with your doctor before you depart and email us a copy of the report.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////////////////Everest View Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+everest_view_trek_9_days: {
+  id: 20,
+    slug: "everest_view_trek_9_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "9 Days Everest View Trek guided by the professionals",
+    title: "Everest View Trek - 9 Days",
+    location: "Solukhumbu",
+    days: "9 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 9 days 8 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 7,
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
         description:
-          "Trek Down from Badal Danda (3250m) to Siding (1700m) then take Shared Jeep to Pokhara (827m)",
-        details:
-          "It's time to descend to Siding after spending some wonderful time at Badal Danda capturing lovely memories, taking in the stunning Himalayan scenery, and discovering the natural environment with rare flora and wildlife. Instead of returning to Forest Camp, this Mardi Himal Trek alternate path descends to the remarkable settlement of Siding. You will eat lunch at Siding, and then you will take a shared jeep to Pokhara. You will have evening free time in Pokhara to go boating or explore the lovely lakeside surroundings.",
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Wonderful flight experience from Kathmandu to Lukla to begin the Everest panoramic view trek.",
+    "While staying at a Sherpa guest house, explore the culturally diverse communities in the Khumbu area.",
+    "Discover breathtaking scenery, including a panoramic vista of Everest and nearby mountain ranges.",
+    "An unforgettable stay in Namche Bazaar and a quick walk to the highest hotel in the world, Everest View Hotel.",
+    "For individuals of all ages, the short Everest View Trek is appropriate.",
+    "Trek through the Sagarmatha National Park, which is a natural UNESCO World Heritage Site.",
+    "Exploration of the historic Tengboche Monastery and other Buddhist monasteries.",
+    "Beautiful panorama of the Himalayan Mountain ranges, including Everest, Lhotse, Ama Dablam, Nuptse, Thamserku, and many others.",
+    "Rhododendron forests and magnificent Sherpa villages are encountered along the Everest View Trek route.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m)",
+      details:
+        "At the Tribhuwan International Airport, our airport representative will receive you. A private tourist vehicle is available for a drop-off service at your hotel. You may either relax or come to our office to discuss the specifics of the Everest View Trek Itinerary",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
+      details:
+        "Your Everest Panorama Trek will start with an early flight from Kathmandu airport to Lukla. To get to Lukla, a beautiful flight over the mountains would last 35 to 40 minutes. You will meet the rest of the team at the Tenzing Hillary Airport and complete your preparations there. It will take you around four hours to hike on your first day, going through the Sherpa settlements of Cheplung and Ghat and across a beautiful suspension bridge. Before reaching Phakding, where you will spend the night in a cozy teahouse or lodge, you will get to experience your first tempting vistas of towering Himalayan peaks along the road.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+
+      details:
+        "The route of today's trek begins through pine trees and pasturelands, with a number of suspension bridges to cross over the Dudh Koshi River at various locations. The ascent gets harder as you get to the junction of the Dudh Koshi and Bhote Koshi. You will reach a vista offering the first glimpse of Mount Everest after traveling for around two hours on foot. From Phakding to Namche, there are several ups and downs on the Everest View Trekking Route. Even while it might be fairly exhausting, the clean air, breathtaking scenery, and desire to stand at the summit of the earth will motivate you to continue. After crossing Jorsale, you will arrive at Namche Bazaar, the entrance to Everest, and a trading hub as well, where you relax for the day.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m)",
+      details:
+        "To prevent altitude sickness, acclimatization involves regulating body temperature as altitude rises. You will relax today since altitude sickness might be quite bad. The major town in the Khumbu region, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other amenities. According to the Everest View Trek Itinerary, this day is for acclimatization. It's a rest day for acclimatization, but you will still go on a short trek to a nearby viewpoint (Thame or Khunde) and have a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people and their culture, and the flora and wildlife of the area.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m) ",
+      details:
+        "The Everest Panorama Trek path leads to the top of a ridge where you can see Thamserku, Kusum Kangrib, and Kantega in all their breathtaking beauty. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The ascent to Tengboche is challenging for the first half, but it becomes easier as it gets closer to a forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings. The vista of the sun setting over Ama Dablam and Everest is breathtaking. One of the outstanding panoramic views of the snow giants is from Tengboche. You may stay the night at a lodge in front of the monastery.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3860m) to Namche Bazaar (3440m) ",
+      details:
+        "Your Everest View Trekking Route descends along a popular trail through fir, juniper, and rhododendron woods. As you continue, you will come to the Phungitenga Bridge, where the descent becomes difficult for almost an hour. The remaining distance to Namche is lengthy, twisting one that passes the historic Sherpa settlements of Khumjung and Khunde. Additionally, you will travel past Khunde Hospital, which is supported by the Sir Edmund Hillary Trust, and a monastery that houses the only Yeti Scalp. The remainder of the journey is a nice, picturesque stroll to Namche, where you will spend the night.",
+    },
+    {
+      day: 7,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m) ",
+      details:
+        "From Namche Bazaar, your Mount Everest View Trek will continue before descending to Monjo. The path winds up and down multiple times as it winds through the dense woodland. You will leave Sagarmatha National Park by crossing the Dudh Koshi River Bridge, which is reached after a steep descent. After that, a level track will take you to Monjo. There are several tiny monasteries and painted Mani walls along the route from Monjo to Lukla. You will descend to Chauri Kharka through Phakding after passing through a number of little Sherpa communities. The final climb of the journey is a difficult ascent from Chauri Kharka to Lukla. When you arrive in Lukla, you may take some time to unwind before taking a tour through the community and taking in the people's tales.",
+    },
+    {
+      day: 8,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
+      details:
+        "You will fly from Lukla to Kathmandu in the early hours of the morning. Just like the landing, takeoffs are also very exciting events. You will be taken to your accommodation in Kathmandu after landing at Tribhuvan Airport. You have two choices for the day: either go shopping and wander the streets and malls or go somewhere you have always wanted to see but were not included in the Everest Panorama Trek Itinerary.",
+    },
+    {
+      day: 9,
+      description: "Departure or Extend your Program.",
+      details:
+        "A drop-off in a private tourist car from the hotel to the airport is scheduled three hours before the flight's scheduled departure time. By choosing a different curriculum, you may also prolong your journey.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Our Everest View Trek 9 Days doesn't require any prior trekking expertise, and most people in average health should be able to accomplish our route without any trouble. This hike does, however, reach a maximum height of around 3860 meters, where altitude sickness symptoms might manifest. For this reason, before starting the Everest Panorama View Trek, you should be in good physical and mental health. Exercises like running, walking, and other cardiovascular activities are excellent ways to get in shape before traveling to the high-altitude Khumbu region. You will also be assigned a knowledgeable guide from Green Valley Nepal Treks who will keep an eye on you, track your progress and health, and lead you safely through some of Nepal's most breathtaking alpine landscapes.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+////////////////////////////////////////////////////Everest Trek Cost for Indians - 14 Days//////////////////////////////////////////////////////////////////////////////
+everest_trek_cost_indians_14_days: {
+  id: 21,
+    slug: "everest_trek_cost_indians_14_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "14 Days Everest Trek Cost for Indians guided by the professionals",
+    title: "Everest Trek Cost for Indians - 14 Days",
+    location: "Solukhumbu",
+    days: "14 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 14 days 13 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 8,
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
         description:
-          "Take Deluxe Tourist Bus from Pokhara (827m) to Kathmandu (1400m)",
-        details:
-          "You will wake up early today and travel to Sarangkot to take in the splendor of the sunrise. Dhaulagiri, Annapurna, and Manaslu may all be seen from Sarangkot. It also offers a wide-ranging vista of the Pokhara Valley, including the Phewa Lake. When returning to your hotel from Sarangkot, you may also tour Bindabasini, the city's oldest temple. You will take a deluxe tourist bus through the Prithvi Highway from Pokhara to Kathmandu after breakfast. Depending on traffic, it takes 7 to 8 hours to go around 205 kilometers. Along the way, you will pass through various landscapes and see the vibrant and busy bazaars of Damauli, Dumre, Mugling, etc. The Mardi Himal Base Camp Trek will be successfully concluded with a celebration that you will attend in the evening. Live ethnic music is available as you eat a typical Nepalese supper. You can purchase mementos to take home or take some photographs to remember your trip.",
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Fly into Lukla's high-altitude Hilary Tenzing Airport.",
+    "During the trip to Lukla, get an aerial glimpse of the Khumbu area.",
+    "The Khumbu Glacier and Khumbu Icefalls will astound you with their icy beauty.",
+    "Trek through Sagarmatha National Park, which is home to numerous flora and wildlife species.",
+    "Discover Namche Bazar, the start of all Everest trips.",
+    "Sherpa culture and traditions are fascinating to learn about.",
+    "High-suspension bridges, prayer wheels, colorful flags, and Mani stones are all worth seeing.",
+    "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
+    "Travel to Everest Base Camp, which is located at the base of the world's tallest peak, Mt. Everest.",
+    "Hike to Kalapatthar for a stunning dawn and a 360-degree panorama of Mount Everest.",
+    "Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, and Mt. Kongde are all visible from here.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m) ",
+      details:"",
+    },
+    {
+      day: 2,
+      description:
+        ":Flight from Kathmandu (1400m) to Lukla (2860m), then trek to Phakding (2652m)",
+      details: "",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2652m) to Namche Bazaar (3440m) ",
+
+      details: "",
+    },
+    {
+      day: 4,
+      description: "Acclimatization and Rest Day in Namche Bazaar (3440m) ",
+      details: "",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tyangboche (3800m) ",
+      details: "",
+    },
+    {
+      day: 6,
+      description: "Trek from Tyangboche (3800m) to Dingboche (4360m)",
+      details: "",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4360m) ",
+      details: "",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4360m) to Lobuche (4940m) ",
+      details: "",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4940m) to Gorakshep (5150m) to Everest Base Camp (5364m), back to Gorakshep",
+      details: "",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorakshep (5150m) to Kalapatthar (5545m) to Pangboche (3985m) ",
+      details: "",
+    },
+    {
+      day: 11,
+      description: "Trek from Pangboche (3985m) to Namche Bazaar (3440m)",
+      details: "",
+    },
+    {
+      day: 12,
+      description:
+        "Trek from Namche Bazaar (3440m) to Phakding (2652m) and then to Lukla (2860m)",
+      details: "",
+    },
+    {
+      day: 13,
+      description: "Flight back to Kathmandu (1400m) from Lukla (2860m) ",
+      details: "",
+    },
+    {
+      day: 14,
+      description: "Final Departure or Onward For Next Program ",
+      details: "",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Taking into account that you will have to walk for an average of 5 to 6 hours every day for 11 days on uneven terrain while carrying a bag that weighs at least 6 kg. You'll need to start building up your stamina and strength a few months ahead of schedule. Plan a training routine that includes going up and down hills while carrying a backpack weighing 6 to 12 kg at least once every week. More hill training can help your muscles and legs get ready for the trek. It is essential because, at higher altitudes, where there is less oxygen, your lungs cannot adequately oxygenate your muscles. If you want to successfully reach Base Camp and avoid disturbing other trekkers, start exercising, lifting weights, and walking while carrying a heavy knapsack. Even experienced climbers plan for a challenge like this. Thoughtful planning is a key part of the 14-day trek to Everest for Indians, so take that in mind as well. Even while the journey cannot be compared to climbing Everest, it is a challenging trek with a high degree of difficulty that lasts for several days. Be prepared for common events, continuously shifting weather, and a significant chance of altitude sickness.",
+    ],
+    points: [],
+  },
+  path:[ "/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////////////////////////////////////////Everest Gokyo Trek via Salleri - 20 Days////////////////////////////////////////////////////////////////
+everest_gokyo_trek_via_salleri_20_days: {
+  id: 22,
+    slug: "everest_gokyo_trek_via_salleri_20_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "20 Days Everest Gokyo Trek via Salleri guided by the professionals",
+    title: "Everest Gokyo Trek via Salleri - 20 Days",
+    location: "Solukhumbu",
+    days: "20 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 20 days 19 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        day: 9,
-        description: "Final Departure or onward for next program",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Alternative Gokyo Trek route across Salleri that includes the Everest base camp",
+    "Discover unknown communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
+    "The path through Salleri covers classic trail of Jiri Everest Base Camp trek route",
+    "Explore the genuine communities, farms, orchards, and low mountain passes of Solu region.",
+    "Seemingly inspirational lifestyles may be found in Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
+    "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
+    "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Gokyo Trek Via Salleri",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m)",
+      details:
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of Salleri to Everest Gokyo Trek planning.",
+    },
+    {
+      day: 2,
+      description:
+        "Drive from Kathmandu (1400m) to Phaplu (2469m) then Trek to Taksindo (2930m)",
+      details:
+        "A Jeep journey from Kathmandu to Phaplu will lead to the start of your Everest Gokyo Trek via Salleri today. The distance from Kathmandu to Phaplu is about 275 kilometers, and it takes 8 to 9 hours to complete that distance. The rural Nepali landscape, which includes tall hills, agriculture, and winding roads, is visible throughout this scenic journey. A miniature hamlet called Phaplu is encircled by lush hills and has an airport. You will march from Phaplu to Ringmo, a modest yet picturesque Rai and Sherpa village. You will leave Ringmo and travel along a nice hiking path to Takshindo, which is known for its antique cheese factory that produces cheese from domestic mountain goats and yak. Many Sherpa and Rai people may be seen along the route of Salleri to Ringmo working in the mountain fields.",
+    },
+    {
+      day: 3,
+      description: "Trek from Taksindo (2930m) to Kharikhola (2040m)",
+
+      details:
+        "You will visit monasteries with mani, gompas, and historic sculptures in the morning at Taksindo. From the peak of Taksindo, you can also take in the stunning views of Salleri. You will begin your Everest Gokyo Trek via Salleri walk to Kharikhola from Taksindo, descending beside the Dudh Koshi River via terraced farms, woods, and a number of Sherpa communities, including Nunthala and Jubhing. A peaceful trip is provided by the Himalayan terrain's natural surroundings and the rushing river. The distance from Taksindo to Kharikhola is about 10.7 kilometers which are traveled in 6 to 7 hours. You will have the opportunity to learn about the Sherpa Buddhism culture throughout this trail. Because of the varied greenery, the paths also offer an exotic feel. When you go to Kharikhola, you may continue to enjoy them.",
+    },
+    {
+      day: 4,
+      description: "Trek from Kharikhola (2040m) to Paiya (2730m) ",
+      details:
+        "Before beginning your journey for the day, you will enjoy a great breakfast and the warm hospitality of the Magar people in Kharikhola. The distance from Kharikhola to Paiya is about 11 kilometers which takes 6 to 7 hours to complete. Your Everest Gokyo Trek through the Salleri route will initially descend into a small river, pass a suspension bridge, and then dramatically ascent upwards through deep woodland to Bupsa village. Before you get to Kharte, you must pass through a forest that is primarily inhabited by monkeys. You would have to trek upwards to reach the Khari La Pass. Gyanchung Kang, Khumbila Mountain, and Tham Danda can all be seen from Khari La Pass. You will arrive in Paiya after descending a slick path and bridging a small river.",
+    },
+    {
+      day: 5,
+      description: "Trek from Paiya (2730m) to Phakding (2610m)",
+      details:
+        "You will continue your Everest Gokyo Trek crossing Salleri journey with many ups and downs toward Phakding after a healthy breakfast in Paiya. 10.6 kilometers, or roughly 6 to 7 hours of walking, are the estimated distance between Paiya and Phakding. To get to Surke from Paiya, you will pass via the Dudh Koshi canyon and the Chutok La Pass. You will ascend gently and calmly over a suspension bridge to Lukla. This area is dominated by Sherpa people, and every building and the home reflects their culture. You might get surprised to know that Salleri to Lukla trek distance is around 26.2 kilometers. As you make your way up to Chheplung from Lukla, you will travel past fields of potatoes and barley. You may take a simple route through Ghat village and Thado Koshi from Chheplung to Phakding. You will eventually arrive at Phakding village after touring the area around the Sherpa settlement and traversing the yak grazing pastures.",
+    },
+    {
+      day: 6,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "After wholesome breakfast in Phakding, you will continue your Everest Gokyo via Salleri Journey toward Namche Bazaar. The approximate 11-kilometer distance between Phakding and Namche Bazaar may be accomplished on foot in 6 to 7 hours. To get to Bengkar, you must cross a suspension bridge and pass a gorgeous waterfall. You will have a sight of the lovely Thamserku Mountain just after five minutes of walking. To get to the village of Monjo, you must pass through a pine forest, a tiny gorge, and several minor streams. You will move toward Namche Bazaar after collecting the permission and the essential paperwork from the office of Sagarmatha National Park. The route goes via a waterfall before beginning with a modest ascent to Jorsale. After passing the junction of the Dudh Koshi and Bhote Koshi rivers, you will climb steeply to Namche Bazaar, a bustling hamlet. You will catch your first glimpse of the magnificent Mount Everest, Mount Lhotse, and Mount Nuptse from Namche Bazaar. Salleri to Namche Bazaar distance is about 37.4 kilometers.",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day at Namche Bazaar (3440m)",
+      details:
+        "After completing 34.9 kilometers of distance from Phaplu to Namche Bazaar, today is the day for acclimatization as per your Everest Gokyo Trek via Salleri Itinerary. The largest town in the Khumbu area is Namche Bazaar. It is adequately equipped with ATMs, Internet cafés, restaurants, bakeries, and other facilities. You can go on a short trek to a neighboring viewpoint, like Thame or Khunde, even though it's a rest day for acclimatization. You may also take a tour of the area, which includes the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa culture, and the local flora and wildlife. You can also ascend above Namche in the direction of the Everest View Hotel. From the Everest View Hotel, you can see Mount Ama Dablam in stunning detail. You will enjoy breathtaking views of Mounts Everest and Lhotse as well as a stunning sunset. After spending some time with each other, you will return to Namche for the night",
+    },
+    {
+      day: 8,
+      description: "Trek from Namche Bazaar (3440m) to Dhole (4110m)",
+      details:
+        "Your adventure Gokyo trek via Salleri to Dole will continue after a day of acclimatization in Namche, passing via the lovely villages of Syangboche, Sanasa, and Phortse Thanga. The 10 kilometers of distance from Namche Bazaar to Dole will take you 6 to 7 hours of hiking. To obtain spectacular views of mountain ranges such as Taboche, Mt. Ama Dablam, Mt. Thamserku, and Kongde Ri, you will begin your hike early in the morning. The walk will follow a wavy path where you may see lovely foliage and creatures including musk deer, Himalayan Thar, and pheasants. You will arrive at the intersection of Gokyo valley and Everest Base Camp after descending through Khumjung. To get to Phortse Thanga, you must follow a rocky trail that steadily climbs up a high incline. To ultimately reach Dhole, you will go along the Dudh Koshi River, through rhododendron trees, with a modest ascent over a challenging hiking track. You can visit ruined stupas and meadows surrounded by stone walls in Dole.",
+    },
+    {
+      day: 9,
+      description: "Trek from Dole (4110m) to Machhermo (4470m)",
+      details:
+        "From Dole, you will head the way toward Maccharmo with the help of the Everest Gokyo Trek Map. While walking on the trail, you will notice the disparity in the landforms and vegetation. After climbing a ridge, the trail moves through Lhabarma and Luza where you will pass through temporary settlements of the locals. Stunning views of Kantega, Cho Oyu and Thamserku, and Ngozumpa glacier will stay with you along the trail. The scenic hillside walk continues with the views of the deep Dudh Koshi valley. Your walk ends at Machhermo after succeeding in the ups and downs of the trails. The distance between Dhole to Machhermo is about 10 kilometers, which needs 5 to 6 hours of hiking. A beautiful stream that originates from Kyajo Ri and Phari Lapche runs through Machhermo village where you can hear stories of the first sighting of Yeti.",
+    },
+    {
+      day: 10,
+      description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
+      details:
+        "You will begin today's Everest Gokyo via Salleri hike by ascending a ridge, from where you will get breathtaking views of Mount Cho Oyu. You will traverse Phangkha before descending to the riverbed. The Ngazumpa glacier's terminal moraine is now in sight as you proceed down the route. You will go toward the first lake, Longpongo, after ascending the moraine, which you will reach by crossing an iron bridge across a stream. You will find the second lake, called Taboche Tsho, after viewing the Lama footprints on a stone. You will proceed a little farther to the third lake, Dudh Pokhari, feeling heartened by the sight of this chilly blue lake shimmering in the sunlight. The Gokyo settlements are situated next to the lake. Awe-inspiring vistas of the Gokyo lakes with Mount Cho Oyu in the background are just breathtaking. In 4 to 5 hours of hiking, you may travel the approximate 7 kilometers distance from Machhermo to Gokyo.",
+    },
+    {
+      day: 11,
+      description: "Acclimatization Day at Gokyo (4790m)",
+      details:
+        "Today is the second acclimatization day according to the Everest Gokyo Trek via Salleri Itinerary, which may be used for short treks to get used to the altitude. You can ascend to Gokyo Ri in the morning if the weather is clear. From the summit of Gokyo Ri, you can see the entire Khumbu area in exquisite detail. On Mount Everest, the early sunlight is wonderful, providing amazing views of some other peaks, including Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu. Gokyo Village's surroundings, which include the biggest Nogzumpa Glacier and Cholatse's view of the third lake, are equally gorgeous. Another way to make use of the acclimatization day is to travel 3 km north of Gokyo to take in the tranquil beauty of the fourth lake, Thonak Tsho. Depending on your fitness level, you can continue walking to the fifth lake, Ngozumpa Tsho, from where you can enjoy stunning views of the Himalayas' longest glacier. The distance from Salleri to Gokyo is approximately 52.3 kilometers, for the common information of hikers.",
+    },
+    {
+      day: 12,
+      description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
+      details:
+        "You will continue your Gokyo across Salleri trek today toward Dragnag after spending a day becoming acclimated at Gokyo Village. Ngozumpa Glacier will be encountered as you move forward on this trail. Despite being a shorter hike with a slight height increase, the trail is full of ups and downs. With its tranquil location next to Ngozumpa Glacier, Dragnag Village is in a prime location to assist hikers in reaching Cho-La High Pass. The distance from Gokyo Village to Dragnag (Thangnag) is around 4.43 kilometers, which may be hiked in 4 to 5 hours.",
+    },
+    {
+      day: 13,
+      description: "Trek from Dragnag (4750m) to Dzongla (4830m)",
+      details:
+        "The next morning, after spending the night in Thangnak, you will climb across steep terrain and glacier moraines to the summit of the Cho La Pass. The ascent is difficult and risky if it is covered in snow. You will reach the summit of Cho La Pass after a few hours of hiking, where you will be rewarded with stunning views of Cho La Lake and Mt. Cholatse. The terrain gets cold and treacherous as you descend. The scenery you get to see on this journey is lovely. After around seven hours of hiking, you will arrive in Dzongla, your final stop for the day. It's a really lengthy journey. The distance from Dragnag to Dzongla is around 9.38 kilometers.",
+    },
+    {
+      day: 14,
+      description: "Trek from Dzongla (4830m) to Gorakshep (5140m)",
+      details:
+        "After leaving Dzongla, you will go in the direction of Gorakshep, following the moraine as you decline toward Chola Lake. The Everest Gokyo via Salleri route from Dzongla meanders softly across a small glacial lake and follows the picturesque summits of Cholatse and Taboche as well as the miniature Chola glacier. The Khumbu Glacier will be followed as you make your way toward Ama Dablam. The memorial sculptures of the climbers who perished in this area may be seen on the route. The climb to Lobuche should be enjoyable in contrast to the previous day, and you will be following Imja Khola before getting there. You will arrive in Lobuche after a four-hour hike. You will re-join the well-known Everest Base Camp trek path after you arrive in Lobuche. Three more hours of trekking will get you to Gorakshep. For the sake of hikers' general knowledge, the distance from Dzongla to Gorakshep is around 10.8 kilometers.",
+    },
+    {
+      day: 15,
+      description: "Excursion Day to Everest Base Camp (5364m) ",
+      details:
+        "You will arrive at the Everest Base Camp today, making it a memorable day for you. After leaving your stuff at Gorakshep, you will ascend to Everest Base Camp. A sense of accomplishment will come over you after you get to Everest Base Camp (EBC). In a sense, the trip to Everest Base Camp Trek via Salleri will make you a better person because getting to EBC demands a lot of perseverance and persistent physical work. You will get the opportunity to take in views of the Khumbu Glacier from EBC, which offers magnificent vistas. You can take photos because they will serve as a remembrance for the rest of your life. You'll hike down to Gorakshep once you've taken in the vistas from EBC. It is roughly estimated that Salleri to Everest Base Camp's distance is 62.7 kilometers.",
+    },
+    {
+      day: 16,
+      description:
+        "Trek from Gorakshep (5140m) to Pheriche (4240m) after Early Sunrise at Kalapatthar (5555m) ",
+      details:
+        "To witness the sunrise on Mount Everest, you must get up early and climb up to Kala Patthar. It's a difficult hike from Gorakshep to Kala Patthar. However, Kala Patthar will reward you with some of the most stunning mountain vistas. The views you will be seeing will be unlike anything you have ever experienced. From Kala Patthar, you may also enjoy a good view of imposing mountains including Nuptse, Pumori, Chagatse, and Lhotse. You will descend to Gorakshep for breakfast after spending some time at the Kala Patthar lookout point, and then you will continue on to Pheriche, your last destination for the day. Another excellent feature of the Everest Gokyo Trek via Salleri is the dawn at Kala Patthar.",
+    },
+    {
+      day: 17,
+      description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
+      details:
+        "The travel distance from Pheriche to Namche Bazar is 14.3 kilometers. The Everest Gokyo Trek through Salleri, which is full of stunning natural scenery, includes a section from Pheriche to Namche Bazaar. The route descends alongside the Imja River before ascending to Tengboche, which gives a panoramic view of the mountain ranges. You will go through woodlands where you could see pheasants, musk deer, mountain goats, etc. You will pass through the lovely villages of Shomare, Pangboche, Tengboche, and Phungi Thanga on the route and observe a lot of prayer flags and chortens. You have the last chance to see Mount Everest on this day. You will arrive at Namche Bazaar after further hiking.",
+    },
+    {
+      day: 18,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
+      details:
+        "Lukla to Namche bazaar distance is only 13.5 kilometers. After breakfast, you will climb down a difficult track, cross the Hillary Suspension Bridge, and pass by various nearby communities. The Dudh Koshi River Valley and its surrounds will be where the most of your walk will take place. On the rough, steep terrain, trekkers must go extremely slowly, with great control, and with balance. As you go through a rhododendron woodland and wide plain, you will get to see distant mountains that are coated in snow. You'll rest and get ready at a hotel when you get to Lukla. Your stay in the Khumbu area will probably end this evening. Against all odds, you were successful, so it’s a time to rejoice.",
+    },
+    {
+      day: 19,
+      description: "Scenic Flight from Lukla (2840m) to Kathmandu (1400m)",
+      details:
+        "On this day, travelers can take a mountain flight from Lukla to Kathmandu. If all goes as planned, you will catch a flight back to Kathmandu in the morning. It will be enjoyable to take the 40-minute picturesque trip back to Kathmandu. Most likely, you will be thinking back on your trip to Everest Base Camp and anticipating the day you can reunite with your loved ones back home. Once in Kathmandu, take some time to shop and explore the city. The evening is a celebration of the successful completion of the Everest Gokyo Trek via Salleri.",
+    },
+    {
+      day: 20,
+      description: "Final Departure or Onward to Other Destination",
+      details:
+        "Before departing for Tribhuwan International Airport at the planned departure time. This is the final day in Nepal, which provides last opportunity to take advantage of shopping and enjoy touring across the cultural metropolis of Kathmandu valley. We will drop you off at the airport three hours before to your flight time.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Before beginning the Everest Gokyo Trek through Salleri, it is crucial to take into account both your physical and mental well-being. Before making a reservation with us, if you have never gone trekking before, you must first begin by cycling or running, and doing morning walks for a few weeks or months. For the Everest Base Camp Trek via Salleri, it will be advantageous if you have prior trekking and climbing expertise. The trail's highest point is Kalapatthar, which rises 5545 meters above sea level. The route includes a series of ascents and descents and passes through agriculture, terraces, and Sherpa settlements. As a result, you need to be in excellent physical condition to walk for 5 to 6 hours each day. Trekkers also need a solid mental attitude because uncertainty frequently leads to discomfort and worry. When you plan a vacation with us, we highly suggest you consult with your doctor about your respiratory condition before leaving and then email us a copy of the report.",
+    ],
+    points: [],
+  },
+  path:[ "/images/EverestBaseCampMap.jpg"],
+},
+/////////////////////////////////////////////////////12 Days Everest Base Camp Trek//////////////////////////////////////////////////
+ebc_trek_12_days: {
+  id: 23,
+    slug: "ebc_trek_12_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "12 Days Everest Base Camp Trek guided by the professionals",
+    title: "12 Days Everest Base Camp Trek",
+    location: "Solukhumbu",
+    days: "12 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Panoramic views of Mount Everest, Pumari, Nuptse, Lhotse, and many more peaks during sunrise from Kalapathar",
+    "Views of the Khumbu Icefall and glacier are breathtaking from Everest Base Camp.",
+    "Take advantage of the opportunity to tour the Buddhist monasteries at Namche, Khumjung, Tengboche, and Panboche.",
+    "Views of snow-capped mountains, including Lobuche East, Kangtega, Ama Dablam, Lobuche West, Thamserku, Taboche Peak, etc.",
+    " Exciting climb to the base of Mount Everest, the highest mountain peak in the world",
+    "Trekking over the difficult, remote, and adventurous terrains of the Khumbu region",
+    "Discover the fauna and flora of the Nepalese Everest Region, which includes several rare and endangered species.",
+    "Exploration of the Khumbu region's cultural history, including its Tibetan Buddhist temples, villages, and other landmarks.",
+    "The teahouses and lodges run by Sherpas offer a warm welcome and hospitality.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        ":Flight from Kathmandu (1400m) to Lukla (2840m) and trek to Phakding (2610m) ",
+      details:
+        "After having breakfast in the morning, you will get transferred to the domestic terminal of the Kathmandu Domestic Airport to catch your scheduled morning flight to Lukla. Lukla is the starting point of 12 Days Everest Base Camp Trekking. After 30 minutes scenic flight above the breathtaking green and white Himalayas, you will land at the Tenzing-Hillary Airport at Lukla. Then you will meet porters and other crew members and start Trekking. After a few hours of walking, you will reach Phakding. You will only have a short hike today to assist with the proper acclimatization. However, if you are interested, you can also take a side trip to a nearby monastery.",
+    },
+    {
+      day: 2,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "This is the second day of your Everest Base Camp 12 Days Trek. Today, you will walk through a beautiful forest of pine. The walk will lead you along the bank of the Dudh Koshi River through many suspension bridges. Hillary Suspension Bridge is one of the famous suspension bridges you will be crossing today. En route, you will witness the wonderful views of Mount Thamserku (6618m). You will pass through the settlement of Benkar and Monjo and eventually arrive at the check post and entrance to Sagarmatha National Park. Before reaching Namche, you will also pass through the last village of Jorsale. Our trail further ascends through the forests and bridges until you will reach the confluence of the Dudh Koshi and Bhote Koshi Rivers. You will get the first sight of Mount Everest over the Lhotse and Nuptse ridges just after a final steep ascent for about two hours. To reach Namche, you will still have to walk for about an hour and a half further. Namche Bazaar is the gateway of Everest Base Camp Trekking, and also the main trading center of the Everest region.",
+    },
+    {
+      day: 3,
+      description: "Acclimatization Day at Namche Bazaar (3440m)",
+
+      details:
+        "While trekking at a high altitude, it is always recommended to acclimatize properly. As a result 12 Days Everest Base Camp Trek Itinerary dedicates today as an acclimatization day. You need to stay active and moving during the rest days instead of being idle. So, you will either spend the day taking a day hike to Thame or visiting Khunde, or relaxing and exploring the Namche Bazaar itself. Actually, Namche Bazaar is the main center of the Khumbu Region and has many Government Offices, Internet Cafes, ATMs, Restaurants, Shops, and other amenities. Our guides will take you to the Tourist Visitor Center near the headquarters of Sagarmatha National Park, where you can observe an assortment of things that are related to the First Everest Climbers and Sherpa Culture. You will also get to learn about various flora and fauna in Everest Region.",
+    },
+    {
+      day: 4,
+      description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
+      details:
+        "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
+    },
+    {
+      day: 5,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
+    },
+    {
+      day: 6,
+      description: "Acclimatization Day in Dingboche (4410m)",
+      details:
+        "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 12 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
+    },
+    {
+      day: 7,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
+      details:
+        "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
+    },
+    {
+      day: 8,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep",
+      details:
+        "Today is the most important day of 12 Days Everest Base Camp Trekking, your trail to Gorakshep goes ahead through the side of the Khumbu Glacier. Your path passes through the pyramid signpost. A decent ascent would take you to the Thangma Riju from where you can perceive a 360-degree vista of snowcapped mountains. As you will reach Gorakshep, the surrounding snowcapped mountains, including the top of the world welcome you. From Gorakshep, you will trek to Everest Base Camp. After having the rewarding views of Mount Everest and other mountains around your site, you will return back to Gorakshep where you will stay overnight.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Gorakshep (5140m) to Kala Patthar (5555m) then Trek down to Pheriche (4240m)",
+      details:
+        "Today you will reach the highest point of the Everest Base Camp 12 Days Trekking. So, you will make an early start in the morning to catch the dramatic mountain views from Kalapatthar. Kalapatthar is considered one of the finest viewpoints in the EBC 12 Days Trekking. From Kalapatthar, you can observe the first light of the day shining on the glorious Mount Everest. Similarly, the familiar peaks such as Lingtren, Mount Khumbutse, and Mount Changtse among others tower to the east even as Everest begins to reveal itself rising between the west shoulder crest and Nuptse. You can take pictures of the mountains around you. After spending some hours in Kalapatthar, you will descend back to Gorakshep. After having breakfast, you will gradually descend down to Pheriche where you will stay overnight.",
+    },
+    {
+      day: 10,
+      description: "Trek from Pheriche (4280m) to Namche (3440m)",
+      details:
+        "Today is going to be an easy walk down to the lower altitudes. As your Everest Base Camp 12 Days Trek Route will follow the same route back to the terminal moraines at Dughla and following the wide valley of Khumbu Khola, now you will have to pass through the beautiful Sherpa villages of Pheriche, and Orsho along with Shomare. You will then reach Pangboche village where you can explore the oldest monastery in the region which contains what is said to be the scalp and bones of repulsive snowman Yeti. You will leave the mountains behind you and descend through Tengboche Monastery at an elevation of 3860m before you will reach Namche.",
+    },
+    {
+      day: 11,
+      description:
+        "Trek from Namche (3440m) to Phakding (2610m) and then to Lukla (2840m) ",
+      details:
+        "Eleventh day and last day of your Everest Base Camp 12 Days Trekking Itinerary, today's trekking trail has descended steeply downward. Therefore, you will need to walk slowly and under control as your shaky legs continuously battle the rocky terrain. The trail becomes more level and natural after crossing the suspension bridges over the raging Dudh Koshi River. You will start to get warmed up by the light breeze by today. Passing through the lovely forests of pine and rhododendrons, you will eventually arrive at Lukla where we stay overnight.",
+    },
+    {
+      day: 12,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
+      details:
+        "Today you will fly back to Kathmandu after a long mountain journey. You will catch your morning flight from Lukla and after about 35 minutes, you will arrive at Tribhuvan International Airport, Kathmandu. On reaching Kathmandu, you can take your time and rest, or go for last-minute shopping.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "The standard EBC journey is shortened into the 12-day Everest Base Camp trek. As a result, you won't get as much rest as you usually would. It is perhaps more crucial for you to plan adequately for the hike. Before you try this excursion, you should practice hiking. Before doing this expedition, complete 4 to 5 treks. You must do aerobic exercises such as jogging, cycling, or swimming to prepare for the 12-day Everest Base Camp trek. Elevation masks can also be used during exercise to increase endurance. You should work on enhancing your diet while exercising. To build the proper amount of strength in your body, you'll need to eat foods high in both protein and carbs. For this walk, you need to mentally prepare yourself in addition to physically. If something goes wrong, you must address it without becoming panicked. If you are both physically and emotionally prepared for this walk, you can finish this trek with comfort.",
+    ],
+    points: [],
+  },
+  path:[ "/images/EverestBaseCampMap.jpg"],
+},
+//////////////////////////////////////////////Rapid (Short) Everest Base Camp Trek - 9 Days//////////////////////////////////////////
+rapid_ebc_trek_9_days: {
+  id: 24,
+    slug: "rapid_ebc_trek_9_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "9 Days ARapid (Short) Everest Base Camp Trek guided by the professionals",
+    title: "Rapid (Short) Everest Base Camp Trek - 9 Days",
+    location: "Solukhumbu",
+    days: "9 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 9 days 8 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "The scenic flight to Lukla from Kathmandu",
+    "Long and High suspension Hanging Bridges along the way",
+    "A breathtaking view of Mount Everest Sunrise and Sunset from Kalapathar",
+    "A comfortable Accommodation and hygiene meals during the trek",
+    "Dudh Koshi (the River of the milk) and Rhododendron Forests",
+    "The main gateway to our Everest trekking, Namche Bazaar",
+    "Khumbu Glacier and the Khumbu icefalls",
+    "Spring Season is the best to discover the wild variety of flowers all around",
+    "Unique Sherpa culture and generous hospitalizes of the people living in this region",
+    "Learn Buddhism, and visit ancient monasteries",
+    "The traditional farming system",
+  ],
+  facilities: [],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
+      details:
+        "Early in the morning, your trekking guide will pick you up from the hotel and drive you to the domestic airport in Kathmandu, where you will catch a beautiful flight to Lukla, where the thrilling Rapid Everest Base Camp Trek will begin. You will be welcomed by stunning alpine scenery and spectacular mountains when you arrive. From here, you can see Mt. Khumbila, a holy peak that has never been scaled, as you go on a route that gradually descends to Cheplung hamlet. From here, you will gradually descend to Phakding by following the Dudh Kosi River's bank. You may spend the night at Phakding with a beautiful view of the surrounding environment and a thick forest.",
+    },
+    {
+      day: 2,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "After taking in your first mountain breakfast, you will set out on your journey to Namche Bazaar. A pine forest is traversed on the first leg of the Quick Everest Base Camp Trek, which is then continued as it ascends the Benkar valley to the north. Prior to arriving at the gate of the Everest National Park, you must cross the Dudh Koshi River and travel through the settlement of Monjo. Following that, you will cross the suspension bridge to enter Jorsale village, where you will possibly have lunch. You will cross Jorsale after a little rest and continue walking beside the Dudh Koshi and Bhote Koshi rivers until you reach Hillary Bridges. From here, a difficult trek will take you upward to Namche Bazaar, arguably the largest settlement in the Everest area. A leisurely hike through the pine and rhododendron-filled forest will take around two hours. The Sherpa village of Namche itself is beautiful, and from here you can take in the breathtaking panorama of the mountains and their surroundings.",
+    },
+    {
+      day: 3,
+      description: "Trek from Namche Bazaar (3440m) to Pangboche (3930m)",
+
+      details:
+        "After breakfast at a tea house in Namche Bazaar, the third day of the Short Everest Base Camp Trek begins. The level terrain with the captivating views of Everest, Lhotse, Ama-Doblum, and Thamserku as you travel through the lovely mani walls and stupas along the route. After two hours of comfortable trekking to Phunge Tenga, you will climb steeply to Tengboche, where you may tour the oldest Tengboche Monastery. You will move toward Deboche and eventually Pangboche after leaving Tengboche behind. Pangboche offers a wonderful location where you may take in the view and the lovely valley. You may tour a number of monasteries in Pangboche during your spare time.",
+    },
+    {
+      day: 4,
+      description: "Trek from Pangboche (3930m) to Dughla (4620m) ",
+      details:
+        "After a wholesome breakfast in Pangboche, you will depart for Thukla today. Even better and closer views of the Himalayas may be seen when you go up to the Pheriche Valley. Walking for 6 to 7 hours through this lovely valley will provide you with additional incredible trekking experiences. The Everest Short Trek will be more difficult than the lower Khumbu Valley, however, you must strike a balance between your walking pace and stamina. You will go from Pheriche toward Dughla for the night by following the Imja River.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Dughla (4620m) to Gorakshep (5140m) then Everest Base Camp (5364m) and Back to Gorakshep ",
+      details:
+        "A substantial breakfast will be served in Dughla to start the day. You will first go to the Sherpa Villages of Lobuche and Gorakshep across the Khumbu Glacier after a challenging ascending segment of the Short Trek to Everest Base Camp trek. You will unload your baggage and have a short meal when you get to Gorakshep before making one more push to reach Everest Base Camp (5,364m). Enjoy your time at base camp with your crew before returning to Gorakshep by foot over rocky, moraine-covered terrain that is also home to streams, glaciers, and a glacier.",
+    },
+    {
+      day: 6,
+      description:
+        "Trek from Gorakshep (5140m) to Kala Patthar (5555m) then Trek down to Pheriche (4240m)",
+      details:
+        "You will ascend Kala Patthar today, which is the highest point on the Everest Short Trek. Before beginning your ascent to Kala Pathar, you must inspect the weather conditions. At 5555 meters above sea level, Kalapathar is situated. To see and take in the breathtaking vistas of the mountains glistening in the hue of the morning light, it takes around 2 hours to trek this well-known monument. You will return to Gorakshep and have breakfast before heading downwards to Pheriche after spending an incredible amount of time on Kala Patthar's summit.",
+    },
+    {
+      day: 7,
+      description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
+      details:
+        "You will begin your trip toward Namche Bazaar after a hearty breakfast in Pheriche. The short trek to Everest Base Camp is stunning from Pheriche. You will walk in the direction of the Debuche settlement. There are a few teahouses in this little community. The trek takes you from Debuche to the town of Pangboche. The majority of trekkers have lunch at the Pangboche settlement. You will continue to stroll after lunch. You will arrive at Tengboche after a steep ascent. The route then continues downhill while crossing a river. There is another elevation following the river crossing. You will spend the night at Namche Bazaar after the uphill portion of the trail.",
+    },
+    {
+      day: 8,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
+      details:
+        "Although the track is lengthy today, the trek is simple. On the way back from the base camp, some hikers run. By doing this, your chance of getting hurt rises. The majority of accidents happen on the way back, so don't rush or sprint. After crossing the Hilary suspension bridge, you will begin the famous ascent from Namche. Along the Rapid Everest Base Camp Trek Route, you will progressively hike after crossing the bridge with the other trekkers. You will stop at Tok Tok for lunch on the way home. You will continue to stroll after lunch. On this day, the excitement of returning home is different. You will eventually arrive at Lukla after several hours of trekking.",
+    },
+    {
+      day: 9,
+      description: "Flight from Lukla (2840m) to Kathmadu (1400m)",
+      details:
+        "The last morning in the Everest region and the last glimpse of the mountains may be enjoyed today. The Quick Everest Base Camp Trek will come to an end when you board a small aircraft for a spectacular 35-minute trip back to Kathmandu. You will be met by a travel agent from Green Valley Nepal Treks upon arrival in Kathmandu and transported back to the appropriate accommodation. There are other possibilities if you want to prolong your vacation, like a Chitwan jungle safari, a river rafting experience, a shopping tour of Kathmandu, mountain biking, and other activities. We would be happy to participate in these at your request.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "To complete the Rapid Everest Base Camp Trek, you don't need to be an athlete or bodybuilder. You should be in reasonably good physical shape and have some prior hiking expertise. Ten weeks or so before your departure, we advise beginning a regular trekking schedule. Your stamina will be improved and aid you on the path to Everest Base Camp if you walk 3-5 km every day, especially up and downhill. If there are no mountains nearby, you can increase your stamina by swimming, climbing stairs, and treadmill running. Before you go to the gym or engage in any strenuous activity, please consult your physician. In conclusion, you don't have to be a particularly athletic climber or sportsman. Only previous hiking expertise on an uphill terrain is needed for the Quick Everest Base Camp Trek. Simply stated, I want to do the Everest Short Trek, and then we will take care of the rest!",
+    ],
+    points: [],
+  },
+  path:[ "/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////////////EBC Trek via Gokyo Cho La Pass - 17 Days////////////////////////////////////////////
+ebc_trek_via_gokyo_cho_la_pass_17_days: {
+  id: 25,
+  slug: "ebc_trek_via_gokyo_cho_la_pass_17_days",
+  category: "Trekking",
+  img: "/images/EverestBaseCampTreck.jpg",
+  description: "17 Days EBC Trek via Gokyo Cho La Pass guided by the professionals",
+  title: "EBC Trek via Gokyo Cho La Pass - 17 Days",
+  location: "Solukhumbu",
+  days: "17 days",
+  people: "1-12",
+  subimages: [
+    "/images/EverestBaseCampTreck1.jpg",
+    "/images/EverestBaseCampTreck2.jpg",
+    "/images/EverestBaseCampTreck3.jpg",
+    "/images/EverestBaseCampTreck4.jpg",
+    "/images/EverestBaseCampTreck5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 17 days 16 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Scenic flight from Kathmandu to Lukla and vice versa",
+    "Cho La Pass (5420m) provides awesome perspectives of the Himalayas",
+    "Gokyo valley's five frozen lakes with a stunning view of Gokyo Ri",
+    "Exciting and challenging experience, during EBC Trek via Gokyo Cho La Pass",
+    "Gain an intimate understanding of the Sherpa culture in the Himalayas.",
+    "Best views of Mount Everest along with Khumbu glacier (4900 meters) from Kalapatthar (5545 meters)",
+    "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
+    "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
+    "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
+    " Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more",
+  ],
+  facilities: [
+    "Free International Airport Pickup And Drop Services",
+    "Create Himalaya Adventure Duffle Bag and T-Shirt as a souvenir",
+    "Map of Everest Base Camp Trek via Gokyo Ri and Cho La Pass",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalaya Adventure Store During The Trek",
+    "Arrangement of sleeping bags and down jackets if you do not have your own.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m) ",
+      details:
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private car will then transport you to your accommodation. You are welcome to visit our office for a pre-trip meeting whenever you are ready to know more about the Everest Base Camp Trek via Gokyo Cho La Pass Itinerary.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
+      details:
+        "You will take a 45-minute scenic flight to Lukla before beginning your EBC Trekking via Gokyo Lakes and Cho La Pass excursion. When you fly over the majestic mountain ranges, you will be in love with their beauty. At Tenzing-Hillary Airport, a member of our skilled Sherpa crew will welcome you and start the journey to Phakding. Once you descend to the Kusum River, following the Dudh Koshi on its eastern bank will lead you to Phakding. The most important thing to keep in mind is to move gently since it takes time for your body to adjust to the thin air. After a short journey, you will reach Phakding, where you will spend the night at a Sherpa-run teahouse.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+      details:
+        "On your route to Namche, you will pass through stunning Sherpa settlements like Bengkar, Monjo, and Jorsale. There are several slopes on the route between Phakding and Namche in both directions. You may witness views of snow-capped mountains, including Kusum Kanguru, Thamserku, and other peaks, as you bridge the Dudh Koshi River near Bengkar. You will arrive at the checkpoint at the entry to Sagarmatha National Park after passing through a few villages, where your permits for the Everest Base Camp Trek via Gokyo Ri and Cho La Pass will be scrutinized. You may reach Namche Bazaar by ascending one of the suspension bridges above the river. Beautiful peaks like Everest, Lhotse, Nuptse, Ama Dablam, and Taweche can be seen from Namche Bazaar.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m) ",
+      details:
+        "It's time to recharge and acclimatize in Namche before continuing EBC Trek via Gokyo Ri and Cho La Pass. A busy town, Namche Bazaar is located in the Khumbu area. There are many amenities, including bakeries, restaurants, ATMs, and Internet cafes. You may quickly visit a viewpoint like Thame or Khunde before taking a tour of the surrounding area. You can visit Tourist Visitor Center to learn about Everest climbers, Sherpa people, and their customs. You can also reach the Everest View Hotel on a hike. Numerous mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many more, can be seen from this location. After spending some time touring the region, you will return to Namche for the evening. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Dole (4110m) ",
+      details:
+        "A day of acclimatization in Namche will be followed by the continuation of your Everest Base Camp Trek with Gokyo Lakes and Cho La Pass. To get to Dole, you must pass via the charming settlements of Syangboche, Sanasa, and Phortse Thanga. You will start your journey early in the morning to see the best views of mountain ranges including Taboche, Mt. Ama Dablam, Mt. Thamserku, and Kongde Ri. After descending via Khumjung, you will reach the junction of Gokyo Valley and the Everest Base Camp trail route. You have to travel a rocky path that slowly ascends a steep slope to reach Phortse Thanga. You must go beside the Dudh Koshi River, through a rhododendron forest, and climb a small ascent through a difficult trekking trail before arriving in Dhole. You can visit ruined stupas and meadows surrounded by stone walls in Dole.",
+    },
+    {
+      day: 6,
+      description: "Trek from Dole (4110m) to Machhermo (4470m) ",
+      details:
+        "With the aid of the EBC Trek through the Gokyo Cho La Pass Map, you will move from Dole in the direction of Maccharmo. You will notice the disparity in the plants and landforms as you stroll along the route. The path travels via Lhabarma and Luza, passing by villagers' temporary settlements, after ascending a ridge. Along the trek, you will appreciate the beautiful sights of Kantega, Cho Oyu, Thamserku, and the Ngozumpa glacier. Views of the deep Dudh Koshi valley may be seen as you continue your picturesque hillside stroll. After navigating the ups and downs of the paths, your trip comes to a conclusion at Machhermo. A magnificent stream that originates in Kyajo Ri and Phari Lapche begins in Machhermo village, the location of some of the earliest reported Yeti sightings.",
+    },
+    {
+      day: 7,
+      description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
+      details:
+        "By climbing a ridge today, where you will enjoy stunning views of Mount Cho Oyu, you will start your trek to Everest Base Camp via Gokyo Cho La Pass. Before descending to the riverbank, you will pass through Phangkha. As you continue down the path, you can view the final moraine of the Ngazumpa glacier. After climbing the moraine, you will proceed in the direction of the first lake, Longpongo, which you will approach by bridging over a stream on an iron bridge. Following witnessing Lama's Footprints on a stone, you will locate the second lake, known as Taboche Tsho. The sight of this cool blue lake sparkling in the sunlight will encourage you to continue a bit farther to the third lake, Dudh Pokhari. Next to the lake is where the Gokyo villages are located.",
+    },
+    {
+      day: 8,
+      description: "Acclimatization Day at Gokyo (4790m)",
+      details:
+        "Today is the second acclimatization day of the EBC Trek via Gokyo Ri and Cho La Pass, which may be used for short hikes to acclimate. If the weather is clear, you may climb to Gokyo Ri in the morning. You can view the entire Khumbu region in fine detail from the top of Gokyo Ri. On Mount Everest, the early sunshine is excellent and offers breathtaking views of several other peaks, such as Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu. Another approach to utilize the acclimatization day is to walk 3 kilometers north of Gokyo to see the serene beauty of the fourth lake, Thonak Tsho. Depending on your level of fitness, you can keep trekking to the fifth lake, Ngozumpa Tsho, from which you can take in magnificent views of the longest glacier in the Himalayas.",
+    },
+    {
+      day: 9,
+      description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
+      details:
+        "After acclimatizing in Gokyo Village for a day, you will continue your Everest Base Camp Trek with Gokyo Lakes and Cho La Pass today toward Dragnag. You will come across Ngozumpa Glacier as you continue on this trek. The path has plenty of ups and downs while being a shorter trip with a modest height gain. It is undeniably breathtaking and gorgeous when you stroll down the valley on the eastern side of the glacial moraine. When you go to the yak grazing area, Tawache and Cholatse peaks will be right next to you. Dragnag Village, with its serene setting adjacent to Ngozumpa Glacier, is well situated to help trekkers access Cho-La High Pass.",
+    },
+    {
+      day: 10,
+      description: "Trek from Dragnag (4750m) to Dzongla (4830m) ",
+      details:
+        "After spending the night in Thangnag, you will trek to the peak of the Cho La Pass the next morning via treacherous terrain and glacier moraines. If it is covered with snow, the ascent is challenging and dangerous. After a few hours of climbing, you will reach the top of Cho La Pass, where you will be rewarded with breathtaking views of Cho La Lake and Mt. Cholatse. As you go downhill, the terrain becomes slippery and dangerous. On this Everest Base Camp Trek through Gokyo Cho La Pass, the landscape is magnificent. You will arrive at Dzongla, your final destination for the day, after around seven hours of hiking.",
+    },
+    {
+      day: 11,
+      description: "Trek from Dzongla (4830m) to Lobuche (4910m)",
+      details:
+        "You will head toward Lobuche after leaving Dzongla, following the moraine as it descends toward Chola Lake. The Everest Base Camp Trek over Gokyo Cho La Pass Route commences from Dzongla and gently meanders across a tiny glacial lake, following the charming peaks of Cholatse and Taboche as well as the tiny Chola glacier. As you proceed in the direction of Ama Dablam, you will follow the Khumbu Glacier. On the trail, you may observe the memorial sculptures of the climbers who died here. In contrast to the previous day, the ascent to Lobuche will be pleasurable, and you will follow Imja Khola on the way to reach the destination. It will take you four hours to go to Lobuche.",
+    },
+    {
+      day: 12,
+      description:
+        "Trek from Lobuche (4910m) to Everest Base Camp (5365m) then Back to Gorakshep (5140m) ",
+      details:
+        "This day will be a special one for you since you will reach the Everest Base Camp. You will ascend to Everest Base Camp after leaving your belongings behind in Gorakshep. Following your arrival at Everest Base Camp, you will feel a sense of achievement. The trek to Everest Base Camp via Gokyo Lakes and Cho La Pass will improve you as a better person since getting there requires a lot of endurance and relentless physical exertion. From Everest Base Camp, you will get the chance to see breathtaking views of the Khumbu Glacier. You should snap pictures as they will act as a lasting memento. When you have enough of the views from EBC, you will climb down to Gorakshep.",
+    },
+    {
+      day: 13,
+      description:
+        "Trek from Gorakshep (5140m) to Pheriche (4240m) after Early Sunrise at Kalapatthar (5555m) ",
+      details:
+        "The most fascinating part of the Everest Base Camp Trek through Gokyo Ri and Cho La Pass will be visited today. To see the golden dawn over Mount Everest and other nearby peaks, you will ascend to Kalapatthar early in the morning. From Gorakshep to Kala Patthar, the climb is challenging and will be recovered by the most beautiful mountain views. The vistas you will be taking in will be completely different from anything you have ever seen. The majestic mountains Nuptse, Pumori, Chagatse, and Lhotse can all be seen nicely from Kala Patthar. Spend some time at the Kala Patthar vantage point before descending to Gorakshep for breakfast, and then continue on to Pheriche, your last destination for the day.",
+    },
+    {
+      day: 14,
+      description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m) ",
+      details:
+        "The Pheriche to Namche Bazaar segment of the EBC Trek through Gokyo Ri and Cho La Pass is filled with amazing natural landscapes. You will descend to Pangboche and Tengboche, where you may see Buddha monasteries, leaving the mountain behind while carrying a lot of memories, challenges, happiness, and fulfillment. Along with a sweeping vista of the mountain ranges, the trail descends alongside the Imja River. You could observe pheasants, musk deer, mountain goats, etc. as you pass through forests. You will pass through the charming villages of Shomare, Pangboche, Tengboche, and Phungi Thanga as you make your way down to your destination for today while noticing several prayer flags and chortens. After further traveling, you will reach Namche Bazaar.",
+    },
+    {
+      day: 15,
+      description: "Trek from Namche Bazaar (3440m) to Lukla (2840m) ",
+      details:
+        "After breakfast, you will traverse the Hillary Suspension Bridge, descend a challenging path, and pass through several surrounding settlements. The majority of your EBC Trek via Gokyo Ri and Cho La Pass will take place in and around the Dudh Koshi River Valley. Trekkers must go very slowly, with considerable control, while maintaining balance on the difficult, rocky terrain. You will be able to glimpse distant, snow-covered mountains as you pass through rhododendron woods and an open plain. The roar of the Dudh Koshi River bids a fond farewell after you travel through a number of picturesque villages that depict the way of life in the mountains. When you arrive in Lukla, you will check into a hotel to relax and prepare. Your time in the Khumbu region will likely come to an end this evening. It's time to celebrate since you were successful despite all obstacles.",
+    },
+    {
+      day: 16,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
+      details:
+        "From Lukla to Kathmandu, trekkers have the option of taking a mountain aircraft on this day. If all goes according to plan, you will return to Kathmandu in the morning. The 45-minute, scenic flight back to Kathmandu will be pleasurable. Most likely, you will be thinking about your trek to Everest Base Camp through Gokyo Cho La Pass and looking forward to spending time with your loved ones in your home country. Spend some time shopping and exploring Kathmandu once there. The evening is a celebration of the conclusion of the Gokyo Lakes to Everest Base Camp Trek.",
+    },
+    {
+      day: 17,
+      description: "Final Departure or Onward to Other Destination ",
+      details:
+        "Before departing for Tribhuwan International Airport at the planned departure time. This is the final day in Nepal, which provides the last opportunity to take advantage of shopping and enjoy touring the cultural metropolis of Kathmandu valley. We will drop you off at the airport three hours before your flight time.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "It is important to consider both your physical and mental well-being before starting the Everest Base Camp Trek through Gokyo Cho La Pass. If you have never gone trekking before, you must start by cycling or running and taking morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the EBC Trek via Gokyo Ri and Cho La Pass. Kalapatthar, which reaches 5545 meters above sea level, is the trail's highest point. The path through terraced fields, and Sherpa villages, and has a number of ascents and descents. You must thus be in superb physical shape to walk for 5 to 6 hours every day. Trekkers also need to have a positive outlook because discomfort and concern are usually caused by uncertainty. When you work with us to organize a vacation, we strongly advise that you speak with your doctor before you go about your respiratory condition and email us a copy of the report.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+///////////////////////////////////////////Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days////////////////////////////
+ebc_trek_helicopter_return_kathmandu_10_days: {
+  id: 26,
+    slug: "ebc_trek_helicopter_return_kathmandu_10_days",
+    category: "Trekking",
+    img: "/images/EverestBaseCampTreck.jpg",
+    description: "10 Days Everest Base Camp Trek Helicopter Return to Kathmandu guided by the professionals",
+    title: "Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days",
+    location: "Solukhumbu",
+    days: "10 days",
+    people: "1-12",
+    subimages: [
+      "/images/EverestBaseCampTreck1.jpg",
+      "/images/EverestBaseCampTreck2.jpg",
+      "/images/EverestBaseCampTreck3.jpg",
+      "/images/EverestBaseCampTreck4.jpg",
+      "/images/EverestBaseCampTreck5.jpg",
+    ],
+    overView: {
+      duration:
+        "A full 10 days 9 nights worth of adventurous and exciting trek throughout the circuit ",
+      startingPoint:
+        "Meet up at the designated location in Kathmandu at sharp 6 AM",
+      endingPoint:
+        "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+        peoples: 
+        "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+        category: 
+        "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+  about: [],
+  highlights: [
+    "Enjoy a scenic 30 minutes mountain flight to Lukla.",
+    "Explore the naturally blessed city Namche Bazaar",
+    "Visit the Sherpa museum and discover their amazing culture and traditions.",
+    "Stunning views of Mt. Everest, Lhotse, Nuptse, and Amadablam many others",
+    "Hike on the Khumbu glacier and see the Khumbu icefall",
+    "Reach Everest base camp and observe the 360-degree views including Everest within 10 days (Arrival to departure)",
+    "Sunrise view from Kalapathar best viewpoint of Mt Everest, Khumbu glacier of Nepal's North East Himalaya region and more.",
+    "Scenic Helicopter flight from Kalapathar/Gorkashep to Kathmandu with panoramic views of Himalayan peaks.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m) ",
+      details:
+        "Outside the terminal of Kathmandu's Tribhuvan International Airport, our airport agent will be waiting for you with a sign bearing the name Green Valley Nepal Treks. Then, a private tourist vehicle will take you to your respective hotel. When you are ready, come to our office for a pre-trip meeting to understand more about Helicopter Return Everest Base Camp Trek Itinerary.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) Then Trek to Phakding (2610m)",
+      details:
+        "After boarding a 45-minute scenic flight to Lukla in the early hours of the morning, your Everest Base Camp Trek with a Helicopter Return Trip will begin. While in the air, you will marvel at the stunning mountain ranges. When you arrive at Tenzing-Hillary Airport, our professional Sherpa crew will greet you and start the journey to Phakding. You will descend to the Kusum River and then go to Phakding by following the Dudh Koshi on its east bank. The most important thing will be to move gently since your body needs time to adjust to the thin air. After a short hike, you will arrive in Phakding, where you will spend the night at a local Sherpa-run teahouse.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+
+      details:
+        "Stunning Sherpa settlements like Bengkar, Monjo, and Jorsale will be seen on the route to Namche. There are several uphill and downhill inclinations on the EBC Trek with Helicopter Return Route from Phakding to Namche. Even though it might be quite exhausting, the fresh air, breathtaking scenery, and desire to stand at the highest peak will motivate you. You will enjoy views of snow-capped mountains including Kusum Kanguru, Thamserku, and other peaks as you cross the Dudh Koshi River at Bengkar. You will approach the checkpoint at Sagarmatha National Park's entry after crossing a few villages, where your permits will be verified. You will next travel upstream along the bank on level terrain until you reach the place where the Dudh Koshi and Bhote Koshi rivers merge. You will reach Namche Bazaar by ascending one of the suspension bridges above the river. The views of the Everest, Lhotse, Nuptse, Ama Dablam, and Taweche peaks are magnificent.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization in Namche Bazaar (3440m)",
+      details:
+        "According to your Everest Base Camp Trek with Helicopter Return Itinerary, this is your 1st acclimatization day in Namche. You will rest today and take your time being acclimated in Namche. In the Khumbu area, Namche Bazaar is a bustling town. ATMs, Internet cafés, restaurants, bakeries, and other facilities are plentiful there. You may take a quick stroll to one of the area's viewpoints, such as Thamo or Khunde, and then take a tour of the area, including the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa people, and their customs. The Everest View Hotel is accessible by trek as well. Mt. Everest, Mt. Ama Dablam, Mt. Lhotse, Mt. Nuptse, Mt. Cho-Oyu, Mt. Thamserku, Mt. Tawache, and many more mountains may be seen up close from this location. After spending some time wandering around the region, you will return to Namche for the evening. A picture gallery, a museum, and a few Sherpa settlements may all be seen along the journey.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3810m)",
+      details:
+        "Your Helicopter Return Trip with Everest Base Camp Trek Path from Namche Bazaar will ascend to Tengboche. The ascent to Tengboche is moderately easy, and the views of Mount Everest, Mt. Ama Dablam, Mt. Lobuche, and several other nearby peaks are amazing along the way. You will initially drop to the Dudh Koshi valley at Pungi Thanka before gradually climbing to Tengboche. You will visit the Tengboche monastery, a well-known monastery in Tengboche. On the approach to Everest Base Camp, it is a historic Buddhist monastery. Its fame extends beyond its purely spiritual importance to include its gorgeous setting. Just above the monastery, the enormous Mt. Ama Dablam is visible. The views of Mount Everest, Mount Nuptse, Mount Lhotse, Mount Lobuche, and several other mountains are also outstanding from here.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
+      details:
+        "To get to Deboche, you must take a short detour through a birch, juniper, fir, and rhododendron forest. You may visit a Buddhist nunnery and enjoy a breathtaking view of the mountains in Deboche. Following Imja Khola, the EBC Trek with Helicopter Return Route will continue and pass a number of chortens to Pangboche, where you will get a glimpse of stunning Ama Dablam Mountain. As you make your way from the high Pangboche to the dry, alpine environment of Shomare, you will see the greenery starting to thin down. After passing through Shomare you will be at Orsho, which offers a glimpse of Mt. Pumori's apical ridge. After traveling through a number of meadows and yak herder summer communities, you will eventually arrive at the chilly and windy village of Dingboche. It is completely covered with snow in the winter, but in the summer it looks beautiful with grassland and yaks wandering across it",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4410m) ",
+      details:
+        "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and others. ",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
+      details:
+        "The walk will get more interesting from Dingboche because of the steep elevation. You will pass Dughla (Thukla) by ascending a steep slope in the distance. You will stroll across a huge pass before arriving at Dughla, which is a welcome diversion from the monotony of walking straight. You will ascend a difficult path from Dughla to Chupki Lhara, where you will see a number of prayer flag-covered stones used as tributes to American mountaineer Scott Fischer and Nepali mountain guide Babu Chiri Sherpa, both of whom died while attempting to ascend Everest. Once you reach the Khumbu Glacier moraine, you will find yourself in front of several impressive peaks, including Khumbutse, Lingtren, Pumori, and Mahalangur Himal. As your Luxury EBC Helicopter Return Trek continues down the valley to Lobuche, the route suddenly becomes gentler. The Everest base camp, Kalapatthar, the Khumbu glacier, and the glacier-carved moraines are all visible from Lobuche's glacier ridge.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep",
+      details:
+        "The most significant day of the Everest Base Camp Trek with Helicopter Return is today. Early in the morning, you will awaken and proceed to Gorakshep. Walking gradually and gently, you will go beside the Khumbu Glacier. Stepping on stray boulders and stones requires special caution. The surrounding snow-capped mountains will greet you as you approach Gorakshep. Following the Khumbu Glacier, you will later climb up to Everest Base Camp. The path you go will be steep and covered in loose gravel and pebbles. At the base of Mount Everest, directly below the Khumbu Icefall, is where you'll find Everest Base Camp. During the climbing season, if you make this excursion, you'll see brightly colored small tents erected all over the barren ground. The feeling of being beneath some of the world's biggest mountains is incredible after achieving your goals. You will return to Gorakshep, where you will spend the night, after taking in the spectacular views of Mount Everest and the surrounding mountains.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then fly back to Kathmandu (1400m) by Helicopter",
+      details:
+        "You will awaken early in the morning and trek to Kalapatthar. One of the most well-known vantage locations in Nepal's Everest area. It is well-known for its sunrises and expansive vistas of the Everest region's mountains, especially the arduous Mt. Everest. You can see Mount Everest and other soaring peaks in the range as the sun's golden rays fall over their sparkling snow from Kalapatthar. You will spend some hours in Kalapatthar before descending to Gorakshep. You will be picked up by a chopper in Gorakshep and transported to Kathmandu by flying above the Everest area. Incredible views of the Himalayas, Gokyo Lakes, Khumbu Glaciers, Sagarmatha National Park, and several other Everest area attractions can be enjoyed throughout the helicopter journey. You will be taken to your hotel in Kathmandu after arrival at the airport in Kathmandu, which will conclude your Luxury Helicopter Return Everest Base Camp Trek.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Your physical and mental health are the most important factors to consider before participating in the Luxury Everest Base Camp Trek with Helicopter Return. If you don't have the requisite prior trekking experience, you may start by cycling, jogging, and going for morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the Everest Base Camp Trek. With a height gain of 5545 meters along the route, Kalapatthar is the highest point. On the path, which also travels through farmland, terraces, and sherpa communities, there are several ascents and descents. Therefore, you must be physically fit to walk for 5 to 6 hours every day. Trekkers also need to be mentally driven because a lack of confidence may typically result in pain and fear. We strongly advise you to consult your doctor before departing if you have a respiratory issue when you book a trip with us and then send us a copy of the report.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+////////////////////////////////////////////////////////Gokyo Chola Pass Trekking via EBC - 17 Days//////////////////////////////////
+gokyo_chola_pass_trekking_via_ebc_17_days: {
+  id: 27,
+  slug: "gokyo_chola_pass_trekking_via_ebc_17_days",
+  category: "Trekking",
+  img: "/locations/annapurna.webp",
+  description: "17 Days Gokyo Chola Pass Trekking via EBC guided by the professionals",
+  title: "Gokyo Chola Pass Trekking via EBC - 17 Days",
+  location: "Solukhumbu",
+  days: "17 days",
+  people: "1-12",
+  subimages: [
+    "/locations/chitwan_sub1.png",
+    "/locations/girl_sub1.png",
+    "/locations/chitwan_sub1.png",
+    "/locations/girl_sub1.png",
+    "/locations/girl_sub1.png",
+  ],
+  overView: {
+    duration:
+      "A full 17 days 16 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "After taking a picturesque flight from Kathmandu to Lukla, travel in Tenzing and Hillary's footsteps to Everest Base Camp and Kala Patthar.",
+    "Beautiful scene with gently sloping hills, quaint towns, and lush meadows",
+    "Wonderful opportunity to tour Buddhist temples and get knowledge of the Sherpa culture and customs that are unique to the area",
+    "In Sagarmatha National Park, you get a fantastic chance to see wildlife and birds.",
+    "Visit the largest and oldest Tengboche monastery in Tengboche and give your prayers there.",
+    "Astonishing close-up views of snow-capped mountains, icefalls, and steep slopes while viewing ancient Chortens, Gompas, colorful Mani walls, and prayer wheels.",
+    "Explore Gokyo Lakes and Ngozumpa Glacier after taking in the magnificent views of Mount Everest and the surrounding mountains from Kalapatthar and Gokyo Peak.",
+    "You will explore incredible places on your Gokyo Chola Pass Trekking via EBC, including the Everest Base Camp, Kala Patthar, Cho La Pass, Gokyo Lake, and Gokyo Ri.",
+    " Spend a blissful time exploring undiscovered pathways through luxuriant foliage in the Sagarmath National Park and Gokyo valley",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrive in Kathmandu (1400m)",
+      details:
+        "Our agent will meet and greet you at the Tribhuvan International Airport. You will be taken to the hotel in a private tourist vehicle. You might choose to take a break or visit us in person to learn more about the Gokyo Chola Pass Trekking via EBC Itinerary strategy.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
+      details:
+        "Your Gokyo Cho La Pass Trekking via EBC will start after a 30- to 40-minute flight from Kathmandu to Lukla. The Annapurna and Langtang Himalayan ranges may both be seen magnificently from this majestic flight. First, you will make your way from Lukla to the Thado Koshi River while across a few suspension bridges. After a leisurely hour of descent, you will reach a Chheplung hamlet with a view of Mt. Khumbila (5,761 m), a holy mountain that has never been scaled. The trip will be more enjoyable and easier as you adjust. From Chheplung, you will descend to Phakding, where you may see Pemacholing and Rimishung Monastery.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
+      details:
+        "After eating breakfast in Phakding, you will keep walking. You will experience both uphill and downhill walking on your Gokyo Cho La Pass Trek via EBC Route, as well as several river crossings and a breathtaking view of Mt. Thamserku (6,608 m) from the Bengkar village. You will pass through Monjo Village, thick woods, and rough paths on your way to the Sagarmatha National Park's entrance. After registering your permits, you will enter the forest. You will be able to glimpse Mount Everest from this forest for the first time. After passing past the village of Jorsale, you will proceed to Namche Bazaar by crossing the Hillary Suspension Bridge. From here, you may enjoy stunning views of the Himalayas, including Everest, Lhotse, and Tawache.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m)",
+      details:
+        "Before continuing on the route of EBC Trek with Gokyo Chola Pass, it is time to rest and acclimatize in Namche. Namche Bazaar is a bustling town in the Khumbu region. Bakeries, restaurants, ATMs, and Internet cafés are just a few of the various conveniences. Before going on a tour of the community, you could quickly stop at a viewpoint like Thame or Khunde. To find out more about Everest climbers, Sherpa people, and their traditions, go to the Tourist Visitor Center. The Everest View Hotel is also reachable by trek. From here, one can view several mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many others. You will return to Namche for the evening after some time spent exploring the area. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
+    },
+    {
+      day: 5,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m)",
+      details:
+        "Your EBC Trek with Gokyo Cho La Pass Route will depart from Namche after breakfast and travel toward Tangboche. From the route to Tangboche, one can view Mt. Everest, Mt. Nuptse, Mt. Ama Dablam, and Mt. Thamserku. You will be astounded by the fauna, including musk deer, Himalayan Thar, and multicolored pheasants, as you stroll along the smooth and occasionally zigzagging path. After passing through a pine grove, you will cross a bridge over the Dudh Koshi River that is covered with prayer flags. After some hiking, you reach Phungi Thanga, a little settlement with a few teahouses and an army outpost tucked away in an alpine forest. You will also have the opportunity to visit the Tengboche monastery and see a religious ritual performed by the monks there.",
+    },
+    {
+      day: 6,
+      description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
+      details:
+        "Tengbohe offers a breathtaking dawn view of the surrounding mountains, including views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, among others. Today, you will begin your EBC with Gokyo Chola Pass Trek by hiking via Imja Khola, which will descend to the riverbed through birch and rhododendron forests. On your route to Pangboche, where you will be treated to a breathtaking vista of the Himalayas, you will stop at a Buddhist nunnery at Deboche and pass by a few chortens. Walking from the high Pangboche to the parched and mountainous Shomare, one can clearly see the greenery dwindling. You may glimpse Mt. Pumori's coronal crest from Orsho before getting to Dingboche, a frigid and windy village where you will spend the night.",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4410m)",
+      details:
+        "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 14 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
+      details:
+        "Climbing via the Khumbu Khola valley to Duglha will be the first leg of the Gokyo Chola Pass via EBC Trekking. The valley starts to become smaller as you approach closer to Dusa. With several large rocks and adjacent, steep mountains, the path is challenging. It is also possible to see a lot of monuments with praying flags and stones in memory of climbers who perished while attempting Mount Everest. The route between Gokyo Lakes and Cho-La Pass will next come into view. It's also possible to observe peaks like Khumbuste (6,636 m), Lingtren (6,749 m), and Pumori (7,161 m). Walking across the hilly landscape on a typical trip to Lobuche may easily make you exhausted. There aren't many tea houses in Lobuche for overnight stays",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then to Everest Base Camp (5364m), back to Gorakshep ",
+      details:
+        "Following breakfast in Lobuche, you will stroll to Gorakshep. The best day of the 16 Days Gokyo Cho La Pass via EBC Trek Itinerary will be today since you will finally arrive at base camp. The duration is two to three hours. You will have lunch in Gorakshep. After lunch, your journey to Mount Everest Base Camp will begin. Going to Everest Base Camp from Gorakshep would take you about 3 to 4 hours. It's stunning at Everest Base Camp. The Nuptse, Khumbuste, and Pumori peaks can all be seen magnificently from the base camp. You will hike back to Gorakshep, where you will spend the night, after admiring the view.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then Dzongla (4830m) ",
+      details:
+        "The first stage of the Gokyo Chola Pass Trekking via EBC Journey has come to an end. It started with a stroll to take in a breathtaking view of the sun rising from Kalapatthar. You will reach Kalapatthar after a few hours of walking, where you may sit and satisfy your eyes' hunger for a beautiful vista of the Himalayas. From Kalapattar's 360-degree vantage point, it is possible to see Everest, Lhotse, Nuptse, Pumo Ri, Ama Dablam, Khangtenga, Lobuche Peak, Everest Base Camp, Khumbu glacier, and Icefalls. You will leave your mark while taking lifetime-preserving memories and pictures with you. You will return to Gorakshep, gather your belongings, and get ready to go back the way you came to Lobuche. Then, you will go to Dzongla along the lovely path.",
+    },
+    {
+      day: 11,
+      description:
+        "Trek from Dzongla (4830m) to Thagnak (4750m) via Cho La Pass (5367m) ",
+      details:
+        "Get up early in the morning to see Cholatse's breathtaking scenery. The hardest part of the Gokyo Cho La Pass Trekking via EBC Itinerary starts after you pass through Dzongla and drop to a basin after passing through spur woods. You will be rewarded with a stunning view of Chola Lake and Mt. Ama Dablam as you ascend back to the top. Rocks make the ascent more challenging and lead to the winding Bergschrund trails. From the summit, you can view stunning peaks all around you, which are framed by soaring prayer flags. The descent to Thagnak is not very difficult unless the rocks are coated in ice, which would make the journey hazardous and difficult. Thagnak is where you will spend the night.",
+    },
+    {
+      day: 12,
+      description: "Trek from Thagnak (4700m) to Gokyo (4750m) ",
+      details:
+        "In order to continue on the EBC Trek with Gokyo Chola Pass Route over Nepal's longest glacier, the Ngozumpa Glacier, you must depart the little community early in the morning. As you go closer to the opposite side of the glacier, you might be able to view the second Gokyo lakes, one of the six series. The Gokyo hamlet may be situated on the third lake's edge, near the second lake.",
+    },
+    {
+      day: 13,
+      description: "Trek from Gokyo (4750m) to Dhole (4200m)",
+      details:
+        "Your Gokyo Chola Pass Trekking via EBC Route will descend from Gokyo and traverse the Ngozumpa Glacier before arriving at the Dudh Koshi River. The short stroll passes via the first and second lakes. Along the route, there are stunning views of the peaks of Cholatse, Taboche, and others. Once you reach Machhermo, where Cho Oyu, Kangtega, and Thamserku form breathtaking vistas, you will progressively descend. To reach Dole, where you will spend the night, the trail continues past the hamlets of Luza and Lhafarma.",
+    },
+    {
+      day: 14,
+      description: "Trek from Dhole (4200m) to Namche Bazaar (3440m) ",
+      details:
+        "Your Gokyo Cho La Pass Trekking via EBC journey for today begins in Dole and concludes in Namche Bazaar. Your walk will descend, where you will see that the plants and wildlife are more diverse. Phortse Thanga is reached during the steep drop, followed by Mong La and then a moderate descent to Namche. Mount Khumbila, Taboche, Thamserku, Ama Dablam, Everest, and Tengboche, which serve as a backdrop, can be said goodbye to as you go. The night will be spent at a tea house in Namche.",
+    },
+    {
+      day: 15,
+      description:
+        "Trek from Namche Bazaar (3440m) to Phakding (2610m) and then to Lukla (2840m)",
+      details:
+        "The Gokyo Cho La Pass Trek via EBC continues with a steep descent track on the last day. To get to the suspension bridge over the Dudh Koshi, hikers must go extremely slowly, carefully, and steadily through the steep, rocky terrain. They must also travel through an open plain and a rhododendron woodland while taking in the distant views of snow-capped mountains. Lukla will eventually be reached after passing through quaint communities like Jorsalle, Monjo, Phakding, and Chheplung. You will spend the night in a teahouse in Lukla.",
+    },
+    {
+      day: 16,
+      description: "Flight from Lukla (2840m) to Kathmandu (1400m)",
+      details:
+        "You will be leaving the Everest region on this day. So, make the most of the day by touring the local Lukla region. Your EBC Trek with Gokyo Chola Pass Itinerary comes to an end when you have a sumptuous breakfast in Lukla and catch a morning flight from Lukla to Kathmandu. Like the landing, a takeoff is a spectacular event. The remaining time of the day might be spent exploring, unwinding, or celebrating.",
+    },
+    {
+      day: 17,
+      description: "Final Departure ",
+      details:
+        "A drop-off in a private tourist car from the hotel to the airport is scheduled three hours before to the flight's scheduled departure time. By choosing a different curriculum, you may also prolong your journey.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparation is key for a successful and enjoyable EBC Trek with Gokyo Chola Pass experience. Remember to always listen to your body, and don’t hesitate to turn back if you feel unwell. Here are a few things to consider when preparing for the trek:",
+    ],
+    points: [
+      "Physical Fitness: The EBC Trek with Gokyo Cho La Pass is a challenging trek that requires a good level of physical fitness. It is important to start preparing for the trek well in advance, ideally several months before your departure date. A regular exercise routine that includes cardio and strength training will help to improve your overall fitness and endurance.",
+      "Altitude Acclimatization: The trek takes place at high altitudes, and it is important to be aware of the risks of altitude sickness. It is recommended to spend a few days acclimatizing in Kathmandu before embarking on the trek. Additionally, trekkers should be aware of the symptoms of altitude sickness and take necessary precautions, such as taking Diamox or descending to a lower altitude if symptoms occur.",
+      "ental Preparation: The EBC with Gokyo Chola Pass Trek is a challenging trek that requires a good level of mental preparation. It is important to be mentally prepared for the physical challenges and the lack of amenities and services in a remote and rugged area.",
+    ],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+////////////////////////////////////////////Everest Base Camp Trek Heli Out to Lukla - 12 Days////////////////////////////////
+ebc_trek_heli_out_lukla_12_days: {
+  id: 28,
+  slug: "ebc_trek_heli_out_lukla_12_days",
+  category: "Trekking",
+  img: "/images/EverestBaseCampTreck.jpg",
+  description: "12 Days Everest Base Camp Trek Heli Out to Lukla guided by the professionals",
+  title: "Everest Base Camp Trek Heli Out to Lukla - 12 Days",
+  location: "Solukhumbu",
+  days: "12 days",
+  people: "1-12",
+  subimages: [
+    "/images/EverestBaseCampTreck1.jpg",
+    "/images/EverestBaseCampTreck2.jpg",
+    "/images/EverestBaseCampTreck3.jpg",
+    "/images/EverestBaseCampTreck4.jpg",
+    "/images/EverestBaseCampTreck5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Sightseeing at the UNESCO World Heritage Sites in Kathmandu City.",
+    "A real cultural experience is provided by staying in tidy, pleasant houses and lodges during Everest Base Camp Trek with Heli Out",
+    "Enjoy a hearty breakfast prepared by locals from the highlands while taking in the peace and breathtaking aerial views of the Himalayan Alps.",
+    "Enjoy the unspoiled, rustic, and beautiful Everest Region while learning about the Sherpa culture, tradition, cuisine, and inspirational way of life.",
+    "Wander through Sagarmatha National Park's thick forests and across its renowned suspension bridges, which are covered with vibrant prayer flags.",
+    "Get the necessary rest and acclimatization, and have enough safety support.",
+    "On your acclimation day in Namche Bazaar, the Sherpa capital, and the entrance to Everest, get a close-up view of Mount Everest from the Everest View Hotel.",
+    "Attend Everest Base Camp Heli Trek up to Kala Patthar for majestic views of Everest and other surrounding peaks.",
+    "Enjoy the view of Mt. Everest, the tallest mountain peak in the world, and other peaks between 7,000 and 8,000 meters in height.",
+    " Get a glance at other famous mountains in the area besides Everest, such as Ama Dablam, Lhotse, Cho Oyu, and Pumori.",
+    "From Gorakshep, take a helicopter directly back to Lukla while admiring the aerial view of the area.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
+    },
+    {
+      day: 2,
+      description:
+        "Flight from Kathmandu (1400m) to Lukla (2840m), then Trek to Phakding (2610m)",
+      details:
+        "We will set up a vehicle to transport you to the domestic airport in Kathmandu according to the timing of your domestic flight from Kathmandu to Lukla. You will have amazing views of the dawn sun rising over the snow-covered mountains on the trip to Lukla. After a 40-minute picturesque flight, you will arrive at Lukla's Tenzing-Hillary Airport, the entrance to the Himalayas. After greeting our crew members, the Everest Base Camp Trek Heli Out to Lukla starts right there at the airport. From that, it's a short walk to Phakding. You will spend the night in Phakding because today is the first day of trekking.",
+    },
+    {
+      day: 3,
+      description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
+
+      details:
+        "The Everest Base Camp Trek Heli Out Route departs early in the morning and travels by lovely pine trees, the Dudh Koshi River, and breathtaking views of Mount Thamserku. You will reach a checkpoint, the entry to Sagarmatha National Park, after crossing a few communities. You will continue walking across the junction of the Dudh Koshi and Bhote Koshi Rivers before climbing steeply to Namche Bazaar, where you will get your first glimpse of the magnificent Mount Everest and the ranges of Mount Lhotse and Mount Nuptse.",
+    },
+    {
+      day: 4,
+      description: "Acclimatization Day in Namche Bazaar (3440m)",
+      details:
+        "The largest town in the Khumbu area, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other businesses. The ideal destination for acclimatization and a day of relaxation is Namche Bazaar. As a result, today is designated as an acclimatization day in your Everest Base Camp Trek Heli Out Itinerary. Despite the fact that it's a rest day for acclimatization, you will go on a short trek to a nearby viewpoint (Thame or Khunde) and enjoy a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people, their culture, and the local flora and wildlife.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Namche Bazaar (3440m) to Debuche (3820m) via Tengboche (3860m) ",
+      details:
+        "The Everest Base Camp Trek with Heli Out Route will take you up a hill where you can see Thamserku, Kusum Kangrib, and Kantega in the distance. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The trek up to Tengboche is difficult in the beginning, but it becomes easier as you get closer to the forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings.",
+    },
+    {
+      day: 6,
+      description: "Trek from Deboche (3820m) to Dingboche (4410m)",
+      details:
+        "The mountain scenery in the morning is magnificent, and you may take photos of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, as well as other spectacular peaks. In Imja Khola, where you will descend to the riverbed, Heli Out Everest Base Camp Trek will continue through the rhododendron and birch woods. You will stop at a Buddhist nunnery in Deboche before traveling through a few chortens to get to Pangboche, where you can enjoy a magnificent view of the marvelous mountains. Walking from upper Pangboche to the barren, alpine environment of Shomare reveals the vegetation's drastic reduction. You can see Mt. Pumori's apical ridge from Orsho before arriving at the chilly and windy town of Dingboche, where you will spend the night.",
+    },
+    {
+      day: 7,
+      description: "Acclimatization Day in Dingboche (4410 m)",
+      details:
+        "You are now at Dingboche for your second acclimatization day, in accordance with your Everest Base Camp Heli Fly Out Trek Itinerary. On a clear day, you might be able to see Makalu, the fifth-highest peak in the world from Dingboche. Explore this lovely valley that goes up to Island Peak for some breathtaking vistas of the Lhotse-Nuptse range and the North face of Ama Dablam. The midday break after a short stroll is a great opportunity to unwind. A different choice would be to trek up to Chhukung, from where you might see Island Peak, Ama Dablam, Makalu, Tawoche Peak, and other peaks in a broad panorama.",
+    },
+    {
+      day: 8,
+      description: "Trek from Dingboche (4410m) to Lhobuche (4910m)",
+      details:
+        "Today's Everest Base Camp Heli Out Trek Route will be a modest ascent to Thugla Pass before a small ascent to Lobuche. On the hill above the Thugla pass, there is a memorial stupa and a prayer flag. The stupas were constructed in honor of climbers who died while attempting Mount Everest. The Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru mountains will be visible to you. You can see Kala Patthar, the Khumbu glacier, the Everest base camp, and moraines created by glaciers from the glacier ridge at Lobuche.",
+    },
+    {
+      day: 9,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) to Everest Base Camp (5364m), back to Gorakshep",
+      details:
+        "On the Everest Base Camp Trek Heli Out to Lukla Itinerary, this is the most significant day. A 360-degree panoramic vista of snow-capped mountains is available at Thangma Riju. Although Mount Everest cannot be seen from here, Mount Nuptse, Mount Nuptse, and Mount Pumori can all be seen clearly. After ascending the difficult terrain of Changri glacier, one can view the grey-green area of Kalapathar below Mount Pumori. You will travel from Lobuche to Gorakshep, drop off your belongings in a teahouse, and then move on to Everest Base Camp. You will climb down to Gorakshep for overnight lodging after enjoying yourself at Everest Base Camp.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then Fly back to Lukla (2840m) by Helicopter",
+      details:
+        "In order for hikers to see Mount Everest as night transforms into a beautiful morning with the light of the day, the Everest Base Camp Trek Heli Out Trip begins significantly earlier in the morning. From the perspectives of Peaks Lingtren, Khumbutse, and Changtse. It is advised to sometimes stop and collect your breath throughout the two-hour ascent to Kala Patthar while taking pictures. Gorakshep offers a comprehensive perspective of the Himalayas. After eating breakfast, you will go to Gorakshep where our helicopter will pick you up and fly you to Lukla. The most thrilling and unforgettable experience of the whole Everest Base Camp Trek with Heli Out adventure would be the helicopter journey to Lukla.",
+    },
+    {
+      day: 11,
+      description: "Flight back from Lukla (2840m) to Kathmandu (1400m)",
+      details:
+        "Today is the day that travelers may once more experience the mountain flight from Lukla to Kathmandu. Once in Kathmandu, take advantage of the opportunity to shop and explore the city. The evening is a celebration of the Heli Out Everest Base Camp Trek's accomplishment.",
+    },
+    {
+      day: 12,
+      description: "Final Departure or Onward for Next Program ",
+      details:
+        "On your final day in Nepal, you will get one more opportunity to indulge in shopping and enjoy a leisurely sightseeing tour of the historic Kathmandu Valley before departing for Tribhuwan International Airport at the appointed schedule.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparing for an Everest Base Camp Heli Out Trek requires a combination of physical fitness and mental preparation. Physical fitness can be achieved through a combination of cardiovascular and strength training exercises, such as hiking, running, cycling, and weightlifting. It is also important to gradually increase the intensity and duration of your exercise routine as the trek approaches. Mentally, it is important to familiarize yourself with the itinerary and potential challenges of the trek, such as altitude sickness. It is also helpful to set specific goals for the trek and to maintain a positive attitude. It is also important to ensure that you have all the necessary gear and equipment, such as good-quality hiking boots, warm clothing, a sleeping bag, and a backpack. It is also important to consider getting travel and health insurance for the trek. Lastly, it is recommended that you acclimatize yourself to the altitude by doing some smaller treks or hiking in high-altitude areas before attempting the Everest Base Camp Trek Heli Out to Lukla.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+////////////////////////////////////////////Pikey Peak Trek - 10 Days//////////////////////////////////////////////////////////
+pikey_peak_trek_10_days: {
+  id: 29,
+  slug: "pikey_peak_trek_10_days",
+  category: "Trekking",
+  img: "/images/pikeypeaktrek1.jpg",
+  description: "10 Days Pikey Peak Trek guided by the professionals",
+  title: "Pikey Peak Trek - 10 Days",
+  location: "Solukhumbu",
+  days: "10 days",
+  people: "1-12",
+  subimages: [
+    "/images/pikeypeaktrek1.jpg",
+    "/images/pikeypeaktrek2.jpg",
+    "/images/pikeypeaktrek3.jpg",
+    "/images/pikeypeaktrek4.jpeg",
+    "/images/pikeypeaktrek5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 10 days 9 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Sightseeing at the UNESCO World Heritage Sites in Kathmandu City.",
+    "A real cultural experience is provided by staying in tidy, pleasant houses and lodges during Everest Base Camp Trek with Heli Out",
+    "Enjoy a hearty breakfast prepared by locals from the highlands while taking in the peace and breathtaking aerial views of the Himalayan Alps.",
+    "Enjoy the unspoiled, rustic, and beautiful Everest Region while learning about the Sherpa culture, tradition, cuisine, and inspirational way of life.",
+    "Wander through Sagarmatha National Park's thick forests and across its renowned suspension bridges, which are covered with vibrant prayer flags.",
+    "Get the necessary rest and acclimatization, and have enough safety support.",
+    "On your acclimation day in Namche Bazaar, the Sherpa capital, and the entrance to Everest, get a close-up view of Mount Everest from the Everest View Hotel.",
+    "Attend Everest Base Camp Heli Trek up to Kala Patthar for majestic views of Everest and other surrounding peaks.",
+    "Enjoy the view of Mt. Everest, the tallest mountain peak in the world, and other peaks between 7,000 and 8,000 meters in height.",
+    "Get a glance at other famous mountains in the area besides Everest, such as Ama Dablam, Lhotse, Cho Oyu, and Pumori.",
+    " From Gorakshep, take a helicopter directly back to Lukla while admiring the aerial view of the area.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details:
+        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
+    },
+    {
+      day: 2,
+      description: "Drive from Kathmandu (1400m) to Dhap Bazaar (2850m)",
+      details:
+        "We will set up a vehicle to transport you to the domestic airport in Kathmandu according to the timing of your domestic flight from Kathmandu to Lukla. You will have amazing views of the dawn sun rising over the snow-covered mountains on the trip to Lukla. After a 40-minute picturesque flight, you will arrive at Lukla's Tenzing-Hillary Airport, the entrance to the Himalayas. After greeting our crew members, the Everest Base Camp Trek Heli Out to Lukla starts right there at the airport. From that, it's a short walk to Phakding. You will spend the night in Phakding because today is the first day of trekking.",
+    },
+    {
+      day: 3,
+      description: "Trek from Dhap Bazaar (2850m) to Jhapre (2820m)",
+
+      details:
+        "The Everest Base Camp Trek Heli Out Route departs early in the morning and travels by lovely pine trees, the Dudh Koshi River, and breathtaking views of Mount Thamserku. You will reach a checkpoint, the entry to Sagarmatha National Park, after crossing a few communities. You will continue walking across the junction of the Dudh Koshi and Bhote Koshi Rivers before climbing steeply to Namche Bazaar, where you will get your first glimpse of the magnificent Mount Everest and the ranges of Mount Lhotse and Mount Nuptse.",
+    },
+    {
+      day: 4,
+      description:
+        "Trek from Jhapre (2820m) to Pikey Peak Base Camp (3640m) ",
+      details:
+        "The largest town in the Khumbu area, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other businesses. The ideal destination for acclimatization and a day of relaxation is Namche Bazaar. As a result, today is designated as an acclimatization day in your Everest Base Camp Trek Heli Out Itinerary. Despite the fact that it's a rest day for acclimatization, you will go on a short trek to a nearby viewpoint (Thame or Khunde) and enjoy a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people, their culture, and the local flora and wildlife.",
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Pikey Peak Base Camp (3640m) to Summit (4065m) then descend to Jasmane Bhanjyang (3549m) ",
+      details:
+        "The Everest Base Camp Trek with Heli Out Route will take you up a hill where you can see Thamserku, Kusum Kangrib, and Kantega in the distance. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The trek up to Tengboche is difficult in the beginning, but it becomes easier as you get closer to the forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings.",
+    },
+    {
+      day: 6,
+      description: "Trek from Jasmane Bhanjyang (3549m) to Junbesi (2700m) ",
+      details:
+        "The mountain scenery in the morning is magnificent, and you may take photos of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, as well as other spectacular peaks. In Imja Khola, where you will descend to the riverbed, Heli Out Everest Base Camp Trek will continue through the rhododendron and birch woods. You will stop at a Buddhist nunnery in Deboche before traveling through a few chortens to get to Pangboche, where you can enjoy a magnificent view of the marvelous mountains. Walking from upper Pangboche to the barren, alpine environment of Shomare reveals the vegetation's drastic reduction. You can see Mt. Pumori's apical ridge from Orsho before arriving at the chilly and windy town of Dingboche, where you will spend the night.",
+    },
+    {
+      day: 7,
+      description:
+        "Rest Day to Visit Thuptenchholing Monastery or Go To another Everest View Point",
+      details:
+        "You are now at Dingboche for your second acclimatization day, in accordance with your Everest Base Camp Heli Fly Out Trek Itinerary. On a clear day, you might be able to see Makalu, the fifth-highest peak in the world from Dingboche. Explore this lovely valley that goes up to Island Peak for some breathtaking vistas of the Lhotse-Nuptse range and the North face of Ama Dablam. The midday break after a short stroll is a great opportunity to unwind. A different choice would be to trek up to Chhukung, from where you might see Island Peak, Ama Dablam, Makalu, Tawoche Peak, and other peaks in a broad panorama.",
+    },
+    {
+      day: 8,
+      description: "Trek from Junbesi (2700m) to Phaplu (2469m) ",
+      details:
+        "Today's Everest Base Camp Heli Out Trek Route will be a modest ascent to Thugla Pass before a small ascent to Lobuche. On the hill above the Thugla pass, there is a memorial stupa and a prayer flag. The stupas were constructed in honor of climbers who died while attempting Mount Everest. The Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru mountains will be visible to you. You can see Kala Patthar, the Khumbu glacier, the Everest base camp, and moraines created by glaciers from the glacier ridge at Lobuche.",
+    },
+    {
+      day: 9,
+      description: "Drive back to Kathmandu from Phaplu (2469m) ",
+      details:
+        "On the Everest Base Camp Trek Heli Out to Lukla Itinerary, this is the most significant day. A 360-degree panoramic vista of snow-capped mountains is available at Thangma Riju. Although Mount Everest cannot be seen from here, Mount Nuptse, Mount Nuptse, and Mount Pumori can all be seen clearly. After ascending the difficult terrain of Changri glacier, one can view the grey-green area of Kalapathar below Mount Pumori. You will travel from Lobuche to Gorakshep, drop off your belongings in a teahouse, and then move on to Everest Base Camp. You will climb down to Gorakshep for overnight lodging after enjoying yourself at Everest Base Camp.",
+    },
+    {
+      day: 10,
+      description: "Final Departure or onward for next distination",
+      details:
+        "In order for hikers to see Mount Everest as night transforms into a beautiful morning with the light of the day, the Everest Base Camp Trek Heli Out Trip begins significantly earlier in the morning. From the perspectives of Peaks Lingtren, Khumbutse, and Changtse. It is advised to sometimes stop and collect your breath throughout the two-hour ascent to Kala Patthar while taking pictures. Gorakshep offers a comprehensive perspective of the Himalayas. After eating breakfast, you will go to Gorakshep where our helicopter will pick you up and fly you to Lukla. The most thrilling and unforgettable experience of the whole Everest Base Camp Trek with Heli Out adventure would be the helicopter journey to Lukla.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Preparing for an Everest Base Camp Heli Out Trek requires a combination of physical fitness and mental preparation. Physical fitness can be achieved through a combination of cardiovascular and strength training exercises, such as hiking, running, cycling, and weightlifting. It is also important to gradually increase the intensity and duration of your exercise routine as the trek approaches. Mentally, it is important to familiarize yourself with the itinerary and potential challenges of the trek, such as altitude sickness. It is also helpful to set specific goals for the trek and to maintain a positive attitude. It is also important to ensure that you have all the necessary gear and equipment, such as good-quality hiking boots, warm clothing, a sleeping bag, and a backpack. It is also important to consider getting travel and health insurance for the trek. Lastly, it is recommended that you acclimatize yourself to the altitude by doing some smaller treks or hiking in high-altitude areas before attempting the Everest Base Camp Trek Heli Out to Lukla.",
+    ],
+    points: [],
+  },
+  path: ["/images/Pikey map.jpg"],
+},
+////////////////////////////////////////////////////Everest Base Camp Trek by Road - 16 Days/////////////////////////////////////////
+ebc_trek_by_road_16_days: {
+  id: 30,
+  slug: "ebc_trek_by_road_16_days",
+  category: "Trekking",
+  img: "/images/EverestBaseCampTreck.jpg",
+  description: "14 Days Annapurna Base Camp Trek guided by the professionals",
+  title: "Everest Base Camp Trek by Road - 16 Days",
+  location: "Solukhumbu",
+  days: "16 days",
+  people: "1-12",
+  subimages: [
+    "/images/EverestBaseCampTreck1.jpg",
+    "/images/EverestBaseCampTreck2.jpg",
+    "/images/EverestBaseCampTreck3.jpg",
+    "/images/EverestBaseCampTreck4.jpg",
+    "/images/EverestBaseCampTreck5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 16 days 15 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Drive a private or shared jeep from Kathmandu to Thamdanda and trace the same route back to Kathmandu.",
+    "Everest Base Camp Trek by Road without flight is the alternative way to Everest base camp",
+    "Discover beautiful communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
+    " The path through Thamdanda covers the classic trail of the Jiri Everest Base Camp trek route",
+    "Explore the genuine communities, farms, orchards, and low mountain passes of the Solu region.",
+    "Seemingly inspirational lifestyles may be found in the Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
+    "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
+    "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.Drive a private or shared jeep from Kathmandu to Thamdanda and trace the same route back to Kathmandu.",
+    " Everest Base Camp Trek by Road without flight is the alternative way to Everest base camp",
+    "Discover beautiful communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
+    "The path through Thamdanda covers the classic trail of the Jiri Everest Base Camp trek route",
+    "Explore the genuine communities, farms, orchards, and low mountain passes of the Solu region.",
+    "Seemingly inspirational lifestyles may be found in the Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
+    "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
+    "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop off service",
+    "Create Himalayan Adventure Duffle Bag and T-Shirt",
+    "Map of Everest Base Came Trek",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival to Kathmandu (1400m)",
+      details:
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of the Everest Base Camp Trek by Road Itinerary.",
+    },
+    {
+      day: 2,
+      description:
+        "Drive from Kathmandu (1400m) to Thamdanda (2326m) by Jeep",
+      details:
+        "The guide and porter will arrive at your accommodation early in the morning, around 5 AM, in accordance with the Everest Base Camp Trek without Lukla Flight Itinerary, and they will then drive to the Jeep station as instructed. After traveling for five hours along the BP Highway, you will arrive for lunch in the picturesque town of Ghurmi. The ride from Ghurmi is considerably more enjoyable by the road's route via rivers, agricultural terraces, lush fields, and villages. From Ghurmi, it takes around four hours to reach Phaplu through Salleri, and it takes another three to four hours to travel off-road to reach Thamdanda, which is the destination for today. Overnight lodging will be provided in a tea house at Thamdanda.",
+    },
+    {
+      day: 3,
+      description: "Trek from Thamdanda (2326m) to Phakding (2640m) ",
+      details:
+        "Today's Everest Base Camp Trekking by Road without a flight to Lukla begins at Thamdanda and takes two hours of ascent to reach Paiya. The route then descends to the Surke via a rhododendron grove. Once past the remnants of a century-old Buddhist Chorten, the trail then follows the Dudhkoshi River to the Chaurikharka below Lukla. You will reach Chheplung after a short distance on foot and join the main Everest Base Camp path there. You will now notice a large group of hikers arriving from the Lukla airplane. You will reach Phakding, the home of the Sherpa, after another two hours of leisurely walking through villages, woods, and some long-ass bridges. Overnight lodging will be provided in a tea house at Phakding.",
+    },
+    {
+      day: 4,
+      description: "Trek from Phakding (2640m) to Namche Bazaar (3440m) ",
+      details:
+        "You will begin your Everest Trek by the road along the river bank from Phakding after breakfast. After passing through the little town of Tok Tok, you will enter the Sagarmatha National Park at Manjo in three hours, where your paperwork and trekking permissions will be examined. Then, after crossing the suspension bridge, you will instantly descend to the Dudhkoshi River and enter Jorshale. After some time, you will cross the same river again over a suspension bridge, then go down the riverbank to the fifth suspension bridge, which bears the name Tenzing Hillary Bridge in honor of the legendary explorer. To catch the first glimpse of the top of the world from the right edge, hike through the jungle for two to three hours uphill to Namche Bazaar. Spend the remaining portion of the day exploring the beautiful Sherpa homeland while watching the National Park View Point sunset at the top of the town. In the naturally endowed Namche bazaar, spend the night at the tea house to see the stunning mountains.",
+    },
+    {
+      day: 5,
+      description: "Acclimatization Day in Namche Bazaar (3440m) ",
+      details:
+        "Namche is a great place to acclimate during the 16 days Everest base camp trek without Lukla flight. With several government offices, Internet cafés, ATMs, restaurants, stores, and other amenities, it serves as the main hub for the Khumbu Region. Health professionals advise that during rest days, you should move about and be active rather than sitting still. Therefore, for the day, you can ascend to Thamo or Khunde. You can ascend to Khumjung village from Syangbuche's Everest View Hotel. Our guides will direct you to the Sagarmatha National Park Tourist Visitor Center, where you may discover more about the Sherpa Culture and the First Everest Climbers. You will also get knowledge of the fauna and flora of the Everest Region.",
+    },
+    {
+      day: 6,
+      description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m)",
+      details:
+        "This is the sixth day of the Everest Base Camp Trek started via road. Your route to Tengboche will take you by breathtaking mountain vistas of Everest, Lhotse, Ama Dablam, and Thamserku. After crossing the Dudh Koshi in three to four hours of walking, the main path descends through the alpine forest to the Phungi Tenga. This trail crosses two trail intersections, one coming from Gokyo Lake and the other from Khumjung. The Himalaya Thar and Himalaya Monals are best viewed from here as the route ascends through the forest. You will eventually arrive at Tengboche Monastery, a hill station with an amazing view of Ama Dablam, Mount Everest, Mount Lhotse, etc. You will spend the night in a peaceful monastery community where you can admire the mountains from your window.",
+    },
+    {
+      day: 7,
+      description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
+      details:
+        "EBC Trek without Lukla Flight Route will descend through the jungle to Deboche from Tengboche, where there is a good chance you may spot endangered species including Musk Deer and Daphne. Following that, you will pass the little community at Milingo and cross the double-decorating bridge over the Imja Khola. As a massive route ascends to the ancient Buddhist Chorten and enters the lovely gate to enter Pangboche town, the view of the Ama Dablam can be observed from a much closer distance. To reach the picturesque community of Somare, it will take a continuous 3 hours of walking along the tree line to small shrubs planted. From Somare, it takes two to three hours to reach Dingboche. The journey to Dingboche is completed while taking in the beautiful scenery. Due to the significant risk of Acute Mountain Sickness at such a high altitude, it is preferable to check your oxygen saturation with the Oximeter we gave our guide before proceeding.",
+    },
+    {
+      day: 8,
+      description: "Acclimatization Day at Dingboche (4410m) ",
+      details:
+        "This second rest day is for acclimatization, as stated in the Everest Base Camp Trek by jeep Itinerary. After breakfast, you can take a trek up the hill behind the village on the northern side. Observe this picturesque valley's path to Island Peak for breathtaking views of Ama Dablam, Lhotse, and Nuptse. The quick ascent to Island Peak makes for a leisurely afternoon excursion. Going up to Chhukung Ri is another alternative, from which you can see peaks like Island Peak, Ama Dablam, Makalu, Tawoche Peak, and others. For a beautiful view of the Chhukung valley, which has Kangtega, Ama Dablam, Taboche, Lobuche east, and several more magnificent peaks, you may also hike to Nagarjuna.",
+    },
+    {
+      day: 9,
+      description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
+      details:
+        "You will need around five to six hours to hike from Dingboche to Lobuche today, which is above the town of Pheriche. Everest Base Camp Trek without a Flight Route will pass through a meadow area with a few abandoned buildings after ascending the slope above the Dingboche. Reaching the lovely community of Thokla, which is located right at the edge of the Khumbu Glacier, requires a three-hour delightful trek with breathtaking mountain views. Then, for the next 45 minutes, the path climbs steeply to the Thokla Pass, where you can view several monuments honoring climbers who perished during the trip. It will take around 20 minutes to walk to the Italian pyramid hotel. After another two hours of walking around the Khumbu Glacier, you will reach Lobuche, where you may spend the night.",
+    },
+    {
+      day: 10,
+      description:
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m)",
+      details:
+        "The most significant day of your Everest Base Camp Trek by Road is today since you will arrive at Everest Base Camp. The journey starts in the morning from Lobuche and takes three hours across the Khumbu Glacier to reach Gorakshep. After checking in at Gorakshep's guest house and leaving all of your belongings there, you will walk to Everest Base Camp. It will take around 2 to 3 hours to reach Base Camp from Gorakshep. While visiting EBC, it is suggested that you pack enough water, use a flashlight, wear warm clothing, and carry additional equipment. There are a lot of expedition groups in the Everest Base Camp during the spring hiking season. While exploring the Khumbu Glacier and taking in the breathtaking mountain scenery around you, it is recommended to observe the Khumbu Icefall. From the Everest Base Camp, you cannot see Mount Everest itself but watching nearby mountain peaks will stun you. You need to return back to Gorakshep for overnight lodging.",
+    },
+    {
+      day: 11,
+      description:
+        "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then back to Pheriche (4240m) ",
+      details:
+        "Today, early in the morning, your EBC Trek without Dangerous Flight will head toward Kala Patthar for a spectacular dawn vista over mountain peaks including Mt. Everest (8,848.86m), Mt. Pumari (7,145m), Lingtren (6,695m), Khumbutse (6,623m), Changtse (7,550m), and Nuptse (7,879m). The Kala Patthar is quite challenging to ascend. To be rewarded with a once-in-a-lifetime experience and incredible natural beauty, it will take two hours of arduous ascent. The best vantage point to observe Mount Everest at its closest range is from Kala Patthar. After spending some time on the summit of the Kala Patthar, stroll to Gorakshep for breakfast before continuing your descent to the Pheriche, which will take 4 to 5 hours, and be at your accommodation for the night.",
+    },
+    {
+      day: 12,
+      description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
+      details:
+        "After breakfast, your road-based Everest Base Camp trekking will depart from Pheriche and descend down to Namche Bazaar. Even though it will take you 7 to 8 hours to complete the journey, you will enjoy the time spent retracing your steps and recalling the sights you have seen. Along the way, you will come across a number of streams, dense forests, exotic animals, stunning scenery, and so on. After a four-hour trek, you will likely eat lunch at Phungi Thanga before continuing on for another three hours to Namche Bazaar, where you will spend the night at a teahouse.",
+    },
+    {
+      day: 13,
+      description: "Trek from Namche Bazaar (3440m) to Chaurikharka (2694m)",
+      details:
+        "It will take around 6 to 7 hours to get from Namche Bazaar to Chaurikharka, your final destination for the day. It will be a long trek, as the majority of the route descends beside the Dudhkoshi River through a tropical forest and Sherpa hamlet. On your return trip to Chaurikharka, you will see the same countryside and mountain views once more. From the opposing directions, your perspective will be different. To ultimately get to Chaurikharka, you must once again pass through picturesque towns like Larja Dobjan, Monjo, Bengkar, Ghat, and Chheplung. After entering the teahouse in Chaurikharka, you may travel to Lukla, which is 20 minutes away, if you are interested in visiting the world's most perilous airport.",
+    },
+    {
+      day: 14,
+      description: "Trek from Chaurikharka (2694m) to Thamdanda (2326m)",
+      details:
+        "According to the Everest Base Camp Trek by Road Schedule, today is your last day of hiking. You will trek to Surke, which will take around 45 to an hour, after eating breakfast in Chaurikharka. From there, you will rise through the forest to the Paiya (Chutok). The trail then descends to Thamdanda for the following hour before continuing fairly straight to the Khari La. After entering the tea house in Thamdanda, our Guide will finalize the jeep journey to Kathmandu for the next day. You will have supper with crew members as you celebrate your accomplishment on this final day of hiking.",
+    },
+    {
+      day: 15,
+      description: "Drive from Thamdanda (2326m) to Kathmandu (1400m)",
+      details:
+        "You will rise early today and take a four-wheel-drive Jeep to Kathmandu. The journey from Thamdanda to Salleri via the Kahrikhola, Jubing, and Andheri is difficult and takes 4 to 5 hours. However, you will switch to a jeep to return to Kathmandu, which will take 8 to 9 hours. While traveling from Salleri back to Kathmandu, you may take in the scenery. Arrive in Kathmandu in the evening, then spend the night there before continuing on to your next location.",
+    },
+    {
+      day: 16,
+      description: "Final Departure ",
+      details:
+        "Today, you will travel back to your home from Kathmandu and continue your adventure to many destinations across the world. We will drop you off at the airport three hours before your flight time. We hope you had a great time with us and made some wonderful memories. Thank you very much for joining us, and have a safe journey to your destination.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "You must be both physically and mentally strong if you are planning to trek to Everest base camp by road. If you assume a person's mental state won't matter when trekking through very steep ascents in the Khumbu region, you are seriously mistaken. Without a strong mental attitude, trekkers may give up on the difficult pathways going to the base camp before they have even reached the halfway point of the journey. Hiking up through perilous mountainous terrains undoubtedly places a great deal of physical strain on one's body. It will be best to be informed that you will stroll up and down on rough terrain for 12 days while carrying your bag pack, weighing at least 6 kg, on average for 5 to 6 hours every day. You will need to begin improving your strength and endurance a few months early. Plan your workouts for five to six days a week, and at least once a week, climb a hill carrying a bag packed with 6 to 12 kg. Your legs and muscles get better the more hill training you accomplish. Hill Training is crucial because your lungs can't provide your muscles with enough oxygen at higher altitudes due to a lack of oxygen. Therefore, begin cardiovascular training, such as jogging and swimming, along with other workouts, if you want to successfully reach the Everest Base Camp by jeep and avoid upsetting fellow trekkers. A common excuse given by people for not doing the Everest Base Camp trek by road is that they are too old. There is no set age restriction for those who are qualified to trek to Everest Base Camp (EBC) via road. There shouldn't be any difficulties for them on the journey if they are physically well enough to walk for hours. For your kind information, it has been reported that a 76-year-old and a 13-year-old have already succeeded in reaching the peak of Mt. Everest.",
+    ],
+    points: [],
+  },
+  path: ["/images/EverestBaseCampMap.jpg"],
+},
+
+// Drop Down Tourns In Nepal
+//                                        Day Hikes And Tours From Pokhara
+
+//                                        Pokhara Day Tour with Sunrise View from Sarangkot
+pokhara_day_tour_sunrise_sarangkot: {
+  id: 31,
+  slug: "pokhara_day_tour_sunrise_sarangkot",
+  category: "Trekking",
+  img: "/images/pokharaadventure.jpg",
+  description: "Pokhara Day Tour with Sunrise View from Sarangkot by the professionals",
+  title: "Pokhara Day Tour with Sunrise View from Sarangkot",
+  location: "Gandaki",
+  days: "1 days",
+  people: "1-12",
+  subimages: [
+   "/images/pokharaadventure1.jpg",
+    "/images/pokharaadventure2.jpeg",
+    "/images/pokharaadventure3.jpg",
+    "/images/pokharaadventure4.jpg",
+    "/images/pokharaadventure5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Full day tour of Pokhara city after a mesmerizing Sunrise view from Sarangkot Tower.",
+    "Boating in the Phewa Lake and visiting Tal Barahi, a temple in the middle of the lake.",
+    "Visiting the International Mountain Museum.",
+    "Peaceful stay at the World Peace Pagoda.",
+    "Visiting different caves like the Mahendra Cave and the Gupteswor Cave.",
+    "Watch the Davis Falls and Seti Gorge.",
+    "Explore the Bindyabasini temple.",
+    "Learn new things about the Nepali Himalayas and the histories associated with them from the International Mountain Museum.",
+  ],
+  facilities: [
+    "Pickup facility from the Hotel.",
+    "Full Day Exploration of the Pokhara City.",
+    "Early Morning ride to the Sarangkot view tower for sunrise view.",
+    "Tour guide for the full day Pokhara tour.",
+    "Drop off to the hotel after the tour",
+    "Adequate time to learn and understand all the places visited.",
+    "Discounts and Extra services for regular customers.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Pokhara Day Tour with Sunrise View from Sarangkot",
+      details:
+        "Sarangkot Sunrise Tour, Return to the Hotel and stop by Bindyabasini Temple,Breakfast at the Hotel, Towards the Peace Pagoda of Pokhara, Next Stop at Pumdikot Dada, Heading towards Davi's Falls, Into the Gupteswor Cave, Drop off at the hotel",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [],
+    points: [],
+  },
+  path: ["/images/PokharaMap.jpg"],
+},
+//                                                Five Himalayan Viewpoint Tour from Pokhara
+five_himalayan_viewpoint_tour_pokhara: {
+  id: 32,
+  slug: "five_himalayan_viewpoint_tour_pokhara",
+  category: "Trekking",
+  img: "/images/pokharaadventure.jpg",
+  description: "1 Days Five Himalayan Viewpoint Tour from Pokhara guided by the professionals",
+  title: "Five Himalayan Viewpoint Tour from Pokhara",
+  location: "Gandaki",
+  days: "5 days",
+  people: "1-12",
+  subimages: [
+    "/images/pokharaadventure1.jpg",
+    "/images/pokharaadventure2.jpeg",
+    "/images/pokharaadventure3.jpg",
+    "/images/pokharaadventure4.jpg",
+    "/images/pokharaadventure5.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "A short but detailed tour of all 5 Himalayan viewpoints from Pokhara within a day.",
+    "Accompanied by a professional tour guide to help you understand everything during the tour.",
+    "A great chance to witness the beauty of the Himalayas that surround the Pokhara Valley.",
+    "Amazing way to take yourself closer to nature and its beauty.",
+    "An opportunity to interact and meet & greet with the locals living in different parts of Pokhara Valley.",
+    "Best tour package for mountain lovers who have a shortage of time but want to visit the viewpoints.",
+    "Full-day private vehicle tour up and down the hills, across the forests, and many waterfalls.",
+    "Best way to understand the beauty of Pokhara in the daylight.",
+  ],
+  facilities: [
+    "Pickup facility from the hotel.",
+    "A full-day tour in a private vehicle before dropping you off at the hotel.",
+    "A private guide to assist you throughout the tour of Five Himalayan viewpoints.",
+    "Discounts and Extra services for old customers.   ",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Five Himalayan Viewpoints Tour from Pokhara",
+      details:
+        "Starting with an early morning ride to Sarangkot View Point, Next Stop: Dhampus Village Viewpoint, Next Stop: Kahu Dada View Point,  World Peace Pagoda aka Shanti Stupa (Anadu Dada),Pumdikot Dada: The Last Destination of the Five Himalayas Viewpoints Tour from Pokhara",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [],
+    points: [],
+  },
+  path: ["/images/PokharaMap.jpg"],
+},
+//                                            Nagarkot to Dhulikhel Day Hiking Trip – 1 Day
+nagarkot_dhulikhel_day_hike: {
+  id: 33,
+  slug: "nagarkot_dhulikhel_day_hik",
+  category: "Trekking",
+  img: "/images/NagarkotSunriseView.jpg",
+  description: "1 Days Nagarkot to Dhulikhel Day Hiking Trip guided by the professionals",
+  title: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
+  location: "Bagmati",
+  days: "1 days",
+  people: "1-12",
+  subimages: [
+    "/images/NagarkotSunriseView.jpg",
+    "/images/NagarkotSunriseView1.jpg",
+    "/images/NagarkotSunriseView3.jpg",
+    "/images/NagarkotSunriseView1.jpg",
+    "/images/NagarkotSunriseView.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Breathtaking views of the surrounding Himalayas throughout the scenic trip from Kathmandu to Nagarkot.",
+    "Passing through the Hindu and Buddhist holy site of Nala Village.",
+    "Visit Dhulikhel to learn more about Newari customs and culture.",
+    "Enjoy sweeping views of eight distinct mountain ranges, including Mt. Everest, the highest mountain in the world.",
+    " It good trekking through the nearby rice fields, a lovely community with a mountain backdrop.",
+    "May see the native way of life in the villages, which is said to be a fantastic opportunity to get to know the residents.",
+    "Excellent terraced scenery that is easily reachable from Kathmandu.",
+    "Possibility of viewing the Langtang mountain range from Nagarkot, Dhulikhel, or even the path.",
+    "There is no need to sacrifice your comfort, unlike many other treks, at Nagarkot or Dhulikhel because both towns provide respectable lodging.",
+  ],
+  facilities: [
+    " Hotel Pickup And Drop off service",
+    "Free Nagarkot to Dhulikhel Hiking Map",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Nagarkot to Dhulikhel Hiking Detailed Itinerary 2024 and 2025",
+      details:
+        "Drive from Kathmandu to Nagarkot (1.5 hours, 27 km),Hike from Nagarkot to Dhulikhel (5 to 6 hours, 16 km),Drive from Dhulikhel Back to Kathmandu (1 hour)  ",
+    },
+  ],
+  // HowToPrepare: {
+  //   paragraph: [],
+  //   points: [],
+  // },
+  path: ["/images/NagarMap.jpg"],
+},
+//                                            Nagarkot Sunrise View and Nagarkot to Changunarayan Hike
+nagarkot_sunrise_view_changunarayan_hike: {
+  id: 34,
+  slug: "nagarkot_sunrise_view_changunarayan_hike",
+  category: "Trekking",
+  img: "/images/NagarkotSunriseView.jpg",
+  description: "1 Days Nagarkot Sunrise View and Nagarkot to Changunarayan Hike guided by the professionals",
+  title: " Nagarkot Sunrise View and Nagarkot to Changunarayan Hike",
+  location: "Bagmati",
+  days: "1 days",
+  people: "1-12",
+  subimages: [
+    "/images/NagarkotSunriseView.jpg",
+    "/images/NagarkotSunriseView1.jpg",
+    "/images/NagarkotSunriseView3.jpg",
+    "/images/NagarkotSunriseView1.jpg",
+    "/images/NagarkotSunriseView.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "The Nagarkot Sunrise Viewpoint is located on the edge of the Kathmandu Valley, which is 32 kilometers from the Valley Center.",
+    "You will need to leave Kathmandu at the crack of dawn to make the 1.5-hour trip to Nagarkot.",
+    "Nagarkot, at a height of 2175 meters, offers stunning dawn views in addition to hypnotic White Mountain views.",
+    "Three hours of hiking through the countryside from Nagarkot will get you to Changunarayan Temple, the oldest temple in the valley and a UNESCO World Heritage Site.",
+    "One of the Kathmandu Valley's most popular destinations.",
+    " The quickest and most affordable method of viewing Mount Everest (8848m) and 8 other Nepalese Himalayan peaks from Nagarkot.",
+    "After taking in the expansive vistas of the Himalayas, go on a relaxing guided trek.",
+    "You will get the chance to witness an ethnic way of life surrounded by a tranquil, beautiful forest and a calming wind.",
+  ],
+  facilities: [
+    "Medical Kits",
+    "Arrangement of the best hotels at reasonable price",
+    "Pick up and drop off services from/to your hotel",
+    "Discounts and Extra services for old customers",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Drive to Nagarkot to See the Down, then go Hiking to Chagunarayan before Returning to Kathmandu",
+      details:
+        "Our tour guide and driver will take you up from your hotel this morning at approximately 4:30 AM. The Nagarkot vantage point (2174m) is 32 kilometers from Kathmandu and may be reached by driving. You will arrive at Nagarkot after a 1.5-hour journey, where you can enjoy the greatest dawn views of the Himalayan mountain range, which includes Mount Everest, Annapurna, Ganesh Himal, Langtang, and many more, in a stunning setting. You will eat breakfast at a local restaurant after taking in the breathtaking vista and then begin the descent. Your route to Chagunarayan Temple will take you via picturesque typical local villages, paddy fields, and a breathtaking vista of the Kathmandu Valley. Reaching Chagunarayan Temple from Nagarkot will need a 3–4 hour hike. You will have lunch after touring the oldest Hindu temple in Nepal, which is also a UNESCO World Heritage Site, and then you will drive back to Kathmandu after seeing a little of the surrounding countryside.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "When booking the Nagarkot to Changu Narayan Day Hike, a confirmation email will be sent. The tour schedule is subject to alteration without notice in case of terrible weather or heavy traffic. During the winter, it is advised to pack warm clothing. Infants must sit on laps and wheelchair access is not available on this tour. Travelers who have back issues, heart issues, or any other major medical concerns, as well as pregnant women, should not do this journey. Only your group will take part in this tour because it is private. Don't forget to hydrate properly when trekking in order to prevent dehydration. Travelers are also recommended to be at a moderate physical fitness level.",
+    ],
+    points: [],
+  },
+  path: ["/images/mapmain.jpg"],
+},
+//                                                        Namobuddha to Panauti Day Hiking - 1 Day
+namobuddha_panauti_day_hike: {
+  id: 35,
+  slug: "namobuddha_panauti_day_hike",
+  category: "Trekking",
+  img: "/images/NagarjungJamcho.jpeg",
+  description: "14 Days Annapurna Base Camp Trek guided by the professionals",
+  title: "Namobuddha to Panauti Day Hiking - 1 Day",
+  location: "Bagmati",
+  days: "14 days",
+  people: "1-12",
+  subimages: [
+    "/images/NagarjungJamcho.jpeg",
+    "/images/NagarjungJamcho1.jpeg",
+    "/images/NagarjungJamcho2.jpg",
+    "/images/NagarjungJamcho3.jpg",
+    "/images/NagarjungJamcho4.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Visit Namobuddha monasteries, one of the significant Buddhist monasteries in Nepal",
+    "Enjoy a pleasant hike through the beautiful trail of Namo Buddha",
+    " Hike to the traditional town of Panauti and explore the Hindu and Buddhist monuments",
+    "Witness the architectural houses, traditions, and cultures of the locals in the ancient Newari town of Panauti",
+    "Experience local art and culture at the Newari heritage town of Panauti",
+    "Hike through the beautiful forests enjoying the scenic view of the landscapes",
+    "See the beautifully preserved culture at both sites",
+    "One of the best ways to observe the Traditional town near Kathmandu",
+    "The traditional lifestyle of the Tamang and Newar people of Nepal.",
+    "Historical Indreshwor temple, old houses, and the museum.",
+    "Spend a peaceful time witnessing monks and devotees indulged in praying and chanting.",
+    "Get a chance to see the splendid Himalayan massifs of northern Nepal",
+    "Interact with local Newars to indulge in their traditional culture.",
+  ],
+  facilities: [
+    "Hotel Pickup And Drop off service",
+    "Free Namo Buddha to Panauti Hiking Map",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Namobuddha to Panauti Day Hiking Detailed Itinearary 2024 and 2025",
+      details:
+        "8:00 am: You will be picked up from your accommodation by our driver and guide, and you will travel 1.5 hours from Kathmandu to Namo Buddha to visit the Thrangu Tashi Yangtse Monastery. You will tour the monastery, which offers young monks a contemporary education and has a breathtaking view of Langtang, Dorjelakpa, and Garuishankar. 11:00 am: To get to Panauti, you must trek down from Namo Buddha; the journey will take you four hours. You will learn about Newari culture along the route, mostly from the people who work in the fields. Once at Panauti, where there are several temples and museums, you may visit the local residences and small towns. You will take a one-and-a-half-hour trip back to Kathmandu after visiting Panauti. 3:00 pm: Finally, you will return to Kathmandu by car from Panauti to complete your Namobuddha Panauti Day Hiking Trip.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "A confirmation email for your reservation for the Namobuddha Panauti Hiking Trip will be delivered to you. In the event of bad weather or excessive traffic, the tour itinerary is subject to change without prior notice. Winter travelers are encouraged to bring warm clothes. On this trip, wheelchair access is not accessible, and infants must sit on laps. Travelers who have back problems, heart problems, or any other serious medical conditions shouldn't make this trip, nor should pregnant women. This tour is private, so only your group will participate. When hiking, remember to adequately hydrate to avoid being dehydrated. Additionally, it is advised that travelers have a modest degree of physical fitness.",
+    ],
+    points: [],
+  },
+  path:[ "/images/mapmain.jpg"],
+},
+//                                                  Nagarjung Jamcho Day Hike - 1 Day
+nagarjung_jamcho_day_hike: {
+  id: 36,
+  slug: "nagarjung_jamcho_day_hike",
+  category: "Trekking",
+  img: "/images/NagarjungJamcho.jpeg",
+  description: "1 Days  Nagarjung Jamcho Day Hike guided by the professionals",
+  title: "Nagarjung Jamcho Day Hike - 1 Day",
+  location: "Bagmati",
+  days: "1 days",
+  people: "1-12",
+  subimages: [
+    "/images/NagarjungJamcho.jpeg",
+    "/images/NagarjungJamcho1.jpeg",
+    "/images/NagarjungJamcho2.jpg",
+    "/images/NagarjungJamcho3.jpg",
+    "/images/NagarjungJamcho4.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Buddhists worship Guru Rinpoche and Acharya Nagarjuna at this location, which is attended by hundreds of followers every year. ",
+    "For both hikers and environment enthusiasts, Nagarjuna National Park is a wonderful weekend hiking destination.",
+    "Beautiful scenery of the snow-capped Himalayas, including Dorji Lhakpa, Langtang-Lirung, and Ganesh Himal.",
+    "Explore Jamacho Monastery in Kathmandu, the place with the small statue of Nagarjun Buddha, by hiking to the closest hill site.",
+    "Beautiful view of the Langtang range, the Manaslu Himalayan Range, and the Annapurna Himalayan Range.",
+    "Throughout your Nagarjun Day hike, appreciate the lovely chirping of birds.",
+    "Beautiful picture of the hills around the Kathmandu Valley and the city of Kathmandu.",
+    "A pleasant trek through the Shivapuri Nagarjun National Park offers magnificent views of the city and the forest.",
+    "Explore some of the unusual wildlife, plants, and birds while traveling to the Nagarjun Hiking route.",
+  ],
+  facilities: [
+    "Hotel Pickup And Drop off service",
+    "Free Nagarjun Jamcho Day Hike Route Map",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description:
+        "Nagarjun Jamcho Day Hike Detailed Itinerary 2024 and 2025 ",
+      details:
+        "Our guide and driver will pick you up from your hotel shortly after breakfast and take you to Phulbari Gate near Balaju Bypass. In between 15 and 30 minutes, you will arrive at Phulbari Gate. After our guide has obtained the national park permit, the Nagarjun Jamcho Day Hike will start. You will ascend the route as it passes through a deep pine forest. On the way to Nagarjun Hill, you might see various bird species. You will witness the renowned Jamacho Monastery and an ancient cave decorated with colorful prayer flags once you have ascended the hill. On a clear day, you will unquestionably see the greatest view of the Kathmandu Valley and majestic mountains like the Langtang Lirung, Dorje Lakpa, Annapurna Range, Manaslu Range, and others. You will return to the hike starting location after eating your packed lunch at the top of the hill, where there is a pleasant wind and a peaceful atmosphere. From there, you will get in our car and be driven to the drop-off location or your hotel.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "There are certain limitations on the hike because it goes through Shivapuri National Park. You are not permitted to bring certain instruments on your hike. Speakers, matchboxes, lighters, knives, and other flammable items are prohibited from being carried. On the other side, you are not permitted to produce any unnecessary noise that annoys the locals. A confirmation email will be issued to you when you make a reservation for the Nagarjun Day Hiking Trip. In the event of bad weather or excessive traffic, the tour itinerary is subject to change without prior notice. Winter travelers are encouraged to bring warm clothes. Travelers who have back problems, heart problems, or any other serious medical conditions shouldn't make this trip, nor should pregnant women. This tour is private, so only your group will participate. When hiking, remember to properly hydrate to avoid becoming dehydrated. Additionally, it is advised that travelers have a moderate level of physical fitness.",
+    ],
+    points: [],
+  },
+  path:[ "/image/mapmain.jpg"],
+},
+//                                                          Champadevi Day Hike - 1 Day
+champadevi_day_hike: {
+  id: 37,
+  slug: "champadevi_day_hike",
+  category: "Hiking",
+  img: "/images/Champadevi.jpg",
+  description: "1 Days champadevi hiking",
+  title: "Champadevi Day Hike - 1 Day",
+  location: "Bagmati",
+  days: "1 days",
+  people: "1-12",
+  subimages: [
+    "/images/Champadevi.jpg",
+    "/images/Champadevi1.jpg",
+    "/images/Champadevi.jpg",
+    "/images/Champadevi1.jpg",
+    "/images/Champadevi2.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 1 days worth of adventurous and exciting hike throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "1 to 12. Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [],
+  highlights: [
+    "Once the trail gains elevation, panoramic views of snow peaks from Annapurna to Gaurishankar form a chain towards the northern horizon. A bird’s eye view of the valley along with a relaxing nature walk along forests and ridges keeps the charm to this trail. The forests are also ideal for bird watching and villages along the trail have a unique cultures.",
+    "Drive to Pharping (1 hr) then hike to Champadevi (3- 4 hrs) then hike back to Hattiban (2 hrs) then drive back to Kathmandu (half an hour)",
+    "Champadevi Day Hiking lies among the best one-day hiking around the Kathmandu valley. Located southwest of the valley, the trail offers spectacular mountain vistas with beautiful views of Kathmandu valley. The top of the trail is a sacred site for locals to perform rituals. The 6-7 hours hike passes through rhododendron forests that bloom wonderfully during spring.",
+    "After an early morning drive to Pharping, 16 kilometers south of Kathmandu, we commence our journey. Pharping itself is bountiful in pilgrimage sites which include the renowned Dakshinkali Temple. The trail takes passes through pine forests along the north ridge for about half-hour. Through trails along lush greenery, the route gradually ascends to Champadevi. The three hours nature walk is good for bird watching as well.",
+    "Situated at an elevation of 2285m, Champadevi’s pilgrimage site consists of a Buddhist Stupa and a Hindu Shrine. With excellent views of the mountain ranges, the quiet and calm of the place is a perfect retreat from the valley’s humdrum. The walk to Hattiban (Elephant Forest) takes around two hours. Hattiban situated between Dakshinkali Temple and Kirtipur offers a detailed view of Kathmandu Valley as well as some mountain ranges. The place is also popular for rock climbing.",
+  ],
+ 
+  path:[ "/images/mapmain.jpg"],
+},
+//Annapurna Circuit Trek - 12 Days
+
+annapurna_circuit_trek:{
+  id: 0,
+  slug: "annapurna_circuit_trek",
+  category: "Trekking",
+  img: "/images/Annapurnabasecamp.jpg",
+  description: "14 Days Annapurna Base Camp Trek guided by the professionals",
+  title: "Annapurna Circuit Trek",
+  location: "Kaski",
+  days: "12 days",
+  people: "1-12",
+  subimages: [
+    "/images/Annapurnabasecamp2.jpg",
+    "/images/Annapurnabasecamp3.jpg",
+    "/images/Annapurnabasecamp4.jpg",
+    "/images/Annapurnabasecamp5.jpg",
+    "/images/Annapurnabasecamp6.jpg",
+  ],
+  overView: {
+    duration:
+      "A full 12 days 11 nights worth of adventurous and exciting trek throughout the circuit ",
+    startingPoint:
+      "Meet up at the designated location in Kathmandu at sharp 6 AM",
+    endingPoint:
+      "Exciting journey comes to an end in Kathmandu at around 9-10 PM. Might highly depend on traffic.",
+      peoples: 
+      "Perfect for small to medium-sized groups looking for a thrilling adventure.",
+      category: 
+      "Adventure and trekking. Ideal for nature enthusiasts and adventure seekers.",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "The 12-day Annapurna Circuit Trek is a famous Trekking in Nepal. This trek is located in the Annapurna Region in Nepal, which is protected by the Annapurna Conservation Area Project (ACAP) ",
+    "12 days Annapurna Circuit Trek starts through altitudes of 800 m and ascends to 5,416 m (Throng La Pass) through rice paddy fields, subtropical forests, rural villages, and glacial zones. Panoramic view of the Himalayas, including Mt. Dhaulagiri (8,167m), Mt. Annapurna I (8,091m), Mt. Manaslu (8,163 m), Mt. Annapurna II (7,937 m.), Mt. Annapurna III (7,555m), Mt. Annapurna IV (7,525m), Mt. Annapurna south (7,219m), Mt. Nilgiri (7,041m), Mt. Machhapuchhare (6,998m), Mt. Hiunchuli (6,441m), Mt. Lamjung Himal (6,986m), Tukuche peak (6,920m), and Tilicho peak (7134m) are the major attraction of the Annapurna Circuit Trek.",
+     "On day one of the Annapurna Circuit Trek Itinerary, we drive to Chamje from Kathmandu by public bus and share a Jeep. On day four we will reach the Chame (2630m) headquarters of the Manang district where we can visit a small natural hot spring as well. On day six of the Annapurna Circuit Trek we hike to Manang via Gheru and Nawal from where you could see panoramic views of the Annapurna Himalaya Range including the valley and glacier. In Manang, we spend one extra day for acclimatization, and we continue the hike to Throng High Camp by spending one overnight in Letdar (4250m. We leave early morning from Throng High Camp to cross Throng La Pass on day 10 of the Annapurna Circuit Trek. Throng La Pass (5416m) connects Manang village and Muktinath Temple. After lunch in Muktinath town, we visit Muktinath Temple.",
+     "After spending an overnight night in Muktinath Village we continue the hike to Jomsom (headquarters of Mustang district) via the windy valley of Kali Gandaki River."
+    ],
+  highlights: [
+    "Along the Annapurna Circuit Trek, climb to the elevation of 5416 meters at Throng La Pass.",
+    "By trekking through woods of oak, rhododendron, and rice fields, you can discover the various facets of the Himalayas.",
+    "Obtain information about the Nepalese mountain culture as you pass through small villages along the trail.",
+    "Visit historical sites and temples while exploring Nepal's capital city.",
+    "After the trip, spend a day exploring Pokhara, Nepal's haven city. Boating on Fewa Lake and the Pokhara Valley Tour is wonderful.",
+    "Visit the 108 stone faucets at the Muktinath Temple, which is revered by both Hindus and Buddhists.",
+    "Visit the largest Monastery of Manang in Braga",
+    "Fly to Pokhara from Jomsom while admiring the breathtaking panorama of the Annapurna Himalaya Range.",
+    "Magnificent lakes, glaciers, deep gorges, and stunning waterfalls",
+    "Stunning views of Mt. Annapurna, Thorung Peak, Nilgiri, Chulu, Tukuche Peak, Dhaulagiri, Lamjung Himal, Annapurna"
+  ],
+  facilities: [
+    "Free International Airport Pickup and Drop off facilities",
+    "Create Himalaya Adventure T-Shirt and Duffle Bag",
+    "Map of Annapurna Base Camp Trekking",
+    "Medical Kits might be necessary in Certain Cases",
+    "Free Excess Luggage Stored at Create Himalaya Adventure Store During the Trek",
+    "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
+    "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival To Kathmandu(1400m)",
+      details:
+      "At the Tribhuwan International Airport, our airport representative will receive you. He will transport you to the hotel in a private tourist vehicle and help you check-in. After a lengthy flight, get some rest. To obtain your first sights of Kathmandu city, go outside to your hotel and explore some of the beautiful places. In the evening, there will be a trek briefing where you will also get to know your guide. The guide will provide you with information about the Annapurna Circuit Trek Itinerary and assist you with any missing equipment."
+    },
+    {
+      day: 2,
+      description:
+        "Drive from Kathmandu (1400m) to Dharapani (1860m)",
+      details:
+      "Departing early in the morning, a public bus will take you from Kathmandu to Bhulbhule through Besisahar. Following that, you will be placed in a shared jeep and driven to your final stop for the day, Dharapani. Beautiful waterfalls, snow-capped mountains, and several suspension bridges will astound you on your Annapurna Circuit Trek Excursion. As you follow the Marsayangdi River side by side, you will travel through charming small villages like Ngadi, Bahundanda, Syange, Jagat, Chamje, and Tal before arriving at Dharapani. Travelers should register their identities and trekking permits at the police checkpoint in Dharapani."
+    },
+    {
+      day: 3,
+      description:
+        "Trek from Dharapani (1860m) to Chame (2610m)",
+      details:
+        "Today your Annapurna Circuit Trek Route will travel over alpine territory, where the weather will change and become colder. Bagarchhap and Danakyu Tibetan settlements are reached after traveling through woodlands. Along with pine trees, farms, and vistas of the Lamjung and Annapurna II peaks, you will witness the apple-growing region. After passing through the lovely settlements of Timang, Thanchowk, and Koto, where the Naar-Phu path connects with the Annapurna Circuit trek, you will eventually arrive in Chame. At the entrance to the settlement, there is a sizable mani wall with prayer wheels. Manang's district headquarters, Chame, is home to a number of amenities, including top-notch hotels, Internet cafés, stores selling hiking equipment, banks, and facilities for communication and health."
+    },
+    {
+      day: 4,
+      description: "Trek from Chame (2610m) to Upper Pisang (3300m)",
+      details:
+     "The Chame route travels through a stunning pine and rhododendron forest in a small, rocky valley. The route goes up and provides breathtaking views of rocky surfaces, including the face of Pangdi Danda and Swargadwari Danda, after crossing the Marshyangdi River on a suspension bridge. If you continue on your Annapurna Circuit Trekking Route, you will pass through the villages of Talekhu and Bhratang and arrive in Dhikur Pokhari. Many mountains, including Annapurna II, Pisang Peak, Chulu Peak, Tilicho Peak, and others, are visible from Dhikur Pokhari. You will next cross a suspension bridge across a river and begin walking toward Upper Pisang. Upper Pisang has magnificent views of the Annapurna Range's Kuntu Danda, Longyo Danda, and Pisang Peak. Due to the thin air at Upper Pisang, some hikers may have trouble breathing."
+    },
+    {
+      day: 5,
+      description:
+        "Trek from Upper Pisang (3300m) to Manang (3540m)",
+      details:
+      "You will travel the toughest path, which includes several steep ascents and twists, starting from Pisang. You will be trekking on the higher trails through Upper Pisang via Ghyaru and Ngawal, from where you can see magnificent views of Lamjung Himal (6,983m), Annapurna II (7,937m), Annapurna IV (7,525m), Gandarbha Chuli (6,250m), Annapurna III (7555m), Gangapurna (7,544m), Glacier Dome (7,193m), Khangsar Kan (6,091m). You will notice that the air becomes chilly, dry, and harsher as the trail increases. You will have the opportunity to learn about Buddhist culture as you go through the Tibetan communities on this path. Before arriving at Manang, it goes past the picturesque town of Munchi and the obscure hamlet of Braga. The biggest monastery in Manang is Barge Monastery, which you will be exploring. When you eventually get to Manang bazaar after passing several monasteries, you will see that the road is studded with Buddhist shrines. One of the largest settlements along the Annapurna Circuit Trek is Manang. All amenities are available here."
+    },
+    {
+      day: 6,
+      description: "Acclimatization at Manang (3540m)",
+      details:
+     "A crucial rest day is needed for acclimatization before ascending to high elevation and the Thorung La Pass. As per your Annapurna Circuit Trek Itinerary, today is your acclimatization day. Make the most of your time by taking a quick acclimatization stroll to Gangapurna Lake and its surroundings. This tourist attraction's route is a little rocky and littered with tiny pebbles and garbage, but the scenery is spectacular. The Gangapurna Lake itself is serene and draws its water from melting glaciers since it is surrounded by gleaming mountains and rugged hills. Mt. Gangapurna, Khangsar Kang, Glacial Dom, and Annapurna can all be seen from the shoreline. Some hikers also like to go on a side hike to Ice Lake and Base Camp, which provide stunning landscapes. Their path offers stunning views of Chulu Peak, Tilicho, and Annapurna III."
+    },
+    {
+      day: 7,
+      description: "Trek from Manang (3540m) to Ledar (4200m)",
+      details:
+     "Your Annapurna Circuit Route will ascend to the settlement of Tengi from Manang village, crosses a spring, and then continues to ascend out of the Marshyangdi Valley before turning northwest and ascending the Jarsang Khola valley. The path proceeds northward through this valley, slowly gaining altitude as it passes through a few meadows and a juniper tree scrub. The little settlement of Ghusang, which consists of a collection of mud-roofed structures, is located close to where the route continues to travel. The trail passes through yak and horse grazing meadows known as Yak Kharka. The path crosses a historic old Mani wall in a peaceful meadow after passing a small river on a wooden bridge, and it eventually reaches the lovely hamlet of Ledar."
+    },
+    {
+      day: 8,
+      description: "Trek from Ledar (4200m) to Thorung Phedi (4525m) or Thorung High Camp (4925m)",
+      details:
+    "You will walk to Thorung High Camp, also known as Thorung Phedi, today. Depending on your physical condition and the weather, it will take 4 to 5 hours to reach Thorung Phedi or Thorung High Camp. In these higher locations, the difficulty level and frequently severe winds are impacted by the higher altitude. Snow on the Annapurna Circuit Trek Route can make it take considerably longer. Following your guide, go gently and carefully. You may observe herds of Yaks and blue sheep grazing on the other side of the river, across from the course. In Thorung Phedi, there aren't many tea places. Unlike the lush lowlands you crossed on the way up during the first part of the hike, the deserted, rocky environment is unearthly and quite different. Trekking to the High Camp will make the next day's trip simpler if you are not exhausted and eager to go further."    },
+    {
+      day: 9,
+      description:
+        "Trek from Thorung Phedi (4525m) to Muktinath (3760m) then Drive to Jomsom (2720m)",
+      details:
+      "Thorung La Pass, at 5416 meters, will be reached after a steeply ascending path from Thorung Phedi or Thorung High Camp. From Thorung La Pass, you can see the Annapurna Range, Thorong Peak, Dhaulagiri Range, Nilgiri, and other mountains in the distance. Your Annapurna Circuit Trek Route will descend down to Muktinath once you have taken a few pictures and taken in the scenery. All the way downhill is the route from Thorung La Pass to Muktinath. In addition to being a Buddhist temple, Muktinath is the second-largest Hindu temple. The Muktinath temple attracts plenty of Hindu pilgrims. In Muktinath, there are two small ponds and 108 water taps. Hindu peoples believe that if you take showers with 108 taps, you will be cleansed of the sin you did in your previous life. A holy natural gas flame glows behind a grill immediately above the spring at Dhola Mebar Gompa, or the Jwalamai (goddess of fire) temple, which is just a short distance away through a group of Chorten"
+    },
+    {
+      day: 10,
+      description: "Take Flight from Jomsom (2720m) to Pokhara (822m) ",
         details:
+         "A major town called Jomsom is spread out along both sides of the Kali Gandaki River. The town serves as the primary transition point for trips to Muktinath and Upper Mustang. The Nepalese Army has a company stationed here. Jomsom Airport, which can accommodate aircraft from the Nepalese Army Air Service, has regular flights to Pokhara. You will go to the Jomsom airport this morning early in order to catch your aircraft to Pokhara. This will be your last trekking day on the mountain as per your Annapurna Circuit Trekking Itinerary. The flight time to Pokhara will be between 30 and 40 minutes. You can observe the route leading to Tatopani and Ghorepani as well as panoramic vistas of the Annapurna Himalaya Range throughout the flight."
+      },
+    {
+      day: 11,
+      description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
+      details:
+          "This is the last day of your Annapurna Circuit Trek Itinerary. This A major town called Jomsom is spread out along both sides of the Kali Gandaki River. The town serves as the primary transition point for trips to Muktinath and Upper Mustang. The Nepalese Army has a company stationed here. Jomsom Airport, which can accommodate aircraft from the Nepalese Army Air Service, has regular flights to Pokhara. You will go to the Jomsom airport this morning early in order to catch your aircraft to Pokhara. This will be your last trekking day on the mountain as per your Annapurna Circuit Trekking Itinerary. The flight time to Pokhara will be between 30 and 40 minutes. You can observe the route leading to Tatopani and Ghorepani as well as panoramic vistas of the Annapurna Himalaya Range throughout the flight., after waking up in Pokhara, you'll board a tourist bus to return to Kathmandu. The distance between Pokhara and Kathmandu is around 205 kilometers long, which follows the captivating Marsyangdi River and then the Trishuli River. Damauli bazaar, Dumre bazaar, and several other picturesque villages are all on the route from Pokhara to Kathmandu. Stunning views of snow-capped mountains, hilly terrain, and waterfalls are also provided by the drive. Our team will meet you as you arrive in the valley and lead you to your hotel so you can freshen up before spending your final evening in Nepal exploring Thamel or doing shopping."
+    },
+    {
+      day: 12,
+      description:
+        "Final Departure",
+      details:
           "Depending on your departure schedule, we will often set up an airport transfer service three hours before departure. If you have additional time, we can set up some side trips for you, or you may go exploring on your own.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Trekking to Mardi Himal Base Camp is not very simple. To reach the most stunning trekking location in Nepal, you only need to put in some practice, dedication, planning, and assistance. Anyone may participate in this trekking, but it is necessary to be in good physical condition, physically fit, and motivated. You need to go on a few short trips and walk for 6 to 8 hours a day, both uphill and downhill before you go trekking in Nepal. You may increase your stamina by doing aerobic workouts like running, swimming, cycling, and more. Try some yoga poses that will immediately improve your breathing, and before the journey, keep your body hydrated by drinking plenty of water. ",
-      ],
     },
-    path:[ ""],
-  },
-  ///////////////////////////////////////////////////Ghorepani Poonhill Trek - 8 Days/////////////////////////////////////////////////////////////////////////////////////
-  ghorepani_poonhill_trek: {
-    about: [
-      "Ghorepani Poon Hill Trek is known as Poon Hill Trek, Ghorepani Trek, Annapurna Sunrise Trek, Annapurna Panorama Trek, and Family Trek located in the Annapurna region, Nepal.",
-      "Ghorepani Poonhill Trek is one of the short trek in Nepal. Poon Hill Trek is known as Annapurna Panorama Trek as well. Ghorepani Poon Hill Trek is one of the easiest trekking routes in the Annapurna Region. Poon Hill Trek is suitable for inexperienced trekkers. You can do this trek with your children as well. This trek calls the family Annapurna trekking as well. Ghorepani Poon Hill trek can be done within 2 days to 6 days; it depends on where you will start the trek and where you will finish it. Poon Hill is the best viewpoint for the sunrise view. Ghorepani Poon Hill Trek is known as the sunrise trek also. If you have a short time period in Nepal and want to see the Nepal Himalayas including the Sunrise view, Ghorepani Poon Hill Trek is the best choice.",
-      "Ghorepani Poon Hill Trek starts from Birethanti after about an hour's drive from Pokhara. During the hiking to Ghorepani, you will pass through beautiful villages, forests, streams, and river banks. If you do this trip in March or April you could see the blooming rhododendron forest. Sunrise view from Poon Hill is the main attraction of the Ghorepani Poon Hill trek from where you can see more than 32 different snow Himalaya peaks. On our itinerary, we adjust Jhinu Danda as well for a natural hot spring where you could take a bath. Details information of Ghorepani Poon Hill trek Route.",
-    ],
-    highlights: [
-      "Enjoy the greatest short hikes in the Nepalese Himalayas.",
-      "Explore the Annapurna region's charming landscapes, Rhododendron forests, and small settlements of the Gurung People.",
-      "Enjoy the breathtaking view of majestic Annapurna South and Fishtail.",
-      "Along the trekking path, spend the night in cozy teahouses.",
-      "Enjoy a time at the picturesque Phewa Lake in Pokhara.",
-      "Admire magnificent sunrises across the Dhaulagiri and Annapurna mountains from Poonhill.",
-      "The most beautiful vistas of Annapurna, Dhaulagiri, Machhapucche, Hiunchuli, Nilgiri, and Mardi",
-      "The stunning villages of Ulleri, Ghorepani, Tadapani, and Ghandruk will enchant you",
-      "Get excellent hospitality from the natives and forget all your fatigue and walking aches.,",
-    ],
-    facilities: [
-      " Free pick-up and drop-off service for the international airport",
-      "T-shirt and duffel bag as souvenirs from Create Himalayan Adventure",
-      "Ghorepani Poon Hill Trek route map",
-      "Medical kits could be required in several circumstances",
-      "Free Extra Luggage Storage During the Trek at Create Himalayan Adventure Store",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m) ",
-        details:
-          "At Tribhuwan International Airport, our representative will receive you. He will provide you with a private ride to the hotel and help you check in. After a long journey, you may either relax at your hotel or venture outside to discover some of Kathmandu's beautiful locations. At nighttime, you will meet your guide, the guide will supply any equipment that is lacking as well as information about the Ghorepani Poonhill Trek Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Take Tourist Bus from Kathmandu (1400m) to Pokhara (822m)",
-        details:
-          "After breakfast, you will board a tourist bus and travel 205 kilometers from Kathmandu to the stunning Pokhara Valley to start Ghorepani Trekking. As you travel, you will see breathtaking landscapes of terraced farms, small towns, Manaslu, Ganesh Himal, Lamjung Himal, and several more highlands. After six to seven hours of bus travel, you will eat lunch. You have a choice between touring and relaxing in your hotel in Pokhara. With so many stores, pubs, and restaurants, Lakeside offers a wealth of sights and activities. Another option is to take a 30-minute flight to Pokhara, after which you can visit the city famed for its stunning beauty and accommodations near lakes.",
-      },
-      {
-        day: 3,
-        description:
-          ":Drive from Pokhara (822m) to Birethanti (1263m) then Trek to Ulleri (1960m) ",
+   
+  ],
 
-        details:
-          "The travel to Birethanti from Pokhara takes roughly 1.5 hours. Your Poon Hill Trek will begin in Birethanti, where you can reach by following Modi Khola. You will pass numerous local villages, teahouses, beautiful green rolling hills, rivers, and locals throughout the journey. After passing through the charming village of Hile, you will arrive in Tikhedhunga. The trail then starts to ascend pretty steeply on a stone staircase once you cross the suspension bridge. You will be in the sizable Magar village of Ulleri, where you can get a sight of Hiunchuli and Mount Annapurna South.",
-      },
-      {
-        day: 4,
-        description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
-        details:
-          "Ghorepani Poon Hill Trek Route from Ulleri to Banthanti travels through rhododendron and oak woodlands. You will arrive at Nangge Thanti by following Bhurungdi Khola side by side. The portion of the adventure where you spend the majority of the day trekking through the jungle will be really exciting. If you schedule your Poon Hill Trek for the spring, you will see lots of rhododendron blooms, many wild birds and animals, and a stunning vista of numerous snow-capped mountains. You can reach Ghorepani after a short hike through the jungle. It's wonderful to stay in Ghorepani and enjoy the breathtaking views of Dhaulagiri, Annapurna South, Hiunchuli, and Annapurna.",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Ghorepani (2880m) to Poon Hill (3210m) then to Tadapani (2630m)",
-        details:
-          "From Ghorepani, a short trek will take you to Poonhill, where you can enjoy a magnificent panorama of the mountain ranges and a stunning sunrise. Poon Hill is the greatest vantage point along this Ghorepani and Poon Hill Trek Journey and is undoubtedly a photographer's aspiration. You can walk to the top of the hill, which is at a height of 3210m, in about an hour. From there, you can see the Himalayas, including the Annapurna, Bahari Shikhar, Hiuchuli, Nilgiri, Dhaulagiri, Tukuche, Lamjung Himal, Manaslu, Machhapuchhre, and other peaks. After capturing enough breathtaking images of the sun rising over the mountains, you will return to the guesthouse in Ghorepani for a breakfast before heading towards Tadapani. The Ghorepani and Annapurna Circuit Trek is connected by a lovely woodland track that passes through forests of oak and rhododendron trees and leads to Deurali. Banthanti is reached by a route that descends through rhododendron woodland. Then the way ascends and passes through a cane field to get to Bhurungdi Khola, after which it climbs once again via a series of steep woods for 20 minutes before arriving at Tadapani, another lovely settlement that offers breathtaking views of the Annapurna peaks.",
-      },
-      {
-        day: 6,
-        description:
-          "Trek from Tadapani (2630m) to Ghandruk (1940m) then take Bus/Jeep to Pokhara (822m)",
-        details:
-          "Ghorepani with Poon Hill Trek Journey from Tadapani to Ghandruk through oak and rhododendron woodland is relatively easy. Along the walk, wildflowers may be seen, which enhances the region's remarkable attractiveness. You will carry on your journey via the Baisi Kharka to Ghandruk. Once you get to Ghandruk, you will be able to see Annapurna South, Gangapurna, Machapuchare, Annapurna III, and Hiunchuli. A museum and a Buddhist monastery are among their many cultural attractions. Its distinctive architectural design, with the majority of homes having stone walls and slate-tiled roofs, is what most fascinates people. It is now the end of your trek. It takes around three hours to go from Ghandruk to Pokhara by bus or vehicle.",
-      },
-      {
-        day: 7,
-        description:
-          "Ride Tourist Deluxe Bus from Pokhara (822m) to Kathmandu (1400m)",
-        details:
-          "You will board a tourist deluxe bus this morning after waking up in Pokhara to travel back to Kathmandu, which will conclude the 8-day Ghorepani Poon Hill Trek. The 205 kilometers that separate Pokhara from Kathmandu follows the enthralling Marsyangdi River and then the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive villages, including Damauli bazaar, Dumre bazaar, Mugling bazaar, and others. The route also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the valley, a member of our crew will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel.",
-      },
-      {
-        day: 8,
-        description: "Final Departure ",
-        details:
-          "We arrange an airport transfer service three hours before departure, depending on your scheduled departure time. If you have more time, we can plan some side trips for you, or you may go exploring on your own.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "To reach Nepal's most extravagant trekking locations, you will need to warm up, practice, have discipline, plan ahead, and follow the finest guidance. Despite the fact that anybody may take part in Ghorepani Poonhill Trekking Journey, it does require good health, physical fitness, and self-motivation. There are a few things you may do before beginning the walk as naive hikers. You should start out with short strolls and go on 5 to 6 hours of daily walking, both uphill and downhill. Your endurance may be improved through aerobic exercises like running, swimming, cycling, and others. Even before the walk, increase your water intake and keep your body hydrated. You may quickly improve your breathing by performing a few easy yoga poses.",
-      ],
-    },
-    path: [""],
+  HowToPrepare: {
+    paragraph: [
+          "To build endurance and strengthen core strength, Annapurna Circuit trekkers must devote enough time to physical preparation and exercise. They should concentrate on aerobic workouts like jogging, cycling, running, and squat jumps to improve joint muscles. To improve balance and provide a more stable foundation for navigating uneven terrain, aerobic training can be incorporated into the fitness routine. To complete the Annapurna Circuit Trek, trekkers need to be physically fit in addition to being able to walk on various terrains. Before traveling to Nepal, you can begin with a short hike and then go on longer hikes as they get more comfortable. Trekkers need to be emotionally charged since a lack of confidence can frequently result in unease and anxiety. Research on the weather and timetable for the Annapurna Circuit Trekking is essential. It will provide you with tips on how to manage the situation and assist you in getting ready for the trip."
+          ],
   },
-  ///////////////////////////////////////////////////////////Short ABC Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////
-  short_abc_trek: {
-    about: [
-      "Short ABC Trek is one of the most popular treks in Nepal, and for good reason. This trek offers a unique combination of natural beauty, cultural diversity, and adventure that is hard to find elsewhere. The Annapurna region is home to some of the most spectacular mountain landscapes in the world, and the Short ABC Trek allows you to experience these mountains up close and personal.",
-      "As you trek higher, the landscape becomes more rugged and the views of the mountains become more spectacular. Along the way, you will pass through several traditional villages such as Ghandruk, Chomrong, and Dovan, which offer a glimpse into the local culture and way of life. These villages also serve as great places to rest, replenish supplies, and spend the night. One of the highlights of the Short ABC Trek is the stunning views of the Annapurna range. You will have the opportunity to see some of the most famous mountains in the world, including Annapurna South, Hiunchuli, Gangapurna, and of course, the majestic Annapurna itself. The Annapurna base camp, located at an altitude of 4,130 meters, offers panoramic views of the entire Annapurna range and is the perfect place to enjoy the beauty of the mountains and take some unforgettable photos.",
-      "The short ABC Trek is a challenging but rewarding experience that requires a good level of fitness and preparation. It is important to note that altitude sickness can be a concern, so it is essential to take the necessary precautions and acclimatize properly. The best time for booking a short ABC Trek is from September to November and March to May, as the weather is the most stable during these months.",
-      "Starting with a domestic flight from Kathmandu to Pokhara, the Short ABC Trek Itinerary begins. After that, you will take a private vehicle from Pokhara to Siwai, where the trip begins. The route to Chomrong from Siwai will take you via lush rhododendron and bamboo woods, breathtaking terraced farms, and suspension bridges. Views of the Machhapuchre and Annapurna massifs are available as you go to Chomrong. The next day, you will depart Chomrong and go to Dovan. Now, as your road continues through more rhododendrons and bamboo trees, you will see that it is gradually ascending.",
-      "Your Short ABC Trek route will leave Dovan on the fourth day and go toward Deurali through Modi Khola, the Himalayas, and Hinku Cave. The most interesting day of your Short ABC Trek Itinerary will be Day 5, as you will get the opportunity to visit two Base Camps. After passing Machhapuchhre Base Camp, proceed through Modi Khola Glacier Valley in the direction of Annapurna Base Camp. You may obtain stunning views of Hiunchuli, the Annapurna ranges, including Annapurna I, Khangsar Kang, Gangapurna, and Machhapuchhre, from Annapurna Base Camp. You will spend the night at Annapurna Base Camp.",
-      "On the sixth day of the Short ABC Trek journey, the descent begins after spending the night at the Annapurna Base Camp and ends in Sinuwa. You will depart Sinuwa and go to Jhinu Danda the next morning. When you get to Jhinu Danda, you may unwind in the local natural hot springs. Once you have had a wonderful time in Jhinu Dada, your short AB C Trek will lead you to Siwai, from where you may drive to Pokhara. The rest of the day will be spent touring the fascinating Pokhara Valley, shopping, or boating on Phewa Lake. Your Short ABC Trek will come to an end the next morning after you finish eating breakfast and board a tourist bus from Pokhara to Kathmandu. This trek is a condensed version of our 14-day Annapurna Base Camp trek, making it simpler and adding additional rest breaks along the way.",
-    ],
-    highlights: [
-      "Taking a flight to Pokhara is equivalent to taking a mountain flight with lots of mountain vistas.",
-      "Discover the beauty of a leisurely hike in the highlands while breathing in the pure mountain air.",
-      "Enjoy the world-class hiking route, which is brimming with breathtaking natural features including green hills, valleys, rivers, forests, and mountains hidden behind the shadow of the Annapurna massifs.",
-      "Visit ethnic communities like Birethati, Jhinu Danda, Chhomrung, Sinuwa, and Deurali to observe the way of life of the locals.",
-      "Experience the dawn above the Annapurna gigantic and the sunset over Machhapuchhre (Fish Tail) peak.",
-      " Witness breathtaking mountain peaks including Fishtail (6993m), Nilgiri (7061m), Gangapurna (7455m), Annapurna I (8091m), and Annapurna II (7647m).",
-      "With a quick trekking journey to ABC, see the base camps of Machhapuchhre and Annapurna.",
-      "Immerse yourself in Jhinu Danda's magnificent natural Hot Spring (Tatopani).",
-      "A day in Pokhara, a city blessed with natural beauty, to see the captivating landmarks, such as the stunning Phewa Lake.",
-    ],
-    facilities: [
-      "International and Domestic Airport Pickup And Drop off service",
-      " Create Himalayan Adventure  Duffle Bag",
-      " Create Himalayan Adventure T-Shirt",
-      "Free Annapurna Base Camp Short Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m) ",
-        details:
-          "Our agent will meet you at Tribhuwan International Airport. In addition, to help you check in, he will provide you with a private trip to the hotel. You might choose to relax at your hotel after a long journey or explore some of Kathmandu's beautiful sights. You will meet your guide and receive any equipment that is missing as well as information on the Annapurna Base Camp Short Trek Itinerary during the overnight trek briefing.",
-      },
-      {
-        day: 2,
-        description:
-          ":Flight from Kathmandu (1400m) to Pokhara (822m) then Drive to Siwai (1530m) after that Trek to Chomrong (2170m) ",
-        details:
-          "Your flight to Pokhara will depart from Kathmandu Domestic Airport after our driver picks you up from your accommodation in Kathmandu. Your trekking party will be picked up by our driver at the Pokhara airport and driven to Siwai in around two to three hours. You will have lunch once you get to Siwai. You will begin your Annapurna Short Trekking Itinerary to Chomrong after lunch with a refreshment while climbing stone stairs and taking in the breathtaking scenery with farm remnants.",
-      },
-      {
-        day: 3,
-        description: "Trek from Chomrong (2170m) to Dovan (2600m)",
-        details:
-          "After breakfast in Chomrong, your Annapurna Base Camp Short Trek will start. From Chomrong, your hiking route will go through stone stairs that lead down to Chomrong Khola, where you will cross a suspension bridge. After there, you will travel upward to reach Sinuwa. You will arrive at Bamboo crossing Khuldighar after a brief trek through the woods and a short, flat descent. You will descend steeply to Dovan, the gorge's bottom, after passing through a soggy bamboo grove.",
-      },
-      {
-        day: 4,
-        description: "Trek from Dovan (2600m) to Deurali (3230m) ",
-        details:
-          "Due to a nearby temple, loud noises are prohibited in the jungle on the route between Dovan and Himalaya. As a result, the walk is quiet. The Short ABC Trek route has several waterfalls and first passes through bamboo woods before switching to rhododendron forests. As you continue up the route to Hinku cave after reaching Himalaya, clearings and glacial rivers become visible. After a short distance, the route initially descends to the river before rising once again to reach Deurali, which gives fascinating views of the valley below. Accommodations for the night in a Deurali guesthouse.",
-      },
-      {
-        day: 5,
-        description: "Trek from Deurali (3230m) to Annapurna Base Camp (413m)",
-        details:
-          "After a strenuous ascent, you will arrive at Machhapuchhre Base Camp on the Short Annapurna Base Camp Trekking route from Deurali. Views of Annapurna, Machhapuchhre, Gangapurna, Himchuli and other mountains are spectacular since they can be seen from all directions. A more significant, less vegetated path leads to ABC. Awareness of potential risks is advised since the area is vulnerable to avalanches. Mountain vistas get more straightforward as you ascend from MBC. Awe-inspiring views of snow-covered mountains, such as the Annapurna range, Singuchuli, Macchhapuchhre, Tent Peak, etc., may be seen from Annapurna Base Camp.",
-      },
-      {
-        day: 6,
-        description: "Trek from Annapurna Base Camp (4130m) to Sinuwa (2360m)",
-        details:
-          "You will see a stunning dawn today above the sparkling Alps. At sunrise, the peaks' 360-degree alignment is magnificent. Mardi Himal, Machhapuchhre, Annapurna III, Gangapurna, Singu Chuli, Khangsar Kang, Annapurna I, Hiunchuli, and Annapurna South all have imposing appearances. The view is breathtaking. Your Annapurna Short Trekking Route will return to Sinuwa after viewing the dawn. You will say farewell to the captivating views of the snow-capped Himalayas on the way back. Through Deurali, Himalaya, Bamboo, Dovan, and Macchapuchre Base Camp, you will make your way back. It feels fantastic to go through these towns. Interacting with the locals will be possible. If you like, you may learn more about their culture, way of life, customs, and religions. You will arrive in Sinuwa after several hours of hiking.",
-      },
-      {
-        day: 7,
-        description:
-          "Trek from Sinuwa (2360m) to Siwai (2170m) then Drive to Pokhara (822m) ",
-        details:
-          "Your short trip to Annapurna Base Camp will end on this day. You will go to Chomorong after a delightful breakfast in Sinuwa, passing Tilche and a suspension bridge. You will arrive at Jhinu Danda after a 45-minute descent. Lunch will be served in Jhinu Danda, a natural hot springs destination. You will continue your journey from Jhinu Danda to Siwai, where you may pick up a private vehicle and travel to Pokhara. Pokhara can be reached in around 3 hours. After arriving in Pokhara, you may spend the evening shopping, visiting the area, or perhaps taking a boat out on Phewa Lake.",
-      },
-      {
-        day: 8,
-        description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
-        details:
-          "You will board a tourist bus this morning after waking up in Pokhara to travel back to Kathmandu. The 205 kilometers separating Pokhara from Kathmandu follow the enthralling Marsyangdi River and the Trishuli River. The route from Pokhara to Kathmandu passes through various attractive market areas, including Damauli bazaar, Dumre bazaar, Mugling Bazaar, and others. The course also offers breathtaking vistas of hills, rivers, and mountains covered in snow. When you arrive in the Kathmandu valley, a crew member will be waiting to welcome you and show you to your accommodation so you can freshen up before spending your final evening in Nepal shopping or touring Thamel, which finally concludes your Annapurna Base Camp Short Trek successfully.",
-      },
-      {
-        day: 9,
-        description: "Final Departure ",
-        details:
-          "Three hours prior to departure, we arrange an airport shuttle service based on your scheduled departure time. If you have more time, we can arrange for you to do some side trips, or you may go exploring on your own.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparing for the Short ABC Trek is crucial for a successful and enjoyable experience. Proper preparation will ensure that you are physically and mentally ready for the trek and that you have all the necessary gear, clothing, and equipment.",
-      ],
-      points: [
-        "Physical preparation: The short ABC Trek is a challenging hike that requires a good level of fitness. In order to prepare for the trek, it is important to start a regular exercise routine several months before the trek. This can include cardio exercises such as running, cycling, or swimming, and strength training exercises such as weightlifting or resistance training. It's also important to do some specific training such as hiking, stair climbing, or carrying a heavy backpack.",
-        "Mental preparation: The short ABC Trek can be mentally challenging, especially when it comes to dealing with altitude sickness, unpredictable weather conditions, and long days of hiking. It is important to be mentally prepared for these challenges and to have a positive attitude.",
-        "Gear, Clothing, and Equipment: Having the right gear, clothing, and equipment is essential for the Short Annapurna Base Camp Trekking. It's important to have the right hiking boots, warm clothing, rain gear, a good quality backpack, a sleeping bag, a sleeping mat, a headlamp, a water filter, and a first aid kit.",
-        "Acclimatization: The short ABC Trek takes you to an altitude of 4,130 meters, which can cause altitude sickness. To avoid altitude sickness, it's important to acclimatize properly by spending at least one night in Pokhara, and then gradually increasing altitude.",
-        "Research: Researching the trek and the route is an important step in preparing for the short ABC Trek. It's important to know the distance, elevation, and trail conditions, as well as the best time of year to go, the availability of accommodation, and the estimated cost of the trek.",
-      ],
-    },
-    path: [""],
-  },
-  ////////////////////////////////Poon Hill Trek - 2 Days//////////////////////////////////////////////////////////////////////////////////////////////////////////
-  poon_hill_trek: {
-    about: [],
-    highlights: [
-      "Have fun on the quick excursion from Pokhara to Poon Hill and back.",
-      "One of Nepal's shortest treks that offers the greatest view of the Himalayas.",
-      "Travel through the stunning rhododendron forests, which are home to a variety of plants and wildlife.",
-      "Trekking through the stunning villages of Gurung, Magar, and Thakali provides a once-in-a-lifetime adventure.",
-      " Enjoy the warm welcome of the Gurung people and the chance to quickly learn about their distinctive culture, heritage, and way of life.",
-      "Enjoy the flavor of genuine Thakali Khana Set while staying in tea houses run by locals.",
-      "Beautiful view of the Annapurna ranges, Himchuli, Machhapuchhre, Dhaulagiri, and many more mountains",
-      "A fully guided 2-day journey that allows you to take in the sunset from Ghorepani and a 360-degree vista of the snow-capped mountains.",
-      "The most beautiful sunrise view from Poon Hill is best for those who are short on time.",
-      "There is no age restriction for hikers, so take in the alluring mountain views of the Annapurna and Dhaulagiri mountains.",
-    ],
-    facilities: [
-      "International and Domestic Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag",
-      "Create Himalayan Adventure T-Shirt",
-      "Free Ghorepani Poonhill Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Drive from Pokhara (822m) to Ulleri (1960m) via Nayapul (1070m), and Hile (1430m) then trek to Ghorepani (2880m) ",
-        details:
-          "You will board a jeep to Tikhedhunga, the beginning location of the 2 Days Poon Hill Trekking, after completing your breakfast in the hotel in Pokhara. On a Jeep, it will take around 3 to 4 hours to get to the starting point of the walk. You will pass via Sudame and Hile en route to Tikhedhunga. Most people who hike to Poon Hill begin their journey in Nayapul. You will go by Jeep to Ulleri since you have less time to do the 2 Days Short Poon Hill Trek. Even though you will be traveling by Jeep to Ulleri, you will get to see scenic towns, mountains like Machhapuchhre and Annapurna South, lovely hillocks, and streams along the road. As you pass, you will avoid the steep hills that many hikers find challenging. However, you won't have enough time to meet with folks in Hile and Sudame.You will eat lunch when you get to Ulleri, then climb upward to Ghorepani. From Ulleri, it will take around 6 to 7 hours. On your route to Ghorepani, you must climb a series of difficult slopes. You will trek from Ulleri to Ghorepani via meadows, rhododendron and oak forests, and pastureland. Nearly two hours of hiking will get you to Banthanti (2200m). The Gurung community predominates in the little town of Banthanti, which has a few eateries and guesthouses. Your 2 Days Ghorepani Poon Hill Trek Route will go north to Nangthanti from Banthanti (2500m). You will reach Nangthanti after navigating a number of creeks and minor hills. Mountain vistas are closer and more stunning as you go in a northerly direction. The two-hour hike from Nangthanti to Ghorepani is all uphill. The breathtaking vistas of Machhapuchhre, Annapurna I, and more await you when you arrive at Ghorepani. You will spend the night in a spotless tea house in Ghorepani.",
-      },
-      {
-        day: 2,
-        description:
-          "Hike to Poon Hill (3210m) then trek back to Thikhedhunga (1540m) and then Ride back to Pokhara (822m)",
-        details:
-          "The hike will begin before daybreak in the early morning hours. Your goal will be to get to the 3,210-meter-high Poon Hill viewpoint in time to witness the spectacular dawn. You will thus need to take a 45-minute trek from your accommodation to Poon Hill. You must act quickly because if you miss the sunrise, the enjoyment will be ruined. You will wait for the sun to rise after you reach the summit. The sun slowly emerges on the horizon from behind the hills. The dawn is magnificent. You will be spellbound by the breathtaking image created when the sun's rays hit the mountains. You will make the almost 45-minute ascent to the summit before making the descent to Ghorepani. After breakfast, 2 Days Poon Hill Trek from Pokhara Route will take you back to Tikhedhunga (1,500m), and it will take around 5 to 6 hours. As you move southward, the hike will also get a little easier. You may reach Nangthanti by hiking for two hours in the downward direction. From there, you can see Annapurna I in stunning detail. One additional hour of walking separates Nangthanti from Banthanti. From Banthanti, you may reach Ulleri by navigating a number of streamlets and stunning waterfalls. As you go down through the countryside and gorgeous mustard fields from Ulleri to Tikhedhunga, a tiny settlement area in Nepal home to the Gurung population, you can enjoy mesmerizing views of stunning villages and breathtaking mountains. You will eat lunch in Tikhedhunga before boarding a Jeep to travel to Pokhara. You will arrive in Pokhara (822m) after traveling for around 3 hours on a Jeep when the unforgettable Poonhill Trek 2 Days comes to a conclusion.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparation is key to ensuring that you have a safe and enjoyable trek to Poon Hill. Here are some things to keep in mind when preparing for the 2 Days Poon Hill Trekking:",
-      ],
-      points: [
-        "The trek is considered easy to moderate in terms of difficulty, but it is still important to be in good physical shape. Start training well in advance of your trek by going for regular hikes and incorporating cardio and strength training exercises into your routine.",
-        "The Poon Hill viewpoint is at an altitude of 3,210 meters, which is above the altitude where some people may experience altitude sickness. To prepare for the altitude, it's important to acclimatize properly by spending a few days in Pokhara or another lower-altitude location before starting the trek.",
-        "Make sure you have the right clothing and equipment for the trek. You will need warm clothes, a waterproof jacket, good hiking boots, a backpack, water bottles, a headlamp, and other essentials. It's also a good idea to bring a first aid kit, as well as any personal medications you may need.",
-        "Research the trek beforehand, and plan your route and itinerary. Make sure you have a good map and a guidebook and familiarize yourself with the trail and the locations of the tea houses and lodges.",
-        "Make sure you have travel insurance that covers trekking and emergency evacuation.",
-        "You will need TIMS (Trekkers' Information Management System) and Annapurna Conservation Area Permit (ACAP) to trek in the Annapurna region. You can get these permits from Kathmandu or Pokhara.",
-        "If you are new to trekking or prefer not to carry your own gear, you may want to consider hiring a guide or porter. They can help you navigate the trail, carry your gear, and provide valuable information about the local culture and environment.",
-      ],
-    },
-    path:[ ""],
-  },
-  /////////////////////////////////////////////////////////////////////////Poon Hill Mardi Himal Trek - 12 Days///////////////////////////////////////////////////////////////////////
-  poon_hill_mardi_himal_trek: {
-    about: [
-      "The Mardi Himal Trek via Poon Hill will be the most appropriate for you if you are looking for an easy to moderate difficulty level trek in the Annapurna area of Nepal. Two locations, Poon Hill and Mardi Base Camp offer the best opportunities for seeing the top of the snow-capped mountain. This trip is an excellent substitute for the congested hikes to Annapurna Base Camp since it gives you breathtaking Himalayan vistas in a short period. Spectacular views of some of the world's highest mountains, including Annapurna South, Macchapucchre, Himalchuli, and others, are available from Ghorepani Poon Hill with Mardi Himal Trek. Similar to this, the route passes through great villages with friendly locals and excellent common sceneries. This hike combines elements of two hikes. You will finish the Ghorepani Poon Hill Trek first, and then you will move on to the Mardi Himal Trek. One of the most well-known treks in the Annapurna region is Poon Hill Trek, whereas Mardi Trek is a recently launched trek in a less visited and off-the-beaten-path location. After taking a tourist bus from Kathmandu to Pokhara, the Mardi Himal Trek via Poon Hill begins. You will arrive in Birethanti, the starting site of the major trek, after traveling from Pokhara for around an hour and fifteen minutes. The journey begins by passing past terraced farms that are brimming with paddy and mustard. Ulleri is reached after passing through the Magar and Gurung settlements of Hile and Tikhedhunga. The next day, you will trek through a rhododendron forest and via the picturesque village of Banthanti to get to Ghorepani. You will leave Ghorepani early in the morning to go to Poon Hill to see the stunning sunrise over Machhapuchhre and the adjacent mountain ranges. After seeing a breathtaking sunrise at Poon Hill, you will make the trip down to Ghorepani for breakfast. After breakfast, your adventure will continue via Tadapani, Ghandruk, and Landruk before beginning your second trek, the Mardi Himal Trek, in Landruk. From Landruk, proceed toward Low Camp through Forest Camp and a lovely rhododendron, pine, and oak forest. The next morning, you will leave for High Camp after spending the night at Low Camp. The next day, you will depart from High Camp and travel to Mardi Base Camp without your backpack. You will then climb down from Mardi Himal Base Camp to Badal Danda and ultimately to Siding. To go to Pokhara from Siding, you'll use a shared vehicle. The opportunity to boat on Phewa Lake will let you explore some of Pokhara's most beautiful areas. Your 12 Days Mardi Himal Poon Hill Trek will then conclude as you ride a tourist bus back to Kathmandu.",
-    ],
-    highlights: [
-      "Enjoy your free time by seeing some incredible Pokhara attractions including the World Peace Pagoda, David Fall, Phewa Lake, and International Mountaineering Museum.",
-      "Discover the beautiful landscapes, rhododendron woods, animals, fauna, terraced fields, and Gurung People's modest communities in the Annapurna region.",
-      "Enjoy the stunning views of the spectacular Annapurna South and Fishtail while hiking along the Poon Hill Mardi Himal Trek Route, and spend the night in comfortable teahouses.",
-      "Experience breathtaking sunrises over the Dhaulagiri and Annapurna ranges from the Poonhill viewpoint.",
-      "Get wonderful hospitality from the locals and forget about your tiredness and pain from walking.",
-      "Trek to Mardi Himal's foot to experience the mesmerizing view of the snow-covered Himalayan Mountains.",
-      "Fantastic views of Mount Dhaulagiri, Mount Annapurna (II, III, IV, and South), Mount Hiunchuli, Mount Machhapuchhare, and more.",
-      "Visit the community of Siding to learn about the way of life, culture, and customs of the locals.",
-    ],
-    facilities: [
-      "Free International Airport Pickup And Drop Services",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt as a souvenir",
-      "Free Poon Hill Mardi Himal Trek Map",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Oximeter to check oxygen level at high altitude",
-      "Free Excess Luggage Storing At Create Himalayan Adventure Store During The Trek",
-      "Arrangement of sleeping bags and down jackets if required",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "Our agent will meet you at Tribhuwan International Airport. In addition to helping you check in, he will provide you a private transport to the hotel. You might choose to unwind at your hotel after a long travel or go exploring to find some of Kathmandu's lovely sights. You will meet your guide during your trek briefing on the Poon Hill and Mardi Himal Trek Itinerary that takes place in the evening. He will provide you with any information you need regarding the trek as well as any equipment that is missing.",
-      },
-      {
-        day: 2,
-        description: "Drive from Kathmandu (1400m) to Pokhara (822m)",
-        details:
-          "You will board a tourist bus to Pokhara after a leisurely breakfast; the trip might last 7 to 8 hours. Pokhara is considered the starting point for the Poon Hill to Mardi Himal Trek. Numerous springs and the picturesque Trishuli and Marsyangdi Rivers flowing next to the verdant Rocky Mountains may be seen throughout the route. We can also arrange for a direct flight for you from Kathmandu to Pokhara if you pay an additional charge. This would enable you to reach Pokhara from Kathmandu in only 25 minutes, giving you more time to enjoy the Pokhara Valley. The Pokhara valley is home to several stunning lakes, including Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. Views of the Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal may be seen from the Pokhara Valley.",
-      },
-      {
-        day: 3,
-        description:
-          "Drive from Pokhara (822m) to Birethanti (1263m) then trek to Ulleri (1960m)",
+  path: ["/images/abc-road-img.jpg"],
 
-        details:
-          "The travel to Birethanti from Pokhara takes roughly 1.5 hours. Mardi Himal Trek via Poon Hill will begin in Birethanti, where you can reach by following Modi Khola. You will pass numerous local villages, teahouses, beautiful green rolling hills, rivers, and locals throughout the journey. After passing through the charming village of Hile, you will arrive in Tikhedhunga. The trail then starts to ascend pretty steeply on a stone staircase once you cross the suspension bridge. You will be in the sizable Magar village of Ulleri, where you can get a sight of Hiunchuli and Mount Annapurna South.",
-      },
-      {
-        day: 4,
-        description: "Trek from Ulleri (1960m) to Ghorepani (2880m)",
-        details:
-          "Your Ghorepani Poon Hill with Mardi Himal Trek Route will depart from Ulleri after a delectable breakfast. The route from Ulleri to Banthanti travels through rhododendron and oak woodlands. You will arrive at Nangge Thanti by following Bhurungdi Khola side by side. The portion of the adventure where you spend the majority of the day trekking through the jungle will be really exciting. If you schedule your Trek for the spring, you will see lots of rhododendron blooms, many wild birds and animals, and a stunning vista of numerous snow-capped mountains. You can reach Ghorepani after a short hike through the jungle. It's wonderful to stay in Ghorepani and enjoy the breathtaking views of Dhaulagiri, Annapurna South, Hiunchuli, and Annapurna.",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Ghorepani (2880m) to Poon Hill (3210m) then Tadapani (2630m) ",
-        details:
-          "From Ghorepani, a short hike will take you to Poonhill, where you can enjoy a magnificent panorama of the mountain ranges and a stunning sunrise. Poon Hill is the greatest vantage point along this path and is undoubtedly a photographer's aspiration. You can walk to the top of the hill, which is at a height of 3210m, in about an hour. From there, you can see the Himalayas, including the Annapurna, Bahari Shikhar, Hiuchuli, Nilgiri, Dhaulagiri, Tukuche, Lamjung Himal, Manaslu, Machhapuchhre, and other peaks. After capturing enough incredible images of the sun rising over the mountains, you will return to the guesthouse in Ghorepani for a breakfast before continuing Mardi Himal Trek with Poon Hill towards Tadapani. The Ghorepani and Annapurna Circuit Trek is connected by a lovely woodland track that passes through forests of oak and rhododendron trees and leads to Deurali. Banthanti is reached by a route that descends through rhododendron woodland. Then the route ascends and passes through a cane field to get to Bhurungdi Khola, after which it climbs once again via a series of steep woods for 20 minutes before arriving at Tadapani, another lovely settlement that offers breathtaking views of the Annapurna peaks.",
-      },
-      {
-        day: 6,
-        description:
-          "Trek from Tadapani (2630m) to Landruk (1565m) via Ghandruk (1940m)",
-        details:
-          "The journey from Tadapani to Ghandruk through oak and rhododendron woodland is relatively easy. Along the walk, wildflowers may be seen, which enhances the region's remarkable attractiveness. You will continue your Mardi Himal Poon Hill Trek via the Baisi Kharka to Ghandruk. Once you get to Ghandruk, you will be able to see Annapurna South, Gangapurna, Machapuchare, Annapurna III, and Hiunchuli. A museum and a Buddhist monastery are among their many cultural attractions. Its distinctive architectural design, with the majority of homes having stone walls and slate-tiled roofs, is what most fascinates people. From Ghandruk, the settlement of Landruk is ultimately reached after passing via the small village of Phedi and navigating the Modi River.",
-      },
-      {
-        day: 7,
-        description: "Trek from Landruk (1565m) to Low Camp (3050m)",
-        details:
-          "To reach Forest Camp from Landruk, it is a steep trek through pine and juniper hamlets. As you travel further, you can see more of the high peaks. The forest camp is incredibly quiet and remote, with only a few simple and basic lodges scattered around. You will travel to Low Camp along the Poon Hill and Mardi Himal Trek route across moss and lichen-covered woodlands from Forest Camp. Rhododendron bushes dominate the landscape, and the horizon is adorned with breathtaking vistas of the Annapurna, Machhapuchhre, and Dhaulagiri Mountain Peaks. Low Camp, like Forest Camp, features only a few simple lodges, and a sweeping vista of the Himalayan valley wraps up the atmosphere.",
-      },
-      {
-        day: 8,
-        description: "Trek from Low Camp (3050m) to High Camp (3600m)",
-        details:
-          "Your Ghorepani Mardi Himal Trek route will begin with Low Camp and travel via Badal Danda to High Camp. You must ascend through a rhododendron forest for one hour to reach Badal Danda. Although the routes are challenging, you will be rewarded with stunning views of Mardi Himal, Annapurna Range, and Machhapuchhre. The ridge gets thinner as you go up, and you can see the huge valleys on each side. You will be facing the Modi Khola river valley to your left, which is bordered by communities that rise up to the Annapurna Sanctuary. You can see the Mardi Khola and Seti river valleys to your right. You can even see the Pokhara Valley on clear days. To get to High Camp, you must keep trudging along the ridgeline. On your trip to the high camp, if you are lucky, you could get the chance to witness Daphne, the national bird of Nepal.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from High Camp (3600m) to Mardi Base Camp (4500m) then return to Badal Danda (3250m) ",
-        details:
-          "In order to witness the sunrise over the mountains today, you will get up early. It will be the most memorable and challenging journey of your whole Poon Hill to Mardi Himal Trek Itinerary. The track is more difficult than you may imagine because of a series of rapid ascents that you must accomplish on uneven and steep steps. To go to Mardi Himal Base Camp, will take you around 5 hours. At the elevation of 4500 meters, reaching the base camp while traversing a lush, green, High Mountain will make you feel extremely accomplished. You will also be captivated by the expansive panorama of the snow-capped mountain ranges of Mt. Machhapuchhre, Mardi Himal, Annapurna I (8,091m), Annapurna III (7,555m), and Gangapurna (7,455m). You will travel down to Badal Danda to enjoy the floating cloud that goes through you after capturing those amazing and delightful views in your heart.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Badal Danda (3250m) to Siding (1700m) then Drive to Pokhara (822m)",
-        details:
-          "After spending some fantastic time at Badal Danda making amazing memories, admiring the breathtaking Himalayan views, and learning about the local ecosystem with its uncommon flora and fauna, it's time to descend to Siding village. The Mardi Himal Trek via Poon Hill's alternative route will descend to the amazing town of Siding rather than returning to Forest Camp. After eating lunch in Siding, you will go to Pokhara in a shared jeep. In Pokhara, you will have free time in the evening to go boating or explore the wonderful lakeside area.",
-      },
-      {
-        day: 11,
-        description: "Drive from Pokhara (822m) to Kathmandu (1400m) ",
-        details:
-          "You will take a deluxe tourist bus through the Prithvi Highway from Pokhara to Kathmandu after breakfast. Depending on traffic, it takes 7 to 8 hours to go around 205 kilometers. Along the way, you will pass through various landscapes and see the vibrant and busy bazaars of Damauli, Dumre, Mugling, etc. The Ghorepani Poon Hill with Mardi Himal Trek will be successfully concluded with a celebration that you will attend in the evening. Live ethnic music is available as you eat a typical Nepalese supper. You can purchase mementos to take home or take some photographs to remember your trip.",
-      },
-      {
-        day: 12,
-        description: "Final Departure",
-        details:
-          "Depending on your departure schedule, we will often set up an airport transfer service three hours before to departure. If you have additional time, we can set up some side trips for you, or you may go exploring on your own.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Trekking up Mardi Himal is not as simple as Ghorepani Poon Hill Trek. To reach the most stunning trekking location in Nepal, you need to put in some practice, dedication, planning, and assistance. Anyone may participate in Ghorepani Poon Hill with Mardi Himal Trekking, but it is necessary to be in good physical condition, physically fit, and motivated. You need to go on a few short trips and walk for 5 to 6 hours a day, both uphill and downhill before you go trekking in Nepal. You may increase your stamina by doing aerobic workouts like running, swimming, cycling, and more. Try some yoga poses that will immediately improve your breathing, and before the journey, keep your body hydrated by drinking plenty of water.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  ////////////////////////////////////////////////////////////////////Annapurna Full Circuit Trek - 17 Days//////////////////////////////////////////////////////////////////////////
-  annapurna_full_circuit_trek: {
-    about: [],
-    highlights: [
-      "One of the top hiking routes in the world is the Annapurna Full Circuit Trek.",
-      " On the way, pass through two beautiful river valleys: the Marshyangdi River Valley and the Kali Gandaki River Valley.",
-      "You may explore the numerous features of the Himalayas by hiking through oak, rhododendron, and rice field forests.",
-      "Embark on the Throng La Pass challenge, a fantastic and remarkable trekking accomplishment.",
-      "Enjoy the stunning vista of the Annapurna massif, Dhaulagiri, and Lamjung Himal ranges",
-      "A brief tour of the biggest monastery in the Manang area, Barge Monastery",
-      "One of the most revered temples for both Hindus and Buddhists is the Muktinath Temple.",
-      "Visit the 108 stone faucets at the Muktinath Temple, which is revered by both Hindus and Buddhists.",
-      "Tatopani's natural thermal springs are a great location to unwind after a long day.",
-      "Immerse yourself in the indigenous Himalayan culture and way of life.",
-      "Drive through communities populated by several ethnic groups to get a sense of the lively local culture.",
-      "Enjoy the stunning view from Poonhill, then have a wonderful day in the stunning Pokhara valley.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
-      "Map of Annapurna Full Circuit Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
-      "Arrangement of sleeping bags and down jackets if required",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m) ",
-        details:
-          "You will be met by our airport representative at Tribhuwan International Airport. He will transport you to the hotel in a special tourist vehicle and help you check-in. After a long travel, relax with a nap. To get your first sights of Kathmandu city, explore some of the lovely spots outside of your lodging. In the evening, you will meet your guide for a briefing on the Annapurna Full Circuit Trek Itinerary. The guide will provide you with any equipment that is lacking as well as information on the trek.",
-      },
-      {
-        day: 2,
-        description: "Drive from Kathmandu (1400m) to Dharapani (1860m)",
-        details:
-          "A regular bus that departs early in the morning will take you from Kathmandu to Bhulbhule via Besisahar. Your journey to Dharapani, your final stop for the day, will next be made in a shared jeep. With its breathtaking waterfalls, snow-capped mountains, and several suspension bridges, the experience of Annapurna Full Circuit Trekking will astound you. Before reaching Dharapani, you will travel beside the Marsayangdi River via charming rural villages like Ngadi, Bahundanda, Syange, Jagat, Chamje, and Tal. Visitors should register their IDs and hiking permits at the Dharapani police checkpoint.",
-      },
-      {
-        day: 3,
-        description: "Trek from Dharapani (1860m) to Chame (2610m)",
-        details:
-          "You will travel through the alpine country today, where the temperature will decline. One gets to the Tibetan settlements of Bagarchhap and Danakyu after trekking through the woodlands. Along with pine forests, farms, and vistas of the Lamjung and Annapurna II peaks, you will witness the apple-growing region. After passing through the lovely towns of Timang, Thanchowk, and Koto, where the Naar-Phu road connects the Full Annapurna Circuit Trek Route, you will eventually arrive at Chame. The village's main entrance is framed by a sizable mani wall with prayer wheels. The district seat of Manang, Chame, offers a wide range of amenities, including lodging, Internet cafés, outdoor equipment stores, banks, and communication and medical centers.",
-      },
-      {
-        day: 4,
-        description: "Trek from Chame (2610m) to Upper Pisang (3300m) ",
-        details:
-          "The Chame route winds through stunning pine and rhododendron woods in a small, steep valley. The Full Annapurna Circuit Trekking Route ascends after a suspension bridge over the Marshyangdi River and provides stunning views of mountainous terrain, including the face of Pangdi Danda and Swargadwari Danda. You will pass through the villages of Talekhu and Bhratang and arrive at Dhikur Pokhari if you keep going. Annapurna II, Pisang Peak, Chulu Peak, and Tilicho Peak, among many more peaks, can be viewed from Dhikur Pokhari. After that, you will go toward Upper Pisang by crossing a suspension bridge over a river. Upper Pisang offers stunning views of the Annapurna Range's Kuntu Danda, Longyo Danda, and Pisang Peak.",
-      },
-      {
-        day: 5,
-        description: "Trek from Upper Pisang (3300m) to Manang (3540m)",
-        details:
-          "You will take the toughest path, which includes multiple steep ascents and twists, starting from Upper Pisang. You can experience breathtaking views of the Lamjung Himal (6,983m), Annapurna II (7,937m), Annapurna IV (7,525m), Gandarbha Chuli (6,250m), Annapurna III (7555m), Gangapurna (7,544m), Glacier Dome (7,193m), and Khangsar Kan while trekking on the upper paths of Upper Pisang through Ghyaru and Ngawal (6,091m). You will notice that the air gets colder, dryer, and harsher as the Annapurna Complete Circuit Trek Route ascend. You will get the chance to learn about Buddhist culture as you go through the Tibetan settlements along this trail. On the route to Manang, it passes through the endearing village of Munchi and the inconspicuous hamlet of Braga. You will eventually arrive at Manang market after passing through a number of monasteries. Along the way, you will notice that the road is lined with Buddhist temples. One of the largest settlements in Manang, which is situated along the Annapurna Full Circuit Trekking route.",
-      },
-      {
-        day: 6,
-        description: "Acclimatization at Manang (3540m)",
-        details:
-          "Before continuing to Tilicho Lake, this is a rest day as per Annapurna Full Circuit Trek Itinerary. Make the most of your time by taking a little stroll to acclimate yourself by visiting Gangapurna Lake and the neighborhood. The scenery is stunning, despite the route of this tourist attraction is a little challenging and littered with tiny pebbles. The serene Gangapurna Lake receives its water from melting glaciers while being surrounded by gleaming mountains and rugged hills. Glacial Dom, Khangsar Kang, Mt. Gangapurna, and Annapurna can all be seen from the lake. Also popular among hikers are side trips to the beautiful Ice Lake and Base Camp.",
-      },
-      {
-        day: 7,
-        description: "Trek from Manang (3540m) to Ledar (4200m)",
-        details:
-          "Your Annapurna Full Circuit Trekking Route will ascend to the settlement of Tengi from Manang village, crosses a spring, and then continues to ascend out of the Marshyangdi Valley before turning northwest and ascending the Jarsang Khola valley. The path proceeds northward through this valley, slowly gaining altitude as it passes through a few meadows and a juniper tree scrub. The little settlement of Ghusang, which consists of a collection of mud-roofed structures, is located close to where the route continues to travel. The trail passes through yak and horse grazing meadows known as Yak Kharka. The path crosses a historic old Mani wall in a peaceful meadow after passing a small river on a wooden bridge, and it eventually reaches to the lovely hamlet of Ledar.",
-      },
-      {
-        day: 8,
-        description: "Trek from Ledar (4200m) to Thorung Phedi (4525m)",
-        details:
-          "You will walk to Thorung High Camp, also known as Thorung Phedi, today. Depending on your physical condition and the weather, it will take 4 to 5 hours to reach Thorung Phedi or Thorung High Camp. In these higher locations, the difficulty level and frequently severe winds are impacted by the higher altitude. Snow on the Complete Annapurna Circuit Trek Route can make it take considerably longer. Following your guide, go gently and carefully. You may observe herds of Yaks and blue sheep grazing on the other side of the river, across from the course. In Thorung Phedi, there aren't many tea places. Unlike the lush lowlands you crossed on the way up during the first part of the hike, the deserted, rocky environment is unearthly and quite different. Trekking to the High Camp will make the next day's trip simpler if you are not exhausted and eager to go further.",
-      },
-      {
-        day: 9,
-        description: "Trek from Thorang Phedi (4550m) to Muktinath (3760m)",
-        details:
-          "The journey you will do today is one of the toughest in the whole Annapurna Full Circuit Trek Itinerary. You may reach the 5416-meter Thorung La Pass by way of Thorung Phedi or Thorung High Camp. Thorung La Pass offers a distant view of the Annapurna Range, Thorong Peak, Dhaulagiri Range, Nilgiri, and other mountains. You will wander down to Muktinath after savoring the splendor and snapping a few pictures. There is only downhill travel between Thorung La Pass to Muktinath. In addition to being a Buddhist temple, Muktinath is the second-largest Hindu temple. The Muktinath shrine receives a high number of Hindu pilgrims. In Muktinath, there are two small ponds and 108 water taps. A holy natural gas flame sparkles behind a grill just above the spring at Dhola Mebar Gompa, or the Jwalamai (goddess of fire) temple, a little distance away via a group of Chorten.",
-      },
-      {
-        day: 10,
-        description: "Trek from Muktinath (3760m) to Tukuche (2590m)",
-        details:
-          "Today's Annapurna Full Circuit Trekking route will leave from Muktinath once breakfast is over. As you descend, you will pass through several charming villages, including Jharkot, Kagbeni, and Ekle Bhatti. The journey to Jomsom is considerably less difficult than the previous one because the majority of the roads are downhill. The last few sections of the route are a little more challenging due to steep inclines. You must ascend the mountains that lead to the Kali Gandaki River and a windswept valley in order to reach Jomsom. Jomsom, which serves as the district's administrative hub for the Mustang area, is home to the Thakali people and the traditional salt dealers. Jomsom offers a clear view of Tilicho Peak, Nilgiri, and Dhaulagiri. From Jomsom, you will continue your trek via Syang, and Marpha to finally reach Tukuche.",
-      },
-      {
-        day: 11,
-        description: "Trek from Tukuche (2590m) to Ghasa (2010m)",
-        details:
-          "Your Full Annapurna Circuit Trek route will depart for Ghasa today after breakfast in Tukuche. As you travel from Tukuche to Lete, you will pass through the picturesque towns of Kobang, Larjung, Kokhethanti, and Kalopani. You may enjoy a stunning view of Dhaulagiri and Annapurna from Lete. The Kaligandaki River will be followed on the trip from Lete until you reach Ghasa. You will spend the night at Ghasa.",
-      },
-      {
-        day: 12,
-        description: "Trek from Ghasa (2010m) to Tatopani (1190m)",
-        details:
-          "As the Annapurna Full Circuit Trekking Route descends from Ghasa to lower heights, subtropical flora becomes more noticeable. Rupse Chahara (a waterfall) is located along this road, and if you continue down the east bank from Kopchepani, you'll arrive at Narchyang Besi, which has a power plant that provides the community with electricity. You will pass via the villages of Dana, Duwarikhola Gaon, Guithe, and Jalthale on your way to Tatopani, your final stop for the day. There are hot springs in Tatopani where you may have a revitalizing soak.",
-      },
-      {
-        day: 13,
-        description: "Trek from Tatopani (1190m) to Ghorepani (2880m) ",
-        details:
-          "After enjoying a sumptuous breakfast in Tatopani, you will set off on your Annapurna Full Circuit Trek route from the highway. You will pass through picturesque villages with terraced and sloping farmlands, such Ghara, Shikha, and Phalate. Throughout the trek, you may see how villagers live. Ghorepani is reached after a hard climb largely along stone-paved routes. A variety of vibrant plants can be seen along the way, and as you climb, you can see more and more majestic mountain peaks. The next morning, additional beauty can be seen at Poon Hill.",
-      },
-      {
-        day: 14,
-        description: "Trek from Ghorepani (2880m) to Tikhedhunga (1540m) ",
-        details:
-          "For the Poon Hill excursion, you must get up early. The most breathtaking panoramic views of the Himalayas are provided by Poon Hill, which is located 3210 meters above sea level. The golden summits come to life with the dawn's first light. Following an hour of taking in the breathtaking scenery, you will return to Ghorepani for a delicious supper before continuing the Annapurna Full Circuit Trek in the direction of Tikhedhunga. To ultimately get to Tikhedhunga, your final stop for the day, you will walk through rhododendron woods, passing through magnificent towns like Nangethanti, Banthanti, and Ulleri, a sizable Magar hamlet.",
-      },
-      {
-        day: 15,
-        description:
-          "Trek from Tikhedhunga (1540m) to Nayapul (1070m) then Drive to Pokhara (822m) ",
-        details:
-          "You will begin your Full Annapurna Circuit Trek from Tikhedhunga to Nayapul today after breakfast. To ultimately reach Nayapul, you will stroll through picturesque towns like Hile, Sudame, and Birethanti. Following Bhurungdi Khola from Sudame to Birethanti and then Modi Khola to Nayapul is your hiking route. You will take a private vehicle from Nayapul to Pokhara. You will have free time in Pokhara to spend any way you choose. You may go shopping, explore the area around your hotel, or perhaps rent a boat and cruise Phewa Lake.",
-      },
-      {
-        day: 16,
-        description: "Drive from Pokhara (822m) to Kathmandu (1400m)",
-        details:
-          "This will be the last day of your Annapurna Full Circuit Trek Itinerary which involves trekking. After a sumptuous breakfast in Pokhara, you will board a tourist bus for Kathmandu. The travel time to the Kathmandu Valley will be between 7 and 8 hours. From the bus's windows, you can take in the breathtaking scenery as you journey. Once in Kathmandu, our driver will assist you in getting to your accommodation. We will celebrate the successful conclusion of your trekking with an incredible farewell dinner in the evening.",
-      },
-      {
-        day: 17,
-        description: "Final Departure ",
-        details:
-          "A drop from the hotel to the airport 3 hours before the scheduled time of the flight is arranged in a private tourist vehicle. You can also opt for another program with us and elongate your stay.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparation for the Annapurna Full Circuit Trek includes both physical and mental preparation.",
-      ],
-      points: [
-        "Physical preparation includes increasing your cardiovascular endurance through activities such as hiking, running, cycling, and swimming. It is also important to strengthen your leg muscles, as the trek involves a lot of uphill and downhill hiking. Additionally, it is essential to acclimatize yourself to the altitude, as the trek reaches elevations of up to 5,416 meters (17,769 feet).",
-        "Mental preparation includes familiarizing yourself with the trek route and itinerary, as well as researching the culture and customs of the local people. It is also important to be prepared for the challenges of high-altitude trekking, such as altitude sickness.",
-        "You should also carry the appropriate gear and clothing, such as a good pair of hiking boots, a waterproof jacket, warm clothing, and a first aid kit. It's always good to be prepared and hire a guide or porter, or join a group of trekkers.",
-        "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
-      ],
-    },
-    path:[ ""],
-  },
-  /////////////////////////////////////////////////////////////////////Everest Region Trekking////////////////////////////////////////////////////////////////////////////
-  ///////////////////////////////////////////////////////////////EBC Trek via Gokyo with Helicopter Return – 15 Days////////////////////////////////////////////////////////
-  ebc_trek_gokyo_helicopter: {
-    about: [
-      "Would you like to explore several places in a single trip? If the answer is yes then the EBC Trek via Gokyo with Helicopter Return is the most appealing option for you.You will be able to visit all six of the Gokyo Lakes on this trip: Gokyo Cho, Thonak Cho, Gyazumpa Cho, Tanjung Cho, Ngojumba Cho, and Longpanga Cho. Following that, you will get the incredible chance to explore the 5420-meter-high Cho La Pass. Other significant sites included in the EBC Trek via Gokyo with Helicopter Return are the popular observation point Kala Patthar, which is located at an elevation of 5545 meters, and Everest Base Camp, which is located at 5364 meters.The most enjoyable aspect of the EBC Trek via Gokyo with Helicopter Return is the helicopter ride back to Kathmandu from Gorakshep, which helps you see the trip from a different angle and shortens your trekking distance.You will be able to get a bird’s eye view of the snow-covered Khumbu glacier and several other high peaks, including Ama Dablam, Everest, Thamserku, Lhotse, and many more.The 15-day EBC Trek via Gokyo with Helicopter Return is a fantastic experience for nature lovers and adventure explorers. The beginning of your journey will involve a quick flight to Lukla from the domestic terminal of Tribhuvan International Airport. This flight has a duration of 35 to 45 minutes. During the busiest trekking season, when there is a lot of traffic and a large number of visitors, the Lukla flight may detour to Manthali airport. Create Himalayan Adventure Treks also offers daily helicopter flights from Kathmandu to Lukla if you don't want to waste three or four hours driving to Ramechhap by road. Prepare to follow the Dudh Koshi River valley and arrive at Namche Bazaar, a bustling market town, once you arrive in Lukla. As you pass through charming towns like Chheplung, Phakding, Monjo, and so forth, the ambiance will be wonderful. You will also get plenty of opportunities to take in the magnificent mountain vistas. The breathtaking views of some of the tallest mountains, which are just as stunning as Everest, will welcome you here. Following your acclimatization in Namche, your EBC Trek via Gokyo with Helicopter Return will pass through Machhermo and Dole before arriving at the next acclimatization site, which is Gokyo Valley. You will have a wonderful opportunity to take in the breathtaking Gokyo Valley, with its calm lakes and majestic peaks. Marching to Gokyo Ri, which is located at an elevation of 5357 meters, is another way to prolong your journey. According to some trekkers, Gokyo Ri offers a better view of Mount Everest than Kala Patthar. Following your time spent admiring the splendor of Gokyo Valley, you will travel through gorgeous destinations like Dragnag, Cho La Pass, Dzongla, Lobuche, and lastly Gorakshep on your way to approaching Everest Base Camp. You will explore the neighboring snow-capped peaks for a while after arriving at EBC before heading back to Gorakshep. The next day, you will spend roughly two hours trekking to Kala Patthar, where you can get a closer look at Mount Everest. After that, you will hop on a helicopter and head back to Kathmandu to wrap up your EBC Trek via Gokyo with Helicopter Return Package in style. Get more information about the EBC Trek via Gokyo with Helicopter Return package by contacting us right now. We are willing to make any necessary customizations to this bundle based on your preference. Don't hesitate to contact us at any time if you have any questions about the price or any other aspect of this package. To make your journey as simple and pleasurable as possible, we are available to you around the clock.",
-    ],
-    highlights: [
-      "Experience breathtaking views of the Himalayas, including Mount Everest, from various vantage points like Gokyo Ri and Kala Patthar.",
-      "Explore the stunning Gokyo Lakes region, renowned for its turquoise waters and picturesque surroundings.",
-      "Enjoy trekking on less crowded trails compared to the traditional Everest Base Camp route, offering a more serene and immersive experience.",
-      "Conclude your trek with a thrilling helicopter ride back to Kathmandu, providing a convenient and scenic alternative to the standard return journey.",
-      "Save time on your return journey, allowing for more flexibility in your travel plans and additional time to explore other attractions in Nepal.",
-      "Trek with experienced guides who are knowledgeable about the region's terrain, culture, and safety protocols.",
-      "Stay in comfortable teahouses along the trekking route, providing essential amenities and a cozy retreat after a day of hiking.",
-      "Interact with local Sherpa communities and learn about their unique culture, traditions, and way of life.",
-      "Embark on an unforgettable adventure and achieve the milestone of reaching Everest Base Camp while enjoying the added thrill of a helicopter return journey.",
-    ],
-    facilities: [
-      "We offer a simple and safe online reservation method.",
-      " We provide the option to customize the trek itinerary to suit the needs of our clients.",
-      "We have an English-fluent certified NTA guide on staff.",
-      "On the trek, you will get the greatest lodging and meals.",
-      "Our guides have received extensive training and are knowledgeable on trekking routes, altitude sickness, and other related topics.",
-      "Our track record of 99% client satisfaction makes us proud.",
-      " To spend quality time with our clients, we plan a farewell and trek completion celebration supper after the trip.",
-      "We always have medical kits on hand in case they become necessary at any time.",
-      " We always have emergency rescue and evacuation plans in action.",
-      " We give our customers t-shirts and our company's duffle bag.",
-      "We also offer free storage for extra luggage at our office while on the trek.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m)",
-        details:
-          "A Green Valley Nepal Treks representative will greet you when you arrive at Tribhuvan International Airport. You will be driven to your accommodation in a private vehicle after completing the necessary paperwork for your visa and other requirements.You will receive an orientation with the trekking guide regarding your trip itinerary after taking a short break at your hotel.",
-      },
-      {
-        day: 2,
-        description: "Fly to Lukla (2840m) then Trek to Phakding (2610m)",
-        details:
-          "The exhilarating journey from Kathmandu to Lukla kicks off the first day of the EBC Trek via Gokyo with a Helicopter Return excursion. An early glimpse of the magnificent scenery seen in the Himalayas is provided by this sightseeing take-off. The journey to Phakding starts after landing in Lukla. Together with lush trees and the Dudh Koshi River, the trail travels past charming Sherpa communities. An ideal preamble to the trekking adventure ahead is provided by the tranquil surroundings and easy terrain. Along the journey, trekkers will be greeted by prayer flags waving in the breeze and the warm hospitality of the villagers. As a prelude to the days ahead, today's hike provides a well-balanced mix of scenic natural features and cultural exposure.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "You will depart Phakding on the second day of the hike and head towards the colorful and energetic Namche Bazaar. The trail highlights a peek of the beautiful scenery that lies ahead as it winds through charming rhododendron trees and passes the Dudh Koshi River suspension bridges. The majestic Thamserku and Kongde Ri peaks, as well as the other towering Himalayan giants, will be visible for the first time to you as you ascend. Tucked deep in the Himalayas, Namche Bazaar is a lively Sherpa village with a breathtaking backdrop of the world's tallest peaks. Namche Bazaar for acclimatization provides the appropriate balance of contemporary conveniences and cultural immersion, making it a great spot to unwind, restock, and visit the regional markets.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m)",
-        details:
-          "Acclimatization is very important for trekkers hiking at high elevations to get used to the climate and situation. For the speedy adjustment to the higher altitude, you can hike to the Everest View Hotel which is considered to be located at the highest place. From the hotel, you will get a splendid view of the Himalayas such as Mount Everest, Lhotse, Nuptse, Ama Dablam, Thamserku, Kongde, and others. After having a tea or a coffee break, you will gradually descend to the Sherpa villages of Khumjung where you will have lunch. You may also visit the Khumjung Monastery. The legend has it that the monastery houses a Yeti’s scalp. When you return to Namche, you may choose to relax or enjoy roaming about the town. You may visit the Sherpa museum to learn about the Sherpa culture and the history of mountaineering, or nearby Thame, a historic village. It is worth visiting the school established by Sir Edmond Hillary, the first person to climb Mt Everest.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Dole (4110m)",
-        details:
-          "You will leave Namche Bazar's lively atmosphere behind and continue your journey towards Dole on the fourth day of the EBC Trek via Gokyo with Helicopter Return. The trek offers a mesmerizing combination of expansive mountain views and quaint local communities as you climb higher into the Himalayas. The trail winds through alpine scenery and rhododendron woods, offering a tranquil and absorbing experience in the embrace of nature. This portion of the journey provides a special chance to observe the customs of the nearby Sherpa communities, providing insights into their rich cultural history. You will be greeted by calm surroundings and a feeling of achievement as soon as you get inside your lodging for the night in Dole.",
-      },
-      {
-        day: 6,
-        description: "Trek from Dole (4110m) to Machhermo (4470m)",
-        details:
-          "Stepping out of Dole, you will ascend to stunning meadows where yaks congregate on the fifth day of the EBC Trek via Gokyo with Helicopter Return. Aside from colorful prayer flags, you will also see some interesting shrines. The Dudh Kosi Valley, which is located much above the river, will be followed as you continue your ascent. Although it's an easy walk, the altitude could still affect you on even the smallest hill. With very few plants and shrubs in the alpine terrain, this area has a very different landscape. With the gorgeous snow-capped peaks and the clear blue sky overhead, it stands in stark contrast. You will reach Luza (4360m) after approximately two hours, and it will only take you an additional hour of walking to reach Machhermo (4465m), where you will spend the night.",
-      },
-      {
-        day: 7,
-        description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
-        details:
-          "The journey continues as you hike from Machhermo to the enchanted destination of Gokyo on the sixth day of the voyage. The walk takes you through amazing scenery that changes dramatically as you go from alpine meadows to the immaculate Gokyo Lake tucked away behind towering rocks. Ascending offers ever-more amazing scenery, as you remain in awe of the majesty of nature with every step you take. The trail offers a chance to fully experience the unspoiled splendor of the Himalayas, offering both calm and thrilling experiences. Approaching the charming Gokyo Valley, perched at the edge of a serene lake and encircled by towering mountains that appear to reach the sky, is undoubtedly the highlight of the entire journey.",
-      },
-      {
-        day: 8,
-        description: "Acclimatization Day at Gokyo (4790m)",
-        details:
-          "Day seven of the EBC Trek via Gokyo with a Helicopter Return is planned as an acclimatization day. To enjoy the breathtaking dawn and a panoramic view of the entire Khumbu region, you will travel early in the morning to Gokyo Ri, a famous peak above Gokyo Valley. You will enjoy an increasingly breathtaking perspective of Nepal's tallest peaks, such as Everest, Makalu, Barun, Cho Oyu, and Lhotse, the higher you ascend. You will enjoy the tranquility of Thonak Tsho, the fourth lake, and then follow the path back to the third lake. If permits and physical conditions allow, you can also hike to the fifth lake, the longest glacier in the Himalayas, Ngozumba Glacier, and spend the night back in Gokyo.",
-      },
-      {
-        day: 9,
-        description: "Trek from Gokyo (4790m) to Dragnag (4750m)",
-        details:
-          "You will resume your EBC Trek via Gokyo with Helicopter Return today toward Dragnag, completing a day of acclimatization in Gokyo Valley. As you proceed on your walk, you will encounter Ngozumpa Glacier. The route is shorter and gains only a small amount of elevation, but it is full of ups and downs. Strolling along the valley on the eastern side of the glacial moraine is unquestionably magnificent and gorgeous. Tawache and Cholatse peaks will be directly beside you as you enter the yak grazing region. Trekkers can easily reach Cho-La High Pass from Dragnag Village, which is situated next to Ngozumpa Glacier in a tranquil area.",
-      },
-      {
-        day: 10,
-        description: "Trek from Dragnag (4750m) to Dzongla (4830m)",
-        details:
-          "Your hike today will be quite difficult as you will be crossing the challenging Cho La Pass, a high mountain pass. For Cho La Pass, everything will be uphill from the start i.e. Dragnag. Be careful not to slip on the incline because the trail is extremely steep and covered in rocks. A snow wonderland and breathtaking vistas of the towering Himalayan range await you when you ascend Cho La Pass. After that, you will descend sharply and stroll next to a glacier. Ascending the trail will bring you to the foot of Awi Peak, where you can descend its lower slope. Get ready to be in complete amazement at the breathtaking vistas of Tawoche and Cholatse, two of the Himalayan giants. You will arrive at Dzongla and spend the night there as you go forward across the snowy terrain that gives way to verdant grasslands.",
-      },
-      {
-        day: 11,
-        description: "Trek from Dzongla (4830m) to Lobuche (4910m) ",
-        details:
-          "The tenth day of the EBC Trek via Gokyo with Helicopter Return unfolds as you continue your trip from Dzongla. You will climb higher still to reach the Khumbu glacier's perilous moraine. Walking a row of memorial stone monuments dedicated to Sherpas and Climbers who perished on Everest mountaineering missions. The trail then heads west along the western rim of the valley, dropping down to Lobuche. Seeing the sunset over Nuptse from this viewpoint is just breathtaking. The climb up to Lobuche will be enjoyable, unlike the day before, and you will travel with Imja Khola to the summit. Traveling to Lobuche will require four hours.",
-      },
-      {
-        day: 12,
-        description:
-          "Trek from Lobuche (4910m) to Everest Base Camp (5365m) - Back to Gorakshep (5140m)",
-        details:
-          "You will commence your journey to Everest Base Camp early in the morning today. Trekking via the Khumbu Glacier's deep crevasses and icy peaks will take several hours. Rest assured, though; before hitting the path again, you will enjoy a brief lunch break. Gorakshep can be reached by following the trail.The real accomplishment, though, comes from reaching Everest Base Camp at last. That's when you start to genuinely admire those courageous climbers who successfully navigate the treacherous Khumbu icefall. Particularly in the spring and fall, vibrant tents stand out against drab, gray surroundings. The views of the Nuptse, Khumbuste, and Pumori mountains are breathtaking from the Everest Base Camp. You can choose a higher route on the way back to have an even greater perspective of the South Col trail and the Khumbu icefall. Once you've had enough time to enjoy yourself on the Everest Base Camp, you'll return to Gorakshep and spend the night relaxing.",
-      },
-      {
-        day: 13,
-        description:
-          "Trek from Gorakshep (5140m) to Kala Patthar (5545m) then Fly Back to Kathmandu (1400m) by Helicopter",
-        details:
-          "Get up early and head to the best viewpoint in the Everest Region, Kala Patthar, to start your day. This location also denotes the highest point you will climb on your journey. A magnificent 360-degree vista will be shown to you, showcasing Mount Everest, Lhotse, Nuptse, Pumori, and Changtse. You will take a helicopter ride back to Kathmandu, leaving Gorakshep with amazing views of the mysterious mountains in the distance. During the flight, take in the breathtaking mountain ranges up close. You will be taken straight to the hotel upon arrival at Tribhuvan Airport's domestic terminal. Spend the day unwinding and letting your sore muscles rest to help you feel more at ease. One of the greatest hotels in Thamel is where you will stay the night.",
-      },
-      {
-        day: 14,
-        description:
-          "One Buffer Day If In Case Flight Cancel or Delay Because Of Any Reason ",
-        details:
-          "As a preventive measure, one buffer day will lessen the impact of any flight delays or cancellations due to unanticipated circumstances during your EBC Trek via Gokyo with Helicopter Return. This extra day serves as a safety net, giving hikers a chance to deal with changes to their itinerary without unnecessary anxiety or difficulty. Trekkers can handle unforeseen obstacles with more flexibility and peace of mind when they include a buffer day in their itinerary since they will have a little breathing space to change plans or find alternatives if needed.",
-      },
-      {
-        day: 15,
-        description: "Final Departure or Onward to Other Destination",
-        details:
-          "Since this is your last day in Nepal, it's your last chance to shop and enjoy exploring the valley's cultural hub, Kathmandu. Three hours before the departure of your flight, we will drop you off at the airport. If you have more time, you can also talk with us about exploring Nepal's other destinations.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparation for the Annapurna Full Circuit Trek includes both physical and mental preparation.",
-      ],
-      points: [
-        "Physical preparation includes increasing your cardiovascular endurance through activities such as hiking, running, cycling, and swimming. It is also important to strengthen your leg muscles, as the trek involves a lot of uphill and downhill hiking. Additionally, it is essential to acclimatize yourself to the altitude, as the trek reaches elevations of up to 5,416 meters (17,769 feet).",
-        "Mental preparation includes familiarizing yourself with the trek route and itinerary, as well as researching the culture and customs of the local people. It is also important to be prepared for the challenges of high-altitude trekking, such as altitude sickness.",
-        "You should also carry the appropriate gear and clothing, such as a good pair of hiking boots, a waterproof jacket, warm clothing, and a first aid kit. It's always good to be prepared and hire a guide or porter, or join a group of trekkers.",
-        "Make sure you have all the necessary permits and documents, and it's also good to be familiar with the emergency evacuation plan.",
-      ],
-    },
-    path: [""],
-  },
-  /////////////////////////////////////////////////////////////////////////////Luxury Everest Heli Trek - 6 Days///////////////////////////////////////////////////////////////////////
-  luxury_trek_gokyo_helicopter: {
-    about: [],
-    highlights: [
-      "Make your dream to reach Everest Base Camp into reality within short amount of time.",
-      "Stunning views of the Himalayas, including Mount Everest, Lhotse, Nuptse, Ama Dablam, and more.",
-      "Helicopter ride over the Everest region, providing unparalleled views of the highest peaks in the world.",
-      " Luxurious accommodation throughout the trek, ensuring a comfortable and enjoyable experience.",
-      "Experience the Sherpa culture and hospitality in the heart of the Everest region.",
-      "Visit iconic destinations such as Namche Bazaar, Everest View Hotel, and Everest Base Camp.",
-      "Avoid the strenuous trekking involved in a traditional Everest Base Camp trek, making this experience accessible to a wider range of travelers.",
-      "Flexibility and customization options to tailor the trek to own interests and preferences.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "With views of the Himalayas and the terraced valley floor, the flight into the Kathmandu Valley is stunning. One of our employees will meet you at Tribhuvan International Airport and drive you to your accommodation after your arrival. Your ability to tour the city will depend on your arrival time. Among the well-known attractions in the Kathmandu Valley are the Durbar Square and its winding lanes filled with quaint stores, historic temples, and neighborhood eateries. There is also Swayambhunath Temple, from where you may observe the Himalayas to your north and the setting sun over the valley. Join our Kathmandu City Sightseeing Tour if you're eager to discover more about the Kathmandu Valley. You should eat your first meal in Thamel, a popular tourist destination, where there are many restaurants to select from serving both Western and native Nepali cuisine. Then, if it is still possible, proceed to Asan Tole, the busiest market in the city, where you can find a genuine collection of spice, seafood, and vegetable stands that make for fantastic photo opportunities. Chat with welcoming locals while practicing a few basic Nepali phrases!",
-      },
-      {
-        day: 2,
-        description:
-          ":Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Monjo (2835m) via Phakding (2610m) ",
-        details:
-          "Following breakfast, you will fly domestically from Kathmandu to Lukla, where your Luxury Everest Heli Trek will begin. On clear days, the Himalaya is clearly visible as the airplane crosses across valleys and over mountains. However, the Lukla flight is currently being redirected to Ramechhap's Manthali airstrip, which would require a 3–4 hour drive from Kathmandu. We can arrange a helicopter flight from Kathmandu to Lukla if you want to avoid this detour or don't want to land at the most hazardous airport in the world. After that, you'll journey a short distance through nearby settlements, where you can run into other hikers, villagers, and yaks with tinkling bells. It is planned for the first day to be easy to give you time to adjust to the higher elevation. On a clearly indicated trail, continue into the Dudh Koshi Valley and spend the night in Phakding.",
-      },
-      {
-        day: 3,
-        description: "Trek from Monjo (2835m) to Namche Bazaar (3440m) ",
-        details:
-          "After eating breakfast in Monjo, you'll begin the steady ascent to Namche. It's a difficult day since you'll start to feel the effects of the altitude. You must also pass several high-suspension bridges along the route that spans the Dudh Kosi River. The Sagarmatha National Park, which was established to safeguard and conserve the delicate mountain ecosystem, is just beyond the settlement of Monjo (your guide will cover your permission payments here). If the weather is clear, you will catch your first sight of Mount Everest as the trail becomes steeper. Once you get to Namche, check into your accommodations and start exploring the area. Namche is a fantastic site to restock on supplies because it has lots of little stores offering food and hiking equipment, as well as eateries and pubs. If you visit on a Saturday, check out the Saturday market, which serves as a meeting spot for Tibetan yak caravans and Hindu traders from the lowlands who have both traversed the glaciated Nangpa La.",
-      },
-      {
-        day: 4,
-        description:
-          ":Hike from Namche Bazaar (3440m) to Everest View Hotel (3880m)",
-        details:
-          "You'll be taking a tour around town today. Enjoy the Everest Photo Gallery and the Sherpa Culture Museum, two of Namche Bazaar's numerous tourist attractions. Local handicrafts are also sold in the town's market. You'll hike to the well-known Everest View Hotel today after that. Occupying one of the highest locations on Earth, the hotel offers views from every window of Mount Everest and several of its summits. Moreover, it offers stunning views of Namche Bazaar below and the Himalayas above. Be in the Everest View Hotel for the night.",
-      },
-      {
-        day: 5,
-        description:
-          "Helicopter Ride from Everest View Hotel (3880m) to Explore Mount Everest (8848m) and Nearby Peaks",
-        details:
-          "You won't have to hike back the way you came after an early breakfast since you will be picked up from Everest View Hotel for a private helicopter tour of the Himalayas. get overhead views of Ama Dablam, Thamserku, Kantega, Lhotse, and Nuptse. After reaching Kathmandu, you can spend the afternoon and evening at leisure, taking in any sights you might have missed at the start of your Luxury Everest Heli Trek. You will meet the rest of the Green Valley Nepal Treks Team in the evening to eat dinner together and discuss the trip's great conclusion.",
-      },
-      {
-        day: 6,
-        description: "Final Departure",
-        details:
-          "Three hours prior to the flight's scheduled departure time, a private tourist car is scheduled to transport guests from the hotel to the airport. You might also make your journey longer by selecting a different curriculum.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [],
-      points: [],
-    },
-    path: [""],
-  },
-  /////////////////////////////////////////////////Sleep at Base Camp on Everest Trek - 15 Days//////////////////////////////////////////////////////////////////////////////////////
-  sleep_at_base_camp_everest: {
-    about: [],
-    highlights: [
-      "Spectacular Views: Witness breathtaking views of the Himalayan peaks, including Mount Everest, Lhotse, and Nuptse.",
-      "Unique Experience: Sleep at one of the world's highest base camps, located at an altitude of about 17,600 feet (5,364 meters).",
-      "Challenging Trek: Embark on a physically demanding journey through rugged terrain and high altitudes.",
-      "Cultural Immersion: Interact with the Sherpa people and experience their rich culture and traditions.",
-      "Scenic Landscapes: Traverse through diverse landscapes, including lush forests, alpine meadows, and glacial moraines.",
-      "Everest Base Camp: Explore the iconic Everest Base Camp, where climbers begin their ascent of the world's highest peak.",
-      "Starry Nights: Enjoy clear, unpolluted skies for stargazing and a chance to see the Milky Way.",
-      "Adventure of a Lifetime: A once-in-a-lifetime adventure for trekkers and outdoor enthusiasts.",
-      "Altitude Acclimatization: Gradual ascent and acclimatization days to minimize the risk of altitude sickness.",
-      " Local Teahouses: Stay in rustic teahouses along the trek, providing basic accommodations and warm hospitality.",
-      "Chilly Nights: Be prepared for cold temperatures, even during the sleeping hours, at higher elevations.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m) ",
-        details:
-          "Arrival at Nepal's Tribhuvan International Airport. Please make your way to the arrivals hall exit after completing the airport's visa formalities and retrieving your luggage. Your trip leader will be waiting for you outside the arrivals area and will drive you to your hotel in Kathmandu. Please keep an eye out for a Green Valley Nepal Treks sign at the entrance to the arrivals area. In the evening, your trek leader will update you about your trip in the lobby of your hotel after serving you welcome drinks and giving you a chance to rehydrate. Take a stroll along the street to get acquainted with your surroundings, and at night, enjoy a welcome dinner at a typical Nepalese eatery.",
-      },
-      {
-        day: 2,
-        description: "Flight to Lukla (2860m) then Trek to Phakding (2610m)",
-        details:
-          "During the busiest times of the year, Ramechhap airport may be used as the hub for all flights to and from Lukla. To guarantee a smooth flight operation free of air traffic and delays, the flight base for flights to Lukla has changed. When you arrive at Lukla, the size of the towering peaks that surround the settlement will overwhelm you, but this is merely a preview of what is to come. You'll meet the team, take a clearly indicated trek up the Dudh Koshi Valley, and spend the night in Phakding.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "Along the Dudh Koshi River and valley, as you ascend the trek, you pass through a pine forest. Continue to Monjo after crossing the river to the opposite bank at Bengkar. As you arrive at Jorsalle, the entrance of Sagarmatha National Park, the breathtaking views of Kusum Kanguru (6367m) and Thamserku (6603m) take your breath away. After crossing the immaculate Dudh Koshi, you'll reach Namche Bazaar, the center of Khumbu, after a difficult ascent in the final stretch. Stay the night at Namche.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day at Namche Bazaar (3440m)",
-        details:
-          "You take this day off the main trail to explore the lovely village of Namche Bazaar as you acclimate to the significant altitude gain. There is a Sherpa Museum in this town that contains artifacts from the Sherpa people, who are Himalayan inhabitants. A popular activity for seeing Mount Everest (8848m) is to climb up to Hotel Everest View. Stop in Namche's local market to stock up on supplies for the remainder of this hike, including comfort foods. Stay the night at Namche.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3810m)",
-        details:
-          "Although the route to Tengboche is lengthy and dusty, the sweeping views from the monastery are well worth the effort. There are plenty of opportunities to concentrate on photography because there aren't many challenging ascents and descents. All of these subjects make for interesting photographs, as do stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved Upon Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "The journey to Dingboche begins with a crossing of the Imja Khola River. Trek along the west side of the Imja Khola via Orso on the way to Pangboche for stunning vistas of the ascending Himalayas and descending lowlands. You can catch various glances of Mounts Taboche (6367), Pokalde (5806m), and Nuptse (7861m) as you travel past Himalayan inhabitants' homes. After several hours of hiking through birch and rhododendron forests, you arrive at Dingboche. Stay the night at Dingboche.",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4410m)",
-        details:
-          "According to the Sleep at EBC trip plan, today is your second acclimatization day because of the increased altitude. Although you will be rewarded with a breathtaking vista, you will need to take some time to recover before continuing on your expedition. You may decide to take a break for the following walk on this day, or you may choose to visit Dingboche and the nearby villages of Chhukung and Imja. There are numerous ways to do short hikes. It is feasible to hike up Nagarjun Hill (2,128 meters) and Chhukung Ri (5,546 meters). Views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks can be seen from Nagarjun Hill's summit.",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
-        details:
-          "Climbing through the Khumbu Khola valley to Duglha marks the start of the journey. The valley shortens as you come nearer to Dusa. The path is challenging because of numerous enormous rocks and adjacent, high-flying mountain yaks. There are a lot of monuments with praying flags and stones in memory of climbers who passed away en route to Mount Everest. After that, you will reach the route that leads from Cho-La Pass to Gokyo Lakes. You could also be able to see peaks like Khumbuste (6,636 m), Lingtren (6,749 m), and Pumori (7,161 m). You could easily feel exhausted while hiking across the hilly terrain on a typical journey to Lobuche. In Lobuche, there aren't many houses.",
-      },
-      {
-        day: 9,
-        description: "Trek from Lobuche (4910m) to Gorak Shep (5140m)",
-        details:
-          "The day starts with a trek past a fine crevasse between the lateral moraine of a glacier and a mountain. Then a gradual climb will take to Changri Nup Glacier. The undulating terrain takes you on a whirlwind of a walk. Descending slightly in the final stretch, you land in a barren setting with a sandy moraine and a cluster of lodges amidst the jagged rocky terrain surrounded by mammoth mountains. This is Gorakshep where you’ll spend the night.",
-      },
-      {
-        day: 10,
-        description:
-          "Explore Kalapatthar (5545m) then Hike to Everest Base Camp (5340m) for Overnight",
-        details:
-          "After receiving an early morning wake-up call, you begin the day with a frigid hike up Kala Patthar, which is Hindi for black rock. When you reach the peak, prepare to be astounded by the unimpeded view of the Himalayan range, which includes, among others, Mount Everest (8848m), Nuptse (7861m), Lhotse (8414m), Ama Dablam (6856m), Thamserku (6608m), and Pumori (7165m). Once you've returned to Gorakshep, you can begin the ascent up the Khumbu Glacier to Everest Base Camp. Finally, you will reach the base of the highest peak on earth. The sensation here can only be compared to climbing Everest itself. Even more magnificent are the views of several mountains, the Khumbu Icefall, and a glacier. At Everest Base Camp, spend the night near some of the tallest mountains in the world.",
-      },
-      {
-        day: 11,
-        description:
-          "Descend from Everest Base Camp (5340m) to Pangboche (3930m)",
-        details:
-          "You finish it up at the Mount Everest base camp and then make your way back through the challenging terrain. The hard trek back along the same trail follows. Arrive at Gorak Shep before continuing on to Lobuche and then Pangboche as you descend along the Khumbu glacier. Return to Dughla and cross the Khumbu River, which flows directly from the glacier. As you approach Pheriche, magnificent views of the Himalayas keep you inspired. After crossing Pheriche and Somare you will reach Pangboche, where you will spend the night.",
-      },
-      {
-        day: 12,
-        description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m)",
-        details:
-          "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
-      },
-      {
-        day: 13,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2800m)",
-        details:
-          "On your last day in the Himalayas, you can reach Lukla by taking a short downhill walk. Prior to reaching Monjo, you must first go from Jorsalle to a suspension bridge and cross the Dudh Koshi River. Take on a climb via the Khumbu valley from Phakding to Lukla. Enjoy a refreshing beer or a hot coffee on your final night here in the Himalayan transit point. Stay the night at Lukla.",
-      },
-      {
-        day: 14,
-        description:
-          "Flight from Lukla to Ramechhap then Drive to Kathmandu (1400m)",
-        details:
-          "You will take a morning flight to Ramechhap. From Ramechhap, you will take the roadway toward Kathmandu. You can utilize your remaining time by shopping in Thamel. In the evening time, you will meet the team of Green Valley Nepal Treks for dinner to celebrate the successful completion of sleep at Everest Base Camp Trek.",
-      },
-      {
-        day: 15,
-        description: "Final Departure",
-        details:
-          "One of our staff members will assist you in getting to the airport when it is time for your flight to depart. If you want to extend your trip, Green Valley Nepal Treks can make the appropriate arrangements. If your flight is scheduled for a late evening, you might even go shopping to get some gifts for your loved ones. We hope you had a good time when you were here and we wish you luck on your upcoming journey to Nepal.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparing for a Sleep at Everest Base Camp Trek is essential to ensure a safe and enjoyable adventure in the Himalayas. Here's a comprehensive guide on how to get ready for this extraordinary journey:",
-      ],
-      points: [
-        "Physical Fitness",
-        "Start a regular fitness routine at least 2-3 months before your trek. Focus on cardiovascular endurance, strength training, and flexibility exercises.",
-        "Incorporate uphill and downhill walking to simulate trekking conditions.",
-        "Mental Preparation",
-        "Mental resilience is just as important as physical fitness. Be prepared for challenging terrain, weather changes, and potential altitude-related discomfort.",
-        "Develop a positive mindset and determination to overcome obstacles.",
-        "Trekking Gear",
-        "Invest in high-quality trekking gear, including a good pair of waterproof hiking boots, a warm sleeping bag, a down jacket, trekking poles, and comfortable clothing suitable for layering.",
-        "Don't forget essential accessories like a hat, gloves, sunglasses, and a headlamp with spare batteries.",
-        " Altitude Sickness Prevention",
-        "Acclimatization is crucial to avoid altitude sickness. Plan for extra days in your itinerary to adjust to higher altitudes gradually.",
-        " Consider taking altitude sickness medication, such as Diamox, after consulting with a healthcare professional.",
-        "Permits and Documentation",
-        "Obtain the necessary trekking permits and documentation, including a TIMS (Trekkers' Information Management System) card and a Sagarmatha National Park permit.",
-        "Keep multiple photocopies of your identification, passport, and permits in a waterproof pouch.",
-        "Training Hikes",
-        " Before your Everest Base Camp Trek, do shorter training hikes at higher altitudes to assess your body's response to reduced oxygen levels.",
-        "This will help you gauge your fitness and acclimatization progress.",
-        "Hydration and Nutrition",
-        " Stay well-hydrated throughout the trek. Carry a reusable water bottle and use water purification methods or iodine tablets.",
-        "Consume a balanced diet with a mix of carbohydrates, proteins, and fats to fuel your body for the trek.",
-        "Travel Insurance",
-        "Purchase comprehensive travel insurance that covers high-altitude trekking, medical emergencies, and evacuation if needed.",
-        "Packing",
-        " Pack light, as porters and yaks will carry your main luggage. Keep essential items in your daypack.",
-        "Ensure your backpack is comfortable and well-fitted.",
-      ],
-    },
-    path: [""],
-  },
-  ///////////////////////////////////////////////////////////////Everest Base Camp Trek - 14 Days/////////////////////////////////////////////////////////////////////
-  ebc_trek_14_days: {
-    about: [],
-    highlights: [
-      "  Get to see an aerial view of the Khumbu region during the flight to Lukla",
-      "Trek through Sagarmatha National Park which is home to several species of flora & fauna",
-      "Explore Namche Bazar",
-      " Experience the rich culture and tradition of Sherpa's",
-      "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
-      "Head to Everest Base Camp, the base of the world's highest mountain, Mt. Everest",
-      "Hike to Kala Patthar to observe a gorgeous sunrise and a 360-degree view of  Everest",
-      "Witness panoramic views of Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, Mt. Kongde",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "When you arrive in Kathmandu, our Airport Representative at the Tribhuwan International Airport will receive you. A private tourist vehicle will transport you to your hotel. You can either relax or meet us at our office to learn more about the 14 days Everest Trek details. You will spend your first night in Kathmandu at a hotel.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu or Ramechhap to Lukla (2840m), by plane Then Trek to Phakding (2610m)",
-        details:
-          "After breakfast, drive from the hotel to the domestic airport terminal in the early morning. The early morning sunshine on the snowcapped mountains is spectacular on the ride to Lukla. It will take around 40 minutes to arrive in Lukla at Tenzing-Hillary Airport, the Himalayan entryway. The hike begins shortly after meeting our staff at the airport, from where Phakding is a short walk. You will relax at Phakding because it is the first day of the Everest Base Camp Trek Itinerary. ",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding to Namche Bazaar (3440m)",
-
-        details:
-          "The trip begins in Phakding after breakfast and travels through lovely pine trees, the Dudh Koshi River, and views of Mount Thamserku. You will arrive at a checkpoint, the entrance to Sagarmatha National Park, after traveling through a few communities. You will continue walking via the Dudh Koshi River and Bhote Koshi River confluences before ascending steeply to Namche Bazaar, where you will be greeted by the magnificent Mount Everest and the ridges of Mount Lhotse (8,516m) and Mount Nuptse (7,861m).",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazar (3440m) ",
-        details:
-          "Namche Bazaar, the largest village in the Khumbu area, has ATMs, Internet cafés, restaurants, bakeries, and other amenities. As per your 14-day Everest trekking itinerary, today will be your acclimatization day, which you can utilize by doing a short trek to a nearby viewpoint (Everest View Hotel, Thamo, and Khunde) and taking a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa culture, and the flora and wildlife of the region.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazar (3440m) to Tengboche (3810m) ",
-        details:
-          "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m) ",
-        details:
-          "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4410m)",
-        details:
-          "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
-        details:
-          "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
-        details:
-          "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
-      },
-      {
-        day: 10,
-        description:
-          ":Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m) ",
-        details:
-          "You will start your hike considerably earlier than usual since you want to be at Kalapatthar before sunrise to take in the breathtaking sunrise panorama from Kalapatthar. Faced with the problems of thin air, you will take the scenic route to Kalapatthar, with views of Lingtren, Khumbutse, and other peaks. You will take in a close-up look at Everest and the spectacular dawn before returning to Gorakshep for breakfast. You will end this day by trekking down to Pangboche, where you can see the oldest monastery in the region, which contains the scalp and bones of a Yeti.",
-      },
-      {
-        day: 11,
-        description: "Trek from Pangboche (3930m) to Namche Bazaar (3440m) ",
-        details:
-          "From Pangboche the route descends to the riverbank to pass the Imja Khola Bridge and then continues to Tengboche. The Dudh Koshi River is reached after a long descent from Tengboche. We cross the Dudh Khoshi River on a suspension bridge on our way to Phungi Thanga. To go to Namche Bazaar, we pass via the villages of Tashinga and Sanasa. Then, to reach Namche Bazaar (3440m), gently pass the gorgeous scenery and the Larja Dobhan.",
-      },
-      {
-        day: 12,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
-        details:
-          "The steep descending route continues on the final day of the expedition. Trekkers must travel slowly, steadily, and in a balanced way over the steep rocky terrain till they reach the Dudh Koshi suspension bridge, passing through the wide plain and rhododendron woodland while taking in the distant vista of snow-capped mountains. Take a last glance at the beautiful Himalayan Mountains and bid farewell to the Khumbu Valley and Mount Everest in the early hours of the day.",
-      },
-      {
-        day: 13,
-        description:
-          ":Flight back to Kathmandu from Lukla or Ramechhap by plane and drive to hotel ",
-        details:
-          "This is the day that the Mountain Flight from Lukla is once again appreciated. When you get in Kathmandu, you may go shopping and take a stroll around the city. The evening is intended to commemorate the accomplishment of the Everest Base Camp trek.",
-      },
-      {
-        day: 14,
-        description: "Final Departure or Onward For Next Program",
-        details:
-          "The final day in Nepal is the last opportunity to enjoy shopping and touring Kathmandu Valley's cultural metropolis before departing for Tribhuwan International Airport on time.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Considering that you will have to climb up and down on an unsteady route for 14 days while carrying a bag that weighs at least 6 kg and spends, on average, 5 to 6 hours a day on foot. It will be necessary for you to begin increasing your strength and endurance a few months early. Make a schedule for your workout that includes walking up and down hills while wearing a backpack that is packed with 6 to 12 kg at least once every week. Your legs and muscles will be better prepared for the hike with more hill training. It is crucial because your lungs cannot provide your muscles with enough oxygen at higher altitudes where there is less oxygen. Start working out, start weightlifting, and walk with your hefty rucksack to be fit if you want to successfully reach Base Camp and avoid upsetting fellow trekkers. Even professional climbers prepare themselves for a task like this beforehand. At the same time, keep in mind that preparing for the 14-day trek to Everest Base Camp includes a significant amount of mental preparation. It is a tough path with a high degree of difficulty that lasts many days, even if the rank of the adventure cannot be compared to climbing Everest. Be ready for everyday occurrences, constantly changing weather, and the high likelihood of altitude sickness.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  /////////////////////////////////////////////13 Days Luxury Everest Trek////////////////////////////////////////////////////////////////////////////////////////////////////
-  luxury_everest_trek_13_days: {
-    about: [],
-    highlights: [
-      "Excursion of UNESCO World Heritage Site in Kathmandu ",
-      "Scenic flight from Kathmandu to the world’s most extreme airport - Lukla Airport",
-      " Exploration of Sagarmatha National park and its diverse species of alpine flora and fauna as well as Sherpa culture",
-      "Best available local lodges during the trek",
-      "Exploration of the base camp of the world’s highest mountain along with Khumbu icefall and glacier",
-      " A complete guide for Everest Base Camp Trek",
-      "Closest to the highest mountain in the world (8848 m)",
-      "Visit the largest monastery in the Khumbu region",
-      "World's highest airport in Syangboche (3780 m)",
-      "Spectacular panoramic view of mountains at Kalapatthar (5545m)",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "As soon as you land at the airport, a representative from Green Valley Nepal Treks will pick you up and transport you to your accommodation. After a few hours of relaxation in the hotel, a tour operator and tour guide from Green Valley Nepal Treks will greet you and discuss about Luxury Everest Base Camp Itinerary. After the pre-trip briefing, you will have a welcome dinner from our side. At dinner, you are going to enjoy traditional Nepalese Cuisine along with a cultural dance program.",
-      },
-      {
-        day: 2,
-        description: ":Kathmandu Valley Sightseeing and Trek Preparation",
-        details:
-          "After breakfast, your sightseeing trip will start. You will have a private vehicle and a professional tour guide for your sightseeing tour. You will visit the following sites. Swyambunath Stupa: The Monkey Temple (World Heritage Site): You can watch over the valley from the top of a hillock on its western side. Swyambhu is also known as Samhengu and the Monkey temple because of the countless monkeys living on the premises. Pashupatinath Temple: Pashupatinath Temple is one of the holiest Hindu temples in Nepal. It is located on the banks of the Bagmati River on the eastern outskirts of Kathmandu. Pashupatinath is the most important temple dedicated to the god Shiva. Boudhanath Stupa: Boudhanath Stupa is 2500 years old Buddhist stupa in the Valley built in the 5th century with four pairs of eyes of Lord Buddha in four cardinal directions keeping an eternal watch over the people and their doings. You will find Buddhist pilgrims from Tibet going around the stupa spinning the prayer wheels.Patan Durbar Square: Patan Durbar Square - located in central city Lalitpur. It displays the Newari architecture that had reached its pinnacle during the reign of the Malla kings who were great builders and patrons of the arts. After the sightseeing, we will have a pre-trip meeting we will describe the whole trip and how it will be going. However, if you arrive late at night the meeting will be held the next day after the Kathmandu city Tour. For the verification, Tourist Information, and documentation process, we required a Copy of the Passport, PP Size Photos 3 pics, and a copy of traveler insurance. ",
-      },
-      {
-        day: 3,
-        description: "Flight to Lukla (2840m) then Trek to Phakding (2610m) ",
-        details:
-          "To catch a domestic flight from Kathmandu to Lukla, you must get up at 5 a.m. This flight will provide you with a breathtaking view of spectacular mountain ranges and magnificent alpine sceneries. After landing in Lukla, you will meet our guide, who will brief you about the first day of the Luxury trek to Everest Base Camp and introduce you to our porters. After breakfast in Lukla, begin your first day of trekking with a gentle hike via Chauri Kharka hamlet to Phakding. You will pass through a rhododendron forest and a few small settlements on your journey to Phakding. Because Phakding is a remote town and primitive community on the Dudh Koshi River's bank, you must descend from Lukla.",
-      },
-      {
-        day: 4,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-        details:
-          "You will continue your Luxury Everest Base Camp Trek along the Dudh Koshi's banks, crossing the gorgeous river on spectacular suspension bridges draped in prayer flags. The path climbs sharply with beautiful vistas After entering Sagamartha National Park. Namche Bazaar, also known as the Everest Gateway, is home to a variety of high-quality restaurants, hotels, lodges, stores, money exchange, internet cafes, and a bakery. Namche is one of the most populous communities on the Everest Base Camp route.",
-      },
-      {
-        day: 5,
-        description: "Acclimatization Day at Namche Bazaar (3440m)",
-        details:
-          "Your bodies must adjust to the Himalayan environment and climate because you are now above 3440 meters. As a result, you must allow your bodies to adjust to the alpine environment today. You will trek to Everest View Point and then visit the Everest View Hotel on this day. This hotel, located at an altitude of 3880 meters, is considered the world's highest-star hotel. This is your first acclimatization day as per Everest Base Camp Luxury Trek Itinerary. Mt. Everest, Mt. Lhotse, Mt. Ama Dablam, and many more gorgeous mountains like Mt. Thamserku, Mt. Kongde, Mt. Kusum Kanguru, and Mt. Nuptse can all be seen from Everest View Hotel. On the outskirts of Namche Bazaar, there is a small airport called Syangboche, from which you can shoot wonderful views of Namche. You can go to the Sherpa museum after your short excursion to learn more about the vivid Sherpa culture and customs. The National Park Museum, which is next to the Sherpa Museum, also has information about Everest and adjacent mountains. After your tour, you will have free time to explore Namche or relax at our hotel.",
-      },
-      {
-        day: 6,
-        description: "Trek from Namche Bazaar (3440m) to Deboche (3820m)",
-        details:
-          "You may be familiar with the Himalayas and Sherpa culture after acclimatization day. Today your Luxury Everest Base Camp Trek Route will move closer to Sagarmatha through Sagarmatha's designated national park. Thankfully, Dudh Koshi would continue to enthrall you as you progress. The path begins to straighten out after leaving Namche Bazaar. After around 6 kilometers of travel, the road begins to ascend. At Phungi Thanga, on the road to Deboche, you may see water-driven prayer wheels. In another 3 kilometers, you'll reach Tengboche monastery, the largest monastery in the Khumbu region. After seeing the monastery, you'll head downhill to Deboche hamlet for an overnight stay at a lodge.",
-      },
-      {
-        day: 7,
-        description: "Trek from Deboche (3820m) to Dingboche (4410m)",
-        details:
-          "You will arrive at a Buddhist monastery in Deboche and pass through a few chortens on your route to Pangboche, where you will be rewarded with a breathtaking panorama of the Himalayas. The morning view of the mountain panorama from Deboche is breathtaking, with views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse. Your day will begin with a short descent through a rhododendron and birch forests to the Imja Khola riverbed. You will arrive in Pangboche after passing through the lovely Milinggo village. The fading greenery may be seen during the Luxury Everest Base Camp Trek from the high Pangboche to the dry and alpine environment of Shomare. Before reaching the freezing and windy village of Dingboche, you may glimpse Mt. Pumori's apical ridge from Orsho.",
-      },
-      {
-        day: 8,
-        description: "Acclimatization or Rest Day at Dingboche (4410m)",
-        details:
-          "This is the second day of acclimatization for the 16 days Luxury Everest Base Camp Trek. You can hike to the hill behind the village on the northern side after breakfast. For amazing views of Ama Dablam, Lhotse, and Nuptse, explore this lovely valley that leads up to Island Peak. The trek to Island Peak is short and provides a relaxing afternoon activity. Another option is to go up to Chhukung Ri, where you can see Island peak, Ama Dablam, Makalu, Tawoche peak, and other peaks. You may also walk to Nagarjuna (5100m) for a breathtaking panorama of the Chhukung valley, which includes Kangtega, Ama Dablam, Taboche, Lobuche east, and many more magnificent peaks.",
-      },
-      {
-        day: 9,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
-        details:
-          "Today’s Everest Base Camp Luxury Trek path will ascend gradually till it reaches Thokla Dughla Pass, then mildly descends until it reaches Lobuche. On the slope above the Thokla Dughla Pass, there is a memorial stupa and a prayer flag. The stupas were created in honor of climbers who died while attempting to summit Mt. Everest. You will be able to see the mountains such as Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru. The Lobuche glacier ridge provides views of the Everest base camp, Kala Pattar, Khumbu glacier, and glacier moraines. The trek to the hotel Italian pyramid will take around 20 minutes, where you are going to overnight stay.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then to Everest Base Camp (5364m), and back to Gorakshep ",
-        details:
-          "This is a historic day for those trekkers, who have aspired to travel to the foot of the world's tallest peak. The first part of the Luxury Everest Base Camp Journey will be very simple because you won't have to trek much elevation until you reach Gorakshep. The path will be tough and steep, leading to Base Camp via the Khumbu glacier. It will take nearly three hours to reach Gorakshep, which is located above 5,000 meters, and then you will relax for a few hours, and have your lunch, after that your journey will resume to Everest base camp. Everest base camp is enhanced by the stunning views of the Khumbu Glacier, Everest's pinnacle, and glacier-covered mountains that are mesmerizing. You can encounter hundreds of climbers aiming to summit Everest and Lhotse if you do hiking in the spring. For the lodging, you have to return back to Gorakshep.",
-      },
-      {
-        day: 11,
-        description:
-          "Trek from Gorak shep (5140m) to Kala Patthar (5545m) and then back to Gorakshep (5140m) After that Helicopter Flight to Kathmandu (1400m)",
-        details:
-          "Early in the morning, you will depart for the morning tour at Kala Patthar. From Gorak Shep, it takes roughly 2 hours to reach Kala Patthar Peak. Your efforts will be rewarded with breathtaking vistas of Mount Everest from a much closer vantage point. You will return to Gorakshep for breakfast after having a glimpse of the sunrise from Kala Patthar. Your Luxury Everest Base Camp Trekking journey will end after taking a helicopter flight from Gorakshep to Kathmandu after packing your belongings.",
-      },
-      {
-        day: 12,
-        description: "Reserve Day in Kathmandu (1400m) ",
-        details:
-          "It’s an extra day in Kathmandu just for contingency. Sometimes, things may not go as swiftly as intended. Sometimes flight delays/cancellations, poor weather, or ill health can cause a barrier to your journey. Hence, a contingency day on the trip will always be helpful. In case you finished the trek on time, you can use this day for resting or shopping in Kathmandu.",
-      },
-      {
-        day: 13,
-        description: "Departure Day (Farewell) ",
-        details:
-          "Today, you will travel back to your home from Kathmandu and continue your adventure to many destinations across the world. We will drop you off at the airport three hours before to your flight time. We hope you had a great time with us and made some wonderful memories. Thank you very much for joining us, and have a safe journey to your destination.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Walking, running, swimming, and cycling are examples of cardio exercises that train your body to operate better with less oxygen. This will help you to retain your breath and concentrate when walking at a high altitude, allowing you to enjoy the Everest Base Camp Luxury Trek more properly. Remember why you're working out and progressively increase the intensity and duration of your exercises when you're weary and want to quit. The most efficient approach to prepare for your climb to base camp is to go hiking. Find some local trails, stroll through town, or simply go for a walk. Get in the habit of going for long walks. Determine where your body has difficulty and how far you can push it. Once you've become used to pushing past the first wave of agony, you'll be astonished at how far you can go.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ///////////////////////////////////////////////////Everest Three High Passes Trek - 18 Days/////////////////////////////////////////////////////////////////////////////////////////
-  everest_three_high_passes_trek_18_days: {
-    about: [],
-    highlights: [
-      "The three high passes Kongma La (5535m), Cho La (5420m), and Renjo La (5464m) provide a breathtaking perspective of the Himalayas",
-      "This trip will take you through the Gokyo valley's five frozen lakes.",
-      "While traversing these passes, you will have an exciting and challenging experience.",
-      "In addition to the experience, you will gain an intimate understanding of the Sherpa culture in the Himalayas.",
-      "From Kala Patthar (5545 meters), you will have the best views of Mt. Everest along with the highest glacier on Earth- Khumbu Glacier (4900m)",
-      "Stunning vistas of the world's tallest peaks",
-      "Exploring prayer wheels, colorful flags, Mani stones, and huge suspension bridges will astound you.",
-      "A diverse diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar, will astonish you.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest High Passes Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arriving In Kathmandu (1400m)",
-        details:
-          "At the Tribhuvan International Airport, our representative will meet and greet you. A private tourist car will transport you to the hotel. You have the option of taking a break or seeing us at our office to discuss the Three High Passes Everest Trekking Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m) ",
-        details:
-          "After a 30 to 40-minute flight from Tribhuvan International Airport to Lukla, your Three Passes Everest Trek will begin. This magnificent flight offers incredible views of the Langtang Himalayan range and the Annapurna Himalayan range. You'll first descend from Lukla to the Thado Koshi River, crossing a few suspension bridges along the way. Then you will arrive at a Chheplung village after an hour of gentle descent, with a view of Mt. Khumbila (5,761 m), a sacred peak that has never been climbed. As you will be acclimating, the journey will be easier and more pleasurable. You will descend from Chheplung to Phakding, where you will get the opportunity to see Pemacholing and Rimishung Monastery.",
-      },
-      {
-        day: 3,
-        description:
-          "Trek from Phakding (2610m) to Monjo (2835m) then Namche Bazaar (3440m) ",
-        details:
-          "After your breakfast in Phakding, you continue on the Everest Three High Passes Route. Your trip will include uphill and downhill sections, as well as many river crossings and a spectacular view of Mt. Thamserku (6,608 m) from the Bengkar hamlet. Your route will take you past Monjo Village, dense forests, and rugged trails to the Sagarmatha National Park's entrance. You'll register your permits and make your way into the woods. For the first time, you will be able to see Mt. Everest from this forest. Then, after traveling through Jorsale hamlet, you'll cross the Hillary Suspension Bridge and proceed to Namche Bazaar. Beautiful vistas of the Himalayas, including Everest, Lhotse, Tawache, and others, may be seen from here.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization and Rest Day at Namche Bazaar (3440m)",
-        details:
-          "In the Khumbu region's core, today is the day to relax and prepare your body for high altitude. The Sagarmatha National Park tourist center, traditional Sherpa communities, Hillary School, Khumjung monastery, Syangboche Airport, and Everest View Hotel are among the places to see in Namche Bazaar. Even if you stay in Namche, being active and moving is important. Banks, ATMs, and Cyber Cafés are some of the facilities available in Namche Bazaar. You may also go to the Sherpa museum, visit the local community, hike to Thamo, or explore Khunde. This is your first acclimatization day as per Everest Three High Passes Trek Itinerary.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m) ",
-        details:
-          "After eating breakfast in Namche, your Three High Passes Trek will head toward Tengboche. Mt. Everest, Mt. Nuptse, Mt. Ama Dablam, and Thamserku can all be seen from the road to Tengboche. While walking the smooth and sometimes zigzag trail, you will be astonished by the wildlife, such as musk deer, Himalayan Thar, and colorful pheasants. You will pass through a pine forest and then across the bridge, decorated with prayer flags, over the Dudh Koshi River. Trekking for a little you eventually arrive at Phungi Thanga, a small village with several teahouses and a small army post set among an alpine forest. You will also get a chance to visit the Tengboche monastery to witness a religious ceremony by the monks at Tengboche.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
-        details:
-          "Today on Everest 3 High Passes Trek, you will get a spectacular sunrise vista of the mountain landscape, including views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse. Your day begins with a hike via Imja Khola and on to Tengboche, where we descend to the riverbank via rhododendron and birch woods. You will visit a Buddhist nunnery in Deboche and cross a few chortens on the way to Pangboche, where you will enjoy a spectacular view of the Himalayas. Walking from the high Pangboche to the arid and alpine environment of Shomare, one can plainly detect the diminishing vegetation. From Orsho, you can see Mt. Pumori's coronal ridge before arriving at the chilly and windy settlement of Dingboche, where you will spend the night.",
-      },
-      {
-        day: 7,
-        description: "Trek from Dingboche (4410m) to Chhukung (4730m)",
-        details:
-          "Your 3 high passes journey will continue via the Imja Khola Valley to glacial moraines in the midst of towering peaks. Your stroll will take you down the valley for the next 3 to 4 hours, with views of Lhotse Mountain and Ama Dablam on both sides, until you arrive at yak Bibre, the herdsman's home. At the terminal moraine, you can see Imja Tse summit, which has a rocky and frosty aspect. A half-hour hike from Bibre will take you to Chhukung, where you may see glaciers and snow-capped mountains. After arriving at Chhukung, relax or trek to Chhukung Ri for even more spectacular mountain vistas. It will assist you in preparing for your trip to Kongma-la Pass in the morning.",
-      },
-      {
-        day: 8,
-        description:
-          "Trek from Chhukung (4730m) to Lobuche (4910m) via Kongma La Pass(5540m) ",
-        details:
-          "You will be entering the isolated alpine hinterlands on this day, where there are no teashops, so bring lots of water with you. You will be given two choices here. Climb the slope northwest of Chhukung to the Nuptse glacier, or stroll down to the Bibre valley and trek to the high path above Niyang Khola. After a short stroll, you will be rewarded with a spectacular view of Island Peak Valley and Amphu Lapcha's Stony Peak. You will reach a vast basin littered with ice lakes rising along the east side of Niyang Khola valley on a rocky road. After a 5-hour hike via the Kongma La Pass, you will be leaving Chhukung. Kongma La is the highest pass among Everest's three high passes. The prayer flags flapping to mark the pass at the peak can only be seen if you reach the top. The descent now begins, which will be the most arduous and strenuous part of today's expedition. You ascend the far side moraine, then head north along the Khumbu glacier route, which eventually leads to Lobuche, your today's 3 high passes trek final destination.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorak Shep (5140m) then Everest Base Camp (5364m)",
-        details:
-          "3 high passes trek trail will pass across the Khumbu Glacier's moraine heading toward Gorakshep. Passing through the pyramid landmark, you'll be treated to a breathtaking view of Everest's north ridge, which includes Mt. Pumori, Mt. Mahalangur, Mt. Lingtern, Mt. Khumbutse, and Mt. Nuptse. After ascending to Thangma Riju, you will enjoy a 360-degree panorama of snow-capped mountains. Kalapatthar, a grassy meadow under Mt. Pumori, may be seen from the summit of Changri glacier. You can see snow-capped mountains as you arrive at Gorakshep, including the world's highest peak, Mount Everest. Your walk will continue across Gorak Shep Lake, passed by memorials commemorating Indian army mountaineers, before arriving at Everest base camp. You will realize how hazardous the Khumbu icefall trail is until you get to Everest Base Camp. Although Everest is not visible from the summit's base, the close-up vistas of Nuptse and Khumbutse, which tower over the Mountaineers' vividly colored tents, are no less stunning. This is your journey's apex. You will spend the night in Gorak Shep after that.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorekhshep (5140m) to Kalapatthar (5555m) then Dzongla(4830m) ",
-        details:
-          "This is the culmination of your Everest 3 high passes trek journey, which began with a stroll to enjoy a stunning glimpse of the sun rising from Kalapatthar. After a few hours of walking, you'll arrive at Kalapatthar, where you may sit and fill your eyes' desire for a breathtaking view of the Himalayas. Everest, Lhotse, Nuptse, Pumo Ri, Ama Dablam, Khangtenga, Lobuche Peak, Everest Base Camp, Khumbu glacier, and Icefalls can all be seen from Kalapattar's 360-degree vantage point. You will leave your footprints behind and take memories and photographs that will last a lifetime. Return to Gorakshep, pack your belongings, and prepare to retrace your way back to Lobuche. Then, through the picturesque route, you'll make your way to Dzongla.",
-      },
-      {
-        day: 11,
-        description:
-          "Trek from Dzongla (4830m) to Thagnak (4750m) via Cho La Pass(5367m) ",
-        details:
-          "To witness the stunning vista of Cholatse, you must get up early in the morning. The toughest portion of the Everest 3 High Passes trek journey begins when you travel through Dzongla, passing through spur woodland before descending to a basin. As you return to the top, you will be rewarded with a beautiful view of Chola Lake and Mt Ama Dablam. The steep ascent is made more difficult by rocks, which leads to the sinuous Bergschrund pathways. You can see breathtaking peaks all around you from the summit, which are framed by flying prayer flags. Unless the rocks are covered with ice, making the path treacherous and dangerous, the descent to Thagnak is reasonably easy. You will spend the night in Thagnak.",
-      },
-      {
-        day: 12,
-        description: "Trek from Thagnak (4700m) to Gokyo (4750m)",
-        details:
-          "You have to leave the little settlement early in the morning and continue on the Three High Passes Trek Route via Nepal's longest glacier, the Ngozumpa Glacier. The second Gokyo Lake, which is one of the six series, may be seen as you approach the other side of the glacier. Gokyo hamlet may be found on the border of the third lake, which is close to the second.",
-      },
-      {
-        day: 13,
-        description:
-          "Acclimatization in Gokyo (4750m) and Hike to Gokyo Ri (5357m)",
-        details:
-          "The acclimatization day is a great chance to climb Gokyo Ri, one of the greatest places to see the Everest area and explore the six lakes. The fourth lake, with its towering cliffs and peaks rising above it, lies 3 kilometers north of Gokyo. The walk continues to the fifth and largest azure blue dazzling lake. You can even ascend the slopes at the lake's side to see Cho-Oyu, Gyachung, Everest, Lhotse, Nuptse, and Makalu in all their glory. Cho Oyu base camp is located beyond the fifth lake, and the stunning panorama is well worth seeing. It is up to your curiosity, time, and energy to see whether you can make it to the sixth lake. This is the second acclimatization day according to Everest Three High Passes Trek Itinerary.",
-      },
-      {
-        day: 14,
-        description:
-          " Trek from Gokyo (4750m) to Marulung (4210m) via Renjo La Pass (5360m)  ",
-        details:
-          "Early in the morning, you will begin hiking to Renjola pass, bypassing the main Gokyo valley route to follow the Renjola trail through Dudh Pokhari. The view of Everest, Lhotse, Cholatse, and Taboche will be appreciable after a 3-hour hike. This is also among one the difficult aspects of the climb, but once you get to the pinnacle, you will be rewarded with breathtaking 360-degree views of Mt. Cho-Oyu and other high peaks. The 3 High Passes Everest Trek route will descend the stairs to Angladumba Tsho. Further trekking will reveal Relama Tsho and Renjo Lake, after which you will pass through a small valley brimming with massive stones on your way to Lumde. After an hour's trek, you will arrive at Marlung village, where you will spend the night.",
-      },
-      {
-        day: 15,
-        description:
-          "Trek from Marulung (4210m) to Thame (3750m) then back to Namche Bazaar (3440m) ",
-        details:
-          "Your 3 high passes trek journey will descend from Marlung to Thame, which is also a traditional route used by Tibetan traders for centuries. Passing through Bhote Koshi and descending to Taranga you will reach Langmuche Khola. From the lodges next to the famous Buddhist shrine (Gompa) in Thame, you can enjoy stunning views of mountains like Thamserku, Katenga, Kusum Kangguru, etc. After that, cross the bridge to reach Samde, the place with stunning mountain views. Through the steep path, you reach the village of Thamo where you can see a monastery called Khari Goma, which is also a nunnery. You will reach the world’s highest power plant in the world built with the help of Australia, then pass through a small village called Phurte where you will see the Laudo Monastery. You are finally in Namche after passing some gompas, prayer flags, Chorten, and Mani stones.",
-      },
-      {
-        day: 16,
-        description:
-          "Trek from Namche (3440m) to Phakding (2610m) then Lukla (2840m)  ",
-        details:
-          "This is the last day of the trip through Everest Three High Passes. Your adventure will begin in Namche and conclude in Lukla. The difficulties are immense, as you'll be trekking down a steep slope with shaky legs till you reach the airport area. To cross the bridge across the Dudh Koshi and into the alpine forest, take it slowly and carefully. The flat route becomes flatter and more natural after passing the suspension bridges across the fast-flowing Dudh Koshi and its tributaries. The combination of broad plains, rhododendron and pine woods, and distant snow-capped peaks will appeal to you. As you proceed through the villages and arrive at Lukla, you will see several walls and monasteries, with a strong Buddhist conviction.",
-      },
-      {
-        day: 17,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
-        details:
-          "You will fly back to Kathmandu today on a picturesque journey. Because of the severe weather (windy or low visibility) in the afternoon, Lukla to Kathmandu flight is typically operated in the morning. Due to adverse weather in Luka or other unforeseen circumstances, scheduled flights may be delayed or canceled. As a result, you should always have an extra day for the contingency, as this will allow you to make up for your other commitments. After arriving in Kathmandu and completing your long adventurous journey, the rest of the day might be spent touring, relaxing, or celebrating. You are going to stay at the hotel overnight and have a wonderful farewell dinner at Thamel to conclude Everest 3 high pass trek successfully.",
-      },
-      {
-        day: 18,
-        description: "Final Departure or Onward For Next Program",
-        details:
-          "The penultimate day of departure from Kathmandu is today. Our assistant will pick you up from your hotel and drop you off at the airport's international terminal three hours before your flight's scheduled departure time. You can also choose to prolong your trip by selecting a different package.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "For every climb, preparation is essential. Before you begin the journey, there are a few fundamental measures you should follow if you are planning a Three Passes Hike. You must organize, plan, pack, and prepare. Before you go, make sure to complete all of these tasks. There is no going back once you leave. The stage of preparation is essential. The gear needed for multi-day walks in the Himalayas and the preparation for an Everest Three Passes Trek is comparable. Simply make sure you have the right equipment and make your plans appropriately. An Everest three-pass expedition might be planned in one of two ways. You must first determine your physical readiness for the terrain's difficulties and risks if you intend to go up the mountain. For instance, a sudden and devastating avalanche only catches many hikers in the Alps by surprise. Going to the Himalayas might be fatal because of the extreme cold. Second, make sure you have the necessary tools and attire.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////////////Budget Everest Base Camp Trek - 12 Days////////////////////////////////////////////////////////////////////////////
-  budget_ebc_trek_12_days: {
-    about: [],
-    highlights: [
-      " Spectacular mountain trip to one of the world’s most prominent air routes with breathtaking scenery.",
-      "Sunrise views from Kala Patthar with Mt Everest, Pumari, Nuptse, Lhotse, and many more",
-      "Throughout your 12-day expedition, you will learn about the Sherpa culture, traditions, and way of life.",
-      "Ascend the High Suspension Bridges and admire the view of dangling prayer flags on wheels.",
-      " Stunning views of Everest, Lhotse, Nuptse, Ama-Dablam, Island Peak, and other peaks on way to Everest Base Camp",
-      " Mesmerizing views of Khumbu Icefall and glacier",
-      "Feel the spirituality of Buddhist monasteries in Namche, Khumjung, Tengboche, and Pangboche",
-      "Ascend to the world's highest peak base camp and enjoy the breathtaking views.",
-      "A short hike to Kalapathar will allow you to see Mount Everest and the sunlight across the Himalayan range of Everest.",
-      "Trekking with a knowledgeable and courteous local guide while discovering Nepal.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) and Trek to Phakding (2610m)",
-        details:
-          "We will drop you off at the domestic terminal of Kathmandu Airport after breakfast to catch a scheduled morning flight to Lukla. You will arrive at the Tenzing-Hillary Airport in Lukla after a thrilling 30-minute scenic flight above the stunning green and white Himalayas. Then, following some packing procedures, you will meet our porters and other crew members and begin Everest Base Camp Budget Trekking. You will arrive at Phakding after around 4 hours of walking. To aid in appropriate acclimatization, you just have a short hike today. You may, however, take a side excursion to a neighboring monastery (Rimishung Monastery and Pemacholing Monastery) if you're interested.",
-      },
-      {
-        day: 2,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-        details:
-          "You will leave Phakding after breakfast and go to Namche Bazaar, a small mountain town. Smaller villages such as Jorsale and Monjo are passed through on the way to Namche. Monjo is the gateway to the Sagarmatha National Park, located north of Phakding. The pathways go to Namche and then into the national park. The alpine woodlands, small rivers, and deep forests of Sagarmatha National Park all have their own inherent value. A pleasant walking atmosphere is provided by the vast farmland of Pine and Cedar. Namche Bazaar is the commercial hub of the Khumbu area due to its strategic location. It is located on a mountaintop and offers spectacular views of Thamserku and Kongdi RI.",
-      },
-      {
-        day: 3,
-        description: "Acclimatization and Rest Day in Namche Bazar (3440m)",
-
-        details:
-          "During Everest Base Camp Budget Trek, Namche is an excellent location for acclimatization. It is the Khumbu Region's primary hub, with several government offices, Internet cafes, ATMs, restaurants, shops, and other services.  Instead of sitting inactive on rest days, health experts recommend that you must be active and moving. So you can climb to Thamo or Khunde for the day. From the Everest View Hotel in Syangbuche, you will climb up to Khumjung village. Our guides will lead you to the Sagarmatha National Park Tourist Visitor Center, where you may learn about the First Everest Climbers and Sherpa Culture. In addition, you will learn about the Everest Region's vegetation and animals.",
-      },
-      {
-        day: 4,
-        description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
-        details:
-          "The Dudh Koshi Valley, at the arrangement of Phungki Thanka, is the starting point for a convenient hike from Namche. You will be able to enjoy a spectacular view of Mount Everest from this location. The settlement of Tengboche may be reached by following the trail that follows the exact side of the Dudh Koshi River. The Everest Base Camp Budget Trek start from Namche to Tengboche offering a stunning natural picture of rivers, hills, and Himalayan peaks. Tengboche is located at the confluence of the Dudh Koshi and Imja Khola rivers. The community is surrounded by towering hills covered in rhododendron plants. Tengboche Monastery, the Khumbu region's most important monastery, is also located here.",
-      },
-      {
-        day: 5,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "After breakfast, your budget trek to Everest Base Camp will continue and passes via Deboche, Pangboche, and Shomare villages. Your delightful and gentle adventure continues through the rhododendron forest, passing the Imja Khola Bridge and ascending to Pangboche over Mani stones decorated with Tibetan Buddhist blessings. To go to Dingboche, you will go across summer farmland, which is enclosed by a 1 km long wall to protect the village's crops from the chilly Imja Valley wind. From Dingboche, you can see amazing views of Mt. Lhotse, Ama Dablam, and Island Peak.",
-      },
-      {
-        day: 6,
-        description: "Acclimatization Day in Dingboche (4410m) ",
-        details:
-          "Dingboche is another excellent place to acclimate on your Budget-friendly Everest Base Camp journey. You can go to the Nagarjuna peak or Chhukung Ri on this trekking day to add more excitement. The vista from the top of Nagarjun Peak is breathtaking, with views of Lobuche East, Kangtega, Ama Dablam, Lobuche West, Thamserku, Taboche Peak, and other peaks. You may snap wonderful images of the scene after visiting the lovely place. You will return to Dingboche to learn more about the surrounding communities. There is the opportunity to learn about the cultural customs and legacy of the local community. Finally, you will spend the evening at the same tea house that you spent earlier in Dingboche.",
-      },
-      {
-        day: 7,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
-        details:
-          "Today’s Budget-friendly Everest Base Camp Trekking will begin by ascending through the Khumbu Khola valley to Dughla. The valley narrows as you approach Dusa, passing via Phalung Kharka on your way. Enjoy Chola Lake and a magnificent view of Mt. Pumori (7,138m) as the route descends and twists to a roaring stream. The route leads to Dughla after passing a carved wooden bridge. From here, you will ascend the Khumbu Glacier's precipitous terminus, which has tributes to Sherpas who died on Mt. Everest's glacier. Khumbutse, Lingtren, Pumori, and Mahalangur Himal are some of the other notable peaks.",
-      },
-      {
-        day: 8,
-        description:
-          ":Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
-        details:
-          "To get to Gorakshep, you will start your Everest Base Camp journey early in the morning with a magnificent view of the world's highest glacier, the Khumbu Glacier. To avoid altitude sickness, you must begin your excursion slowly. You will get in Gorak Shep, a pleasant location with a few hotels, after walking for several hours from Lobuche. From here, you will climb to Everest Base Camp, your final destination according to Budget Friendly Everest Base Camp Trekking Itinerary. Khumbu Icefall, Lingtren (6,749m), Khumbutse (6,665m), and many more Himalayan peaks will be visible from Everest Base Camp. We will return to Gorak Shep, where we will spend the night, after taking in the heavenly splendor of Himalayan nature.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5545m) then Pangboche (3930m) ",
-        details:
-          "Today you will rise early and ascend for 2 hours to reach Kalapathar, which is located at the base of Mt. Pumori. In Everest Budget Trekking, Kalapatthar is regarded as one of the best panoramas. Mt. Everest, Nuptse, Lola, Khumbutse, Ama Table, Tabuchi, Cholatse, Thamserku, and many more peaks can all be seen from Kalapathar, with magnificent views of Everest Base Camp and the Khumbu Glacier. You will return to Gorak Shep after spending time at Kala Patthar, have breakfast, and then continue walking across the Khumbu glacier moraine, passing past Lobuche, Dughla, Pheriche, Orsho, and Shomare before descending to Pangboche.",
-      },
-      {
-        day: 10,
-        description: "Trek from Pangboche (3930m) to Monjo (2835m) ",
-        details:
-          "Today Everest Base Camp Budget Trek route will descend to the riverbed from Pangboche, passes the Imja Khola Bridge, and then continues to Tengboche. After a steep descent from Tengboche, the Dudh Koshi River is reached. On our trip to Phungi Thanga, we cross the Dudh Koshi River on a suspension bridge. We proceed through the villages of Tashinga and Sanasa on our way to Namche Bazaar. Then, to go to Monjo, take the scenic route by the Larja Dobhan. You may visit attractions like Chhumowa, Tawa, Jorsale, and Uche Chholing Monastery in Monjo.",
-      },
-      {
-        day: 11,
-        description: "Trek from Monjo (2835m) to Lukla (2840m)",
-        details:
-          "This is the final trekking day of your Budget Friendly Everest Base Camp Trekking Itinerary; the path has sharply descended Monjo. As a result, you must go slowly and carefully as your unsteady legs battle the uneven terrain. You will arrive at Phakding after passing through beautiful pine and rhododendron trees. To get to Lukla, your ultimate destination, you will need to pass through magnificent places named Sano Gumelha, Chhuthawa, Nurining, Thado Koshigaon, and Chheplung.",
-      },
-      {
-        day: 12,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m)",
-        details:
-          "The Mountain Flight from Lukla to Kathmandu is once again admired on this day. You may go shopping and have a stroll around Kathmandu after you arrive. The purpose of this evening is to celebrate the successful completion of the Everest Base Camp Budget trip.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Improved aerobic and physical endurance, as well as comfort carrying a daypack upwards for lengthy periods, should all be part of your Everest Base Camp training. You should start hiking or taking long walks at least 8 to 12 weeks before your adventure. To be able to trek or walk for 5 to 6 hours without taking many breaks, you should gradually improve your endurance. If your location lacks a lot of hills or mountains, walk hill intervals on a treadmill and stair stepper twice a week. The majority of individuals will also get an advantage from twice-weekly full-body strength training sessions. Before doing a physically demanding activity like trekking to Mount Everest Base Camp, you should always see your doctor. Before beginning any exercise program, you should also speak with your doctor.It shouldn't be too stressful to prepare yourself both physically and mentally for your expedition to Everest Base Camp. You don't have to be a marathon runner or a star athlete to make the journey but don't undervalue it either. Howev",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  /////////////////////////////////////////////////Everest High Passes Trek Clockwise - 18 Days///////////////////////////////////////////////////////////////
-  everest_high_passes_trek_clockwise_18_days: {
-    about: [],
-    highlights: [
-      "Scenic flight from Kathmandu to Lukla",
-      "Kongma La (5535m), Cho La (5420m), and Renjo La (5464m) provide awesome perspectives of the Himalayas",
-      "Gokyo Valley's five frozen lakes with a stunning view of Gokyo Ri",
-      "Exciting and most challenging experience ever, while crossing Everest high passes clockwise",
-      "Gain an intimate understanding of the Sherpa culture in the Himalayas.",
-      "Best views of Mount Everest along with Khumbu glacier (4900 meters) from Kalapatthar (5545 meters)",
-      "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
-      "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
-      "Get an opportunity to visit UNESCO World Heritage Sites along with ancient monastery",
-      "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Free Mount Everest Trek Map",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m) ",
-        details:
-          "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. When you are ready to know more about the trip planning details for the Everest High Passes Clockwise Trek, you may come to our office for a pre-trip meeting.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then trek to Phakding (2610m) ",
-        details:
-          "Your Everest High Passes Trek in Clockwise adventure will start early in the morning after you catch a 45-minute scenic flight to Lukla. You will be in wonder at the magnificent mountain ranges when you fly above them. Our experienced Sherpa team will meet you at Tenzing-Hillary Airport and begin the trip to Phakding. Following the Dudh Koshi on its east side will take you to Phakding once you descend the Kusum River. Since your body requires time to get used to the thin air, moving slowly will be the most crucial thing to remember. You will arrive in Phakding after a short excursion, and you will spend the night in a local Sherpa-run teahouse.",
-      },
-      {
-        day: 3,
-        description: ":Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-
-        details:
-          "You will pass through gorgeous Sherpa communities like Bengkar, Monjo, and Jorsale on the way to Namche. The road from Phakding to Namche has a number of slopes in both directions. The fresh air, stunning views, and the desire to reach the summit will encourage you even though it could be quite exhausting. As you cross the Dudh Koshi River at Bengkar, you will get to see vistas of snow-capped mountains including Kusum Kanguru, Thamserku, and other summits. After passing through a few villages, you will come to the checkpoint at the entrance to Sagarmatha National Park, where your permits for the Clockwise Everest High Passes Trek will be examined. Next, move upstream along the bank until you reach the junction of the Dudh Koshi and Bhote Koshi rivers. By climbing one of the suspension bridges above the river, you may get to Namche Bazaar. From Namche Bazaar, you can see the Everest, Lhotse, Nuptse, Ama Dablam, and Taweche peaks in all their magnificence.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m) ",
-        details:
-          "Today is a day of relaxation and acclimatization for the Clockwise Everest High Passes Trek in Namche. Namche Bazaar, in the Khumbu region, is a busy town. There are several different amenities including ATMs, Internet cafes, restaurants, and bakeries. You may quickly go to a viewpoint in the vicinity, such as Thame or Khunde, and then take a tour of the neighborhood, including the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa people, and their traditions. A trek can also get you to the Everest View Hotel. From here, you may get a close-up view of numerous mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many more. You will return to Namche for the evening after exploring the area for a while. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Thame (3820m) ",
-        details:
-          "As you go toward Thame today, following Bhote Koshi, you will pass through woods of rhododendron and pine. Namche Bazaar will be your starting point. The mud-plastered stupa at Phurte is another sight you will get to visit along the trip. The next stop on your Everest High Passes Clockwise Trek is Thamo and Thamo Gompa. From here, the trail descends sharply to Khumbu Hydroelectric Plant before ending in Thame, which is located at the mouth of Khumbu Valley. Peaks such as Teng Kangpoche and Kwangde may be viewed in breathtaking detail from Thame. Additionally, Nangpa La Pass, which leads to Tibet, is visible towards the north. Thame has a distinguished history of mountain climbers, from the late Tenzing Norgay, who made the first ascent of Mount Everest, to Appa Sherpa, who scaled the summit 21 times.",
-      },
-      {
-        day: 6,
-        description: "Trek from Thame (3820m) to Marulung (4210m)",
-        details:
-          "Your clockwise Everest high passes trek starts today from Thame and travels north to Marulung. You will trek towards the first pass of the trip in the morning after seeing the monastery in Thame. The picturesque villages of Thambuteng, Hungmo, and Taranga are located along the path that leads to the Marulung hamlet above the Bhote Kosi River. You will travel through a wilderness area after passing through a number of villages, yak grazing fields, and sparsely vegetated landscapes before arriving at Marlung.",
-      },
-      {
-        day: 7,
-        description: "Trek from Marulung (4210m) to Lumde (4368m) ",
-        details:
-          "Today's Everest Clockwise High Passes Trek continues to Lumde, which is close to an ancient route used for trading salt between Tibet and Khumbu. There will be a diversion on your way from the northeastern Tibet border road. Before reaching Lumde, you will cross a few authentic and ancient Himalayan settlements that blend into the surroundings almost subtly. To get to Lumde, you must climb all the way up. Throughout the climb, you will get fantastic views of the enormous Himalayan range all the way to Renjo La Pass, as well as the stunning vistas of Kyajo Ri. For a few more hours of walking, you will get to Lumde, a little settlement with stunning views of the high snow mountains all around.",
-      },
-      {
-        day: 8,
-        description:
-          "Trek from Lumde (4368m) to Gokyo (4790m) via Renjo La Pass (5360m)",
-        details:
-          "As you will be going across the first pass along the route, Renjo La Pass, it will be one of your most thrilling days. The hike begins easily but quickly becomes difficult as you get closer to the top of Renjo La. Lumde will be left behind as you continue your Everest High Passes Trek clockwise toward the Gokyo Lakes area. You may see a variety of human activities, including yak herding, depending on the season. The spectacular vistas of lofty peaks like Everest, Lhotse, Makalu, and Cho Oyu will be seen once you pass through the Renjo La Pass. You will descend to Dudh Pokhari, the third lake in the Gokyo valley, after crossing the pass, and then you will reach the settlement of Gokyo, which is situated next to the lake. After taking a short break, you may even ascend the ridge to see the world's highest freshwater lake system and some stunning views of the lakes.",
-      },
-      {
-        day: 9,
-        description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
-        details:
-          "You will trek up to Gokyo Ri early in the morning for a breathtaking glimpse of the dawn. The views of Mount Everest and the surrounding Himalayan landscape are spectacular from the summit. You will go down to Gokyo for breakfast after having a terrific day up on Gokyo Ri. Everest High Passes Trek in clockwise orientation on the rocky slopes is strenuous. The lateral moraine is present at the other end of the glacier, where a lovely frozen lake serves as a landmark. Going up the scree slope of the moraine on a level area between the moraine and the mountain wall will take you to Thangnag if you continue along the route above the lake. After a few hours of walking past the second lake and along the moraines of the Ngozumba Glacier, you will arrive in Thangnag, where you will spend the night. This location is peaceful and ideal for crossing the Cho-La high pass.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Dragnag (4750m) to Dzongla (4830m) via Cho La Pass (5420m)",
-        details:
-          "The Cho La Pass, which is the second high pass on Everest High Passes Clockwise Trek, will be crossed today. Although the pass is not very challenging to trek, it is steep and requires a glacier traverse on the eastern side. The terrain is treacherous and has frozen rocks that make it difficult for hikers to go. From Phedi, your route will continue to ascent in a constrained and rocky valley. The view grows more and more appealing as you rise. When you reach the top of the Cho La pass, which is decorated with prayer flags, you will travel beside the frozen lake. During the journey over the Pass, you will get views of prominent peaks such as Kyajo Ri, Tengkangpoche, Numbur, Kangchung, etc. After crossing through Cho La Pass, the path descends sharply towards Dzongla, crossing via pine trees and crevasses. You can see Lobuche, Mt. Cholatse, Mt. Ama Dablam, and the Pheriche settlement in the distance from Dzongla from a wide-angle perspective. You will reach Dzongla after a little more trek.",
-      },
-      {
-        day: 11,
-        description: "Trek from Dzongla (4830m) to Gorakshep (5140m) ",
-        details:
-          "After a delicious breakfast, you will resume the Everest High Passes Trek Clockwise the next morning. Gorakshep is the destination for today. The moraine will be followed as you begin the day's descent near Chola Lake. The three passes path and the main Everest Base Camp trail will soon intersect. From the intersection, go north across a fragile moraine to Lobuche. You will pass several monuments honoring the climbers killed in this region while climbing Mount Everest. Following the Imja Khola Valley routes will provide a really delightful trip to Lobuche. Continue down the winding path that runs between the mountainside and the Khumbu Glacier's glacier moraine as you go past the Italian Pyramid and approach the Changri Glacier's terminal moraine. To get to Gorak Shep, which is at the base of Kala Patthar, you must cross the Changri Glacier's moraine on foot. Gorak Shep will let you admire the splendor of Pumori, Lingtren, Khumbutse, and Changtse. You will settle at the lodge in Gorak Shep and have the rest of the time to relax there.",
-      },
-      {
-        day: 12,
-        description:
-          "Trek from Gorakshep (5140m) to Everest Base Camp (5364m) then Descend to Lobuche (4910m) ",
-        details:
-          "The highest point on Earth, Mount Everest's base camp, is where you'll climb today. The walk starts after a delicious breakfast in Gorakshep. You will first use the trail that follows the Khumbu Glacier's moraine to get back to it from Gorak Shep. To get to the base camp of Mount Everest, which is situated below the Khumbu Icefall, you will have to go over rocky terrain, tough routes, and the smoky air of the mountains. A moving prayer flag denotes the location of Mount Everest's base camp. You may make use of your free time before returning to Gorakshep to take photographs and soak in the beauty as you celebrate accomplishing the highest point of Everest High Passes Trek clockwise. Following the same route that you took to trek to Everest Base Camp, you will return to Gorakshep and then to Lobuche.",
-      },
-      {
-        day: 13,
-        description:
-          "Trek from Lobuche (4910m) to Chhukung (4730m) via Kongma La Pass (5535m)",
-        details:
-          "You will travel via the third and tallest pass of the clockwise Everest High Passes Trek, Kongma La Pass, today. Of the three passes, this one is regarded as the most challenging. Starting in Lobuche, the trip concludes at Chhukung. Your ascent to Kongma La Pass is easy since the trail is lined with frozen lakes. A crane wrapped in a mummy denotes this pass. You can view Lhotse, Lhotse Shar, Makalu, Baruntse, and Ama Dablam from the pass. From the Kongma La pass, you will descend to the eastern side of the Nigyang Khola Valley and enter Chhukhung Village. There is no permanent dwelling here; instead, Sherpas utilize it as a yak pasture. In recent years, this area has become more well-known as a hiking peak, and trekkers frequently visit Chhukhung for acclimatization. You are welcomed by Chhukhung with a breathtaking vista of Island Peak and Amphu Lapcha. You will arrive at the resort in Chhukung before dusk.",
-      },
-      {
-        day: 14,
-        description: "Trek from Chhukung (4730m) to Tengboche (3860m)",
-        details:
-          "The trek continues from Chhukung after breakfast in the direction of Chubejung Kharka, where it rejoins the Everest High Passes Clockwise Trekking path after passing Bibre. Keeping along the Imja River's route, you will now proceed to Dingboche. The route leaves Dingboche by taking a turnoff to Pheriche and descends the valley to Orsho. To get to Somare, climb down from Orsho along the west bank of the Imja Khola. Following Pangboche, you will climb to Deboche by way of the monastery and a steep descent. You will now continue on a moderately climbing track through the forest to Tengboche. As soon as you arrive at Tengboche, you will check into the lodge. The rest of the day will be spent touring the stunning Tengboche Monastery and taking in the stunning views of Tawache, Everest, Nuptse, Lhotse, Ama Dablam, and Thamserku. Before dusk, you'll head back to the lodge.",
-      },
-      {
-        day: 15,
-        description: "Trek from Tengboche (3860m) to Monjo (2835m)",
-        details:
-          "Today you will go back down the Dudh Koshi River via stunning waterfalls and a wonderful rhododendron woodland. The trip passes through a pine forest, where musk deer frequently feed early in the morning, just before you arrive in Namche. You could encounter Tibetans, highland Sherpas, and lowland porters when you arrive at Namche. Before you get to Larja Dobhan, you could have one more chance to glimpse Mount Everest and Lhotse. The path descends to Larja Dobhan from Namche via pine trees. After passing under the bridge at Larja Dobhan, the route briefly declines before continuing along the Dudh Koshi River. Recross the Dudh Koshi and go on a flat path to Jorsale. The Clockwise Everest High Passes Trekking path ascends a little after crossing the suspension bridge again beyond Jorsale and then climbs steeply for a short distance to Monjo.",
-      },
-      {
-        day: 16,
-        description: "Trek from Monjo (2835m) to Lukla (2840m) ",
-        details:
-          "The route descends from Monjo for a bit before crossing the Dudh Koshi on a suspension bridge and continuing for a short distance to Benkar. Following Benker, the route makes a few uphill and downhill turns in the Dudh Koshi valley to bring you to Phakding. After Phakding, the trail continues to travel for a short and sharp ascend, passing various Buddhist setups in Ghat village. Following a brief steep ascend to the Thado Koshi and a brief descent, you will cross the last lengthy suspension bridge of your Everest High Passes Clockwise Trek before climbing a short distance upward. After crossing the lengthy suspension bridge, the track goes upward till Chablung before diverging in the direction of Lukla. From there, the route continues through a scrub forest above the school and homes in the settlement of Chauri Kharka before making the final ascent of your walk, which takes around 30 minutes, to reach Lukla.",
-      },
-      {
-        day: 17,
-        description: "Flight Back from Lukla (2840m) to Kathmandu (1400m)",
-        details:
-          "It's time to say goodbye to Nepal's Khumbu area. Your bags will be transported to the airport by Sherpas, and the guides will handle additional airport formalities. In the meantime, you may savor your final meal in Nepal's Khumbu Region. You will immediately board the airplane and take off for your return flight to Kathmandu once it has arrived. You will be transported to your accommodation in Kathmandu from the airport. You may make the most of your remaining time on the Everest High Passes Trek Clockwise by visiting Kathmandu's well-known marketplaces. You will gather for the goodbye meal in the evening, during which you will also talk about the trip and the feedback.",
-      },
-      {
-        day: 18,
-        description: "Final Departure",
-        details:
-          "Your Everest High Passes Trek on the clockwise route ends today. When your flight is scheduled to depart, one of our business employees will help you go to the airport. Green Valley Nepal Treks, however, can make the necessary preparations if you want to prolong your vacation. You can also go shopping to get a few presents for your friends and family if your flight is planned for a late evening",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "It is essential to consider both your physical and mental well-being before starting the Everest High Passes Trek in Clockwise Direction. If you have never gone trekking before, you must start by cycling or running and taking morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the Clockwise Everest High Passes Trek. Everest Base Camp, which is located at 5364 meters above sea level, is the trail's highest point. The path through terraced fields, and Sherpa villages, and has several ascents and descents. You must therefore be in excellent physical shape to walk for 5 to 6 hours every day. Trekkers also need to have a positive outlook because discomfort and worry are frequently caused by uncertainty. When you work with us to organize a vacation, we strongly advise that you speak with your doctor before you go about your respiratory condition and email us a copy of the report.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ///////////////////////////////////////////////////////////////////////////////Gokyo Valley Circuit Trek - 13 Days//////////////////////////////////////////////////////////////////////////////////////////////
-  gokyo_valley_circuit_trek_13_days: {
-    about: [],
-    highlights: [
-      "Scenic flight from Kathmandu to Lukla and vice versa",
-      " Renjo La Pass (5360m) provides awesome perspectives of the Himalayas",
-      "Gokyo valley's five frozen lakes with a stunning view of Gokyo Ri",
-      "Exciting and challenging experience, during Gokyo Valley Circuit Trekking",
-      "Gokyo Ri with panoramic views of Cho Oyu, Everest, Lhotse, Makalu, Cholatse and Taboche, and Ngozumpa Glacier.",
-      "Witness yak and mountain goats grazing over the hills and mountains.",
-      " Gain an intimate understanding of the Sherpa culture in the Himalayas.",
-      "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
-      "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
-      "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
-      " Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Gokyo Valley Circuit Trek with Gokyo Ri",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m) ",
-        details:
-          "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. Whenever you are ready to know more about the Gokyo Valley Circuit Trek Itinerary, you are welcome to visit our office for a pre-trip meeting.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m) ",
-        details:
-          "Before starting your Gokyo Valley Trek adventure, you will take a 45-minute scenic flight to Lukla. You will fall in love with the gorgeous mountain ranges when you soar above them. A member of our knowledgeable Sherpa staff will greet you at Tenzing-Hillary Airport and begin the trip to Phakding. Following the Dudh Koshi on its eastern side will take you to Phakding once you have descended the Kusum River. The most crucial thing to remember is to move slowly since your body needs time to get used to the thin air. You will arrive in Phakding after a short trek, and you will spend the night at a teahouse managed by Sherpas.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "You will travel by incredible Sherpa communities like Bengkar, Monjo, and Jorsale on your way to Namche. The road between Phakding and Namche has a number of hills in both directions. As you cross the Dudh Koshi River at Bengkar, you will be able to see vistas of snow-capped mountains, including Kusum Kanguru, Thamserku, and other summits. After traveling via a few settlements, you will reach the checkpoint at the entrance to Sagarmatha National Park, where your permits for the Gokyo Valley Circuit Trek with Gokyo Ri will be examined. By climbing one of the suspension bridges above the river, you may get to Namche Bazaar. From Namche Bazaar, one can view stunning peaks including Everest, Lhotse, Nuptse, Ama Dablam, and Taweche.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m)",
-        details:
-          "Prior to beginning the Gokyo Valley Circuit Trek with Gokyo Lakes, there is time to rest and acclimatize at Namche. The Khumbu region includes the bustling town of Namche Bazaar. There are a lot of conveniences, such as bakeries, restaurants, ATMs, and Internet cafés. Before embarking on a tour of the neighborhood, you could briefly stop at a viewpoint like Thame or Khunde. To find out more about Sherpa culture, Everest climbers, and their rituals, go to the Tourist Visitor Center. The Everest View Hotel is also reachable via hiking. From here, one can see a wide range of mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many others. You will see the area for a while before returning to Namche for the evening.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Dhole (4110m)",
-        details:
-          "We start our walk early in the morning to get clear views of mountain ranges including Everest, Lhotse, Ama Dablam, and Thamserku. The trail takes a wavy path along which the pleasing vegetation and animals such as musk deer, Himalayan Thar, pheasant et cetera keep company. Passing Kayangjuma after a downhill, we reach the junction of EBC and Gokyo valley. From here, we climb to Mong La pass where the sacred Khumbila is a charming presence. Passing Mong La, Rhododendron forests and wildflowers get abundant, and so does animal life. Passing a few waterfalls and bridges, we reach the small village of Dole. Overnight stay.",
-      },
-      {
-        day: 6,
-        description: "Trek from Dole (4110m) to Machhermo (4470m)",
-        details:
-          "The Gokyo Valley Trek Map will be your guide as you make your way from Dhole to Maccharmo. As you walk the route, you will notice how the vegetation and landforms differ. After climbing a ridge, the route passes by the temporary settlements of villagers in Lhabarma and Luza. You will enjoy the stunning views of Kantega, Cho Oyu, Thamserku, and the Ngozumpa glacier while on the trek. You might be able to glimpse views of the deep Dudh Koshi valley as you go on your charming hillside stroll. Your journey ends at Machhermo after traversing the pathways' peaks and valleys. Machhermo hamlet is the starting point of a lovely stream that flows from Kyajo Ri and Phari Lapche.",
-      },
-      {
-        day: 7,
-        description: "Trek from Machhermo (4470m) to Gokyo (4790m) ",
-        details:
-          "You will begin your Gokyo Valley Circuit Trekking by ascending a ridge today, from where you will get wonderful views of Mount Cho Oyu. You will go past Phangkha before descending to the riverbed. The last moraine of the Ngazumpa glacier may be seen as you proceed down the trail. You will go toward the first lake, Longpongo, after ascending the moraine. To get there, you must cross a creek on an iron bridge. You will find the second lake, called Taboche Tsho, after seeing the Lama's Footprints on a stone. You'll be inspired to go a little farther to the third lake, Dudh Pokhari when you see this cold blue lake glittering in the sunlight. Next to the lake is where the Gokyo villages are located.",
-      },
-      {
-        day: 8,
-        description: "Acclimatization Day at Gokyo (4790m)",
-        details:
-          "The second day of the Gokyo Valley Trek with Lakes, which can be used for quick treks to adapt, is today. You can ascend to Gokyo Ri in the morning if the weather is clear. From the summit of the Gokyo Ri, you will get a close-up view of the entire Khumbu area and Mount Everest. Several additional peaks, including Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu, are magnificently visible from Gokyo Ri during the glorious early morning sunshine. A different way to make use of the acclimatization day is to go three kilometers north of Gokyo to enjoy the tranquil beauty of the fourth lake, Thonak Tsho. Depending on your level of fitness, you can continue hiking to the fifth lake, Ngozumpa Tsho, where you can enjoy incredible views of the Himalayas' longest glacier.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Gokyo (4790m) to Lumde (4380m) via Renjo La Pass (5360m) ",
-        details:
-          "It will be one of your most exciting days because you will be crossing Renjo La Pass along the way. The trek is easy at first, but as you near Renjo La's summit, it suddenly gets more challenging. As you continue on your Gokyo Valley Trekking Itinerary toward Lumde, Gokyo Valley will be left behind. You will witness the breathtaking views of towering peaks like Everest, Lhotse, Makalu, and Cho Oyu once you have crossed the Renjo La Pass. Depending on the time of year, you could witness a range of human activities, such as yak herding. To get to Angladumba Tsho, the route continues down the stairs. You will view Relama Tsho and Renjo Lake as you continue to trek, and to reach Lumde, you will pass through a slender valley filled with enormous stones.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Lumde (4380m) to Namche (3440m) via Thame (3820m)",
-        details:
-          "Your Gokyo Valley Circuit Trek will begin from Lumde today and go toward Namche Bazaar after crossing Bhote Koshi. After successfully crossing the Renjo La Pass from Lumde, you will have a straightforward descent to the Bhote Koshi River close to the rural community of Marlung. You will descend from Marlung to Taranga, a lovely settlement along Langmuche Khola. You will eventually arrive at Thame after leaving Langmuche Khola. You will arrive at Samde, where there are spectacular mountain views, after crossing the suspension bridge. You may view the monastery Khari Goma, which is also a nunnery, in the village of Thamo after ascending the steep trail. After passing through the Phurte small settlement and the Laudo Monastery, you will arrive at the tallest power plant in the world, which was constructed with Australia's assistance. After crossing a few chortens, Mani stones, gompas, prayer flags, and prayer flags, you are at last at Namche.",
-      },
-      {
-        day: 11,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
-        details:
-          "Today Gokyo Valley Circuit Trekking journey will start in Namche and end in Lukla. You must descend down a precipitous slope on shaky legs until you reach the airport area, which presents enormous challenges. Go slowly and cautiously across the bridge to enter the alpine forest and cross the Dudh Koshi River. After crossing the suspension bridges over the rapidly flowing Dudh Koshi and its tributaries, the flat road gets even flatter and more fragile. You will like the contrast between the wide plains, pine and rhododendron forests, and the distant snow-capped summits. After passing through the towns of Monjo, Phakding, and Chheplung, you will eventually reach Lukla, where you can witness a number of walls and monasteries.",
-      },
-      {
-        day: 12,
-        description: "Flight Back from Lukla (2840m) to Kathmandu (1400m) ",
-        details:
-          "It's time to say goodbye to Nepal's Khumbu area. Your bags will be transported to the airport by our Sherpas crew members, and the guides will handle additional airport formalities. You will immediately board the airplane and take off for your return flight to Kathmandu once it has arrived. You will be transported to your accommodation in Kathmandu from the airport. You may make the most of your remaining time on Gokyo Valley Complete Circuit Trek by visiting Kathmandu's well-known marketplaces. You will gather for the goodbye meal in the evening, during which you will also talk about the trip and the feedback.",
-      },
-      {
-        day: 13,
-        description: "Departure from Kathmandu (1400m)",
-        details:
-          "It's the last day of your Gokyo Valley Trek itinerary. One of our company personnel will assist you in traveling to the airport when your flight is scheduled to depart. If you want to extend your trip, Green Valley Nepal Treks, however, can make the required arrangements. If your flight is scheduled for a late evening, you can also go shopping to get a few presents for your friends and family.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Before beginning the Gokyo Valley Circuit with Lakes, it's crucial to consider your mental and physical health. Before making a reservation with us, if you have never gone trekking before, you must first start by cycling, running, and taking morning walks for a few weeks or months. The Gokyo Valley Trek through Gokyo Ri will benefit you if you have prior hiking and climbing expertise. The trail's highest point is Renjo La Pass, which rises 5360 meters above sea level. The route includes several ascents and descents, terraced farms, and Sherpa communities. Therefore, it requires an excellent physical condition to walk for 5 to 6 hours a day. Trekkers should have a cheerful mindset because uncertainty frequently results in discomfort and anxiety. When you engage with us to plan a trip, we highly suggest that you discuss your respiratory health with your doctor before you depart and email us a copy of the report.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  /////////////////////////////////////////////////////////Everest View Trek - 9 Days///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-  everest_view_trek_9_days: {
-    about: [],
-    highlights: [
-      "Wonderful flight experience from Kathmandu to Lukla to begin the Everest panoramic view trek.",
-      "While staying at a Sherpa guest house, explore the culturally diverse communities in the Khumbu area.",
-      "Discover breathtaking scenery, including a panoramic vista of Everest and nearby mountain ranges.",
-      "An unforgettable stay in Namche Bazaar and a quick walk to the highest hotel in the world, Everest View Hotel.",
-      "For individuals of all ages, the short Everest View Trek is appropriate.",
-      "Trek through the Sagarmatha National Park, which is a natural UNESCO World Heritage Site.",
-      "Exploration of the historic Tengboche Monastery and other Buddhist monasteries.",
-      "Beautiful panorama of the Himalayan Mountain ranges, including Everest, Lhotse, Ama Dablam, Nuptse, Thamserku, and many others.",
-      "Rhododendron forests and magnificent Sherpa villages are encountered along the Everest View Trek route.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m)",
-        details:
-          "At the Tribhuwan International Airport, our airport representative will receive you. A private tourist vehicle is available for a drop-off service at your hotel. You may either relax or come to our office to discuss the specifics of the Everest View Trek Itinerary",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
-        details:
-          "Your Everest Panorama Trek will start with an early flight from Kathmandu airport to Lukla. To get to Lukla, a beautiful flight over the mountains would last 35 to 40 minutes. You will meet the rest of the team at the Tenzing Hillary Airport and complete your preparations there. It will take you around four hours to hike on your first day, going through the Sherpa settlements of Cheplung and Ghat and across a beautiful suspension bridge. Before reaching Phakding, where you will spend the night in a cozy teahouse or lodge, you will get to experience your first tempting vistas of towering Himalayan peaks along the road.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-
-        details:
-          "The route of today's trek begins through pine trees and pasturelands, with a number of suspension bridges to cross over the Dudh Koshi River at various locations. The ascent gets harder as you get to the junction of the Dudh Koshi and Bhote Koshi. You will reach a vista offering the first glimpse of Mount Everest after traveling for around two hours on foot. From Phakding to Namche, there are several ups and downs on the Everest View Trekking Route. Even while it might be fairly exhausting, the clean air, breathtaking scenery, and desire to stand at the summit of the earth will motivate you to continue. After crossing Jorsale, you will arrive at Namche Bazaar, the entrance to Everest, and a trading hub as well, where you relax for the day.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m)",
-        details:
-          "To prevent altitude sickness, acclimatization involves regulating body temperature as altitude rises. You will relax today since altitude sickness might be quite bad. The major town in the Khumbu region, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other amenities. According to the Everest View Trek Itinerary, this day is for acclimatization. It's a rest day for acclimatization, but you will still go on a short trek to a nearby viewpoint (Thame or Khunde) and have a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people and their culture, and the flora and wildlife of the area.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m) ",
-        details:
-          "The Everest Panorama Trek path leads to the top of a ridge where you can see Thamserku, Kusum Kangrib, and Kantega in all their breathtaking beauty. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The ascent to Tengboche is challenging for the first half, but it becomes easier as it gets closer to a forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings. The vista of the sun setting over Ama Dablam and Everest is breathtaking. One of the outstanding panoramic views of the snow giants is from Tengboche. You may stay the night at a lodge in front of the monastery.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3860m) to Namche Bazaar (3440m) ",
-        details:
-          "Your Everest View Trekking Route descends along a popular trail through fir, juniper, and rhododendron woods. As you continue, you will come to the Phungitenga Bridge, where the descent becomes difficult for almost an hour. The remaining distance to Namche is lengthy, twisting one that passes the historic Sherpa settlements of Khumjung and Khunde. Additionally, you will travel past Khunde Hospital, which is supported by the Sir Edmund Hillary Trust, and a monastery that houses the only Yeti Scalp. The remainder of the journey is a nice, picturesque stroll to Namche, where you will spend the night.",
-      },
-      {
-        day: 7,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m) ",
-        details:
-          "From Namche Bazaar, your Mount Everest View Trek will continue before descending to Monjo. The path winds up and down multiple times as it winds through the dense woodland. You will leave Sagarmatha National Park by crossing the Dudh Koshi River Bridge, which is reached after a steep descent. After that, a level track will take you to Monjo. There are several tiny monasteries and painted Mani walls along the route from Monjo to Lukla. You will descend to Chauri Kharka through Phakding after passing through a number of little Sherpa communities. The final climb of the journey is a difficult ascent from Chauri Kharka to Lukla. When you arrive in Lukla, you may take some time to unwind before taking a tour through the community and taking in the people's tales.",
-      },
-      {
-        day: 8,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
-        details:
-          "You will fly from Lukla to Kathmandu in the early hours of the morning. Just like the landing, takeoffs are also very exciting events. You will be taken to your accommodation in Kathmandu after landing at Tribhuvan Airport. You have two choices for the day: either go shopping and wander the streets and malls or go somewhere you have always wanted to see but were not included in the Everest Panorama Trek Itinerary.",
-      },
-      {
-        day: 9,
-        description: "Departure or Extend your Program.",
-        details:
-          "A drop-off in a private tourist car from the hotel to the airport is scheduled three hours before the flight's scheduled departure time. By choosing a different curriculum, you may also prolong your journey.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Our Everest View Trek 9 Days doesn't require any prior trekking expertise, and most people in average health should be able to accomplish our route without any trouble. This hike does, however, reach a maximum height of around 3860 meters, where altitude sickness symptoms might manifest. For this reason, before starting the Everest Panorama View Trek, you should be in good physical and mental health. Exercises like running, walking, and other cardiovascular activities are excellent ways to get in shape before traveling to the high-altitude Khumbu region. You will also be assigned a knowledgeable guide from Green Valley Nepal Treks who will keep an eye on you, track your progress and health, and lead you safely through some of Nepal's most breathtaking alpine landscapes.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////////////Everest Trek Cost for Indians - 14 Days//////////////////////////////////////////////////////////////////////////////
-  everest_trek_cost_indians_14_days: {
-    about: [],
-    highlights: [
-      "Fly into Lukla's high-altitude Hilary Tenzing Airport.",
-      "During the trip to Lukla, get an aerial glimpse of the Khumbu area.",
-      "The Khumbu Glacier and Khumbu Icefalls will astound you with their icy beauty.",
-      "Trek through Sagarmatha National Park, which is home to numerous flora and wildlife species.",
-      "Discover Namche Bazar, the start of all Everest trips.",
-      "Sherpa culture and traditions are fascinating to learn about.",
-      "High-suspension bridges, prayer wheels, colorful flags, and Mani stones are all worth seeing.",
-      "Visit the oldest and the biggest monastery in the Khumbu region, the Tengboche monastery",
-      "Travel to Everest Base Camp, which is located at the base of the world's tallest peak, Mt. Everest.",
-      "Hike to Kalapatthar for a stunning dawn and a 360-degree panorama of Mount Everest.",
-      "Mt. Everest, Mt. Lhotse, Mt. Makalu, Mt. Cho Oyu, Mt. Nuptse, Mt. Thamserku, Mt. Pumori, and Mt. Kongde are all visible from here.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m) ",
-        details:"",
-      },
-      {
-        day: 2,
-        description:
-          ":Flight from Kathmandu (1400m) to Lukla (2860m), then trek to Phakding (2652m)",
-        details: "",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2652m) to Namche Bazaar (3440m) ",
-
-        details: "",
-      },
-      {
-        day: 4,
-        description: "Acclimatization and Rest Day in Namche Bazaar (3440m) ",
-        details: "",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tyangboche (3800m) ",
-        details: "",
-      },
-      {
-        day: 6,
-        description: "Trek from Tyangboche (3800m) to Dingboche (4360m)",
-        details: "",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4360m) ",
-        details: "",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4360m) to Lobuche (4940m) ",
-        details: "",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4940m) to Gorakshep (5150m) to Everest Base Camp (5364m), back to Gorakshep",
-        details: "",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorakshep (5150m) to Kalapatthar (5545m) to Pangboche (3985m) ",
-        details: "",
-      },
-      {
-        day: 11,
-        description: "Trek from Pangboche (3985m) to Namche Bazaar (3440m)",
-        details: "",
-      },
-      {
-        day: 12,
-        description:
-          "Trek from Namche Bazaar (3440m) to Phakding (2652m) and then to Lukla (2860m)",
-        details: "",
-      },
-      {
-        day: 13,
-        description: "Flight back to Kathmandu (1400m) from Lukla (2860m) ",
-        details: "",
-      },
-      {
-        day: 14,
-        description: "Final Departure or Onward For Next Program ",
-        details: "",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Taking into account that you will have to walk for an average of 5 to 6 hours every day for 11 days on uneven terrain while carrying a bag that weighs at least 6 kg. You'll need to start building up your stamina and strength a few months ahead of schedule. Plan a training routine that includes going up and down hills while carrying a backpack weighing 6 to 12 kg at least once every week. More hill training can help your muscles and legs get ready for the trek. It is essential because, at higher altitudes, where there is less oxygen, your lungs cannot adequately oxygenate your muscles. If you want to successfully reach Base Camp and avoid disturbing other trekkers, start exercising, lifting weights, and walking while carrying a heavy knapsack. Even experienced climbers plan for a challenge like this. Thoughtful planning is a key part of the 14-day trek to Everest for Indians, so take that in mind as well. Even while the journey cannot be compared to climbing Everest, it is a challenging trek with a high degree of difficulty that lasts for several days. Be prepared for common events, continuously shifting weather, and a significant chance of altitude sickness.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  ///////////////////////////////////////////////////////////////////////////////Everest Gokyo Trek via Salleri - 20 Days////////////////////////////////////////////////////////////////
-  everest_gokyo_trek_via_salleri_20_days: {
-    about: [],
-    highlights: [
-      "Alternative Gokyo Trek route across Salleri that includes the Everest base camp",
-      "Discover unknown communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
-      "The path through Salleri covers classic trail of Jiri Everest Base Camp trek route",
-      "Explore the genuine communities, farms, orchards, and low mountain passes of Solu region.",
-      "Seemingly inspirational lifestyles may be found in Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
-      "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
-      "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Gokyo Trek Via Salleri",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m)",
-        details:
-          "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of Salleri to Everest Gokyo Trek planning.",
-      },
-      {
-        day: 2,
-        description:
-          "Drive from Kathmandu (1400m) to Phaplu (2469m) then Trek to Taksindo (2930m)",
-        details:
-          "A Jeep journey from Kathmandu to Phaplu will lead to the start of your Everest Gokyo Trek via Salleri today. The distance from Kathmandu to Phaplu is about 275 kilometers, and it takes 8 to 9 hours to complete that distance. The rural Nepali landscape, which includes tall hills, agriculture, and winding roads, is visible throughout this scenic journey. A miniature hamlet called Phaplu is encircled by lush hills and has an airport. You will march from Phaplu to Ringmo, a modest yet picturesque Rai and Sherpa village. You will leave Ringmo and travel along a nice hiking path to Takshindo, which is known for its antique cheese factory that produces cheese from domestic mountain goats and yak. Many Sherpa and Rai people may be seen along the route of Salleri to Ringmo working in the mountain fields.",
-      },
-      {
-        day: 3,
-        description: "Trek from Taksindo (2930m) to Kharikhola (2040m)",
-
-        details:
-          "You will visit monasteries with mani, gompas, and historic sculptures in the morning at Taksindo. From the peak of Taksindo, you can also take in the stunning views of Salleri. You will begin your Everest Gokyo Trek via Salleri walk to Kharikhola from Taksindo, descending beside the Dudh Koshi River via terraced farms, woods, and a number of Sherpa communities, including Nunthala and Jubhing. A peaceful trip is provided by the Himalayan terrain's natural surroundings and the rushing river. The distance from Taksindo to Kharikhola is about 10.7 kilometers which are traveled in 6 to 7 hours. You will have the opportunity to learn about the Sherpa Buddhism culture throughout this trail. Because of the varied greenery, the paths also offer an exotic feel. When you go to Kharikhola, you may continue to enjoy them.",
-      },
-      {
-        day: 4,
-        description: "Trek from Kharikhola (2040m) to Paiya (2730m) ",
-        details:
-          "Before beginning your journey for the day, you will enjoy a great breakfast and the warm hospitality of the Magar people in Kharikhola. The distance from Kharikhola to Paiya is about 11 kilometers which takes 6 to 7 hours to complete. Your Everest Gokyo Trek through the Salleri route will initially descend into a small river, pass a suspension bridge, and then dramatically ascent upwards through deep woodland to Bupsa village. Before you get to Kharte, you must pass through a forest that is primarily inhabited by monkeys. You would have to trek upwards to reach the Khari La Pass. Gyanchung Kang, Khumbila Mountain, and Tham Danda can all be seen from Khari La Pass. You will arrive in Paiya after descending a slick path and bridging a small river.",
-      },
-      {
-        day: 5,
-        description: "Trek from Paiya (2730m) to Phakding (2610m)",
-        details:
-          "You will continue your Everest Gokyo Trek crossing Salleri journey with many ups and downs toward Phakding after a healthy breakfast in Paiya. 10.6 kilometers, or roughly 6 to 7 hours of walking, are the estimated distance between Paiya and Phakding. To get to Surke from Paiya, you will pass via the Dudh Koshi canyon and the Chutok La Pass. You will ascend gently and calmly over a suspension bridge to Lukla. This area is dominated by Sherpa people, and every building and the home reflects their culture. You might get surprised to know that Salleri to Lukla trek distance is around 26.2 kilometers. As you make your way up to Chheplung from Lukla, you will travel past fields of potatoes and barley. You may take a simple route through Ghat village and Thado Koshi from Chheplung to Phakding. You will eventually arrive at Phakding village after touring the area around the Sherpa settlement and traversing the yak grazing pastures.",
-      },
-      {
-        day: 6,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "After wholesome breakfast in Phakding, you will continue your Everest Gokyo via Salleri Journey toward Namche Bazaar. The approximate 11-kilometer distance between Phakding and Namche Bazaar may be accomplished on foot in 6 to 7 hours. To get to Bengkar, you must cross a suspension bridge and pass a gorgeous waterfall. You will have a sight of the lovely Thamserku Mountain just after five minutes of walking. To get to the village of Monjo, you must pass through a pine forest, a tiny gorge, and several minor streams. You will move toward Namche Bazaar after collecting the permission and the essential paperwork from the office of Sagarmatha National Park. The route goes via a waterfall before beginning with a modest ascent to Jorsale. After passing the junction of the Dudh Koshi and Bhote Koshi rivers, you will climb steeply to Namche Bazaar, a bustling hamlet. You will catch your first glimpse of the magnificent Mount Everest, Mount Lhotse, and Mount Nuptse from Namche Bazaar. Salleri to Namche Bazaar distance is about 37.4 kilometers.",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day at Namche Bazaar (3440m)",
-        details:
-          "After completing 34.9 kilometers of distance from Phaplu to Namche Bazaar, today is the day for acclimatization as per your Everest Gokyo Trek via Salleri Itinerary. The largest town in the Khumbu area is Namche Bazaar. It is adequately equipped with ATMs, Internet cafés, restaurants, bakeries, and other facilities. You can go on a short trek to a neighboring viewpoint, like Thame or Khunde, even though it's a rest day for acclimatization. You may also take a tour of the area, which includes the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa culture, and the local flora and wildlife. You can also ascend above Namche in the direction of the Everest View Hotel. From the Everest View Hotel, you can see Mount Ama Dablam in stunning detail. You will enjoy breathtaking views of Mounts Everest and Lhotse as well as a stunning sunset. After spending some time with each other, you will return to Namche for the night",
-      },
-      {
-        day: 8,
-        description: "Trek from Namche Bazaar (3440m) to Dhole (4110m)",
-        details:
-          "Your adventure Gokyo trek via Salleri to Dole will continue after a day of acclimatization in Namche, passing via the lovely villages of Syangboche, Sanasa, and Phortse Thanga. The 10 kilometers of distance from Namche Bazaar to Dole will take you 6 to 7 hours of hiking. To obtain spectacular views of mountain ranges such as Taboche, Mt. Ama Dablam, Mt. Thamserku, and Kongde Ri, you will begin your hike early in the morning. The walk will follow a wavy path where you may see lovely foliage and creatures including musk deer, Himalayan Thar, and pheasants. You will arrive at the intersection of Gokyo valley and Everest Base Camp after descending through Khumjung. To get to Phortse Thanga, you must follow a rocky trail that steadily climbs up a high incline. To ultimately reach Dhole, you will go along the Dudh Koshi River, through rhododendron trees, with a modest ascent over a challenging hiking track. You can visit ruined stupas and meadows surrounded by stone walls in Dole.",
-      },
-      {
-        day: 9,
-        description: "Trek from Dole (4110m) to Machhermo (4470m)",
-        details:
-          "From Dole, you will head the way toward Maccharmo with the help of the Everest Gokyo Trek Map. While walking on the trail, you will notice the disparity in the landforms and vegetation. After climbing a ridge, the trail moves through Lhabarma and Luza where you will pass through temporary settlements of the locals. Stunning views of Kantega, Cho Oyu and Thamserku, and Ngozumpa glacier will stay with you along the trail. The scenic hillside walk continues with the views of the deep Dudh Koshi valley. Your walk ends at Machhermo after succeeding in the ups and downs of the trails. The distance between Dhole to Machhermo is about 10 kilometers, which needs 5 to 6 hours of hiking. A beautiful stream that originates from Kyajo Ri and Phari Lapche runs through Machhermo village where you can hear stories of the first sighting of Yeti.",
-      },
-      {
-        day: 10,
-        description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
-        details:
-          "You will begin today's Everest Gokyo via Salleri hike by ascending a ridge, from where you will get breathtaking views of Mount Cho Oyu. You will traverse Phangkha before descending to the riverbed. The Ngazumpa glacier's terminal moraine is now in sight as you proceed down the route. You will go toward the first lake, Longpongo, after ascending the moraine, which you will reach by crossing an iron bridge across a stream. You will find the second lake, called Taboche Tsho, after viewing the Lama footprints on a stone. You will proceed a little farther to the third lake, Dudh Pokhari, feeling heartened by the sight of this chilly blue lake shimmering in the sunlight. The Gokyo settlements are situated next to the lake. Awe-inspiring vistas of the Gokyo lakes with Mount Cho Oyu in the background are just breathtaking. In 4 to 5 hours of hiking, you may travel the approximate 7 kilometers distance from Machhermo to Gokyo.",
-      },
-      {
-        day: 11,
-        description: "Acclimatization Day at Gokyo (4790m)",
-        details:
-          "Today is the second acclimatization day according to the Everest Gokyo Trek via Salleri Itinerary, which may be used for short treks to get used to the altitude. You can ascend to Gokyo Ri in the morning if the weather is clear. From the summit of Gokyo Ri, you can see the entire Khumbu area in exquisite detail. On Mount Everest, the early sunlight is wonderful, providing amazing views of some other peaks, including Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu. Gokyo Village's surroundings, which include the biggest Nogzumpa Glacier and Cholatse's view of the third lake, are equally gorgeous. Another way to make use of the acclimatization day is to travel 3 km north of Gokyo to take in the tranquil beauty of the fourth lake, Thonak Tsho. Depending on your fitness level, you can continue walking to the fifth lake, Ngozumpa Tsho, from where you can enjoy stunning views of the Himalayas' longest glacier. The distance from Salleri to Gokyo is approximately 52.3 kilometers, for the common information of hikers.",
-      },
-      {
-        day: 12,
-        description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
-        details:
-          "You will continue your Gokyo across Salleri trek today toward Dragnag after spending a day becoming acclimated at Gokyo Village. Ngozumpa Glacier will be encountered as you move forward on this trail. Despite being a shorter hike with a slight height increase, the trail is full of ups and downs. With its tranquil location next to Ngozumpa Glacier, Dragnag Village is in a prime location to assist hikers in reaching Cho-La High Pass. The distance from Gokyo Village to Dragnag (Thangnag) is around 4.43 kilometers, which may be hiked in 4 to 5 hours.",
-      },
-      {
-        day: 13,
-        description: "Trek from Dragnag (4750m) to Dzongla (4830m)",
-        details:
-          "The next morning, after spending the night in Thangnak, you will climb across steep terrain and glacier moraines to the summit of the Cho La Pass. The ascent is difficult and risky if it is covered in snow. You will reach the summit of Cho La Pass after a few hours of hiking, where you will be rewarded with stunning views of Cho La Lake and Mt. Cholatse. The terrain gets cold and treacherous as you descend. The scenery you get to see on this journey is lovely. After around seven hours of hiking, you will arrive in Dzongla, your final stop for the day. It's a really lengthy journey. The distance from Dragnag to Dzongla is around 9.38 kilometers.",
-      },
-      {
-        day: 14,
-        description: "Trek from Dzongla (4830m) to Gorakshep (5140m)",
-        details:
-          "After leaving Dzongla, you will go in the direction of Gorakshep, following the moraine as you decline toward Chola Lake. The Everest Gokyo via Salleri route from Dzongla meanders softly across a small glacial lake and follows the picturesque summits of Cholatse and Taboche as well as the miniature Chola glacier. The Khumbu Glacier will be followed as you make your way toward Ama Dablam. The memorial sculptures of the climbers who perished in this area may be seen on the route. The climb to Lobuche should be enjoyable in contrast to the previous day, and you will be following Imja Khola before getting there. You will arrive in Lobuche after a four-hour hike. You will re-join the well-known Everest Base Camp trek path after you arrive in Lobuche. Three more hours of trekking will get you to Gorakshep. For the sake of hikers' general knowledge, the distance from Dzongla to Gorakshep is around 10.8 kilometers.",
-      },
-      {
-        day: 15,
-        description: "Excursion Day to Everest Base Camp (5364m) ",
-        details:
-          "You will arrive at the Everest Base Camp today, making it a memorable day for you. After leaving your stuff at Gorakshep, you will ascend to Everest Base Camp. A sense of accomplishment will come over you after you get to Everest Base Camp (EBC). In a sense, the trip to Everest Base Camp Trek via Salleri will make you a better person because getting to EBC demands a lot of perseverance and persistent physical work. You will get the opportunity to take in views of the Khumbu Glacier from EBC, which offers magnificent vistas. You can take photos because they will serve as a remembrance for the rest of your life. You'll hike down to Gorakshep once you've taken in the vistas from EBC. It is roughly estimated that Salleri to Everest Base Camp's distance is 62.7 kilometers.",
-      },
-      {
-        day: 16,
-        description:
-          "Trek from Gorakshep (5140m) to Pheriche (4240m) after Early Sunrise at Kalapatthar (5555m) ",
-        details:
-          "To witness the sunrise on Mount Everest, you must get up early and climb up to Kala Patthar. It's a difficult hike from Gorakshep to Kala Patthar. However, Kala Patthar will reward you with some of the most stunning mountain vistas. The views you will be seeing will be unlike anything you have ever experienced. From Kala Patthar, you may also enjoy a good view of imposing mountains including Nuptse, Pumori, Chagatse, and Lhotse. You will descend to Gorakshep for breakfast after spending some time at the Kala Patthar lookout point, and then you will continue on to Pheriche, your last destination for the day. Another excellent feature of the Everest Gokyo Trek via Salleri is the dawn at Kala Patthar.",
-      },
-      {
-        day: 17,
-        description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
-        details:
-          "The travel distance from Pheriche to Namche Bazar is 14.3 kilometers. The Everest Gokyo Trek through Salleri, which is full of stunning natural scenery, includes a section from Pheriche to Namche Bazaar. The route descends alongside the Imja River before ascending to Tengboche, which gives a panoramic view of the mountain ranges. You will go through woodlands where you could see pheasants, musk deer, mountain goats, etc. You will pass through the lovely villages of Shomare, Pangboche, Tengboche, and Phungi Thanga on the route and observe a lot of prayer flags and chortens. You have the last chance to see Mount Everest on this day. You will arrive at Namche Bazaar after further hiking.",
-      },
-      {
-        day: 18,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
-        details:
-          "Lukla to Namche bazaar distance is only 13.5 kilometers. After breakfast, you will climb down a difficult track, cross the Hillary Suspension Bridge, and pass by various nearby communities. The Dudh Koshi River Valley and its surrounds will be where the most of your walk will take place. On the rough, steep terrain, trekkers must go extremely slowly, with great control, and with balance. As you go through a rhododendron woodland and wide plain, you will get to see distant mountains that are coated in snow. You'll rest and get ready at a hotel when you get to Lukla. Your stay in the Khumbu area will probably end this evening. Against all odds, you were successful, so it’s a time to rejoice.",
-      },
-      {
-        day: 19,
-        description: "Scenic Flight from Lukla (2840m) to Kathmandu (1400m)",
-        details:
-          "On this day, travelers can take a mountain flight from Lukla to Kathmandu. If all goes as planned, you will catch a flight back to Kathmandu in the morning. It will be enjoyable to take the 40-minute picturesque trip back to Kathmandu. Most likely, you will be thinking back on your trip to Everest Base Camp and anticipating the day you can reunite with your loved ones back home. Once in Kathmandu, take some time to shop and explore the city. The evening is a celebration of the successful completion of the Everest Gokyo Trek via Salleri.",
-      },
-      {
-        day: 20,
-        description: "Final Departure or Onward to Other Destination",
-        details:
-          "Before departing for Tribhuwan International Airport at the planned departure time. This is the final day in Nepal, which provides last opportunity to take advantage of shopping and enjoy touring across the cultural metropolis of Kathmandu valley. We will drop you off at the airport three hours before to your flight time.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Before beginning the Everest Gokyo Trek through Salleri, it is crucial to take into account both your physical and mental well-being. Before making a reservation with us, if you have never gone trekking before, you must first begin by cycling or running, and doing morning walks for a few weeks or months. For the Everest Base Camp Trek via Salleri, it will be advantageous if you have prior trekking and climbing expertise. The trail's highest point is Kalapatthar, which rises 5545 meters above sea level. The route includes a series of ascents and descents and passes through agriculture, terraces, and Sherpa settlements. As a result, you need to be in excellent physical condition to walk for 5 to 6 hours each day. Trekkers also need a solid mental attitude because uncertainty frequently leads to discomfort and worry. When you plan a vacation with us, we highly suggest you consult with your doctor about your respiratory condition before leaving and then email us a copy of the report.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  /////////////////////////////////////////////////////12 Days Everest Base Camp Trek//////////////////////////////////////////////////
-  ebc_trek_12_days: {
-    about: [],
-    highlights: [
-      "Panoramic views of Mount Everest, Pumari, Nuptse, Lhotse, and many more peaks during sunrise from Kalapathar",
-      "Views of the Khumbu Icefall and glacier are breathtaking from Everest Base Camp.",
-      "Take advantage of the opportunity to tour the Buddhist monasteries at Namche, Khumjung, Tengboche, and Panboche.",
-      "Views of snow-capped mountains, including Lobuche East, Kangtega, Ama Dablam, Lobuche West, Thamserku, Taboche Peak, etc.",
-      " Exciting climb to the base of Mount Everest, the highest mountain peak in the world",
-      "Trekking over the difficult, remote, and adventurous terrains of the Khumbu region",
-      "Discover the fauna and flora of the Nepalese Everest Region, which includes several rare and endangered species.",
-      "Exploration of the Khumbu region's cultural history, including its Tibetan Buddhist temples, villages, and other landmarks.",
-      "The teahouses and lodges run by Sherpas offer a warm welcome and hospitality.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          ":Flight from Kathmandu (1400m) to Lukla (2840m) and trek to Phakding (2610m) ",
-        details:
-          "After having breakfast in the morning, you will get transferred to the domestic terminal of the Kathmandu Domestic Airport to catch your scheduled morning flight to Lukla. Lukla is the starting point of 12 Days Everest Base Camp Trekking. After 30 minutes scenic flight above the breathtaking green and white Himalayas, you will land at the Tenzing-Hillary Airport at Lukla. Then you will meet porters and other crew members and start Trekking. After a few hours of walking, you will reach Phakding. You will only have a short hike today to assist with the proper acclimatization. However, if you are interested, you can also take a side trip to a nearby monastery.",
-      },
-      {
-        day: 2,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "This is the second day of your Everest Base Camp 12 Days Trek. Today, you will walk through a beautiful forest of pine. The walk will lead you along the bank of the Dudh Koshi River through many suspension bridges. Hillary Suspension Bridge is one of the famous suspension bridges you will be crossing today. En route, you will witness the wonderful views of Mount Thamserku (6618m). You will pass through the settlement of Benkar and Monjo and eventually arrive at the check post and entrance to Sagarmatha National Park. Before reaching Namche, you will also pass through the last village of Jorsale. Our trail further ascends through the forests and bridges until you will reach the confluence of the Dudh Koshi and Bhote Koshi Rivers. You will get the first sight of Mount Everest over the Lhotse and Nuptse ridges just after a final steep ascent for about two hours. To reach Namche, you will still have to walk for about an hour and a half further. Namche Bazaar is the gateway of Everest Base Camp Trekking, and also the main trading center of the Everest region.",
-      },
-      {
-        day: 3,
-        description: "Acclimatization Day at Namche Bazaar (3440m)",
-
-        details:
-          "While trekking at a high altitude, it is always recommended to acclimatize properly. As a result 12 Days Everest Base Camp Trek Itinerary dedicates today as an acclimatization day. You need to stay active and moving during the rest days instead of being idle. So, you will either spend the day taking a day hike to Thame or visiting Khunde, or relaxing and exploring the Namche Bazaar itself. Actually, Namche Bazaar is the main center of the Khumbu Region and has many Government Offices, Internet Cafes, ATMs, Restaurants, Shops, and other amenities. Our guides will take you to the Tourist Visitor Center near the headquarters of Sagarmatha National Park, where you can observe an assortment of things that are related to the First Everest Climbers and Sherpa Culture. You will also get to learn about various flora and fauna in Everest Region.",
-      },
-      {
-        day: 4,
-        description: "Trek from Namche Bazar (3440m) to Tengboche (3810m)",
-        details:
-          "The trek to Tengboche is dusty and winding, but the panoramic views from the monastery make it all worthwhile. There aren't many hard ascents and descents, there's plenty of time to focus on photography. Photographing stupas (Buddhist temples), prayer flags, Mani walls (Walls with Buddhist Prayers Engraved onto Them), mountains like Ama Dablam (6,812 m), and Tengboche Monastery are all worthwhile endeavors.",
-      },
-      {
-        day: 5,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "The trek from Tengboche to Dingboche begins with a visit to the region's oldest Buddhist monastery. The trek continues through alpine woods to Upper Pangboche, a big settlement, and then past Shomare, Orsho, and Tsuro Wog villages. While traveling through the Khumbila Khola valley to the ridge top, one may enjoy breathtaking views of the rising mountains of Taboche (6,495m), Mount Thamserku (6,608m), Mount Ama Dablam (6812m), Mount Nuptse (7,861m), Mount Cholatse (6,440m), and Mount Lhotse (8,516m), among others. Dingboche is ultimately reached after continuing up the path past Imja Khola.",
-      },
-      {
-        day: 6,
-        description: "Acclimatization Day in Dingboche (4410m)",
-        details:
-          "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 12 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
-      },
-      {
-        day: 7,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
-        details:
-          "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
-      },
-      {
-        day: 8,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep",
-        details:
-          "Today is the most important day of 12 Days Everest Base Camp Trekking, your trail to Gorakshep goes ahead through the side of the Khumbu Glacier. Your path passes through the pyramid signpost. A decent ascent would take you to the Thangma Riju from where you can perceive a 360-degree vista of snowcapped mountains. As you will reach Gorakshep, the surrounding snowcapped mountains, including the top of the world welcome you. From Gorakshep, you will trek to Everest Base Camp. After having the rewarding views of Mount Everest and other mountains around your site, you will return back to Gorakshep where you will stay overnight.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Gorakshep (5140m) to Kala Patthar (5555m) then Trek down to Pheriche (4240m)",
-        details:
-          "Today you will reach the highest point of the Everest Base Camp 12 Days Trekking. So, you will make an early start in the morning to catch the dramatic mountain views from Kalapatthar. Kalapatthar is considered one of the finest viewpoints in the EBC 12 Days Trekking. From Kalapatthar, you can observe the first light of the day shining on the glorious Mount Everest. Similarly, the familiar peaks such as Lingtren, Mount Khumbutse, and Mount Changtse among others tower to the east even as Everest begins to reveal itself rising between the west shoulder crest and Nuptse. You can take pictures of the mountains around you. After spending some hours in Kalapatthar, you will descend back to Gorakshep. After having breakfast, you will gradually descend down to Pheriche where you will stay overnight.",
-      },
-      {
-        day: 10,
-        description: "Trek from Pheriche (4280m) to Namche (3440m)",
-        details:
-          "Today is going to be an easy walk down to the lower altitudes. As your Everest Base Camp 12 Days Trek Route will follow the same route back to the terminal moraines at Dughla and following the wide valley of Khumbu Khola, now you will have to pass through the beautiful Sherpa villages of Pheriche, and Orsho along with Shomare. You will then reach Pangboche village where you can explore the oldest monastery in the region which contains what is said to be the scalp and bones of repulsive snowman Yeti. You will leave the mountains behind you and descend through Tengboche Monastery at an elevation of 3860m before you will reach Namche.",
-      },
-      {
-        day: 11,
-        description:
-          "Trek from Namche (3440m) to Phakding (2610m) and then to Lukla (2840m) ",
-        details:
-          "Eleventh day and last day of your Everest Base Camp 12 Days Trekking Itinerary, today's trekking trail has descended steeply downward. Therefore, you will need to walk slowly and under control as your shaky legs continuously battle the rocky terrain. The trail becomes more level and natural after crossing the suspension bridges over the raging Dudh Koshi River. You will start to get warmed up by the light breeze by today. Passing through the lovely forests of pine and rhododendrons, you will eventually arrive at Lukla where we stay overnight.",
-      },
-      {
-        day: 12,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
-        details:
-          "Today you will fly back to Kathmandu after a long mountain journey. You will catch your morning flight from Lukla and after about 35 minutes, you will arrive at Tribhuvan International Airport, Kathmandu. On reaching Kathmandu, you can take your time and rest, or go for last-minute shopping.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "The standard EBC journey is shortened into the 12-day Everest Base Camp trek. As a result, you won't get as much rest as you usually would. It is perhaps more crucial for you to plan adequately for the hike. Before you try this excursion, you should practice hiking. Before doing this expedition, complete 4 to 5 treks. You must do aerobic exercises such as jogging, cycling, or swimming to prepare for the 12-day Everest Base Camp trek. Elevation masks can also be used during exercise to increase endurance. You should work on enhancing your diet while exercising. To build the proper amount of strength in your body, you'll need to eat foods high in both protein and carbs. For this walk, you need to mentally prepare yourself in addition to physically. If something goes wrong, you must address it without becoming panicked. If you are both physically and emotionally prepared for this walk, you can finish this trek with comfort.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  //////////////////////////////////////////////Rapid (Short) Everest Base Camp Trek - 9 Days//////////////////////////////////////////
-  rapid_ebc_trek_9_days: {
-    about: [],
-    highlights: [
-      "The scenic flight to Lukla from Kathmandu",
-      "Long and High suspension Hanging Bridges along the way",
-      "A breathtaking view of Mount Everest Sunrise and Sunset from Kalapathar",
-      "A comfortable Accommodation and hygiene meals during the trek",
-      "Dudh Koshi (the River of the milk) and Rhododendron Forests",
-      "The main gateway to our Everest trekking, Namche Bazaar",
-      "Khumbu Glacier and the Khumbu icefalls",
-      "Spring Season is the best to discover the wild variety of flowers all around",
-      "Unique Sherpa culture and generous hospitalizes of the people living in this region",
-      "Learn Buddhism, and visit ancient monasteries",
-      "The traditional farming system",
-    ],
-    facilities: [],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
-        details:
-          "Early in the morning, your trekking guide will pick you up from the hotel and drive you to the domestic airport in Kathmandu, where you will catch a beautiful flight to Lukla, where the thrilling Rapid Everest Base Camp Trek will begin. You will be welcomed by stunning alpine scenery and spectacular mountains when you arrive. From here, you can see Mt. Khumbila, a holy peak that has never been scaled, as you go on a route that gradually descends to Cheplung hamlet. From here, you will gradually descend to Phakding by following the Dudh Kosi River's bank. You may spend the night at Phakding with a beautiful view of the surrounding environment and a thick forest.",
-      },
-      {
-        day: 2,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "After taking in your first mountain breakfast, you will set out on your journey to Namche Bazaar. A pine forest is traversed on the first leg of the Quick Everest Base Camp Trek, which is then continued as it ascends the Benkar valley to the north. Prior to arriving at the gate of the Everest National Park, you must cross the Dudh Koshi River and travel through the settlement of Monjo. Following that, you will cross the suspension bridge to enter Jorsale village, where you will possibly have lunch. You will cross Jorsale after a little rest and continue walking beside the Dudh Koshi and Bhote Koshi rivers until you reach Hillary Bridges. From here, a difficult trek will take you upward to Namche Bazaar, arguably the largest settlement in the Everest area. A leisurely hike through the pine and rhododendron-filled forest will take around two hours. The Sherpa village of Namche itself is beautiful, and from here you can take in the breathtaking panorama of the mountains and their surroundings.",
-      },
-      {
-        day: 3,
-        description: "Trek from Namche Bazaar (3440m) to Pangboche (3930m)",
-
-        details:
-          "After breakfast at a tea house in Namche Bazaar, the third day of the Short Everest Base Camp Trek begins. The level terrain with the captivating views of Everest, Lhotse, Ama-Doblum, and Thamserku as you travel through the lovely mani walls and stupas along the route. After two hours of comfortable trekking to Phunge Tenga, you will climb steeply to Tengboche, where you may tour the oldest Tengboche Monastery. You will move toward Deboche and eventually Pangboche after leaving Tengboche behind. Pangboche offers a wonderful location where you may take in the view and the lovely valley. You may tour a number of monasteries in Pangboche during your spare time.",
-      },
-      {
-        day: 4,
-        description: "Trek from Pangboche (3930m) to Dughla (4620m) ",
-        details:
-          "After a wholesome breakfast in Pangboche, you will depart for Thukla today. Even better and closer views of the Himalayas may be seen when you go up to the Pheriche Valley. Walking for 6 to 7 hours through this lovely valley will provide you with additional incredible trekking experiences. The Everest Short Trek will be more difficult than the lower Khumbu Valley, however, you must strike a balance between your walking pace and stamina. You will go from Pheriche toward Dughla for the night by following the Imja River.",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Dughla (4620m) to Gorakshep (5140m) then Everest Base Camp (5364m) and Back to Gorakshep ",
-        details:
-          "A substantial breakfast will be served in Dughla to start the day. You will first go to the Sherpa Villages of Lobuche and Gorakshep across the Khumbu Glacier after a challenging ascending segment of the Short Trek to Everest Base Camp trek. You will unload your baggage and have a short meal when you get to Gorakshep before making one more push to reach Everest Base Camp (5,364m). Enjoy your time at base camp with your crew before returning to Gorakshep by foot over rocky, moraine-covered terrain that is also home to streams, glaciers, and a glacier.",
-      },
-      {
-        day: 6,
-        description:
-          "Trek from Gorakshep (5140m) to Kala Patthar (5555m) then Trek down to Pheriche (4240m)",
-        details:
-          "You will ascend Kala Patthar today, which is the highest point on the Everest Short Trek. Before beginning your ascent to Kala Pathar, you must inspect the weather conditions. At 5555 meters above sea level, Kalapathar is situated. To see and take in the breathtaking vistas of the mountains glistening in the hue of the morning light, it takes around 2 hours to trek this well-known monument. You will return to Gorakshep and have breakfast before heading downwards to Pheriche after spending an incredible amount of time on Kala Patthar's summit.",
-      },
-      {
-        day: 7,
-        description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
-        details:
-          "You will begin your trip toward Namche Bazaar after a hearty breakfast in Pheriche. The short trek to Everest Base Camp is stunning from Pheriche. You will walk in the direction of the Debuche settlement. There are a few teahouses in this little community. The trek takes you from Debuche to the town of Pangboche. The majority of trekkers have lunch at the Pangboche settlement. You will continue to stroll after lunch. You will arrive at Tengboche after a steep ascent. The route then continues downhill while crossing a river. There is another elevation following the river crossing. You will spend the night at Namche Bazaar after the uphill portion of the trail.",
-      },
-      {
-        day: 8,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m)",
-        details:
-          "Although the track is lengthy today, the trek is simple. On the way back from the base camp, some hikers run. By doing this, your chance of getting hurt rises. The majority of accidents happen on the way back, so don't rush or sprint. After crossing the Hilary suspension bridge, you will begin the famous ascent from Namche. Along the Rapid Everest Base Camp Trek Route, you will progressively hike after crossing the bridge with the other trekkers. You will stop at Tok Tok for lunch on the way home. You will continue to stroll after lunch. On this day, the excitement of returning home is different. You will eventually arrive at Lukla after several hours of trekking.",
-      },
-      {
-        day: 9,
-        description: "Flight from Lukla (2840m) to Kathmadu (1400m)",
-        details:
-          "The last morning in the Everest region and the last glimpse of the mountains may be enjoyed today. The Quick Everest Base Camp Trek will come to an end when you board a small aircraft for a spectacular 35-minute trip back to Kathmandu. You will be met by a travel agent from Green Valley Nepal Treks upon arrival in Kathmandu and transported back to the appropriate accommodation. There are other possibilities if you want to prolong your vacation, like a Chitwan jungle safari, a river rafting experience, a shopping tour of Kathmandu, mountain biking, and other activities. We would be happy to participate in these at your request.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "To complete the Rapid Everest Base Camp Trek, you don't need to be an athlete or bodybuilder. You should be in reasonably good physical shape and have some prior hiking expertise. Ten weeks or so before your departure, we advise beginning a regular trekking schedule. Your stamina will be improved and aid you on the path to Everest Base Camp if you walk 3-5 km every day, especially up and downhill. If there are no mountains nearby, you can increase your stamina by swimming, climbing stairs, and treadmill running. Before you go to the gym or engage in any strenuous activity, please consult your physician. In conclusion, you don't have to be a particularly athletic climber or sportsman. Only previous hiking expertise on an uphill terrain is needed for the Quick Everest Base Camp Trek. Simply stated, I want to do the Everest Short Trek, and then we will take care of the rest!",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  ///////////////////////////////////////////////////EBC Trek via Gokyo Cho La Pass - 17 Days////////////////////////////////////////////
-  ebc_trek_via_gokyo_cho_la_pass_17_days: {
-    about: [],
-    highlights: [
-      "Scenic flight from Kathmandu to Lukla and vice versa",
-      "Cho La Pass (5420m) provides awesome perspectives of the Himalayas",
-      "Gokyo valley's five frozen lakes with a stunning view of Gokyo Ri",
-      "Exciting and challenging experience, during EBC Trek via Gokyo Cho La Pass",
-      "Gain an intimate understanding of the Sherpa culture in the Himalayas.",
-      "Best views of Mount Everest along with Khumbu glacier (4900 meters) from Kalapatthar (5545 meters)",
-      "Explore the mesmerizing prayer wheels, colorful flags, Mani stones, and huge suspension bridges",
-      "Get amazed by the stunning diversity of flora and animals, including musk deer, colorful pheasants, snow leopards, and Himalayan Thar",
-      "Enjoy breathtaking views of Ama Dablam, Everest, Lhotse, Nuptse, Pumori, and other peaks of the Himalayas",
-      " Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more",
-    ],
-    facilities: [
-      "Free International Airport Pickup And Drop Services",
-      "Create Himalaya Adventure Duffle Bag and T-Shirt as a souvenir",
-      "Map of Everest Base Camp Trek via Gokyo Ri and Cho La Pass",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalaya Adventure Store During The Trek",
-      "Arrangement of sleeping bags and down jackets if you do not have your own.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m) ",
-        details:
-          "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private car will then transport you to your accommodation. You are welcome to visit our office for a pre-trip meeting whenever you are ready to know more about the Everest Base Camp Trek via Gokyo Cho La Pass Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
-        details:
-          "You will take a 45-minute scenic flight to Lukla before beginning your EBC Trekking via Gokyo Lakes and Cho La Pass excursion. When you fly over the majestic mountain ranges, you will be in love with their beauty. At Tenzing-Hillary Airport, a member of our skilled Sherpa crew will welcome you and start the journey to Phakding. Once you descend to the Kusum River, following the Dudh Koshi on its eastern bank will lead you to Phakding. The most important thing to keep in mind is to move gently since it takes time for your body to adjust to the thin air. After a short journey, you will reach Phakding, where you will spend the night at a Sherpa-run teahouse.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-        details:
-          "On your route to Namche, you will pass through stunning Sherpa settlements like Bengkar, Monjo, and Jorsale. There are several slopes on the route between Phakding and Namche in both directions. You may witness views of snow-capped mountains, including Kusum Kanguru, Thamserku, and other peaks, as you bridge the Dudh Koshi River near Bengkar. You will arrive at the checkpoint at the entry to Sagarmatha National Park after passing through a few villages, where your permits for the Everest Base Camp Trek via Gokyo Ri and Cho La Pass will be scrutinized. You may reach Namche Bazaar by ascending one of the suspension bridges above the river. Beautiful peaks like Everest, Lhotse, Nuptse, Ama Dablam, and Taweche can be seen from Namche Bazaar.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m) ",
-        details:
-          "It's time to recharge and acclimatize in Namche before continuing EBC Trek via Gokyo Ri and Cho La Pass. A busy town, Namche Bazaar is located in the Khumbu area. There are many amenities, including bakeries, restaurants, ATMs, and Internet cafes. You may quickly visit a viewpoint like Thame or Khunde before taking a tour of the surrounding area. You can visit Tourist Visitor Center to learn about Everest climbers, Sherpa people, and their customs. You can also reach the Everest View Hotel on a hike. Numerous mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many more, can be seen from this location. After spending some time touring the region, you will return to Namche for the evening. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Dole (4110m) ",
-        details:
-          "A day of acclimatization in Namche will be followed by the continuation of your Everest Base Camp Trek with Gokyo Lakes and Cho La Pass. To get to Dole, you must pass via the charming settlements of Syangboche, Sanasa, and Phortse Thanga. You will start your journey early in the morning to see the best views of mountain ranges including Taboche, Mt. Ama Dablam, Mt. Thamserku, and Kongde Ri. After descending via Khumjung, you will reach the junction of Gokyo Valley and the Everest Base Camp trail route. You have to travel a rocky path that slowly ascends a steep slope to reach Phortse Thanga. You must go beside the Dudh Koshi River, through a rhododendron forest, and climb a small ascent through a difficult trekking trail before arriving in Dhole. You can visit ruined stupas and meadows surrounded by stone walls in Dole.",
-      },
-      {
-        day: 6,
-        description: "Trek from Dole (4110m) to Machhermo (4470m) ",
-        details:
-          "With the aid of the EBC Trek through the Gokyo Cho La Pass Map, you will move from Dole in the direction of Maccharmo. You will notice the disparity in the plants and landforms as you stroll along the route. The path travels via Lhabarma and Luza, passing by villagers' temporary settlements, after ascending a ridge. Along the trek, you will appreciate the beautiful sights of Kantega, Cho Oyu, Thamserku, and the Ngozumpa glacier. Views of the deep Dudh Koshi valley may be seen as you continue your picturesque hillside stroll. After navigating the ups and downs of the paths, your trip comes to a conclusion at Machhermo. A magnificent stream that originates in Kyajo Ri and Phari Lapche begins in Machhermo village, the location of some of the earliest reported Yeti sightings.",
-      },
-      {
-        day: 7,
-        description: "Trek from Machhermo (4470m) to Gokyo (4790m)",
-        details:
-          "By climbing a ridge today, where you will enjoy stunning views of Mount Cho Oyu, you will start your trek to Everest Base Camp via Gokyo Cho La Pass. Before descending to the riverbank, you will pass through Phangkha. As you continue down the path, you can view the final moraine of the Ngazumpa glacier. After climbing the moraine, you will proceed in the direction of the first lake, Longpongo, which you will approach by bridging over a stream on an iron bridge. Following witnessing Lama's Footprints on a stone, you will locate the second lake, known as Taboche Tsho. The sight of this cool blue lake sparkling in the sunlight will encourage you to continue a bit farther to the third lake, Dudh Pokhari. Next to the lake is where the Gokyo villages are located.",
-      },
-      {
-        day: 8,
-        description: "Acclimatization Day at Gokyo (4790m)",
-        details:
-          "Today is the second acclimatization day of the EBC Trek via Gokyo Ri and Cho La Pass, which may be used for short hikes to acclimate. If the weather is clear, you may climb to Gokyo Ri in the morning. You can view the entire Khumbu region in fine detail from the top of Gokyo Ri. On Mount Everest, the early sunshine is excellent and offers breathtaking views of several other peaks, such as Cho-Oyu, Gyachung Kang, Everest, Lhotse, Nuptse, and Makulu. Another approach to utilize the acclimatization day is to walk 3 kilometers north of Gokyo to see the serene beauty of the fourth lake, Thonak Tsho. Depending on your level of fitness, you can keep trekking to the fifth lake, Ngozumpa Tsho, from which you can take in magnificent views of the longest glacier in the Himalayas.",
-      },
-      {
-        day: 9,
-        description: "Trek from Gokyo (4790m) to Dragnag (4750m) ",
-        details:
-          "After acclimatizing in Gokyo Village for a day, you will continue your Everest Base Camp Trek with Gokyo Lakes and Cho La Pass today toward Dragnag. You will come across Ngozumpa Glacier as you continue on this trek. The path has plenty of ups and downs while being a shorter trip with a modest height gain. It is undeniably breathtaking and gorgeous when you stroll down the valley on the eastern side of the glacial moraine. When you go to the yak grazing area, Tawache and Cholatse peaks will be right next to you. Dragnag Village, with its serene setting adjacent to Ngozumpa Glacier, is well situated to help trekkers access Cho-La High Pass.",
-      },
-      {
-        day: 10,
-        description: "Trek from Dragnag (4750m) to Dzongla (4830m) ",
-        details:
-          "After spending the night in Thangnag, you will trek to the peak of the Cho La Pass the next morning via treacherous terrain and glacier moraines. If it is covered with snow, the ascent is challenging and dangerous. After a few hours of climbing, you will reach the top of Cho La Pass, where you will be rewarded with breathtaking views of Cho La Lake and Mt. Cholatse. As you go downhill, the terrain becomes slippery and dangerous. On this Everest Base Camp Trek through Gokyo Cho La Pass, the landscape is magnificent. You will arrive at Dzongla, your final destination for the day, after around seven hours of hiking.",
-      },
-      {
-        day: 11,
-        description: "Trek from Dzongla (4830m) to Lobuche (4910m)",
-        details:
-          "You will head toward Lobuche after leaving Dzongla, following the moraine as it descends toward Chola Lake. The Everest Base Camp Trek over Gokyo Cho La Pass Route commences from Dzongla and gently meanders across a tiny glacial lake, following the charming peaks of Cholatse and Taboche as well as the tiny Chola glacier. As you proceed in the direction of Ama Dablam, you will follow the Khumbu Glacier. On the trail, you may observe the memorial sculptures of the climbers who died here. In contrast to the previous day, the ascent to Lobuche will be pleasurable, and you will follow Imja Khola on the way to reach the destination. It will take you four hours to go to Lobuche.",
-      },
-      {
-        day: 12,
-        description:
-          "Trek from Lobuche (4910m) to Everest Base Camp (5365m) then Back to Gorakshep (5140m) ",
-        details:
-          "This day will be a special one for you since you will reach the Everest Base Camp. You will ascend to Everest Base Camp after leaving your belongings behind in Gorakshep. Following your arrival at Everest Base Camp, you will feel a sense of achievement. The trek to Everest Base Camp via Gokyo Lakes and Cho La Pass will improve you as a better person since getting there requires a lot of endurance and relentless physical exertion. From Everest Base Camp, you will get the chance to see breathtaking views of the Khumbu Glacier. You should snap pictures as they will act as a lasting memento. When you have enough of the views from EBC, you will climb down to Gorakshep.",
-      },
-      {
-        day: 13,
-        description:
-          "Trek from Gorakshep (5140m) to Pheriche (4240m) after Early Sunrise at Kalapatthar (5555m) ",
-        details:
-          "The most fascinating part of the Everest Base Camp Trek through Gokyo Ri and Cho La Pass will be visited today. To see the golden dawn over Mount Everest and other nearby peaks, you will ascend to Kalapatthar early in the morning. From Gorakshep to Kala Patthar, the climb is challenging and will be recovered by the most beautiful mountain views. The vistas you will be taking in will be completely different from anything you have ever seen. The majestic mountains Nuptse, Pumori, Chagatse, and Lhotse can all be seen nicely from Kala Patthar. Spend some time at the Kala Patthar vantage point before descending to Gorakshep for breakfast, and then continue on to Pheriche, your last destination for the day.",
-      },
-      {
-        day: 14,
-        description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m) ",
-        details:
-          "The Pheriche to Namche Bazaar segment of the EBC Trek through Gokyo Ri and Cho La Pass is filled with amazing natural landscapes. You will descend to Pangboche and Tengboche, where you may see Buddha monasteries, leaving the mountain behind while carrying a lot of memories, challenges, happiness, and fulfillment. Along with a sweeping vista of the mountain ranges, the trail descends alongside the Imja River. You could observe pheasants, musk deer, mountain goats, etc. as you pass through forests. You will pass through the charming villages of Shomare, Pangboche, Tengboche, and Phungi Thanga as you make your way down to your destination for today while noticing several prayer flags and chortens. After further traveling, you will reach Namche Bazaar.",
-      },
-      {
-        day: 15,
-        description: "Trek from Namche Bazaar (3440m) to Lukla (2840m) ",
-        details:
-          "After breakfast, you will traverse the Hillary Suspension Bridge, descend a challenging path, and pass through several surrounding settlements. The majority of your EBC Trek via Gokyo Ri and Cho La Pass will take place in and around the Dudh Koshi River Valley. Trekkers must go very slowly, with considerable control, while maintaining balance on the difficult, rocky terrain. You will be able to glimpse distant, snow-covered mountains as you pass through rhododendron woods and an open plain. The roar of the Dudh Koshi River bids a fond farewell after you travel through a number of picturesque villages that depict the way of life in the mountains. When you arrive in Lukla, you will check into a hotel to relax and prepare. Your time in the Khumbu region will likely come to an end this evening. It's time to celebrate since you were successful despite all obstacles.",
-      },
-      {
-        day: 16,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m) ",
-        details:
-          "From Lukla to Kathmandu, trekkers have the option of taking a mountain aircraft on this day. If all goes according to plan, you will return to Kathmandu in the morning. The 45-minute, scenic flight back to Kathmandu will be pleasurable. Most likely, you will be thinking about your trek to Everest Base Camp through Gokyo Cho La Pass and looking forward to spending time with your loved ones in your home country. Spend some time shopping and exploring Kathmandu once there. The evening is a celebration of the conclusion of the Gokyo Lakes to Everest Base Camp Trek.",
-      },
-      {
-        day: 17,
-        description: "Final Departure or Onward to Other Destination ",
-        details:
-          "Before departing for Tribhuwan International Airport at the planned departure time. This is the final day in Nepal, which provides the last opportunity to take advantage of shopping and enjoy touring the cultural metropolis of Kathmandu valley. We will drop you off at the airport three hours before your flight time.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "It is important to consider both your physical and mental well-being before starting the Everest Base Camp Trek through Gokyo Cho La Pass. If you have never gone trekking before, you must start by cycling or running and taking morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the EBC Trek via Gokyo Ri and Cho La Pass. Kalapatthar, which reaches 5545 meters above sea level, is the trail's highest point. The path through terraced fields, and Sherpa villages, and has a number of ascents and descents. You must thus be in superb physical shape to walk for 5 to 6 hours every day. Trekkers also need to have a positive outlook because discomfort and concern are usually caused by uncertainty. When you work with us to organize a vacation, we strongly advise that you speak with your doctor before you go about your respiratory condition and email us a copy of the report.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ///////////////////////////////////////////Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days////////////////////////////
-  ebc_trek_helicopter_return_kathmandu_10_days: {
-    about: [],
-    highlights: [
-      "Enjoy a scenic 30 minutes mountain flight to Lukla.",
-      "Explore the naturally blessed city Namche Bazaar",
-      "Visit the Sherpa museum and discover their amazing culture and traditions.",
-      "Stunning views of Mt. Everest, Lhotse, Nuptse, and Amadablam many others",
-      "Hike on the Khumbu glacier and see the Khumbu icefall",
-      "Reach Everest base camp and observe the 360-degree views including Everest within 10 days (Arrival to departure)",
-      "Sunrise view from Kalapathar best viewpoint of Mt Everest, Khumbu glacier of Nepal's North East Himalaya region and more.",
-      "Scenic Helicopter flight from Kalapathar/Gorkashep to Kathmandu with panoramic views of Himalayan peaks.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m) ",
-        details:
-          "Outside the terminal of Kathmandu's Tribhuvan International Airport, our airport agent will be waiting for you with a sign bearing the name Green Valley Nepal Treks. Then, a private tourist vehicle will take you to your respective hotel. When you are ready, come to our office for a pre-trip meeting to understand more about Helicopter Return Everest Base Camp Trek Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) Then Trek to Phakding (2610m)",
-        details:
-          "After boarding a 45-minute scenic flight to Lukla in the early hours of the morning, your Everest Base Camp Trek with a Helicopter Return Trip will begin. While in the air, you will marvel at the stunning mountain ranges. When you arrive at Tenzing-Hillary Airport, our professional Sherpa crew will greet you and start the journey to Phakding. You will descend to the Kusum River and then go to Phakding by following the Dudh Koshi on its east bank. The most important thing will be to move gently since your body needs time to adjust to the thin air. After a short hike, you will arrive in Phakding, where you will spend the night at a local Sherpa-run teahouse.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-
-        details:
-          "Stunning Sherpa settlements like Bengkar, Monjo, and Jorsale will be seen on the route to Namche. There are several uphill and downhill inclinations on the EBC Trek with Helicopter Return Route from Phakding to Namche. Even though it might be quite exhausting, the fresh air, breathtaking scenery, and desire to stand at the highest peak will motivate you. You will enjoy views of snow-capped mountains including Kusum Kanguru, Thamserku, and other peaks as you cross the Dudh Koshi River at Bengkar. You will approach the checkpoint at Sagarmatha National Park's entry after crossing a few villages, where your permits will be verified. You will next travel upstream along the bank on level terrain until you reach the place where the Dudh Koshi and Bhote Koshi rivers merge. You will reach Namche Bazaar by ascending one of the suspension bridges above the river. The views of the Everest, Lhotse, Nuptse, Ama Dablam, and Taweche peaks are magnificent.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization in Namche Bazaar (3440m)",
-        details:
-          "According to your Everest Base Camp Trek with Helicopter Return Itinerary, this is your 1st acclimatization day in Namche. You will rest today and take your time being acclimated in Namche. In the Khumbu area, Namche Bazaar is a bustling town. ATMs, Internet cafés, restaurants, bakeries, and other facilities are plentiful there. You may take a quick stroll to one of the area's viewpoints, such as Thamo or Khunde, and then take a tour of the area, including the Tourist Visitor Center, where you can learn about Everest climbers, Sherpa people, and their customs. The Everest View Hotel is accessible by trek as well. Mt. Everest, Mt. Ama Dablam, Mt. Lhotse, Mt. Nuptse, Mt. Cho-Oyu, Mt. Thamserku, Mt. Tawache, and many more mountains may be seen up close from this location. After spending some time wandering around the region, you will return to Namche for the evening. A picture gallery, a museum, and a few Sherpa settlements may all be seen along the journey.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3810m)",
-        details:
-          "Your Helicopter Return Trip with Everest Base Camp Trek Path from Namche Bazaar will ascend to Tengboche. The ascent to Tengboche is moderately easy, and the views of Mount Everest, Mt. Ama Dablam, Mt. Lobuche, and several other nearby peaks are amazing along the way. You will initially drop to the Dudh Koshi valley at Pungi Thanka before gradually climbing to Tengboche. You will visit the Tengboche monastery, a well-known monastery in Tengboche. On the approach to Everest Base Camp, it is a historic Buddhist monastery. Its fame extends beyond its purely spiritual importance to include its gorgeous setting. Just above the monastery, the enormous Mt. Ama Dablam is visible. The views of Mount Everest, Mount Nuptse, Mount Lhotse, Mount Lobuche, and several other mountains are also outstanding from here.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3810m) to Dingboche (4410m)",
-        details:
-          "To get to Deboche, you must take a short detour through a birch, juniper, fir, and rhododendron forest. You may visit a Buddhist nunnery and enjoy a breathtaking view of the mountains in Deboche. Following Imja Khola, the EBC Trek with Helicopter Return Route will continue and pass a number of chortens to Pangboche, where you will get a glimpse of stunning Ama Dablam Mountain. As you make your way from the high Pangboche to the dry, alpine environment of Shomare, you will see the greenery starting to thin down. After passing through Shomare you will be at Orsho, which offers a glimpse of Mt. Pumori's apical ridge. After traveling through a number of meadows and yak herder summer communities, you will eventually arrive at the chilly and windy village of Dingboche. It is completely covered with snow in the winter, but in the summer it looks beautiful with grassland and yaks wandering across it",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4410m) ",
-        details:
-          "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and others. ",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
-        details:
-          "The walk will get more interesting from Dingboche because of the steep elevation. You will pass Dughla (Thukla) by ascending a steep slope in the distance. You will stroll across a huge pass before arriving at Dughla, which is a welcome diversion from the monotony of walking straight. You will ascend a difficult path from Dughla to Chupki Lhara, where you will see a number of prayer flag-covered stones used as tributes to American mountaineer Scott Fischer and Nepali mountain guide Babu Chiri Sherpa, both of whom died while attempting to ascend Everest. Once you reach the Khumbu Glacier moraine, you will find yourself in front of several impressive peaks, including Khumbutse, Lingtren, Pumori, and Mahalangur Himal. As your Luxury EBC Helicopter Return Trek continues down the valley to Lobuche, the route suddenly becomes gentler. The Everest base camp, Kalapatthar, the Khumbu glacier, and the glacier-carved moraines are all visible from Lobuche's glacier ridge.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep",
-        details:
-          "The most significant day of the Everest Base Camp Trek with Helicopter Return is today. Early in the morning, you will awaken and proceed to Gorakshep. Walking gradually and gently, you will go beside the Khumbu Glacier. Stepping on stray boulders and stones requires special caution. The surrounding snow-capped mountains will greet you as you approach Gorakshep. Following the Khumbu Glacier, you will later climb up to Everest Base Camp. The path you go will be steep and covered in loose gravel and pebbles. At the base of Mount Everest, directly below the Khumbu Icefall, is where you'll find Everest Base Camp. During the climbing season, if you make this excursion, you'll see brightly colored small tents erected all over the barren ground. The feeling of being beneath some of the world's biggest mountains is incredible after achieving your goals. You will return to Gorakshep, where you will spend the night, after taking in the spectacular views of Mount Everest and the surrounding mountains.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then fly back to Kathmandu (1400m) by Helicopter",
-        details:
-          "You will awaken early in the morning and trek to Kalapatthar. One of the most well-known vantage locations in Nepal's Everest area. It is well-known for its sunrises and expansive vistas of the Everest region's mountains, especially the arduous Mt. Everest. You can see Mount Everest and other soaring peaks in the range as the sun's golden rays fall over their sparkling snow from Kalapatthar. You will spend some hours in Kalapatthar before descending to Gorakshep. You will be picked up by a chopper in Gorakshep and transported to Kathmandu by flying above the Everest area. Incredible views of the Himalayas, Gokyo Lakes, Khumbu Glaciers, Sagarmatha National Park, and several other Everest area attractions can be enjoyed throughout the helicopter journey. You will be taken to your hotel in Kathmandu after arrival at the airport in Kathmandu, which will conclude your Luxury Helicopter Return Everest Base Camp Trek.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Your physical and mental health are the most important factors to consider before participating in the Luxury Everest Base Camp Trek with Helicopter Return. If you don't have the requisite prior trekking experience, you may start by cycling, jogging, and going for morning walks for a few weeks or months before making a reservation with us. It will be beneficial if you have prior hiking and climbing experience for the Everest Base Camp Trek. With a height gain of 5545 meters along the route, Kalapatthar is the highest point. On the path, which also travels through farmland, terraces, and sherpa communities, there are several ascents and descents. Therefore, you must be physically fit to walk for 5 to 6 hours every day. Trekkers also need to be mentally driven because a lack of confidence may typically result in pain and fear. We strongly advise you to consult your doctor before departing if you have a respiratory issue when you book a trip with us and then send us a copy of the report.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////////////////Gokyo Chola Pass Trekking via EBC - 17 Days//////////////////////////////////
-  gokyo_chola_pass_trekking_via_ebc_17_days: {
-    about: [],
-    highlights: [
-      "After taking a picturesque flight from Kathmandu to Lukla, travel in Tenzing and Hillary's footsteps to Everest Base Camp and Kala Patthar.",
-      "Beautiful scene with gently sloping hills, quaint towns, and lush meadows",
-      "Wonderful opportunity to tour Buddhist temples and get knowledge of the Sherpa culture and customs that are unique to the area",
-      "In Sagarmatha National Park, you get a fantastic chance to see wildlife and birds.",
-      "Visit the largest and oldest Tengboche monastery in Tengboche and give your prayers there.",
-      "Astonishing close-up views of snow-capped mountains, icefalls, and steep slopes while viewing ancient Chortens, Gompas, colorful Mani walls, and prayer wheels.",
-      "Explore Gokyo Lakes and Ngozumpa Glacier after taking in the magnificent views of Mount Everest and the surrounding mountains from Kalapatthar and Gokyo Peak.",
-      "You will explore incredible places on your Gokyo Chola Pass Trekking via EBC, including the Everest Base Camp, Kala Patthar, Cho La Pass, Gokyo Lake, and Gokyo Ri.",
-      " Spend a blissful time exploring undiscovered pathways through luxuriant foliage in the Sagarmath National Park and Gokyo valley",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrive in Kathmandu (1400m)",
-        details:
-          "Our agent will meet and greet you at the Tribhuvan International Airport. You will be taken to the hotel in a private tourist vehicle. You might choose to take a break or visit us in person to learn more about the Gokyo Chola Pass Trekking via EBC Itinerary strategy.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m) then Trek to Phakding (2610m)",
-        details:
-          "Your Gokyo Cho La Pass Trekking via EBC will start after a 30- to 40-minute flight from Kathmandu to Lukla. The Annapurna and Langtang Himalayan ranges may both be seen magnificently from this majestic flight. First, you will make your way from Lukla to the Thado Koshi River while across a few suspension bridges. After a leisurely hour of descent, you will reach a Chheplung hamlet with a view of Mt. Khumbila (5,761 m), a holy mountain that has never been scaled. The trip will be more enjoyable and easier as you adjust. From Chheplung, you will descend to Phakding, where you may see Pemacholing and Rimishung Monastery.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m)",
-        details:
-          "After eating breakfast in Phakding, you will keep walking. You will experience both uphill and downhill walking on your Gokyo Cho La Pass Trek via EBC Route, as well as several river crossings and a breathtaking view of Mt. Thamserku (6,608 m) from the Bengkar village. You will pass through Monjo Village, thick woods, and rough paths on your way to the Sagarmatha National Park's entrance. After registering your permits, you will enter the forest. You will be able to glimpse Mount Everest from this forest for the first time. After passing past the village of Jorsale, you will proceed to Namche Bazaar by crossing the Hillary Suspension Bridge. From here, you may enjoy stunning views of the Himalayas, including Everest, Lhotse, and Tawache.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m)",
-        details:
-          "Before continuing on the route of EBC Trek with Gokyo Chola Pass, it is time to rest and acclimatize in Namche. Namche Bazaar is a bustling town in the Khumbu region. Bakeries, restaurants, ATMs, and Internet cafés are just a few of the various conveniences. Before going on a tour of the community, you could quickly stop at a viewpoint like Thame or Khunde. To find out more about Everest climbers, Sherpa people, and their traditions, go to the Tourist Visitor Center. The Everest View Hotel is also reachable by trek. From here, one can view several mountains, including Everest, Ama Dablam, Lhotse, Nuptse, Cho-Oyu, Thamserku, and many others. You will return to Namche for the evening after some time spent exploring the area. Along the way, it's possible to view a museum, a gallery, and a few Sherpa villages.",
-      },
-      {
-        day: 5,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m)",
-        details:
-          "Your EBC Trek with Gokyo Cho La Pass Route will depart from Namche after breakfast and travel toward Tangboche. From the route to Tangboche, one can view Mt. Everest, Mt. Nuptse, Mt. Ama Dablam, and Mt. Thamserku. You will be astounded by the fauna, including musk deer, Himalayan Thar, and multicolored pheasants, as you stroll along the smooth and occasionally zigzagging path. After passing through a pine grove, you will cross a bridge over the Dudh Koshi River that is covered with prayer flags. After some hiking, you reach Phungi Thanga, a little settlement with a few teahouses and an army outpost tucked away in an alpine forest. You will also have the opportunity to visit the Tengboche monastery and see a religious ritual performed by the monks there.",
-      },
-      {
-        day: 6,
-        description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
-        details:
-          "Tengbohe offers a breathtaking dawn view of the surrounding mountains, including views of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, among others. Today, you will begin your EBC with Gokyo Chola Pass Trek by hiking via Imja Khola, which will descend to the riverbed through birch and rhododendron forests. On your route to Pangboche, where you will be treated to a breathtaking vista of the Himalayas, you will stop at a Buddhist nunnery at Deboche and pass by a few chortens. Walking from the high Pangboche to the parched and mountainous Shomare, one can clearly see the greenery dwindling. You may glimpse Mt. Pumori's coronal crest from Orsho before getting to Dingboche, a frigid and windy village where you will spend the night.",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4410m)",
-        details:
-          "Because of the higher altitude, today is your second acclimatization day as per the EBC trek itinerary of 14 days. You will be rewarded with a spectacular view, but you will need to get some rest in order to complete the final leg of your adventure. On this day, you might choose to visit Dingboche and the surrounding villages of Chhukung and Imja or take a rest for the next hike. Short hikes can be done in a variety of ways. Nagarjun Hill (2,128m), and Chhukung Ri (5,546m) are all possible hikes. The top of Nagarjun Hill provides views of Mt. Makalu, Mt. Lobuche, Thamserku, Ama Dablam, and other peaks.",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m) ",
-        details:
-          "Climbing via the Khumbu Khola valley to Duglha will be the first leg of the Gokyo Chola Pass via EBC Trekking. The valley starts to become smaller as you approach closer to Dusa. With several large rocks and adjacent, steep mountains, the path is challenging. It is also possible to see a lot of monuments with praying flags and stones in memory of climbers who perished while attempting Mount Everest. The route between Gokyo Lakes and Cho-La Pass will next come into view. It's also possible to observe peaks like Khumbuste (6,636 m), Lingtren (6,749 m), and Pumori (7,161 m). Walking across the hilly landscape on a typical trip to Lobuche may easily make you exhausted. There aren't many tea houses in Lobuche for overnight stays",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then to Everest Base Camp (5364m), back to Gorakshep ",
-        details:
-          "Following breakfast in Lobuche, you will stroll to Gorakshep. The best day of the 16 Days Gokyo Cho La Pass via EBC Trek Itinerary will be today since you will finally arrive at base camp. The duration is two to three hours. You will have lunch in Gorakshep. After lunch, your journey to Mount Everest Base Camp will begin. Going to Everest Base Camp from Gorakshep would take you about 3 to 4 hours. It's stunning at Everest Base Camp. The Nuptse, Khumbuste, and Pumori peaks can all be seen magnificently from the base camp. You will hike back to Gorakshep, where you will spend the night, after admiring the view.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then Dzongla (4830m) ",
-        details:
-          "The first stage of the Gokyo Chola Pass Trekking via EBC Journey has come to an end. It started with a stroll to take in a breathtaking view of the sun rising from Kalapatthar. You will reach Kalapatthar after a few hours of walking, where you may sit and satisfy your eyes' hunger for a beautiful vista of the Himalayas. From Kalapattar's 360-degree vantage point, it is possible to see Everest, Lhotse, Nuptse, Pumo Ri, Ama Dablam, Khangtenga, Lobuche Peak, Everest Base Camp, Khumbu glacier, and Icefalls. You will leave your mark while taking lifetime-preserving memories and pictures with you. You will return to Gorakshep, gather your belongings, and get ready to go back the way you came to Lobuche. Then, you will go to Dzongla along the lovely path.",
-      },
-      {
-        day: 11,
-        description:
-          "Trek from Dzongla (4830m) to Thagnak (4750m) via Cho La Pass (5367m) ",
-        details:
-          "Get up early in the morning to see Cholatse's breathtaking scenery. The hardest part of the Gokyo Cho La Pass Trekking via EBC Itinerary starts after you pass through Dzongla and drop to a basin after passing through spur woods. You will be rewarded with a stunning view of Chola Lake and Mt. Ama Dablam as you ascend back to the top. Rocks make the ascent more challenging and lead to the winding Bergschrund trails. From the summit, you can view stunning peaks all around you, which are framed by soaring prayer flags. The descent to Thagnak is not very difficult unless the rocks are coated in ice, which would make the journey hazardous and difficult. Thagnak is where you will spend the night.",
-      },
-      {
-        day: 12,
-        description: "Trek from Thagnak (4700m) to Gokyo (4750m) ",
-        details:
-          "In order to continue on the EBC Trek with Gokyo Chola Pass Route over Nepal's longest glacier, the Ngozumpa Glacier, you must depart the little community early in the morning. As you go closer to the opposite side of the glacier, you might be able to view the second Gokyo lakes, one of the six series. The Gokyo hamlet may be situated on the third lake's edge, near the second lake.",
-      },
-      {
-        day: 13,
-        description: "Trek from Gokyo (4750m) to Dhole (4200m)",
-        details:
-          "Your Gokyo Chola Pass Trekking via EBC Route will descend from Gokyo and traverse the Ngozumpa Glacier before arriving at the Dudh Koshi River. The short stroll passes via the first and second lakes. Along the route, there are stunning views of the peaks of Cholatse, Taboche, and others. Once you reach Machhermo, where Cho Oyu, Kangtega, and Thamserku form breathtaking vistas, you will progressively descend. To reach Dole, where you will spend the night, the trail continues past the hamlets of Luza and Lhafarma.",
-      },
-      {
-        day: 14,
-        description: "Trek from Dhole (4200m) to Namche Bazaar (3440m) ",
-        details:
-          "Your Gokyo Cho La Pass Trekking via EBC journey for today begins in Dole and concludes in Namche Bazaar. Your walk will descend, where you will see that the plants and wildlife are more diverse. Phortse Thanga is reached during the steep drop, followed by Mong La and then a moderate descent to Namche. Mount Khumbila, Taboche, Thamserku, Ama Dablam, Everest, and Tengboche, which serve as a backdrop, can be said goodbye to as you go. The night will be spent at a tea house in Namche.",
-      },
-      {
-        day: 15,
-        description:
-          "Trek from Namche Bazaar (3440m) to Phakding (2610m) and then to Lukla (2840m)",
-        details:
-          "The Gokyo Cho La Pass Trek via EBC continues with a steep descent track on the last day. To get to the suspension bridge over the Dudh Koshi, hikers must go extremely slowly, carefully, and steadily through the steep, rocky terrain. They must also travel through an open plain and a rhododendron woodland while taking in the distant views of snow-capped mountains. Lukla will eventually be reached after passing through quaint communities like Jorsalle, Monjo, Phakding, and Chheplung. You will spend the night in a teahouse in Lukla.",
-      },
-      {
-        day: 16,
-        description: "Flight from Lukla (2840m) to Kathmandu (1400m)",
-        details:
-          "You will be leaving the Everest region on this day. So, make the most of the day by touring the local Lukla region. Your EBC Trek with Gokyo Chola Pass Itinerary comes to an end when you have a sumptuous breakfast in Lukla and catch a morning flight from Lukla to Kathmandu. Like the landing, a takeoff is a spectacular event. The remaining time of the day might be spent exploring, unwinding, or celebrating.",
-      },
-      {
-        day: 17,
-        description: "Final Departure ",
-        details:
-          "A drop-off in a private tourist car from the hotel to the airport is scheduled three hours before to the flight's scheduled departure time. By choosing a different curriculum, you may also prolong your journey.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparation is key for a successful and enjoyable EBC Trek with Gokyo Chola Pass experience. Remember to always listen to your body, and don’t hesitate to turn back if you feel unwell. Here are a few things to consider when preparing for the trek:",
-      ],
-      points: [
-        "Physical Fitness: The EBC Trek with Gokyo Cho La Pass is a challenging trek that requires a good level of physical fitness. It is important to start preparing for the trek well in advance, ideally several months before your departure date. A regular exercise routine that includes cardio and strength training will help to improve your overall fitness and endurance.",
-        "Altitude Acclimatization: The trek takes place at high altitudes, and it is important to be aware of the risks of altitude sickness. It is recommended to spend a few days acclimatizing in Kathmandu before embarking on the trek. Additionally, trekkers should be aware of the symptoms of altitude sickness and take necessary precautions, such as taking Diamox or descending to a lower altitude if symptoms occur.",
-        "ental Preparation: The EBC with Gokyo Chola Pass Trek is a challenging trek that requires a good level of mental preparation. It is important to be mentally prepared for the physical challenges and the lack of amenities and services in a remote and rugged area.",
-      ],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////Everest Base Camp Trek Heli Out to Lukla - 12 Days////////////////////////////////
-  ebc_trek_heli_out_lukla_12_days: {
-    about: [],
-    highlights: [
-      "Sightseeing at the UNESCO World Heritage Sites in Kathmandu City.",
-      "A real cultural experience is provided by staying in tidy, pleasant houses and lodges during Everest Base Camp Trek with Heli Out",
-      "Enjoy a hearty breakfast prepared by locals from the highlands while taking in the peace and breathtaking aerial views of the Himalayan Alps.",
-      "Enjoy the unspoiled, rustic, and beautiful Everest Region while learning about the Sherpa culture, tradition, cuisine, and inspirational way of life.",
-      "Wander through Sagarmatha National Park's thick forests and across its renowned suspension bridges, which are covered with vibrant prayer flags.",
-      "Get the necessary rest and acclimatization, and have enough safety support.",
-      "On your acclimation day in Namche Bazaar, the Sherpa capital, and the entrance to Everest, get a close-up view of Mount Everest from the Everest View Hotel.",
-      "Attend Everest Base Camp Heli Trek up to Kala Patthar for majestic views of Everest and other surrounding peaks.",
-      "Enjoy the view of Mt. Everest, the tallest mountain peak in the world, and other peaks between 7,000 and 8,000 meters in height.",
-      " Get a glance at other famous mountains in the area besides Everest, such as Ama Dablam, Lhotse, Cho Oyu, and Pumori.",
-      "From Gorakshep, take a helicopter directly back to Lukla while admiring the aerial view of the area.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Flight from Kathmandu (1400m) to Lukla (2840m), then Trek to Phakding (2610m)",
-        details:
-          "We will set up a vehicle to transport you to the domestic airport in Kathmandu according to the timing of your domestic flight from Kathmandu to Lukla. You will have amazing views of the dawn sun rising over the snow-covered mountains on the trip to Lukla. After a 40-minute picturesque flight, you will arrive at Lukla's Tenzing-Hillary Airport, the entrance to the Himalayas. After greeting our crew members, the Everest Base Camp Trek Heli Out to Lukla starts right there at the airport. From that, it's a short walk to Phakding. You will spend the night in Phakding because today is the first day of trekking.",
-      },
-      {
-        day: 3,
-        description: "Trek from Phakding (2610m) to Namche Bazaar (3440m) ",
-
-        details:
-          "The Everest Base Camp Trek Heli Out Route departs early in the morning and travels by lovely pine trees, the Dudh Koshi River, and breathtaking views of Mount Thamserku. You will reach a checkpoint, the entry to Sagarmatha National Park, after crossing a few communities. You will continue walking across the junction of the Dudh Koshi and Bhote Koshi Rivers before climbing steeply to Namche Bazaar, where you will get your first glimpse of the magnificent Mount Everest and the ranges of Mount Lhotse and Mount Nuptse.",
-      },
-      {
-        day: 4,
-        description: "Acclimatization Day in Namche Bazaar (3440m)",
-        details:
-          "The largest town in the Khumbu area, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other businesses. The ideal destination for acclimatization and a day of relaxation is Namche Bazaar. As a result, today is designated as an acclimatization day in your Everest Base Camp Trek Heli Out Itinerary. Despite the fact that it's a rest day for acclimatization, you will go on a short trek to a nearby viewpoint (Thame or Khunde) and enjoy a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people, their culture, and the local flora and wildlife.",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Namche Bazaar (3440m) to Debuche (3820m) via Tengboche (3860m) ",
-        details:
-          "The Everest Base Camp Trek with Heli Out Route will take you up a hill where you can see Thamserku, Kusum Kangrib, and Kantega in the distance. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The trek up to Tengboche is difficult in the beginning, but it becomes easier as you get closer to the forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings.",
-      },
-      {
-        day: 6,
-        description: "Trek from Deboche (3820m) to Dingboche (4410m)",
-        details:
-          "The mountain scenery in the morning is magnificent, and you may take photos of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, as well as other spectacular peaks. In Imja Khola, where you will descend to the riverbed, Heli Out Everest Base Camp Trek will continue through the rhododendron and birch woods. You will stop at a Buddhist nunnery in Deboche before traveling through a few chortens to get to Pangboche, where you can enjoy a magnificent view of the marvelous mountains. Walking from upper Pangboche to the barren, alpine environment of Shomare reveals the vegetation's drastic reduction. You can see Mt. Pumori's apical ridge from Orsho before arriving at the chilly and windy town of Dingboche, where you will spend the night.",
-      },
-      {
-        day: 7,
-        description: "Acclimatization Day in Dingboche (4410 m)",
-        details:
-          "You are now at Dingboche for your second acclimatization day, in accordance with your Everest Base Camp Heli Fly Out Trek Itinerary. On a clear day, you might be able to see Makalu, the fifth-highest peak in the world from Dingboche. Explore this lovely valley that goes up to Island Peak for some breathtaking vistas of the Lhotse-Nuptse range and the North face of Ama Dablam. The midday break after a short stroll is a great opportunity to unwind. A different choice would be to trek up to Chhukung, from where you might see Island Peak, Ama Dablam, Makalu, Tawoche Peak, and other peaks in a broad panorama.",
-      },
-      {
-        day: 8,
-        description: "Trek from Dingboche (4410m) to Lhobuche (4910m)",
-        details:
-          "Today's Everest Base Camp Heli Out Trek Route will be a modest ascent to Thugla Pass before a small ascent to Lobuche. On the hill above the Thugla pass, there is a memorial stupa and a prayer flag. The stupas were constructed in honor of climbers who died while attempting Mount Everest. The Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru mountains will be visible to you. You can see Kala Patthar, the Khumbu glacier, the Everest base camp, and moraines created by glaciers from the glacier ridge at Lobuche.",
-      },
-      {
-        day: 9,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) to Everest Base Camp (5364m), back to Gorakshep",
-        details:
-          "On the Everest Base Camp Trek Heli Out to Lukla Itinerary, this is the most significant day. A 360-degree panoramic vista of snow-capped mountains is available at Thangma Riju. Although Mount Everest cannot be seen from here, Mount Nuptse, Mount Nuptse, and Mount Pumori can all be seen clearly. After ascending the difficult terrain of Changri glacier, one can view the grey-green area of Kalapathar below Mount Pumori. You will travel from Lobuche to Gorakshep, drop off your belongings in a teahouse, and then move on to Everest Base Camp. You will climb down to Gorakshep for overnight lodging after enjoying yourself at Everest Base Camp.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then Fly back to Lukla (2840m) by Helicopter",
-        details:
-          "In order for hikers to see Mount Everest as night transforms into a beautiful morning with the light of the day, the Everest Base Camp Trek Heli Out Trip begins significantly earlier in the morning. From the perspectives of Peaks Lingtren, Khumbutse, and Changtse. It is advised to sometimes stop and collect your breath throughout the two-hour ascent to Kala Patthar while taking pictures. Gorakshep offers a comprehensive perspective of the Himalayas. After eating breakfast, you will go to Gorakshep where our helicopter will pick you up and fly you to Lukla. The most thrilling and unforgettable experience of the whole Everest Base Camp Trek with Heli Out adventure would be the helicopter journey to Lukla.",
-      },
-      {
-        day: 11,
-        description: "Flight back from Lukla (2840m) to Kathmandu (1400m)",
-        details:
-          "Today is the day that travelers may once more experience the mountain flight from Lukla to Kathmandu. Once in Kathmandu, take advantage of the opportunity to shop and explore the city. The evening is a celebration of the Heli Out Everest Base Camp Trek's accomplishment.",
-      },
-      {
-        day: 12,
-        description: "Final Departure or Onward for Next Program ",
-        details:
-          "On your final day in Nepal, you will get one more opportunity to indulge in shopping and enjoy a leisurely sightseeing tour of the historic Kathmandu Valley before departing for Tribhuwan International Airport at the appointed schedule.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparing for an Everest Base Camp Heli Out Trek requires a combination of physical fitness and mental preparation. Physical fitness can be achieved through a combination of cardiovascular and strength training exercises, such as hiking, running, cycling, and weightlifting. It is also important to gradually increase the intensity and duration of your exercise routine as the trek approaches. Mentally, it is important to familiarize yourself with the itinerary and potential challenges of the trek, such as altitude sickness. It is also helpful to set specific goals for the trek and to maintain a positive attitude. It is also important to ensure that you have all the necessary gear and equipment, such as good-quality hiking boots, warm clothing, a sleeping bag, and a backpack. It is also important to consider getting travel and health insurance for the trek. Lastly, it is recommended that you acclimatize yourself to the altitude by doing some smaller treks or hiking in high-altitude areas before attempting the Everest Base Camp Trek Heli Out to Lukla.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////Pikey Peak Trek - 10 Days//////////////////////////////////////////////////////////
-  pikey_peak_trek_10_days: {
-    about: [],
-    highlights: [
-      "Sightseeing at the UNESCO World Heritage Sites in Kathmandu City.",
-      "A real cultural experience is provided by staying in tidy, pleasant houses and lodges during Everest Base Camp Trek with Heli Out",
-      "Enjoy a hearty breakfast prepared by locals from the highlands while taking in the peace and breathtaking aerial views of the Himalayan Alps.",
-      "Enjoy the unspoiled, rustic, and beautiful Everest Region while learning about the Sherpa culture, tradition, cuisine, and inspirational way of life.",
-      "Wander through Sagarmatha National Park's thick forests and across its renowned suspension bridges, which are covered with vibrant prayer flags.",
-      "Get the necessary rest and acclimatization, and have enough safety support.",
-      "On your acclimation day in Namche Bazaar, the Sherpa capital, and the entrance to Everest, get a close-up view of Mount Everest from the Everest View Hotel.",
-      "Attend Everest Base Camp Heli Trek up to Kala Patthar for majestic views of Everest and other surrounding peaks.",
-      "Enjoy the view of Mt. Everest, the tallest mountain peak in the world, and other peaks between 7,000 and 8,000 meters in height.",
-      "Get a glance at other famous mountains in the area besides Everest, such as Ama Dablam, Lhotse, Cho Oyu, and Pumori.",
-      " From Gorakshep, take a helicopter directly back to Lukla while admiring the aerial view of the area.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival in Kathmandu (1400m)",
-        details:
-          "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
-      },
-      {
-        day: 2,
-        description: "Drive from Kathmandu (1400m) to Dhap Bazaar (2850m)",
-        details:
-          "We will set up a vehicle to transport you to the domestic airport in Kathmandu according to the timing of your domestic flight from Kathmandu to Lukla. You will have amazing views of the dawn sun rising over the snow-covered mountains on the trip to Lukla. After a 40-minute picturesque flight, you will arrive at Lukla's Tenzing-Hillary Airport, the entrance to the Himalayas. After greeting our crew members, the Everest Base Camp Trek Heli Out to Lukla starts right there at the airport. From that, it's a short walk to Phakding. You will spend the night in Phakding because today is the first day of trekking.",
-      },
-      {
-        day: 3,
-        description: "Trek from Dhap Bazaar (2850m) to Jhapre (2820m)",
-
-        details:
-          "The Everest Base Camp Trek Heli Out Route departs early in the morning and travels by lovely pine trees, the Dudh Koshi River, and breathtaking views of Mount Thamserku. You will reach a checkpoint, the entry to Sagarmatha National Park, after crossing a few communities. You will continue walking across the junction of the Dudh Koshi and Bhote Koshi Rivers before climbing steeply to Namche Bazaar, where you will get your first glimpse of the magnificent Mount Everest and the ranges of Mount Lhotse and Mount Nuptse.",
-      },
-      {
-        day: 4,
-        description:
-          "Trek from Jhapre (2820m) to Pikey Peak Base Camp (3640m) ",
-        details:
-          "The largest town in the Khumbu area, Namche Bazaar, is well-equipped with ATMs, Internet cafés, restaurants, bakeries, and other businesses. The ideal destination for acclimatization and a day of relaxation is Namche Bazaar. As a result, today is designated as an acclimatization day in your Everest Base Camp Trek Heli Out Itinerary. Despite the fact that it's a rest day for acclimatization, you will go on a short trek to a nearby viewpoint (Thame or Khunde) and enjoy a tour of the area, including the Tourist Visitor Center, where you will learn about Everest climbers, Sherpa people, their culture, and the local flora and wildlife.",
-      },
-      {
-        day: 5,
-        description:
-          "Trek from Pikey Peak Base Camp (3640m) to Summit (4065m) then descend to Jasmane Bhanjyang (3549m) ",
-        details:
-          "The Everest Base Camp Trek with Heli Out Route will take you up a hill where you can see Thamserku, Kusum Kangrib, and Kantega in the distance. The vistas of Ama Dablam, Lhotse, Everest, Tawetse, and Nuptse suddenly become visible after traversing a branch ridge. After that, you will begin to descend until you reach a junction on the road where one direction leads to the Gokyo valley. You will soon arrive at the Dudh Koshi River as you proceed past the Trashinga settlement. The trek up to Tengboche is difficult in the beginning, but it becomes easier as you get closer to the forest. The ascent up the slope ends with a stone gate that serves as Tengboche's entrance, with beautiful views of the surroundings.",
-      },
-      {
-        day: 6,
-        description: "Trek from Jasmane Bhanjyang (3549m) to Junbesi (2700m) ",
-        details:
-          "The mountain scenery in the morning is magnificent, and you may take photos of the Kangtega range, Thamserku, Amadablam, Taboche, Kwangde, Tengboche, Lhotse, and Nuptse, as well as other spectacular peaks. In Imja Khola, where you will descend to the riverbed, Heli Out Everest Base Camp Trek will continue through the rhododendron and birch woods. You will stop at a Buddhist nunnery in Deboche before traveling through a few chortens to get to Pangboche, where you can enjoy a magnificent view of the marvelous mountains. Walking from upper Pangboche to the barren, alpine environment of Shomare reveals the vegetation's drastic reduction. You can see Mt. Pumori's apical ridge from Orsho before arriving at the chilly and windy town of Dingboche, where you will spend the night.",
-      },
-      {
-        day: 7,
-        description:
-          "Rest Day to Visit Thuptenchholing Monastery or Go To another Everest View Point",
-        details:
-          "You are now at Dingboche for your second acclimatization day, in accordance with your Everest Base Camp Heli Fly Out Trek Itinerary. On a clear day, you might be able to see Makalu, the fifth-highest peak in the world from Dingboche. Explore this lovely valley that goes up to Island Peak for some breathtaking vistas of the Lhotse-Nuptse range and the North face of Ama Dablam. The midday break after a short stroll is a great opportunity to unwind. A different choice would be to trek up to Chhukung, from where you might see Island Peak, Ama Dablam, Makalu, Tawoche Peak, and other peaks in a broad panorama.",
-      },
-      {
-        day: 8,
-        description: "Trek from Junbesi (2700m) to Phaplu (2469m) ",
-        details:
-          "Today's Everest Base Camp Heli Out Trek Route will be a modest ascent to Thugla Pass before a small ascent to Lobuche. On the hill above the Thugla pass, there is a memorial stupa and a prayer flag. The stupas were constructed in honor of climbers who died while attempting Mount Everest. The Tawache, Cholache, Ama Dablam, Thamserku, Pumari, Nuptse, and Kusum Kankaru mountains will be visible to you. You can see Kala Patthar, the Khumbu glacier, the Everest base camp, and moraines created by glaciers from the glacier ridge at Lobuche.",
-      },
-      {
-        day: 9,
-        description: "Drive back to Kathmandu from Phaplu (2469m) ",
-        details:
-          "On the Everest Base Camp Trek Heli Out to Lukla Itinerary, this is the most significant day. A 360-degree panoramic vista of snow-capped mountains is available at Thangma Riju. Although Mount Everest cannot be seen from here, Mount Nuptse, Mount Nuptse, and Mount Pumori can all be seen clearly. After ascending the difficult terrain of Changri glacier, one can view the grey-green area of Kalapathar below Mount Pumori. You will travel from Lobuche to Gorakshep, drop off your belongings in a teahouse, and then move on to Everest Base Camp. You will climb down to Gorakshep for overnight lodging after enjoying yourself at Everest Base Camp.",
-      },
-      {
-        day: 10,
-        description: "Final Departure or onward for next distination",
-        details:
-          "In order for hikers to see Mount Everest as night transforms into a beautiful morning with the light of the day, the Everest Base Camp Trek Heli Out Trip begins significantly earlier in the morning. From the perspectives of Peaks Lingtren, Khumbutse, and Changtse. It is advised to sometimes stop and collect your breath throughout the two-hour ascent to Kala Patthar while taking pictures. Gorakshep offers a comprehensive perspective of the Himalayas. After eating breakfast, you will go to Gorakshep where our helicopter will pick you up and fly you to Lukla. The most thrilling and unforgettable experience of the whole Everest Base Camp Trek with Heli Out adventure would be the helicopter journey to Lukla.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "Preparing for an Everest Base Camp Heli Out Trek requires a combination of physical fitness and mental preparation. Physical fitness can be achieved through a combination of cardiovascular and strength training exercises, such as hiking, running, cycling, and weightlifting. It is also important to gradually increase the intensity and duration of your exercise routine as the trek approaches. Mentally, it is important to familiarize yourself with the itinerary and potential challenges of the trek, such as altitude sickness. It is also helpful to set specific goals for the trek and to maintain a positive attitude. It is also important to ensure that you have all the necessary gear and equipment, such as good-quality hiking boots, warm clothing, a sleeping bag, and a backpack. It is also important to consider getting travel and health insurance for the trek. Lastly, it is recommended that you acclimatize yourself to the altitude by doing some smaller treks or hiking in high-altitude areas before attempting the Everest Base Camp Trek Heli Out to Lukla.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  ////////////////////////////////////////////////////Everest Base Camp Trek by Road - 16 Days/////////////////////////////////////////
-  ebc_trek_by_road_16_days: {
-    about: [],
-    highlights: [
-      "Drive a private or shared jeep from Kathmandu to Thamdanda and trace the same route back to Kathmandu.",
-      "Everest Base Camp Trek by Road without flight is the alternative way to Everest base camp",
-      "Discover beautiful communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
-      " The path through Thamdanda covers the classic trail of the Jiri Everest Base Camp trek route",
-      "Explore the genuine communities, farms, orchards, and low mountain passes of the Solu region.",
-      "Seemingly inspirational lifestyles may be found in the Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
-      "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
-      "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.Drive a private or shared jeep from Kathmandu to Thamdanda and trace the same route back to Kathmandu.",
-      " Everest Base Camp Trek by Road without flight is the alternative way to Everest base camp",
-      "Discover beautiful communities that exhibit Rai and Sherpa culture, such as Salleri, Phaplu, Ringmo, Takshindo, Kharikhola, and Paiya.",
-      "The path through Thamdanda covers the classic trail of the Jiri Everest Base Camp trek route",
-      "Explore the genuine communities, farms, orchards, and low mountain passes of the Solu region.",
-      "Seemingly inspirational lifestyles may be found in the Khumbu region like Lukla, Phakding, Monjo, Namche, Khunde, Khumjung, Thame, Tengboche, and Phortse.",
-      "Amazing views of the Khumbu Icefall and glaciers as well as the 8000-meter peaks of Mt. Everest, Lhotse, Nuptse, and Cho Oyu.",
-      "Explore breathtaking mountain valleys, slopes, springs, waterfalls, lush woods bursting with vibrant rhododendron, and more.",
-    ],
-    facilities: [
-      "International Airport Pickup And Drop off service",
-      "Create Himalayan Adventure Duffle Bag and T-Shirt",
-      "Map of Everest Base Came Trek",
-      "An Oximeter to Check Blood Oxygen Saturation Levels.",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage stored at Create Himalayan Adventure Store During The Trek",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Arrival to Kathmandu (1400m)",
-        details:
-          "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of the Everest Base Camp Trek by Road Itinerary.",
-      },
-      {
-        day: 2,
-        description:
-          "Drive from Kathmandu (1400m) to Thamdanda (2326m) by Jeep",
-        details:
-          "The guide and porter will arrive at your accommodation early in the morning, around 5 AM, in accordance with the Everest Base Camp Trek without Lukla Flight Itinerary, and they will then drive to the Jeep station as instructed. After traveling for five hours along the BP Highway, you will arrive for lunch in the picturesque town of Ghurmi. The ride from Ghurmi is considerably more enjoyable by the road's route via rivers, agricultural terraces, lush fields, and villages. From Ghurmi, it takes around four hours to reach Phaplu through Salleri, and it takes another three to four hours to travel off-road to reach Thamdanda, which is the destination for today. Overnight lodging will be provided in a tea house at Thamdanda.",
-      },
-      {
-        day: 3,
-        description: "Trek from Thamdanda (2326m) to Phakding (2640m) ",
-        details:
-          "Today's Everest Base Camp Trekking by Road without a flight to Lukla begins at Thamdanda and takes two hours of ascent to reach Paiya. The route then descends to the Surke via a rhododendron grove. Once past the remnants of a century-old Buddhist Chorten, the trail then follows the Dudhkoshi River to the Chaurikharka below Lukla. You will reach Chheplung after a short distance on foot and join the main Everest Base Camp path there. You will now notice a large group of hikers arriving from the Lukla airplane. You will reach Phakding, the home of the Sherpa, after another two hours of leisurely walking through villages, woods, and some long-ass bridges. Overnight lodging will be provided in a tea house at Phakding.",
-      },
-      {
-        day: 4,
-        description: "Trek from Phakding (2640m) to Namche Bazaar (3440m) ",
-        details:
-          "You will begin your Everest Trek by the road along the river bank from Phakding after breakfast. After passing through the little town of Tok Tok, you will enter the Sagarmatha National Park at Manjo in three hours, where your paperwork and trekking permissions will be examined. Then, after crossing the suspension bridge, you will instantly descend to the Dudhkoshi River and enter Jorshale. After some time, you will cross the same river again over a suspension bridge, then go down the riverbank to the fifth suspension bridge, which bears the name Tenzing Hillary Bridge in honor of the legendary explorer. To catch the first glimpse of the top of the world from the right edge, hike through the jungle for two to three hours uphill to Namche Bazaar. Spend the remaining portion of the day exploring the beautiful Sherpa homeland while watching the National Park View Point sunset at the top of the town. In the naturally endowed Namche bazaar, spend the night at the tea house to see the stunning mountains.",
-      },
-      {
-        day: 5,
-        description: "Acclimatization Day in Namche Bazaar (3440m) ",
-        details:
-          "Namche is a great place to acclimate during the 16 days Everest base camp trek without Lukla flight. With several government offices, Internet cafés, ATMs, restaurants, stores, and other amenities, it serves as the main hub for the Khumbu Region. Health professionals advise that during rest days, you should move about and be active rather than sitting still. Therefore, for the day, you can ascend to Thamo or Khunde. You can ascend to Khumjung village from Syangbuche's Everest View Hotel. Our guides will direct you to the Sagarmatha National Park Tourist Visitor Center, where you may discover more about the Sherpa Culture and the First Everest Climbers. You will also get knowledge of the fauna and flora of the Everest Region.",
-      },
-      {
-        day: 6,
-        description: "Trek from Namche Bazaar (3440m) to Tengboche (3860m)",
-        details:
-          "This is the sixth day of the Everest Base Camp Trek started via road. Your route to Tengboche will take you by breathtaking mountain vistas of Everest, Lhotse, Ama Dablam, and Thamserku. After crossing the Dudh Koshi in three to four hours of walking, the main path descends through the alpine forest to the Phungi Tenga. This trail crosses two trail intersections, one coming from Gokyo Lake and the other from Khumjung. The Himalaya Thar and Himalaya Monals are best viewed from here as the route ascends through the forest. You will eventually arrive at Tengboche Monastery, a hill station with an amazing view of Ama Dablam, Mount Everest, Mount Lhotse, etc. You will spend the night in a peaceful monastery community where you can admire the mountains from your window.",
-      },
-      {
-        day: 7,
-        description: "Trek from Tengboche (3860m) to Dingboche (4410m)",
-        details:
-          "EBC Trek without Lukla Flight Route will descend through the jungle to Deboche from Tengboche, where there is a good chance you may spot endangered species including Musk Deer and Daphne. Following that, you will pass the little community at Milingo and cross the double-decorating bridge over the Imja Khola. As a massive route ascends to the ancient Buddhist Chorten and enters the lovely gate to enter Pangboche town, the view of the Ama Dablam can be observed from a much closer distance. To reach the picturesque community of Somare, it will take a continuous 3 hours of walking along the tree line to small shrubs planted. From Somare, it takes two to three hours to reach Dingboche. The journey to Dingboche is completed while taking in the beautiful scenery. Due to the significant risk of Acute Mountain Sickness at such a high altitude, it is preferable to check your oxygen saturation with the Oximeter we gave our guide before proceeding.",
-      },
-      {
-        day: 8,
-        description: "Acclimatization Day at Dingboche (4410m) ",
-        details:
-          "This second rest day is for acclimatization, as stated in the Everest Base Camp Trek by jeep Itinerary. After breakfast, you can take a trek up the hill behind the village on the northern side. Observe this picturesque valley's path to Island Peak for breathtaking views of Ama Dablam, Lhotse, and Nuptse. The quick ascent to Island Peak makes for a leisurely afternoon excursion. Going up to Chhukung Ri is another alternative, from which you can see peaks like Island Peak, Ama Dablam, Makalu, Tawoche Peak, and others. For a beautiful view of the Chhukung valley, which has Kangtega, Ama Dablam, Taboche, Lobuche east, and several more magnificent peaks, you may also hike to Nagarjuna.",
-      },
-      {
-        day: 9,
-        description: "Trek from Dingboche (4410m) to Lobuche (4910m)",
-        details:
-          "You will need around five to six hours to hike from Dingboche to Lobuche today, which is above the town of Pheriche. Everest Base Camp Trek without a Flight Route will pass through a meadow area with a few abandoned buildings after ascending the slope above the Dingboche. Reaching the lovely community of Thokla, which is located right at the edge of the Khumbu Glacier, requires a three-hour delightful trek with breathtaking mountain views. Then, for the next 45 minutes, the path climbs steeply to the Thokla Pass, where you can view several monuments honoring climbers who perished during the trip. It will take around 20 minutes to walk to the Italian pyramid hotel. After another two hours of walking around the Khumbu Glacier, you will reach Lobuche, where you may spend the night.",
-      },
-      {
-        day: 10,
-        description:
-          "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m)",
-        details:
-          "The most significant day of your Everest Base Camp Trek by Road is today since you will arrive at Everest Base Camp. The journey starts in the morning from Lobuche and takes three hours across the Khumbu Glacier to reach Gorakshep. After checking in at Gorakshep's guest house and leaving all of your belongings there, you will walk to Everest Base Camp. It will take around 2 to 3 hours to reach Base Camp from Gorakshep. While visiting EBC, it is suggested that you pack enough water, use a flashlight, wear warm clothing, and carry additional equipment. There are a lot of expedition groups in the Everest Base Camp during the spring hiking season. While exploring the Khumbu Glacier and taking in the breathtaking mountain scenery around you, it is recommended to observe the Khumbu Icefall. From the Everest Base Camp, you cannot see Mount Everest itself but watching nearby mountain peaks will stun you. You need to return back to Gorakshep for overnight lodging.",
-      },
-      {
-        day: 11,
-        description:
-          "Trek from Gorakshep (5140m) to Kalapatthar (5555m) then back to Pheriche (4240m) ",
-        details:
-          "Today, early in the morning, your EBC Trek without Dangerous Flight will head toward Kala Patthar for a spectacular dawn vista over mountain peaks including Mt. Everest (8,848.86m), Mt. Pumari (7,145m), Lingtren (6,695m), Khumbutse (6,623m), Changtse (7,550m), and Nuptse (7,879m). The Kala Patthar is quite challenging to ascend. To be rewarded with a once-in-a-lifetime experience and incredible natural beauty, it will take two hours of arduous ascent. The best vantage point to observe Mount Everest at its closest range is from Kala Patthar. After spending some time on the summit of the Kala Patthar, stroll to Gorakshep for breakfast before continuing your descent to the Pheriche, which will take 4 to 5 hours, and be at your accommodation for the night.",
-      },
-      {
-        day: 12,
-        description: "Trek from Pheriche (4240m) to Namche Bazaar (3440m)",
-        details:
-          "After breakfast, your road-based Everest Base Camp trekking will depart from Pheriche and descend down to Namche Bazaar. Even though it will take you 7 to 8 hours to complete the journey, you will enjoy the time spent retracing your steps and recalling the sights you have seen. Along the way, you will come across a number of streams, dense forests, exotic animals, stunning scenery, and so on. After a four-hour trek, you will likely eat lunch at Phungi Thanga before continuing on for another three hours to Namche Bazaar, where you will spend the night at a teahouse.",
-      },
-      {
-        day: 13,
-        description: "Trek from Namche Bazaar (3440m) to Chaurikharka (2694m)",
-        details:
-          "It will take around 6 to 7 hours to get from Namche Bazaar to Chaurikharka, your final destination for the day. It will be a long trek, as the majority of the route descends beside the Dudhkoshi River through a tropical forest and Sherpa hamlet. On your return trip to Chaurikharka, you will see the same countryside and mountain views once more. From the opposing directions, your perspective will be different. To ultimately get to Chaurikharka, you must once again pass through picturesque towns like Larja Dobjan, Monjo, Bengkar, Ghat, and Chheplung. After entering the teahouse in Chaurikharka, you may travel to Lukla, which is 20 minutes away, if you are interested in visiting the world's most perilous airport.",
-      },
-      {
-        day: 14,
-        description: "Trek from Chaurikharka (2694m) to Thamdanda (2326m)",
-        details:
-          "According to the Everest Base Camp Trek by Road Schedule, today is your last day of hiking. You will trek to Surke, which will take around 45 to an hour, after eating breakfast in Chaurikharka. From there, you will rise through the forest to the Paiya (Chutok). The trail then descends to Thamdanda for the following hour before continuing fairly straight to the Khari La. After entering the tea house in Thamdanda, our Guide will finalize the jeep journey to Kathmandu for the next day. You will have supper with crew members as you celebrate your accomplishment on this final day of hiking.",
-      },
-      {
-        day: 15,
-        description: "Drive from Thamdanda (2326m) to Kathmandu (1400m)",
-        details:
-          "You will rise early today and take a four-wheel-drive Jeep to Kathmandu. The journey from Thamdanda to Salleri via the Kahrikhola, Jubing, and Andheri is difficult and takes 4 to 5 hours. However, you will switch to a jeep to return to Kathmandu, which will take 8 to 9 hours. While traveling from Salleri back to Kathmandu, you may take in the scenery. Arrive in Kathmandu in the evening, then spend the night there before continuing on to your next location.",
-      },
-      {
-        day: 16,
-        description: "Final Departure ",
-        details:
-          "Today, you will travel back to your home from Kathmandu and continue your adventure to many destinations across the world. We will drop you off at the airport three hours before your flight time. We hope you had a great time with us and made some wonderful memories. Thank you very much for joining us, and have a safe journey to your destination.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "You must be both physically and mentally strong if you are planning to trek to Everest base camp by road. If you assume a person's mental state won't matter when trekking through very steep ascents in the Khumbu region, you are seriously mistaken. Without a strong mental attitude, trekkers may give up on the difficult pathways going to the base camp before they have even reached the halfway point of the journey. Hiking up through perilous mountainous terrains undoubtedly places a great deal of physical strain on one's body. It will be best to be informed that you will stroll up and down on rough terrain for 12 days while carrying your bag pack, weighing at least 6 kg, on average for 5 to 6 hours every day. You will need to begin improving your strength and endurance a few months early. Plan your workouts for five to six days a week, and at least once a week, climb a hill carrying a bag packed with 6 to 12 kg. Your legs and muscles get better the more hill training you accomplish. Hill Training is crucial because your lungs can't provide your muscles with enough oxygen at higher altitudes due to a lack of oxygen. Therefore, begin cardiovascular training, such as jogging and swimming, along with other workouts, if you want to successfully reach the Everest Base Camp by jeep and avoid upsetting fellow trekkers. A common excuse given by people for not doing the Everest Base Camp trek by road is that they are too old. There is no set age restriction for those who are qualified to trek to Everest Base Camp (EBC) via road. There shouldn't be any difficulties for them on the journey if they are physically well enough to walk for hours. For your kind information, it has been reported that a 76-year-old and a 13-year-old have already succeeded in reaching the peak of Mt. Everest.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-
-  // Drop Down Tourns In Nepal
-  //                                        Day Hikes And Tours From Pokhara
-
-  //                                        Pokhara Day Tour with Sunrise View from Sarangkot
-  pokhara_day_tour_sunrise_sarangkot: {
-    about: [],
-    highlights: [
-      "Full day tour of Pokhara city after a mesmerizing Sunrise view from Sarangkot Tower.",
-      "Boating in the Phewa Lake and visiting Tal Barahi, a temple in the middle of the lake.",
-      "Visiting the International Mountain Museum.",
-      "Peaceful stay at the World Peace Pagoda.",
-      "Visiting different caves like the Mahendra Cave and the Gupteswor Cave.",
-      "Watch the Davis Falls and Seti Gorge.",
-      "Explore the Bindyabasini temple.",
-      "Learn new things about the Nepali Himalayas and the histories associated with them from the International Mountain Museum.",
-    ],
-    facilities: [
-      "Pickup facility from the Hotel.",
-      "Full Day Exploration of the Pokhara City.",
-      "Early Morning ride to the Sarangkot view tower for sunrise view.",
-      "Tour guide for the full day Pokhara tour.",
-      "Drop off to the hotel after the tour",
-      "Adequate time to learn and understand all the places visited.",
-      "Discounts and Extra services for regular customers.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Pokhara Day Tour with Sunrise View from Sarangkot",
-        details:
-          "Sarangkot Sunrise Tour, Return to the Hotel and stop by Bindyabasini Temple,Breakfast at the Hotel, Towards the Peace Pagoda of Pokhara, Next Stop at Pumdikot Dada, Heading towards Davi's Falls, Into the Gupteswor Cave, Drop off at the hotel",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [],
-      points: [],
-    },
-    path: [""],
-  },
-  //                                                Five Himalayan Viewpoint Tour from Pokhara
-  five_himalayan_viewpoint_tour_pokhara: {
-    about: [],
-    highlights: [
-      "A short but detailed tour of all 5 Himalayan viewpoints from Pokhara within a day.",
-      "Accompanied by a professional tour guide to help you understand everything during the tour.",
-      "A great chance to witness the beauty of the Himalayas that surround the Pokhara Valley.",
-      "Amazing way to take yourself closer to nature and its beauty.",
-      "An opportunity to interact and meet & greet with the locals living in different parts of Pokhara Valley.",
-      "Best tour package for mountain lovers who have a shortage of time but want to visit the viewpoints.",
-      "Full-day private vehicle tour up and down the hills, across the forests, and many waterfalls.",
-      "Best way to understand the beauty of Pokhara in the daylight.",
-    ],
-    facilities: [
-      "Pickup facility from the hotel.",
-      "A full-day tour in a private vehicle before dropping you off at the hotel.",
-      "A private guide to assist you throughout the tour of Five Himalayan viewpoints.",
-      "Discounts and Extra services for old customers.   ",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description: "Five Himalayan Viewpoints Tour from Pokhara",
-        details:
-          "Starting with an early morning ride to Sarangkot View Point, Next Stop: Dhampus Village Viewpoint, Next Stop: Kahu Dada View Point,  World Peace Pagoda aka Shanti Stupa (Anadu Dada),Pumdikot Dada: The Last Destination of the Five Himalayas Viewpoints Tour from Pokhara",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [],
-      points: [],
-    },
-    path: [""],
-  },
-  //                                            Nagarkot to Dhulikhel Day Hiking Trip – 1 Day
-  nagarkot_dhulikhel_day_hike: {
-    about: [],
-    highlights: [
-      "Breathtaking views of the surrounding Himalayas throughout the scenic trip from Kathmandu to Nagarkot.",
-      "Passing through the Hindu and Buddhist holy site of Nala Village.",
-      "Visit Dhulikhel to learn more about Newari customs and culture.",
-      "Enjoy sweeping views of eight distinct mountain ranges, including Mt. Everest, the highest mountain in the world.",
-      " It good trekking through the nearby rice fields, a lovely community with a mountain backdrop.",
-      "May see the native way of life in the villages, which is said to be a fantastic opportunity to get to know the residents.",
-      "Excellent terraced scenery that is easily reachable from Kathmandu.",
-      "Possibility of viewing the Langtang mountain range from Nagarkot, Dhulikhel, or even the path.",
-      "There is no need to sacrifice your comfort, unlike many other treks, at Nagarkot or Dhulikhel because both towns provide respectable lodging.",
-    ],
-    facilities: [
-      " Hotel Pickup And Drop off service",
-      "Free Nagarkot to Dhulikhel Hiking Map",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Nagarkot to Dhulikhel Hiking Detailed Itinerary 2024 and 2025",
-        details:
-          "Drive from Kathmandu to Nagarkot (1.5 hours, 27 km),Hike from Nagarkot to Dhulikhel (5 to 6 hours, 16 km),Drive from Dhulikhel Back to Kathmandu (1 hour)  ",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [],
-      points: [],
-    },
-    path: [""],
-  },
-  //                                            Nagarkot Sunrise View and Nagarkot to Changunarayan Hike
-  nagarkot_sunrise_view_changunarayan_hike: {
-    about: [],
-    highlights: [
-      "The Nagarkot Sunrise Viewpoint is located on the edge of the Kathmandu Valley, which is 32 kilometers from the Valley Center.",
-      "You will need to leave Kathmandu at the crack of dawn to make the 1.5-hour trip to Nagarkot.",
-      "Nagarkot, at a height of 2175 meters, offers stunning dawn views in addition to hypnotic White Mountain views.",
-      "Three hours of hiking through the countryside from Nagarkot will get you to Changunarayan Temple, the oldest temple in the valley and a UNESCO World Heritage Site.",
-      "One of the Kathmandu Valley's most popular destinations.",
-      " The quickest and most affordable method of viewing Mount Everest (8848m) and 8 other Nepalese Himalayan peaks from Nagarkot.",
-      "After taking in the expansive vistas of the Himalayas, go on a relaxing guided trek.",
-      "You will get the chance to witness an ethnic way of life surrounded by a tranquil, beautiful forest and a calming wind.",
-    ],
-    facilities: [
-      "Medical Kits",
-      "Arrangement of the best hotels at reasonable price",
-      "Pick up and drop off services from/to your hotel",
-      "Discounts and Extra services for old customers",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Drive to Nagarkot to See the Down, then go Hiking to Chagunarayan before Returning to Kathmandu",
-        details:
-          "Our tour guide and driver will take you up from your hotel this morning at approximately 4:30 AM. The Nagarkot vantage point (2174m) is 32 kilometers from Kathmandu and may be reached by driving. You will arrive at Nagarkot after a 1.5-hour journey, where you can enjoy the greatest dawn views of the Himalayan mountain range, which includes Mount Everest, Annapurna, Ganesh Himal, Langtang, and many more, in a stunning setting. You will eat breakfast at a local restaurant after taking in the breathtaking vista and then begin the descent. Your route to Chagunarayan Temple will take you via picturesque typical local villages, paddy fields, and a breathtaking vista of the Kathmandu Valley. Reaching Chagunarayan Temple from Nagarkot will need a 3–4 hour hike. You will have lunch after touring the oldest Hindu temple in Nepal, which is also a UNESCO World Heritage Site, and then you will drive back to Kathmandu after seeing a little of the surrounding countryside.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "When booking the Nagarkot to Changu Narayan Day Hike, a confirmation email will be sent. The tour schedule is subject to alteration without notice in case of terrible weather or heavy traffic. During the winter, it is advised to pack warm clothing. Infants must sit on laps and wheelchair access is not available on this tour. Travelers who have back issues, heart issues, or any other major medical concerns, as well as pregnant women, should not do this journey. Only your group will take part in this tour because it is private. Don't forget to hydrate properly when trekking in order to prevent dehydration. Travelers are also recommended to be at a moderate physical fitness level.",
-      ],
-      points: [],
-    },
-    path: [""],
-  },
-  //                                                        Namobuddha to Panauti Day Hiking - 1 Day
-  namobuddha_panauti_day_hike: {
-    about: [],
-    highlights: [
-      "Visit Namobuddha monasteries, one of the significant Buddhist monasteries in Nepal",
-      "Enjoy a pleasant hike through the beautiful trail of Namo Buddha",
-      " Hike to the traditional town of Panauti and explore the Hindu and Buddhist monuments",
-      "Witness the architectural houses, traditions, and cultures of the locals in the ancient Newari town of Panauti",
-      "Experience local art and culture at the Newari heritage town of Panauti",
-      "Hike through the beautiful forests enjoying the scenic view of the landscapes",
-      "See the beautifully preserved culture at both sites",
-      "One of the best ways to observe the Traditional town near Kathmandu",
-      "The traditional lifestyle of the Tamang and Newar people of Nepal.",
-      "Historical Indreshwor temple, old houses, and the museum.",
-      "Spend a peaceful time witnessing monks and devotees indulged in praying and chanting.",
-      "Get a chance to see the splendid Himalayan massifs of northern Nepal",
-      "Interact with local Newars to indulge in their traditional culture.",
-    ],
-    facilities: [
-      "Hotel Pickup And Drop off service",
-      "Free Namo Buddha to Panauti Hiking Map",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Namobuddha to Panauti Day Hiking Detailed Itinearary 2024 and 2025",
-        details:
-          "8:00 am: You will be picked up from your accommodation by our driver and guide, and you will travel 1.5 hours from Kathmandu to Namo Buddha to visit the Thrangu Tashi Yangtse Monastery. You will tour the monastery, which offers young monks a contemporary education and has a breathtaking view of Langtang, Dorjelakpa, and Garuishankar. 11:00 am: To get to Panauti, you must trek down from Namo Buddha; the journey will take you four hours. You will learn about Newari culture along the route, mostly from the people who work in the fields. Once at Panauti, where there are several temples and museums, you may visit the local residences and small towns. You will take a one-and-a-half-hour trip back to Kathmandu after visiting Panauti. 3:00 pm: Finally, you will return to Kathmandu by car from Panauti to complete your Namobuddha Panauti Day Hiking Trip.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "A confirmation email for your reservation for the Namobuddha Panauti Hiking Trip will be delivered to you. In the event of bad weather or excessive traffic, the tour itinerary is subject to change without prior notice. Winter travelers are encouraged to bring warm clothes. On this trip, wheelchair access is not accessible, and infants must sit on laps. Travelers who have back problems, heart problems, or any other serious medical conditions shouldn't make this trip, nor should pregnant women. This tour is private, so only your group will participate. When hiking, remember to adequately hydrate to avoid being dehydrated. Additionally, it is advised that travelers have a modest degree of physical fitness.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  //                                                  Nagarjung Jamcho Day Hike - 1 Day
-  nagarjung_jamcho_day_hike: {
-    about: [],
-    highlights: [
-      "Buddhists worship Guru Rinpoche and Acharya Nagarjuna at this location, which is attended by hundreds of followers every year. ",
-      "For both hikers and environment enthusiasts, Nagarjuna National Park is a wonderful weekend hiking destination.",
-      "Beautiful scenery of the snow-capped Himalayas, including Dorji Lhakpa, Langtang-Lirung, and Ganesh Himal.",
-      "Explore Jamacho Monastery in Kathmandu, the place with the small statue of Nagarjun Buddha, by hiking to the closest hill site.",
-      "Beautiful view of the Langtang range, the Manaslu Himalayan Range, and the Annapurna Himalayan Range.",
-      "Throughout your Nagarjun Day hike, appreciate the lovely chirping of birds.",
-      "Beautiful picture of the hills around the Kathmandu Valley and the city of Kathmandu.",
-      "A pleasant trek through the Shivapuri Nagarjun National Park offers magnificent views of the city and the forest.",
-      "Explore some of the unusual wildlife, plants, and birds while traveling to the Nagarjun Hiking route.",
-    ],
-    facilities: [
-      "Hotel Pickup And Drop off service",
-      "Free Nagarjun Jamcho Day Hike Route Map",
-      "Medical Kits - Which May Be Necessary In Certain Cases.",
-    ],
-    itinerary: [
-      {
-        day: 1,
-        description:
-          "Nagarjun Jamcho Day Hike Detailed Itinerary 2024 and 2025 ",
-        details:
-          "Our guide and driver will pick you up from your hotel shortly after breakfast and take you to Phulbari Gate near Balaju Bypass. In between 15 and 30 minutes, you will arrive at Phulbari Gate. After our guide has obtained the national park permit, the Nagarjun Jamcho Day Hike will start. You will ascend the route as it passes through a deep pine forest. On the way to Nagarjun Hill, you might see various bird species. You will witness the renowned Jamacho Monastery and an ancient cave decorated with colorful prayer flags once you have ascended the hill. On a clear day, you will unquestionably see the greatest view of the Kathmandu Valley and majestic mountains like the Langtang Lirung, Dorje Lakpa, Annapurna Range, Manaslu Range, and others. You will return to the hike starting location after eating your packed lunch at the top of the hill, where there is a pleasant wind and a peaceful atmosphere. From there, you will get in our car and be driven to the drop-off location or your hotel.",
-      },
-    ],
-    HowToPrepare: {
-      paragraph: [
-        "There are certain limitations on the hike because it goes through Shivapuri National Park. You are not permitted to bring certain instruments on your hike. Speakers, matchboxes, lighters, knives, and other flammable items are prohibited from being carried. On the other side, you are not permitted to produce any unnecessary noise that annoys the locals. A confirmation email will be issued to you when you make a reservation for the Nagarjun Day Hiking Trip. In the event of bad weather or excessive traffic, the tour itinerary is subject to change without prior notice. Winter travelers are encouraged to bring warm clothes. Travelers who have back problems, heart problems, or any other serious medical conditions shouldn't make this trip, nor should pregnant women. This tour is private, so only your group will participate. When hiking, remember to properly hydrate to avoid becoming dehydrated. Additionally, it is advised that travelers have a moderate level of physical fitness.",
-      ],
-      points: [],
-    },
-    path:[ ""],
-  },
-  //                                                          Champadevi Day Hike - 1 Day
-  champadevi_day_hike: {
-    about: [],
-    highlights: [
-      "Once the trail gains elevation, panoramic views of snow peaks from Annapurna to Gaurishankar form a chain towards the northern horizon. A bird’s eye view of the valley along with a relaxing nature walk along forests and ridges keeps the charm to this trail. The forests are also ideal for bird watching and villages along the trail have a unique cultures.",
-      "Drive to Pharping (1 hr) then hike to Champadevi (3- 4 hrs) then hike back to Hattiban (2 hrs) then drive back to Kathmandu (half an hour)",
-      "Champadevi Day Hiking lies among the best one-day hiking around the Kathmandu valley. Located southwest of the valley, the trail offers spectacular mountain vistas with beautiful views of Kathmandu valley. The top of the trail is a sacred site for locals to perform rituals. The 6-7 hours hike passes through rhododendron forests that bloom wonderfully during spring.",
-      "After an early morning drive to Pharping, 16 kilometers south of Kathmandu, we commence our journey. Pharping itself is bountiful in pilgrimage sites which include the renowned Dakshinkali Temple. The trail takes passes through pine forests along the north ridge for about half-hour. Through trails along lush greenery, the route gradually ascends to Champadevi. The three hours nature walk is good for bird watching as well.",
-      "Situated at an elevation of 2285m, Champadevi’s pilgrimage site consists of a Buddhist Stupa and a Hindu Shrine. With excellent views of the mountain ranges, the quiet and calm of the place is a perfect retreat from the valley’s humdrum. The walk to Hattiban (Elephant Forest) takes around two hours. Hattiban situated between Dakshinkali Temple and Kirtipur offers a detailed view of Kathmandu Valley as well as some mountain ranges. The place is also popular for rock climbing.",
-    ],
-    facilities: [],
-    itinerary: [],
-    HowToPrepare: {
-      paragraph: [],
-      points: [],
-    },
-    path:[ ""],
-  },
+}
 };
+
 export default infoContent;
