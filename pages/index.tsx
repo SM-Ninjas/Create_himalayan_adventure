@@ -1,3 +1,5 @@
+import About from "@/components/about/AboutUs";
+import OurTeam from "@/components/about/ourTeam";
 import BestSellers from "@/components/home/BestSellers";
 import Blogs from "@/components/home/BlogsComponentHome";
 import CarouselMobileResponsive from "@/components/home/CarouselMobileResponsve";
@@ -30,8 +32,10 @@ export default function Home() {
       <SearchComponent />
       <BestSellers />
       <HowTo />
+      <About/>
       <TopChoices scrollToSection={scrollToFAQ} />
       <Blogs blogsRef={scrollRef} />
+      <OurTeam/>
       <Partners />
       <Testimonials />
       <TripAdvisorReview />
