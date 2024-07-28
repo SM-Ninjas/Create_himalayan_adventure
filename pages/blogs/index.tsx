@@ -4,12 +4,14 @@ import mainImg from "../../public/images/upHill.png";
 
 function Blogs() {
   return (
-    <div className="mt-[76px]">
-      <div className="relative">
-        <Image src={mainImg} className="h-[430px] w-full" alt="mainImage" />
-        <h1 className="absolute bottom-10 right-3/4 title-text text-white ">
-          Blogs
-        </h1>
+    <div className="">
+      <div className="relative flex justify-center">
+        <Image src={mainImg} className="h-[550px] w-full object-cover" alt="mainImage" />
+        <div className='absolute bottom-10 container'>
+          <h1 className=" title-text text-white">
+            Blogs
+          </h1>
+        </div>
       </div>
 
       {/* Featured Blogs */}
