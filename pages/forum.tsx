@@ -21,18 +21,19 @@ function Forum() {
         setReplyOpen(!replyOpen)
     }
     return (
-        <div className='mt-[76px]'>
-            <div className="relative">
-                <Image width={800} src={mainImg} className="w-full h-96 object-cover" alt="mainImage" />
-                <div className='absolute bottom-10 right-3/4  sm:right-3/4'>
-                    <h1 className="title-text text-white">
+        <div className=''>
+            <div className="relative flex justify-center">
+                <Image width={800} src={mainImg} className="w-full h-[550px] object-cover" alt="mainImage" />
+                <div className='absolute bottom-10 container'>
+                    <h1 className=" title-text text-white">
                         Community Forum
                     </h1>
-                    <Buttons
+                   <Buttons
                         text="Post Something"
                         customColor="bg-blue-600 text-gray-50 hover:bg-blue-500 w-24"
                     />
                 </div>
+
             </div>
             <div className='lg:hidden'>
                 <MobileGroups />

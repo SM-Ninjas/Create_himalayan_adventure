@@ -32,10 +32,10 @@ export default function Home() {
       <SearchComponent />
       <BestSellers />
       <HowTo />
-      <About/>
+      <About />
       <TopChoices scrollToSection={scrollToFAQ} />
       <Blogs blogsRef={scrollRef} />
-      <OurTeam/>
+      <OurTeam />
       <Partners />
       <Testimonials />
       <TripAdvisorReview />

@@ -20,11 +20,13 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <title>Create Himalayan Adventure</title>
+        <meta name="description" content="Create Himalayan Trek" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" className="logo" type="image/svg+xml" href="/logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <meta name="description" content="Create Himalayan Trek" />
       </Head>
       <main
         className={`
