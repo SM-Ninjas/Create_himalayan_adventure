@@ -13,6 +13,7 @@ function Contact() {
             Contact Us
           </h1>
         </div>
+        
       </div>
       <div className="container gap-12  justify-center mt-8 md:flex ">
         <div className="">
