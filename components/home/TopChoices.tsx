@@ -15,6 +15,7 @@ interface CardProps {
   url: string;
   title: string;
   id: number;
+  slug: string; 
 }
 
 interface TopChoicesProps {
@@ -101,7 +102,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           >
             {exploreMoreItems.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-col gap-y-2">
+                <a href={`/${item.slug}`} className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
                       src={item.url}
@@ -116,7 +117,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -139,7 +140,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           >
             {exploreMoreItems.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-col gap-y-2">
+                <a href={`/${item.slug}`} className=" border border-black flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
                       src={item.url}
@@ -154,7 +155,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </a>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -176,9 +177,9 @@ const Card = ({ card }: { card: CardProps }) => {
           objectPosition="center"
         />
       </div>
-      <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+      <a href={`/${card.slug}`} className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
         <p className="text-xl font-black uppercase text-white">{card.title}</p>
-      </div>
+      </a>
     </div>
   );
 };
@@ -190,45 +191,54 @@ export const exploreMoreItems = [
     id: 1,
     url: "/locations/gosaikunda.webp",
     title: "Gosaikunda Trek",
+    slug: "treks/gosaikunda_trek",
   },
   {
     id: 2,
     url: "/locations/darjeeling.webp",
     title: "Darjeeling Tour",
+    slug: "treks/five_himalayan_viewpoint_tour_pokhara",
   },
   {
     id: 3,
     url: "/locations/muktinath.jpeg",
     title: "Muktinath Trek",
+    slug: "treks/muktinath_trek",
   },
   {
     id: 4,
     url: "/locations/pokhara.jpeg",
     title: "Pokhara Aventure",
+    slug: "treks/pokhara_day_tour_sunrise_sarangkot",
   },
   {
     id: 5,
     url: "/locations/upper-mustang.jpeg",
     title: "Upper Mustang Trek",
+    slug: "treks/upper_mustang_trek",
   },
   {
     id: 6,
     url: "/locations/rara.jpeg",
     title: "Trek to Rara Lake",
+    slug: "treks/rara_lake_tour",
   },
   {
     id: 7,
     url: "/locations/annapurna.webp",
     title: "Annapurna Circuit Trek",
+    slug: "treks/annapurna_circuit_trek",
   },
   {
     id: 8,
     url: "/locations/everest.avif",
     title: "Everest Base Camp",
+    slug: "treks/ebc_trek_14_days",
   },
   {
     id: 9,
     url: "/locations/chitwan.jpeg",
     title: "Chitwan Sightseeing",
+    slug: "treks/chitwan_national_park_tour",
   },
 ];
