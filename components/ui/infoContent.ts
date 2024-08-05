@@ -5633,7 +5633,7 @@ champadevi_day_hike: {
 //Annapurna Circuit Trek - 12 Days
 
 annapurna_circuit_trek:{
-  id: 0,
+  id: 38,
   slug: "annapurna_circuit_trek",
   category: "Trekking",
   img: "/images/Annapurnabasecamp.jpg",
@@ -5799,7 +5799,7042 @@ annapurna_circuit_trek:{
   },
   path: ["/images/abc-road-img.jpg"],
 
-}
+},
+//Tours in Nepal
+//Adventure Activities in Pokhara
+
+Bungee_Jumping_Pokhara: {
+    id: 39,
+    slug: "bungee-jumping-pokhara",
+    category: "Adventure",
+    img: "path_to_main_image.jpg",
+    description: "Experience the thrill of bungee jumping in Pokhara with breathtaking views and adrenaline-pumping excitement.",
+    title: "Bungee Jumping in Pokhara",
+    location: "Pokhara, Nepal",
+    days: "1 Day",
+    people: "1 to 15",
+    subimages: [
+      "path_to_image1.jpg",
+      "path_to_image2.jpg",
+      "path_to_image3.jpg",
+      "path_to_image4.jpg",
+      "path_to_image5.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 15",
+      category: "Easy",
+      bestSeason: "Whole Year (Except Monsoon)",
+    },
+    equipment: [
+      {
+        title: "Bungee Harness",
+        image: "path_to_harness_image.jpg",
+        description: "A secure harness to ensure your safety during the jump."
+      },
+      {
+        title: "Safety Helmet",
+        image: "path_to_helmet_image.jpg",
+        description: "A helmet to protect your head during the jump."
+      },
+      {
+        title: "Bungee Cord",
+        image: "path_to_cord_image.jpg",
+        description: "High-quality bungee cord made by HighGround."
+      },
+      {
+        title: "Safety Briefing",
+        image: "path_to_briefing_image.jpg",
+        description: "Comprehensive safety briefing before the jump."
+      },
+    ],
+    about: [
+      "If you are an adventure hunter and want to go for an activity that actually can pump up your heart's race rate, feel the free fall, and flex your strength and mental ability to take risks, bungee jumping in Pokhara is the best thing you can do. With all the safety measures checked, high-quality materials used, and safety briefing before the jump, bungee jumping in Pokhara offers the safest and one of the most adventurous bungee jumping experiences.",
+      "Bungee Jumping in Pokhara is a perfect choice for anyone who loves daring adventures. Jumping off an altitude of 80 meters into the gorge will offer you a feeling of risky adventure. With Green Valley Nepal Treks, you get to jump off the only tower bungee jumping in Hemja.",
+      "While going for the bungee jumping in Pokhara, you will witness the beauty offered by nature and also meet several hikers ascending in Day Hike in Pokhara. Before jumping, be sure you've taken all necessary safety measures. The Pokhara Bungee Jump gives you a free fall of five seconds and an 80-meter vertical drop before you bounce back and continue having excitement. Currently, Pokhara is home to Nepal's first tower bungee jump. Take pleasure in Pokhara's unspoiled splendor. All year round, except for the rainy season, Pokhara bungee jumping tours depart daily.",
+      "With the best bungee cord made by HighGround and the safest technologies, Pokhara is the perfect place to go bungee jumping. The highest safety requirements are upheld by the expert jump masters. Enjoy the exhilaration of bungee jumping in Pokhara, Nepal.",
+      "You can experience ATV Adventure, paragliding, ultra-light flight, rafting, and trekking in Pokhara in addition to bungee jumping. A thrilling, once-in-a-lifetime experience, bungee jumping is one of the most well-liked extreme sports. In Pokhara, bungee jumping from elevated platforms into pristine environments is an authentic adventure. At the bungee jumping location, you can experience an enchanting atmosphere.",
+      "A Pokhara bungee jumping trip provides an amazing perspective of the hills, rivers, and Himalayas. We do not advise bungee jumping if you have high blood pressure, heart illness, or neurological conditions. For this adventurous activity, you need to be in sufficiently good physical and mental health. Youngsters under the age of thirteen should not go on a Pokhara bungee jumping trip."
+    ],
+    highlights: [
+      "Experience the 80-meter-high bungee jumping in Pokhara.",
+      "One of the most amazing and breathtaking adventurous activities in Pokhara.",
+      "Watch the mesmerizing view of the surrounding mountains, rivers, and hills.",
+      "Feel the ultimate thrill of adventures in Pokhara by jumping off the deep gorge.",
+      "A scenic 15-minute drive from Pokhara lakeside (hotel) to the bungee jumping point."
+    ],
+    facilities: [
+      "Pickup and drop facility from the hotel to the Bungee Spot and from the Bungee Spot to the hotel.",
+      "A professional representative/guide to take you to the bungee jumping spot and explain the safety measures.",
+      "Adventure-packed bungee jumping experience guaranteed.",
+      "Free photography and videography from the Green Valley Nepal Treks team.",
+      "Easy booking procedure and flexible payment method.",
+      "Transparent Bungee Jump Pokhara cost with no hidden charges."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Bungee Jumping in Pokhara Detailed Itinerary",
+        details: "Pickup from your hotel and drive to High Ground Bungee Station (15-minute drive). Early morning after you have your breakfast, Green Valley Nepal Treks' representatives will pick you up from the hotel. After that, you will be driven to the bungee point, which is 15 minutes away from the lakeside.\n\nPreparation, Instructions, and Bungee\nOnce you reach the Highland Bungee Station, the instructors will tell you about the safety measures and other important things. Besides, you will also undergo a check to see if any valuable ornaments are on you or not.\n\nFurthermore, they will also prepare you perfectly for the bungee jumping adventure. Are you ready? A question comes to you, and when you reply \"Yes\", there you go. The bungee harness is suspended and you start experiencing free fall.\n\nTry to enjoy every moment of the bungee jump, take a look at the surrounding environment, and take poses as you will have a video camera on your wrist. This is a once-in-a-lifetime experience for anyone. Therefore, Green Valley Nepal Treks wishes the best to the bungee jumpers.\n\nDeparture and Drive to the Hotel\nAfter you enjoy one of the most amazing bungee jumping experiences in Pokhara, our representatives will receive you again and then drive back to your hotel in a private vehicle."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Listen to your instructors and trust them.",
+        "Do not panic as you are about to jump off the point.",
+        "Wear very comfortable and lightweight clothes and shoes.",
+        "Do not wear your valuables (ornaments).",
+        "Be very confident and do not panic at all.",
+        "Retain from looking downwards; instead, look straight forward."
+      ]
+    },
+    path: ["path_to_additional_info1.jpg", "path_to_additional_info2.jpg"],
+  },
+  Rafting_Pokhara: {
+    id: 1,
+    slug: "rafting-pokhara",
+    category: "Adventure",
+    img: "rafting-pokhara-main.jpg",
+    description: "Experience the thrill of rafting in the Seti River in Pokhara, surrounded by stunning landscapes and the majestic Annapurna range.",
+    title: "Seti River Rafting in Pokhara",
+    location: "Nepal",
+    days: "2 Hours",
+    people: "1 to 15",
+    subimages: [
+      "rafting-pokhara-1.jpg",
+      "rafting-pokhara-2.jpg",
+      "rafting-pokhara-3.jpg",
+      "rafting-pokhara-4.jpg",
+      "rafting-pokhara-5.jpg",
+    ],
+    overView: {
+      duration: "2 Hours",
+      startingPoint: "Old Bamboo Bridge",
+      endingPoint: "Simpani Dam",
+      peoples: "1 to 15",
+      category: "Moderate",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Life Jacket",
+        image: "life-jacket.jpg",
+        description: "Safety gear to keep you afloat in the water."
+      },
+      {
+        title: "Helmet",
+        image: "helmet.jpg",
+        description: "Protective headgear to ensure your safety."
+      },
+      {
+        title: "Paddle",
+        image: "paddle.jpg",
+        description: "Used to steer and propel the raft."
+      },
+      {
+        title: "Raft",
+        image: "raft.jpg",
+        description: "Inflatable boat designed for navigating rivers."
+      },
+    ],
+    about: [
+      "Are you looking for an amazing way to spend time while in Pokhara? If you are an adventure hunter and would love to experience the white-water sport, river rafting in Pokhara is a perfect option for you. Just imagine yourself wearing a life jacket, paddling, and fighting against the current of the Set River, doesn't that sound like a must-do adventure for adrenaline junkies?",
+      "This is exactly what the Seti River Rafting in Pokhara package from Green Valley Nepal Treks offers. One and half hours of aquatic sport along the white water of Seti River, where the mesmerizing landscapes, untouched areas, unique tradition, culture, and majestic Annapurna range look at you as you paddle. Rafting in Pokhara, however, is not just about an aquatic sports experience, it is also an activity where you can enhance your team's playing ability. The sport teaches you to work alongside the team because rafting is a proper team sport."
+    ],
+    highlights: [
+      "One and a half hours of exciting rafting in the Seti River in Pokhara.",
+      "Stunning background scenarios of the Annapurna range.",
+      "Exploration of the remote and untouched landscapes along the Seti River.",
+      "Witness the surrounding traditional civilization.",
+      "An excellent way to enhance a team playing ability as rafting is a team sport.",
+      "A perfect chance to take memorable photos and videos while going for one of the most challenging water sports."
+    ],
+    facilities: [
+      "With Green Valley Nepal Treks, travelers can experience the safest and most adventurous rafting in the Seti River.",
+      "We offer the most reasonable and justifying cost for Rafting in the Pokhara Package.",
+      "We also provide professional guides to assist and instruct you before and while rafting.",
+      "You also get a pickup service from your hotel in Lakeside to the rafting's starting point.",
+      "You can expect a drop-off service in a private vehicle from the ending point of rafting to your hotel.",
+      "Along with rafting, we also try to give visitors more insights about the places.",
+      "With Green Valley, you will be accompanied by one of Nepal's best trekking and travel agencies with over two decades of experience."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Seti River Rafting in Pokhara Detailed Itinerary",
+        details: "Pickup from your Hotel and Drive to the Old Bamboo Bridge (30 Minutes)\nAfter you have your breakfast in your hotel, Green Valley Nepal Treks' representatives arrive to pick you up in a private vehicle. From there, you will go for a 30-minute scenic drive to the starting point of rafting, the old bamboo bridge.\nDuring the drive, you can witness the mesmerizing view of the Pokhara Valley, Phewa Lake, and also the green hills that surround the valley. Moreover, you can also get insights and instructions from the representatives while getting to know much about the Seti River and the overall rafting experience.\n\nPreparation and Commencing of the Pokhara River Rafting\nAs you reach the starting point of the Seti River rafting in Pokhara, the seasoned guides with instruct you with some safety measures and other important information. After that, you get your safety gear which you must check. Moreover, we also recommend you check the raft and the paddles before starting the raft.\nAfter all this preparation begins the real adventure. Your raft will be pushed into the Seti River while being accompanied by a professional guide. Now, it's the time to showcase your physical ability and paddle across the white water of the Seti River. The guide will continuously instruct you and you need to keep the raft flowing. Enjoy the surrounding environment, and check out the nearby locations, villages, and unexplored landscapes. Moreover, your rafting ride will also be accompanied by the mesmerizing view of the Annapurna range.\nGet yourself into action for one and a half hours while white water rafting in the Seti River. If you follow all the instructions given by the guide and do as they say, believe us, you will have the best in the world experience of rafting.\n\nDrop Back to your Hotel\nAfter one and a half hours of water adventure (rafting) and taking some rest in the bank of the Seti River, Green Valley Nepal Treks' representatives will drive you back to your hotel, which officially ends the Seti River Rafting in Pokhara. Another 30 minutes’ drive but this time with some tiredness and a heart full of memories unlike the one with enthusiasm in the morning."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Adventures require preparations! This is a sure thing. If you want to experience adventure you need to prepare adequately whether you are a seasoned person or a beginner. The same is applied to the river rafting in Pokhara tour. There are some basic and crucial preparations that you must do before going rafting in Pokhara:",
+        "Before booking the rafting package, we recommend all travelers or adventure-seekers do thorough research about this sport and the Seti River.",
+        "Wear comfortable clothes and shoes and make sure that they are quick-drying. Water secure, close-toe footwear and swimsuit can work the best.",
+        "Apply some sunscreen with a high SPF rating to stay safe from the harmful rays of sun.",
+        "Do not carry any valuables, especially mobile phones and smartwatches.",
+        "Make sure that you are provided with all the safety gear like a helmet and life jacket. Also, check whether they have any damages.",
+        "Make sure that you have trained yourself physically and have a strong mindset while getting on the raft.",
+        "Pay complete attention to every line of the safety instructions given by the instructors.",
+        "Make sure that you fulfill the physical fitness and age criteria set by the rafting operators."
+      ]
+    },
+    path: [
+      "rafting-pokhara-path-1.jpg",
+      "rafting-pokhara-path-2.jpg",
+      "rafting-pokhara-path-3.jpg"
+    ]
+  },
+  Zipline_Pokhara: {
+      "id": 2,
+      "slug": "zipline-pokhara",
+      "category": "Adventure",
+      "img": "main_image_url",
+      "description": "Experience the thrill of ziplining from the highest zipline in the world in Pokhara.",
+      "title": "Zipline (Zip Flyer) in Pokhara",
+      "location": "Sarangkot to Hemja, Pokhara, Nepal",
+      "days": "1 Day",
+      "people": "1 to 10",
+      "subimages": [
+        "image1_url",
+        "image2_url",
+        "image3_url",
+        "image4_url",
+        "image5_url"
+      ],
+      "overView": {
+        "duration": "3 Hours",
+        "startingPoint": "Sarangkot",
+        "endingPoint": "Hemja",
+        "peoples": "1 to 10",
+        "category": "Zipline",
+        "bestSeason": "Whole Year"
+      },
+      "equipment": [
+        {
+          "title": "Harness",
+          "image": "harness_image_url",
+          "description": "Safety harness for secure ziplining experience."
+        },
+        {
+          "title": "Helmet",
+          "image": "helmet_image_url",
+          "description": "Protective helmet provided for all participants."
+        },
+        {
+          "title": "GoPro Camera",
+          "image": "gopro_image_url",
+          "description": "Capture your thrilling adventure with a GoPro camera."
+        },
+        {
+          "title": "Zipline Kit",
+          "image": "zipline_kit_image_url",
+          "description": "Complete zipline kit for a smooth and safe ride."
+        }
+      ],
+      "about": [
+        "Zipline in Pokhara is one of the most adventurous and adrenaline-rushing activities one can do in this city. Anyone who wants to raise their adrenaline level and get on the highest zip-lining adventure can go for the Zip-lining in Pokhara.",
+        "This is one of the most preferred adventure activities in Pokhara besides Bungee Jumping in Pokhara and Seti River Rafting in Pokhara, which attracts hundreds of tourists every month.",
+        "Zip Flyer is located in Sarangkot, which is a 30-minute drive from Lakeside and 8 kilometers northwest of Pokhara Valley. The world's tallest, longest, fastest, and steepest zip line is located in Pokhara and spans 1.8 km with 600 meters of vertical drops at a 60-degree slope.",
+        "It was constructed in AD 2010. At 1550 meters, Sarangkot Danda is the starting point of the journey, and it ends at 950 meters in Hemja. Sarangkot offers a thrilling vantage point over the Seti River, Fishtail, Annapurna, and Pokhara Valley.",
+        "Zip Flyer is a well-known American brand; The Highground Adventure is a franchise of that company. Participants in the adventure who weigh between 35 kg and 125 kg are permitted to participate in the Sarangkot Zipline.",
+        "All minors, however, under the age of eighteen, must have guardian signatures on their reservation. Every guest is given a GoPro camera so they may record personalized films.",
+        "A platform above a lush forest with views of the Himalayas, the Seti River Valley, and Hemja town, the Sarangkot Zipline captivates thrill-seekers. With a customized harness seat and a top speed of 120 km/h, the world's longest zip line causes anyone's heart to race.",
+        "Constructed in 2021, the Superman zipline spans 1850 meters and can travel at a speed of 140 km/h, making it the longest in the world. One activity that visitors to Pokhara shouldn't skip is ziplining. Travelers and adventure seekers can enjoy an exciting and safe experience with one of the most daring activities.",
+        "The Pokhara Zip Flyer, also famous as the highest zip lining in the world, offers this service in any weather condition. No matter when you feel like having some adventure, you can simply book the Zipline Adventure in Pokhara package with Green Valley Nepal Treks and go for it. No matter whether you are with your family, children, or whatever, if you do not try the Ziplining adventure in Pokhara, you miss one of the best things to do in this city."
+      ],
+      "highlights": [
+        "Experience ziplining from the highest zipline in the world (600m/1.8km) in Pokhara.",
+        "Get a 360-degree view of the Pokhara valley, different mountains, hills, and greenery around Pokhara city.",
+        "An amazing experience of adventure, thrill, and fun, along with a mind-blowing adrenaline rush.",
+        "Almost a free-flowing experience while ziplining at a speed of 90 miles per hour.",
+        "A lovely and enjoyable way to get yourself into adventures and thrills."
+      ],
+      "facilities": [
+        "Green Valley Nepal Treks assures the best and the most adventurous zip line adventure for tourists.",
+        "We offer pickup and drop facilities to the tourists, where we pick them up from the hotel and drop them off at the hotel after the zip lining in Pokhara.",
+        "You can also get your photos and videos taken for free because people charge for the media as well.",
+        "Major benefit: An overall zip line adventure in Pokhara worth every cent you spend.",
+        "Special discount for previous clients of Green Valley Nepal Treks."
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Zipline in Pokhara Detailed Itinerary",
+          "details": "Pick up from the Hotel and Drive to Zipline point (about 30 minutes of drive). Our representatives will pick you up from your hotel after you have breakfast. After that, you will have a 30-minute ride in a private vehicle from your hotel (lakeside) to the high-ground Zip flyer takeoff station. The drive takes you along the Sarangkot inclination, so, it will be an amazing and nature-friendly drive. Zipline Adventure at Highground Zipflyer Takeoff Station. The representatives will prepare you there once you reach the zipline Pokhara station. They will also guide you about how you need to stay in the zip flyer to experience the best ziplining adventure. From there, once everything is done, you will sit in the zipline and descend at a speed of 120 km/hr in an adrenaline-rushing zipline with a 60-degree inclination. Don't be panicked or close your eyes because that might lead you to miss the best view of the surrounding mountains, Pokhara Valley, Sarangkot Hill, and Seti Gorge. This adventure activity, though might not be longer, will be stored in your mind as a lifetime memory. Back to your Hotel. As you dare the ziplining in Pokhara adventure and return with a winner-smile, our representatives will again receive you. From there, you get on the private vehicle and return to the hotel. This marks the end of one of the best adventure activities in Pokhara."
+        }
+      ],
+      "HowToPrepare": {
+        "paragraph": [
+          "Ziplining can be considered one of the safest adventure activities. You will be tied up by harness, sitting in a chair-like thing, and descending downwards. However, preparations are necessary even if the activity seems easy and safe.",
+          "We recommend travelers to research the travel agencies they choose while also understanding more about the ziplining technique (if it's your first time). Besides, listen to the safety measures explained by the guides and zipline experts there. One of the most important things to prepare is your mindset. So be strong, think of the ziplining as a sport, and go for it.",
+          "Be sure to choose an authentic travel operator and buy the package from the one after you do thorough research.",
+          "Do not panic while you are on the zip line ride because that can worsen the situation and negatively impact your self-confidence.",
+          "If you are below 18, make sure that your parents have signed the waiver because without that you will not be permitted to go for the zip line adventure.",
+          "If you have any severe/serious problem with your back, we recommend you not to go for this adventurous activity."
+        ]
+      },
+      "path": [
+        "path1_url",
+        "path2_url",
+        "path3_url"
+      ]
+  }, 
+  Ultra_Light_Flight_Pokhara: {
+          "id": 39,
+          "slug": "ultra-light-flight-pokhara",
+          "category": "Adventure",
+          "img": "main_image_url",
+          "description": "Experience an adventure flight with a spectacular view from very close to the massive mountains in Pokhara, Nepal.",
+          "title": "Ultra Light Flight in Pokhara Nepal - 1 Day",
+          "location": "Pokhara Airport, Pokhara, Nepal",
+          "days": "1 Day",
+          "people": "1 to 2",
+          "subimages": [
+            "image1_url",
+            "image2_url",
+            "image3_url",
+            "image4_url",
+            "image5_url"
+          ],
+          "overView": {
+            "duration": "1 Day",
+            "startingPoint": "Pokhara Airport",
+            "endingPoint": "Pokhara Airport",
+            "peoples": "1 to 2",
+            "category": "Sightseeing",
+            "bestSeason": "Whole Year"
+          },
+          "equipment": [
+            {
+              "title": "Ultralight Aircraft",
+              "image": "ultralight_aircraft_image_url",
+              "description": "A small, engine-powered aircraft designed for a unique flying experience."
+            },
+            {
+              "title": "Pilot Gear",
+              "image": "pilot_gear_image_url",
+              "description": "Safety gear and communication devices for the pilot."
+            },
+            {
+              "title": "Flight Suit",
+              "image": "flight_suit_image_url",
+              "description": "Comfortable and protective flight suit for passengers."
+            },
+            {
+              "title": "GoPro Camera",
+              "image": "gopro_image_url",
+              "description": "Capture your thrilling adventure with a GoPro camera."
+            }
+          ],
+          "about": [
+            "Ultra Light Flight in Pokhara is an adventurous activity that provides unparalleled views of green forests, local villages, hills, and mountains.",
+            "You can enjoy incredible views of Mount Fishtail, Annapurna, Dhaulagiri, and other nearby peaks.",
+            "Experience a bird’s eye view of beautiful Pokhara city, Phewa Lake, Stupa, and temples.",
+            "Ultralight Flight in Pokhara was initially offered in Nepal in 1996.",
+            "This activity is available year-round, with clear skies and good weather conditions being the only requirement.",
+            "It is affordable and can be booked as part of a package or as a standalone activity."
+          ],
+          "highlights": [
+            "Incredible views of Mount Fishtail, Annapurna, Dhaulagiri, and other nearby peaks.",
+            "Bird’s eye view of Pokhara city, Phewa Lake, Stupa, and temples.",
+            "Unparalleled views of green forests, local villages, hills, and mountains.",
+            "Experienced and highly skilled pilots ensure your safety throughout the flight.",
+            "Different flight options ranging from 15 minutes to an hour.",
+            "Sunrise and sunset flights offer breathtaking views of the mountains.",
+            "Opportunity to capture incredible photos and videos from an unusual perspective.",
+            "The flight takes off and lands at the same location.",
+            "Available year-round with clear skies and good weather conditions."
+          ],
+          "facilities": [
+            "Green Valley Nepal Treks assures the best and most adventurous ultralight flight experience for tourists.",
+            "We offer pickup and drop-off facilities from the hotel to Pokhara Airport.",
+            "You can get your photos and videos taken during the flight.",
+            "An overall ultralight flight adventure in Pokhara worth every cent you spend.",
+            "Special discounts for previous clients of Green Valley Nepal Treks."
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "description": "Ultralight Flight in Pokhara Detailed Itinerary",
+              "details": "Pick up from the Hotel and Drive to Pokhara Airport. Our representatives will pick you up from your hotel after you have breakfast. After that, you will have a short drive to the airport. Once you reach the airport, the representatives will prepare you for the ultralight flight. They will also guide you on how to stay safe and make the most of your adventure. From there, you will embark on a thrilling ultralight flight, experiencing incredible views of Pokhara and the surrounding mountains. After the flight, our representatives will pick you up and drop you back at your hotel."
+            }
+          ],
+          "HowToPrepare": {
+            "paragraph": [
+              "Ultralight flying is one of the safest adventure activities. You will be securely fastened and guided by experienced pilots.",
+              "We recommend travelers to research the travel agencies they choose and understand more about the ultralight flying technique.",
+              "Listen to the safety measures explained by the guides and ultralight experts.",
+              "One of the most important things to prepare is your mindset. Be strong, think of the ultralight flight as a sport, and go for it.",
+              "Ensure that you have no significant medical issues before taking the flight.",
+              "If you are below 18, make sure that your parents have signed the waiver."
+            ]
+          },
+          "path": [
+            "path1_url",
+            "path2_url",
+            "path3_url"
+          ]
+  },
+  Paragliding_Pokhara : {
+              "id": 40,
+              "slug": "paragliding-pokhara",
+              "category": "Adventure",
+              "img": "main_image_url",
+              "description": "Paragliding in Pokhara offers a unique opportunity to soar above the beautiful mountains, lakes, and natural features surrounding Pokhara City.",
+              "title": "Paragliding in Pokhara Nepal - 1 Day",
+              "location": "Pokhara, Nepal",
+              "days": "1 Day",
+              "people": "1 to 20",
+              "subimages": [
+                "image1_url",
+                "image2_url",
+                "image3_url",
+                "image4_url",
+                "image5_url"
+              ],
+              "overView": {
+                "duration": "1 Day",
+                "startingPoint": "Pokhara",
+                "endingPoint": "Pokhara",
+                "peoples": "1 to 20",
+                "category": "Paragliding",
+                "bestSeason": "Spring and Autumn"
+              },
+              "equipment": [
+                {
+                  "title": "Paraglider",
+                  "image": "paraglider_image_url",
+                  "description": "A lightweight, free-flying, foot-launched glider aircraft."
+                },
+                {
+                  "title": "Harness",
+                  "image": "harness_image_url",
+                  "description": "Safety harness for secure paragliding experience."
+                },
+                {
+                  "title": "Helmet",
+                  "image": "helmet_image_url",
+                  "description": "Protective helmet provided for all participants."
+                },
+                {
+                  "title": "GoPro Camera",
+                  "image": "gopro_image_url",
+                  "description": "Capture your thrilling adventure with a GoPro camera."
+                }
+              ],
+              "about": [
+                "Paragliding in Pokhara will be your greatest option if you are thinking about engaging in any challenging and thrilling sports to get over your phobia. In Nepal, paragliding is one of the most popular adventure activities. Your initial paragliding adventure might be started at Pokhara. With mountains, lakes, and beautiful terrain, Pokhara City's surroundings are breathtaking. Pilots who have received international certification are used in paragliding operations. Paragliding in Pokhara shouldn't be missed if you enjoy adventure and are visiting Nepal.",
+                "The distinctive topography of Nepal, which includes mountains, hills, rivers, rich vegetation, and more, contributes to a distinctive paragliding experience. Although Pokhara Sarangkot paragliding is a relatively new adventure activity in Nepal, fans have promoted it to unbelievable levels. With a breathtaking perspective of the gorgeous Himalayas, kites, Himalayan griffin vultures, eagles, and other birds may be seen gliding above villages, monasteries, temples, lakes, and forests at Mountain View.",
+                "The Pokhara valley in the Annapurna region of Nepal is the primary location for paragliding. This lakefront community is tucked behind the Annapurna Himal. These paragliding flights take off from Sarangkot (1592m), which also provides spectacular dawn and sunset views of the Himalayas and Phewa Lake, and land alongside the lake. No prior flying experience is necessary because qualified pilots give a quick briefing before the start of the paragliding trip.",
+                "The 30 to 45 minutes trip is a fantastic chance to get a birds-eye perspective of Pokhara and the surrounding hills. There is simply too much to see in the globe, and Pokhara's environment captures the essence of all that is beautiful about nature. The little town of Pokhara has all the potential natural wonders that are now known to exist. The pleasure of seeing everything in one image is rewarding.",
+                "We at Green Valley Nepal Treks and Research Hub are pleased to present our well-planned Paragliding in Pokhara Nepal package, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. For more questions regarding the paragliding in Pokhara Sarangkot package cost, please don't hesitate to contact us."
+              ],
+              "highlights": [
+                "Beautiful mountains, lakes, and other natural features surround Pokhara City.",
+                "Pilots that have received international certification for paragliding conduct the sport safely.",
+                "Sarangkot is regarded by paragliders as the finest paragliding place in the world.",
+                "One of the greatest places in the world to experience flying is Pokhara, where paragliding is practiced.",
+                "Discover breathtaking aerial views of Phewa Lake, Mount Machhapuchhre, and Mount Annapurna.",
+                "A professional tournament is conducted in Pokhara every year because of the city's great reputation in the paragliding community.",
+                "Paragliding is the ultimate getaway to paradise and a once-in-a-lifetime chance to experience what it's like to fly.",
+                "You may experience the limitless from a perspective of endless heights above the earth in a dimensionless space.",
+                "Take advantage of a smooth landing by the lake, which is regarded as a beautiful and exciting experience in and of itself."
+              ],
+              "facilities": [
+                "Green Valley Nepal Trek T-Shirt as a souvenir.",
+                "Free Excess Luggage Storing At Green Valley Nepal Store During The Trip.",
+                "Arrangement of the best hotels at a reasonable price.",
+                "Pick up from the hotel to Sarangkot (start) then back to the hotel from Pame (end).",
+                "Discounts and extra services for old customers."
+              ],
+              "itinerary": [
+                {
+                  "day": 1,
+                  "description": "Drive from Hotel to Sarangkot for Paragliding",
+                  "details": "The paragliding journey from Pokhara to Sarangkot will begin at your accommodation. You will be picked up from your hotel by our driver, and it will take 20 minutes to go from Pokhara to Sarangkot, where you will launch a paraglider. Sarangkot is a vantage point from where you can see three of the world's tallest mountains, including the nearly 8000-meter-tall Dhaulagiri, Annapurna, and Manaslu. From Sarangkot, we provide 3 different types of tandem flights. You will land on the shore of Fewa Lake after a 30-minute flight and then be driven to your accommodation."
+                }
+              ],
+              "HowToPrepare": {
+                "paragraph": [
+                  "You must confirm that you are using a licensed and registered business before you go paragliding. One must make sure that the business they select is insured. There is no assurance, despite some businesses' claims to the contrary. Therefore, it is important to pick a reliable business that will guarantee and provide insurance. Additionally, one must make sure they adhere to all of the pilot's directions and correctly tighten the harnesses and belts. Additionally, it's critical to maintain composure because panicking might worsen the situation. Give the pilot authority in any scenario because you can trust them to know what to do. Exhilarating and enthralling, paragliding in Pokhara is a once-in-a-lifetime experience. Everyone should do it at least once in their lives, without a doubt."
+                ]
+              },
+              "path": [
+                "path1_url",
+                "path2_url",
+                "path3_url"
+              ]
+  },
+//Day Tours from Kathmandu
+
+  Seven_World_Heritage_Kathmandu_Day_Tour: {
+    id: 41,
+    slug: "seven-world-heritage-kathmandu-day-tour",
+    category: "Sightseeing",
+    img: "path/to/image.jpg",
+    description: "Explore the UNESCO World Heritage Sites in Kathmandu Valley in a single day. Visit historic temples, stupas, and durbar squares that reflect the rich cultural and spiritual heritage of Nepal.",
+    title: "Seven World Heritage Kathmandu Day Tour",
+    location: "Kathmandu, Nepal",
+    days: "1",
+    people: "1 to 20",
+    subimages: [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg",
+      "path/to/image3.jpg",
+      "path/to/image4.jpg",
+      "path/to/image5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Easy",
+      bestSeason: "Whole Year"
+    },
+    equipment: [
+      {
+        title: "Comfortable Clothing",
+        image: "path/to/equipment1.jpg",
+        description: "Wear comfortable clothes and shoes suitable for walking and climbing stairs."
+      },
+      {
+        title: "Camera",
+        image: "path/to/equipment2.jpg",
+        description: "Bring a camera or smartphone to capture beautiful memories of the tour."
+      },
+      {
+        title: "Sun Protection",
+        image: "path/to/equipment3.jpg",
+        description: "Carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
+      },
+      {
+        title: "Medical Kit",
+        image: "path/to/equipment4.jpg",
+        description: "A small first aid kit to handle any unforeseen injuries."
+      }
+    ],
+    about: [
+      "This day tour covers the major UNESCO World Heritage Sites in Kathmandu Valley, including historic durbar squares, temples, and stupas."
+    ],
+    highlights: [
+      "Visit Kathmandu Durbar Square, Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Stupa.",
+      "Explore Patan Durbar Square, Bhaktapur Durbar Square, and Changu Narayan Temple.",
+      "Experience the rich cultural heritage and spiritual significance of these landmarks."
+    ],
+    facilities: [
+      "Hotel pickup and drop-off service.",
+      "Green Valley Nepal Trek T-Shirt.",
+      "Medical Kits available if necessary.",
+      "Discounts and extra services for repeat customers.",
+      "Arrangement of best hotels at reasonable prices upon request."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Seven World Heritage Kathmandu Day Tour",
+        details: "Start with Kathmandu Durbar Square, proceed to Pashupatinath Temple, explore Boudhanath Stupa, and visit Swayambhunath Stupa. Continue to Patan Durbar Square, Bhaktapur Durbar Square, and end the day at Changu Narayan Temple."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Dress appropriately: Wear comfortable clothing and shoes suitable for walking and climbing stairs. Dress modestly for religious sites.",
+        "Carry essentials: Bring water, sunscreen, sunglasses, and a hat. A small first aid kit is recommended.",
+        "Be respectful: Follow local customs and traditions, and be mindful of dress codes and photography rules.",
+        "Research ahead: Learn about Nepal's history and culture to better appreciate the sites.",
+        "Consider a guide: Hiring a local guide can enhance your understanding of the heritage sites."
+      ]
+    },
+    path: ["path/to/detailed-itinerary"]
+  },
+  Chandragiri_Hill_Day_Tour: {
+    id: 42,
+    slug: "chandragiri-hill-day-tour",
+    category: "Day Tour",
+    img: "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-day-tour.jpg",
+    description: "Experience the stunning panoramic views of the Himalayas and Kathmandu Valley with a day tour to Chandragiri Hill.",
+    title: "Chandragiri Hill Day Tour",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-1.jpg",
+      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-2.jpg",
+      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-3.jpg",
+      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-4.jpg",
+      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Day Tour",
+      bestSeason: "All year round",
+    },
+    equipment: [
+      {
+        title: "Comfortable Walking Shoes",
+        image: "https://www.greenvalleynepaltreks.com/images/shoes.jpg",
+        description: "Good for walking and light hiking."
+      },
+      {
+        title: "Weather-Appropriate Clothing",
+        image: "https://www.greenvalleynepaltreks.com/images/clothing.jpg",
+        description: "Light jacket or sweater depending on the season."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "To capture the stunning views."
+      },
+      {
+        title: "Sunglasses and Sunscreen",
+        image: "https://www.greenvalleynepaltreks.com/images/sunscreen.jpg",
+        description: "Protection from the sun during the day."
+      },
+    ],
+    about: [
+      "Chandragiri Hill offers a breathtaking panoramic view of the Himalayas, including Mount Everest on clear days. The hill is accessible via a cable car ride that adds to the excitement of the journey."
+    ],
+    highlights: [
+      "Panoramic views of the Himalayas including Mount Everest.",
+      "Scenic cable car ride to the top.",
+      "Stunning views of the Kathmandu Valley."
+    ],
+    facilities: [
+      "Cable car service",
+      "Restaurants and Cafes",
+      "Restrooms",
+      "Souvenir Shops"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Chandragiri Hill Day Tour",
+        details: "Pick up from your hotel in Kathmandu. Enjoy a scenic cable car ride to Chandragiri Hill. Explore the hilltop and enjoy panoramic views of the Himalayas and Kathmandu Valley. Return to Kathmandu and drop off at your hotel."
+      }
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Wear comfortable walking shoes and dress in weather-appropriate clothing. Don’t forget to bring your camera to capture the beautiful scenery. It's also a good idea to have sunglasses and sunscreen for sun protection."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/chandragiri-hill-day-tour"]
+  },
+  Kathmandu_City_Tour: {
+    id: 43,
+    slug: "kathmandu-city-tour",
+    category: "City Tour",
+    img: "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour.jpg",
+    description: "Explore the rich cultural heritage of Kathmandu with visits to its most iconic landmarks and UNESCO World Heritage Sites.",
+    title: "Kathmandu City Tour",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-1.jpg",
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-2.jpg",
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-3.jpg",
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-4.jpg",
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "City Tour",
+      bestSeason: "All year round",
+    },
+    equipment: [
+      {
+        title: "Comfortable Walking Shoes",
+        image: "https://www.greenvalleynepaltreks.com/images/shoes.jpg",
+        description: "Ideal for exploring city landmarks."
+      },
+      {
+        title: "Weather-Appropriate Clothing",
+        image: "https://www.greenvalleynepaltreks.com/images/clothing.jpg",
+        description: "Dress according to the weather, layers are recommended."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "Capture the historical and cultural landmarks."
+      },
+      {
+        title: "Guidebook or Map",
+        image: "https://www.greenvalleynepaltreks.com/images/map.jpg",
+        description: "Helpful for understanding the historical context."
+      },
+    ],
+    about: [
+      "The Kathmandu City Tour provides an in-depth look at Kathmandu's rich history and culture. The tour covers major landmarks including UNESCO World Heritage Sites, ancient temples, and bustling marketplaces."
+    ],
+    highlights: [
+      "Visit UNESCO World Heritage Sites in Kathmandu.",
+      "Explore historic temples and palaces.",
+      "Experience the vibrant culture and markets of Kathmandu."
+    ],
+    facilities: [
+      "Transport within the city",
+      "Local guide",
+      "Entry fees to heritage sites",
+      "Lunch (if included)"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Kathmandu City Tour",
+        details: "Pick up from your hotel in Kathmandu. Begin the tour with visits to the major UNESCO World Heritage Sites including Kathmandu Durbar Square, Swayambhunath Stupa (Monkey Temple), Pashupatinath Temple, and Boudhanath Stupa. Explore the rich culture and history of each site. Enjoy a local lunch (if included) and return to your hotel by evening."
+      }
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Wear comfortable walking shoes and dress in layers to accommodate changes in weather. A camera is essential to capture the city's beauty. Consider bringing a guidebook or map to enhance your understanding of the historical sites you will visit."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/kathmandu-city-tour"]
+  },
+  Everest_Mountain_Sightseeing_Flight_By_Plane: {
+    id: 44,
+    slug: "everest-mountain-sightseeing-flight-by-plane",
+    category: "Sightseeing Flight",
+    img: "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight.jpg",
+    description: "Experience breathtaking views of Mount Everest and the Himalayas on a scenic flight from Kathmandu. Enjoy a panoramic view of the world's highest peak and surrounding mountain ranges.",
+    title: "Everest Mountain Sightseeing Flight by Plane",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1 to 10",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-1.jpg",
+      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-2.jpg",
+      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-3.jpg",
+      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-4.jpg",
+      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-5.jpg"
+    ],
+    overView: {
+      duration: "1 Hour",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 10",
+      category: "Sightseeing Flight",
+      bestSeason: "Clear days between October and May",
+    },
+    equipment: [
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "Capture stunning aerial views of Everest and the Himalayas."
+      },
+      {
+        title: "Warm Clothing",
+        image: "https://www.greenvalleynepaltreks.com/images/warm-clothing.jpg",
+        description: "Dress warmly as the temperatures at high altitudes can be cold."
+      },
+      {
+        title: "Sunglasses",
+        image: "https://www.greenvalleynepaltreks.com/images/sunglasses.jpg",
+        description: "Protect your eyes from the glare of the sun at high altitudes."
+      },
+      {
+        title: "Binoculars",
+        image: "https://www.greenvalleynepaltreks.com/images/binoculars.jpg",
+        description: "Enhance your view of distant peaks and landmarks."
+      },
+    ],
+    about: [
+      "The Everest Mountain Sightseeing Flight offers a unique opportunity to view the majestic Mount Everest and the surrounding Himalayas from the comfort of a plane. The flight provides panoramic views of some of the highest peaks in the world, including Everest, Lhotse, and Makalu."
+    ],
+    highlights: [
+      "Aerial view of Mount Everest, the highest peak in the world.",
+      "Panoramic views of the Himalayan mountain range.",
+      "Comfortable flight with window seats for optimal viewing."
+    ],
+    facilities: [
+      "Transport to and from the airport",
+      "Window seat for each passenger",
+      "Experienced pilot with knowledge of the region",
+      "In-flight commentary about the mountains"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Everest Mountain Sightseeing Flight",
+        details: "Pick up from your hotel in Kathmandu and transfer to the domestic airport. Enjoy a 1-hour scenic flight over the Himalayas, with breathtaking views of Mount Everest and surrounding peaks. Return to Kathmandu after the flight and transfer back to your hotel."
+      }
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Dress warmly as the temperatures can be cold even on clear days. Bring a camera to capture the incredible views of Everest and other Himalayan peaks. Sunglasses and binoculars are also recommended to enhance your viewing experience. Ensure you are prepared for a short but unforgettable flight experience."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/everest-mountain-sightseeing-flight-by-plane"]
+  },
+  Bungmati_Khokana_Village_Tour: {
+    id: 45,
+    slug: "bungmati-khokana-village-tour",
+    category: "Cultural Tour",
+    img: "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour.jpg",
+    description: "Explore the traditional Newari villages of Bungmati and Khokana, known for their rich cultural heritage and ancient architecture. Experience local life, traditional crafts, and stunning landscapes.",
+    title: "Bungmati-Khokana Village Tour",
+    location: "Kathmandu Valley, Nepal",
+    days: "1 Day",
+    people: "1 to 15",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-1.jpg",
+      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-2.jpg",
+      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-3.jpg",
+      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-4.jpg",
+      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 15",
+      category: "Cultural Tour",
+      bestSeason: "March to May and September to November",
+    },
+    equipment: [
+      {
+        title: "Comfortable Walking Shoes",
+        image: "https://www.greenvalleynepaltreks.com/images/comfortable-walking-shoes.jpg",
+        description: "Suitable for walking on uneven terrain in the villages."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "Capture the scenic beauty and traditional architecture of the villages."
+      },
+      {
+        title: "Sun Protection",
+        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
+        description: "Carry sunscreen, a hat, and sunglasses to protect yourself from the sun."
+      },
+      {
+        title: "Water Bottle",
+        image: "https://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
+        description: "Stay hydrated throughout the tour."
+      },
+    ],
+    about: [
+      "The Bungmati-Khokana Village Tour provides an authentic experience of traditional Newari culture. Bungmati and Khokana are two ancient villages known for their well-preserved traditional architecture and customs. This tour allows you to immerse yourself in the local way of life, explore traditional crafts, and enjoy the beautiful landscapes of the Kathmandu Valley."
+    ],
+    highlights: [
+      "Visit the traditional Newari villages of Bungmati and Khokana.",
+      "Explore ancient temples, traditional houses, and local craftsmanship.",
+      "Experience local culture and daily life in the Kathmandu Valley."
+    ],
+    facilities: [
+      "Local guide with knowledge of Newari culture",
+      "Transportation from Kathmandu to the villages and back",
+      "Refreshments during the tour"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Bungmati and Khokana Village Tour",
+        details: "Pick up from your hotel in Kathmandu and drive to Bungmati Village. Explore the traditional Newari architecture and visit local temples. Continue to Khokana Village, known for its traditional oil-pressing techniques and ancient architecture. Enjoy a traditional lunch and interact with the local villagers. Return to Kathmandu by late afternoon."
+      }
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Wear comfortable walking shoes as you will be exploring the villages on foot. Dress modestly and respectfully as you will be visiting local communities. Carry sun protection such as sunscreen, a hat, and sunglasses. Bring a camera to capture the scenic beauty and cultural highlights. Ensure you have a water bottle to stay hydrated during the tour."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/bungmati-khokana-village-tour"]
+  },
+  Paragliding_in_Nepal: {
+    id: 46,
+    slug: "paragliding-in-nepal",
+    category: "Adventure",
+    img: "https://www.greenvalleynepaltreks.com/images/paragliding-nepal.jpg",
+    description: "Experience the thrill of paragliding in Nepal with breathtaking aerial views of the Himalayas and picturesque landscapes. Ideal for adventure seekers and nature lovers.",
+    title: "Paragliding in Nepal",
+    location: "Pokhara, Nepal",
+    days: "1 Day",
+    people: "1",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/paragliding-flying.jpg",
+      "https://www.greenvalleynepaltreks.com/images/paragliding-landscape.jpg",
+      "https://www.greenvalleynepaltreks.com/images/paragliding-setup.jpg",
+      "https://www.greenvalleynepaltreks.com/images/paragliding-team.jpg",
+      "https://www.greenvalleynepaltreks.com/images/paragliding-safety.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1",
+      category: "Adventure",
+      bestSeason: "September to December and February to May",
+    },
+    equipment: [
+      {
+        title: "Paragliding Gear",
+        image: "https://www.greenvalleynepaltreks.com/images/paragliding-gear.jpg",
+        description: "Includes parachute, harness, and helmet."
+      },
+      {
+        title: "Comfortable Clothing",
+        image: "https://www.greenvalleynepaltreks.com/images/comfortable-clothing.jpg",
+        description: "Wear lightweight and weather-appropriate clothing."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "Capture the stunning aerial views and adventure moments."
+      },
+      {
+        title: "Sun Protection",
+        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
+        description: "Sunscreen, sunglasses, and a hat for sun protection."
+      }
+    ],
+    about: [
+      "Paragliding in Nepal offers an exhilarating experience with incredible views of the Himalayas and lakes. The most popular location for paragliding is Pokhara, where you can enjoy a bird’s-eye view of the serene Phewa Lake and the surrounding mountains. The adventure is suitable for both beginners and experienced flyers."
+    ],
+    highlights: [
+      "Fly over the stunning landscapes of Pokhara.",
+      "Enjoy panoramic views of the Himalayas and Phewa Lake.",
+      "Experience the thrill of tandem paragliding with experienced pilots."
+    ],
+    facilities: [
+      "Experienced and certified paragliding instructors",
+      "Safety briefing and equipment provided",
+      "Transportation to and from the takeoff point"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Paragliding Adventure",
+        details: "Meet at the paragliding center in Pokhara. After a safety briefing and equipment check, take off from the Sarangkot hilltop and enjoy a thrilling paragliding flight. Experience panoramic views of the Himalayas and Phewa Lake. Return to the base after the flight and transfer back to your accommodation."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Wear comfortable, weather-appropriate clothing suitable for the flight. Bring a camera to capture the beautiful views and the excitement of the experience. Ensure you have sun protection, including sunscreen, sunglasses, and a hat. Listen carefully to the safety briefing provided by the instructors and follow all instructions during the flight."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/paragliding-in-nepal"]
+  },
+  Kathmandu_Day_Tour: {
+    id: 47,
+    slug: "kathmandu-day-tour",
+    category: "Sightseeing",
+    img: "https://www.greenvalleynepaltreks.com/images/kathmandu-day-tour.jpg",
+    description: "Explore the cultural and historical highlights of Kathmandu in a day. Visit iconic UNESCO World Heritage Sites, ancient temples, and vibrant local markets.",
+    title: "Kathmandu Day Tour",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1-20",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/images/kathmandu-durbar-square.jpg",
+      "https://www.greenvalleynepaltreks.com/images/swayambhunath-stupa.jpg",
+      "https://www.greenvalleynepaltreks.com/images/pashupatinath-temple.jpg",
+      "https://www.greenvalleynepaltreks.com/images/boudhanath-stupa.jpg",
+      "https://www.greenvalleynepaltreks.com/images/bhaktapur-durbar-square.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1-20",
+      category: "Sightseeing",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Comfortable Walking Shoes",
+        image: "https://www.greenvalleynepaltreks.com/images/walking-shoes.jpg",
+        description: "Wear comfortable shoes as the tour involves walking."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        description: "Capture the beautiful sights and landmarks of Kathmandu."
+      },
+      {
+        title: "Water Bottle",
+        image: "https://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
+        description: "Stay hydrated throughout the day."
+      },
+      {
+        title: "Sun Protection",
+        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
+        description: "Bring sunscreen, sunglasses, and a hat."
+      }
+    ],
+    about: [
+      "The Kathmandu Day Tour provides an opportunity to explore the rich cultural heritage and historical landmarks of Kathmandu in just one day. This tour includes visits to key UNESCO World Heritage Sites, including ancient temples, royal palaces, and vibrant squares, offering a comprehensive overview of the city's history and culture."
+    ],
+    highlights: [
+      "Visit Kathmandu Durbar Square and explore its ancient temples and royal palace.",
+      "Explore the Pashupatinath Temple, a major pilgrimage site for Hindus.",
+      "See the impressive Boudhanath Stupa, one of the largest Buddhist stupas in the world.",
+      "Discover the Swayambhunath Stupa (Monkey Temple) with panoramic views of the city.",
+      "Experience the historic Bhaktapur Durbar Square, known for its traditional architecture and vibrant culture."
+    ],
+    facilities: [
+      "Experienced tour guide",
+      "Transportation during the tour",
+      "Entry fees to the sites"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Kathmandu City Tour",
+        details: "Start your day with a visit to Kathmandu Durbar Square, then head to the Pashupatinath Temple. Continue to the Boudhanath Stupa and later visit the Swayambhunath Stupa. The day concludes with a trip to Bhaktapur Durbar Square, where you can explore the rich cultural heritage and enjoy local cuisine."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Wear comfortable walking shoes and dress appropriately for temple visits. Bring a camera to capture the sights and a water bottle to stay hydrated. Ensure you have sun protection such as sunscreen, sunglasses, and a hat. Be respectful of local customs and traditions, especially when visiting religious sites."
+      ]
+    },
+    path: ["https://www.greenvalleynepaltreks.com/kathmandu-day-tour"]
+  },
+  
+//Wildlife Tours
+  Chitwan_National_Park_Tour: {
+    id: 48,
+    slug: "chitwan-national-park-tour",
+    category: "Wildlife Tour",
+    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    description: "Experience the wildlife and culture of Chitwan National Park with this 3 nights, 4 days tour. Includes jungle safari, cultural performances, and more.",
+    title: "3 Nights 4 Days Chitwan National Park Tour",
+    location: "Chitwan National Park, Nepal",
+    days: "4",
+    people: "1 to 20",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+    ],
+    overView: {
+      duration: "4 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Wildlife Tour",
+      bestSeason: "All Year Round"
+    },
+    equipment: [
+      {
+        title: "Binoculars",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        description: "Used for bird watching and spotting wildlife from a distance."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        description: "To capture the beautiful moments and scenery."
+      },
+      {
+        title: "First Aid Kit",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        description: "Basic medical supplies for minor injuries."
+      },
+      {
+        title: "Insect Repellent",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        description: "Protects against insect bites during jungle walks."
+      }
+    ],
+    about: [
+      "Chitwan National Park is one of the premier wildlife destinations in Nepal, offering a chance to see a variety of animals including Bengal tigers, one-horned rhinoceroses, and over 500 species of birds."
+    ],
+    highlights: [
+      "Jungle safari in Chitwan National Park.",
+      "Cultural performances by the Tharu community.",
+      "Canoe ride on the Rapti River.",
+      "Visit to the Elephant Breeding Center."
+    ],
+    facilities: [
+      "Accommodation in standard hotels or lodges.",
+      "All meals included.",
+      "Guided tours and jungle activities.",
+      "Transportation from Kathmandu to Chitwan and back."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu and transfer to Chitwan.",
+        details: "Drive from Kathmandu to Chitwan. Check-in at the hotel followed by a briefing about the tour. Enjoy a cultural program by the Tharu community in the evening."
+      },
+      {
+        day: 2,
+        description: "Jungle Safari and Wildlife Activities.",
+        details: "Early morning jungle safari to spot wildlife. After breakfast, canoe ride on the Rapti River. Afternoon visit to the Elephant Breeding Center."
+      },
+      {
+        day: 3,
+        description: "Bird Watching and Village Tour.",
+        details: "Early morning bird watching tour. Breakfast followed by a visit to a local village to experience the culture of the Tharu community. Afternoon leisure time."
+      },
+      {
+        day: 4,
+        description: "Return to Kathmandu.",
+        details: "After breakfast, drive back to Kathmandu. End of the tour."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Carry comfortable walking shoes and light clothing for the safari.",
+        "Bring binoculars and a camera for wildlife spotting and photography.",
+        "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects."
+      ]
+    },
+    path: ["Kathmandu", "Chitwan National Park"]
+  },
+  Chitwan_National_Park_Tour_2N3D: {
+    id: 49,
+    slug: "chitwan-national-park-tour-2n3d",
+    category: "Wildlife Tour",
+    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    description: "Explore the diverse wildlife and culture of Chitwan National Park with this 2 nights, 3 days tour. Includes jungle safari, cultural shows, and more.",
+    title: "2 Nights 3 Days Chitwan National Park Tour",
+    location: "Chitwan National Park, Nepal",
+    days: "3",
+    people: "1 to 20",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+    ],
+    overView: {
+      duration: "3 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Wildlife Tour",
+      bestSeason: "All Year Round"
+    },
+    equipment: [
+      {
+        title: "Binoculars",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        description: "Used for bird watching and spotting wildlife from a distance."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        description: "To capture the beautiful moments and scenery."
+      },
+      {
+        title: "First Aid Kit",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        description: "Basic medical supplies for minor injuries."
+      },
+      {
+        title: "Insect Repellent",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        description: "Protects against insect bites during jungle walks."
+      }
+    ],
+    about: [
+      "Chitwan National Park is a renowned wildlife destination in Nepal, home to various species including Bengal tigers, one-horned rhinoceroses, and over 500 species of birds."
+    ],
+    highlights: [
+      "Jungle safari in Chitwan National Park.",
+      "Cultural performances by the Tharu community.",
+      "Canoe ride on the Rapti River.",
+      "Visit to the Elephant Breeding Center."
+    ],
+    facilities: [
+      "Accommodation in standard hotels or lodges.",
+      "All meals included.",
+      "Guided tours and jungle activities.",
+      "Transportation from Kathmandu to Chitwan and back."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu and transfer to Chitwan.",
+        details: "Drive from Kathmandu to Chitwan. Check-in at the hotel followed by a briefing about the tour. Enjoy a cultural program by the Tharu community in the evening."
+      },
+      {
+        day: 2,
+        description: "Jungle Safari and Wildlife Activities.",
+        details: "Early morning jungle safari to spot wildlife. After breakfast, canoe ride on the Rapti River. Afternoon visit to the Elephant Breeding Center."
+      },
+      {
+        day: 3,
+        description: "Bird Watching and Return to Kathmandu.",
+        details: "Early morning bird watching tour. Breakfast followed by departure back to Kathmandu. End of the tour."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Carry comfortable walking shoes and light clothing for the safari.",
+        "Bring binoculars and a camera for wildlife spotting and photography.",
+        "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects."
+      ]
+    },
+    path: ["Kathmandu", "Chitwan National Park"]
+  },
+  Bardia_National_Park_Tour: {
+    id: 50,
+    slug: "bardia-national-park-tour",
+    category: "Wildlife Tour",
+    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    description: "Explore the untouched wilderness of Bardia National Park with this 3 nights, 4 days tour. Includes jungle safari, bird watching, and cultural experiences.",
+    title: "3 Nights 4 Days Bardia National Park Tour",
+    location: "Bardia National Park, Nepal",
+    days: "4",
+    people: "1 to 15",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+    ],
+    overView: {
+      duration: "4 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 15",
+      category: "Wildlife Tour",
+      bestSeason: "All Year Round"
+    },
+    equipment: [
+      {
+        title: "Binoculars",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        description: "Used for bird watching and spotting wildlife from a distance."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        description: "To capture the beautiful moments and scenery."
+      },
+      {
+        title: "First Aid Kit",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        description: "Basic medical supplies for minor injuries."
+      },
+      {
+        title: "Insect Repellent",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        description: "Protects against insect bites during jungle walks."
+      }
+    ],
+    about: [
+      "Bardia National Park is a lesser-known gem in Nepal, offering a pristine environment with rich biodiversity. It is home to Bengal tigers, wild elephants, and a variety of bird species."
+    ],
+    highlights: [
+      "Jungle safari in Bardia National Park.",
+      "Cultural performances by local communities.",
+      "Bird watching and nature walks.",
+      "Visit to crocodile breeding center."
+    ],
+    facilities: [
+      "Accommodation in eco-friendly lodges.",
+      "All meals included.",
+      "Guided tours and jungle activities.",
+      "Transportation from Kathmandu to Bardia and back."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu and transfer to Bardia.",
+        details: "Fly from Kathmandu to Nepalgunj and drive to Bardia National Park. Check-in at the lodge and enjoy a cultural program in the evening."
+      },
+      {
+        day: 2,
+        description: "Jungle Safari and Wildlife Activities.",
+        details: "Early morning jungle safari to spot wildlife. After breakfast, bird watching and nature walk. Afternoon visit to the crocodile breeding center."
+      },
+      {
+        day: 3,
+        description: "Exploring Bardia and Cultural Tour.",
+        details: "Morning jungle activities. After lunch, visit a local village to experience the culture and lifestyle of the indigenous communities."
+      },
+      {
+        day: 4,
+        description: "Return to Kathmandu.",
+        details: "After breakfast, drive to Nepalgunj and fly back to Kathmandu. End of the tour."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Carry comfortable walking shoes and light clothing for the safari.",
+        "Bring binoculars and a camera for wildlife spotting and photography.",
+        "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects."
+      ]
+    },
+    path: ["Kathmandu", "Bardia National Park"]
+  },
+  Bardia_Jungle_Safari_Tour: {
+    id: 51,
+    slug: "bardia-jungle-safari-tour",
+    category: "Wildlife Tour",
+    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    description: "Experience the wild and untouched beauty of Bardia National Park with this comprehensive jungle safari tour. Includes wildlife spotting, cultural tours, and more.",
+    title: "Bardia Jungle Safari Tour",
+    location: "Bardia National Park, Nepal",
+    days: "5",
+    people: "1 to 15",
+    subimages: [
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
+      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+    ],
+    overView: {
+      duration: "5 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 15",
+      category: "Wildlife Tour",
+      bestSeason: "All Year Round"
+    },
+    equipment: [
+      {
+        title: "Binoculars",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        description: "Used for bird watching and spotting wildlife from a distance."
+      },
+      {
+        title: "Camera",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        description: "To capture the beautiful moments and scenery."
+      },
+      {
+        title: "First Aid Kit",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        description: "Basic medical supplies for minor injuries."
+      },
+      {
+        title: "Insect Repellent",
+        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        description: "Protects against insect bites during jungle walks."
+      }
+    ],
+    about: [
+      "Bardia National Park offers an off-the-beaten-path safari experience with diverse wildlife including Bengal tigers, wild elephants, and various bird species."
+    ],
+    highlights: [
+      "Extensive jungle safari in Bardia National Park.",
+      "Cultural performances and village tours.",
+      "Bird watching and nature walks.",
+      "Visit to crocodile breeding center."
+    ],
+    facilities: [
+      "Accommodation in eco-friendly lodges.",
+      "All meals included.",
+      "Guided tours and jungle activities.",
+      "Transportation from Kathmandu to Bardia and back."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu and transfer to Bardia.",
+        details: "Fly from Kathmandu to Nepalgunj and drive to Bardia National Park. Check-in at the lodge and enjoy a cultural program in the evening."
+      },
+      {
+        day: 2,
+        description: "Jungle Safari and Wildlife Activities.",
+        details: "Early morning jungle safari to spot wildlife. After breakfast, bird watching and nature walk. Afternoon visit to the crocodile breeding center."
+      },
+      {
+        day: 3,
+        description: "Exploring Bardia and Cultural Tour.",
+        details: "Morning jungle activities. After lunch, visit a local village to experience the culture and lifestyle of the indigenous communities."
+      },
+      {
+        day: 4,
+        description: "Further Jungle Activities.",
+        details: "Morning and afternoon jungle activities including a jeep safari and guided walks."
+      },
+      {
+        day: 5,
+        description: "Return to Kathmandu.",
+        details: "After breakfast, drive to Nepalgunj and fly back to Kathmandu. End of the tour."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Carry comfortable walking shoes and light clothing for the safari.",
+        "Bring binoculars and a camera for wildlife spotting and photography.",
+        "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects."
+      ]
+    },
+    path: ["Kathmandu", "Bardia National Park"]
+  },
+//Multiple Day Tours
+Nepal_Golden_Triangle_Tour: {
+    id: 52,
+    slug: "nepal-golden-triangle-tour",
+    category: "Touring",
+    img: "https://example.com/nepal-golden-triangle.jpg",
+    description: "Explore the cultural and natural wonders of Nepal, including Kathmandu, Chitwan National Park, and Pokhara on an 8-day guided tour.",
+    title: "Nepal Golden Triangle Tour - 8 Days",
+    location: "Nepal",
+    days: "8 Days",
+    people: "2 to 10",
+    subimages: [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg",
+      "https://example.com/image5.jpg",
+    ],
+    overView: {
+      duration: "8 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "2 to 10",
+      category: "Touring",
+      bestSeason: "All Four Seasons",
+    },
+    equipment: [
+      {
+        title: "Comfortable Clothing",
+        image: "https://example.com/clothing.jpg",
+        description: "Pack lightweight and comfortable clothing suitable for the varied climates of Kathmandu, Chitwan, and Pokhara.",
+      },
+      {
+        title: "Insect Repellent",
+        image: "https://example.com/repellent.jpg",
+        description: "Essential for protection against insects, especially during jungle activities in Chitwan National Park.",
+      },
+      {
+        title: "Camera",
+        image: "https://example.com/camera.jpg",
+        description: "Capture the beautiful landscapes, wildlife, and cultural sites of Nepal.",
+      },
+      {
+        title: "Water Bottle",
+        image: "https://example.com/waterbottle.jpg",
+        description: "Stay hydrated throughout the tour by carrying a refillable water bottle.",
+      },
+    ],
+    about: [
+      "Nepal is a beautiful country located in the heart of the Himalayas, known for its majestic mountains, rich culture, and welcoming people. The Nepal Golden Triangle Tour takes you through Kathmandu, Chitwan, and Pokhara, offering a mix of cultural heritage, wildlife adventure, and stunning natural beauty.",
+    ],
+    highlights: [
+      "Visit Kathmandu, the capital city of Nepal, and explore its many temples, palaces, and world heritage sites.",
+      "Visit the holy Buddhist site of Swayambhunath Stupa, also known as the Monkey Temple.",
+      "Explore Chitwan National Park, a UNESCO World Heritage Site, and go on a jungle safari to spot wildlife like tigers, elephants, and rhinos.",
+      "Experience the local Tharu culture and traditions with a visit to a Tharu village and a cultural show.",
+      "Enjoy an elephant-back safari in Chitwan National Park, a unique way to spot wildlife and explore the jungle.",
+      "Take a nature walk with a local guide in Chitwan National Park and learn about the flora and fauna of the region.",
+      "Visit Pokhara, a picturesque lakeside city with stunning mountain views and a relaxed atmosphere.",
+      "Enjoy a scenic boat ride on Phewa Lake and visit the World Peace Pagoda.",
+      "Witness the sunrise over the Himalayan mountain range from Sarangkot viewpoint in Pokhara.",
+    ],
+    facilities: [
+      "International and Domestic Airport Pickup And Drop off service.",
+      "Green Valley Nepal Trek T-Shirt.",
+      "Medical Kits - Which May Be Necessary In Certain Cases.",
+      "Discounts and Extra services for old customers.",
+      "Arrangement of the best hotels at a reasonable price.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrive in Kathmandu",
+        details: "You will arrive at the Tribhuvan International Airport where a delegate from Green Valley Nepal Treks and Research Hub will greet you. He will take you to the hotel and help you check-in. After getting some rest at your hotel you can come to meet us at our office to discuss the Nepal Golden Triangle Tour Itinerary. To show our appreciation and welcome you to Nepal, the company will organize a welcome dinner for you.",
+      },
+      {
+        day: 2,
+        description: "Sightseeing of Kathmandu",
+        details: "After having a warm breakfast, you will go on sightseeing at UNESCO World Heritage Sites. You will visit places like Pashupatinath Temple, Boudhnath Stupa, Kathmandu Durbar Square, Patan Durbar Square, and Swayambhunath. In the afternoon, you will explore the bustling streets of Thamel.",
+      },
+      {
+        day: 3,
+        description: "Drive from Kathmandu to Chitwan by Private Vehicle",
+        details: "Today, you will drive to Chitwan, the next destination of the Nepal Golden Triangle Tour Package. During the drive, you will get to see beautiful views of hills, rivers, waterfalls, terraced fields, dense forests, and small settlements. Upon reaching Chitwan, you will head to your hotel and rest for the day. In the evening, you will visit Tharu villages where you will get welcomed by Tharu people with cultural dance and delicious food.",
+      },
+      {
+        day: 4,
+        description: "Chitwan Full-Day Excursion",
+        details: "You will wake up early in the morning and go canoeing. During the canoeing, you will get to see several birds and aquatic animals. After that, you will return to your hotel and have breakfast. Later, you will go on a Chitwan Jungle Safari where you will see wildlife like elephants, one-horned rhinos, tigers, peacocks, etc. Later, in the afternoon, you will visit the Elephant breeding center and learn how food is prepared for elephants.",
+      },
+      {
+        day: 5,
+        description: "Drive from Chitwan to Pokhara by Private Vehicle",
+        details: "From Chitwan, you will drive to Pokhara after having breakfast, which will be your final destination to visit as per your Golden Triangle Tour Nepal Itinerary. The drive will again be scenic and present you with wonderful views of lush green hills, rivers, terraced fields, and dense forests. Upon reaching Pokhara, you will move to your hotel. In the evening, you will explore the Lakeside market and do boating on Phewa Lake enjoying a stunning sunset.",
+      },
+      {
+        day: 6,
+        description: "Sunrise Trip to Sarangkot and Pokhara Sightseeing",
+        details: "Today early morning you will drive to Sarangkot for sunrise and drive back to Hotel. After breakfast, you will go on guided Pokhara sightseeing. During the sightseeing, you will visit several popular landmarks like Davis Falls, Gupteshwor Cave, World Peace Pagoda, International Mountain Museum, etc. In the evening, you will have enough time to do the shopping and stroll around the vibrant streets of Pokhara.",
+      },
+      {
+        day: 7,
+        description: "Drive from Pokhara to Kathmandu by Private Vehicle",
+        details: "After having breakfast, you will drive or take a flight back to Kathmandu. The rest of the time will be spent exploring, relaxing, and shopping. In the evening, you will have a farewell dinner organized by the company, which will finally conclude your Nepal Golden Triangle Tour Itinerary successfully.",
+      },
+      {
+        day: 8,
+        description: "Transfer to the Airport as Your Departure Time",
+        details: "One of the members of our company will drop you at the Tribhuvan International airport terminal gate as per your flight departure time and bid last goodbye to you.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Get your travel documents in order: Make sure you have a valid passport and necessary visas for Nepal. If you are traveling from a country with a visa-on-arrival, you can get your visa at Tribhuvan International Airport in Kathmandu. Ensure you also have adequate travel insurance to cover any medical emergencies or trip cancellations.",
+        "Pack smartly: Pack comfortable and lightweight clothing that's suitable for the weather conditions in Nepal. Kathmandu and Pokhara have moderate temperatures throughout the year, while Chitwan can be hot and humid. Don't forget to pack sunscreen, insect repellent, comfortable shoes, and any necessary medication.",
+        "Familiarize yourself with the culture: Nepal has a rich cultural heritage, and it's essential to respect local customs and traditions. Read up on the culture and etiquette of Nepal to avoid offending locals unintentionally.",
+        "Be physically prepared: The tour includes activities like walking tours, jungle safaris, and boat rides. It's essential to be physically fit and ready to handle these activities. If you have any medical conditions, consult your doctor before booking the tour.",
+        "Stay hydrated and healthy: Drink plenty of water and eat healthy meals during the tour. Avoid drinking tap water, and carry a water bottle with you. Be careful with street food, and always choose reputable restaurants.",
+        "Be flexible: The Nepal Golden Triangle Tour follows a strict itinerary, but things can change due to weather conditions or unforeseen circumstances. It's essential to be flexible and keep an open mind to enjoy the tour fully.",
+      ],
+    },
+    path: ["Nepal", "Kathmandu", "Chitwan", "Pokhara"],
+  },
+Nepal_Tour_Packages_from_Dhaka_Bangladesh: {
+    id: 53,
+    slug: "nepal-tour-packages-dhaka",
+    category: "Tour Package",
+    img: "",
+    description: "Experience the beauty of Nepal with this 4-day tour package starting from Dhaka, Bangladesh. Explore Kathmandu, witness stunning sunrises in Nagarkot, and immerse in the cultural heritage of Bhaktapur.",
+    title: "Nepal Tour Packages from Dhaka Bangladesh - 4 Days",
+    location: "Nepal",
+    days: "4",
+    people: "1 to 50",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "4 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 50",
+      category: "Tour Package",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Comfortable Clothing",
+        image: "",
+        description: "Wear lightweight and comfortable clothing suitable for mild to moderate climates.",
+      },
+      {
+        title: "Travel Documents",
+        image: "",
+        description: "Carry a valid passport, visa, and travel insurance documents.",
+      },
+      {
+        title: "Sunscreen and Hat",
+        image: "",
+        description: "Protect yourself from the sun with a high-SPF sunscreen and a wide-brimmed hat.",
+      },
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture the stunning landscapes and cultural sites of Nepal.",
+      },
+    ],
+    about: [
+      "The Nepal Tour Packages from Dhaka Bangladesh is a 4-day journey designed to showcase the highlights of Nepal for travelers from Bangladesh. It combines cultural exploration with natural beauty, offering a quick yet comprehensive glimpse of Nepal's treasures.",
+    ],
+    highlights: [
+      "Enjoy a welcome cocktail supper upon arrival in Kathmandu.",
+      "Marvel at the panoramic view of the historic Kathmandu Valley.",
+      "Witness a beautiful morning view from Nagarkot, perfect for seeing the Himalayas.",
+      "Explore Bhaktapur Durbar Square, a historic royal palace complex.",
+      "Visit Chandragiri Hills Station for expansive vistas of the Kathmandu Valley and the Himalayan peaks.",
+      "Ride the cable car to Bhaleshwor Mahadev Temple from Chandragiri Hill.",
+      "Visit the ancient Swayambhunath Stupa, a spiritual temple complex.",
+      "Enjoy a farewell dinner to conclude the 4-day tour.",
+    ],
+    facilities: [
+      "3-star Hotel Accommodation",
+      "Private and Public Group Options",
+      "Meals: Breakfast",
+      "Local Transportation",
+      "Guided Tours",
+      "Welcome Cocktail Dinner",
+      "Farewell Dinner",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Upon arrival at Tribhuvan International Airport, a representative from Green Valley Nepal Treks will greet you and escort you to your hotel. Enjoy a welcome cocktail dinner hosted by Green Valley Nepal Treks.",
+      },
+      {
+        day: 2,
+        description: "Nagarkot Sunrise View and Bhaktapur Durbar Square",
+        details: "Start your day with a sunrise view in Nagarkot, known for its panoramic Himalayan views. Then visit Bhaktapur Durbar Square, a city rich in medieval art and architecture. Spend the evening shopping and enjoying the vibrant atmosphere of Thamel.",
+      },
+      {
+        day: 3,
+        description: "Chandragiri Hills and Swayambhunath Stupa",
+        details: "Visit Chandragiri Hills for breathtaking views of the Kathmandu Valley and distant Himalayan peaks. Afterward, explore the spiritual Swayambhunath Stupa, also known as the Monkey Temple. In the evening, enjoy a farewell dinner with Green Valley Nepal Treks.",
+      },
+      {
+        day: 4,
+        description: "Final Departure",
+        details: "Conclude your Nepal tour with breakfast and transfer to Tribhuvan International Airport for your departure. Safe travels!",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Ensure all travel documents are valid, including passport, visa, and travel insurance.",
+        "Pack lightweight clothing suitable for moderate climates, along with essentials like sunscreen, a hat, and comfortable shoes.",
+        "Familiarize yourself with Nepalese culture and customs to enhance your travel experience.",
+        "Stay hydrated and consume healthy meals to maintain energy levels during the tour.",
+        "Keep an open mind and flexibility for any changes in itinerary due to weather or unforeseen circumstances.",
+      ],
+    },
+    path: ["Kathmandu", "Nagarkot", "Bhaktapur", "Chandragiri Hills", "Swayambhunath"],
+},
+Glimpse_Of_Nepal_Tour: {
+    id: 54,
+    slug: "glimpse-of-nepal-tour",
+    category: "Tour",
+    img: "glimpse_of_nepal.jpg",
+    description: "Explore the best of Nepal with this 5-day tour, including Kathmandu and Nagarkot.",
+    title: "Glimpse of Nepal Tour - 5 Days",
+    location: "Nepal",
+    days: "5 Days",
+    people: "2 to 20",
+    subimages: [
+      "kathmandu_durbar_square.jpg",
+      "nagarkot_view.jpg",
+      "bhaktapur_durbar_square.jpg",
+      "pashupatinath_temple.jpg",
+      "swayambhunath_stupa.jpg"
+    ],
+    overView: {
+      duration: "5 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "2 to 20",
+      category: "Tour",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Camera",
+        image: "camera.jpg",
+        description: "To capture the stunning landscapes and cultural attractions.",
+      },
+      {
+        title: "Comfortable Walking Shoes",
+        image: "walking_shoes.jpg",
+        description: "For exploring the historical sites and city streets.",
+      },
+      {
+        title: "Warm Clothing",
+        image: "warm_clothing.jpg",
+        description: "For chilly mornings and evenings, especially in Nagarkot.",
+      },
+      {
+        title: "Travel Adapter",
+        image: "travel_adapter.jpg",
+        description: "To charge your electronic devices during the trip.",
+      },
+    ],
+    about: [
+      "Nepal is a beautiful nation recognized for its breathtaking natural beauty, vibrant culture, and outdoor activities.",
+      "The Glimpse of Nepal Tour offers a look at the best of Nepal, including its major tourist attractions, local culture, and traditions.",
+      "This tour includes visits to UNESCO World Heritage Sites and provides a chance to experience both rural and urban Nepal.",
+      "The tour offers opportunities to try local Nepali cuisine and experience traditional music, dance, and festivals."
+    ],
+    highlights: [
+      "Visit Kathmandu and explore its many temples, palaces, and world heritage sites.",
+      "Learn about Nepali culture, customs, and history.",
+      "Discover UNESCO World Heritage Sites, such as Swayambhunath Temple, Boudhanath Stupa, and Kathmandu Durbar Square.",
+      "Visit the holy Pashupatinath Temple and experience the Newari lifestyle.",
+      "Enjoy sunrise and sunset views over the Himalayas from Nagarkot."
+    ],
+    facilities: [
+      "International and Domestic Airport Pickup And Drop off service",
+      "Green Valley Nepal Trek T-Shirt",
+      "Medical Kits - Which May Be Necessary In Certain Cases",
+      "Arrangement of the best hotels at a reasonable price",
+      "Delicious Nepalese cuisine"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu (1400m)",
+        details: "Arrive at Tribhuvan International Airport, transfer to hotel, and start a city tour of Kathmandu valley.",
+      },
+      {
+        day: 2,
+        description: "Drive from Kathmandu (1400m) to Nagarkot (2175m)",
+        details: "Visit Bhaktapur Durbar Square, drive to Nagarkot for a stunning mountain view and sunset.",
+      },
+      {
+        day: 3,
+        description: "Drive from Nagarkot (2175m) to Kathmandu (1400m)",
+        details: "Experience sunrise in Nagarkot, visit Kirtipur, and return to Kathmandu for dinner.",
+      },
+      {
+        day: 4,
+        description: "Pilgrimage Tour of Kathmandu (1400m)",
+        details: "Visit Pashupatinath Temple and Boudhanath Stupa, explore Kathmandu's religious sites.",
+      },
+      {
+        day: 5,
+        description: "Final Departure",
+        details: "Explore Thamel, check-out, and transfer to the airport for departure.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Check visa requirements and apply for a tourist visa if necessary.",
+        "Consult with a doctor regarding any health concerns or medications.",
+        "Pack appropriate clothing for varied climates, including warm clothes and rain gear.",
+        "Learn about Nepal's culture and customs, and try to learn some basic Nepali phrases.",
+        "Stay hydrated and healthy during your trip by drinking bottled water and using hand sanitizer."
+      ],
+    },
+    path: ["nepal-tours/glimpse-of-nepal-tour"],
+},
+Nepal_Tour_Package_From_India: {
+    id: 55,
+    slug: "nepal-tour-package-from-india",
+    category: "Tour",
+    img: "nepal_tour_package.jpg",
+    description: "Experience the best of Nepal with this 5-day tour package from India, exploring Kathmandu and Pokhara.",
+    title: "Nepal Tour Package from India - 5 Days",
+    location: "Nepal",
+    days: "5 Days",
+    people: "2 to 20",
+    subimages: [
+      "pashupatinath_temple.jpg",
+      "everest_flight.jpg",
+      "pokhara.jpg",
+      "sarangkot.jpg",
+      "chandragiri_hills.jpg"
+    ],
+    overView: {
+      duration: "5 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "2 to 20",
+      category: "Tour",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Camera",
+        image: "camera.jpg",
+        description: "To capture the stunning landscapes and cultural attractions.",
+      },
+      {
+        title: "Comfortable Walking Shoes",
+        image: "walking_shoes.jpg",
+        description: "For exploring the historical sites and city streets.",
+      },
+      {
+        title: "Warm Clothing",
+        image: "warm_clothing.jpg",
+        description: "For chilly mornings and evenings, especially in the hills.",
+      },
+      {
+        title: "Travel Adapter",
+        image: "travel_adapter.jpg",
+        description: "To charge your electronic devices during the trip.",
+      },
+    ],
+    about: [
+      "Nepal is a landlocked country between Tibet and India that contains the secrets of nature, humanity, and the mountains.",
+      "The birthplace of Buddha and the sanctuary of revered temples give this nation a powerful atmosphere.",
+      "The Nepal Tour Package from India includes visits to UNESCO World Heritage Sites, stunning mountain vistas, and vibrant cities.",
+      "This tour offers a perfect blend of adventure, culture, and natural beauty for travelers of all interests."
+    ],
+    highlights: [
+      "Attend the evening Aarati at Pashupatinath Temple by the Bagmati River.",
+      "Experience breathtaking views on an Everest Flight excursion.",
+      "Visit Budhanilkantha to see Nepal's largest stone sculpture of Lord Vishnu.",
+      "Enjoy Kathmandu's diversity, which accommodates every type of traveler.",
+      "Experience a picturesque flight between Pokhara and Kathmandu.",
+      "Enjoy Pokhara's natural beauty, including mountain ranges, hills, and lakes.",
+      "Explore Tal Barahi Temple on a small island and go boating in Phewa Lake.",
+      "Witness sunrise from the Sarangkot viewpoint.",
+      "Visit Pokhara Valley attractions like Bindabasini Temple, Gupteshwor Mahadev Temple, Devis Fall, and World Peace Pagoda.",
+      "Explore Chandragiri Hills with its cable car, eateries, and stunning views."
+    ],
+    facilities: [
+      "International and Domestic Airport Pickup and Drop-off service",
+      "Green Valley Nepal Trek T-Shirt",
+      "Medical Kits - Which May Be Necessary In Certain Cases",
+      "Arrangement of the best hotels at a reasonable price",
+      "Delicious Nepalese cuisine"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Arrive at Tribhuvan International Airport, transfer to hotel, and attend the evening Aarati at Pashupatinath Temple.",
+      },
+      {
+        day: 2,
+        description: "Mt. Everest Flight, Kathmandu Tour, then Flight to Pokhara",
+        details: "Take a Mount Everest flight in the morning, visit Budhanilkantha, and fly to Pokhara. Free time to explore Lakeside in Pokhara.",
+      },
+      {
+        day: 3,
+        description: "Sarangkot Sunrise View with Pokhara Valley Sightseeing",
+        details: "Witness sunrise from Sarangkot, visit Bindabasini Temple, and explore Pokhara Valley sites like Gupteshwor Mahadev Cave and World Peace Pagoda.",
+      },
+      {
+        day: 4,
+        description: "Phewa Lake Boating with Pumdikot Shiva Statue Exploration, then Flight to Kathmandu",
+        details: "Go boating on Phewa Lake, visit Tal Barahi Temple, explore Pumdikot Shiva Statue, and fly back to Kathmandu.",
+      },
+      {
+        day: 5,
+        description: "Chandragiri Hills Tour then Final Departure",
+        details: "Visit Chandragiri Hills for stunning views, explore Bhaleshwor Mahadev Temple, and enjoy a farewell dinner before departure.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Check visa requirements and apply for a tourist visa if necessary.",
+        "Consult with a doctor regarding any health concerns or medications.",
+        "Pack appropriate clothing for varied climates, including warm clothes and rain gear.",
+        "Learn about Nepal's culture and customs, and try to learn some basic Nepali phrases.",
+        "Stay hydrated and healthy during your trip by drinking bottled water and using hand sanitizer."
+      ],
+    },
+    path: ["nepal-tours/nepal-tour-package-from-india"],
+},
+buddhist_pilgrimage_tour_nepal: {
+      "id": 56,
+      "slug": "buddhist-pilgrimage-tour-nepal",
+      "category": "Cultural Tour",
+      "img": "main_image.jpg",
+      "description": "Explore the most significant Buddhist pilgrimage sites in Nepal over 8 days, including visits to sacred temples and monasteries, and immerse yourself in the rich cultural heritage of Nepal.",
+      "title": "Buddhist Pilgrimage Tour in Nepal – 8 Days",
+      "location": "Nepal",
+      "days": "8 Days",
+      "people": "2 to 8",
+      "subimages": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg",
+        "image5.jpg"
+      ],
+      "overView": {
+        "duration": "8 Days",
+        "startingPoint": "Kathmandu",
+        "endingPoint": "Kathmandu",
+        "peoples": "2 to 8",
+        "category": "Tour",
+        "bestSeason": "All Four Seasons"
+      },
+      "equipment": [
+        {
+          "title": "Comfortable Shoes",
+          "image": "shoes.jpg",
+          "description": "Suitable for walking and light trekking."
+        },
+        {
+          "title": "Sunscreen",
+          "image": "sunscreen.jpg",
+          "description": "Protection against the sun during outdoor visits."
+        },
+        {
+          "title": "Hat",
+          "image": "hat.jpg",
+          "description": "To protect from sun exposure during the day."
+        },
+        {
+          "title": "Reusable Water Bottle",
+          "image": "water_bottle.jpg",
+          "description": "Stay hydrated while reducing plastic waste."
+        }
+      ],
+      "about": [
+        "Nepal, a country rich in spiritual heritage, offers a profound experience for Buddhist pilgrims seeking to connect with the history and teachings of Buddhism. This 8-day tour takes you to some of the most important Buddhist sites, including Swayambhunath, Boudhanath, Kopan Monastery, and Lumbini, the birthplace of Buddha. Engage with local communities, participate in spiritual practices, and enjoy the stunning natural landscapes of Nepal."
+      ],
+      "highlights": [
+        "Visit Swayambhunath, the ancient and revered Monkey Temple.",
+        "Explore Boudhanath, one of the largest stupas in the world.",
+        "Learn about Tibetan Buddhism at Kopan Monastery.",
+        "Discover Lumbini, the birthplace of Buddha and a UNESCO World Heritage Site.",
+        "Experience the serene beauty of Namobuddha and Patan City.",
+        "Participate in meditation and prayer at sacred sites.",
+        "Enjoy stunning views of the Himalayas and Nepal's diverse landscapes."
+      ],
+      "facilities": [
+        "International and domestic airport pickup and drop-off service.",
+        "Twin sharing room with attached bath and AC.",
+        "7 breakfasts and a farewell dinner.",
+        "Green Valley Nepal Trek T-shirt.",
+        "Medical kits for emergencies.",
+        "Experienced guides and support staff."
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Kathmandu",
+          "details": "Our travel representative will greet you at Tribhuvan International Airport and assist with hotel check-in. The remainder of the day is free for leisure. You can meet us at our office to discuss the itinerary."
+        },
+        {
+          "day": 2,
+          "description": "Full Day Sightseeing of World Heritage Cultural Sites",
+          "details": "Visit Swayambhunath Stupa, Boudhanath Stupa, and Kopan Monastery. Enjoy stunning views of Kathmandu, learn about Tibetan Buddhism, and experience the peaceful atmosphere."
+        },
+        {
+          "day": 3,
+          "description": "Sightseeing Patan City and Namobuddha",
+          "details": "Explore Patan City, known for its rich history and beautiful temples. Visit Namobuddha, a sacred site where Buddha is believed to have offered his body to a starving tigress."
+        },
+        {
+          "day": 4,
+          "description": "Flight from Kathmandu to Bhairahawa, then drive to Lumbini",
+          "details": "Fly to Bhairahawa and drive to Lumbini, the birthplace of Buddha. Check in at the hotel and prepare for a short trip to Lumbini."
+        },
+        {
+          "day": 5,
+          "description": "Sightseeing at Lumbini, Explore the Monasteries, Temples, and Lakes",
+          "details": "Visit the Maya Devi Temple, Ashoka Pillar, and explore international monasteries and temples. Enjoy the peaceful surroundings and engage in meditation."
+        },
+        {
+          "day": 6,
+          "description": "Day tour to Tilaurakot",
+          "details": "Travel to Tilaurakot, the historical site where Buddha lived for 29 years. Visit Gotihawa, the birthplace of Karkuchanda Buddha."
+        },
+        {
+          "day": 7,
+          "description": "Travel from Lumbini to Kathmandu, then visit Pharping Monastery",
+          "details": "Return to Kathmandu and visit Pharping Monastery. Explore the village, interact with locals, and participate in religious activities."
+        },
+        {
+          "day": 8,
+          "description": "Departure or Onward to Next Destination",
+          "details": "A shuttle will take you to Tribhuvan International Airport for your departure or onward journey."
+        }
+      ],
+      "HowToPrepare": {
+        "paragraph": [
+          "Research the pilgrimage sites and their significance.",
+          "Check visa requirements and ensure your passport is up-to-date.",
+          "Plan your itinerary with a reputable tour operator.",
+          "Pack comfortable, breathable clothing suitable for the climate.",
+          "Consult with your doctor for necessary vaccinations and medications.",
+          "Be respectful of local customs, dress modestly, and learn basic phrases in the local language.",
+          "Be open-minded and receptive to new experiences."
+        ]
+      },
+      "path": ["buddhist-pilgrimage-tour"]
+},
+Nepal_Beauty_Tour_6_Days: {
+        id: 57,
+        slug: "nepal-beauty-tour-6-days",
+        category: "Tour",
+        img: "",
+        description: "Explore the natural and cultural beauty of Nepal in a 6-day tour including Kathmandu, Pokhara, and Nagarkot.",
+        title: "Nepal Beauty Tour - 6 Days",
+        location: "Nepal",
+        days: "6 Days",
+        people: "2 to 15",
+        subimages: [
+          "",
+          "",
+          "",
+          "",
+          "",
+        ],
+        overView: {
+          duration: "6 Days",
+          startingPoint: "Kathmandu",
+          endingPoint: "Kathmandu",
+          peoples: "2 to 15",
+          category: "Tour",
+          bestSeason: "Whole Year",
+        },
+        equipment: [
+          {
+            title: "Travel Visa",
+            image: "",
+            description: "Ensure you have a travel visa, obtainable upon arrival or from a Nepalese embassy.",
+          },
+          {
+            title: "Travel Insurance",
+            image: "",
+            description: "Essential for covering emergency medical expenses and evacuation, especially for adventure activities.",
+          },
+          {
+            title: "Cash",
+            image: "",
+            description: "Bring Nepalese rupees as credit cards are not widely accepted.",
+          },
+          {
+            title: "Reusable Water Bottle",
+            image: "",
+            description: "Stay hydrated, especially during treks and physical activities.",
+          },
+        ],
+        about: [
+          "Nepal is a landlocked country located in South Asia, known for its stunning natural beauty, diverse culture, and rich history. The Nepal Beauty Tour is an excellent way to explore the country's major attractions, including Kathmandu, Pokhara, and Nagarkot, offering a blend of cultural exploration, adventure activities, and breathtaking natural landscapes."
+        ],
+        highlights: [
+          "Explore the ancient city of Kathmandu and its UNESCO World Heritage Sites, including Swayambhunath Stupa, Boudhanath Stupa, and Pashupatinath Temple.",
+          "Enjoy panoramic views of the Himalayas from Nagarkot.",
+          "Experience the natural beauty of Pokhara, go boating on Phewa Lake, visit the International Mountain Museum, and hike to the Peace Pagoda.",
+          "Engage in adventure activities such as white water rafting, bungee jumping, and paragliding.",
+          "Experience the warmth and hospitality of the Nepali people.",
+          "Visit vibrant markets, ancient temples, and monasteries throughout the country."
+        ],
+        facilities: [
+          "International and Domestic Airport Pickup And Drop off service",
+          "Green Valley Nepal Trek T-Shirt",
+          "Medical Kits",
+          "Discounts and Extra services for old customers",
+          "Arrangement of the best hotels at reasonable prices"
+        ],
+        itinerary: [
+          {
+            day: 1,
+            description: "Arrival in Kathmandu",
+            details: "Arrive at Tribhuwan International Airport. Check-in at the hotel in Thamel and enjoy a welcome dinner.",
+          },
+          {
+            day: 2,
+            description: "Kathmandu Valley Sightseeing",
+            details: "Visit Pashupatinath Temple, Boudhanath Stupa, Swayambhunath Stupa, and Kathmandu Durbar Square.",
+          },
+          {
+            day: 3,
+            description: "Drive from Kathmandu to Pokhara",
+            details: "Depart for Pokhara with views of the Manakamana Temple and Trishuli River along the way. Arrive and explore Phewa Lake.",
+          },
+          {
+            day: 4,
+            description: "Pokhara Sightseeing",
+            details: "Visit Sarangkot, Bindabasini, Seti Gorge, Mahendra Cave, International Mountain Museum, and World Peace Pagoda.",
+          },
+          {
+            day: 5,
+            description: "Drive from Pokhara to Kathmandu and then Nagarkot",
+            details: "Drive back to Kathmandu, visit Bhaktapur Durbar Square, and proceed to Nagarkot for sunset views of the Himalayas.",
+          },
+          {
+            day: 6,
+            description: "Drive from Nagarkot to Kathmandu for Departure",
+            details: "Witness the sunrise over the Himalayas, return to Kathmandu, enjoy a final lunch, and depart from Nepal.",
+          }
+        ],
+        HowToPrepare: {
+          paragraph: [
+            "Get a travel visa, check the weather forecast, pack appropriately, and ensure you have travel insurance. Bring cash and stay hydrated during your trip.",
+            "Respect the environment by sticking to designated trails, not littering, and avoiding disturbing wildlife.",
+            "Be ready for a mix of cultural exploration, adventure activities, and breathtaking natural landscapes.",
+          ]
+        },
+        path: [
+          "Explore the vibrant culture of Kathmandu.",
+          "Experience the natural beauty of Pokhara.",
+          "Witness stunning mountain views from Nagarkot.",
+        ],
+},    
+Pokhara_Valley_Tour: {
+        id: 58,
+        slug: "pokhara-valley-tour",
+        category: "Sightseeing",
+        img: "pokhara-valley.jpg",
+        description: "Explore the stunning landscapes and rich culture of the Pokhara Valley in Nepal over a two-day sightseeing tour.",
+        title: "Pokhara Valley Tour - 2 Days",
+        location: "Pokhara, Nepal",
+        days: "2",
+        people: "2 to 20",
+        subimages: [
+          "phewa-lake.jpg",
+          "sarangkot-view.jpg",
+          "world-peace-pagoda.jpg",
+          "bindabasini-temple.jpg",
+          "devis-falls.jpg",
+        ],
+        overView: {
+          duration: "2 Days",
+          startingPoint: "Pokhara",
+          endingPoint: "Pokhara",
+          peoples: "2 to 20",
+          category: "Sightseeing",
+          bestSeason: "All Four Seasons",
+        },
+        equipment: [
+          {
+            title: "Comfortable Clothing",
+            image: "clothing.jpg",
+            description: "Wear comfortable, weather-appropriate clothing suitable for hiking and sightseeing.",
+          },
+          {
+            title: "Sturdy Footwear",
+            image: "footwear.jpg",
+            description: "Bring sturdy footwear for walking and hiking on uneven terrain.",
+          },
+          {
+            title: "Sunscreen and Insect Repellent",
+            image: "sunscreen.jpg",
+            description: "Protect yourself from the sun and insects with sunscreen and repellent.",
+          },
+          {
+            title: "Camera",
+            image: "camera.jpg",
+            description: "Capture the beautiful landscapes and cultural landmarks with a camera.",
+          },
+        ],
+        about: [
+          "The Pokhara Valley Tour offers a unique experience of exploring the natural beauty and cultural heritage of Nepal. Visitors can enjoy stunning views of the Annapurna Mountain Range and the beautiful Phewa Lake while exploring the rich history and traditions of the region.",
+          "The tour is suitable for a wide range of travelers, including nature lovers, adventure seekers, and culture enthusiasts. It offers an opportunity to connect with the local people and learn about their way of life.",
+        ],
+        highlights: [
+          "Enjoy stunning views of the Annapurna Mountain Range, including Annapurna I, II, III, IV, and South, and the beautiful Phewa Lake.",
+          "Explore the natural beauty of the Pokhara Valley through hiking, or paragliding, and experience the thrill of adventure activities like zip-lining and bungee jumping.",
+          "Visit the famous Davis Falls and the Gupteshwor Mahadev Cave.",
+          "Witness the sunrise over the Himalayas from the Sarangkot viewpoint.",
+          "Learn about the rich culture and traditions of Nepal through visits to local villages, museums, and temples.",
+          "Experience the hospitality of the Nepalese people through homestays, local cuisine, and cultural performances.",
+          "Take a boat ride on Phewa Lake and enjoy the vibrant nightlife of Pokhara.",
+          "Visit the World Peace Pagoda, a symbol of peace and tranquility.",
+        ],
+        facilities: [
+          "International and Domestic Airport Pickup and Drop off service",
+          "Green Valley Nepal Trek T-Shirt",
+          "Medical Kits - Which May Be Necessary In Certain Cases",
+          "Discounts and Extra services for old customers",
+          "Arrangement of the best hotels at reasonable prices",
+        ],
+        itinerary: [
+          {
+            day: 1,
+            description: "Explore Phewa Lake, Barahi Temple, Davis Falls, Gupteshwor Cave, and World Peace Pagoda.",
+            details: "Begin the tour with a boat ride on Phewa Lake, visit the Barahi Temple, explore the mysterious Gupteshwor Cave, admire Davis Falls, and enjoy panoramic views from the World Peace Pagoda.",
+          },
+          {
+            day: 2,
+            description: "Visit Sarangkot, Bindabasini Temple, Old Bazaar, Museums, Seti Gandaki Gorge, and Mahendra Cave.",
+            details: "Witness the sunrise from Sarangkot, explore the historical Bindabasini Temple, stroll through the Old Bazaar, learn about local history at museums, and discover the natural wonders of Seti Gandaki Gorge and Mahendra Cave.",
+          },
+        ],
+        HowToPrepare: {
+          paragraph: [
+            "Before your trip, research the Pokhara Valley region to familiarize yourself with its geography, weather, and culture. This will help you pack accordingly and be prepared for any cultural differences you may encounter.",
+            "Decide which activities you want to participate in and plan your itinerary accordingly. Consider the time of year, the duration of your trip, and your fitness level when planning your itinerary.",
+            "Pack comfortable, weather-appropriate clothing, sturdy footwear, and any necessary gear for your chosen activities. Consider packing a first-aid kit, insect repellent, and sunscreen to ensure that you are prepared for any situation.",
+            "Purchase travel insurance before your trip to ensure that you are covered in case of any unexpected emergencies or incidents.",
+            "Check with your healthcare provider to ensure that you are up-to-date on any necessary vaccinations or health precautions for travel to Nepal.",
+            "Exchange your currency for Nepali rupees before your trip or withdraw cash from ATMs in Nepal. Make sure to carry enough cash for your trip, as credit cards may not be accepted in all locations.",
+            "Research the local customs and traditions before your trip to ensure that you are respectful of the local culture. Dress modestly, remove your shoes when entering temples or homes, and ask permission before taking photographs.",
+            "Be aware of your surroundings and take necessary safety precautions to ensure that you stay safe during your journey. Avoid walking alone at night, carry a copy of your passport and other important documents, and be cautious when using public transportation.",
+          ],
+        },
+        path: [
+          "phewa-lake-path.jpg",
+          "sarangkot-path.jpg",
+          "world-peace-pagoda-path.jpg",
+          "bindabasini-temple-path.jpg",
+          "devis-falls-path.jpg",
+        ],
+},
+Nepal_Adventure_Tour: {
+        id: 59,
+        slug: "nepal-adventure-tour",
+        category: "Tour",
+        img: "nepal_adventure_tour_main_image.jpg",
+        description: "Explore the cultural and natural beauty of Nepal with this 8-day adventure tour.",
+        title: "Nepal Adventure Tour - 8 Days",
+        location: "Nepal",
+        days: "8",
+        people: "2 to 20",
+        subimages: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+          "image5.jpg",
+        ],
+        overView: {
+          duration: "8 Days",
+          startingPoint: "Kathmandu",
+          endingPoint: "Kathmandu",
+          peoples: "2 to 20",
+          category: "Easy",
+          bestSeason: "Whole Year",
+        },
+        equipment: [
+          {
+            title: "Trekking Shoes",
+            image: "trekking_shoes.jpg",
+            description: "Comfortable and sturdy shoes suitable for walking and trekking.",
+          },
+          {
+            title: "Sunscreen",
+            image: "sunscreen.jpg",
+            description: "Essential for protection against the sun during outdoor activities.",
+          },
+          {
+            title: "Water Bottle",
+            image: "water_bottle.jpg",
+            description: "Reusable water bottle to stay hydrated throughout the tour.",
+          },
+          {
+            title: "Camera",
+            image: "camera.jpg",
+            description: "Capture the beautiful moments and stunning landscapes.",
+          },
+        ],
+        about: [
+          "Nepal, the land of the Himalayas, offers an unforgettable experience to its visitors. The Nepal Adventure Tour is the finest way to explore the natural as well as cultural galore of Nepal. People travel to Nepal for various reasons, and touring is one of the pleasant activities that many do while in Nepal. Nepal Adventure Tour covers some of the most beautiful destinations in Nepal, including Kathmandu, Chitwan, Pokhara, and Nagarkot. Each destination has its unique features that make the tour a memorable one."
+        ],
+        highlights: [
+          "Visit the UNESCO World Heritage Sites in Kathmandu, including Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Stupa.",
+          "Enjoy a scenic drive to Nagarkot, a hill station known for its panoramic views of the Himalayan range.",
+          "Take a jungle safari in Chitwan National Park, a UNESCO World Heritage Site and home to endangered species like Bengal tigers and one-horned rhinoceroses.",
+          "Experience Nepali culture through a traditional dance and music performance, and indulge in authentic Nepali cuisine.",
+          "Enjoy a boat ride on Phewa Lake in Pokhara and witness the stunning reflection of the Annapurna range on the lake.",
+          "Witness the beautiful sunrise over the Himalayas from Nagarkot or Sarangkot viewpoint.",
+          "Explore the quaint streets and markets of Kathmandu and Pokhara, and shop for souvenirs and handicrafts.",
+          "Explore the ancient city of Bhaktapur, also known as the 'City of Devotees,' and marvel at its well-preserved temples, palaces, and courtyards.",
+          "Visit the International Mountain Museum in Pokhara and learn about the history and culture of Nepal's mountain regions.",
+          "Visit Begnas Lake in Pokhara and enjoy a peaceful boat ride or fishing experience.",
+          "Learn about the traditional farming practices and rural lifestyle of Nepal by visiting a local village and interacting with the locals."
+        ],
+        facilities: [
+          "International and Domestic Airport Pickup And Drop off service",
+          "Green Valley Nepal Trek T-Shirt",
+          "Medical Kits - Which May Be Necessary In Certain Cases.",
+          "Discounts and Extra services for old customers",
+          "Arrangement of the best hotels at a reasonable price"
+        ],
+        itinerary: [
+          {
+            day: 1,
+            description: "Arrival in Kathmandu (1400m)",
+            details: "At Tribhuwan International Airport, our airport representative will receive you. He will provide a private tourist vehicle transfer to your accommodation and assist you with check-in. The tour guide will give you a quick overview of the itinerary for the Nepal Adventure Tour after serving you a welcome drink when you arrive at the hotel. A welcome dinner will be served at a nearby Nepalese restaurant organized by Green Valley Nepal Treks.",
+          },
+          {
+            day: 2,
+            description: "Kathmandu Valley Sightseeing",
+            details: "As part of your Nepal Adventure Tour Itinerary, you will explore the UNESCO World Heritage Sites in the area surrounding Kathmandu Valley today. This comprises the Pashupatinath Temple, Boudhanath Stupa, Swayambhunath Stupa, and Kathmandu Durbar Square. After breakfast, your trip will get underway.",
+          },
+          {
+            day: 3,
+            description: "Drive from Kathmandu (1400m) to Chitwan (197m)",
+            details: "You will depart for your next stop on the Nepal Adventure Tour Package, Chitwan, after breakfast. Mountains, rivers, and terraced farms will all be seen as you travel along the picturesque route. Depending on the amount of traffic and the state of the roads, it will take 6 to 7 hours to get to Chitwan. Lunch has been prepared at the resort in Chitwan, where you will check in. The day's activities include an excursion to a national park, a canoe trip to see crocodiles along the Rapti River and a variety of birds along the route, a visit to an elephant breeding facility, and others. You may go shopping in the nearby market in the evening. You will return to the resort for supper following a late-night Tharu Culture Dancing performance presented by the nearby Tharu community.",
+          },
+          {
+            day: 4,
+            description: "Drive from Chitwan (197m) to Pokhara (822m)",
+            details: "After breakfast, the Nepal Adventure Tour will leave Chitwan and travel toward Pokhara. It will be a delightful 5- to 6-hour journey over the stunning landscape. You may see nearby farmers working in their fields and gain insight into how people live their everyday lives. You will check into a hotel by a lake when you get there. You may wander around Phewa Lake and take in Pokhara's calm atmosphere. The hotel will be where you will enjoy dinner and stay the night.",
+          },
+          {
+            day: 5,
+            description: "Pokhara Valley Exploration",
+            details: "Your trip to the Pokhara valley will start right after breakfast. The Seti Gorge, Devis Fall, International Mountain Museum, Phewa Lake, and Tibetan Refugee Camp are just a few of the places to see in the Pokhara Valley. It is planned to spend an hour boating in Phewa Lake while admiring the stunning Machhapuchhre and other mountain ranges as a backdrop. You can relax after eating lunch at a nearby restaurant. You may enjoy Pokhara's nightlife as well as shopping on its streets in the evening. In a nearby restaurant by the lake, dinner will be served.",
+          },
+          {
+            day: 6,
+            description: "Drive from Pokhara (822m) to Nagarkot (2175m)",
+            details: "Your Nepal Adventure Tour Itinerary will take the same route back to Kathmandu after breakfast. On the way, you will stop for lunch. After taking a short break upon arrival in Kathmandu, you will be ready to move toward Bhaktapur Durbar Square. Every traveler is mesmerized by Bhaktapur's stone-paved streets, ancient homes, and residents' uncomplicated way of life. A few sites worth seeing are the Golden Gate, Nyatapola Temple, Dattatreya Temple, and the Palace with 55 Windows. Bhaktapur is renowned for its curd (Juju Dhau), the pottery produced in the area around the pottery plaza, and regionally produced handcrafted items.",
+          },
+          {
+            day: 7,
+            description: "Drive from Nagarkot (2175m) to Kathmandu (1400m)",
+            details: "You will get up early in order to see the magnificent sunrise. The sun's rays cast a spellbinding pattern as they travel around the mountain range. You will head into Kirtipur, one of the Kathmandu Valley's oldest settlements, after lunch. The area is home to both ancient and modern Buddhist landmarks, such as Cilancho Stupa and a tiny version of Lumbini, where Buddha was born, Saranath, where he first taught, and Kushinagar, where he passed away. Just above Kirtipur, which is revered by both Hindus and Buddhists, is the Chobhar, Adinath temple. You will also go to the Chobhar Gorge, where Manjushree is said to have carved a hill to drain the valley's water. You will arrive in Kathmandu after a brief drive, where you will have supper at a nearby restaurant.",
+          },
+          {
+            day: 8,
+            description: "Departure from Kathmandu (1400m)",
+            details: "Today marks the conclusion of your Nepal Adventure Trip in Kathmandu. You may take a stroll through Thamel and buy souvenirs after breakfast. You will go on to a nearby restaurant for lunch before exploring Thamel and its surroundings. At the hotel, check-out is at midday. Three hours before your departure time, a pick-up from your hotel will be provided for the airport. We anticipate you to join us for other activities in the days to come, and we hope your time in Nepal was fun and filled with many memories to bring back.",
+          },
+        ],
+        HowToPrepare: {
+            paragraph: [
+                         ],
+          },
+          path: [
+                     ],
+},
+Muktinath_Darshan_by_Jeep: {
+    id: 60,
+    slug: "muktinath-darshan-by-jeep",
+    category: "Tour",
+    img: "link_to_image", // Add the URL of the image
+    description: "A 6-day jeep tour to the revered Muktinath Temple in Nepal, offering a combination of adventure and spirituality with scenic views of the Himalayas.",
+    title: "Muktinath Darshan by Jeep",
+    location: "Nepal",
+    days: "6",
+    people: "2 to 10",
+    subimages: [
+      "link_to_image1", // Add the URLs of the images
+      "link_to_image2",
+      "link_to_image3",
+      "link_to_image4",
+      "link_to_image5",
+    ],
+    overView: {
+      duration: "6 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "2 to 10",
+      category: "Easy Tour",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Warm Clothes",
+        image: "link_to_image", // Add the URL of the image
+        description: "Pack warm clothing including jackets, sweaters, and gloves for the cold weather.",
+      },
+      {
+        title: "Comfortable Shoes",
+        image: "link_to_image",
+        description: "Sturdy and comfortable shoes suitable for trekking and rough terrain.",
+      },
+      {
+        title: "Medical Kit",
+        image: "link_to_image",
+        description: "Carry essential medications, a first aid kit, and altitude sickness medication.",
+      },
+      {
+        title: "Snacks and Water",
+        image: "link_to_image",
+        description: "Carry enough water and snacks, as food options may be limited during the journey.",
+      },
+    ],
+    about: [
+      "Muktinath Darshan by Jeep is an ideal way to visit the sacred Muktinath Temple in a shorter time frame. The tour combines adventure with spiritual experiences, taking you through the scenic landscapes of Nepal.",
+    ],
+    highlights: [
+      "Visit the revered Muktinath Temple, a significant site for Hindus and Buddhists.",
+      "Drive through the rugged Kali Gandaki Valley and cross the Kali Gandaki River on a suspension bridge.",
+      "Explore the picturesque villages of Jomsom, Kagbeni, and Marpha.",
+      "Experience the natural hot springs and stunning views of the Annapurna and Dhaulagiri mountain ranges.",
+      "Enjoy a thrilling jeep safari through the Himalayas.",
+    ],
+    facilities: [
+      "Airport Pickup and Drop-off Service",
+      "Green Valley Nepal Trek T-Shirt",
+      "Medical Kits",
+      "Discounts and Extra Services for Old Customers",
+      "Arrangement of the Best Hotels at Reasonable Prices",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu and participate in the Pashupatinath Temple's Aarati ceremony.",
+        details: "Upon arrival at Tribhuvan International Airport, you will be transferred to your hotel. In the evening, you can join the Aarati ceremony at Pashupatinath Temple, a significant Hindu temple in Kathmandu.",
+      },
+      {
+        day: 2,
+        description: "Kathmandu sightseeing and drive to Pokhara.",
+        details: "After breakfast, explore Swyambhunath Temple and Kathmandu Durbar Square. In the afternoon, drive to Pokhara (7-8 hours).",
+      },
+      {
+        day: 3,
+        description: "Flight from Pokhara to Jomsom, then drive to Muktinath.",
+        details: "Fly to Jomsom in the morning and then take a shared jeep to Muktinath. Explore the Muktinath Temple and return to Jomsom for the night.",
+      },
+      {
+        day: 4,
+        description: "Flight from Jomsom to Pokhara and Pokhara sightseeing.",
+        details: "Fly back to Pokhara and explore the city. Visit places like World Peace Pagoda, Davis Falls, and Mahendra Cave.",
+      },
+      {
+        day: 5,
+        description: "Drive from Pokhara to Kathmandu.",
+        details: "Travel back to Kathmandu by tourist bus, passing through scenic landscapes and villages. Optionally, visit Manakamana Temple via cable car.",
+      },
+      {
+        day: 6,
+        description: "Final Departure.",
+        details: "Transfer to the airport for your departure flight. Extend your stay or go shopping if your flight is scheduled for later in the day.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Ensure you have all necessary documents, including a valid passport, visa, and travel insurance. Carry copies of these documents as well.",
+        "Pack warm clothing for unpredictable weather and sturdy shoes for trekking.",
+        "Carry any required medications, a first aid kit, and altitude sickness medication. Stay hydrated and avoid alcohol and smoking.",
+        "Respect local culture, including dress codes and temple etiquette. Bring snacks and cash as facilities may be limited.",
+        "Be prepared for rough terrain and carry motion sickness medication if needed.",
+      ],
+    },
+    path: [
+      "Kathmandu -> Pokhara -> Jomsom -> Muktinath -> Jomsom -> Pokhara -> Kathmandu",
+    ],
+},
+//Helicopter Tour in Nepal
+Annapurna_Base_Camp_Helicopter_Tour: {
+    id: 61,
+    slug: "annapurna-base-camp-helicopter-tour",
+    category: "Helicopter Tour",
+    img: "https://example.com/main_image.jpg",
+    description: "Experience the majestic beauty of the Annapurna Himalayas in just two hours with our exclusive helicopter tour, offering breathtaking aerial views and a landing at the base camp for a unique adventure.",
+    title: "Annapurna Base Camp Helicopter Tour - 2 Hours",
+    location: "Nepal",
+    days: "1",
+    people: "1 to 5",
+    subimages: [
+      "https://example.com/subimage1.jpg",
+      "https://example.com/subimage2.jpg",
+      "https://example.com/subimage3.jpg",
+      "https://example.com/subimage4.jpg",
+      "https://example.com/subimage5.jpg"
+    ],
+    overView: {
+      duration: "2 Hours",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 5",
+      category: "Himalayas Sightseeing and Photography",
+      bestSeason: "Spring and Autumn"
+    },
+    equipment: [
+      {
+        title: "Green Valley Nepal Trek T-Shirt",
+        image: "https://example.com/tshirt_image.jpg",
+        description: "Complimentary T-shirt provided as a token of the tour."
+      },
+      {
+        title: "Medical Kits",
+        image: "https://example.com/medical_kit_image.jpg",
+        description: "Essential medical kits provided for safety and emergencies."
+      },
+      {
+        title: "Oxygen Cylinders",
+        image: "https://example.com/oxygen_cylinder_image.jpg",
+        description: "Oxygen cylinders provided to ensure passenger safety at high altitudes."
+      },
+      {
+        title: "Experienced Guides",
+        image: "https://example.com/guide_image.jpg",
+        description: "Professional guides provide insights into the region's history, culture, and geography."
+      }
+    ],
+    about: [
+      "The Annapurna Base Camp Helicopter Tour is designed for those who want to witness the beauty of the Annapurna region without the long trek. It's a quick yet awe-inspiring way to experience the Himalayas.",
+      "From the vibrant city of Pokhara, known as the Gateway to the Himalayas, you'll fly over stunning landscapes, including picturesque villages, dense forests, and terraced fields.",
+      "At Annapurna Base Camp, you'll be surrounded by the towering peaks of the Annapurna massif, offering unparalleled views and photographic opportunities.",
+      "This tour is ideal for people of all ages and fitness levels, offering a safe and comfortable experience with experienced pilots and well-maintained helicopters."
+    ],
+    highlights: [
+      "Breathtaking views of the Annapurna Himalayas and surrounding peaks",
+      "Flying over picturesque villages, terraced fields, and dense forests",
+      "Landing at the Annapurna Base Camp and experiencing the beauty of the surrounding landscape up close",
+      "Witnessing the sunrise over the snow-capped mountains",
+      "Chance to explore the local culture and lifestyle of the people living in the Himalayas",
+      "An exciting and unique way to experience the beauty of the Annapurna region without having to trek for several days",
+      "Experienced guides who provide information about the region's history, culture, and geography",
+      "Possibility of spotting rare Himalayan wildlife such as snow leopards, Himalayan tahr, and musk deer from the helicopter",
+      "A once-in-a-lifetime experience that is perfect for adventure seekers and those who want to experience the Himalayas in a unique way.",
+      "The tour is suitable for people of all ages and fitness levels, making it an accessible adventure for everyone.",
+      "The ABC Helicopter Tour saves time compared to trekking to the base camp, allowing you to see more of the region in a shorter time frame.",
+      "The ABC Heli Tour offers a chance to see some of the world's highest peaks up close, including Annapurna I, Machapuchare (Fishtail), and Dhaulagiri."
+    ],
+    facilities: [
+      "Well-maintained helicopters operated by experienced pilots",
+      "Professional guides to enhance your experience",
+      "Complimentary Green Valley Nepal Trek T-Shirt",
+      "Safety equipment, including oxygen cylinders and medical kits",
+      "Transfer to and from the airport"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Annapurna Base Camp Helicopter Tour from Pokhara",
+        details: "06:00 AM: Transfer to Pokhara Airport from your Hotel. 06:30 AM: Flight from Pokhara to Annapurna Base Camp. 07:00 AM: Land at Annapurna Base Camp. Spend 30 minutes on the ground exploring. 07:30 AM: Fly Back to Pokhara. 08:00 AM: Arrival at Pokhara and transfer back to your hotel."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Choose a reputable tour operator with experienced pilots and well-maintained helicopters.",
+        "Check the weather forecast to ensure suitable conditions for the tour.",
+        "Dress in comfortable and warm clothing in layers, wear sturdy shoes, and bring a hat, sunglasses, and sunscreen.",
+        "Bring essential items such as a water bottle, snacks, and a camera.",
+        "Be aware of altitude sickness symptoms and take precautions such as staying hydrated and resting if necessary.",
+        "Communicate with the tour operator about any concerns or questions before the tour."
+      ]
+    },
+    path: [
+      "https://example.com/path1",
+      "https://example.com/path2"
+    ]
+  },
+  Damodar_Kund_Muktinath_Helicopter_Tour: {
+    id: 62,
+    slug: "damodar-kund-muktinath-helicopter-tour",
+    category: "Helicopter Tour",
+    img: "",
+    description: "A one-day helicopter tour exploring the holy sites of Muktinath and Damodar Kunda in Nepal, offering breathtaking views of the Himalayas and cultural experiences.",
+    title: "Damodar Kund - Muktinath Helicopter Tour - 1 Day",
+    location: "Nepal",
+    days: "1",
+    people: "2 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "2 to 5",
+      category: "Helicopter Tour",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Warm Clothing",
+        image: "",
+        description: "Pack warm clothing suitable for high-altitude weather conditions.",
+      },
+      {
+        title: "Comfortable Shoes",
+        image: "",
+        description: "Wear comfortable and sturdy shoes for trekking at high altitudes.",
+      },
+      {
+        title: "Photography Equipment",
+        image: "",
+        description: "Bring a camera or smartphone to capture the stunning views.",
+      },
+      {
+        title: "Personal Items",
+        image: "",
+        description: "Carry sunscreen, sunglasses, a hat, and a water bottle.",
+      },
+    ],
+    about: [
+      "The Damodar Kund and Muktinath helicopter tour is a thrilling adventure that takes you to sacred Hindu and Buddhist sites in Nepal's Mustang region. This tour provides an opportunity to explore holy places without the need for several days of trekking.",
+      "The tour begins with a scenic flight from Pokhara over the Himalayan range, providing views of Mount Everest, Annapurna, and Dhaulagiri. It then lands in Jomsom, a town known for its beautiful views of the Kali Gandaki River.",
+      "The first destination is Muktinath, a sacred place for Hindus and Buddhists, situated at an altitude of 3,710 meters. Here, visitors can perform puja (prayer) ceremonies and take a dip in the 108 water sprouts believed to cleanse one's sins.",
+      "Next, the tour visits Damodar Kunda, a sacred lake at 4,890 meters altitude, revered by Hindus as the abode of Lord Vishnu. The lake is surrounded by snow-capped peaks and is believed to have healing powers.",
+      "This tour offers a unique opportunity to experience the culture and spirituality of Nepal's Mustang region while enjoying breathtaking views of the Himalayas."
+    ],
+    highlights: [
+      "Fly over the Himalayan range and enjoy breathtaking views of the mountains.",
+      "Visit the holy temple of Muktinath, which is sacred to both Hindus and Buddhists.",
+      "Enjoy a scenic flight over the Annapurna mountain range.",
+      "Take a dip in the holy waters of the Kunda (pond) at Muktinath.",
+      "Explore the ancient town of Kagbeni, located on the banks of the Kali Gandaki River.",
+      "Visit the village of Jomsom, a popular trekking destination.",
+      "Experience the unique lifestyle and traditions of the Thakali people.",
+      "Witness the beautiful sunrise over the Himalayan range at Damodar Kunda.",
+      "Explore Tibetan-style monasteries and gompas in the Mustang region.",
+    ],
+    facilities: [
+      "Green Valley Nepal Trek T-Shirt",
+      "Medical Kits",
+      "Discounts and Extra services for old customers",
+      "Arrangement of the best hotels at reasonable prices",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Muktinath Damodar Kunda Helicopter Tour",
+        details: "Pick up from your hotel in Pokhara and drive to Pokhara airport. Flight to Jomsom from Pokhara, then to Muktinath, and finally to Damodar Kunda. Explore the holy sites and return to Pokhara by helicopter.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Physical fitness: The tour involves some trekking to reach the temples and the lakes. It is important to be physically fit and able to walk for an extended period. You can prepare for this tour by doing regular exercise and walking for an hour or more every day.",
+        "Altitude sickness: The Mustang region is located at a high altitude, and altitude sickness can be a concern for some people. To avoid altitude sickness, it is important to stay hydrated, avoid alcohol, and eat light meals. You can also take medication to prevent altitude sickness, but it is important to consult your doctor before taking any medication.",
+        "Clothing: The weather in the Mustang region can be unpredictable, and it is important to pack warm clothing and rain gear. You should also wear comfortable and sturdy shoes for trekking.",
+        "Photography equipment: The tour provides you with breathtaking views of the Himalayan range and the Mustang region. It is important to bring your camera and any other photography equipment you may need.",
+        "Personal items: It is important to bring personal items such as sunscreen, sunglasses, a hat, and a water bottle. You should also bring some cash for souvenirs and snacks.",
+        "Insurance: It is important to have travel insurance that covers helicopter tours and medical emergencies. You should also carry a copy of your insurance policy and important documents such as your passport and visa.",
+        "Weather conditions: The tour is dependent on weather conditions, and flights may be delayed or canceled due to unfavorable weather. It is important to keep this in mind when planning your trip and have some flexibility in your schedule.",
+      ],
+    },
+    path: [""],
+  },
+  Muktinath_Helicopter_Tour: {
+    id: 63,
+    slug: "muktinath-helicopter-tour",
+    category: "Helicopter Tour",
+    img: "https://example.com/muktinath-helicopter-tour.jpg",
+    description: "A scenic helicopter tour from Pokhara to the sacred site of Muktinath, offering breathtaking views of the Himalayas.",
+    title: "Muktinath Helicopter Tour from Pokhara",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg",
+      "https://example.com/image5.jpg",
+    ],
+    overView: {
+      duration: "3 Hours",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 5",
+      category: "Helicopter Tour",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Warm Clothing",
+        image: "https://example.com/warm-clothing.jpg",
+        description: "Essential for staying warm at high altitudes.",
+      },
+      {
+        title: "Comfortable Shoes",
+        image: "https://example.com/comfortable-shoes.jpg",
+        description: "Ideal for walking around the Muktinath area.",
+      },
+      {
+        title: "Sunscreen",
+        image: "https://example.com/sunscreen.jpg",
+        description: "To protect against the sun at high altitudes.",
+      },
+      {
+        title: "Camera",
+        image: "https://example.com/camera.jpg",
+        description: "Capture the stunning views and memories.",
+      },
+    ],
+    about: [
+      "The Muktinath Helicopter Tour from Pokhara offers a unique opportunity to explore the sacred site of Muktinath, which is significant for both Hindus and Buddhists. The tour is ideal for those who want to experience the beauty of the Himalayas without the physical exertion of trekking. The flight provides spectacular views of the Annapurna and Dhaulagiri ranges, as well as the diverse landscapes of the Mustang district. Upon landing, visitors can explore the Muktinath temple, known for its 108 water spouts and eternal flame. The tour also allows for cultural interactions with local people, providing insight into their traditions and lifestyle."
+    ],
+    highlights: [
+      "Spectacular views of the Himalayan range including Annapurna and Dhaulagiri.",
+      "Scenic flight over diverse landscapes including lush forests, barren hills, and the Kali Gandaki river valley.",
+      "Landing at Muktinath, a sacred site for both Hindus and Buddhists, located at an altitude of 3,800 meters.",
+      "Exploration of Muktinath temple, which houses a sacred flame and 108 water spouts believed to have healing properties.",
+      "Interaction with local people and learning about their unique culture and traditions.",
+      "An opportunity to experience the thrill of flying over the Himalayas in a helicopter.",
+      "A comfortable and efficient way to reach Muktinath, without the physical exertion of a trek.",
+      "Visit to the Muktinath monastery, a Tibetan Buddhist monastery known for its stunning architecture and spiritual significance."
+    ],
+    facilities: [
+      "Green Valley Nepal Trek T-Shirt",
+      "Medical Kits",
+      "Discounts and Extra services for returning customers",
+      "Arrangement of the best hotels at reasonable prices"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Morning Helicopter flight from Pokhara to Muktinath.",
+        details:
+          "7:00 AM: Pickup from hotel and drive to Pokhara airport. 8:00 AM: Fly to Muktinath Helipad. 8:30 AM to 9:30 AM: Walk or horse ride to Muktinath Temple – Darshan walk or horse ride back to Helipad. 9:40 AM: Flying to Pokhara from Muktinath Helipad. 10:20 AM: Drive to Pokhara hotel from Pokhara airport. Note: Time might change because of weather and helicopter schedule.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Book in advance: It's essential to book the tour in advance, especially during peak season (September to November and March to May).",
+        "Pack essentials: It's important to pack lightly and bring only the essentials for the tour. The weight limit for the helicopter is usually around 5-10 kg per person. Some essential items to bring include warm clothing, comfortable shoes, sunscreen, sunglasses, and a camera.",
+        "Get fit: Although the helicopter tour is a more comfortable way to reach Muktinath, it's important to be physically fit to handle the altitude and weather conditions. It's recommended to do some light exercises and practice breathing techniques to prepare for the tour.",
+        "Follow safety guidelines: It's important to follow the safety guidelines provided by the tour operator and the pilot. These guidelines may include instructions on how to board and exit the helicopter, the use of seatbelts, and how to behave during the flight.",
+        "Bring cash: There are no ATMs or card payment facilities available in Muktinath. It's important to bring enough cash for food, drinks, and any souvenirs you may want to purchase at the site.",
+        "Be aware of cultural sensitivities: Muktinath is a sacred site for Hindus and Buddhists, and it's important to respect the religious and cultural sensitivities of the site. Dress modestly and avoid touching or disturbing any religious artifacts or structures.",
+        "Be prepared for weather changes: The weather can change quickly in the mountains, and it's important to be prepared for unexpected weather conditions. Bring warm clothing and waterproof gear in case of rain or snow."
+      ],
+    },
+    path: [
+      "https://example.com/muktinath-tour-path"
+    ],
+  },
+  Everest_Base_Camp_Helicopter_Tour: {
+    id: 64,
+    slug: "everest-base-camp-helicopter-tour",
+    category: "Helicopter Tour",
+    img: "https://example.com/main-image.jpg",
+    description: "Experience the thrill of flying over the world's highest mountain, Mt. Everest, and enjoy a landing at the Everest View Hotel for a breathtaking breakfast with panoramic views.",
+    title: "Everest Base Camp Helicopter Tour with Landing at Everest View Hotel",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg",
+      "https://example.com/image5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu domestic Airport",
+      endingPoint: "Kathmandu domestic Airport",
+      peoples: "1 to 5",
+      category: "Group Joining",
+      bestSeason: "Spring and Autumn"
+    },
+    equipment: [
+      {
+        title: "Warm Clothing",
+        image: "https://example.com/warm-clothing.jpg",
+        description: "Layered clothing to keep warm in high altitudes."
+      },
+      {
+        title: "Camera",
+        image: "https://example.com/camera.jpg",
+        description: "For capturing the stunning views."
+      },
+      {
+        title: "Sunglasses",
+        image: "https://example.com/sunglasses.jpg",
+        description: "Protect your eyes from the bright mountain glare."
+      },
+      {
+        title: "Snacks",
+        image: "https://example.com/snacks.jpg",
+        description: "Light snacks to keep your energy up during the trip."
+      }
+    ],
+    about: [
+      "The Everest Base Camp Helicopter Tour offers a unique opportunity to experience the majesty of Mt. Everest without the extended time commitment of a trek. This one-day tour allows you to fly from Kathmandu to the Everest region, enjoy a landing at the famous Everest View Hotel, and return to Kathmandu, all within a few hours."
+    ],
+    highlights: [
+      "Helicopter Landing at Everest View Hotel for Breakfast and amazing views",
+      "Everest Over Fly (Everest Base Camp, Kalapatthar, Chola Pass, and Gokyo)",
+      "Experience Everest from Helicopter within a short time period",
+      "Land at Lukla, and Everest View Hotel",
+      "Scenic Helicopter flight from Kathmandu to Mt. Everest base camp with panoramic views",
+      "Best view of the green alpine forest of rhododendron, pine trees, Khumbu icefall, and glaciers.",
+      "100% Full Refund guarantee if no flight is made due to bad weather",
+      "Easy and secure Online Booking System",
+      "Trip with the Lowest Price Guaranteed"
+    ],
+    facilities: [
+      "Full window seats in the helicopter for maximum visibility.",
+      "Delicious breakfast at the Everest View Hotel.",
+      "Professional guides and pilots ensure a safe and informative journey.",
+      "Transportation from hotel to Kathmandu domestic airport and back."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Everest Base Camp Helicopter Tour with landing at Kalapatthar",
+        details: "5:30 to 6:00 AM: Pickup from the hotel and drive to Kathmandu domestic airport.\n6:00 to 7:00 AM: Check-in and board the helicopter.\n7:00 to 8:00 AM: Fly to Lukla airport for refueling.\n8:00 to 8:45 AM: Fly to Everest Base Camp and land at Kalapatthar for photos.\n8:45 to 9:45 AM: Fly to Everest View Hotel for breakfast.\n9:45 to 10:25 AM: Fly back to Lukla for refueling.\n10:25 to 11:00 AM: Return flight to Kathmandu and transfer to hotel."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Dress in layers to adjust to varying temperatures.",
+        "Bring a valid passport for check-in.",
+        "Pack light snacks and a water bottle for the journey.",
+        "Ensure your camera is charged and has sufficient memory."
+      ]
+    },
+    path: ["Kathmandu", "Lukla", "Everest Base Camp", "Kalapatthar", "Everest View Hotel", "Kathmandu"]
+  },
+  Langtang_Helicopter_Tour: {
+    id: 65,
+    slug: "",
+    category: "Tour",
+    img: "",
+    description: "Experience the breathtaking beauty of the Langtang region from the air, with stunning views of snow-capped peaks, lush valleys, and pristine landscapes. This helicopter tour offers a unique perspective on the natural and cultural wonders of the Langtang Valley.",
+    title: "Langtang Helicopter Tour from Kathmandu - 1 Day",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "2 Hours",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 5",
+      category: "Easy",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture stunning landscapes and unique moments of your helicopter tour with a camera featuring ample storage.",
+      },
+      {
+        title: "Sunglasses",
+        image: "",
+        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+      },
+      {
+        title: "Comfortable Footwear",
+        image: "",
+        description: "Wear lightweight, ankle-supporting shoes for ease of movement during any ground exploration.",
+      },
+      {
+        title: "Reusable Water Bottle",
+        image: "",
+        description: "Stay hydrated by carrying a reusable water bottle during the tour.",
+      },
+    ],
+    about: [
+      "The Langtang Helicopter Tour offers an aerial perspective of the Langtang Himalayan Ranges, combining the natural beauty of snow-capped peaks with the cultural essence of the region. Known as the 'Valley of Glaciers,' Langtang features lush forests, towering mountains, and impressive glaciers.",
+      "The tour includes views of Gosaikunda Lake and Himalayan peaks, providing a thrilling flight over stunning landscapes. The itinerary includes a visit to Kyanjin Gompa, a Tibetan-influenced village with ancient monasteries and breathtaking views.",
+      "With the Langtang Helicopter Tour, you can explore the Langtang Valley from a unique vantage point, experiencing both its natural beauty and cultural richness.",
+    ],
+    highlights: [
+      "Soar above the breathtaking landscapes of Langtang, witnessing panoramic views of snow-capped peaks, lush valleys, and pristine landscapes.",
+      "Explore the rich biodiversity of Langtang National Park from the unique vantage point of a helicopter, spotting diverse flora and fauna.",
+      "Visit the iconic Kyanjin Gompa, a picturesque monastery surrounded by towering mountains.",
+      "Marvel at the stunning Langtang Valley, a haven for trekkers, with terraced fields, traditional villages, and winding trails.",
+      "Witness the grandeur of the Langtang Glacier, an impressive natural wonder.",
+      "Gain insights into the unique culture and traditions of the local Tamang and Sherpa communities.",
+      "Glide over the sacred Gosaikunda Lake, an alpine water body surrounded by majestic peaks.",
+      "Enjoy personalized itineraries, tailoring your helicopter tour to suit your preferences.",
+    ],
+    facilities: [
+      "Well-maintained helicopters with experienced pilots.",
+      "Knowledgeable guides providing insights into the region's culture and history.",
+      "Flexible itineraries to accommodate individual preferences.",
+      "Professional handling of paperwork, permissions, and logistics.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Langtang Helicopter Tour",
+        details: "Start the day with a hotel transfer to Tribhuwan International Airport. After takeoff preparations and flight briefing, board the helicopter and depart for Langtang Valley. Enjoy breathtaking views of Himalayan peaks en route to Kyanjin Gompa, where you'll explore the village and its surroundings. Afterward, return to Kathmandu, concluding the tour with a transfer back to your hotel.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Confirm your booking and itinerary with a reputable travel agency.",
+        "Check the weather conditions leading up to your tour date, as flights are subject to weather changes.",
+        "Dress in layers to adapt to varying temperatures, from cool high altitudes to milder climates.",
+        "Stay hydrated throughout the tour to aid acclimatization.",
+        "Bring a camera and binoculars to capture the stunning landscapes.",
+        "Ensure you have travel insurance that covers helicopter tours and high-altitude regions.",
+        "Follow the instructions provided by guides and crew for a safe and enjoyable experience.",
+        "Pack essentials such as a small backpack, personal identification, and necessary medications.",
+      ],
+    },
+    path: [""],
+  },
+//Helicopter Flights in Nepal
+Lukla_to_Kathmandu_Helicopter_Flight: {
+    id: 66,
+    slug: "lukla-to-kathmandu-helicopter-flight",
+    category: "Helicopter Tour",
+    img: "",
+    description: "A quick and scenic helicopter flight from Lukla to Kathmandu, offering breathtaking aerial views of the landscape.",
+    title: "Lukla to Kathmandu Helicopter Flight - 1 Hour",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Lukla",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 5",
+      category: "Helicopter Tour",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Comfortable Footwear",
+        image: "",
+        description: "Wear lightweight, ankle-supporting shoes for ease of movement.",
+      },
+      {
+        title: "Sunglasses",
+        image: "",
+        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+      },
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture stunning landscapes with a camera equipped with ample storage.",
+      },
+      {
+        title: "Travel Insurance",
+        image: "",
+        description: "Ensure you have travel insurance covering helicopter tours and emergencies.",
+      },
+    ],
+    about: [
+      "A helicopter flight from Lukla to Kathmandu takes around an hour and may hold up to five people. It is an alternate strategy to the challenging routine flight from Lukla to Kathmandu. Helicopter flight allows you to avoid frequent flight cancellations from Lukla by keeping your journey on time.",
+      "Regular flights to Kathmandu might need a long amount of time waiting in the airport for clear weather and air traffic, which could lead to flight cancellation. The Lukla to Kathmandu Helicopter Flight Ticket will depart on time and won't interfere with your schedule.",
+      "If you wish to split the cost with other travelers, the Lukla to Kathmandu Helicopter flight cost will be more affordable. From a helicopter, you may experience breathtaking views of Nepal's steep terrain that are not possible from commercial aircraft.",
+      "The ideal method to take your own group and see the stunning vistas is via private helicopter flight. When you have a limited amount of time and need to arrive on schedule, Lukla to Kathmandu helicopter flight reservation is the ideal option.",
+    ],
+    highlights: [
+      "Take a secure helicopter flight from Lukla to Kathmandu to avoid risky flights.",
+      "Compared to a regular flight, there is less waiting time and cancellation probability.",
+      "The easiest way to avoid severe weather and flight cancellation is to take a helicopter from Lukla to Kathmandu.",
+      "This choice is more convenient, quick, and economical than taking a plane.",
+      "You will see breathtaking aerial views of landscapes, lush forests, rivers, and waterfalls throughout the Lukla to Kathmandu helicopter flight.",
+      "Cozy seats near windows with a full panorama of the glittering Alps, especially Nupla peak.",
+      "Exceptional views of 18 different mountain ranges, including 4 summits that are higher than 8000 meters.",
+      "Excellent aerial views of the Kathmandu Valley.",
+      "Due to bad weather and flight cancellation, an easy online booking and payment system is available to rebook the helicopter flight.",
+    ],
+    facilities: [
+      "Group Sharing and Private Helicopter Flight options are available.",
+      "Flexible booking with online options.",
+      "Easy rebooking in case of bad weather.",
+      "Competitive pricing for group and private flights.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Flight to Kathmandu from Lukla",
+        details: "The first 40 to 50 minutes of the journey will be filled with gorgeous views of the countryside. As soon as you leave the airport in Lukla, you will get the best view of the Khumbu region, including its hills and forests. It is followed by a vista of mountains, rivers, waterfalls, and hills covered in dense woods and lush vegetation. The lovely settlement and the surrounding scenery seem stunning as you get closer to Kathmandu Valley. The only officially operated international airport in Nepal is Tribhuwan Airport, where the chopper will land.",
+      },
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Confirm your booking with a reputable travel agency. Ensure you understand the itinerary, departure times, and any specific tour details.",
+        "Monitor weather conditions leading up to your tour date. Helicopter flights are subject to weather changes, so staying informed allows for better planning.",
+        "Dress in layers to adapt to different climates, from cooler air at higher altitudes to milder temperatures in lower regions.",
+        "Carry a reusable water bottle and stay hydrated throughout the tour. Hydration aids in acclimatization and ensures you feel your best.",
+        "Listen attentively to instructions provided by guides and the helicopter crew for a safe and enjoyable experience.",
+        "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
+      ],
+    },
+    path: ["Lukla to Kathmandu Helicopter Flight"],
+  },
+Kathmandu_to_Lukla_Helicopter_Flight: {
+    id: 67,
+    slug: "kathmandu-to-lukla-helicopter-flight",
+    category: "Helicopter Tour",
+    img: "",
+    description: "A quick and scenic helicopter flight from Kathmandu to Lukla, offering breathtaking aerial views of the landscape.",
+    title: "Kathmandu to Lukla Helicopter Flight - 1 Hour",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Lukla",
+      peoples: "1 to 5",
+      category: "Helicopter Tour",
+      bestSeason: "Whole Year, Mostly Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Comfortable Footwear",
+        image: "",
+        description: "Wear lightweight, ankle-supporting shoes for ease of movement.",
+      },
+      {
+        title: "Sunglasses",
+        image: "",
+        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+      },
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture stunning landscapes with a camera equipped with ample storage.",
+      },
+      {
+        title: "Travel Insurance",
+        image: "",
+        description: "Ensure you have travel insurance covering helicopter tours and emergencies.",
+      },
+    ],
+    about: [
+      "A safe and scenic helicopter flight from Kathmandu to Lukla takes around 40 to 50 minutes and can accommodate up to five passengers per shuttle.",
+      "Lukla Airport, also known as Tenzing Hillary Airport, is situated at a height of 2860 meters and is considered one of the riskiest airports in the world. Helicopter flights offer a more reliable alternative to avoid erratic weather conditions and frequent cancellations.",
+      "Helicopter travel from Kathmandu to Lukla provides exceptional views of lush landscapes, rivers, mountains, and charming villages, offering a unique perspective of the region's natural beauty.",
+      "Whether you're traveling solo or with a small group, sharing flight options are available to make the journey more economical, with group joining possibilities and scheduled departure times.",
+    ],
+    highlights: [
+      "A safe flight is better than a routine flight in a small airport.",
+      "Flight rates are quite reasonable.",
+      "Less waiting time and cancellation risk than a standard flight.",
+      "Due to bad weather and a canceled flight, it is possible to rebook the flight.",
+      "The best excursion for doing photography and videography.",
+      "Compared to a plane ride, this option is more convenient, fast, and affordable.",
+      "A leisurely journey of the well-known Sherpa settlement, the colorful valley, the profound canyons, and the glaciers.",
+      "During the trip, explore the magnificent aerial views of landscapes, lush woods, rivers, and waterfalls.",
+      "Comfortable seats next to windows that offer a 360-degree view of the glistening Alps, including Nupla peak.",
+      "Outstanding vistas of 18 distinct mountain ranges, including 4 mountains that are over 8000 meters in height.",
+    ],
+    facilities: [
+      "Group Sharing and Private Helicopter Flight options are available.",
+      "Flexible booking with online options.",
+      "Easy rebooking in case of bad weather.",
+      "Competitive pricing for group and private flights.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Take a Helicopter Flight from Kathmandu to Lukla",
+        details: "5:30 to 6:00 AM: A representative from Green Valley Nepal Treks will pick you up from the hotel and take you to the domestic terminal of Kathmandu Airport.\n\n6:00 to 7:00 AM: From the parking, go for about 5 minutes to the domestic terminal, where you may check in. At the domestic terminal, a representative from Green Valley Nepal Treks gives you a boarding pass for the helicopter flight and waits for the chopper.\n\n7:00 to 8:00 AM: From Kathmandu, the flight takes around 40 to 50 minutes, and you will land at the airport in Lukla.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Confirm your booking with a reputable travel agency. Ensure you understand the itinerary, departure times, and any specific tour details.",
+        "Monitor weather conditions leading up to your tour date. Helicopter flights are subject to weather changes, so staying informed allows for better planning.",
+        "Dress in layers to adapt to different climates, from cooler air at higher altitudes to milder temperatures in lower regions.",
+        "Carry a reusable water bottle and stay hydrated throughout the tour. Hydration aids in acclimatization and ensures you feel your best.",
+        "Listen attentively to instructions provided by guides and the helicopter crew for a safe and enjoyable experience.",
+        "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
+      ],
+    },
+    path: ["Kathmandu to Lukla Helicopter Flight"],
+  },
+Gorakshep_to_Kathmandu_Helicopter_Flight: {
+    id: 68,
+    slug: "gorakshep-to-kathmandu-helicopter-flight",
+    category: "Helicopter Tour",
+    img: "",
+    description: "A luxurious helicopter flight offering breathtaking aerial views of the Everest region and a quick return to Kathmandu.",
+    title: "Gorakshep to Kathmandu Helicopter Flight - 3 Hours",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Gorakshep",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 5",
+      category: "Helicopter Tour",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Warm Clothing",
+        image: "",
+        description: "Wear layers of warm clothing as temperatures can be low at high altitudes.",
+      },
+      {
+        title: "Sunglasses",
+        image: "",
+        description: "Protect your eyes from the intense sun and glare from the snow.",
+      },
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture stunning aerial views of the Himalayas and landscapes.",
+      },
+      {
+        title: "Travel Insurance",
+        image: "",
+        description: "Ensure coverage for helicopter tours and emergency evacuations.",
+      },
+    ],
+    about: [
+      "The helicopter flight from Gorakshep to Kathmandu provides a unique opportunity to see the Everest region from the sky and avoid the long trek back.",
+      "This one-hour flight covers 151 kilometers and offers spectacular views of Mount Everest and other Himalayan peaks.",
+      "The helicopter ride is ideal for trekkers who want a relaxing return journey after reaching the Everest Base Camp.",
+      "Green Valley Nepal Treks offers experienced pilots and comfortable flights, ensuring safety and reliability.",
+      "The flight includes a stop at Lukla for refueling, allowing a brief glimpse of this iconic airport.",
+    ],
+    highlights: [
+      "Lovely experience as you get the aerial view of the tallest peak in the world, Mount Everest (8848 meters).",
+      "As you fly on the helicopter you will also get to see several other Himalayan ranges standing still with snow-covered peaks.",
+      "On this helicopter flight from Gorakshep to Kathmandu, you can also get a glimpse of the Sherpa villages, their lifestyle, and lush vegetation.",
+      "As the helicopter ride starts from the Everest region, you can also see many climbers on their way to the summit of Mount Everest.",
+      "This is also a perfect ride for trekkers who are tired from walking up to the Everest Base Camp and Kalapatthar.",
+      "The helicopter also flies over the Khumbu Glacier, the largest glacier in Nepal, located between Mount Everest and Lhotse Ridge.",
+      "Furthermore, you can see the changes in topology, vegetation, climate, houses, and almost everything as the flight comes from Gorakshep to Kathmandu.",
+      "A luxury return from such an amazing Everest Base Camp Trek with no physical strain while returning at all.",
+    ],
+    facilities: [
+      "Sharing and Private Helicopter Flight options are available.",
+      "Experienced pilots ensuring a smooth and safe flight.",
+      "First-aid kits and treatments available during the flight.",
+      "Scheduled departure times with minimal waiting.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Gorakshep to Kathmandu Helicopter Flight Itinerary",
+        details: "Early Morning in Gorakshep\nWake up to the cool morning air and stunning views of Everest. Have a light breakfast and pack your belongings.\n\nTransfer to Helipad in Gorakshep\nA short transfer to the helipad by Green Valley Nepal Treks representative. Enjoy panoramic Himalayan views while waiting for the helicopter.\n\nHelicopter Flight from Gorakshep\nBoard the helicopter for a thrilling 40-60 minute ride to Kathmandu. Experience breathtaking scenery including Everest, Lhotse, Nuptse, and the Khumbu Glacier.\n\nShort Break at Lukla\nA brief stopover to refuel, offering views of Lukla and its surroundings.\n\nArrival in Kathmandu\nArrive at Kathmandu's domestic terminal, with beautiful views of the Himalayas and Kathmandu Valley. Arrange transportation to your hotel.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Confirm your booking with a reputable travel agency to ensure a smooth and well-organized experience.",
+        "Stay informed about weather conditions, as helicopter flights are subject to changes due to weather.",
+        "Pack appropriately with layers and warm clothing for varying temperatures.",
+        "Keep travel insurance updated and ensure it covers helicopter rides and potential emergencies.",
+        "Follow instructions from guides and helicopter crew for safety and comfort.",
+        "Capture memories with a camera or smartphone to enjoy the experience fully.",
+      ],
+    },
+    path: ["Gorakshep to Kathmandu Helicopter Flight"],
+  },
+Gorakshep_to_Lukla_Helicopter_Flight: {
+    id: 69,
+    slug: "gorakshep-to-lukla-helicopter-flight",
+    category: "Helicopter Tour",
+    img: "gorakshep-to-lukla.jpg",
+    description: "A quick and luxurious helicopter flight from Gorakshep to Lukla, offering stunning aerial views of the Himalayas and a convenient way to end your trek.",
+    title: "Gorakshep to Lukla Helicopter Flight - 20 Minutes",
+    location: "Nepal",
+    days: "1 Hour",
+    people: "1 to 4",
+    subimages: [
+      "helicopter-view.jpg",
+      "everest-region.jpg",
+      "sherpa-villages.jpg",
+      "khumbu-glacier.jpg",
+      "lukla-airport.jpg"
+    ],
+    overView: {
+      duration: "1 Hour",
+      startingPoint: "Gorakshep",
+      endingPoint: "Lukla",
+      peoples: "1 to 4",
+      category: "Private and Sharing",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Helicopter",
+        image: "helicopter.jpg",
+        description: "A well-maintained and quality-checked helicopter for a safe and comfortable flight.",
+      },
+      {
+        title: "Oxygen Mask",
+        image: "oxygen-mask.jpg",
+        description: "Available on board for safety at high altitudes.",
+      },
+      {
+        title: "Pilot Headset",
+        image: "pilot-headset.jpg",
+        description: "For communication between passengers and pilots.",
+      },
+      {
+        title: "Life Vest",
+        image: "life-vest.jpg",
+        description: "Provided for emergency safety during the flight.",
+      },
+    ],
+    about: [
+      "Gorakshep to Lukla Helicopter Flight is a 30-minute-long helicopter ride in the Everest region. This flight is perfect for anyone who seeks some luxury after a challenging trek to the Everest Base Camp.",
+      "This helicopter flight from Gorakshep to Lukla offers an amazing bird-eye view of different villages habituated by the Sherpa people, tradition-influenced lifestyle, houses, and vegetation of the locals.",
+      "Green Valley Nepal Treks offers an exciting, relaxing, and amazing helicopter ride to trekkers who do not want to walk down the same path they followed while trekking to the Everest Base Camp.",
+    ],
+    highlights: [
+      "A time-saving way to descend from Gorakshep to Lukla with much less physical strain.",
+      "A luxury flight over the Himalayas with amazing aerial views of the snow-covered peaks, valleys, glaciers, and more.",
+      "A must-experience opportunity for anyone seeking luxuries in the Himalayas.",
+      "Perfect for trekkers having difficulties while descending after completing the Everest Base Camp trek.",
+      "A faster way to reach Lukla, then to Kathmandu, from Gorakshep.",
+      "Minimal cases or chances of flights getting canceled or delayed.",
+      "30 minutes of flying over beautifully settled Sherpa villages and the most remote terrains of the Nepali Himalayas.",
+    ],
+    facilities: [
+      "Experienced pilots with extensive knowledge of the Khumbu region.",
+      "Safety measures and equipment provided, including oxygen masks.",
+      "Pre-flight instructions and guidance for passengers.",
+      "Options for private and group-sharing flights.",
+      "Assistance with booking and flight arrangements.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Gorakshep to Lukla Helicopter Flight Itinerary",
+        details: "Assuming you have already completed the trek to Gorakshep and spent the night there, you will want a very early start. This is because weather conditions are typically best for helicopter flights in the morning before clouds roll in. Contact Green Valley Nepal Treks the day before to confirm the pick-up time at the Gorakshep helipad. We will provide a specific window or ask you to be ready at sunrise. Upon landing in Lukla, you will disembark and make arrangements for onward travel.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Book your Flight in Advance: Especially during peak trekking seasons (March-May and September-November), helicopter flights can fill up quickly. Be sure to book your flight well in advance to secure your spot.",
+        "Check the weather: Helicopter flights are weather-dependent and can be canceled due to high winds, snow, or fog. Check the weather forecast for Gorakshep before your flight, and be prepared for a possible delay.",
+        "Be acclimatized: Gorakshep is located at a high altitude (5,164 meters), so it's important to be properly acclimatized before flying. This means spending several days trekking at lower altitudes to allow your body to adjust to the thin air.",
+        "Pack light: There are weight restrictions on helicopter flights, so be sure to pack light. You will only be able to bring a small backpack with you on the flight. Leave any non-essential items at your lodge in Gorakshep.",
+        "What to wear: Dress warmly for your flight. Even in summer, temperatures at high altitudes can be cold. Wear layers of clothing that you can easily add or remove, as well as sturdy shoes. Sunglasses and a hat are also recommended, as the sun's rays are stronger at high altitudes.",
+      ],  
+    },
+    path: ["Gorakshep", "Lukla"],
+  },
+  Kalapatthar_to_Kathmandu_Helicopter_Flight: {
+    id: 70,
+    slug: "kalapatthar-to-kathmandu-helicopter-flight",
+    category: "Helicopter Tour",
+    img: "",
+    description: "Experience a breathtaking helicopter flight from Kalapatthar to Kathmandu, witnessing the majestic Mount Everest and the remote beauty of the Khumbu region.",
+    title: "Kalapatthar to Kathmandu Helicopter Flight",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    overView: {
+      duration: "3 Hours",
+      startingPoint: "Kalapatthar",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 5",
+      category: "Private and Sharing",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Helicopter",
+        image: "",
+        description: "A high-quality helicopter for a safe and comfortable flight experience."
+      },
+      {
+        title: "Oxygen Mask",
+        image: "",
+        description: "Provided in case of emergencies to ensure safety and comfort."
+      },
+      {
+        title: "Warm Clothing",
+        image: "",
+        description: "Recommended for the cold conditions at high altitudes."
+      },
+      {
+        title: "Camera",
+        image: "",
+        description: "Capture stunning aerial views of the Everest region."
+      },
+    ],
+    about: [
+      "The Kalapatthar to Kathmandu Helicopter Flight offers a luxurious and stress-free return from the Everest Base Camp trek. It provides an opportunity to witness breathtaking aerial views of Mount Everest and the surrounding peaks, as well as the remote parts of the Khumbu region. The flight is suitable for those seeking an easy and fast return without the need for a strenuous walk back to Lukla."
+    ],
+    highlights: [
+      "Experience a once-in-a-lifetime helicopter flight from Kalapatthar, the highest point of the Everest region trek, to Kathmandu.",
+      "Enjoy gorgeous and close views of Mount Everest and other surrounding snow-capped peaks.",
+      "Skip the long and tiring walk back from the Everest Base Camp trek.",
+      "Witness aerial views of remote parts of the Khumbu region, including glaciers, lakes, mountain passes, and Sherpa settlements.",
+      "Benefit from easy and fast emergency evacuation with safe and quality-assured helicopters flown by seasoned pilots."
+    ],
+    facilities: [
+      "Private and sharing flight options.",
+      "Experienced and professional pilots.",
+      "Year-round operation, including off-seasons.",
+      "Flexible payment options with partial upfront payment.",
+      "Oxygen masks provided for emergencies."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Kalapatthar to Kathmandu Helicopter Flight",
+        details: "Start your day early for a helicopter departure from Kalapatthar. The flight takes approximately 20 minutes to reach Lukla, where you will have a stopover for refueling. After refueling, the flight continues to Kathmandu, taking about 1 hour. Enjoy the stunning aerial views of the Everest region and the Kathmandu valley."
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Ensure you are acclimatized before reaching Kalapatthar to minimize altitude sickness risks.",
+        "Dress warmly, as the helicopter departure point at Kalapatthar is at a high altitude with cold temperatures.",
+        "Keep your luggage weight within the specified limits for safety reasons.",
+        "Be prepared for potential delays due to weather conditions."
+      ]
+    },
+    path: ["Kalapatthar", "Lukla", "Kathmandu"]
+  },
+  Namche_to_Kathmandu_Helicopter_Flight: {
+    id: 71,
+    slug: "namche-to-kathmandu-helicopter-flight",
+    category: "Helicopter Flight",
+    img: "namche_kathmandu_helicopter.jpg",
+    description: "Experience a breathtaking helicopter journey from Namche Bazaar to Kathmandu, offering unparalleled views of the Himalayas.",
+    title: "Namche to Kathmandu Helicopter Flight",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 5",
+    subimages: [
+      "namche_view.jpg",
+      "helicopter_in_himalayas.jpg",
+      "lukla_stop.jpg",
+      "kathmandu_skyline.jpg",
+      "aerial_view_everest.jpg",
+    ],
+    overView: {
+      duration: "2 Hours",
+      startingPoint: "Namche",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 5",
+      category: "Helicopter Flight",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Helicopter",
+        image: "helicopter_equipment.jpg",
+        description: "Modern helicopter equipped for high-altitude flights and emergency evacuations.",
+      },
+      {
+        title: "Oxygen Mask",
+        image: "oxygen_mask.jpg",
+        description: "Oxygen masks are available for emergencies during the flight.",
+      },
+      {
+        title: "Safety Gear",
+        image: "safety_gear.jpg",
+        description: "Includes seat belts and other safety equipment for a secure flight.",
+      },
+      {
+        title: "Personal Belongings",
+        image: "personal_belongings.jpg",
+        description: "Pack light, as helicopters have limited space and weight capacity.",
+      },
+    ],
+    about: [
+      "The Namche to Kathmandu Helicopter Flight offers an unparalleled experience in the skies above Nepal. It provides a seamless and scenic transition from the Everest region back to Kathmandu, avoiding the delays and formalities often encountered at Lukla Airport. Whether you're finishing a trek or seeking a comfortable and quick journey, this helicopter flight offers breathtaking views and a stress-free return.",
+    ],
+    highlights: [
+      "Scenic helicopter flight from Namche Bazaar to Kathmandu.",
+      "Avoid lengthy queues and airport formalities.",
+      "Stable and comfortable flight in slightly poor visibility.",
+      "Stunning aerial views of the Himalayas and Kathmandu Valley.",
+      "Ideal for emergency evacuation and rescue operations.",
+    ],
+    facilities: [
+      "Daily flights in peak and off-seasons.",
+      "Private and group booking options.",
+      "Experienced pilots and safe, reliable helicopters.",
+      "In-flight oxygen masks for emergencies.",
+      "Flexible scheduling to meet your needs.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Helicopter flight from Namche Bazaar to Kathmandu.",
+        details: "Start your journey early with a transfer to the Namche helipad. Enjoy stunning aerial views of Everest and other peaks as you fly to Kathmandu. A stop in Lukla allows for refueling and a brief exploration before continuing to the capital.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Book your helicopter flight in advance, especially during peak seasons.",
+        "Check the weather forecast before departure; flights may be canceled due to poor conditions.",
+        "Travel light, as helicopters have a weight limit and limited space.",
+        "Arrive early at the helipad for check-in and pre-flight briefing.",
+        "Follow crew instructions and remain seated with seatbelts fastened during the flight.",
+      ],
+    },
+    path: ["helicopter", "namche", "kathmandu", "everest", "himalayas"],
+  },
+//Day Hikes and Tours from Pokhara
+Astam_Village_Day_Hiking: {
+    id: 72,
+    slug: "astam-village-day-hiking",
+    category: "Hiking",
+    img: "image-link.jpg",
+    description: "A scenic day hike from Pokhara to Astam Village, offering stunning mountain views and cultural experiences.",
+    title: "Astam Village Day Hiking from Pokhara - 1 Day",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "subimage1.jpg",
+      "subimage2.jpg",
+      "subimage3.jpg",
+      "subimage4.jpg",
+      "subimage5.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 20",
+      category: "Hiking",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Hiking Boots",
+        image: "hiking-boots.jpg",
+        description: "Sturdy boots suitable for rough terrain.",
+      },
+      {
+        title: "Water Bottle",
+        image: "water-bottle.jpg",
+        description: "A refillable bottle to stay hydrated.",
+      },
+      {
+        title: "Backpack",
+        image: "backpack.jpg",
+        description: "A comfortable pack to carry your essentials.",
+      },
+      {
+        title: "Rain Jacket",
+        image: "rain-jacket.jpg",
+        description: "A waterproof jacket for unexpected weather.",
+      },
+    ],
+    about: [
+      "Astam Village Day Hiking is one of the most preferred hikes from Pokhara for anyone who wants to indulge in the lap of nature. This amazing and perfect trail leads to a village settled at an altitude of 1568 meters.",
+      "Astam Village offers a picturesque view of several mountains like Annapurna South, Machhapuchhre, and others.",
+    ],
+    highlights: [
+      "Scenic, adventurous, and enjoyable hiking to the Astam Village starting from Pokhara.",
+      "Stunning 360-degree view of the mountain ranges and hilly landscapes.",
+      "Check out the Astam village, currently known as the eco-village.",
+      "Walk through amazing green valleys, stone-paved paths, traditional houses, and mind-blowing rivers and forests.",
+      "Meet the locals and try unique and tasty delicacies prepared by the villagers.",
+    ],
+    facilities: [
+      "Private vehicle transport from Pokhara to Hemja.",
+      "English-speaking guide.",
+      "Local lunch at Astam Village.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Astam Village Day Hiking from Hemja, Pokhara",
+        details: "Pickup from the hotel and drive to Hemja. Hike from Hemja to Astam Village, enjoy lunch, and return to Hemja for transport back to Pokhara.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Plan the hike with Green Valley Nepal Treks for guidance.",
+        "Be physically and mentally prepared for 3-4 hours of hiking.",
+        "Engage in physical exercises like running, cardiovascular training, and walking to enhance strength and flexibility.",
+        "Avoid negative habits like smoking or drinking to maintain physical and mental strength.",
+      ],
+    },
+    path: ["Pokhara", "Hemja", "Astam Village", "Return to Hemja"],
+  },
+Australian_Camp_Day_Hike: {
+    id: 73,
+    slug: "australian-camp-day-hike",
+    category: "Hiking",
+    img: "australian-camp.jpg",
+    description: "Experience the natural beauty and cultural richness of Nepal with a scenic hike from Pokhara to the Australian Camp and Dhampus Village.",
+    title: "Australian Camp Day Hike from Pokhara - 1 Day",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "australian-camp-view.jpg",
+      "dhampus-village.jpg",
+      "pokhara-valley.jpg",
+      "sunrise.jpg",
+      "sunset.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 20",
+      category: "Hiking",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Hiking Boots",
+        image: "hiking-boots.jpg",
+        description: "Sturdy boots suitable for rough terrain.",
+      },
+      {
+        title: "Water Bottle",
+        image: "water-bottle.jpg",
+        description: "A refillable bottle to stay hydrated.",
+      },
+      {
+        title: "Backpack",
+        image: "backpack.jpg",
+        description: "A comfortable pack to carry your essentials.",
+      },
+      {
+        title: "Rain Jacket",
+        image: "rain-jacket.jpg",
+        description: "A waterproof jacket for unexpected weather.",
+      },
+    ],
+    about: [
+      "The Australian Camp Day Hike from Pokhara is a fantastic one-day adventure to explore the stunning landscapes of Nepal. Starting with a 45-minute scenic drive to Kande, the hike takes you through beautiful forests and offers breathtaking views of snow-covered mountains.",
+      "The trail is easy and suitable for hikers of all ages, making it a perfect family outing. The hike also offers a glimpse into the local culture, with stops at Australian Camp and Dhampus Village, where you can experience the hospitality of the Gurung people.",
+    ],
+    highlights: [
+      "Golden opportunity to experience magical scenes of sunrise and sunset.",
+      "Explore two major attractions of Pokhara: Australian Camp and Dhampus Village.",
+      "Outstanding views of several snow-covered high mountains like Mt. Dhaulagiri, Mt. Annapurna, Mt. Himchuli, Mt. Machhapuchhre, Manaslu range, and more.",
+      "Cross different forests, see rhododendron blooms, and enjoy the epic beauty of nature.",
+      "A scenic 45-minute drive from Pokhara to Kande (the starting point of the hike).",
+    ],
+    facilities: [
+      "Pickup from the hotel in a private vehicle to Kande and vice versa.",
+      "A local professional guide to lead the way and provide insights throughout the hike.",
+      "Green Valley Nepal Treks labeled T-shirt as a souvenir.",
+      "Cooperating guides and team support throughout the trip.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Australian Camp Day Hike from Pokhara with Dhampus Village",
+        details: "Pickup from the hotel and scenic drive to Kande. Hike to the Australian Camp, followed by lunch. Continue hiking towards Dhampus Village. Descend to Phedi and drive back to the hotel.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Maintain physical and mental health: Engage in physical activities like jogging, cycling, and running.",
+        "Refrain from intoxication: Avoid alcohol and smoking to stay fit.",
+        "Pay attention to the guide: Follow the guide's directions carefully.",
+        "Stay hydrated: Bring a water bottle with a large capacity.",
+        "Bring all necessary paperwork: Ensure you have all important documents with you.",
+      ],
+    },
+    path: ["Pokhara", "Kande", "Australian Camp", "Dhampus Village", "Phedi", "Return to Kande"],
+  },
+Kahun_Danda_Hiking: {
+    id: 74,
+    slug: "kahun-danda-hiking",
+    category: "Hiking",
+    img: "kahun-danda.jpg",
+    description: "Enjoy a scenic and family-friendly day hike to Kahun Danda with stunning views of Pokhara Valley and the Annapurna mountain range.",
+    title: "Kahun Danda Hiking from Pokhara - 1 Day",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 10",
+    subimages: [
+      "kahun-danda-view.jpg",
+      "pokhara-valley.jpg",
+      "sunrise-view.jpg",
+      "matepani-gumba.jpg",
+      "bhadrakali-temple.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 10",
+      category: "Hiking",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Hiking Shoes",
+        image: "hiking-shoes.jpg",
+        description: "Comfortable shoes suitable for walking on uneven terrain.",
+      },
+      {
+        title: "Water Bottle",
+        image: "water-bottle.jpg",
+        description: "Bring a water bottle to stay hydrated throughout the hike.",
+      },
+      {
+        title: "Daypack",
+        image: "daypack.jpg",
+        description: "A small backpack to carry your essentials for the day.",
+      },
+      {
+        title: "Hat and Sunscreen",
+        image: "hat-sunscreen.jpg",
+        description: "Protect yourself from the sun with a hat and sunscreen.",
+      },
+    ],
+    about: [
+      "Kahun Danda Hiking offers a short yet rewarding experience with magnificent views of the Annapurna mountain range and Pokhara Valley.",
+      "The hike starts from the Yellow Bridge near Nadipur, just 15 minutes from the lakeside. The trail is relatively easy, making it suitable for families and individuals with time constraints.",
+      "The hike to Kahun Danda includes an observation tower for panoramic views and opportunities to explore nearby hidden gems like Matepani Gumba and Bhadrakali Temple.",
+    ],
+    highlights: [
+      "A scenic day hike to the Kahun Danda viewpoint with views of the Pokhara Valley.",
+      "Aerial view of Pokhara's international and domestic airports.",
+      "Family-friendly hike suitable for children.",
+      "Refreshing experience with picturesque views of the Annapurna mountain range.",
+      "Visit to hidden treasures: Matepani Gumba and Bhadrakali Temple.",
+    ],
+    facilities: [
+      "Pickup from the hotel in a private vehicle.",
+      "Professional English-speaking guide for the hike.",
+      "Green Valley Nepal Treks labeled T-shirt as a souvenir.",
+      "Discounts and offers for regular and old customers.",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Private Drive to Seti Bridge and Hike to Kahun Danda",
+        details: "Drive to the Yellow Bridge near Nadipur, then hike to Kahun Danda. Enjoy views of Pokhara Valley and the Annapurna range. Explore Matepani Gumba and Bhadrakali Temple before returning to the hotel.",
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Focus on Physical Fitness: Engage in exercises to stay fit for the hike.",
+        "Be mentally prepared: Prepare yourself for a 2-3 hour hike.",
+        "Do Prior Research: Learn about the trail and local culture.",
+        "Avoid Negative Habits: Stay away from smoking and drinking alcohol.",
+      ],
+    },
+    path: ["Pokhara", "Seti Bridge", "Kahun Danda", "Matepani Gumba", "Bhadrakali Temple", "Return to Pokhara"],
+    
+  },
+Kalikasthan_Thulakot_Day_Hike: {
+        id: 75,
+        slug: "kalikasthan-thulakot-day-hike",
+        category: "Hiking",
+        img: "kalikasthan-thulakot.jpg",
+        description: "Experience a refreshing day hike to Kalikasthan and Thulakot, with breathtaking views of the Annapurna range and Pokhara Valley, culminating in a scenic boat ride on Begnas Lake.",
+        title: "Kalikasthan Thulakot Day Hike from Pokhara - 1 Day",
+        location: "Nepal",
+        days: "1 Day",
+        people: "1 to 10",
+        subimages: [
+          "thulakot-view.jpg",
+          "begnas-lake.jpg",
+          "kalikasthan-village.jpg",
+          "machapuchhre.jpg",
+          "pokhara-valley.jpg",
+        ],
+        overView: {
+          duration: "1 Day",
+          startingPoint: "Pokhara",
+          endingPoint: "Pokhara",
+          peoples: "1 to 10",
+          category: "Hiking",
+          bestSeason: "Whole Year",
+        },
+        equipment: [
+          {
+            title: "Hiking Shoes",
+            image: "hiking-shoes.jpg",
+            description: "Sturdy shoes for walking on varied terrain.",
+          },
+          {
+            title: "Water Bottle",
+            image: "water-bottle.jpg",
+            description: "Essential to stay hydrated during the hike.",
+          },
+          {
+            title: "Daypack",
+            image: "daypack.jpg",
+            description: "Small backpack to carry personal items and snacks.",
+          },
+          {
+            title: "Hat and Sunscreen",
+            image: "hat-sunscreen.jpg",
+            description: "Protection from the sun is crucial for comfort.",
+          },
+        ],
+        about: [
+          "The Kalikasthan Thulakot Day Hike offers stunning views of the Annapurna range and Pokhara Valley, with a hike to an altitude of 1800 meters.",
+          "The hike begins at Begnas Lake and includes a visit to the traditional Gurung village of Kalikasthan before reaching Thulakot.",
+          "Highlights include panoramic views of the Five Lakes of Pokhara, interaction with local communities, and a boat ride on Begnas Lake.",
+        ],
+        highlights: [
+          "6 to 7 hours hike to Thulakot at 1800 meters.",
+          "Panoramic views of Machapuchhre, Annapurna massif, and Pokhara Valley.",
+          "Aerial view of the five lakes of Pokhara: Begnas, Maidi, Khaste, Nyureni, and Phewa.",
+          "Interaction with diverse ethnic groups and local cuisine.",
+          "Easy hike suitable for families and children, with a boat ride on Begnas Lake.",
+        ],
+        facilities: [
+          "Pickup and drop-off from the hotel in a private vehicle.",
+          "Professional English-speaking guide.",
+          "Comfortable and insightful hiking experience.",
+          "Green Valley Nepal Treks T-shirt as a souvenir.",
+          "Discounts and extra services for returning customers.",
+        ],
+        itinerary: [
+          {
+            day: 1,
+            description: "Kalikasthan Thulakot Day Hike from Begnas Lake",
+            details: "Pickup from your hotel and drive to Begnas Lake. Hike to Kalikasthan Village, then continue to Thulakot for panoramic views. Return via Kaulekote and enjoy a boat ride on Begnas Lake before heading back to your hotel.",
+          },
+        ],
+        HowToPrepare: {
+          paragraph: [
+            "Do prior research on the route and attractions.",
+            "Ensure physical fitness and mental preparation for the hike.",
+            "Wear comfortable clothing and proper footwear.",
+            "Pack light but include all necessary items.",
+            "Stay hydrated and well-fed before starting the hike.",
+          ],
+        },
+        path: ["Pokhara", "Begnas Lake", "Kalikasthan Village", "Thulakot", "Kaulekote", "Begnas Lake", "Return to Pokhara"],
+        
+  },
+Naudanda_Sarangkot_Day_Hike: {
+    id: 76,
+    slug: "naudanda-sarangkot-day-hike",
+    category: "Hiking",
+    img: "path/to/image.jpg",
+    description: "An easy, peaceful, and scenic hike from Naudanda to Sarangkot, offering breathtaking views of the Annapurna range and traditional Nepali village life.",
+    title: "Naudanda Sarangkot Day Hike",
+    location: "Pokhara, Nepal",
+    days: "1 Day",
+    people: "1 to 10",
+    subimages: [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg",
+      "path/to/image3.jpg",
+      "path/to/image4.jpg",
+      "path/to/image5.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 10",
+      category: "Easy",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Hiking Boots",
+        image: "path/to/hiking_boots.jpg",
+        description: "Sturdy hiking boots for comfortable and safe trekking.",
+      },
+      {
+        title: "Backpack",
+        image: "path/to/backpack.jpg",
+        description: "A light backpack to carry essentials such as water, snacks, and a camera.",
+      },
+      {
+        title: "Sun Protection",
+        image: "path/to/sun_protection.jpg",
+        description: "Sunscreen and sunglasses to protect against the sun.",
+      },
+      {
+        title: "Camera",
+        image: "path/to/camera.jpg",
+        description: "A camera to capture the stunning views and memories.",
+      },
+    ],
+    about: [
+      "The Naudanda Sarangkot Day Hike is a popular trekking route in Pokhara that provides beautiful mountain views and a taste of rural Nepali life.",
+      "The hike is suitable for people of all ages and offers a leisurely yet refreshing experience."
+    ],
+    highlights: [
+      "Stunning sunrise view from Naudanda Viewpoint.",
+      "Scenic walk through lush forests and traditional villages.",
+      "Panoramic views of Annapurna range and other Himalayan peaks.",
+      "Interaction with local communities and exploration of their lifestyle.",
+      "Cool breeze and peaceful environment throughout the hike.",
+    ],
+    facilities: [
+      "Pickup and drop-off service from/to your hotel.",
+      "Professional English-speaking guide.",
+      "Customizable hiking package.",
+      "Hiking T-shirt as a souvenir."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Drive from Pokhara to Phedi and start hiking towards Naudanda and then Sarangkot.",
+        details: "Begin with a scenic drive from Pokhara to Phedi. Hike to Naudanda for sunrise views. Continue to Sarangkot for panoramic views of the Himalayas. Descend to Pokhara after exploring Sarangkot."
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Be physically and mentally prepared for the hike. Regular exercise and a positive mindset are key.",
+        "Avoid smoking and drinking alcohol before the hike.",
+        "Familiarize yourself with the map of the area.",
+        "Learn a few common Nepali phrases for better communication with locals.",
+        "Pack light and include essentials like water, sunscreen, and a camera.",
+        "Discuss the hike details with your guide before starting."
+      ],
+    },
+    path: [
+      "Pokhara → Phedi → Naudanda → Sarangkot → Pokhara"
+    ],
+  },
+Sarangkot_Viewpoint_Hike_from_Pokhara: {
+    id: 77,
+    slug: "sarangkot-viewpoint-hike-from-pokhara",
+    category: "Hiking",
+    img: "path/to/image.jpg",
+    description: "An early morning hike to Sarangkot Viewpoint, offering breathtaking sunrise views over the Annapurna and Dhaulagiri mountain ranges.",
+    title: "Sarangkot Viewpoint Hike from Pokhara",
+    location: "Pokhara, Nepal",
+    days: "1 Day",
+    people: "1 to 15",
+    subimages: [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg",
+      "path/to/image3.jpg",
+      "path/to/image4.jpg",
+      "path/to/image5.jpg",
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 15",
+      category: "Easy",
+      bestSeason: "Whole Year",
+    },
+    equipment: [
+      {
+        title: "Hiking Boots",
+        image: "path/to/hiking_boots.jpg",
+        description: "Comfortable and durable boots suitable for hiking.",
+      },
+      {
+        title: "Backpack",
+        image: "path/to/backpack.jpg",
+        description: "A lightweight backpack for carrying essentials.",
+      },
+      {
+        title: "Sun Protection",
+        image: "path/to/sun_protection.jpg",
+        description: "Sunscreen and sunglasses to protect from sun.",
+      },
+      {
+        title: "Camera",
+        image: "path/to/camera.jpg",
+        description: "A camera for capturing the stunning sunrise and landscapes.",
+      },
+    ],
+    about: [
+      "The Sarangkot Viewpoint Hike is a popular day hike from Pokhara known for its spectacular sunrise views and panoramic mountain vistas.",
+      "The hike involves an early start and a 3-hour ascent to the viewpoint, where you can experience breathtaking views of the Annapurna and Dhaulagiri ranges."
+    ],
+    highlights: [
+      "Enjoy the mesmerizing sunrise view from the Sarangkot Viewpoint after 8 km of hike.",
+      "Awestruck view of over 20 peaks of 2 different mountain ranges including Dhaulagiri, Annapurna, and Manaslu.",
+      "Pass different local villages, terraced farms, and interact with locals.",
+      "Challenging and steep hike with adventurous elements.",
+      "Amazing aerial views of the Pokhara Valley, Phewa Lake, and green landscapes.",
+      "A perfect place to experience being over the clouds and watching sunlight strike the mountain peaks.",
+    ],
+    facilities: [
+      "Pickup and drop-off service from/to your hotel.",
+      "Professional English-speaking guide.",
+      "A T-shirt as a souvenir.",
+      "Safety and adventure ensured by Green Valley Adventures."
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Early morning pickup and drive to the Kaharaya Area followed by a hike to Sarangkot Viewpoint for sunrise.",
+        details: "Pick up from the hotel and drive to the Kaharaya Area. Hike for approximately 3 hours to reach Sarangkot Viewpoint. Enjoy sunrise and panoramic views. Return to Pokhara with optional stops for breakfast on the way down."
+      },
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Prioritize physical and mental fitness by engaging in outdoor exercises and focusing on health.",
+        "Research and familiarize yourself with the hike through videos, blogs, and articles.",
+        "Avoid smoking, drinking, or any other negative habits.",
+        "Consult with a trekking agency for detailed information and guidance.",
+        "Follow the instructions and advice of your local guide for safety and convenience."
+      ],
+    },
+    path: [
+      "Pokhara → Kaharaya Area → Sarangkot Viewpoint → Pokhara"
+    ],
+  },
+Pumdikot_Hike_with_World_Peace_Pagoda: {
+    id: 78,
+    slug: "pumdikot-hike-world-peace-pagoda",
+    category: "Hiking",
+    img: "path_to_image.jpg",
+    description: "A serene and picturesque day hike in Pokhara combining a boat ride on Phewa Lake with a trek to the World Peace Pagoda and Pumdikot Viewpoint.",
+    title: "Pumdikot Hike with World Peace Pagoda",
+    location: "Pokhara, Nepal",
+    days: "1 Day",
+    people: "1 to 15",
+    subimages: [
+      "path_to_subimage1.jpg",
+      "path_to_subimage2.jpg",
+      "path_to_subimage3.jpg",
+      "path_to_subimage4.jpg",
+      "path_to_subimage5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Pokhara",
+      endingPoint: "Pokhara",
+      peoples: "1 to 15",
+      category: "Easy Hiking",
+      bestSeason: "Whole Year"
+    },
+    equipment: [
+      {
+        title: "Comfortable Hiking Shoes",
+        image: "path_to_equipment_image1.jpg",
+        description: "Ensure you have sturdy and comfortable hiking shoes for the trek."
+      },
+      {
+        title: "Water Bottle",
+        image: "path_to_equipment_image2.jpg",
+        description: "Carry sufficient water to stay hydrated during the hike."
+      },
+      {
+        title: "Sun Protection",
+        image: "path_to_equipment_image3.jpg",
+        description: "Bring sunscreen, a hat, and sunglasses to protect yourself from the sun."
+      },
+      {
+        title: "Camera",
+        image: "path_to_equipment_image4.jpg",
+        description: "Capture the stunning views and memorable moments of the hike."
+      }
+    ],
+    about: [
+      "The Pumdikot Hike with World Peace Pagoda offers a refreshing and scenic experience, combining cultural landmarks with natural beauty. The trek includes a boat ride on Phewa Lake and hikes to two major viewpoints, providing an insight into local traditions and breathtaking landscapes."
+    ],
+    highlights: [
+      "Boat ride across Phewa Lake",
+      "Visit Tal Barahi Temple",
+      "Trek through traditional villages",
+      "Visit World Peace Pagoda",
+      "Challenging trail to Pumdikot Hill",
+      "View of tallest Shiva Stupa",
+      "Panoramic views of Pokhara Valley and Himalayas",
+      "Interaction with local communities"
+    ],
+    facilities: [
+      "Guided tour by a professional",
+      "Souvenir T-shirt",
+      "Private transportation back to the hotel"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Pumdikot Peace Pagoda Day Hike",
+        details: "Start with a boat ride across Phewa Lake, followed by a hike to the World Peace Pagoda. Continue to Pumdikot Hill for stunning views and return to the hotel by private vehicle."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Plan your hike with Green Valley Nepal Treks for the best experience.",
+        "Ensure your fitness level matches the hike’s requirements.",
+        "Research cultural and historical aspects of the World Peace Pagoda and Pumdikot.",
+        "Pack light and carry necessary items like water and cash.",
+        "Consult your guide for a detailed understanding of the hike."
+      ]
+    },
+    path: [
+      "Phewa Lake to World Peace Pagoda",
+      "World Peace Pagoda to Pumdikot Hill",
+      "Pumdikot Hill back to Pokhara"
+    ]
+  },
+//Day Hikes from Kathmandu
+Phulchoki_Day_Hiking: {
+    id: 79,
+    slug: "phulchoki-day-hiking",
+    category: "Hiking",
+    img: "path_to_image.jpg",
+    description: "Experience a scenic day hike to Phulchoki Hill, the highest peak around Kathmandu Valley, offering breathtaking views and diverse vegetation.",
+    title: "Phulchoki Day Hiking",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "path_to_subimage1.jpg",
+      "path_to_subimage2.jpg",
+      "path_to_subimage3.jpg",
+      "path_to_subimage4.jpg",
+      "path_to_subimage5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Easy Hiking",
+      bestSeason: "Whole Year"
+    },
+    equipment: [
+      {
+        title: "Comfortable Hiking Shoes",
+        image: "path_to_equipment_image1.jpg",
+        description: "Wear sturdy and comfortable hiking shoes for the trek."
+      },
+      {
+        title: "Water Bottle",
+        image: "path_to_equipment_image2.jpg",
+        description: "Carry sufficient water to stay hydrated during the hike."
+      },
+      {
+        title: "Camera and Binoculars",
+        image: "path_to_equipment_image3.jpg",
+        description: "Capture stunning views and spot birds along the trail."
+      },
+      {
+        title: "Warm Clothing",
+        image: "path_to_equipment_image4.jpg",
+        description: "Pack layers of warm clothing as temperatures can drop, especially at higher altitudes."
+      }
+    ],
+    about: [
+      "Phulchoki Hill is the highest peak around Kathmandu Valley, providing panoramic views of the Himalayan peaks and Kathmandu Valley. The hike takes you through diverse vegetation and is ideal for bird watching. The summit offers a rewarding view and a chance to experience a local religious celebration at the shrine of Phulchoki Mai."
+    ],
+    highlights: [
+      "40-minute drive to Godawari",
+      "Hike through thick sub-tropical forests",
+      "Panoramic views of Annapurna, Gaurishanker, and Kathmandu Valley",
+      "Bird watching opportunities",
+      "Buddhist prayer flags at the summit",
+      "Visit to the shrine of Phulchoki Mai"
+    ],
+    facilities: [
+      "Professional guide",
+      "Lunch at the summit",
+      "Private transportation back to Kathmandu"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Phulchoki Day Hiking",
+        details: "Drive to Godawari (40 minutes) and start the hike to Phulchoki Hill. Enjoy panoramic views, bird watching, and visit the Phulchoki Mai shrine. Hike back to Godawari and drive back to Kathmandu."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Plan your hike with a reliable trekking agency for a smooth experience.",
+        "Ensure you are physically fit for the hike, especially the uphill parts.",
+        "Bring essential items such as water, snacks, and warm clothing.",
+        "Research the local cultural and religious aspects of the Phulchoki Mai shrine.",
+        "Prepare a camera and binoculars for capturing the views and bird watching."
+      ]
+    },
+    path: [
+      "Kathmandu to Godawari",
+      "Godawari to Phulchoki Hill",
+      "Phulchoki Hill back to Godawari",
+      "Godawari to Kathmandu"
+    ]
+  },
+  Shivapuri_Day_Hike: {
+    id: 80,
+    slug: "shivapuri-day-hike",
+    category: "Hiking",
+    img: "path_to_image.jpg",
+    description: "Experience a refreshing day hike to Shivapuri Hill, the second highest hill around Kathmandu Valley, with panoramic views, bird watching opportunities, and cultural insights.",
+    title: "Shivapuri Day Hike",
+    location: "Kathmandu, Nepal",
+    days: "1 Day",
+    people: "1 to 20",
+    subimages: [
+      "path_to_subimage1.jpg",
+      "path_to_subimage2.jpg",
+      "path_to_subimage3.jpg",
+      "path_to_subimage4.jpg",
+      "path_to_subimage5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 20",
+      category: "Easy Hiking",
+      bestSeason: "Whole Year"
+    },
+    equipment: [
+      {
+        title: "Comfortable Hiking Shoes",
+        image: "path_to_equipment_image1.jpg",
+        description: "Wear sturdy and comfortable hiking shoes for a smooth trek."
+      },
+      {
+        title: "Water Bottle",
+        image: "path_to_equipment_image2.jpg",
+        description: "Carry sufficient water to stay hydrated throughout the hike."
+      },
+      {
+        title: "Camera and Binoculars",
+        image: "path_to_equipment_image3.jpg",
+        description: "Capture the stunning views and spot birds along the trail."
+      },
+      {
+        title: "Warm Clothing",
+        image: "path_to_equipment_image4.jpg",
+        description: "Pack layers of warm clothing as temperatures can drop at higher altitudes."
+      }
+    ],
+    about: [
+      "Shivapuri Hill, standing at 2563 meters, offers spectacular views of the Kathmandu Valley and the Himalayan ranges. The hill is also a prime spot for bird watching and is home to the Shivapuri Conservation Area, which protects a diverse range of flora and fauna. The hike includes visits to the Budhanil Kantha temple and Nagi Gompa, providing insights into local Hindu and Buddhist practices."
+    ],
+    highlights: [
+      "20-minute drive to Budhanil Kantha",
+      "Hike through dense forests and stone-paved paths",
+      "Views of Kathmandu Valley and Himalayan ranges",
+      "Visit to the Budhanil Kantha temple",
+      "Nagi Gompa Buddhist monastery",
+      "Bagdwar, the source of the Bagmati River"
+    ],
+    facilities: [
+      "Private vehicle transport from Thamel to hiking start point",
+      "Professional English-speaking hiking guide",
+      "Private vehicle transport back to Thamel",
+      "One liter of drinking water",
+      "Packing lunch",
+      "National Park Fee"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Shivapuri Day Hike",
+        details: "Drive to Budhanil Kantha (20 minutes), then hike to Shivapuri Hill (3-4 hours), followed by a descent to Kapan (2 hours) and drive back to Kathmandu (45 minutes)."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Ensure you are physically prepared for a day of hiking, particularly the steeper sections.",
+        "Carry essentials like water, snacks, and appropriate clothing for varying temperatures.",
+        "Familiarize yourself with the local culture, including the significance of the Budhanil Kantha temple and Nagi Gompa.",
+        "Bring a camera and binoculars for capturing the views and observing wildlife."
+      ]
+    },
+    path: [
+      "Kathmandu to Budhanil Kantha",
+      "Budhanil Kantha to Shivapuri Hill",
+      "Shivapuri Hill to Kapan",
+      "Kapan to Kathmandu"
+    ]
+  },
+//Rafting in Nepal
+Trishuli_River_Rafting: {
+    id: 81,
+    slug: "trishuli-river-rafting",
+    category: "Rafting",
+    img: "path_to_image.jpg",
+    description: "Experience the thrill of white water rafting on the Trishuli River, with its exciting rapids and stunning scenery, perfect for both beginners and seasoned adventurers.",
+    title: "Trishuli River Rafting - 1 Day",
+    location: "Nepal",
+    days: "1 Day",
+    people: "1 to 6",
+    subimages: [
+      "path_to_subimage1.jpg",
+      "path_to_subimage2.jpg",
+      "path_to_subimage3.jpg",
+      "path_to_subimage4.jpg",
+      "path_to_subimage5.jpg"
+    ],
+    overView: {
+      duration: "1 Day",
+      startingPoint: "Charaudi",
+      endingPoint: "Kurintar",
+      peoples: "1 to 6",
+      category: "Moderate Rafting",
+      bestSeason: "Spring and Autumn"
+    },
+    equipment: [
+      {
+        title: "Safety Gear",
+        image: "path_to_equipment_image1.jpg",
+        description: "Life jackets and helmets are provided for safety during the rafting experience."
+      },
+      {
+        title: "Waterproof Camera",
+        image: "path_to_equipment_image2.jpg",
+        description: "Capture the exciting moments and stunning views with a waterproof camera."
+      },
+      {
+        title: "Quick-Drying Clothes",
+        image: "path_to_equipment_image3.jpg",
+        description: "Wear quick-drying clothes such as polyester or nylon to stay comfortable."
+      },
+      {
+        title: "Comfortable Footwear",
+        image: "path_to_equipment_image4.jpg",
+        description: "Footwear with good grip is essential for walking on slippery rocks and wet surfaces."
+      }
+    ],
+    about: [
+      "The Trishuli River, located in central Nepal, offers a thrilling rafting experience with rapids graded Class II to III. The river flows through picturesque landscapes, including lush forests, terraced farms, and traditional villages. It's ideal for both beginners and experienced rafters, providing a mix of adventure and relaxation. The trip is easily accessible and provides an opportunity to experience local culture and stunning natural beauty."
+    ],
+    highlights: [
+      "Thrilling white water rapids suitable for all levels of experience.",
+      "Stunning views of the Himalayan foothills, waterfalls, gorges, and sandy beaches.",
+      "Delicious local food and traditional Nepali dishes.",
+      "Expert guides trained in safety procedures.",
+      "Various rapids of Class II to III+ level.",
+      "Flexible trip durations and customizable itineraries.",
+      "Reasonable cost and accessibility from major cities.",
+      "Opportunity to make new friends and enjoy a natural setting.",
+      "Ideal river for rafting year-round, with best seasons being September to November and March to May.",
+      "Easily accessible from Kathmandu, Pokhara, and Chitwan.",
+      "Customizable packages for different group sizes.",
+      "Transportation to and from the river included."
+    ],
+    facilities: [
+      "Private transportation to the rafting start point",
+      "Professional and experienced rafting guides",
+      "Lunch during the trip",
+      "Safety gear including life jackets and helmets"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Trishuli River Rafting",
+        details: "Drive from Kathmandu, Pokhara, or Chitwan to Charaudi. After a briefing, embark on the rafting adventure from Charaudi to Kurintar. Enjoy lunch on a river beach, navigate through the Trishuli Gorge with varying rapids, and complete the trip with a drive back to your starting location."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "Ensure good physical fitness and be prepared for a physically engaging activity.",
+        "Wear quick-drying clothes and sturdy, slip-resistant footwear.",
+        "Bring a waterproof camera, sunscreen, insect repellent, and plenty of water.",
+        "Follow all safety instructions from the guide and respect the environment."
+      ]
+    },
+    path: [
+      "Kathmandu/Pokhara/Chitwan to Charaudi",
+      "Rafting from Charaudi to Kurintar",
+      "Return drive from Kurintar to Kathmandu/Pokhara/Chitwan"
+    ],
+  },
+Night_Days_Trishuli_River_Rafting: {
+  "id": 82,
+  "slug": "trishuli-river-rafting-1-night-2-days",
+  "category": "Adventure",
+  "img": "path_to_main_image.jpg",
+  "description": "Experience the thrill of river rafting on the Trishuli River with a 1-night, 2-day adventure. Enjoy exciting rapids, scenic views, and local culture in this moderate-grade rafting trip.",
+  "title": "1 Night 2 Days Trishuli River Rafting",
+  "location": "Charaudi to Gaighat, Nepal",
+  "days": "2",
+  "people": "1 to 13",
+  "subimages": [
+    "path_to_image1.jpg",
+    "path_to_image2.jpg",
+    "path_to_image3.jpg",
+    "path_to_image4.jpg",
+    "path_to_image5.jpg"
+  ],
+  "overView": {
+    "duration": "2 Days",
+    "startingPoint": "Charaudi",
+    "endingPoint": "Gaighat",
+    "peoples": "1 to 13",
+    "category": "Moderate",
+    "bestSeason": "Spring and Autumn"
+  },
+  "equipment": [
+    {
+      "title": "Helmet",
+      "image": "path_to_helmet_image.jpg",
+      "description": "Provides protection during the rafting trip."
+    },
+    {
+      "title": "Life Jacket",
+      "image": "path_to_life_jacket_image.jpg",
+      "description": "Essential for safety and buoyancy in the water."
+    },
+    {
+      "title": "Paddle",
+      "image": "path_to_paddle_image.jpg",
+      "description": "Used to navigate and steer the raft."
+    },
+    {
+      "title": "Raft",
+      "image": "path_to_raft_image.jpg",
+      "description": "The main equipment for rafting on the river."
+    }
+  ],
+  "about": [
+    "The 1 Night 2 Days Trishuli River Rafting package offers a blend of thrilling rapids and serene moments, with an opportunity to explore the beautiful landscapes of Nepal."
+  ],
+  "highlights": [
+    "Exciting rapids ranging from Class II to Class IV.",
+    "Stunning views of Nepalese countryside and traditional villages.",
+    "Option for overnight camping or resort stay.",
+    "Experienced guides ensuring safety and enjoyment."
+  ],
+  "facilities": [
+    "Private vehicle for transportation.",
+    "Meals including lunch and dinner.",
+    "Accommodation at a resort or tent."
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "description": "Travel to Charaudi, start rafting, and stay overnight at the resort.",
+      "details": "Pick up from Thamel hotel, drive to Charaudi, rafting for 2 hours with rapids like Twin Rock and Ladies Delight, lunch at River Fun Beach Resort, evening bonfire and BBQ dinner, overnight stay."
+    },
+    {
+      "day": 2,
+      "description": "Continue rafting and depart for your next destination.",
+      "details": "Breakfast at the resort, 3-hour rafting session with additional rapids, transportation arranged to Kathmandu, Chitwan, or Pokhara."
+    }
+  ],
+  "HowToPrepare": {
+    "paragraph": [
+      "Research and book with a reputable company.",
+      "Ensure good physical fitness and consult with a doctor if needed.",
+      "Verify that rafting equipment is provided and in good condition.",
+      "Stay hydrated and bring lightweight snacks.",
+      "Follow safety briefings and instructions from guides.",
+      "Respect the environment by following Leave No Trace principles.",
+      "Consider bringing a waterproof camera.",
+      "Check if your travel insurance covers adventure activities."
+    ]
+  },
+  "path": [
+    "https://www.example.com/trishuli-river-rafting"
+  ]
+},
+
+                                                       //Trekking In nepal Left Content
+
+//Langtang Region Trekking
+Langtang_Valley_Trek: {
+    id: 83,
+    slug: "langtang-valley-trek",
+    category: "trekking",
+    img: "langtang_valley_trek_main.jpg",
+    description: "A 10-day moderate trek through the Langtang Valley, offering stunning views of snow-capped mountains, vibrant culture, and diverse wildlife.",
+    title: "Langtang Valley Trek - 10 Days",
+    location: "Nepal",
+    days: "10",
+    people: "1 to 10",
+    subimages: [
+      "langtang_valley_1.jpg",
+      "langtang_valley_2.jpg",
+      "langtang_valley_3.jpg",
+      "langtang_valley_4.jpg",
+      "langtang_valley_5.jpg"
+    ],
+    overView: {
+      duration: "10 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 10",
+      category: "Trekking",
+      bestSeason: "Spring and Autumn"
+    },
+    equipment: [
+      {
+        title: "Trekking Poles",
+        image: "trekking_poles.jpg",
+        description: "Essential for providing stability on uneven terrain."
+      },
+      {
+        title: "Hiking Boots",
+        image: "hiking_boots.jpg",
+        description: "Comfortable and sturdy boots to support your feet during the trek."
+      },
+      {
+        title: "Backpack",
+        image: "backpack.jpg",
+        description: "A durable backpack to carry your essentials."
+      },
+      {
+        title: "Sleeping Bag",
+        image: "sleeping_bag.jpg",
+        description: "A warm sleeping bag suitable for cold mountain nights."
+      }
+    ],
+    about: [
+      "The Langtang Valley Trek is one of the most well-known and stunning trekking packages in Nepal, offering breathtaking views of the Himalayan ranges, wonderful culture, and various wildlife species.",
+      "This trek provides a fulfilling and exceptional trekking experience for both novice and experienced trekkers."
+    ],
+    highlights: [
+      "Expansive vistas of snow-capped mountain peaks from Kyanjin Ri and Tserko Ri.",
+      "Tour the Yak Cheese factory in Kyanjin Gompa.",
+      "Encounter Tamang culture, similar to Tibetan Buddhism.",
+      "Trek through beautiful rhododendron, pine, maple, and oak woodlands.",
+      "See peaks like Langtang Ri, Langtang, Langsisa, and Ganjala Peaks.",
+      "Visit historic Buddhist temples like Kyanjin Gompa and Langtang Gompa."
+    ],
+    facilities: [
+      "Free International Airport Pickup And Drop Services",
+      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Free Langtang Valley Trek map",
+      "Oximeter to check blood oxygen saturation levels",
+      "Medical Kits",
+      "Free excess luggage storing at Green Valley Nepal Store during the trek",
+      "Arrangement of sleeping bags and down jackets if required"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Our airport representative will transport you to your chosen accommodation in Kathmandu. Visit our office for a pre-trip meeting."
+      },
+      {
+        day: 2,
+        description: "Drive from Kathmandu to Syabrubesi",
+        details: "Enjoy scenic views of rivers, terraced farmland, charming settlements, and snow-capped mountains on the way to Syabrubesi."
+      },
+      {
+        day: 3,
+        description: "Trek from Syabrubesi to Lama Hotel",
+        details: "Start your trek through the Bhote Koshi River, enjoying the subtropical forest and diverse wildlife on the way to Lama Hotel."
+      },
+      {
+        day: 4,
+        description: "Trek from Lama Hotel to Langtang Village",
+        details: "Ascend through oak, maple, and rhododendron forests to reach the beautiful Tamang settlement of Langtang Village."
+      },
+      {
+        day: 5,
+        description: "Trek from Langtang Village to Kyanjin Gompa",
+        details: "Hike to Kyanjin Gompa, crossing wooden bridges and moraines, with spectacular views of glaciers and peaks."
+      },
+      {
+        day: 6,
+        description: "Exploration Day at Kyanjin Gompa",
+        details: "Hike to Tsergo RI or Kyanjin RI for panoramic views of the Langtang range and other peaks."
+      },
+      {
+        day: 7,
+        description: "Trek from Kyanjin Gompa to Lama Hotel",
+        details: "Descend back to Lama Hotel, enjoying the beautiful alpine pastures and yak herding communities along the way."
+      },
+      {
+        day: 8,
+        description: "Trek from Lama Hotel to Syabrubesi",
+        details: "Continue your descent through lovely forests and traditional villages, returning to Syabrubesi."
+      },
+      {
+        day: 9,
+        description: "Drive from Syabrubesi to Kathmandu",
+        details: "Travel back to Kathmandu, enjoying the scenic landscapes along the way."
+      },
+      {
+        day: 10,
+        description: "Final Departure",
+        details: "Our staff will assist you to the airport for your departure. Extend your trip if desired, or explore Kathmandu before your flight."
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "The Langtang Valley Trek is rated as moderate difficulty and requires dedication to prepare.",
+        "Engage in aerobic conditioning, elevation training, and strength endurance exercises to get physically and mentally ready.",
+        "Avoid coffee and alcohol to minimize the risk of altitude sickness."
+      ]
+    },
+    path: ["langtang_valley_path.jpg"]
+  },
+Langtang_Gosaikunda_Lake_Trek: {
+    id: 84,
+    slug: "langtang-gosaikunda-lake-trek",
+    category: "Trekking",
+    img: "langtang-gosaikunda.jpg",
+    description: "The Langtang Gosaikunda Lake Trek is a dream journey for those who desire to experience mid-hills and high-altitude lakes.",
+    title: "Langtang Gosaikunda Lake Trek – 15 Days",
+    location: "Nepal",
+    days: "15 Days",
+    people: "1 to 10",
+    subimages: [
+      "langtang1.jpg",
+      "langtang2.jpg",
+      "langtang3.jpg",
+      "langtang4.jpg",
+      "langtang5.jpg",
+    ],
+    overView: {
+      duration: "15 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 10",
+      category: "Trekking",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Backpack",
+        image: "backpack.jpg",
+        description: "A sturdy and comfortable backpack to carry all your essentials.",
+      },
+      {
+        title: "Trekking Poles",
+        image: "trekking-poles.jpg",
+        description: "Adjustable poles to provide stability on uneven terrain.",
+      },
+      {
+        title: "Sleeping Bag",
+        image: "sleeping-bag.jpg",
+        description: "A warm and insulated sleeping bag suitable for cold nights.",
+      },
+      {
+        title: "Hiking Boots",
+        image: "hiking-boots.jpg",
+        description: "Durable and comfortable boots for long days of trekking.",
+      },
+    ],
+    about: [
+      "The Langtang Gosaikunda Lake Trek is a dream journey for those who desire to experience mid-hills and high-altitude lakes. Each year, thousands visit the revered Gosaikunda Lake, attracting Hindu and Buddhist followers as well as nature enthusiasts. This trek is ideal for novices with a healthy body and an interest in hiking. The route offers breathtaking adventures through verdant woods, charming villages, abundant wildlife, and magnificent vistas of the towering Himalayas and the remote Langtang Valley."
+    ],
+    highlights: [
+      "Visit Langtang valley, famous for glaciers, pine forests, green meadows, and terraced fields.",
+      "Gain knowledge about the Red Panda.",
+      "Mesmerizing views of snow-capped mountains, waterfalls, deep gorges, stone-driven mills, and suspension bridges.",
+      "Majestic views of mountain peaks including Langtang Lirung, Gang Chenpo, Naya Kanga, Dorje Lakpa, Kimsung, and Yansa Tsenji.",
+      "Expansive vistas of snow-capped mountain peaks from Kyanjin Ri and Tserko Ri.",
+      "Trek through rhododendron, pine, maple, and oak woodlands.",
+      "Discover local cheese factories at Kyanjin Gompa and Shin Gompa.",
+      "Interact with Tamang people to learn about their way of life, customs, and cultures.",
+      "Discover the sacred Gosaikunda Lake and nearby lakes like Bhairab, Saraswati, and Surya Kunda.",
+      "Explore Langtang National Park and Shivapuri National Park."
+    ],
+    facilities: [
+      "Tea House or Lodge During Trek",
+      "Meals provided: Breakfast, Lunch, and Dinner",
+      "Free International Airport Pickup and Drop off Services",
+      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Map of Langtang Gosaikunda Trek route",
+      "An Oximeter to Check Blood Oxygen Saturation Levels",
+      "Medical Kits - Which May Be Necessary In Certain Cases",
+      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Meet and greet at the airport and transfer to the hotel. Briefing about the trek in the evening.",
+      },
+      {
+        day: 2,
+        description: "Drive from Kathmandu to Syabrubesi",
+        details: "Drive from Kathmandu (1400m) to Syabrubesi (1460m).",
+      },
+      {
+        day: 3,
+        description: "Trek from Syabrubesi to Lama Hotel",
+        details: "Trek from Syabrubesi (1460m) to Lama Hotel (2460m).",
+      },
+      {
+        day: 4,
+        description: "Trek from Lama Hotel to Langtang Village",
+        details: "Trek from Lama Hotel (2460m) to Langtang Village (3450m).",
+      },
+      {
+        day: 5,
+        description: "Trek from Langtang Village to Kyanjin Gompa",
+        details: "Trek from Langtang Village (3450m) to Kyanjin Gompa (3870m).",
+      },
+      {
+        day: 6,
+        description: "Exploration Day at Kyanjin Gompa",
+        details: "Hike to Tsergo RI or Kyanjin RI and explore the area.",
+      },
+      {
+        day: 7,
+        description: "Trek from Kyanjin Gompa to Lama Hotel",
+        details: "Trek from Kyanjin Gompa (3870m) to Lama Hotel (2460m).",
+      },
+      {
+        day: 8,
+        description: "Trek from Lama Hotel to Thulo Syabru",
+        details: "Trek from Lama Hotel (2460m) to Thulo Syabru (2250m).",
+      },
+      {
+        day: 9,
+        description: "Trek from Thulo Syabru to Shin Gompa",
+        details: "Trek from Thulo Syabru (2250m) to Shin Gompa (3330m).",
+      },
+      {
+        day: 10,
+        description: "Trek from Shin Gompa to Gosaikunda",
+        details: "Trek from Shin Gompa (3330m) to Gosaikunda (4380m).",
+      },
+      {
+        day: 11,
+        description: "Trek from Gosaikunda to Ghopte",
+        details: "Trek from Gosaikunda (4380m) to Ghopte (3430m) via Laurebina Pass (4610m).",
+      },
+      {
+        day: 12,
+        description: "Trek from Ghopte to Kutumsang",
+        details: "Trek from Ghopte (3430m) to Kutumsang (2460m) via Thadepati (3690m).",
+      },
+      {
+        day: 13,
+        description: "Trek from Kutumsang to Chisapani",
+        details: "Trek from Kutumsang (2460m) to Chisapani (2165m).",
+      },
+      {
+        day: 14,
+        description: "Trek from Chisapani to Sundarijal and Drive to Kathmandu",
+        details: "Trek from Chisapani (2165m) to Sundarijal (1460m) and drive to Kathmandu (1400m).",
+      },
+      {
+        day: 15,
+        description: "Departure from Kathmandu",
+        details: "Transfer to the airport for your departure flight.",
+      }
+    ],
+  
+    HowToPrepare: {
+      paragraph: [
+        "Ensure you have the necessary trekking permits.",
+        "Train for endurance and strength to handle the trek.",
+        "Pack appropriately for the cold weather and altitude."
+      ],
+    },
+    path: [
+      "kathmandu",
+      "syabrubesi",
+      "lama-hotel",
+      "langtang-village",
+      "kyanjin-gompa",
+      "thulo-syabru",
+      "shin-gompa",
+      "gosaikunda",
+      "ghopte",
+      "kutumsang",
+      "chisapani",
+      "sundarijal"
+    ],
+  },
+Tamang_Heritage_Trail_Trek: {
+      "id": 85,
+      "slug": "tamango-heritage-trail-trek",
+      "category": "Trekking",
+      "img": "path_to_image.jpg",
+      "description": "The Tamang Heritage Trail Trek offers an immersive experience into the Tamang way of life and the natural beauty of Nepal’s Langtang region. This 10-day trek showcases stunning mountain views, traditional Tamang culture, and diverse wildlife.",
+      "title": "Tamang Heritage Trail Trek – 10 Days",
+      "location": "Nepal",
+      "days": "10 Days",
+      "people": "1 to 10",
+      "subimages": [
+        "path_to_image1.jpg",
+        "path_to_image2.jpg",
+        "path_to_image3.jpg",
+        "path_to_image4.jpg",
+        "path_to_image5.jpg"
+      ],
+      "overView": {
+        "duration": "10 Days",
+        "startingPoint": "Kathmandu",
+        "endingPoint": "Kathmandu",
+        "peoples": "1 to 10",
+        "category": "Trekking",
+        "bestSeason": "Spring and Autumn"
+      },
+      "equipment": [
+        {
+          "title": "Backpack",
+          "image": "path_to_image.jpg",
+          "description": "A sturdy backpack is essential for carrying your gear throughout the trek."
+        },
+        {
+          "title": "Hiking Boots",
+          "image": "path_to_image.jpg",
+          "description": "Durable and comfortable hiking boots are crucial for trekking on varied terrain."
+        },
+        {
+          "title": "Sleeping Bag",
+          "image": "path_to_image.jpg",
+          "description": "A high-quality sleeping bag will keep you warm during the trek."
+        },
+        {
+          "title": "Rain Gear",
+          "image": "path_to_image.jpg",
+          "description": "Rain gear is necessary to protect against unpredictable weather conditions."
+        }
+      ],
+      "about": [
+        "The Tamang Heritage Trail Trek offers a unique opportunity to experience the rich culture and natural beauty of the Langtang region. The trek takes you through traditional Tamang villages, lush forests, and stunning mountain landscapes."
+      ],
+      "highlights": [
+        "Explore traditional Tamang culture and customs.",
+        "Stunning views of Langtang Valley and surrounding peaks.",
+        "Visit the hot springs in Tatopani.",
+        "Encounter diverse wildlife including red pandas and musk deer.",
+        "Experience Tibetan and Buddhist culture through monasteries and local practices."
+      ],
+      "facilities": [
+        "Tea house or lodge accommodation during the trek.",
+        "Free international airport pickup and drop-off services.",
+        "Green Valley Nepal Treks duffle bag and t-shirt.",
+        "Map of the Tamang Heritage Trek route.",
+        "Oximeter for checking blood oxygen levels.",
+        "Medical kits for emergencies.",
+        "Free excess luggage storage during the trek."
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Kathmandu",
+          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Green Valley Nepal Treks office."
+        },
+        {
+          "day": 2,
+          "description": "Drive from Kathmandu to Syabrubesi",
+          "details": "Scenic drive through terraced fields and mountains. Overnight stay in a teahouse."
+        },
+        {
+          "day": 3,
+          "description": "Trek from Syabrubesi to Gatlang",
+          "details": "Hike through rocky paths with stunning views of Ganesh Himal and Goljung Valley. Explore Gatlang, Parvati Kund, and an ancient monastery."
+        },
+        {
+          "day": 4,
+          "description": "Trek from Gatlang to Tatopani",
+          "details": "Descend through Chortens and woodlands. Visit Chilime Hydropower Dam and Gonggang Village. Enjoy the hot springs in Tatopani."
+        },
+        {
+          "day": 5,
+          "description": "Trek from Tatopani to Thuman via Nagthali Bhyang",
+          "details": "Trek through forests and reach Nagthali Danda for stunning views. Visit Thuman, known for its Tibetan-style hospitality."
+        },
+        {
+          "day": 6,
+          "description": "Trek from Thuman to Briddhim",
+          "details": "Hike along the ancient trade route to Tibet. Explore Briddhim, a Tamang village with Tibetan influences."
+        },
+        {
+          "day": 7,
+          "description": "Trek from Briddhim to Lama Hotel",
+          "details": "Trek through Bhote Koshi valley and bamboo groves. Opportunity to spot red pandas. Overnight stay in Lama Hotel."
+        },
+        {
+          "day": 8,
+          "description": "Trek from Lama Hotel to Syabrubesi",
+          "details": "Return journey with beautiful forest views. Relax in the natural hot spring at Syabrubesi."
+        },
+        {
+          "day": 9,
+          "description": "Drive from Syabrubesi to Kathmandu",
+          "details": "Scenic drive back to Kathmandu. Free time to explore Thamel or visit historical sites."
+        },
+        {
+          "day": 10,
+          "description": "Final Departure",
+          "details": "Transfer to the airport for departure. Option to extend the trip or shop for souvenirs if your flight is later."
+        }
+      ],
+      "HowToPrepare": {
+        "paragraph": [
+          "The Tamang Heritage Trek requires good physical fitness as you will be trekking up to an altitude of 3165 meters. Regular exercise, including cardio and strength training, is recommended. Acclimatization is crucial to avoid altitude sickness. It’s advisable to avoid caffeine and alcohol before and during the trek."
+        ]
+      },
+      "path": [
+        "Kathmandu to Syabrubesi",
+        "Syabrubesi to Gatlang",
+        "Gatlang to Tatopani",
+        "Tatopani to Thuman via Nagthali Bhyang",
+        "Thuman to Briddhim",
+        "Briddhim to Lama Hotel",
+        "Lama Hotel to Syabrubesi",
+        "Syabrubesi to Kathmandu"
+      ]
+  },    
+Helambu_Circuit_Trek: {
+      "id": 86,
+      "slug": "helambu-circuit-trek-8-days",
+      "category": "Trekking",
+      "img": "path_to_image.jpg",
+      "description": "The Helambu Circuit Trek is one of the best short treks near Kathmandu, offering stunning views of the Himalayas, rich cultural experiences, and diverse natural landscapes. This 8-day trek takes you through lush forests, picturesque villages, and high-altitude passes while allowing you to experience the local Sherpa and Tamang cultures.",
+      "title": "Helambu Circuit Trek – 8 Days",
+      "location": "Nepal",
+      "days": "8 Days",
+      "people": "1 to 10",
+      "subimages": [
+        "path_to_image1.jpg",
+        "path_to_image2.jpg",
+        "path_to_image3.jpg",
+        "path_to_image4.jpg",
+        "path_to_image5.jpg"
+      ],
+      "overView": {
+        "duration": "8 Days",
+        "startingPoint": "Kathmandu",
+        "endingPoint": "Kathmandu",
+        "peoples": "1 to 10",
+        "category": "Trekking",
+        "bestSeason": "Spring and Autumn"
+      },
+      "equipment": [
+        {
+          "title": "Backpack",
+          "image": "path_to_image.jpg",
+          "description": "A durable backpack is essential for carrying your gear throughout the trek."
+        },
+        {
+          "title": "Hiking Boots",
+          "image": "path_to_image.jpg",
+          "description": "Comfortable and sturdy hiking boots are crucial for trekking on varied terrain."
+        },
+        {
+          "title": "Sleeping Bag",
+          "image": "path_to_image.jpg",
+          "description": "A good quality sleeping bag will keep you warm at night."
+        },
+        {
+          "title": "Rain Gear",
+          "image": "path_to_image.jpg",
+          "description": "Rain gear is necessary to protect against unexpected weather conditions."
+        }
+      ],
+      "about": [
+        "The Helambu Circuit Trek is a remarkable short trek near Kathmandu, renowned for its scenic beauty, cultural experiences, and diverse landscapes. It provides a glimpse into the traditional lives of Sherpa and Tamang communities, offering stunning views of the Himalayas and rich flora and fauna along the way."
+      ],
+      "highlights": [
+        "Trek through Shivapuri National Park, Nepal's least crowded trail.",
+        "Visit historic monasteries in Helambu to understand Tibetan Buddhism.",
+        "Enjoy a serene hike through oak and rhododendron woodlands.",
+        "Experience the natural beauty and charming towns like Kutumsang, Tharepati, Tarke Gyang, and Sermanthang.",
+        "See amazing views of the Annapurna Ranges, Langtang, Ganesh Himal, Jugal, Manaslu, and Mount Everest.",
+        "Learn about Tamang and Sherpa cultures and traditions.",
+        "Opportunity to spot exotic wildlife including snow leopards, white monkeys, red pandas, Himalayan Thar, and musk deer."
+      ],
+      "facilities": [
+        "Tea house or lodge accommodation during the trek.",
+        "Free international airport pickup and drop-off services.",
+        "Green Valley Nepal Treks duffle bag and t-shirt.",
+        "Map of the Helambu Circuit Trek route.",
+        "Oximeter to check blood oxygen levels.",
+        "Medical kits for emergencies.",
+        "Free excess luggage storage during the trek.",
+        "Arrangement of sleeping bags and down jackets if required."
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Kathmandu",
+          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Green Valley Nepal Treks office."
+        },
+        {
+          "day": 2,
+          "description": "Drive from Kathmandu to Sundarijal, then trek to Chisapani",
+          "details": "Drive to Sundarijal and trek through oak and rhododendron woodlands to Chisapani, enjoying beautiful mountain views."
+        },
+        {
+          "day": 3,
+          "description": "Trek from Chisapani to Kutumsang",
+          "details": "Descend through meadows and farming communities to Kutumsang, with views of Dorje Lhakpa."
+        },
+        {
+          "day": 4,
+          "description": "Trek from Kutumsang to Melamchigaon",
+          "details": "Ascend to Thadepati Bhanjyang and continue through forests to Melamchigaon, with stunning views of Langtang and Gosaikunda peaks."
+        },
+        {
+          "day": 5,
+          "description": "Trek from Melamchigaon to Sermathang",
+          "details": "Descend to Tarkeghyang, visiting Buddhist settlements, and reach Sermathang, known for its gompas and views of Jugal Himal."
+        },
+        {
+          "day": 6,
+          "description": "Trek from Sermathang to Melamchi Pul Bazaar",
+          "details": "Descend through rice fields and meadows to Melamchi Pul Bazaar, connecting with your mode of transportation."
+        },
+        {
+          "day": 7,
+          "description": "Drive from Melamchi Pul Bazaar to Kathmandu",
+          "details": "Drive back to Kathmandu, passing through scenic landscapes and towns. Explore Kathmandu and enjoy its nightlife."
+        },
+        {
+          "day": 8,
+          "description": "Final Departure",
+          "details": "Transfer to the airport for departure. Option to extend your stay or shop for souvenirs if your flight is later."
+        }
+      ],
+      "HowToPrepare": {
+        "paragraph": [
+          "The Helambu Circuit Trek requires a moderate level of fitness. Regular cardiovascular and strength training exercises are recommended. Acclimatization is important to avoid altitude sickness, and it's advisable to avoid alcohol and caffeine before and during the trek. Prepare by strengthening your legs and core muscles, and improve your balance and endurance through exercises like running, cycling, and hiking."
+        ]
+      },
+      "path": [
+        "Kathmandu to Sundarijal",
+        "Sundarijal to Chisapani",
+        "Chisapani to Kutumsang",
+        "Kutumsang to Melamchigaon",
+        "Melamchigaon to Sermathang",
+        "Sermathang to Melamchi Pul Bazaar",
+        "Melamchi Pul Bazaar to Kathmandu"
+      ]
+  },
+Langtang_Ganja_La_Pass_Trek: {
+    id: 87,
+    slug: "langtang-ganja-la-pass-trek",
+    category: "trekking",
+    img: "path/to/main/image.jpg",
+    description: "A challenging trek offering breathtaking views, diverse landscapes, and a cultural immersion into Tibetan Buddhism.",
+    title: "Langtang Ganja La Pass Trek – 14 Days",
+    location: "Nepal",
+    days: "14",
+    people: "1 to 10",
+    subimages: [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg",
+      "path/to/image3.jpg",
+      "path/to/image4.jpg",
+      "path/to/image5.jpg",
+    ],
+    overView: {
+      duration: "14 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "1 to 10",
+      category: "Challenging",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Duffel Bag",
+        image: "path/to/duffel_bag.jpg",
+        description: "Green Valley Nepal Trek Duffle Bag.",
+      },
+      {
+        title: "T-Shirt",
+        image: "path/to/tshirt.jpg",
+        description: "Green Valley Nepal Trek T-Shirt.",
+      },
+      {
+        title: "Map",
+        image: "path/to/map.jpg",
+        description: "Map of Ganja La Pass Trek route.",
+      },
+      {
+        title: "Oximeter",
+        image: "path/to/oximeter.jpg",
+        description: "To check blood oxygen saturation levels.",
+      },
+    ],
+    about: [
+      "The Langtang Valley Ganja-La Pass trek offers stunning mountain views, high snowy passes, historic religious villages, and untouched natural beauty. The Ganja-La Pass trek is one of the most challenging in the Langtang Region, located northeast of Kathmandu Valley.",
+      "It includes narrow gorges, lush bamboo and rhododendron forests, waterfalls, and snow-covered Himalayan peaks. The trek provides exceptional Himalayan viewpoints, including the lush Helambu valley and panoramic views of peaks like Naya Kanga, Langtang Lirung, Yala Top, and Ponggen Dopku."
+    ],
+    highlights: [
+      "Journey from Kathmandu to Syabrubesi by public bus or private vehicle in 6 to 7 hours.",
+      "Visit Kyanjin Gompa and Langtang hamlet, showcasing a blend of culture, mountain scenery, and natural beauty.",
+      "Enjoy panoramic mountain views from Kyanjin Ri (4400m), Tserko Ri (4984m), and Ganja La (5130m).",
+      "Experience diverse landscapes, glaciers, adventurous passes, forests, rare red pandas, and unique flora.",
+      "Immerse in Tibetan Buddhism influenced culture, with Buddhist temples, stupas, and structures.",
+      "Explore waterfalls, stunning rhododendron forests, scenic terrain, and local communities.",
+      "Discover Helambu villages and the lifestyle of Tamang and Sherpa people."
+    ],
+    facilities: [
+      "Free International Airport Pickup and Drop Services",
+      "Green Valley Nepal Trek Duffle Bag and T-Shirt as souvenirs",
+      "Map of Ganja La Pass Trek route",
+      "An Oximeter to Check Blood Oxygen Saturation Levels",
+      "Medical Kits",
+      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek",
+      "Arrangement of sleeping bags and down jackets if required"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Green Valley Nepal Treks office. Accommodation: 3 Star Hotel in Thamel"
+      },
+      {
+        day: 2,
+        description: "Drive from Kathmandu to Syabrubesi",
+        details: "Scenic drive through rivers, terraced fields, and snow-capped mountains. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 7 to 8 Hours. Distance: 122 Kilometers"
+      },
+      {
+        day: 3,
+        description: "Trek from Syabrubesi to Lama Hotel",
+        details: "Trek through the Bhote Koshi River, Guru Rinpoche Gomba, Langtang Khola, and Bamboo. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 6 to 7 Hours. Distance: 11.3 Kilometers"
+      },
+      {
+        day: 4,
+        description: "Trek from Lama Hotel to Langtang Village",
+        details: "Trek through oak, maple, rhododendron forests, and Ghodatabela Meadow. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 14.8 Kilometers"
+      },
+      {
+        day: 5,
+        description: "Trek from Langtang Village to Kyanjin Gompa",
+        details: "Trek through Mani Walls, chortens, Mundu, moraines, and streams. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 3 to 4 Hours. Distance: 6.8 Kilometers"
+      },
+      {
+        day: 6,
+        description: "Exploration Day at Kyanjin Gompa",
+        details: "Visit Kyanjin Gompa and hike to Tserko RI or Kyanjin RI for panoramic views. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner"
+      },
+      {
+        day: 7,
+        description: "Trek from Kyanjin Gompa to Nyengang Kharka",
+        details: "Trek through juniper forests to Nyengang Kharka. Accommodation: Tented Camp. Meals: Breakfast, Lunch, and Dinner. Duration: 4 to 5 Hours. Distance: 11 Kilometers"
+      },
+      {
+        day: 8,
+        description: "Trek from Nyengang Kharka to Keldang via Ganja La Pass",
+        details: "Cross Ganja La Pass with views of Langtang Lirung, Shishapangma, and Gangchempo. Accommodation: Tented Camp. Meals: Breakfast, Lunch, and Dinner. Duration: 7 to 8 Hours. Distance: 17 Kilometers"
+      },
+      {
+        day: 9,
+        description: "Trek from Keldang to Dukpu",
+        details: "Trek through forests, ridges, and plateaus. Accommodation: Tented Camp. Meals: Breakfast, Lunch, and Dinner. Duration: 6 to 7 Hours. Distance: 7 Kilometers"
+      },
+      {
+        day: 10,
+        description: "Trek from Dukpu to Tarkeghyang",
+        details: "Trek through forests and ridges to Tarkeghyang. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 11.5 Kilometers"
+      },
+      {
+        day: 11,
+        description: "Trek from Tarkeghyang to Sermathang",
+        details: "Trek through forested ridges to Sermathang. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 4 to 5 Hours. Distance: 13 Kilometers"
+      },
+      {
+        day: 12,
+        description: "Trek from Sermathang to Melamchi Pul Bazar",
+        details: "Trek through meadows, streams, and settlements to Melamchi Pul Bazar. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 20 Kilometers"
+      },
+      {
+        day: 13,
+        description: "Drive from Melamchi Pul Bazar to Kathmandu",
+        details: "Drive back to Kathmandu and transfer to the hotel. Accommodation: 3 Star Hotel in Thamel. Meals: Breakfast and Lunch. Duration: 3 to 4 Hours"
+      },
+      {
+        day: 14,
+        description: "Departure from Kathmandu",
+        details: "Airport drop-off for departure. Meals: Breakfast"
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "The trek requires commitment due to the high altitude (5130 meters) and challenging route. Traveling in a group with a guide for safety and managing paperwork is recommended, especially for first-time trekkers.",
+        "Physical fitness and acclimatization are crucial, with a focus on strength, endurance, and aerobic exercises. Training should include exercises like jump squats, hip rolls, heel-downs, step-ups, hip clocks, and aerobic activities like swimming, running, cycling, and brisk walking. Elevation training is also recommended before the trip to Nepal."
+      ],
+    },
+    path: [
+      "Syabrubesi to Lama Hotel",
+      "Lama Hotel to Langtang Village",
+      "Langtang Village to Kyanjin Gompa",
+      "Kyanjin Gompa to Nyengang Kharka",
+      "Nyengang Kharka to Keldang via Ganja La Pass",
+      "Keldang to Dukpu",
+      "Dukpu to Tarkeghyang",
+      "Tarkeghyang to Sermathang",
+      "Sermathang to Melamchi Pul Bazar"
+    ],
+  },
+Gosaikunda_Lake_Trek: {
+    id: 88,
+    slug: "gosaikunda-lake-trek",
+    category: "trekking",
+    img: "path/to/main/image.jpg",
+    description: "A moderate trek offering stunning views of the Langtang, Manaslu, and Ganesh Himal ranges, along with a cultural immersion into the lives of the Tamang people.",
+    title: "Gosaikunda Lake Trek – 7 Days",
+    location: "Nepal",
+    days: "7",
+    people: "1 to 10",
+    subimages: [
+      "path/to/image1.jpg",
+      "path/to/image2.jpg",
+      "path/to/image3.jpg",
+      "path/to/image4.jpg",
+      "path/to/image5.jpg",
+    ],
+    overView: {
+      duration: "7 Days",
+      startingPoint: "Kathmandu",
+      endingPoint: "Kathmandu",
+      peoples: "Any",
+      category: "Moderate",
+      bestSeason: "Spring and Autumn",
+    },
+    equipment: [
+      {
+        title: "Duffel Bag",
+        image: "path/to/duffel_bag.jpg",
+        description: "Green Valley Nepal Trek Duffle Bag.",
+      },
+      {
+        title: "T-Shirt",
+        image: "path/to/tshirt.jpg",
+        description: "Green Valley Nepal Trek T-Shirt.",
+      },
+      {
+        title: "Map",
+        image: "path/to/map.jpg",
+        description: "Map of Gosaikunda trek route.",
+      },
+      {
+        title: "Oximeter",
+        image: "path/to/oximeter.jpg",
+        description: "To check blood oxygen saturation levels.",
+      },
+    ],
+    about: [
+      "The Gosaikunda Trek Itinerary is intended for those with limited vacation time who desire to go trekking in Nepal. Hindu pilgrims frequently visit Gosaikunda Lake because of its renowned religious significance. You will see Rhododendron and pine forests along the path to Gosaikunda, which is rich in wildlife and plant life. A unique experience throughout the walk is also provided by the monastery and yak cheese factory.",
+      "One of Nepal's shortest and most beautiful hikes in the Langtang area is Gosaikunda Trek. The River Trisuli originates in Gosainkunda Lake, which is located at a height of 4380 meters at the summit of the Himalayas. For Nepali worshippers, Gosainkunda Lake is highly popular for religious belief. Nepali people travel every year on the occasion of Janai Purnima to bathe in the sacred water of Gosainkunda to find salvation. Gosainkunda Lake Trekking Offers spectacular scenery of the Ganesh Himal, Manaslu, and Langtang Himalayan ranges. Numerous lakes, including Bhairav Kunda, Surya Kunda, Saraswati Kunda, Ragat Kunda, Nau Kunda, and Nag Kunda, may be seen while traveling to Gosaikunda. You will gain insight into how the residents of this area live as you follow ridges, traverse valleys and suspension bridges, and meander through rhododendron, oak, and pine woods. While traveling through Lantang National Park, if you are lucky, you could also see an endangered Red Panda."
+    ],
+    highlights: [
+      "Experience Langtang National Park's fauna and lovely vegetation.",
+      "Benefit from the opportunity to get knowledge about the Red Panda.",
+      "During the Gosaikunda trekking, you will walk through the beautiful Rhododendron and Pine forests.",
+      "Beautiful vistas of the Langtang, Manaslu, Ganesh Himal, Annapurna, and Hiuchuli mountain ranges.",
+      "Interact with Tamang people to learn about their way of life, customs, and cultures.",
+      "Discover the sacred Gosaikunda Lake and other nearby lakes like Bhairab, Saraswati, and Surya Kunda.",
+      "Explore Gosaikunda Lake and the historic Sing Gompa."
+    ],
+    facilities: [
+      "Free International Airport Pickup and Drop Services",
+      "Green Valley Nepal Trek Duffle Bag and T-Shirt as souvenirs",
+      "Map of Gosainkunda trek route",
+      "An Oximeter to Check Blood Oxygen Saturation Levels",
+      "Medical Kits",
+      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek",
+      "Arrangement of sleeping bags and down jackets if required"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        description: "Arrival in Kathmandu",
+        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Green Valley Nepal Treks office. Accommodation: 3 Star Hotel in Thamel"
+      },
+      {
+        day: 2,
+        description: "Drive from Kathmandu to Dhunche",
+        details: "Scenic drive through rivers, terraced fields, and snow-capped mountains. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 102 Kilometers"
+      },
+      {
+        day: 3,
+        description: "Trek from Dhunche to Chandanbari",
+        details: "Trek through pine forests, Ghatte Khola, and Deurali. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 7 Kilometers"
+      },
+      {
+        day: 4,
+        description: "Trek from Chandanbari to Gosaikunda",
+        details: "Trek through rocky paths, Cholangpati, Lauribina, and Buddha Temple. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 5 to 6 Hours. Distance: 9 Kilometers"
+      },
+      {
+        day: 5,
+        description: "Trek from Gosaikunda to Dhunche",
+        details: "Trek through Lauribina, Cholangpati, Dhimsa, and Deurali. Accommodation: Tea House or Lodge. Meals: Breakfast, Lunch, and Dinner. Duration: 7 to 8 Hours. Distance: 15 Kilometers"
+      },
+      {
+        day: 6,
+        description: "Drive from Dhunche to Kathmandu",
+        details: "Drive back to Kathmandu and transfer to the hotel. Accommodation: 3 Star Hotel in Thamel. Meals: Breakfast. Duration: 5 to 6 Hours. Distance: 102 Kilometers"
+      },
+      {
+        day: 7,
+        description: "Final Departure",
+        details: "Airport drop-off for departure. Meals: Breakfast"
+      }
+    ],
+    HowToPrepare: {
+      paragraph: [
+        "First, hikers need to get ready for the elevation change. Gosaikunda Trekking requires the ability to walk uphill and downhill for 5 to 6 hours each day while carrying a bag pack. It is advised not to immediately go on a high-altitude hike if you have never gone hiking before, suffer from altitude sickness, or have asthma. Before making trip arrangements, they must get in shape by performing daily hikes at gradually higher altitudes. By doing this, the hiker can become ready to adapt to the rising altitude. Jogging often will allow the body's oxygen levels to be adjusted. It is also advised to engage in physical activity, stretching, and moderate aerobics a month before your journey to maintain your physical fitness.",
+        "One may easily complete the walk without any difficulties if they are in good physical shape. Second, you need to have a solid list of equipment that will support you during the Gosaikunda Lake Trek. The equipment is always crucial to the success of your excursion. Please make an effort to obtain every piece of equipment that will make your voyage easier from your country. You can also find lacking equipment in Kathmandu."
+      ]
+    },
+    path: [
+      "Dhunche to Chandanbari",
+      "Chandanbari to Gosaikunda",
+      "Gosaikunda to Dhunche"
+    ]
+  },
+//Makalu Region
+Makalu_Base_Camp_Trek: {
+  id: 89,
+  slug: "makalu-base-camp-trek",
+  category: "Trekking",
+  img: "main-image-url.jpg",
+  description: "Makalu Base Camp Trek offers an adventure through one of the most remote and unspoiled trekking regions of Nepal. Experience the majestic beauty of the Makalu-Barun National Park and the fifth highest mountain in the world.",
+  title: "Makalu Base Camp Trek - 19 Days",
+  location: "Makalu-Barun National Park, Nepal",
+  days: "19",
+  people: "Small Group",
+  subimages: [
+    "subimage1.jpg",
+    "subimage2.jpg",
+    "subimage3.jpg",
+    "subimage4.jpg",
+    "subimage5.jpg"
+  ],
+  overView: {
+    duration: "19 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "Small Group",
+    category: "Strenuous",
+    bestSeason: "Spring (March-May) and Autumn (September-November)"
+  },
+  equipment: [
+    {
+      title: "Trekking Boots",
+      image: "trekking-boots.jpg",
+      description: "Durable and comfortable trekking boots suitable for rugged terrain."
+    },
+    {
+      title: "Sleeping Bag",
+      image: "sleeping-bag.jpg",
+      description: "High-quality sleeping bag rated for cold temperatures."
+    },
+    {
+      title: "Trekking Poles",
+      image: "trekking-poles.jpg",
+      description: "Adjustable trekking poles for added stability."
+    },
+    {
+      title: "Backpack",
+      image: "backpack.jpg",
+      description: "Spacious and comfortable backpack with rain cover."
+    }
+  ],
+  about: [
+    "The Makalu Base Camp Trek takes you deep into the heart of the Himalayas, offering breathtaking views and a challenging adventure. The trek passes through diverse landscapes, including lush forests, terraced fields, and high-altitude terrains."
+  ],
+  highlights: [
+    "Close-up views of Makalu (8,485m), the fifth highest mountain in the world.",
+    "Exploration of the remote and unspoiled Makalu-Barun National Park.",
+    "Diverse flora and fauna, including rare species of plants and animals.",
+    "Cultural encounters with the local Sherpa and Rai communities.",
+    "Challenging high-altitude trekking experience."
+  ],
+  facilities: [
+    "3-star hotel accommodation in Kathmandu.",
+    "Tea house or lodge accommodation during the trek.",
+    "Meals provided: 17 breakfasts, 15 lunches, and 16 dinners.",
+    "Experienced trekking guide and porters.",
+    "Permits and necessary paperwork for trekking."
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu",
+      details: "Arrive at Tribhuvan International Airport, Kathmandu. Transfer to hotel. Briefing about the trek."
+    },
+    {
+      day: 2,
+      description: "Fly to Tumlingtar and drive to Chichira",
+      details: "Take a scenic flight to Tumlingtar and drive to the small village of Chichira. Overnight stay in a local lodge."
+    },
+    {
+      day: 3,
+      description: "Trek from Chichira to Num",
+      details: "Start trekking from Chichira to Num, passing through lush forests and terraced fields."
+    },
+    {
+      day: 4,
+      description: "Trek from Num to Seduwa",
+      details: "Descend to Arun River and climb up to Seduwa, entering the Makalu-Barun National Park."
+    },
+    {
+      day: 5,
+      description: "Trek from Seduwa to Tashigaon",
+      details: "Continue trekking through the beautiful landscape to Tashigaon, the last settlement on the route."
+    },
+    {
+      day: 6,
+      description: "Trek from Tashigaon to Khongma Danda",
+      details: "Climb through dense forests to Khongma Danda, a ridge with panoramic views."
+    },
+    {
+      day: 7,
+      description: "Acclimatization day at Khongma Danda",
+      details: "Rest and acclimatize at Khongma Danda, preparing for higher altitudes."
+    },
+    {
+      day: 8,
+      description: "Trek from Khongma Danda to Dobate",
+      details: "Cross Shipton La and descend to Dobate, a remote area with few trekkers."
+    },
+    {
+      day: 9,
+      description: "Trek from Dobate to Yangle Kharka",
+      details: "Trek through rhododendron forests to the grassy fields of Yangle Kharka."
+    },
+    {
+      day: 10,
+      description: "Trek from Yangle Kharka to Langmale Kharka",
+      details: "Follow the Barun River valley to Langmale Kharka, surrounded by towering peaks."
+    },
+    {
+      day: 11,
+      description: "Trek from Langmale Kharka to Makalu Base Camp",
+      details: "Reach the Makalu Base Camp, with stunning views of Makalu and other peaks."
+    },
+    {
+      day: 12,
+      description: "Explore Makalu Base Camp",
+      details: "Spend a day exploring the Makalu Base Camp area and acclimatizing."
+    },
+    {
+      day: 13,
+      description: "Trek from Makalu Base Camp to Yangle Kharka",
+      details: "Begin the return journey, retracing steps to Yangle Kharka."
+    },
+    {
+      day: 14,
+      description: "Trek from Yangle Kharka to Dobate",
+      details: "Continue descending through the beautiful valley to Dobate."
+    },
+    {
+      day: 15,
+      description: "Trek from Dobate to Khongma Danda",
+      details: "Climb back up to Khongma Danda."
+    },
+    {
+      day: 16,
+      description: "Trek from Khongma Danda to Tashigaon",
+      details: "Descend to Tashigaon, passing through lush forests."
+    },
+    {
+      day: 17,
+      description: "Trek from Tashigaon to Num",
+      details: "Trek back to Num, enjoying the picturesque landscape."
+    },
+    {
+      day: 18,
+      description: "Drive from Num to Tumlingtar and fly back to Kathmandu",
+      details: "Drive to Tumlingtar and take a flight back to Kathmandu. Transfer to hotel."
+    },
+    {
+      day: 19,
+      description: "Departure from Kathmandu",
+      details: "Transfer to Tribhuvan International Airport for your departure."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Ensure you have a valid trekking permit and necessary paperwork.",
+      "Carry proper trekking gear and equipment, including warm clothing, sturdy boots, and a good-quality sleeping bag.",
+      "Prepare for high-altitude conditions by acclimatizing properly.",
+      "Stay hydrated and maintain a balanced diet during the trek.",
+      "Consult your doctor and carry necessary medications for high-altitude trekking."
+    ]
+  },
+  path: [
+    "Kathmandu",
+    "Tumlingtar",
+    "Chichira",
+    "Num",
+    "Seduwa",
+    "Tashigaon",
+    "Khongma Danda",
+    "Dobate",
+    "Yangle Kharka",
+    "Langmale Kharka",
+    "Makalu Base Camp",
+    "Yangle Kharka",
+    "Dobate",
+    "Khongma Danda",
+    "Tashigaon",
+    "Num",
+    "Tumlingtar",
+    "Kathmandu"
+  ]
+},
+//Kanchenjunga Region
+Kanchenjunga_North_Base_Camp_Trek_20_Days: {
+  "id": 90,
+  "slug": "kanchenjunga-north-base-camp-trek-20-days",
+  "category": "Trekking",
+  "img": "image-url.jpg",
+  "description": "The Kanchenjunga North Base Camp Trek is a challenging yet rewarding trek that takes you to the base of the world's third-highest peak, Kanchenjunga. This trek offers stunning panoramic views of the Kanchenjunga massif and its surrounding peaks, and takes you through diverse landscapes, including rhododendron forests, alpine pastures, and traditional villages.",
+  "title": "Kanchenjunga North Base Camp Trek - 20 Days",
+  "location": "Nepal",
+  "days": "20 Days",
+  "people": "1 to 10",
+  "subimages": [
+    "subimage1.jpg",
+    "subimage2.jpg",
+    "subimage3.jpg"
+  ],
+  "overView": {
+    "duration": "20 Days",
+    "startingPoint": "Kathmandu",
+    "endingPoint": "Kathmandu",
+    "peoples": "1 to 10",
+    "category": "Trekking",
+    "bestSeason": "Spring (March to May) and Autumn (September to November)"
+  },
+  "equipment": [
+    {
+      "title": "Warm Clothing",
+      "image": "warm-clothing.jpg",
+      "description": "Essential for high-altitude trekking to keep warm."
+    },
+    {
+      "title": "Hiking Boots",
+      "image": "hiking-boots.jpg",
+      "description": "Sturdy boots for rough and uneven terrain."
+    },
+    {
+      "title": "Sleeping Bag",
+      "image": "sleeping-bag.jpg",
+      "description": "For comfortable and warm sleep during the trek."
+    },
+    {
+      "title": "Trekking Poles",
+      "image": "trekking-poles.jpg",
+      "description": "Helpful for stability and support on steep and uneven trails."
+    }
+  ],
+  "about": [
+    "Kanchenjunga North Base Camp Trek is a strenuous trek that requires good physical fitness and acclimatization. It traverses remote and rugged terrain, offering a unique adventure and cultural encounters."
+  ],
+  "highlights": [
+    "Breathtaking views of Kanchenjunga, the world's third-highest peak.",
+    "Remote and rugged landscapes, ideal for nature lovers.",
+    "Traditional villages with opportunities to learn about local cultures.",
+    "Challenging high-altitude passes and trails.",
+    "Unobstructed mountain views, perfect for photography.",
+    "Experience the relatively untouched Kanchenjunga region.",
+    "Cultural and spiritual significance for Buddhists and Hindus.",
+    "Spectacular sunrise and sunset views from high-altitude passes and base camp."
+  ],
+  "facilities": [
+    "Tea house or lodge accommodation",
+    "Medical kits",
+    "Other necessary amenities"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "description": "Arrival in Kathmandu (1400m)",
+      "details": "Arrival at Kathmandu airport, transfer to hotel. Meet with the trek team and discuss the itinerary."
+    },
+    {
+      "day": 2,
+      "description": "Kanchenjunga North Base Camp Trek Permit Preparation and City Sightseeing",
+      "details": "Prepare permits, visit UNESCO World Heritage sites in Kathmandu including Pashupatinath, Swayambhunath, Boudhanath Stupa, and Bhaktapur Durbar Square."
+    },
+    {
+      "day": 3,
+      "description": "Flight from Kathmandu (1400m) to Bhadrapur (91m) then Drive to Taplejung (1820m)",
+      "details": "Fly to Bhadrapur, then drive to Taplejung, passing through scenic landscapes and tea gardens.",
+      
+    },
+    {
+      "day": 4,
+      "description": "Trek from Taplejung (1820m) to Chirwa (1185m)",
+      "details": "Begin trekking through Cardamom Jungle, small towns, and traditional farming areas.",
+      
+    },
+    {
+      "day": 5,
+      "description": "Trek from Chirwa (1185m) to Sermanthang (1650m)",
+      "details": "Trek through conservation areas, classic Nepali villages, and cardamom gardens.",
+     
+    },
+    {
+      "day": 6,
+      "description": "Trek from Sermanthang (1650m) to Amjilosa (2498m)",
+      "details": "Hike uphill on stone steps, passing Sherpa communities and yak pastures.",
+      
+    },
+    {
+      "day": 7,
+      "description": "Trek from Amjilosa (2498m) to Ghunsa (3415m)",
+      "details": "Ascend through rhododendron and oak forests, with views of Kumbakarna Peak.",
+     
+    },
+    {
+      "day": 8,
+      "description": "Acclimatization Day in Ghunsa (3415m)",
+      "details": "Rest and acclimatize in Ghunsa. Explore local temples and Buddhist traditions."
+    },
+    {
+      "day": 9,
+      "description": "Trek from Ghunsa (3415m) to Kambachen (4145m)",
+      "details": "Hike through rhododendron and pine woods, passing chortens, mani walls, and prayer flags.",
+      
+    },
+    {
+      "day": 10,
+      "description": "Acclimatization Day in Kambachen (4145m)",
+      "details": "Rest and acclimatize in Kambachen. Optional day trip to Phaktalung Temple or high ridge for mountain views."
+    },
+    {
+      "day": 11,
+      "description": "Trek from Kambachen (4145m) to Lhonak (4792m)",
+      "details": "Ascend through the Kanchenjunga glaciers and enjoy stunning mountain views.",
+      
+    },
+    {
+      "day": 12,
+      "description": "Trek from Lhonak (4792m) to Kanchenjunga North Base Camp (5140m) then Back to Lhonak (4792m)",
+      "details": "Reach Kanchenjunga North Base Camp for panoramic mountain views and return to Lhonak.",
+      
+    },
+    {
+      "day": 13,
+      "description": "Trek from Lhonak (4792m) to Ghunsa (3415m)",
+      "details": "Return trek to Ghunsa, enjoying mountain vistas and alpine scenery.",
+      
+    },
+    {
+      "day": 14,
+      "description": "Trek from Ghunsa (3415m) to Amjilosa (2498m)",
+      "details": "Descend through bamboo forests to Amjilosa.",
+      
+    },
+    {
+      "day": 15,
+      "description": "Trek from Amjilosa (2498m) to Chirwa (1185m)",
+      "details": "Trek through diverse villages and landscapes, crossing suspension bridges.",
+      
+    },
+    {
+      "day": 16,
+      "description": "Trek from Chirwa (1185m) to Phurumbu (1549m)",
+      "details": "Descend through thick vegetation and various communities.",
+      
+    },
+    {
+      "day": 17,
+      "description": "Trek from Phurumbu (1549m) to Taplejung (1820m)",
+      "details": "Final trek to Taplejung, the gateway to Kanchenjunga Region.",
+      
+    },
+    {
+      "day": 18,
+      "description": "Drive from Taplejung (1820m) to Bhadrapur (91m), then Flight to Kathmandu (1400m)",
+      "details": "Drive to Bhadrapur and fly back to Kathmandu.",
+      
+    },
+    {
+      "day": 19,
+      "description": "Free Day in Kathmandu",
+      "details": "Relax and explore Kathmandu at your own pace. Optional activities include shopping and sightseeing."
+    },
+    {
+      "day": 20,
+      "description": "Departure from Kathmandu",
+      "details": "Transfer to the airport for your departure flight."
+    }
+  ],
+  "HowToPrepare": {
+    "paragraph": [
+      "Ensure good physical fitness and acclimatization. Prepare for high-altitude trekking with warm clothing, high-altitude gear, and adequate provisions. Consult with your trekking company for specific requirements and safety measures."
+    ]
+  },
+  "path": [""]
+},
+Kanchenjunga_South_Base_Camp_Trek_13_Days: {
+  id: 91,
+  slug: "kanchenjunga-south-base-camp-trek-13-days",
+  category: "Trekking",
+  img: "",
+  description: "Embark on a challenging 13-day trek to the Kanchenjunga South Base Camp, exploring remote villages, lush forests, and breathtaking mountain views.",
+  title: "Kanchenjunga South Base Camp Trek - 13 Days",
+  location: "Nepal",
+  days: "13",
+  people: "1 to 6",
+  subimages: [
+    "",
+    "",
+    "",
+    "",
+    "",
+  ],
+  overView: {
+    duration: "13 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "1 to 6",
+    category: "Challenging",
+    bestSeason: "Spring or Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Boots",
+      image: "",
+      description: "Essential for trekking in rugged terrain, providing comfort and support.",
+    },
+    {
+      title: "Warm Clothing",
+      image: "",
+      description: "Includes down jackets, fleece, and hats to keep warm at high altitudes.",
+    },
+    {
+      title: "Backpack",
+      image: "",
+      description: "A sturdy backpack to carry your essentials and trekking gear.",
+    },
+    {
+      title: "Sleeping Bag",
+      image: "",
+      description: "A high-altitude sleeping bag to ensure a good night’s sleep in cold conditions.",
+    },
+  ],
+  about: [
+    "The Kanchenjunga South Base Camp Trek is a lesser-known but equally breathtaking trek in the eastern region of Nepal. It offers an opportunity to explore the remote and pristine parts of the Himalayas, surrounded by towering peaks and diverse landscapes. The trek takes you to the base of the third highest mountain in the world, Kanchenjunga, also known as 'Five Treasures of Snow', standing tall at an elevation of 8,586 meters.",
+    "The trek passes through several remote villages inhabited by ethnic groups such as Rai and Limbu, providing an opportunity to interact with the local people, learn about their customs and traditions, and experience their hospitality. It also takes you through the Kanchenjunga Conservation Area, home to diverse flora and fauna.",
+    "The trek is considered challenging and requires trekkers to walk for several hours each day and cross high passes. However, with proper preparation, it is achievable for anyone with a moderate level of fitness.",
+  ],
+  highlights: [
+    "Panoramic views of Kanchenjunga, Makalu, Lhotse, and other towering peaks.",
+    "Trekking through lush forests, remote villages, and glacial rivers.",
+    "Interaction with local ethnic groups such as Rai and Limbu.",
+    "Observation of diverse wildlife and flora, including vibrant rhododendrons.",
+    "Experience staying in local tea houses and learning about the local lifestyle.",
+    "Views of glaciers and icefalls, including the Yalung Glacier.",
+    "Passes through Hindu and Buddhist monasteries, providing a spiritual connection.",
+  ],
+  facilities: [
+    "Tea House or Lodge Accommodation During the Trek",
+    "Hearty and Nutritious Meals",
+    "Medical Kits",
+    "Free Excess Luggage Storage",
+    "Kanchenjunga South Base Camp Trek Map",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Flight from Kathmandu to Bhadrapur, then Drive to Illam",
+      details: "Begin your trek with a flight from Kathmandu to Bhadrapur, followed by a drive to Illam. Explore the tea estates of Illam and enjoy the views of the mountains.",
+    },
+    {
+      day: 2,
+      description: "Drive from Illam to Taplejung",
+      details: "Travel by jeep or bus to Taplejung, entering the Kanchenjunga Conservation Area. Enjoy the scenic drive through farmland and forests.",
+    },
+    {
+      day: 3,
+      description: "Trek from Taplejung to Lali Kharka",
+      details: "Trek through subtropical rainforest, crossing various settlements and reaching Lali Kharka for an overnight stay.",
+    },
+    {
+      day: 4,
+      description: "Trek from Lali Kharka to Khesewa",
+      details: "Climb to a ridge, descend to Simbu, and then cross Phawa Khola. Continue through forests to reach Khesewa.",
+    },
+    {
+      day: 5,
+      description: "Trek from Khesewa to Pumphe Danda",
+      details: "Hike through mixed forests and enjoy views of Simvu, Jannu, and Kanchenjunga. Reach Pumphe Danda after a sharp ascent.",
+    },
+    {
+      day: 6,
+      description: "Trek from Pumphe Danda to Yamphuding",
+      details: "Hike uphill along Kabeli Khola, passing through meadows and rhododendron woodlands to reach Yamphuding.",
+    },
+    {
+      day: 7,
+      description: "Trek from Yamphuding to Torongding",
+      details: "Follow a well-maintained trail through rhododendron forests and meadows to reach Torongding.",
+    },
+    {
+      day: 8,
+      description: "Trek from Torongding to Cheram",
+      details: "Trek through pine and rhododendron forests, crossing Yak Kharka and Anda Phedi to reach Cheram.",
+    },
+    {
+      day: 9,
+      description: "Trek from Cheram to Ramche, Explore Kanchenjunga South Base Camp",
+      details: "Climb to Ramche, explore the Yalung Glacier, and enjoy views of Kanchenjunga and surrounding peaks.",
+    },
+    {
+      day: 10,
+      description: "Trek from Ramche to Torongding",
+      details: "Return to Torongding, retracing your steps through Cheram and Anda Phedi.",
+    },
+    {
+      day: 11,
+      description: "Trek from Torongding to Yamphuding",
+      details: "Descend from Torongding to Yamphuding, passing through scenic landscapes and villages.",
+    },
+    {
+      day: 12,
+      description: "Trek from Yamphuding to Ranipul, Drive to Phidim",
+      details: "Trek to Ranipul and then drive to Phidim, enjoying the peaceful forest and terraced hills along the way.",
+    },
+    {
+      day: 13,
+      description: "Drive from Phidim to Bhadrapur, then Flight to Kathmandu",
+      details: "Drive to Bhadrapur and take a flight back to Kathmandu, concluding your trek with a farewell dinner in Thamel.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Physical fitness is crucial for this trek, which involves several hours of walking daily and crossing high passes. Training with cardiovascular and strength exercises is recommended.",
+      "Altitude acclimatization is essential. Ensure proper acclimatization by taking it slow initially and staying hydrated.",
+      "Pack appropriate gear, including warm clothing, trekking boots, a backpack, and a sleeping bag. Also, bring a first-aid kit and waterproof rain gear.",
+      "Obtain necessary permits, including a TIMS card and a Kanchenjunga Conservation Area Permit.",
+      "Consider hiring a guide and porter for support and assistance throughout the trek.",
+      "Purchase comprehensive travel insurance that covers high-altitude trekking.",
+      "Budget for transportation, permits, gear, guide, porter, food, and accommodation.",
+    ],
+  },
+  path: [
+    "Kathmandu to Bhadrapur by flight",
+    "Bhadrapur to Illam by drive",
+    "Illam to Taplejung by drive",
+    "Taplejung to Lali Kharka by trek",
+    "Lali Kharka to Khesewa by trek",
+    "Khesewa to Pumphe Danda by trek",
+    "Pumphe Danda to Yamphuding by trek",
+    "Yamphuding to Torongding by trek",
+    "Torongding to Cheram by trek",
+    "Cheram to Ramche by trek",
+    "Ramche to Torongding by trek",
+    "Torongding to Yamphuding by trek",
+    "Yamphuding to Ranipul by trek",
+    "Ranipul to Phidim by drive",
+    "Phidim to Bhadrapur by drive",
+    "Bhadrapur to Kathmandu by flight",
+  ],
+},
+Kanchenjunga_Circuit_Trek: {
+  id: 92,
+  slug: "kanchenjunga-circuit-trek",
+  category: "Trekking",
+  img: "path_to_image.jpg",
+  description: "The Kanchenjunga Circuit Trek is one of the most beautiful and challenging treks in the world, situated in the eastern part of Nepal. This epic trek offers breathtaking views of the snow-capped peaks, glaciers, forests, and meadows, culminating at the base camp of the world's third-highest mountain, Kanchenjunga.",
+  title: "Kanchenjunga Circuit Trek",
+  location: "Nepal",
+  days: "22 Days",
+  people: "2 to 10",
+  subimages: [
+    "subimage1.jpg",
+    "subimage2.jpg",
+    "subimage3.jpg",
+    "subimage4.jpg",
+    "subimage5.jpg",
+  ],
+  overView: {
+    duration: "22 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "2 to 10",
+    category: "Strenuous",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Boots",
+      image: "boots_image.jpg",
+      description: "Sturdy and comfortable trekking boots are essential for navigating rough terrain and ensuring foot protection."
+    },
+    {
+      title: "Sleeping Bag",
+      image: "sleeping_bag_image.jpg",
+      description: "A high-altitude sleeping bag rated for cold temperatures will keep you warm during the trek."
+    },
+    {
+      title: "Water Purification System",
+      image: "water_purification_image.jpg",
+      description: "Carry a reliable water purification system to ensure safe drinking water throughout the trek."
+    },
+    {
+      title: "Trekking Poles",
+      image: "trekking_poles_image.jpg",
+      description: "Trekking poles can provide stability and support on steep or uneven trails."
+    },
+  ],
+  about: [
+    "The Kanchenjunga Circuit Trek is a challenging and rewarding trek through the remote region of Eastern Nepal. It offers stunning views of Kanchenjunga, Makalu, and other towering peaks, as well as an insight into local cultures."
+  ],
+  highlights: [
+    "Reaching the base camp of Mount Kanchenjunga, the world's third-highest mountain.",
+    "Panoramic views of the Kanchenjunga massif and other peaks like Mount Everest and Mount Lhotse.",
+    "Encountering wildlife such as snow leopards, blue sheep, Himalayan tahr, and red pandas.",
+    "Experiencing local culture and interacting with traditional villages.",
+    "Visiting high-altitude glacial lakes and stunning waterfalls.",
+    "Crossing challenging high-altitude passes like Mirgin La Pass.",
+    "Exploring dense rhododendron forests in full bloom during spring."
+  ],
+  facilities: [
+    "International and Domestic Airport Pickup and Drop-off service",
+    "Green Valley Nepal Treks Duffle Bag",
+    "Green Valley Nepal Treks T-Shirt",
+    "Free Kanchenjunga Circuit Trek Map",
+    "An Oximeter to Check Blood Oxygen Saturation Levels",
+    "Medical Kits",
+    "Free Excess Luggage Storage at Green Valley Nepal Store"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrive in Kathmandu",
+      details: "At the Tribhuvan International Airport, our airport representative will receive you. A private tourist vehicle will drop you off at your hotel. Optionally, you can visit our office or relax before the trek."
+    },
+    {
+      day: 2,
+      description: "Kanchenjunga Circuit Trek Permit Preparation and Sightseeing",
+      details: "Meet your trek leader for a briefing. Prepare necessary documents and enjoy a free day for relaxation or a tour of Kathmandu's heritage sites."
+    },
+    {
+      day: 3,
+      description: "Domestic Flight from Kathmandu to Bhadrapur",
+      details: "Fly to Bhadrapur, then transfer to your hotel for rest before the adventure begins."
+    },
+    {
+      day: 4,
+      description: "Drive from Bhadrapur to Taplejung by Jeep",
+      details: "Travel through scenic tea plantations and villages to Taplejung, the starting point of your trek."
+    },
+    {
+      day: 5,
+      description: "Drive from Taplejung to Sekathum by Jeep",
+      details: "Journey to Sekathum, passing through Tamor Nadi and villages along the way."
+    },
+    {
+      day: 6,
+      description: "Trek from Sekathum to Amjilasa",
+      details: "Begin your trek with an ascent through Ghunsa Khola, passing lush forests and villages."
+    },
+    {
+      day: 7,
+      description: "Trek from Amjilasa to Gyabla",
+      details: "Hike through forested areas with potential sightings of red pandas and stunning waterfalls."
+    },
+    {
+      day: 8,
+      description: "Trek from Gyabla to Ghunsa",
+      details: "Travel through forests and reach Ghunsa village for an overnight stay."
+    },
+    {
+      day: 9,
+      description: "Ghunsa Acclimatization Day",
+      details: "Acclimate to higher altitudes with a hike to Ghunsa Ree or Selele La Pass for panoramic views."
+    },
+    {
+      day: 10,
+      description: "Trek from Ghunsa to Kambachen",
+      details: "Ascend through meadows and forests, arriving at Kambachen surrounded by mountain views."
+    },
+    {
+      day: 11,
+      description: "Trek from Kambachen to Lonak",
+      details: "Navigate steep rocks and paths to reach the picturesque village of Lonak."
+    },
+    {
+      day: 12,
+      description: "Trek from Lonak to Kanchenjunga North Base Camp",
+      details: "Trek to Pangpema, the North Base Camp of Kanchenjunga, and enjoy views of Kanchenjunga and surrounding peaks."
+    },
+    {
+      day: 13,
+      description: "Trek from Lonak to Ghunsa",
+      details: "Return to Ghunsa via the same route, enjoying views of the Himalayan ranges."
+    },
+    {
+      day: 14,
+      description: "Trek from Ghunsa to Sele La Camp",
+      details: "Journey through forests to Sele La Camp, with possible sightings of snow leopards."
+    },
+    {
+      day: 15,
+      description: "Trek from Sele La Camp to Cheram",
+      details: "Cross three passes and descend to the lovely village of Cheram."
+    },
+    {
+      day: 16,
+      description: "Trek from Cheram to Ramche",
+      details: "Ascend to Yalung Glacier and continue to Ramche, enjoying views of Mts. Kokthan, Rathong, and Kabru."
+    },
+    {
+      day: 17,
+      description: "Trek from Ramche to Oktang Viewpoint and Back",
+      details: "Visit Oktang Base Camp and explore the area for fantastic views before returning to Ramche."
+    },
+    {
+      day: 18,
+      description: "Trek from Ramche to Tortang",
+      details: "Descend through rhododendron forests to Tortang, passing vibrant prayer flags and Mani walls."
+    },
+    {
+      day: 19,
+      description: "Trek from Tortang to Sekathum",
+      details: "Follow Simbuwa Khola and descend through towns to reach Sekathum."
+    },
+    {
+      day: 20,
+      description: "Drive from Sekathum to Illam or Taplejung by Jeep",
+      details: "Travel by jeep to Illam or Taplejung, passing through various towns along the way."
+    },
+    {
+      day: 21,
+      description: "Flight from Illam to Bhadrapur then Kathmandu",
+      details: "Fly back to Kathmandu and enjoy some free time in the city before a farewell dinner with the Green Valley Nepal Trek team."
+    },
+    {
+      day: 22,
+      description: "Final Departure or Onward For Next Program",
+      details: "Transfer to the airport for your flight home or extend your stay with additional packages from Green Valley Nepal Treks."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "To prepare for the Kanchenjunga Circuit Trek, start training several months in advance focusing on cardio, strength, and endurance exercises. Ensure you have appropriate trekking gear, including sturdy boots, a high-altitude sleeping bag, and a water purification system.",
+      "Acclimate yourself to high altitudes by gradually increasing your altitude exposure. Carry a well-stocked first-aid kit and have comprehensive travel insurance. Hiring a qualified guide is recommended for valuable guidance and support."
+    ],
+  },
+  path: [
+    "Kathmandu to Bhadrapur",
+    "Bhadrapur to Taplejung",
+    "Taplejung to Sekathum",
+    "Sekathum to Amjilasa",
+    "Amjilasa to Gyabla",
+    "Gyabla to Ghunsa",
+    "Ghunsa to Kambachen",
+    "Kambachen to Lonak",
+    "Lonak to Kanchenjunga North Base Camp",
+    "Kanchenjunga North Base Camp to Lonak",
+    "Lonak to Ghunsa",
+    "Ghunsa to Sele La Camp",
+    "Sele La Camp to Cheram",
+    "Cheram to Ramche",
+    "Ramche to Oktang Viewpoint and Back",
+    "Ramche to Tortang",
+    "Tortang to Sekathum",
+    "Sekathum to Illam or Taplejung",
+    "Illam or Taplejung to Kathmandu",
+  ],
+},
+//Dolpo Region Trekking
+Upper_Dolpo_Trek: {
+  id: 93,
+  slug: "upper-dolpo-trek",
+  category: "Trekking",
+  img: "path/to/image.jpg",
+  description: "The Upper Dolpo Trek is a remote and challenging adventure through the stunning landscapes of the Dolpo region in Nepal. Experience the untouched beauty of the Himalayas, ancient Tibetan culture, and high-altitude trekking in one of the least explored areas of Nepal.",
+  title: "Upper Dolpo Trek",
+  location: "Nepal",
+  days: "24",
+  people: "2 to 10",
+  subimages: [
+    "path/to/image1.jpg",
+    "path/to/image2.jpg",
+    "path/to/image3.jpg",
+    "path/to/image4.jpg",
+    "path/to/image5.jpg"
+  ],
+  overView: {
+    duration: "24 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "2 to 10",
+    category: "Challenging Trek",
+    bestSeason: "Spring, Autumn, and Monsoon"
+  },
+  equipment: [
+    {
+      title: "Trekking Poles",
+      image: "path/to/trekking_poles.jpg",
+      description: "Essential for stability and support on rugged terrain."
+    },
+    {
+      title: "Down Jacket",
+      image: "path/to/down_jacket.jpg",
+      description: "Provides warmth in cold high-altitude environments."
+    },
+    {
+      title: "Sleeping Bag",
+      image: "path/to/sleeping_bag.jpg",
+      description: "Necessary for cold nights at high altitudes."
+    },
+    {
+      title: "Waterproof Gear",
+      image: "path/to/waterproof_gear.jpg",
+      description: "Protects against rain and snow."
+    }
+  ],
+  about: [
+    "The Upper Dolpo Trek takes you through one of Nepal's most remote and rugged regions. Known for its breathtaking natural beauty and ancient Tibetan culture, this trek offers a unique adventure for seasoned trekkers."
+  ],
+  highlights: [
+    "Stunning landscapes including high-altitude lakes and snow-capped peaks.",
+    "Cultural experiences with local communities practicing ancient Bon-Po traditions.",
+    "Remote and less-visited area providing a sense of solitude and adventure.",
+    "Crossing several high-altitude passes such as Kang La Pass (5360m).",
+    "Exploration of Shey Gompa and other ancient monasteries."
+  ],
+  facilities: [
+    "Tented camps with all necessary camping equipment.",
+    "Experienced and licensed trek guide.",
+    "Porters to carry personal and group gear."
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu",
+      details: "Arrive at Tribhuvan International Airport. Transfer to your hotel, meet your guide, and discuss the trek itinerary."
+    },
+    {
+      day: 2,
+      description: "Kathmandu Valley Sightseeing and Trek Permit Preparation",
+      details: "Sightseeing in Kathmandu including Pashupatinath Temple, Boudhanath Stupa, Swayambhunath, and Kathmandu Durbar Square. Prepare trek permits and gear."
+    },
+    {
+      day: 3,
+      description: "Flight from Kathmandu to Nepalgunj",
+      details: "Fly to Nepalgunj and explore the local area."
+    },
+    {
+      day: 4,
+      description: "Flight from Nepalgunj to Juphal",
+      details: "Take a flight to Juphal. Begin trekking towards Dunai."
+    },
+    {
+      day: 5,
+      description: "Trek from Juphal to Dunai",
+      details: "Hike through picturesque villages and terraced fields to reach Dunai."
+    },
+    {
+      day: 6,
+      description: "Trek from Dunai to Ankhe",
+      details: "Continue trekking through forests and along the river to Ankhe."
+    },
+    {
+      day: 7,
+      description: "Trek from Ankhe to Sulighat",
+      details: "Ascend through beautiful landscapes and cross a river to reach Sulighat."
+    },
+    {
+      day: 8,
+      description: "Trek from Sulighat to Phoksundo Lake",
+      details: "Trek through stunning scenery to reach the turquoise waters of Phoksundo Lake."
+    },
+    {
+      day: 9,
+      description: "Rest Day at Phoksundo Lake",
+      details: "Explore the lake area, relax, and acclimatize."
+    },
+    {
+      day: 10,
+      description: "Trek from Phoksundo Lake to Phoksundo Khola",
+      details: "Trek through a beautiful valley and follow the Phoksundo Khola."
+    },
+    {
+      day: 11,
+      description: "Trek from Phoksundo Khola to Phoksundo Bhanjyang",
+      details: "Ascend to Phoksundo Bhanjyang, passing through scenic terrain."
+    },
+    {
+      day: 12,
+      description: "Trek from Phoksundo Bhanjyang to Shey Gompa",
+      details: "Cross the Kang La Pass and reach the ancient Shey Gompa."
+    },
+    {
+      day: 13,
+      description: "Rest Day at Shey Gompa",
+      details: "Explore Shey Gompa, its monasteries, and surrounding areas."
+    },
+    {
+      day: 14,
+      description: "Trek from Shey Gompa to Namduna Gaun",
+      details: "Descend through beautiful landscapes to reach Namduna Gaun."
+    },
+    {
+      day: 15,
+      description: "Trek from Namduna Gaun to Saldang",
+      details: "Continue trekking to the village of Saldang."
+    },
+    {
+      day: 16,
+      description: "Trek from Saldang to Yangze Gompa",
+      details: "Ascend to Yangze Gompa, passing through rugged terrain."
+    },
+    {
+      day: 17,
+      description: "Trek from Yangze Gompa to Sibu",
+      details: "Descend through scenic valleys and reach Sibu."
+    },
+    {
+      day: 18,
+      description: "Trek from Sibu to Jenga La Phedi",
+      details: "Ascend towards Jenga La Phedi, preparing for the high-altitude pass."
+    },
+    {
+      day: 19,
+      description: "Cross Jenga La Pass and Trek to Tokyu Gaon",
+      details: "Cross the Jenga La Pass (approximately 5090m) and descend to Tokyu Gaon."
+    },
+    {
+      day: 20,
+      description: "Trek from Tokyu Gaon to Dho Tarap",
+      details: "Trek to Dho Tarap, a village known for its unique culture and scenery."
+    },
+    {
+      day: 21,
+      description: "Trek from Dho Tarap to Tarap Khola",
+      details: "Continue trekking to the Tarap Khola."
+    },
+    {
+      day: 22,
+      description: "Trek from Tarap Khola to Khanigaon",
+      details: "Descend through scenic landscapes to reach Khanigaon."
+    },
+    {
+      day: 23,
+      description: "Trek from Khanigaon to Dunai",
+      details: "Return trek to Dunai and prepare for the flight back."
+    },
+    {
+      day: 24,
+      description: "Flight from Dunai to Nepalgunj and Return to Kathmandu",
+      details: "Fly from Dunai to Nepalgunj and then to Kathmandu. Transfer to your hotel and celebrate the completion of the trek."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Prepare for the Upper Dolpo Trek by ensuring you are in good physical condition due to the high altitude and challenging terrain.",
+      "Acquire all necessary trekking gear including warm clothing, waterproofs, and a quality sleeping bag.",
+      "Familiarize yourself with high-altitude trekking protocols and ensure you have comprehensive travel insurance."
+    ]
+  },
+  path: [
+    "Kathmandu -> Nepalgunj -> Juphal -> Dunai -> Ankhe -> Sulighat -> Phoksundo Lake -> Phoksundo Khola -> Phoksundo Bhanjyang -> Shey Gompa -> Namduna Gaun -> Saldang -> Yangze Gompa -> Sibu -> Jenga La Phedi -> Tokyu Gaon -> Dho Tarap -> Tarap Khola -> Khanigaon -> Dunai -> Nepalgunj -> Kathmandu"
+  ]
+},
+Lower_Dolpo_Trek: {
+  id: 94,
+  slug: "lower-dolpo-trek",
+  category: "Trekking",
+  img: "path/to/main-image.jpg",
+  description: "The Lower Dolpo Trek offers an adventurous journey through one of Nepal's most remote and culturally rich regions, featuring stunning landscapes, traditional villages, and high-altitude lakes.",
+  title: "Lower Dolpo Trek - 18 Days",
+  location: "Nepal",
+  days: "18",
+  people: "2 to 10",
+  subimages: [
+    "path/to/image1.jpg",
+    "path/to/image2.jpg",
+    "path/to/image3.jpg",
+    "path/to/image4.jpg",
+    "path/to/image5.jpg"
+  ],
+  overView: {
+    duration: "18 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "2 to 10",
+    category: "Challenging Trekking",
+    bestSeason: "Spring and Autumn"
+  },
+  equipment: [
+    {
+      title: "Trekking Boots",
+      image: "path/to/equipment1.jpg",
+      description: "Sturdy and comfortable trekking boots are essential for rugged terrain."
+    },
+    {
+      title: "Sleeping Bag",
+      image: "path/to/equipment2.jpg",
+      description: "A high-quality sleeping bag to keep warm in cold temperatures."
+    },
+    {
+      title: "Warm Clothing",
+      image: "path/to/equipment3.jpg",
+      description: "Layered warm clothing is necessary for high-altitude conditions."
+    },
+    {
+      title: "Backpack",
+      image: "path/to/equipment4.jpg",
+      description: "A durable and comfortable backpack for carrying your gear."
+    }
+  ],
+  about: [
+    "The Lower Dolpo Trek is one of Nepal's most remote and unspoiled trekking routes. It takes you through stunning landscapes, traditional villages, and high-altitude lakes, offering a unique and authentic experience."
+  ],
+  highlights: [
+    "Exploring Shey Phoksundo National Park, home to diverse wildlife including Snow Leopards and Blue Sheep.",
+    "Visiting traditional villages and ancient monasteries such as the 500-year-old Shey Gompa.",
+    "Admiring the turquoise-blue waters of Phoksundo Lake and the impressive Suli Gandaki waterfall.",
+    "Experiencing the unique Tibetan-influenced culture and traditions of the Dolpo region."
+  ],
+  facilities: [
+    "Standard Hotels in Kathmandu and Nepalgunj",
+    "Tea Houses during the trek",
+    "Medical Kits and Oximeter for health monitoring",
+    "Free Excess Luggage Storage"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu (1400m)",
+      details: "Arrival at Tribhuvan International Airport, transfer to the hotel, welcome dinner, and briefing."
+    },
+    {
+      day: 2,
+      description: "Lower Dolpo Trek Permit Preparation and Kathmandu Sightseeing",
+      details: "Sightseeing tour of Kathmandu's UNESCO World Heritage Sites and permit preparation."
+    },
+    {
+      day: 3,
+      description: "Flight from Kathmandu to Nepalgunj",
+      details: "Scenic flight to Nepalgunj, exploration of the market and nearby attractions."
+    },
+    {
+      day: 4,
+      description: "Flight from Nepalgunj to Juphal and Trek to Dunai",
+      details: "Flight to Juphal, followed by a trek to Dunai, enjoying views of Mt. Dhaulagiri and Mt. Annapurna."
+    },
+    {
+      day: 5,
+      description: "Trek from Dunai to Tarakot",
+      details: "Hike along the Bheri River to the village of Tarakot."
+    },
+    {
+      day: 6,
+      description: "Trek from Tarakot to Laini",
+      details: "Follow the Tarap Chu River and traverse through communities and farms."
+    },
+    {
+      day: 7,
+      description: "Trek from Laini to Nawarpani",
+      details: "Trek through challenging terrain and arrive at Nawarpani."
+    },
+    {
+      day: 8,
+      description: "Trek from Nawarpani to Dho Tarap",
+      details: "Ascend to Dho Tarap, exploring its unique culture and Bon Po and Chaiba religions."
+    },
+    {
+      day: 9,
+      description: "Acclimatization Day in Dho Tarap",
+      details: "Rest day for acclimatization and exploring the village."
+    },
+    {
+      day: 10,
+      description: "Trek from Dho Tarap to Numa La Base Camp",
+      details: "Trek to the base camp, enjoying views of the Tarap Valley."
+    },
+    {
+      day: 11,
+      description: "Trek from Numa La Base Camp to Penung Tang via Numa La Pass",
+      details: "Cross Numa La Pass and descend to Penung Tang."
+    },
+    {
+      day: 12,
+      description: "Trek from Penung Tang to Dajok Tang via Baga La Pass",
+      details: "Cross Baga La Pass and descend to Dajok Tang."
+    },
+    {
+      day: 13,
+      description: "Trek from Dajok Tang to Ringmo",
+      details: "Hike through alpine meadows to the Tibetan settlement of Ringmo."
+    },
+    {
+      day: 14,
+      description: "Trek from Ringmo to Phoksundo Lake",
+      details: "Trek to Phoksundo Lake, exploring the surrounding area and monasteries."
+    },
+    {
+      day: 15,
+      description: "Trek from Phoksundo Lake to Shyanta",
+      details: "Descend to Shyanta village, passing therapeutic mineral areas."
+    },
+    {
+      day: 16,
+      description: "Trek from Shyanta to Juphal",
+      details: "Return to Juphal, exploring the market and relaxing."
+    },
+    {
+      day: 17,
+      description: "Flight from Juphal to Kathmandu via Nepalgunj",
+      details: "Fly back to Kathmandu, check into the hotel, and attend a farewell dinner."
+    },
+    {
+      day: 18,
+      description: "Final Departure",
+      details: "Check out and transfer to the airport for your flight home."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Start a regular fitness routine months in advance to improve your endurance and strength.",
+      "Acclimate to high altitudes if possible to reduce the risk of altitude sickness.",
+      "Obtain quality gear and equipment suitable for high-altitude trekking.",
+      "Acquire necessary permits and visas for the trek.",
+      "Research the trek thoroughly and consider hiring a guide if you’re inexperienced in high-altitude trekking.",
+      "Pack appropriate clothing and gear for the trek's conditions."
+    ]
+  },
+  path: [
+    "Kathmandu -> Nepalgunj -> Juphal -> Dunai -> Tarakot -> Laini -> Nawarpani -> Dho Tarap -> Numa La Base Camp -> Penung Tang -> Dajok Tang -> Ringmo -> Phoksundo Lake -> Shyanta -> Juphal -> Kathmandu"
+  ]
+},
+//Manaslu Region Trekking
+Manaslu_Circuit_Trek_14_Days: {
+  "id": 95,
+  "slug": "manaslu-circuit-trek-14-days",
+  "category": "Trekking",
+  "img": "path_to_image",
+  "description": "The Manaslu Circuit Trek is a challenging and adventurous trek in Nepal that offers stunning views of the Himalayas, diverse landscapes, and rich cultural experiences.",
+  "title": "Manaslu Circuit Trek - 14 Days",
+  "location": "Nepal",
+  "days": "14 Days",
+  "people": "1 to 10",
+  "subimages": [
+    "path_to_image_1",
+    "path_to_image_2",
+    "path_to_image_3",
+    "path_to_image_4",
+    "path_to_image_5"
+  ],
+  "overView": {
+    "duration": "14 Days",
+    "startingPoint": "Kathmandu",
+    "endingPoint": "Kathmandu",
+    "peoples": "1 to 10",
+    "category": "Challenging",
+    "bestSeason": "Spring and Autumn"
+  },
+  "equipment": [
+    {
+      "title": "Trekking Boots",
+      "image": "path_to_image",
+      "description": "Sturdy and comfortable trekking boots suitable for rugged terrain."
+    },
+    {
+      "title": "Warm Layers",
+      "image": "path_to_image",
+      "description": "Insulating clothing to keep you warm in high altitudes."
+    },
+    {
+      "title": "Waterproof Jacket",
+      "image": "path_to_image",
+      "description": "A waterproof jacket to protect against rain and snow."
+    },
+    {
+      "title": "Trekking Poles",
+      "image": "path_to_image",
+      "description": "Poles to aid in balance and reduce strain on the knees."
+    }
+  ],
+  "about": [
+    "Manaslu Circuit Trek is one of Nepal's adventure treks combining high Himalayan beauty with cultural richness and biological diversity.",
+    "Located east of the Annapurna range, Manaslu is the eighth-highest peak in the world, open to foreigners since 1992.",
+    "The trek is physically demanding and requires good fitness, offering spectacular views of Himalchuli, Manaslu, Ganesh Himal, and other peaks.",
+    "The route includes diverse landscapes, flora and fauna, and cultural experiences through Tibetan and Gurung villages."
+  ],
+  "highlights": [
+    "Off-the-beaten-path trek with stunning views of the Himalayas.",
+    "Trekking along the Budhi Gandaki River Gorge with scenic drives and varied terrain.",
+    "Cultural insights from Tibetan communities and monasteries.",
+    "Abundant wildlife including Thar, Agali, Pika, Himalayan Marmots, and possibly Snow Leopards.",
+    "Crossing the snow-clad Larkya La Pass (5106m) and enjoying panoramic mountain views."
+  ],
+  "facilities": [
+    "Tea House or Lodge accommodation during the trek.",
+    "Meals include breakfast, lunch, and dinner."
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "description": "Arrival in Kathmandu (1400m)",
+      "details": "Meet at Kathmandu airport and transfer to hotel. Rest or meet for trek briefing."
+    },
+    {
+      "day": 2,
+      "description": "Preparation of Manaslu Restricted Area Permit and Trek Briefing",
+      "details": "Pre-trip meeting with guide, review trek details, and obtain permits."
+    },
+    {
+      "day": 3,
+      "description": "Drive from Kathmandu (1400m) to Machha Khola (890m)",
+      "details": "Public bus ride to Machha Khola via Arughat and Soti Khola. Scenic but bumpy ride."
+    },
+    {
+      "day": 4,
+      "description": "Trek from Machha Khola (890m) to Jagat (1340m)",
+      "details": "Trek along Budhi Gandaki River, passing through small villages and hot springs."
+    },
+    {
+      "day": 5,
+      "description": "Trek from Jagat (1340m) to Deng (1860m)",
+      "details": "Trek over stony ridges and through Gurung villages, crossing suspension bridges."
+    },
+    {
+      "day": 6,
+      "description": "Trek from Deng (1860m) to Namrung (2630m)",
+      "details": "Ascend through forests and mani stones to reach Namrung, passing by beautiful landscapes."
+    },
+    {
+      "day": 7,
+      "description": "Trek from Namrung (2630m) to Lho (3180m)",
+      "details": "Hike through forested regions with mountain views and arrive in Lho village."
+    },
+    {
+      "day": 8,
+      "description": "Trek from Lho (3180m) to Samagaon (3520m)",
+      "details": "Short climb with views of Mt. Manaslu. Explore Shyala village and nearby attractions."
+    },
+    {
+      "day": 9,
+      "description": "Trek from Samagaon (3520m) to Samdo (3860m)",
+      "details": "Steep ascent to Samdo, passing through beautiful forests and Tibetan border area."
+    },
+    {
+      "day": 10,
+      "description": "Acclimatization Day at Samdo (3875m)",
+      "details": "Rest and acclimatize in Samdo, with options for exploration around the area."
+    },
+    {
+      "day": 11,
+      "description": "Trek from Samdo (3860m) to Larkya Phedi (4480m)",
+      "details": "Short trek to Larkya Phedi, with views of Manaslu and nearby glaciers."
+    },
+    {
+      "day": 12,
+      "description": "Trek from Larkya Phedi (4480m) to Bimthang (3720m) via Larkya La Pass (5106m)",
+      "details": "Cross the highest point of the trek at Larkya La Pass, descend to Bimthang."
+    },
+    {
+      "day": 13,
+      "description": "Trek from Bimthang (3720m) to Dharapani (1963m)",
+      "details": "Descend through various terrains and villages, arriving in Dharapani."
+    },
+    {
+      "day": 14,
+      "description": "Drive Back to Kathmandu (1400m) or Pokhara (822m) from Dharapani (1963m)",
+      "details": "Drive to Besi Sahar and then take a bus to Kathmandu or Pokhara for departure."
+    }
+  ],
+  "HowToPrepare": {
+    "paragraph": [
+      "The Manaslu Circuit trek is challenging and requires good physical fitness. Prepare with regular cardio and strength training, and practice hiking with a loaded backpack.",
+      "Altitude acclimatization is crucial; give yourself time to adjust to high altitudes to avoid altitude sickness.",
+      "Obtain necessary travel documents including TIMS card and permits for the Manaslu Conservation Area.",
+      "Travel insurance that covers emergency evacuation is mandatory.",
+      "Bring appropriate gear such as warm layers, waterproof clothing, good hiking boots, trekking poles, and a warm sleeping bag. Don't forget sunscreen, lip balm, and quality sunglasses.",
+      "Mentally prepare for the trek by being flexible, patient, and positive. Consult a doctor before the trek and carry a basic medical kit."
+    ]
+  },
+  "path": [
+    "Kathmandu to Machha Khola to Jagat to Deng to Namrung to Lho to Samagaon to Samdo to Larkya Phedi to Bimthang to Dharapani to Kathmandu or Pokhara"
+  ]
+},
+Short_Manaslu_Trek_11_Days: {
+    "id": 96,
+    "slug": "short-manaslu-trek-11-days",
+    "category": "Trekking",
+    "img": "",
+    "description": "A shorter trek in the Himalayas that offers breathtaking scenery and a chance to experience local culture.",
+    "title": "Short Manaslu Trek - 11 Days",
+    "location": "Nepal",
+    "days": "11 Days",
+    "people": "1 to 10",
+    "subimages": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "overView": {
+      "duration": "11 Days",
+      "startingPoint": "Kathmandu",
+      "endingPoint": "Kathmandu",
+      "peoples": "1 to 10",
+      "category": "Challenging",
+      "bestSeason": "Spring and Autumn"
+    },
+    "equipment": [
+      {
+        "title": "Backpack",
+        "image": "",
+        "description": "A sturdy backpack for carrying your essentials during the trek."
+      },
+      {
+        "title": "Hiking Boots",
+        "image": "",
+        "description": "Good quality hiking boots with ankle support."
+      },
+      {
+        "title": "Warm Clothing",
+        "image": "",
+        "description": "Layered warm clothing for cold temperatures, including a down jacket."
+      },
+      {
+        "title": "Waterproof Gear",
+        "image": "",
+        "description": "Rain jacket and pants to keep you dry in wet conditions."
+      }
+    ],
+    "about": [
+      "The Short Manaslu Trek offers stunning mountain views, traditional village life, and a chance to experience local culture in a shorter time frame."
+    ],
+    "highlights": [
+      "Experience breathtaking off-road travel from Kathmandu.",
+      "Trek around Mt. Manaslu (8163m), the eighth-highest mountain in the world.",
+      "Cross Larkya La, one of Nepal's highest mountain passes at 5,160 meters.",
+      "Visit remote Budi Gandaki and Nubri valleys, and stunning Marsyangdi river valley.",
+      "Explore monasteries, mani stones, Chortens, and Gombas in Samado, Sama, and Bimtang.",
+      "Witness breathtaking views of Birendra Lake, Manaslu Base Camp, and other spectacular landscapes.",
+      "Observe remote Bhotia communities and Tibetan Buddhist traditions along the historic Himalayan trade route."
+    ],
+    "facilities": [
+      "International and Domestic Airport Pickup and Drop-off service",
+      "Green Valley Nepal Trek Duffle Bag",
+      "Green Valley Nepal Trek T-Shirt",
+      "Free Manaslu Short Trek Map",
+      "An Oximeter to Check Blood Oxygen Saturation Levels",
+      "Medical Kits",
+      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Public Bus from Kathmandu to Soti Khola, then Shared Jeep to Machha Khola",
+        "details": "After breakfast in Kathmandu, travel by public bus to Machha Khola via Arughat and Soti Khola. Expect a long journey with some rough paths. Enjoy scenic views along the way."
+      },
+      {
+        "day": 2,
+        "description": "Trek from Machha Khola to Jagat",
+        "details": "Follow the Budhi Gandaki River, passing through Khorlabesi and reaching Jagat after crossing several suspension bridges."
+      },
+      {
+        "day": 3,
+        "description": "Trek from Jagat to Deng",
+        "details": "Hike through rocky slopes and Gurung settlements like Philim. Cross the Budhi Gandaki River multiple times and reach Deng village."
+      },
+      {
+        "day": 4,
+        "description": "Trek from Deng to Namrung",
+        "details": "Ascend to Rana and Bihi Phedi, passing through Ghap and Ghapsya. Enjoy views of Shringi Himal and navigate through landslide-prone areas."
+      },
+      {
+        "day": 5,
+        "description": "Trek from Namrung to Samagaon",
+        "details": "Travel through Lihi, Sho, and Shyala villages, enjoying views of Saula Himal, Pangkar Himal, and Mt. Manaslu. Reach Samagaon and explore Pungyen Gompa or Birendra Lake."
+      },
+      {
+        "day": 6,
+        "description": "Trek from Samagaon to Samdo",
+        "details": "Climb to Samdo, passing through beautiful forests and enjoying views of Tibetan border areas and Mt. Manaslu."
+      },
+      {
+        "day": 7,
+        "description": "Acclimatization Day in Samdo",
+        "details": "Spend the day acclimatizing in Samdo. Explore the village, visit nearby passes, or trek to Gya La for additional acclimatization."
+      },
+      {
+        "day": 8,
+        "description": "Trek from Samdo to Dharamsala",
+        "details": "Hike through wooden bridges and enjoy views of Manaslu, Syacha Glacier, and potential sightings of Himalayan blue sheep."
+      },
+      {
+        "day": 9,
+        "description": "Trek from Dharamsala to Bhimthang via Larkya La Pass",
+        "details": "Cross the Larkya La Pass, the highest point of the trek, with spectacular views of snow-capped peaks. Descend to Bhimthang."
+      },
+      {
+        "day": 10,
+        "description": "Trek from Bhimthang to Dharapani",
+        "details": "Descend through high-grazing grasslands, Dudh Khola, and rhododendron forests to Dharapani, passing through several villages."
+      },
+      {
+        "day": 11,
+        "description": "Public Bus from Dharapani to Kathmandu",
+        "details": "Return to Kathmandu by public bus, concluding the trek with a celebration and farewell dinner."
+      }
+    ],
+    "HowToPrepare": {
+      "paragraph": [
+        "Get in Shape: Build up your fitness with hiking, running, or cycling several months before the trek.",
+        "Research the Trek: Learn about the route, weather, terrain, and equipment needed.",
+        "Pack Appropriately: Ensure you have warm, waterproof clothing, sturdy hiking boots, and a quality backpack.",
+        "Acclimate to High Altitude: Spend time at higher elevations or take medication if needed.",
+        "Consult a Doctor: Check with a doctor about pre-existing conditions and precautions.",
+        "Book a Professional Guide: Ensure safety and gain local knowledge with a professional guide.",
+        "Trek Permits: Obtain necessary permits from the Nepalese government."
+      ]
+    },
+    "path": [
+      "Kathmandu to Soti Khola",
+      "Soti Khola to Machha Khola",
+      "Machha Khola to Jagat",
+      "Jagat to Deng",
+      "Deng to Namrung",
+      "Namrung to Lho",
+      "Lho to Samagaon",
+      "Samagaon to Samdo",
+      "Samdo to Dharamsala",
+      "Dharamsala to Bhimthang via Larkya La Pass",
+      "Bhimthang to Dharapani",
+      "Dharapani to Kathmandu"
+    ]
+},
+Manaslu_Tsum_Valley_Trek: {
+  id: 97,
+  slug: "manaslu-tsum-valley-trek",
+  category: "trekking",
+  img: "link_to_main_image.jpg",
+  description: "Explore the remote and untouched Tsum Valley combined with the Manaslu Circuit.",
+  title: "Manaslu Tsum Valley Trek - 19 Days",
+  location: "Nepal",
+  days: "19",
+  people: "1 to 8",
+  subimages: [
+    "link_to_image1.jpg",
+    "link_to_image2.jpg",
+    "link_to_image3.jpg",
+    "link_to_image4.jpg",
+    "link_to_image5.jpg",
+  ],
+  overView: {
+    duration: "19 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "1 to 8",
+    category: "Trekking",
+    bestSeason: "Spring",
+  },
+  equipment: [
+    {
+      title: "Hiking Boots",
+      image: "link_to_boots_image.jpg",
+      description: "Sturdy and waterproof hiking boots for rough terrains.",
+    },
+    {
+      title: "Backpack",
+      image: "link_to_backpack_image.jpg",
+      description: "Comfortable backpack with rain cover.",
+    },
+    {
+      title: "Trekking Poles",
+      image: "link_to_poles_image.jpg",
+      description: "Adjustable trekking poles for support and balance.",
+    },
+    {
+      title: "Sleeping Bag",
+      image: "link_to_sleeping_bag_image.jpg",
+      description: "Warm sleeping bag suitable for cold temperatures.",
+    },
+  ],
+  about: [
+    "The Manaslu Tsum Valley Trek takes you through the hidden gem of the Tsum Valley, a sacred Himalayan pilgrimage valley situated in northern Gorkha, Nepal.",
+  ],
+  highlights: [
+    "Explore the unique culture and traditions of the Tsum Valley.",
+    "Cross the challenging Larkya La Pass at 5160 meters.",
+    "Witness the majestic views of Mt. Manaslu and other peaks.",
+    "Experience the warm hospitality of the local people.",
+  ],
+  facilities: [
+    "Tea house or lodge accommodation during the trek.",
+    "All meals provided: breakfast, lunch, and dinner.",
+    "Professional guide and porter services.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu",
+      details: "Meet and greet at Tribhuvan International Airport and transfer to the hotel.",
+    },
+    {
+      day: 2,
+      description: "Sightseeing in Kathmandu and trek preparation",
+      details: "Visit UNESCO World Heritage sites and prepare for the trek.",
+    },
+    {
+      day: 3,
+      description: "Drive from Kathmandu to Soti Khola",
+      details: "A scenic drive through beautiful landscapes to Soti Khola (700m).",
+    },
+    {
+      day: 4,
+      description: "Trek from Soti Khola to Machha Khola",
+      details: "Walk along the Budhi Gandaki River to reach Machha Khola (869m).",
+    },
+    {
+      day: 5,
+      description: "Trek from Machha Khola to Jagat",
+      details: "Continue trekking upstream to the village of Jagat (1340m).",
+    },
+    {
+      day: 6,
+      description: "Trek from Jagat to Chisopani",
+      details: "Climb over a ridge to Salleri and descend to Sirdibas, reaching Chisopani (1660m).",
+    },
+    {
+      day: 7,
+      description: "Trek from Chisopani to Chumling",
+      details: "Enter the Tsum Valley and trek to Chumling (2386m).",
+    },
+    {
+      day: 8,
+      description: "Trek from Chumling to Chokhangparo",
+      details: "Cross the Serpu Khola and ascend to the village of Chokhangparo (3031m).",
+    },
+    {
+      day: 9,
+      description: "Trek from Chokhangparo to Nile",
+      details: "Pass through Lamagaon and Rachen Gompa before reaching Nile (3361m).",
+    },
+    {
+      day: 10,
+      description: "Trek from Nile to Mu Gompa and return to Nile",
+      details: "Visit the Mu Gompa, the largest monastery in the region, then return to Nile.",
+    },
+    {
+      day: 11,
+      description: "Trek from Nile to Chumje",
+      details: "Retrace steps through the valley, descending to Chumje (3230m).",
+    },
+    {
+      day: 12,
+      description: "Trek from Chumje to Bihi",
+      details: "Continue down the valley through several villages to Bihi (2130m).",
+    },
+    {
+      day: 13,
+      description: "Trek from Bihi to Namrung",
+      details: "Enter the Manaslu Conservation Area and trek to Namrung (2630m).",
+    },
+    {
+      day: 14,
+      description: "Trek from Namrung to Samagaun",
+      details: "Pass through forests and reach the beautiful village of Samagaun (3530m).",
+    },
+    {
+      day: 15,
+      description: "Acclimatization day in Samagaun",
+      details: "Rest and explore the village, or take a short hike to the Manaslu Base Camp.",
+    },
+    {
+      day: 16,
+      description: "Trek from Samagaun to Samdo",
+      details: "A short trek to the Tibetan-influenced village of Samdo (3860m).",
+    },
+    {
+      day: 17,
+      description: "Trek from Samdo to Dharmashala",
+      details: "Ascend gradually to the Larkya Phedi, also known as Dharmashala (4460m).",
+    },
+    {
+      day: 18,
+      description: "Cross Larkya La Pass and trek to Bimthang",
+      details: "A challenging day crossing the Larkya La Pass (5160m) to reach Bimthang (3590m).",
+    },
+    {
+      day: 19,
+      description: "Trek from Bimthang to Tilije",
+      details: "Descend through rhododendron forests to the village of Tilije (2300m).",
+    },
+   
+  ],
+
+  HowToPrepare: {
+    paragraph: [
+      "Ensure you are physically fit for a challenging trek.",
+      "Pack appropriate clothing for varying weather conditions.",
+      "Carry necessary personal medications and a first aid kit.",
+    ],  
+  },
+  path: [
+    "Kathmandu - Soti Khola - Machha Khola - Jagat - Chisopani - Chumling - Chokhangparo - Nile - Mu Gompa - Rachen Gompa - Chumje - Bihi - Namrung - Samagaun - Samdo - Dharmashala - Bimthang - Tilije - Tal - Syange - Besisahar - Kathmandu",
+  ],
+},
+//Mustang Region Trekking
+Upper_Mustang_Overland_Tour: {
+  id: 98,
+  slug: "upper-mustang-overland-tour",
+  category: "trekking",
+  img: "link_to_main_image.jpg",
+  description: "Discover the mysterious ancient Kingdom of Lo Manthang and the beautiful landscapes of Upper Mustang.",
+  title: "Upper Mustang Overland Tour - 8 Days",
+  location: "Nepal",
+  days: "8",
+  people: "2 to 5",
+  subimages: [
+    "link_to_image1.jpg",
+    "link_to_image2.jpg",
+    "link_to_image3.jpg",
+    "link_to_image4.jpg",
+    "link_to_image5.jpg",
+  ],
+  overView: {
+    duration: "8 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "Any",
+    category: "Trekking",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Warm Clothing",
+      image: "link_to_clothing_image.jpg",
+      description: "Insulated and waterproof clothing for cold and wet conditions.",
+    },
+    {
+      title: "Comfortable Shoes",
+      image: "link_to_shoes_image.jpg",
+      description: "Durable and comfortable walking shoes suitable for rugged terrains.",
+    },
+    {
+      title: "Hat or Head Covering",
+      image: "link_to_hat_image.jpg",
+      description: "Protective headgear against the sun and cold weather.",
+    },
+    {
+      title: "First Aid Kit",
+      image: "link_to_first_aid_kit_image.jpg",
+      description: "Basic medical supplies for emergencies.",
+    },
+  ],
+  about: [
+    "The Upper Mustang Overland Jeep Tour offers a comfortable way to explore the ancient and forbidden Kingdom of Upper Mustang.",
+    "Experience the unique cultures of the Thakali, Gurung, and Tibetan people.",
+    "Visit the scenic beauty of the Annapurna Conservation Area and the Restricted Area of Upper Mustang.",
+  ],
+  highlights: [
+    "Travel to Muktinath through well-known tourist spots including Kagbeni, Jomsom, and Lo Manthang.",
+    "Engage with the Bon and Lhoba ethnic groups to learn about their customs and way of life.",
+    "Visit scenic surroundings with stunning arid landscapes, historic monasteries, ancient caverns, and many other archaeological monuments.",
+    "Discover the mysterious old Kingdom of Lo Manthang and visit the King's Palace, Lo Manthang's oldest building.",
+    "Explore the Buddhist and Hindu temple of Muktinath.",
+    "Enjoy the local apples, apple pie, and apple wine (Marpha) in Jomsom.",
+    "Travel through the deepest Kali Gandaki Gorge in the world.",
+    "Take in the stunning panorama of the Annapurna I, Tilicho, Dhaulagiri, and Nilgiri ranges.",
+    "Visit the lovely city of Pokhara on the Upper Mustang Tour by 4WD Jeep package.",
+  ],
+  facilities: [
+    "Tea house or lodge accommodation during the trek.",
+    "All meals provided: breakfast, lunch, and dinner.",
+    "Professional guide and private vehicle for the tour.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu and Domestic Flight to Pokhara",
+      details: "Arrive in Kathmandu, fly to Pokhara, and enjoy the breathtaking natural beauty from a window seat.",
+    },
+    {
+      day: 2,
+      description: "Flight from Pokhara to Jomsom and Drive to Ghami",
+      details: "Fly to Jomsom and drive through Kagbeni, Chele, Samar, and Syangboche to Ghami.",
+    },
+    {
+      day: 3,
+      description: "Drive from Ghami to Lo Manthang",
+      details: "Continue the drive to Lo Manthang, crossing Tsarang La Pass and enjoying mountain views.",
+    },
+    {
+      day: 4,
+      description: "Explore Lo Manthang",
+      details: "Visit monasteries, temples, and explore the Tibetan Buddhist culture and customs in Lo Manthang.",
+    },
+    {
+      day: 5,
+      description: "Drive from Lo Manthang to Muktinath and then to Jomsom",
+      details: "Visit Muktinath Temple and return to Jomsom via 4WD Jeep.",
+    },
+    {
+      day: 6,
+      description: "Flight from Jomsom to Pokhara",
+      details: "Fly back to Pokhara and explore the city, visiting attractions like the World Peace Pagoda and Davis Falls.",
+    },
+    {
+      day: 7,
+      description: "Drive from Pokhara to Kathmandu",
+      details: "Return to Kathmandu, enjoying scenic views of mountains and landscapes along the way.",
+    },
+    {
+      day: 8,
+      description: "Final Departure",
+      details: "Transfer to the airport for departure or extend your stay in Nepal.",
+    },
+  ],
+
+  HowToPrepare: {
+    paragraph: [
+      "Obtain a permit for the Upper Mustang region through a government-authorized agency.",
+      "Research the culture, history, and geography of Upper Mustang.",
+      "Pack warm and waterproof clothing, comfortable shoes, and necessary medications.",
+      "Ensure good physical fitness for light hiking and walking.",
+      "Be prepared for long and bumpy rides during the tour.",
+      "Respect local customs and traditions.",
+    ],  
+  },
+  path: [
+    "Kathmandu - Pokhara - Jomsom - Kagbeni - Chele - Samar - Syangboche - Ghami - Tsarang La Pass - Lo Manthang - Muktinath - Jomsom - Pokhara - Kathmandu",
+  ],
+  
+}, 
+Upper_Mustang_Trek: {
+  id: 99,
+  slug: "upper-mustang-trek",
+  category: "Trekking",
+  img: "path/to/main_image.jpg",
+  description: "The Upper Mustang Trek offers an incredible journey through the legendary kingdom of Mustang, showcasing its unique culture, landscapes, and spiritual sites.",
+  title: "Upper Mustang Trek - 17 Days",
+  location: "Nepal",
+  days: "17 Days",
+  people: "1 to 10",
+  subimages: [
+    "path/to/image1.jpg",
+    "path/to/image2.jpg",
+    "path/to/image3.jpg",
+    "path/to/image4.jpg",
+    "path/to/image5.jpg",
+  ],
+  overView: {
+    duration: "17 Days",
+    startingPoint: "Kathmandu",
+    endingPoint: "Kathmandu",
+    peoples: "1 to 10",
+    category: "Moderate Trekking",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Oximeter",
+      image: "path/to/oximeter_image.jpg",
+      description: "An oximeter to check blood oxygen saturation levels during the trek.",
+    },
+    {
+      title: "Medical Kits",
+      image: "path/to/medical_kits_image.jpg",
+      description: "Essential medical kits for emergencies during the trek.",
+    },
+    {
+      title: "Sleeping Bags",
+      image: "path/to/sleeping_bags_image.jpg",
+      description: "Arrangement of sleeping bags and down jackets if required.",
+    },
+    {
+      title: "Trekking Map",
+      image: "path/to/map_image.jpg",
+      description: "Map of Upper Mustang Trekking via Muktinath.",
+    },
+  ],
+  about: [
+    "You will see the legendary kingdom of Mustang on the enthralling adventure known as the Upper Mustang Trek. You will uncover a secret realm where you will witness Lo-Manthang, the historical Buddhist kingdom of Mustang. Currently, it is not allowed to visit Lo Manthang 5 Story Palace.",
+    "For a very long time, access to the Upper Mustang was restricted to foreigners to preserve the area's natural environment and rich cultural history. The Nepali government has enforced expensive entrance permission fees to regulate the flow of visitors in this area of Nepal to preserve the ecosystem.",
+    "You will look at the untouched natural environment by going on the Upper Mustang Trek. There are no luxurious hotels or contemporary facilities available because the area has not been fully modernized. But you will be able to take in the stunning natural beauty, the amazing desolation, and the extraordinary creation of enormous boulders.",
+    "Upper Mustang's desolate scenery is given a burst of color by the white-washed home, vibrant prayer flags, historic chortens, and lovely farms. You will be traveling over an old salt trade route when you go on the Upper Mustang Trekking. You can see the historic village of Lo Manthang in the distance as you approach the Lo La Pass. Long prayer wheels, unmarked chortens, and herds of animals ambling across the fields will be seen along the route.",
+  ],
+  highlights: [
+    "Admire the breathtakingly stunning sandy terrain and the unusual rock formations.",
+    "Experience your spiritual aspect during upper mustang trekking by several Gompas, chortens, waving prayer flags, and caves.",
+    "Discover the vibrant culture, enduring traditions, and distinctive way of life of the people in Mustang.",
+    "Get a glimpse of the white-washed castle, vibrant prayer flags on historic chortens, and stunning farmlands.",
+    "Explore the historic kingdom of Lo Manthang.",
+    "Mountain ranges like the Nilgiri, Annapurna, Dhaulagiri, and others may be seen in a beautiful way.",
+    "Visit Muktinath Temple, a sacred location for both Buddhists and Hindus.",
+    "Take a tour of the picturesque city of Pokhara, which includes its lakes, caves, temples, and waterfalls.",
+  ],
+  facilities: [
+    "International Airport Pickup And Drop Services",
+    "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+    "Map of Upper Mustang Trekking via Muktinath",
+    "An Oximeter to Check Blood Oxygen Saturation Levels.",
+    "Medical Kits - Which May Be Necessary In Certain Cases.",
+    "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
+    "Arrangement of sleeping bags and down jackets if required",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Kathmandu",
+      details: "At Tribhuwan International Airport, one of our agents will receive you. He will arrange a private ride to the hotel and assist you with check-in as well. After a long journey, you might want to unwind at your hotel or go exploring some of Kathmandu's beautiful attractions. During the briefing of the Upper Mustang Trek Itinerary, you will meet your guide and obtain any missing equipment.",
+    },
+    {
+      day: 2,
+      description: "Drive from Kathmandu to Pokhara",
+      details: "Your upper mustang trekking excursion will begin after boarding a tourist bus following an early breakfast. From Kathmandu, it may take 6 to 7 hours to go to Pokhara. Along the trip, you will pass the lovely Trishuli and Marsyangdi rivers, the lush Rocky Mountains, the rivers that join them, and tiny springs. The picturesque Pokhara valley is home to several lakes, including Begnas, Fewa, Rupa, Dipang, Maidi, Khaste, Gunde, and Nyureni. From the Pokhara Valley, you can also see Annapurna, Machapuchare, Dhaulagiri, Manaslu, and Lamjung Himal. After checking at your hotel, you may take a leisurely stroll along the lakefront, rent a boat on Fewa Lake, stop by one of the numerous lakeside pubs before dinner, or just unwind.",
+    },
+    {
+      day: 3,
+      description: "Flight from Pokhara to Jomsom and Trek to Kagbeni",
+      details: "The flight through the Himalayas from Pokhara to Jomsom lasts around 25 minutes. The jet takes off from the lovely surroundings of Pokhara and lands at Jomsom Airport, surrounded by barren hills and peaks coated in snow. Since many people travel to Muktinath from Jomsom, Upper Mustang Trekking adventure offers you to watch the spiritual journey of individuals who are looking for enlightenment. A lovely walk leads from Jomsom to the fort of Kagbeni, a former trading station with a Buddhist monastery, up the dry Kali Gandaki River valley. Kagbeni is located just south of the Upper Mustang's restricted region.",
+    },
+    {
+      day: 4,
+      description: "Trek from Kagbeni to Chele",
+      details: "To escape the strong Mustang wind in the afternoon, you will begin your walk early in the morning. You must submit your upper mustang trekking permit at the Kagbeni checkpoint before continuing to Chuksang along the eastern bank of the Kali Gandaki River. You will have some magnificent views of Mt. Nilgiri along the journey as it shines orange in the early morning. You will need sunglasses and maybe a face mask to protect your mouth and nose because the region next to the river can be windy and polluted with dust.",
+    },
+    {
+      day: 5,
+      description: "Trek from Chele to Syanboche",
+      details: "Today Upper Mustang Trek difficulty level will increase slightly as you will gain an elevation of around 800 meters. You will ascend a steep spur and a steep canyon from Chele to Eklo Bhatti before reaching the high pass of Taklam La (3625 m). Views of Tilicho Peak, Damodar Danda, and Yaskawa Kang will be seen side by side as you ascend. To go to Samar, you must pass across the Taklam La pass. From Samar, one may have a stunning view of Mount Nilgiri. Additionally, horse and mule caravans frequently halt here to relax. After passing the Rangchyung Chorten, which is decorated in red, black, yellow, and white, you will drop into a sizable gorge from Samar and continue your journey to Syangboche. After around three hours, the route arrives at Syanbochen through juniper trees and the well-known Ramchung Cave.",
+    },
+    {
+      day: 6,
+      description: "Trek from Syanboche to Ghami",
+      details: "From Syangboche, you will begin your Upper Mustang Trek across the stunning landscape of the region. The day starts with a climb to Yamada La Pass (3845m), passing over a stunning desert environment and a few outlying towns. The Kali Gandaki canyon and beautiful mountain vistas are both visible from this steep ascent. Then, as you go across the area, you will pass via Tamagaon and Chhunggar, among other towns. Before reaching Jhaite, this path will travel through traditional communities. Along the way, the path passes poplar trees and barley fields until arriving at Nyi Pass (4010m), where the ascent gets rather challenging. Then you will make your way down along the tranquil route to Ghami.",
+    },
+    {
+      day: 7,
+      description: "Trek from Ghami to Charang",
+      details: "After a lovely breakfast, you will set out on your excursion. You will pass through the driest area of Mustang on your adventure today. Your Upper Mustang Trek will begin with ascents on the paths to Charang. You will cross the Ghami Khola and ascend to a plateau adorned with a lovely series of Mani Walls. The greatest Mani Walls in the Mustang area may be seen here. The track next takes a sharp upward turn before dropping into Charang, a charming village surrounded by maize fields, and stone walls. A beautiful Gompa and an old castle are located in Charang.",
+    },
+    {
+      day: 8,
+      description: "Trek from Charang to Lo-Manthang",
+      details: "You will start your day off with a hike to the magnificent Marang-La pass. You will be hiking in the middle of the Mustang desert, surrounded by a beautiful mountain range that includes Tilicho, Annapurna I, Bhrikuti Peak, and Nilgiri. Lo-Manthang is a short downhill hike from the Marang-La pass. Lo-Manthang is one of the nicest villages you will ever see while on an upper mustang trek because of its whitewashed walls and well-kept alleyways.",
+    },
+    {
+      day: 9,
+      description: "Acclimatization Day at Lo-Manthang",
+      details: "The Lo-Manthang settlement in Upper Mustang provides a variety of attractions. After breakfast, you will leave the city walls and go to the Namgyal Gompa monastery. Then, you will go to Tingkhar, a serene town in Upper Mustang's northwest. A short drive will take you to Chosar, where you may see the well-known Jhong Sky Cave. After that, you may choose to visit the historic Gompas that encircle the beautiful settlement.",
+    },
+    {
+      day: 10,
+      description: "Trek from Lo-Manthang to Yara",
+      details: "After breakfast, you will set off for Yara after leaving the lovely settlement of Lo-Manthang. While walking, you will get stunning views of Annapurna I, Nilgiri, Tilicho, and Bhrikuti. To go to Dhi Village, you must first cross the Dhi La and drop down the treacherous roads. You will reach the banks of a lovely river after another 1.5 hours of hiking. You will continue traveling after crossing the river till you reach Yara village. Yara, which is 3630 meters above sea level, is surrounded by stunning scenery and has breathtaking cliffs.",
+    },
+    {
+      day: 11,
+      description: "Trek from Yara to Tangge",
+      details: "You will have a lengthy day today since you will be hiking for at least 7-8 hours to get from Yara to Tangye. Before continuing your journey, you will eat breakfast and pack your lunch because there aren't any stores on the path. You will begin your upper mustang trekking experience by crossing a few difficult landslides while passing past fascinating cliffs and getting a close-up look at the area's beauty.",
+    },
+    {
+      day: 12,
+      description: "Trek from Tangge to Chhusang",
+      details: "The walk today is the longest on the Upper Mustang Trek itinerary. Before embarking on your adventure, you will get up early in the morning and eat a substantial breakfast. The walk to Chhusang will take you around ten hours. You will have plenty of time to take in the breathtaking scenery as the sun's morning beams are shown. Your adventure begins with a steady ascent of around 900 meters. You will reach the highest peak of the Upper Mustang Trek today, at 4230 meters above sea level. After reaching the summit, you will start to descend while taking in the breathtaking vistas of the Annapurna, Dhaulagiri, Nilgiri, and many other mountain ranges.",
+    },
+    {
+      day: 13,
+      description: "Trek from Chhusang to Muktinath",
+      details: "Today's Upper Mustang trekking will take you to Muktinath, a well-known religious destination for both Buddhists and Hindus. To get to Muktinath, you must ascend over the Gyu La Pass, which is located at a height of 4077 meters. You will have a spectacular view of the Thorong peak and Annapurna range as you ascend. You will have a terrific experience on your walk today because of the breathtaking view of the desolate terrain and beautiful mountains. Before arriving at Muktinath, you will pass by a number of uninhabited villages. As a mark of holiness, 108 bathing spouts are located within the Muktinath compound. If you want to do away with the misdeeds of previous lives, you can take a bath in these streams.",
+    },
+    {
+      day: 14,
+      description: "Trek from Muktinath to Jomsom",
+      details: "Today is the last day of Upper Mustang Trekking. You will start your day off with a tour of the Muktinath temple. You will then start your journey toward Jomsom. You will ascend to Ekle Bhatti and then follow the road that descends into Jomsom, passing through the picturesque town of Kagbeni along the route. You will have some free time when you get to Jomsom to take in the lovely surroundings and wander through this lovely town. You may celebrate the completion of your upper mustang trek with some Chang (locally brewed alcohol), and Thakali dinner.",
+    },
+    {
+      day: 15,
+      description: "Flight from Jomsom to Pokhara",
+      details: "The final day of your Upper Mustang trekking is today. You will be escorted to the airport by your tour guide. You will fly to Pokhara from Jomsom Airport. The picturesque flight provides breathtaking views of the mountains and stunning landscape. When you get to Pokhara, you may relax or enjoy one of the many attractions, including boating on Phewa Lake, visiting a cafe, taking a walking tour of the Peace Pagoda, or visiting Devi's Fall.",
+    },
+    {
+      day: 16,
+      description: "Drive from Pokhara to Kathmandu",
+      details: "You will have breakfast in the morning before taking a tourist bus back to Kathmandu. After leaving Pokhara, the road leads through Damauli, Dumre, Muglin, and Kurintar before arriving at Thankot's Kathmandu Valley Gateway. You will check in at the hotel when you get to Kathmandu. You are free to spend your leisure time wandering the streets of Thamel and shopping for mementos.",
+    },
+    {
+      day: 17,
+      description: "Final Departure",
+      details: "Your Upper Mustang trekking experience concludes today, as you travel back to your native country. You may purchase gifts and trinkets on this day to give to friends and family. Our representative will transport you to the airport in time for your journey.",
+    },
+  ],
+
+  HowToPrepare: {
+    paragraph: [
+      "Upper Mustang hikers must invest enough time in physical training and exercise to increase their endurance and enhance their core strength. To strengthen their joint muscles, they should focus on cardiovascular exercises like jogging, cycling, running, and squat jumps.",
+      "Aerobic exercise may be added to the fitness regimen to enhance balance and give a more secure base for conquering uneven terrain. In addition to being able to walk on varied terrains, trekkers need to be physically fit to successfully finish the Upper Mustang trekking with Muktinath.",
+      "You may start with a short hike before going to Nepal and progress to larger hikes as you get more comfortable. Because a lack of confidence can commonly cause discomfort and anxiety, trekkers need to be mentally motivated.",
+      "It is important to research the weather and schedule for the Upper Mustang trek incorporating Muktinath. It will help you prepare for the trip and provide you with advice on how to handle unfavorable circumstances.",
+    ],
+  },
+  path: [
+    "Drive from Kathmandu to Pokhara",
+    "Flight from Pokhara to Jomsom",
+    "Trek from Jomsom to Kagbeni",
+    "Trek from Kagbeni to Chele",
+    "Trek from Chele to Syanboche",
+    "Trek from Syanboche to Ghami",
+    "Trek from Ghami to Charang",
+    "Trek from Charang to Lo-Manthang",
+    "Trek from Lo-Manthang to Yara",
+    "Trek from Yara to Tangge",
+    "Trek from Tangge to Chhusang",
+    "Trek from Chhusang to Muktinath",
+    "Trek from Muktinath to Jomsom",
+    "Flight from Jomsom to Pokhara",
+    "Drive from Pokhara to Kathmandu",
+  ],
+},
+
+
 };
 
 export default infoContent;

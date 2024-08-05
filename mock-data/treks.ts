@@ -131,4 +131,5 @@ export const trekRegions: TrekAndTours[] = [
     ],
     route: routes.treks,
   },
+  
 ];
