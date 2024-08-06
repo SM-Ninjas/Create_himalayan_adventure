@@ -55,18 +55,19 @@ annapurna_base_camp_trek: {
   id: 0,
   slug: "annapurna_base_camp_trek",
   category: "Trekking",
-  img: "/images/Annapurnabasecamp.jpg",
+  img: "/images/Annapurna Base Camp Trek -14 Days/AnnapurnaSanctuary_client_lee.webp",
   description: "14 Days Annapurna Base Camp Trek guided by the professionals",
   title: "Annapurna Base Camp",
   location: "Kaski",
   days: "14 days",
   people: "1-12",
   subimages: [
-    "/images/Annapurnabasecamp2.jpg",
-    "/images/Annapurnabasecamp3.jpg",
-    "/images/Annapurnabasecamp4.jpg",
-    "/images/Annapurnabasecamp5.jpg",
-    "/images/Annapurnabasecamp6.jpg",
+    "/images/Annapurna Base Camp Trek -14 Days/5535-1ba53e9e-5-large.jpg",
+    "/images/Annapurna Base Camp Trek -14 Days/Annapurna-Basecamp-image1-1.webp",
+    "/images/Annapurna Base Camp Trek -14 Days/timthumb.png",
+    "/images/Annapurna Base Camp Trek -14 Days/annapurna-base-camp-trek-3-1.jpg",
+    "/images/Annapurna Base Camp Trek -14 Days/AnnapurnaSanctuary_client_lee.webp",
+    
   ],
   overView: {
     duration:
@@ -248,11 +249,11 @@ everest_base_camp_treck: {
   days: "14 days",
   people: "1-12",
   subimages: [
-    "/images/EverestBaseCampTreck1.jpg",
-    "/images/EverestBaseCampTreck2.jpg",
-    "/images/EverestBaseCampTreck3.jpg",
-    "/images/EverestBaseCampTreck4.jpg",
-    "/images/EverestBaseCampTreck5.jpg",
+    "/images/7-day-ebc-heli-trek-with-retuen-kathmandu.jpg",
+    "/images/Everest-Base-Camp-trek-in-October.jpg",
+    "/images/every-thing-about-the-everest-base-camp-trek.jpg",
+    "/images/New-Everest-Base-Camp-trek.jpg",
+    "/images/WhatsApp-Image-2021-06-25-at-7.37.38-PM-600x338.jpg",
   ],
   overView: {
     duration:
@@ -451,7 +452,7 @@ chitwan_national_park_tour: {
     "Chitwan National Park is also a paradise for bird lovers, with over 500 species of birds found here. The park is a bird watcher's paradise, with many rare and endangered species like the Bengal florican, giant hornbill, and the lesser adjutant stork. The best time for bird watching is early morning or late afternoon when the birds are most active. Apart from wildlife and adventure activities, the 3 Nights 4 Days Chitwan National Park Tour Package also helps to explore the rich cultural heritage. The park is home to several ethnic groups like the Tharu people, who have a unique way of life and culture. The Tharu people have been living in harmony with the wildlife and nature of the park for centuries and have their festivals, dances, and music.",
     "The best time to participate in the 3 Nights and 4 Days Chitwan National Park Tour is from October to March, as the weather during this time is pleasant, and the park is at its greenest. During the monsoon season, which lasts from June to September, the park is closed due to heavy rainfall and flooding.",
     "Chitwan National Park is a unique and beautiful destination that offers a variety of experiences for you. From wildlife safaris to bird watching, canoeing, and cultural experiences, the park has something for everyone. A 3 Nights 4 Days Chitwan National Park tour is an ideal way to explore the park and experience its beauty and diversity. Whether you are a nature lover, adventure enthusiast, or a culture buff, Chitwan National Park is a destination that should be on your bucket list.",
-    "We at Green Valley Nepal Treks and Research Hub are pleased to present our well-planned 3 Nights 4 Days Chitwan National Park Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the 4 Days Chitwan National Park Tour Package Cost, please don't hesitate to contact us.",
+    "We at Create Himalayan Adventure and Research Hub are pleased to present our well-planned 3 Nights 4 Days Chitwan National Park Tour Detailed Itinerary, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. Be part of this adventurous journey with us, and we will make sure you enjoy every second of this trip. For more questions regarding the 4 Days Chitwan National Park Tour Package Cost, please don't hesitate to contact us.",
   ],
   highlights: [
     "Explore the stunning Chitwan National Park, a UNESCO World Heritage Site known for its rich biodiversity and wildlife.",
@@ -580,7 +581,7 @@ rara_lake_tour: {
     "Enjoy a peaceful boat ride on the crystal-clear waters of the lake",
     "Capture the majestic views of snow-capped peaks reflected in the tranquil lake",
     "Relax and unwind in a serene natural environment, away from the hustle and bustle of city life",
-    "Experience a professionally curated day tour by the Green Valley Nepal Treks Team",
+    "Experience a professionally curated day tour by the Create Himalayan Adventure Team",
   ],
   facilities: [
     "Free International Airport Pickup and Drop off facilities",
@@ -709,18 +710,18 @@ mardi_himal_trek: {
   id: 5,
   slug: "mardi_himal_trek",
   category: "Trekking",
-  img: "/locations/annapurna.webp",
+  img: "/locations/Mt-Fishtail-from-Badal-Danda.jpeg",
   description: "9 Days Mardi Himal Trek guided by the professionals",
   title: "Mardi Himal Trek",
   location: "Kaski",
   days: "9 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/locations/IMG_20171019_084653_HDR--1--06062019072547.jpg",
+    "/locations/145.jpg",
+    "/locations/mardi-himal-trekking.jpg",
+    "/locations/Mt-Fishtail-from-Badal-Danda.jpeg",
+    "/locations/mardi-himal-trek.jpg",
   ],
   overView: {
     duration:
@@ -856,18 +857,18 @@ ghorepani_poonhill_trek: {
   id: 6,
   slug: " ghorepani_poonhill_trek",
   category: "Trekking",
-  img: "/images/GhorepaniPoonhill.jpg",
+  img: "/images/annapurna-poonhill-trek.webp",
   description: "8Days Ghorepani Poonhill Trek guided by the professionals",
   title: "Ghorepani Poonhill Trek",
   location: "Gandaki",
   days: "8 days",
   people: "1-12",
   subimages: [
-    "/images/GhorepaniPoonhill.jpg",
-    "/images/GhorepaniPoonhill4.jpg",
-    "/images/GhorepaniPoonhill1.jpg",
-    "/images/GhorepaniPoonhill2.jpg",
-    "/images/GhorepaniPoonhill4.jpg",
+    "/images/Poon_hill_mountain_range-3-805x400.jpg",
+    "/images/breathtaking-view-poon-hill-trek.webp",
+    "/images/ghorepani-poon-hill-trek_a.jpg",
+    "/images/annapurna-poonhill-trek.webp",
+    "/images/image_processing20181012-4-1w6fe9k.jpg",
   ],
   overView: {
     duration:
@@ -996,18 +997,18 @@ short_abc_trek: {
   id: 7,
   slug: "short_abc_trek",
   category: "Trekking",
-  img: "/locations/annapurna.webp",
+  img: "/locations/annapurna-base-camp-short-trek-387.jpg",
   description: "9 Days Short ABC Trek guided by the professionals",
   title: "Short ABC Trek - 9 Days",
   location: "Kaski",
   days: "9 days",
   people: "1-12",
   subimages: [
-    "/images/Annapurnabasecamp2.jpg",
-    "/images/Annapurnabasecamp3.jpg",
-    "/images/Annapurnabasecamp4.jpg",
-    "/images/Annapurnabasecamp5.jpg",
-    "/images/Annapurnabasecamp6.jpg",
+    "/images/abc3.jpg",
+    "/images/annapurna-base-camp-short-trek-387.jpg",
+    "/images/Annapurna_II_north.jpg",
+    "/images/annapurna-base-camp-trek.jpg",
+    "/images/trekking-to-annapurna-base-camp.jpg",
   ],
   overView: {
     duration:
@@ -1150,18 +1151,18 @@ poon_hill_trek: {
     id: 8,
     slug: "poon_hill_trek",
     category: "Trekking",
-    img: "/images/GhorepaniPoonhill.jpg",
+    img: "/images/Poon-Hill-Weather-in-Other-Seasons-of-the-Year-1024x683.jpg",
     description: "2 Days Poon Hill Trek guided by the professionals",
     title: "Poon Hill Trek - 2 Days",
     location: "Gandaki",
     days: "2 days",
     people: "1-12",
     subimages: [
-      "/images/GhorepaniPoonhill.jpg",
-      "/images/GhorepaniPoonhill4.jpg",
-      "/images/GhorepaniPoonhill1.jpg",
-      "/images/GhorepaniPoonhill2.jpg",
-      "/images/GhorepaniPoonhill4.jpg",
+      "/images/IMG-20190410-WA0006-995x650.jpg",
+      "/images/poon-hill-mardi-himal-trek.webp",
+      "/images/Poon-Hill-Trek-5-Days-1024x373.jpg",
+      "/images/Poon-Hill-Trek-2024-1024x768.jpeg",
+      "/images/Poon-Hill-Weather-in-Other-Seasons-of-the-Year-1024x683.jpg",
     ],
     overView: {
       duration:
@@ -1265,11 +1266,11 @@ poon_hill_mardi_himal_trek: {
     days: "12 days",
     people: "1-12",
     subimages: [
-      "/images/GhorepaniPoonhill.jpg",
-      "/images/mardihimaltrek1.jpg",
-      "/images/mardihimaltrek2.jpg",
-      "/images/GhorepaniPoonhill.jpg",
-      "/images/GhorepaniPoonhill.jpg",
+      "/images/145.jpg",
+      "/images/mardi-himal-trek-1.webp",
+      "/images/Mardi-Himal-Annapurna-Both-Trek.webp",
+      "/images/mardi_Himal_Trek-3.jpg",
+      "/images/145.jpg",
     ],
     overView: {
       duration:
@@ -1422,18 +1423,18 @@ annapurna_full_circuit_trek: {
   id: 10,
     slug: "annapurna_full_circuit_trek",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/mount-annapurna-act.webp",
     description: "17 Days Annapurna Full Circuit Trek guided by the professionals",
     title: "Annapurna Full Circuit Trek - 17 Days",
     location: "Kaski",
     days: "17 days",
     people: "1-12",
     subimages: [
-     "/images/Annapurnabasecamp2.jpg",
-      "/images/Annapurnabasecamp3.jpg",
-      "/images/Annapurnabasecamp4.jpg",
-      "/images/Annapurnabasecamp5.jpg",
-      "/images/Annapurnabasecamp6.jpg",
+     "/images/Ananpurna-Circuit-Trek-IV-1024x690-990x490.jpg",
+      "/images/Annapurna-4.jpg",
+      "/images/annapurna-circuit.jpg",
+      "/images/annapurna-circuit-trek90-365x215 (1).jpg",
+      "/images/mount-annapurna-act.webp",
     ],
     overView: {
       duration:
@@ -1619,18 +1620,18 @@ ebc_trek_gokyo_helicopter: {
   id: 11,
     slug: "ebc_trek_gokyo_helicopter",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/everest-base-camp-trek-via-gokyo.jpg",
     description: "15 Days EBC Trek via Gokyo with Helicopter Return guided by the professionals",
     title: "EBC Trek via Gokyo with Helicopter Return – 15 Days",
     location: "Solukhumbu",
     days: "15 days",
     people: "1-10",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/IMG_3367-1280x665.jpg",
+      "/images/gokyo-lake.jpgZTP.jpg",
+      "/images/Gokyo-Chola-Pass-Everest-Base-Camp-Kalapather-Helicopter-Return.jpg",
+      "/images/everest-base-camp-trek-via-gokyo.jpg",
+      "/images/Everest-and-Makalu-view-from-Gokyo-Ri.jpg",
     ],
     overView: {
       duration:
@@ -1700,7 +1701,7 @@ ebc_trek_gokyo_helicopter: {
       day: 1,
       description: "Arrival to Kathmandu (1400m)",
       details:
-        "A Green Valley Nepal Treks representative will greet you when you arrive at Tribhuvan International Airport. You will be driven to your accommodation in a private vehicle after completing the necessary paperwork for your visa and other requirements.You will receive an orientation with the trekking guide regarding your trip itinerary after taking a short break at your hotel.",
+        "A Create Himalayan Adventure representative will greet you when you arrive at Tribhuvan International Airport. You will be driven to your accommodation in a private vehicle after completing the necessary paperwork for your visa and other requirements.You will receive an orientation with the trekking guide regarding your trip itinerary after taking a short break at your hotel.",
     },
     {
       day: 2,
@@ -1808,18 +1809,18 @@ luxury_trek_gokyo_helicopter: {
   id: 12,
     slug: "luxury_trek_gokyo_helicopter",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck1.jpg",
+    img: "/images/5535-1ba53e9e-5-large.jpg",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
     title: "Luxury Everest Heli Trek - 6 Days",
     location: "Solukhumbu",
     days: "6 days",
     people: "1-10",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/timthumb.jpg",
+      "/images/AnnapurnaSanctuary_client_lee.webp",
+      "/images/annapurna-base-camp-trek-3-1.jpg",
+      "/images/Annapurna-Basecamp-image1-1.webp",
+      "/images/5535-1ba53e9e-5-large.jpg",
     ],
     overView: {
       duration:
@@ -1908,7 +1909,7 @@ luxury_trek_gokyo_helicopter: {
       description:
         "Helicopter Ride from Everest View Hotel (3880m) to Explore Mount Everest (8848m) and Nearby Peaks",
       details:
-        "You won't have to hike back the way you came after an early breakfast since you will be picked up from Everest View Hotel for a private helicopter tour of the Himalayas. get overhead views of Ama Dablam, Thamserku, Kantega, Lhotse, and Nuptse. After reaching Kathmandu, you can spend the afternoon and evening at leisure, taking in any sights you might have missed at the start of your Luxury Everest Heli Trek. You will meet the rest of the Green Valley Nepal Treks Team in the evening to eat dinner together and discuss the trip's great conclusion.",
+        "You won't have to hike back the way you came after an early breakfast since you will be picked up from Everest View Hotel for a private helicopter tour of the Himalayas. get overhead views of Ama Dablam, Thamserku, Kantega, Lhotse, and Nuptse. After reaching Kathmandu, you can spend the afternoon and evening at leisure, taking in any sights you might have missed at the start of your Luxury Everest Heli Trek. You will meet the rest of the Create Himalayan Adventure Team in the evening to eat dinner together and discuss the trip's great conclusion.",
     },
     {
       day: 6,
@@ -1928,18 +1929,18 @@ sleep_at_base_camp_everest: {
   id: 13,
     slug: "sleep_at_base_camp_everest",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/everest-base-camp-trek-with-overnight-at-base-camp-509-0.82874900 1707995383.jpg",
     description: "15 Days Sleep at Everest Base Camp Trek guided by the professionals",
     title: "Sleep at Base Camp on Everest Trek - 15 Days",
     location: "Solukhumbu",
     days: "15 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/SLEEP-EBC-2018-e1589410919434.jpg",
+      "/images/GettyImages-523410951.jpg",
+      "/images/everest-base-camp-trekking (1).webp",
+      "/images/everest-base-camp-trek-with-overnight-at-base-camp-509-0.82874900 1707995383.jpg",
+      "/images/everest-base-camp-trek-heli-out.webp",
     ],
     overView: {
       duration:
@@ -2004,7 +2005,7 @@ sleep_at_base_camp_everest: {
       day: 1,
       description: "Arrival in Kathmandu (1400m) ",
       details:
-        "Arrival at Nepal's Tribhuvan International Airport. Please make your way to the arrivals hall exit after completing the airport's visa formalities and retrieving your luggage. Your trip leader will be waiting for you outside the arrivals area and will drive you to your hotel in Kathmandu. Please keep an eye out for a Green Valley Nepal Treks sign at the entrance to the arrivals area. In the evening, your trek leader will update you about your trip in the lobby of your hotel after serving you welcome drinks and giving you a chance to rehydrate. Take a stroll along the street to get acquainted with your surroundings, and at night, enjoy a welcome dinner at a typical Nepalese eatery.",
+        "Arrival at Nepal's Tribhuvan International Airport. Please make your way to the arrivals hall exit after completing the airport's visa formalities and retrieving your luggage. Your trip leader will be waiting for you outside the arrivals area and will drive you to your hotel in Kathmandu. Please keep an eye out for a Create Himalayan Adventure sign at the entrance to the arrivals area. In the evening, your trek leader will update you about your trip in the lobby of your hotel after serving you welcome drinks and giving you a chance to rehydrate. Take a stroll along the street to get acquainted with your surroundings, and at night, enjoy a welcome dinner at a typical Nepalese eatery.",
     },
     {
       day: 2,
@@ -2085,13 +2086,13 @@ sleep_at_base_camp_everest: {
       description:
         "Flight from Lukla to Ramechhap then Drive to Kathmandu (1400m)",
       details:
-        "You will take a morning flight to Ramechhap. From Ramechhap, you will take the roadway toward Kathmandu. You can utilize your remaining time by shopping in Thamel. In the evening time, you will meet the team of Green Valley Nepal Treks for dinner to celebrate the successful completion of sleep at Everest Base Camp Trek.",
+        "You will take a morning flight to Ramechhap. From Ramechhap, you will take the roadway toward Kathmandu. You can utilize your remaining time by shopping in Thamel. In the evening time, you will meet the team of Create Himalayan Adventure for dinner to celebrate the successful completion of sleep at Everest Base Camp Trek.",
     },
     {
       day: 15,
       description: "Final Departure",
       details:
-        "One of our staff members will assist you in getting to the airport when it is time for your flight to depart. If you want to extend your trip, Green Valley Nepal Treks can make the appropriate arrangements. If your flight is scheduled for a late evening, you might even go shopping to get some gifts for your loved ones. We hope you had a good time when you were here and we wish you luck on your upcoming journey to Nepal.",
+        "One of our staff members will assist you in getting to the airport when it is time for your flight to depart. If you want to extend your trip, Create Himalayan Adventure can make the appropriate arrangements. If your flight is scheduled for a late evening, you might even go shopping to get some gifts for your loved ones. We hope you had a good time when you were here and we wish you luck on your upcoming journey to Nepal.",
     },
   ],
   HowToPrepare: {
@@ -2134,18 +2135,18 @@ ebc_trek_14_days: {
   id: 14,
     slug: "ebc_trek_14_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/14-Days-Everest-base-Camp-Tour.jpg",
     description: "14 Days Everest Base Camp Trek guided by the professionals",
     title: "Everest Base Camp Trek - 14 Days",
     location: "Solukhumbu",
     days: "14 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-    "/images/EverestBaseCampTreck2.jpg",
-    "/images/EverestBaseCampTreck3.jpg",
-    "/images/EverestBaseCampTreck4.jpg",
-    "/images/EverestBaseCampTreck5.jpg",
+      "/images/Mt. Everest Nepal.jpg",
+      "/images/image_processing20190922-4-4uo2xo.jpg",
+      "/images/Everest_Base_Camp.jpg",
+      "/images/601953579basecamp[.jpg",
+      "/images/14-Days-Everest-base-Camp-Tour.jpg",
     ],
     overView: {
       duration:
@@ -2306,18 +2307,18 @@ luxury_everest_trek_13_days: {
   id: 15,
     slug: "luxury_everest_trek_13_days",
     category: "Trekking",
-    img: "/locations/annapurna.webp",
+    img: "/images/everest-base-camp-trek.jpg",
     description: "13 Days Luxury Everest Trek guided by the professionals",
     title: "13 Days Luxury Everest Trek",
     location: "Solukhumbu",
     days: "13 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/WhatsApp-Image-2021-07-02-at-10.29.45-PM-600x338.jpeg",
+      "/images/jiri-everest-base-camp-trek-(6).webp",
+      "/images/Everest-Base-Camp-Trek-2.png",
+      "/images/everest-base-camp-trek-1.jpg",
+      "/images/everest-base-camp-trek.jpg",
     ],
     overView: {
       duration:
@@ -2381,7 +2382,7 @@ luxury_everest_trek_13_days: {
       day: 1,
       description: "Arrival in Kathmandu (1400m)",
       details:
-        "As soon as you land at the airport, a representative from Green Valley Nepal Treks will pick you up and transport you to your accommodation. After a few hours of relaxation in the hotel, a tour operator and tour guide from Green Valley Nepal Treks will greet you and discuss about Luxury Everest Base Camp Itinerary. After the pre-trip briefing, you will have a welcome dinner from our side. At dinner, you are going to enjoy traditional Nepalese Cuisine along with a cultural dance program.",
+        "As soon as you land at the airport, a representative from Create Himalayan Adventure will pick you up and transport you to your accommodation. After a few hours of relaxation in the hotel, a tour operator and tour guide from Create Himalayan Adventure will greet you and discuss about Luxury Everest Base Camp Itinerary. After the pre-trip briefing, you will have a welcome dinner from our side. At dinner, you are going to enjoy traditional Nepalese Cuisine along with a cultural dance program.",
     },
     {
       day: 2,
@@ -2471,18 +2472,18 @@ everest_three_high_passes_trek_18_days: {
   id: 16,
     slug: "everest_three_high_passes_trek_18_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/budget-everest-base-camp-treks-1.jpg",
     description: "18 Days Everest Three High Passes Trek guided by the professionals",
     title: "Everest Three High Passes Trek - 18 Days",
     location: "Solukhumbu",
     days: "18 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/gokyo-lakes-nepal.jpg",
+      "/images/renjola-small.jpg",
+      "/images/gokyo-lake.jpg",
+      "/images/Gokyo_lake-scaled.jpg",
+      "/images/E3PT-Solo-Guide-01.jpg",
     ],
     overView: {
       duration:
@@ -2672,18 +2673,18 @@ budget_ebc_trek_12_days: {
   id: 17,
     slug: "budget_ebc_trek_12_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck1.jpg",
+    img: "/images/20230505094735image-everest-Gorakshep.jpg",
     description: "12 Days Budget Everest Base Camp Trekguided by the professionals",
     title: "Budget Everest Base Camp Trek - 12 Days",
     location: "Solukhumbu",
     days: "12 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/Everest-Base-Camp-Trek-1.jpg",
+      "/images/Everest-Base-Camp-Nepal.jpg.webp",
+      "/images/everest-base-camp-budget-trek.jpg",
+      "/images/amenities-Everest-base-camp_EBC.jpg",
+      "/images/20230505094735image-everest-Gorakshep.jpg",
     ],
     overView: {
       duration:
@@ -2833,18 +2834,18 @@ everest_high_passes_trek_clockwise_18_days: {
   id: 18,
     slug: "everest_high_passes_trek_clockwise_18_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/images.jpeg",
     description: "18 Days Everest High Passes Trek Clockwise guided by the professionals",
     title: "Everest High Passes Trek Clockwise - 18 Days",
     location: "Solukhumbu",
     days: "18 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/2024-01-14-4093.webp",
+      "/images/Everest_Three_High_Passes_Kongma_La_Pass-22-of-36-1024x683.webp",
+      "/images/everest-3-high-passes-trek.jpg",
+      "/images/high-passes-trek.webp",
+      "/images/images.jpeg",
     ],
     overView: {
       duration:
@@ -2908,7 +2909,7 @@ everest_high_passes_trek_clockwise_18_days: {
       day: 1,
       description: "Arrival to Kathmandu (1400m) ",
       details:
-        "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. When you are ready to know more about the trip planning details for the Everest High Passes Clockwise Trek, you may come to our office for a pre-trip meeting.",
+        "With a sign that reads Create Himalayan Adventure, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. When you are ready to know more about the trip planning details for the Everest High Passes Clockwise Trek, you may come to our office for a pre-trip meeting.",
     },
     {
       day: 2,
@@ -3016,7 +3017,7 @@ everest_high_passes_trek_clockwise_18_days: {
       day: 18,
       description: "Final Departure",
       details:
-        "Your Everest High Passes Trek on the clockwise route ends today. When your flight is scheduled to depart, one of our business employees will help you go to the airport. Green Valley Nepal Treks, however, can make the necessary preparations if you want to prolong your vacation. You can also go shopping to get a few presents for your friends and family if your flight is planned for a late evening",
+        "Your Everest High Passes Trek on the clockwise route ends today. When your flight is scheduled to depart, one of our business employees will help you go to the airport. Create Himalayan Adventure, however, can make the necessary preparations if you want to prolong your vacation. You can also go shopping to get a few presents for your friends and family if your flight is planned for a late evening",
     },
   ],
   HowToPrepare: {
@@ -3032,18 +3033,18 @@ gokyo_valley_circuit_trek_13_days: {
   id: 19,
     slug: "gokyo_valley_circuit_trek_13_days",
     category: "Trekking",
-    img: "/images/Gokyo1.jpeg",
+    img: "/images/frozen-gokyo-lake.webp",
     description: "13 Days Gokyo Valley Circuit Trek guided by the professionals",
     title: "Gokyo Valley Circuit Trek - 13 Days",
     location: "Solukhumbu",
     days: "13 days",
     people: "1-12",
     subimages: [
-      "/images/Gokyo1.jpeg",
-      "/images/gokyo2.jpg",
-      "/images/gokyo3.jpg",
-      "/images/gokyo2.jpg",
-      "/images/gokyo3.jpg",
+      "/images/View-of-Gokyo-Lakes-and-village.webp",
+      "/images/stone-stack-gokyo-ri-highest-mountain-everest-base-camp-summit-route-with-turquoise-gokyo-lake-trekking-route-khumbu-nepal_73740-162.jpg",
+      "/images/IMG_0577-825x465@2x.jpg",
+      "/images/gokyo-lake.jpg",
+      "/images/frozen-gokyo-lake.webp",
     ],
     overView: {
       duration:
@@ -3108,7 +3109,7 @@ gokyo_valley_circuit_trek_13_days: {
       day: 1,
       description: "Arrival in Kathmandu (1400m) ",
       details:
-        "With a sign that reads Green Valley Nepal Treks, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. Whenever you are ready to know more about the Gokyo Valley Circuit Trek Itinerary, you are welcome to visit our office for a pre-trip meeting.",
+        "With a sign that reads Create Himalayan Adventure, our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu. After that, a private vehicle will take you to your hotel. Whenever you are ready to know more about the Gokyo Valley Circuit Trek Itinerary, you are welcome to visit our office for a pre-trip meeting.",
     },
     {
       day: 2,
@@ -3183,7 +3184,7 @@ gokyo_valley_circuit_trek_13_days: {
       day: 13,
       description: "Departure from Kathmandu (1400m)",
       details:
-        "It's the last day of your Gokyo Valley Trek itinerary. One of our company personnel will assist you in traveling to the airport when your flight is scheduled to depart. If you want to extend your trip, Green Valley Nepal Treks, however, can make the required arrangements. If your flight is scheduled for a late evening, you can also go shopping to get a few presents for your friends and family.",
+        "It's the last day of your Gokyo Valley Trek itinerary. One of our company personnel will assist you in traveling to the airport when your flight is scheduled to depart. If you want to extend your trip, Create Himalayan Adventure, however, can make the required arrangements. If your flight is scheduled for a late evening, you can also go shopping to get a few presents for your friends and family.",
     },
   ],
   HowToPrepare: {
@@ -3200,18 +3201,18 @@ everest_view_trek_9_days: {
   id: 20,
     slug: "everest_view_trek_9_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/everest-base-camp-trekking-.jpg",
     description: "9 Days Everest View Trek guided by the professionals",
     title: "Everest View Trek - 9 Days",
     location: "Solukhumbu",
     days: "9 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/Everest-View-Trek-distance.webp",
+      "/images/Everest-trek.jpg",
+      "/images/everest-panorama-trek-1.jpg",
+      "/images/Everest-Base-Camp-Trek-route-scaled.jpg",
+      "/images/everest-base-camp-trekking-.jpg",
     ],
     overView: {
       duration:
@@ -3329,7 +3330,7 @@ everest_view_trek_9_days: {
   ],
   HowToPrepare: {
     paragraph: [
-      "Our Everest View Trek 9 Days doesn't require any prior trekking expertise, and most people in average health should be able to accomplish our route without any trouble. This hike does, however, reach a maximum height of around 3860 meters, where altitude sickness symptoms might manifest. For this reason, before starting the Everest Panorama View Trek, you should be in good physical and mental health. Exercises like running, walking, and other cardiovascular activities are excellent ways to get in shape before traveling to the high-altitude Khumbu region. You will also be assigned a knowledgeable guide from Green Valley Nepal Treks who will keep an eye on you, track your progress and health, and lead you safely through some of Nepal's most breathtaking alpine landscapes.",
+      "Our Everest View Trek 9 Days doesn't require any prior trekking expertise, and most people in average health should be able to accomplish our route without any trouble. This hike does, however, reach a maximum height of around 3860 meters, where altitude sickness symptoms might manifest. For this reason, before starting the Everest Panorama View Trek, you should be in good physical and mental health. Exercises like running, walking, and other cardiovascular activities are excellent ways to get in shape before traveling to the high-altitude Khumbu region. You will also be assigned a knowledgeable guide from Create Himalayan Adventure who will keep an eye on you, track your progress and health, and lead you safely through some of Nepal's most breathtaking alpine landscapes.",
     ],
     points: [],
   },
@@ -3340,18 +3341,18 @@ everest_trek_cost_indians_14_days: {
   id: 21,
     slug: "everest_trek_cost_indians_14_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/6359c732ea35650019e06210.webp",
     description: "14 Days Everest Trek Cost for Indians guided by the professionals",
     title: "Everest Trek Cost for Indians - 14 Days",
     location: "Solukhumbu",
     days: "14 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/P1000439.jpg",
+      "/images/khumbu-glacier-featured-image.jpg",
+      "/images/everest-base-camp-trek-cost-for-indians.webp",
+      "/images/6359c732ea35650019e06210.webp",
+      "/images/7-1.jpg",
     ],
     overView: {
       duration:
@@ -3501,18 +3502,18 @@ everest_gokyo_trek_via_salleri_20_days: {
   id: 22,
     slug: "everest_gokyo_trek_via_salleri_20_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/Everest-Gokyo-Ri-Trek-Photo.jpg",
     description: "20 Days Everest Gokyo Trek via Salleri guided by the professionals",
     title: "Everest Gokyo Trek via Salleri - 20 Days",
     location: "Solukhumbu",
     days: "20 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/IMG_0577-825x465@2x.jpg",
+      "/images/gokyo-ri-trek.jpg",
+      "/images/Gokyo-Lake-Trek.jpg",
+      "/images/fromgokyo.jpg",
+      "/images/Everest-Gokyo-Ri-Trek-Photo.jpg",
     ],
     overView: {
       duration:
@@ -3573,7 +3574,7 @@ everest_gokyo_trek_via_salleri_20_days: {
       day: 1,
       description: "Arrival to Kathmandu (1400m)",
       details:
-        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of Salleri to Everest Gokyo Trek planning.",
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Create Himalayan Adventure. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of Salleri to Everest Gokyo Trek planning.",
     },
     {
       day: 2,
@@ -3706,18 +3707,18 @@ ebc_trek_12_days: {
   id: 23,
     slug: "ebc_trek_12_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/distance-from-Base-Camp-to-Everest-Summit.jpg",
     description: "12 Days Everest Base Camp Trek guided by the professionals",
     title: "12 Days Everest Base Camp Trek",
     location: "Solukhumbu",
     days: "12 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/khumbu-glacier-12-days-everest-base-camp-trek.webp",
+      "/images/Everest-Trek.jpg",
+      "/images/everest-base-camp-trek-12-days.webp",
+      "/images/Everest-base-camp.jpg",
+      "/images/distance-from-Base-Camp-to-Everest-Summit.jpg",
     ],
     overView: {
       duration:
@@ -3867,18 +3868,18 @@ rapid_ebc_trek_9_days: {
   id: 24,
     slug: "rapid_ebc_trek_9_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/WhatsApp-Image-2021-06-25-at-7.37.38-PM-600x338.jpeg",
     description: "9 Days ARapid (Short) Everest Base Camp Trek guided by the professionals",
     title: "Rapid (Short) Everest Base Camp Trek - 9 Days",
     location: "Solukhumbu",
     days: "9 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/7-day-ebc-heli-trek-with-retuen-kathmandu.jpg",
+      "/images/Everest-Base-Camp-trek-in-October.jpg",
+      "/images/every-thing-about-the-everest-base-camp-trek.jpg",
+      "/images/New-Everest-Base-Camp-trek.jpg",
+      "/images/WhatsApp-Image-2021-06-25-at-7.37.38-PM-600x338.jpeg",
     ],
     overView: {
       duration:
@@ -3988,7 +3989,7 @@ rapid_ebc_trek_9_days: {
       day: 9,
       description: "Flight from Lukla (2840m) to Kathmadu (1400m)",
       details:
-        "The last morning in the Everest region and the last glimpse of the mountains may be enjoyed today. The Quick Everest Base Camp Trek will come to an end when you board a small aircraft for a spectacular 35-minute trip back to Kathmandu. You will be met by a travel agent from Green Valley Nepal Treks upon arrival in Kathmandu and transported back to the appropriate accommodation. There are other possibilities if you want to prolong your vacation, like a Chitwan jungle safari, a river rafting experience, a shopping tour of Kathmandu, mountain biking, and other activities. We would be happy to participate in these at your request.",
+        "The last morning in the Everest region and the last glimpse of the mountains may be enjoyed today. The Quick Everest Base Camp Trek will come to an end when you board a small aircraft for a spectacular 35-minute trip back to Kathmandu. You will be met by a travel agent from Create Himalayan Adventure upon arrival in Kathmandu and transported back to the appropriate accommodation. There are other possibilities if you want to prolong your vacation, like a Chitwan jungle safari, a river rafting experience, a shopping tour of Kathmandu, mountain biking, and other activities. We would be happy to participate in these at your request.",
     },
   ],
   HowToPrepare: {
@@ -4004,18 +4005,18 @@ ebc_trek_via_gokyo_cho_la_pass_17_days: {
   id: 25,
   slug: "ebc_trek_via_gokyo_cho_la_pass_17_days",
   category: "Trekking",
-  img: "/images/EverestBaseCampTreck.jpg",
+  img: "/images/best-time-for-gokyo-lake-trek.jpg",
   description: "17 Days EBC Trek via Gokyo Cho La Pass guided by the professionals",
   title: "EBC Trek via Gokyo Cho La Pass - 17 Days",
   location: "Solukhumbu",
   days: "17 days",
   people: "1-12",
   subimages: [
-    "/images/EverestBaseCampTreck1.jpg",
-    "/images/EverestBaseCampTreck2.jpg",
-    "/images/EverestBaseCampTreck3.jpg",
-    "/images/EverestBaseCampTreck4.jpg",
-    "/images/EverestBaseCampTreck5.jpg",
+    "/images/gokyo-ri-trek-1.webp",
+    "/images/everest-base-camp-and-gokyo-trek-with-cho-la-pass-18-day-1593595890.webp",
+    "/images/Everest_Lhotse_and_Makalu_from_Gokyo_Ri.jpg",
+    "/images/ebc-trek-via-gokyo-cho-la-pass.webp",
+    "/images/best-time-for-gokyo-lake-trek.jpg",
   ],
   overView: {
     duration:
@@ -4080,7 +4081,7 @@ ebc_trek_via_gokyo_cho_la_pass_17_days: {
       day: 1,
       description: "Arrival to Kathmandu (1400m) ",
       details:
-        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private car will then transport you to your accommodation. You are welcome to visit our office for a pre-trip meeting whenever you are ready to know more about the Everest Base Camp Trek via Gokyo Cho La Pass Itinerary.",
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Create Himalayan Adventure. A private car will then transport you to your accommodation. You are welcome to visit our office for a pre-trip meeting whenever you are ready to know more about the Everest Base Camp Trek via Gokyo Cho La Pass Itinerary.",
     },
     {
       day: 2,
@@ -4195,18 +4196,18 @@ ebc_trek_helicopter_return_kathmandu_10_days: {
   id: 26,
     slug: "ebc_trek_helicopter_return_kathmandu_10_days",
     category: "Trekking",
-    img: "/images/EverestBaseCampTreck.jpg",
+    img: "/images/1679154093Everest-Helicopter-Tour.jpg",
     description: "10 Days Everest Base Camp Trek Helicopter Return to Kathmandu guided by the professionals",
     title: "Everest Base Camp Trek Helicopter Return to Kathmandu - 10 Days",
     location: "Solukhumbu",
     days: "10 days",
     people: "1-12",
     subimages: [
-      "/images/EverestBaseCampTreck1.jpg",
-      "/images/EverestBaseCampTreck2.jpg",
-      "/images/EverestBaseCampTreck3.jpg",
-      "/images/EverestBaseCampTreck4.jpg",
-      "/images/EverestBaseCampTreck5.jpg",
+      "/images/IMG_20230118_102234-scaled.jpg",
+      "/images/ebc-trek-with-helicopter-return-thumb.jpg",
+      "/images/ebc-heli-trek-with-return-10days.jpg",
+      "/images/ebc-helicopter-tour.webp",
+      "/images/1679154093Everest-Helicopter-Tour.jpg",
     ],
     overView: {
       duration:
@@ -4268,7 +4269,7 @@ ebc_trek_helicopter_return_kathmandu_10_days: {
       day: 1,
       description: "Arrival to Kathmandu (1400m) ",
       details:
-        "Outside the terminal of Kathmandu's Tribhuvan International Airport, our airport agent will be waiting for you with a sign bearing the name Green Valley Nepal Treks. Then, a private tourist vehicle will take you to your respective hotel. When you are ready, come to our office for a pre-trip meeting to understand more about Helicopter Return Everest Base Camp Trek Itinerary.",
+        "Outside the terminal of Kathmandu's Tribhuvan International Airport, our airport agent will be waiting for you with a sign bearing the name Create Himalayan Adventure. Then, a private tourist vehicle will take you to your respective hotel. When you are ready, come to our office for a pre-trip meeting to understand more about Helicopter Return Everest Base Camp Trek Itinerary.",
     },
     {
       day: 2,
@@ -4342,18 +4343,18 @@ gokyo_chola_pass_trekking_via_ebc_17_days: {
   id: 27,
   slug: "gokyo_chola_pass_trekking_via_ebc_17_days",
   category: "Trekking",
-  img: "/locations/annapurna.webp",
+  img: "/images/gokyo_chola_pass_trek.jpg",
   description: "17 Days Gokyo Chola Pass Trekking via EBC guided by the professionals",
   title: "Gokyo Chola Pass Trekking via EBC - 17 Days",
   location: "Solukhumbu",
   days: "17 days",
   people: "1-12",
   subimages: [
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/chitwan_sub1.png",
-    "/locations/girl_sub1.png",
-    "/locations/girl_sub1.png",
+    "/images/way-to-Renjola-to-Gokyo-at-Three-pass.gif",
+    "/images/images copy.jpeg",
+    "/images/gokyo-village-with-gokyo-lake.jpg",
+    "/images/gokyo-ri-scaled-2.jpg",
+    "/images/gokyo_chola_pass_trek.jpg",
   ],
   overView: {
     duration:
@@ -4537,18 +4538,18 @@ ebc_trek_heli_out_lukla_12_days: {
   id: 28,
   slug: "ebc_trek_heli_out_lukla_12_days",
   category: "Trekking",
-  img: "/images/EverestBaseCampTreck.jpg",
+  img: "/images/everest-base-camp-trek-with-helicopter-return.webp",
   description: "12 Days Everest Base Camp Trek Heli Out to Lukla guided by the professionals",
   title: "Everest Base Camp Trek Heli Out to Lukla - 12 Days",
   location: "Solukhumbu",
   days: "12 days",
   people: "1-12",
   subimages: [
-    "/images/EverestBaseCampTreck1.jpg",
-    "/images/EverestBaseCampTreck2.jpg",
-    "/images/EverestBaseCampTreck3.jpg",
-    "/images/EverestBaseCampTreck4.jpg",
-    "/images/EverestBaseCampTreck5.jpg",
+    "/images/42.jpg",
+    "/images/everest-base-camp-and-back-to-lukla-by-helicopter-1.webp",
+    "/images/Everest-Base-Camp-Helicopter-Tour-land.jpg",
+    "/images/everest-base-camp-trek-route-map.webp",
+    "/images/everest-base-camp-trek-with-helicopter-return.webp",
   ],
   overView: {
     duration:
@@ -4613,7 +4614,7 @@ ebc_trek_heli_out_lukla_12_days: {
       day: 1,
       description: "Arrival in Kathmandu (1400m)",
       details:
-        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
+        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Create Himalayan Adventure signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
     },
     {
       day: 2,
@@ -4700,18 +4701,18 @@ pikey_peak_trek_10_days: {
   id: 29,
   slug: "pikey_peak_trek_10_days",
   category: "Trekking",
-  img: "/images/pikeypeaktrek1.jpg",
+  img: "/images/1647266567-pikey-peak-trek.jpg",
   description: "10 Days Pikey Peak Trek guided by the professionals",
   title: "Pikey Peak Trek - 10 Days",
   location: "Solukhumbu",
   days: "10 days",
   people: "1-12",
   subimages: [
-    "/images/pikeypeaktrek1.jpg",
-    "/images/pikeypeaktrek2.jpg",
-    "/images/pikeypeaktrek3.jpg",
-    "/images/pikeypeaktrek4.jpeg",
-    "/images/pikeypeaktrek5.jpg",
+    "/images/pk3.jpg",
+    "/images/Piky peak.jpg",
+    "/images/pikey-peak-trek-1280x720.jpg",
+    "/images/Pikey-Peak.jpeg",
+    "/images/1647266567-pikey-peak-trek.jpg",
   ],
   overView: {
     duration:
@@ -4776,7 +4777,7 @@ pikey_peak_trek_10_days: {
       day: 1,
       description: "Arrival in Kathmandu (1400m)",
       details:
-        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Green Valley Nepal Treks signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
+        "Our airport representative will be receiving you at Tribhuvan International airport, Kathmandu and s/he will be displaying a Create Himalayan Adventure signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle. You can visit our office for a pre-trip meeting and know detailed information about the Everest Base Camp Heli Out Trek Itinerary.",
     },
     {
       day: 2,
@@ -4850,18 +4851,18 @@ ebc_trek_by_road_16_days: {
   id: 30,
   slug: "ebc_trek_by_road_16_days",
   category: "Trekking",
-  img: "/images/EverestBaseCampTreck.jpg",
+  img: "/images/Amadablam-in-Everest-Base-c.webp",
   description: "14 Days Annapurna Base Camp Trek guided by the professionals",
   title: "Everest Base Camp Trek by Road - 16 Days",
   location: "Solukhumbu",
   days: "16 days",
   people: "1-12",
   subimages: [
-    "/images/EverestBaseCampTreck1.jpg",
-    "/images/EverestBaseCampTreck2.jpg",
-    "/images/EverestBaseCampTreck3.jpg",
-    "/images/EverestBaseCampTreck4.jpg",
-    "/images/EverestBaseCampTreck5.jpg",
+    "/images/trail-between-namche-bazaar-and-tengboche-1024x768.jpg",
+    "/images/gorakshep-everestbasecamp.webp",
+    "/images/everest-base-camp-trek-by-road-without-flight.webp",
+    "/images/everest-base-camp-trek-by-raod-new.webp",
+    "/images/Amadablam-in-Everest-Base-c.webp",
   ],
   overView: {
     duration:
@@ -4930,7 +4931,7 @@ ebc_trek_by_road_16_days: {
       day: 1,
       description: "Arrival to Kathmandu (1400m)",
       details:
-        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Green Valley Nepal Treks. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of the Everest Base Camp Trek by Road Itinerary.",
+        "Our airport representative will be waiting for you outside the terminal of Tribhuvan International Airport in Kathmandu with a sign that reads Create Himalayan Adventure. A private vehicle will then transport you to your chosen accommodation. You can visit our office for a pre-trip meeting when you are ready to know more about the technicalities of the Everest Base Camp Trek by Road Itinerary.",
     },
     {
       day: 2,
@@ -5043,18 +5044,18 @@ pokhara_day_tour_sunrise_sarangkot: {
   id: 31,
   slug: "pokhara_day_tour_sunrise_sarangkot",
   category: "Trekking",
-  img: "/images/pokharaadventure.jpg",
+  img: "/images/25.jpg",
   description: "Pokhara Day Tour with Sunrise View from Sarangkot by the professionals",
   title: "Pokhara Day Tour with Sunrise View from Sarangkot",
   location: "Gandaki",
   days: "1 days",
   people: "1-12",
   subimages: [
-   "/images/pokharaadventure1.jpg",
-    "/images/pokharaadventure2.jpeg",
-    "/images/pokharaadventure3.jpg",
-    "/images/pokharaadventure4.jpg",
-    "/images/pokharaadventure5.jpg",
+   "/images/sunrise-view-during-sarangkot-hike-in-pokhara.jpg",
+    "/images/machhapuchhre-peak-on-naudanda-sarangkot-day-hike.jpg",
+    "/images/ef.jpg",
+    "/images/146.jpg",
+    "/images/25.jpg",
   ],
   overView: {
     duration:
@@ -5131,18 +5132,18 @@ five_himalayan_viewpoint_tour_pokhara: {
   id: 32,
   slug: "five_himalayan_viewpoint_tour_pokhara",
   category: "Trekking",
-  img: "/images/pokharaadventure.jpg",
+  img: "/images/viewpoints-in-pokhara.jpg",
   description: "1 Days Five Himalayan Viewpoint Tour from Pokhara guided by the professionals",
   title: "Five Himalayan Viewpoint Tour from Pokhara",
   location: "Gandaki",
   days: "5 days",
   people: "1-12",
   subimages: [
-    "/images/pokharaadventure1.jpg",
-    "/images/pokharaadventure2.jpeg",
-    "/images/pokharaadventure3.jpg",
-    "/images/pokharaadventure4.jpg",
-    "/images/pokharaadventure5.jpg",
+    "/images/146 (1).jpg",
+    "/images/147.jpeg",
+    "/images/himalaya-in-pokhara-nepal-persefoni-photo-images.jpg",
+    "/images/pexels-zenith-photographics-1498-2.jpg",
+    "/images/viewpoints-in-pokhara.jpg",
   ],
   overView: {
     duration:
@@ -5216,18 +5217,18 @@ nagarkot_dhulikhel_day_hike: {
   id: 33,
   slug: "nagarkot_dhulikhel_day_hik",
   category: "Trekking",
-  img: "/images/NagarkotSunriseView.jpg",
+  img: "/images/Changunarayan-Nagarkot-Day-Hiking.webp",
   description: "1 Days Nagarkot to Dhulikhel Day Hiking Trip guided by the professionals",
   title: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
   location: "Bagmati",
   days: "1 days",
   people: "1-12",
   subimages: [
-    "/images/NagarkotSunriseView.jpg",
-    "/images/NagarkotSunriseView1.jpg",
-    "/images/NagarkotSunriseView3.jpg",
-    "/images/NagarkotSunriseView1.jpg",
-    "/images/NagarkotSunriseView.jpg",
+    "/images/Sundarijal-1.webp",
+    "/images/nagarkot-dhulikhel-day-trip_McPO4.jpeg",
+    "/images/nagarkot.dulikhel.day.hiking.jpg",
+    "/images/Changunarayan-Nagarkot-Day-Hiking.webp",
+    "/images/20170128_110642-1.jpg",
   ],
   overView: {
     duration:
@@ -5302,18 +5303,18 @@ nagarkot_sunrise_view_changunarayan_hike: {
   id: 34,
   slug: "nagarkot_sunrise_view_changunarayan_hike",
   category: "Trekking",
-  img: "/images/NagarkotSunriseView.jpg",
+  img: "/images/76.jpg",
   description: "1 Days Nagarkot Sunrise View and Nagarkot to Changunarayan Hike guided by the professionals",
   title: " Nagarkot Sunrise View and Nagarkot to Changunarayan Hike",
   location: "Bagmati",
   days: "1 days",
   people: "1-12",
   subimages: [
-    "/images/NagarkotSunriseView.jpg",
-    "/images/NagarkotSunriseView1.jpg",
-    "/images/NagarkotSunriseView3.jpg",
-    "/images/NagarkotSunriseView1.jpg",
-    "/images/NagarkotSunriseView.jpg",
+    "/images/sunrise-from-nagarkot.webp",
+    "/images/Nagarkot-Sunrise-View-674x430.jpg",
+    "/images/Nagarkot.jpg",
+    "/images/185a5d89cde2bacf5b0ca1879f4ec2a7.jpg",
+    "/images/76.jpg",
   ],
   overView: {
     duration:
@@ -5390,18 +5391,18 @@ namobuddha_panauti_day_hike: {
   id: 35,
   slug: "namobuddha_panauti_day_hike",
   category: "Trekking",
-  img: "/images/NagarjungJamcho.jpeg",
+  img: "/images/Panauti-to-Namobuddha-Day-Hiking.jpg",
   description: "14 Days Annapurna Base Camp Trek guided by the professionals",
   title: "Namobuddha to Panauti Day Hiking - 1 Day",
   location: "Bagmati",
   days: "14 days",
   people: "1-12",
   subimages: [
-    "/images/NagarjungJamcho.jpeg",
-    "/images/NagarjungJamcho1.jpeg",
-    "/images/NagarjungJamcho2.jpg",
-    "/images/NagarjungJamcho3.jpg",
-    "/images/NagarjungJamcho4.jpg",
+    "/images/dnp005.jpg",
+    "/images/Namobhudda-Day-Hiking-Tour-os2de1z9e9s5fcqvkjnn7nbqik4d2cro786qhv7mxk.jpg",
+    "/images/1d.jpg",
+    "/images/namobuddha-panauti-dhulikhel-tour-banner.webp",
+    "/images/namo-buddha-panauti-tours.jpg",
   ],
   overView: {
     duration:
@@ -5482,18 +5483,18 @@ nagarjung_jamcho_day_hike: {
   id: 36,
   slug: "nagarjung_jamcho_day_hike",
   category: "Trekking",
-  img: "/images/NagarjungJamcho.jpeg",
+  img: "/images/mohan-khadka-p3ovE-RNAsU-unsplash-1.jpg",
   description: "1 Days  Nagarjung Jamcho Day Hike guided by the professionals",
   title: "Nagarjung Jamcho Day Hike - 1 Day",
   location: "Bagmati",
   days: "1 days",
   people: "1-12",
   subimages: [
-    "/images/NagarjungJamcho.jpeg",
-    "/images/NagarjungJamcho1.jpeg",
-    "/images/NagarjungJamcho2.jpg",
-    "/images/NagarjungJamcho3.jpg",
-    "/images/NagarjungJamcho4.jpg",
+    "/images/nagarjun-day-hiking-1400x1020.jpg",
+    "/images/nagarjunhiking.webp",
+    "/images/nagarjuna-jamacho-day-hike.webp",
+    "/images/mohan-khadka-p3ovE-RNAsU-unsplash-1.jpg",
+    "/images/jamacho.webp",
   ],
   overView: {
     duration:
@@ -5570,18 +5571,18 @@ champadevi_day_hike: {
   id: 37,
   slug: "champadevi_day_hike",
   category: "Hiking",
-  img: "/images/Champadevi.jpg",
+  img: "/images/aa51b90ef3a5330b6f06cb60c62cf2cc.jpg",
   description: "1 Days champadevi hiking",
   title: "Champadevi Day Hike - 1 Day",
   location: "Bagmati",
   days: "1 days",
   people: "1-12",
   subimages: [
-    "/images/Champadevi.jpg",
-    "/images/Champadevi1.jpg",
-    "/images/Champadevi.jpg",
-    "/images/Champadevi1.jpg",
-    "/images/Champadevi2.jpg",
+    "/images/view-from-champadevi-hike.jpg",
+    "/images/Day-hiking-to-CHAMPADEVI-2285-m-Kathmandu-II.jpg",
+    "/images/Chmapdevi-Hike-Route.gif",
+    "/images/chapadevi.webpg",
+    "/images/aa51b90ef3a5330b6f06cb60c62cf2cc.jpg",
   ],
   overView: {
     duration:
@@ -5636,18 +5637,18 @@ annapurna_circuit_trek:{
   id: 38,
   slug: "annapurna_circuit_trek",
   category: "Trekking",
-  img: "/images/Annapurnabasecamp.jpg",
+  img: "/images/9 Days Annapurna Circuit Trek.jpg",
   description: "14 Days Annapurna Base Camp Trek guided by the professionals",
   title: "Annapurna Circuit Trek",
   location: "Kaski",
   days: "12 days",
   people: "1-12",
   subimages: [
-    "/images/Annapurnabasecamp2.jpg",
-    "/images/Annapurnabasecamp3.jpg",
-    "/images/Annapurnabasecamp4.jpg",
-    "/images/Annapurnabasecamp5.jpg",
-    "/images/Annapurnabasecamp6.jpg",
+    "/images/Under_stars_and_snows.jpg",
+    "/images/ice-lake-act-trek.webp.jpg",
+    "/images/Annapurna-Circuit-Trek-Upper-Pisang-View-M.jpg",
+    "/images/annapurna-circuit-trek-guide-nepal.jpg",
+    "/images/9 Days Annapurna Circuit Trek.jpg",
   ],
   overView: {
     duration:
@@ -5807,18 +5808,18 @@ Bungee_Jumping_Pokhara: {
     id: 39,
     slug: "bungee-jumping-pokhara",
     category: "Adventure",
-    img: "path_to_main_image.jpg",
+    img: "/images/Bungee-in-Pokhara-350x254.webp",
     description: "Experience the thrill of bungee jumping in Pokhara with breathtaking views and adrenaline-pumping excitement.",
     title: "Bungee Jumping in Pokhara",
     location: "Pokhara, Nepal",
     days: "1 Day",
     people: "1 to 15",
     subimages: [
-      "path_to_image1.jpg",
-      "path_to_image2.jpg",
-      "path_to_image3.jpg",
-      "path_to_image4.jpg",
-      "path_to_image5.jpg",
+      "/images/Bungee-in-Pokhara-350x254.webp",
+      "/images/bungee-jumping-in-pokhara.webp",
+      "/images/IMG_8543.webp",
+      "/images/bungee02.jpg",
+      "/images/98.jpg",
     ],
     overView: {
       duration: "1 Day",
@@ -5852,7 +5853,7 @@ Bungee_Jumping_Pokhara: {
     ],
     about: [
       "If you are an adventure hunter and want to go for an activity that actually can pump up your heart's race rate, feel the free fall, and flex your strength and mental ability to take risks, bungee jumping in Pokhara is the best thing you can do. With all the safety measures checked, high-quality materials used, and safety briefing before the jump, bungee jumping in Pokhara offers the safest and one of the most adventurous bungee jumping experiences.",
-      "Bungee Jumping in Pokhara is a perfect choice for anyone who loves daring adventures. Jumping off an altitude of 80 meters into the gorge will offer you a feeling of risky adventure. With Green Valley Nepal Treks, you get to jump off the only tower bungee jumping in Hemja.",
+      "Bungee Jumping in Pokhara is a perfect choice for anyone who loves daring adventures. Jumping off an altitude of 80 meters into the gorge will offer you a feeling of risky adventure. With Create Himalayan Adventure, you get to jump off the only tower bungee jumping in Hemja.",
       "While going for the bungee jumping in Pokhara, you will witness the beauty offered by nature and also meet several hikers ascending in Day Hike in Pokhara. Before jumping, be sure you've taken all necessary safety measures. The Pokhara Bungee Jump gives you a free fall of five seconds and an 80-meter vertical drop before you bounce back and continue having excitement. Currently, Pokhara is home to Nepal's first tower bungee jump. Take pleasure in Pokhara's unspoiled splendor. All year round, except for the rainy season, Pokhara bungee jumping tours depart daily.",
       "With the best bungee cord made by HighGround and the safest technologies, Pokhara is the perfect place to go bungee jumping. The highest safety requirements are upheld by the expert jump masters. Enjoy the exhilaration of bungee jumping in Pokhara, Nepal.",
       "You can experience ATV Adventure, paragliding, ultra-light flight, rafting, and trekking in Pokhara in addition to bungee jumping. A thrilling, once-in-a-lifetime experience, bungee jumping is one of the most well-liked extreme sports. In Pokhara, bungee jumping from elevated platforms into pristine environments is an authentic adventure. At the bungee jumping location, you can experience an enchanting atmosphere.",
@@ -5869,7 +5870,7 @@ Bungee_Jumping_Pokhara: {
       "Pickup and drop facility from the hotel to the Bungee Spot and from the Bungee Spot to the hotel.",
       "A professional representative/guide to take you to the bungee jumping spot and explain the safety measures.",
       "Adventure-packed bungee jumping experience guaranteed.",
-      "Free photography and videography from the Green Valley Nepal Treks team.",
+      "Free photography and videography from the Create Himalayan Adventure team.",
       "Easy booking procedure and flexible payment method.",
       "Transparent Bungee Jump Pokhara cost with no hidden charges."
     ],
@@ -5877,7 +5878,7 @@ Bungee_Jumping_Pokhara: {
       {
         day: 1,
         description: "Bungee Jumping in Pokhara Detailed Itinerary",
-        details: "Pickup from your hotel and drive to High Ground Bungee Station (15-minute drive). Early morning after you have your breakfast, Green Valley Nepal Treks' representatives will pick you up from the hotel. After that, you will be driven to the bungee point, which is 15 minutes away from the lakeside.\n\nPreparation, Instructions, and Bungee\nOnce you reach the Highland Bungee Station, the instructors will tell you about the safety measures and other important things. Besides, you will also undergo a check to see if any valuable ornaments are on you or not.\n\nFurthermore, they will also prepare you perfectly for the bungee jumping adventure. Are you ready? A question comes to you, and when you reply \"Yes\", there you go. The bungee harness is suspended and you start experiencing free fall.\n\nTry to enjoy every moment of the bungee jump, take a look at the surrounding environment, and take poses as you will have a video camera on your wrist. This is a once-in-a-lifetime experience for anyone. Therefore, Green Valley Nepal Treks wishes the best to the bungee jumpers.\n\nDeparture and Drive to the Hotel\nAfter you enjoy one of the most amazing bungee jumping experiences in Pokhara, our representatives will receive you again and then drive back to your hotel in a private vehicle."
+        details: "Pickup from your hotel and drive to High Ground Bungee Station (15-minute drive). Early morning after you have your breakfast, Create Himalayan Adventure' representatives will pick you up from the hotel. After that, you will be driven to the bungee point, which is 15 minutes away from the lakeside.\n\nPreparation, Instructions, and Bungee\nOnce you reach the Highland Bungee Station, the instructors will tell you about the safety measures and other important things. Besides, you will also undergo a check to see if any valuable ornaments are on you or not.\n\nFurthermore, they will also prepare you perfectly for the bungee jumping adventure. Are you ready? A question comes to you, and when you reply \"Yes\", there you go. The bungee harness is suspended and you start experiencing free fall.\n\nTry to enjoy every moment of the bungee jump, take a look at the surrounding environment, and take poses as you will have a video camera on your wrist. This is a once-in-a-lifetime experience for anyone. Therefore, Create Himalayan Adventure wishes the best to the bungee jumpers.\n\nDeparture and Drive to the Hotel\nAfter you enjoy one of the most amazing bungee jumping experiences in Pokhara, our representatives will receive you again and then drive back to your hotel in a private vehicle."
       }
     ],
     HowToPrepare: {
@@ -5896,18 +5897,18 @@ Bungee_Jumping_Pokhara: {
     id: 1,
     slug: "rafting-pokhara",
     category: "Adventure",
-    img: "rafting-pokhara-main.jpg",
+    img: "/images/seti-river-rafting.jpg",
     description: "Experience the thrill of rafting in the Seti River in Pokhara, surrounded by stunning landscapes and the majestic Annapurna range.",
     title: "Seti River Rafting in Pokhara",
     location: "Nepal",
     days: "2 Hours",
     people: "1 to 15",
     subimages: [
-      "rafting-pokhara-1.jpg",
-      "rafting-pokhara-2.jpg",
-      "rafting-pokhara-3.jpg",
-      "rafting-pokhara-4.jpg",
-      "rafting-pokhara-5.jpg",
+      "/images/UpperSetiRiverRafting.jpg",
+      "/images/upper-seti-main.webp",
+      "/images/upper-seti-half-day-action.jpg",
+      "/images/seti-river-rafting.jpg",
+      "/images/6e.jpg",
     ],
     overView: {
       duration: "2 Hours",
@@ -5941,7 +5942,7 @@ Bungee_Jumping_Pokhara: {
     ],
     about: [
       "Are you looking for an amazing way to spend time while in Pokhara? If you are an adventure hunter and would love to experience the white-water sport, river rafting in Pokhara is a perfect option for you. Just imagine yourself wearing a life jacket, paddling, and fighting against the current of the Set River, doesn't that sound like a must-do adventure for adrenaline junkies?",
-      "This is exactly what the Seti River Rafting in Pokhara package from Green Valley Nepal Treks offers. One and half hours of aquatic sport along the white water of Seti River, where the mesmerizing landscapes, untouched areas, unique tradition, culture, and majestic Annapurna range look at you as you paddle. Rafting in Pokhara, however, is not just about an aquatic sports experience, it is also an activity where you can enhance your team's playing ability. The sport teaches you to work alongside the team because rafting is a proper team sport."
+      "This is exactly what the Seti River Rafting in Pokhara package from Create Himalayan Adventure offers. One and half hours of aquatic sport along the white water of Seti River, where the mesmerizing landscapes, untouched areas, unique tradition, culture, and majestic Annapurna range look at you as you paddle. Rafting in Pokhara, however, is not just about an aquatic sports experience, it is also an activity where you can enhance your team's playing ability. The sport teaches you to work alongside the team because rafting is a proper team sport."
     ],
     highlights: [
       "One and a half hours of exciting rafting in the Seti River in Pokhara.",
@@ -5952,7 +5953,7 @@ Bungee_Jumping_Pokhara: {
       "A perfect chance to take memorable photos and videos while going for one of the most challenging water sports."
     ],
     facilities: [
-      "With Green Valley Nepal Treks, travelers can experience the safest and most adventurous rafting in the Seti River.",
+      "With Create Himalayan Adventure, travelers can experience the safest and most adventurous rafting in the Seti River.",
       "We offer the most reasonable and justifying cost for Rafting in the Pokhara Package.",
       "We also provide professional guides to assist and instruct you before and while rafting.",
       "You also get a pickup service from your hotel in Lakeside to the rafting's starting point.",
@@ -5964,7 +5965,7 @@ Bungee_Jumping_Pokhara: {
       {
         day: 1,
         description: "Seti River Rafting in Pokhara Detailed Itinerary",
-        details: "Pickup from your Hotel and Drive to the Old Bamboo Bridge (30 Minutes)\nAfter you have your breakfast in your hotel, Green Valley Nepal Treks' representatives arrive to pick you up in a private vehicle. From there, you will go for a 30-minute scenic drive to the starting point of rafting, the old bamboo bridge.\nDuring the drive, you can witness the mesmerizing view of the Pokhara Valley, Phewa Lake, and also the green hills that surround the valley. Moreover, you can also get insights and instructions from the representatives while getting to know much about the Seti River and the overall rafting experience.\n\nPreparation and Commencing of the Pokhara River Rafting\nAs you reach the starting point of the Seti River rafting in Pokhara, the seasoned guides with instruct you with some safety measures and other important information. After that, you get your safety gear which you must check. Moreover, we also recommend you check the raft and the paddles before starting the raft.\nAfter all this preparation begins the real adventure. Your raft will be pushed into the Seti River while being accompanied by a professional guide. Now, it's the time to showcase your physical ability and paddle across the white water of the Seti River. The guide will continuously instruct you and you need to keep the raft flowing. Enjoy the surrounding environment, and check out the nearby locations, villages, and unexplored landscapes. Moreover, your rafting ride will also be accompanied by the mesmerizing view of the Annapurna range.\nGet yourself into action for one and a half hours while white water rafting in the Seti River. If you follow all the instructions given by the guide and do as they say, believe us, you will have the best in the world experience of rafting.\n\nDrop Back to your Hotel\nAfter one and a half hours of water adventure (rafting) and taking some rest in the bank of the Seti River, Green Valley Nepal Treks' representatives will drive you back to your hotel, which officially ends the Seti River Rafting in Pokhara. Another 30 minutes’ drive but this time with some tiredness and a heart full of memories unlike the one with enthusiasm in the morning."
+        details: "Pickup from your Hotel and Drive to the Old Bamboo Bridge (30 Minutes)\nAfter you have your breakfast in your hotel, Create Himalayan Adventure' representatives arrive to pick you up in a private vehicle. From there, you will go for a 30-minute scenic drive to the starting point of rafting, the old bamboo bridge.\nDuring the drive, you can witness the mesmerizing view of the Pokhara Valley, Phewa Lake, and also the green hills that surround the valley. Moreover, you can also get insights and instructions from the representatives while getting to know much about the Seti River and the overall rafting experience.\n\nPreparation and Commencing of the Pokhara River Rafting\nAs you reach the starting point of the Seti River rafting in Pokhara, the seasoned guides with instruct you with some safety measures and other important information. After that, you get your safety gear which you must check. Moreover, we also recommend you check the raft and the paddles before starting the raft.\nAfter all this preparation begins the real adventure. Your raft will be pushed into the Seti River while being accompanied by a professional guide. Now, it's the time to showcase your physical ability and paddle across the white water of the Seti River. The guide will continuously instruct you and you need to keep the raft flowing. Enjoy the surrounding environment, and check out the nearby locations, villages, and unexplored landscapes. Moreover, your rafting ride will also be accompanied by the mesmerizing view of the Annapurna range.\nGet yourself into action for one and a half hours while white water rafting in the Seti River. If you follow all the instructions given by the guide and do as they say, believe us, you will have the best in the world experience of rafting.\n\nDrop Back to your Hotel\nAfter one and a half hours of water adventure (rafting) and taking some rest in the bank of the Seti River, Create Himalayan Adventure' representatives will drive you back to your hotel, which officially ends the Seti River Rafting in Pokhara. Another 30 minutes’ drive but this time with some tiredness and a heart full of memories unlike the one with enthusiasm in the morning."
       }
     ],
     HowToPrepare: {
@@ -5990,18 +5991,18 @@ Bungee_Jumping_Pokhara: {
       "id": 2,
       "slug": "zipline-pokhara",
       "category": "Adventure",
-      "img": "main_image_url",
+      "img": "/images/d2fab00b-3e6f-4e7b-9389-98051a8af866_1-day-pokhara-zip-flyer.png",
       "description": "Experience the thrill of ziplining from the highest zipline in the world in Pokhara.",
       "title": "Zipline (Zip Flyer) in Pokhara",
       "location": "Sarangkot to Hemja, Pokhara, Nepal",
       "days": "1 Day",
       "people": "1 to 10",
       "subimages": [
-        "image1_url",
-        "image2_url",
-        "image3_url",
-        "image4_url",
-        "image5_url"
+        "/images/caption.jpg",
+        "/images/d2fab00b-3e6f-4e7b-9389-98051a8af866_1-day-pokhara-zip-flyer.png",
+        "/images/Superman-Zipline-launched-in-Pokhara-claims-worlds-fastest-MK.jpg",
+        "/images/zip-flyer-785x400.jpg",
+        "/images/zip-flyer-pokhara.jpg"
       ],
       "overView": {
         "duration": "3 Hours",
@@ -6042,7 +6043,7 @@ Bungee_Jumping_Pokhara: {
         "All minors, however, under the age of eighteen, must have guardian signatures on their reservation. Every guest is given a GoPro camera so they may record personalized films.",
         "A platform above a lush forest with views of the Himalayas, the Seti River Valley, and Hemja town, the Sarangkot Zipline captivates thrill-seekers. With a customized harness seat and a top speed of 120 km/h, the world's longest zip line causes anyone's heart to race.",
         "Constructed in 2021, the Superman zipline spans 1850 meters and can travel at a speed of 140 km/h, making it the longest in the world. One activity that visitors to Pokhara shouldn't skip is ziplining. Travelers and adventure seekers can enjoy an exciting and safe experience with one of the most daring activities.",
-        "The Pokhara Zip Flyer, also famous as the highest zip lining in the world, offers this service in any weather condition. No matter when you feel like having some adventure, you can simply book the Zipline Adventure in Pokhara package with Green Valley Nepal Treks and go for it. No matter whether you are with your family, children, or whatever, if you do not try the Ziplining adventure in Pokhara, you miss one of the best things to do in this city."
+        "The Pokhara Zip Flyer, also famous as the highest zip lining in the world, offers this service in any weather condition. No matter when you feel like having some adventure, you can simply book the Zipline Adventure in Pokhara package with Create Himalayan Adventure and go for it. No matter whether you are with your family, children, or whatever, if you do not try the Ziplining adventure in Pokhara, you miss one of the best things to do in this city."
       ],
       "highlights": [
         "Experience ziplining from the highest zipline in the world (600m/1.8km) in Pokhara.",
@@ -6052,11 +6053,11 @@ Bungee_Jumping_Pokhara: {
         "A lovely and enjoyable way to get yourself into adventures and thrills."
       ],
       "facilities": [
-        "Green Valley Nepal Treks assures the best and the most adventurous zip line adventure for tourists.",
+        "Create Himalayan Adventure assures the best and the most adventurous zip line adventure for tourists.",
         "We offer pickup and drop facilities to the tourists, where we pick them up from the hotel and drop them off at the hotel after the zip lining in Pokhara.",
         "You can also get your photos and videos taken for free because people charge for the media as well.",
         "Major benefit: An overall zip line adventure in Pokhara worth every cent you spend.",
-        "Special discount for previous clients of Green Valley Nepal Treks."
+        "Special discount for previous clients of Create Himalayan Adventure."
       ],
       "itinerary": [
         {
@@ -6085,18 +6086,18 @@ Bungee_Jumping_Pokhara: {
           "id": 39,
           "slug": "ultra-light-flight-pokhara",
           "category": "Adventure",
-          "img": "main_image_url",
+          "img": "/images/Ultralight-Flight.jpg",
           "description": "Experience an adventure flight with a spectacular view from very close to the massive mountains in Pokhara, Nepal.",
           "title": "Ultra Light Flight in Pokhara Nepal - 1 Day",
           "location": "Pokhara Airport, Pokhara, Nepal",
           "days": "1 Day",
           "people": "1 to 2",
           "subimages": [
-            "image1_url",
-            "image2_url",
-            "image3_url",
-            "image4_url",
-            "image5_url"
+            "/images/ultralight-aircraft-flight-_1562245995.jpg",
+            "/images/Ultralight-Flight.jpg",
+            "/images/ultra-1-785x400.jpg",
+            "/images/20230505124755image-thumb.jpg",
+            "/images/145 copy.jpg"
           ],
           "overView": {
             "duration": "1 Day",
@@ -6148,11 +6149,11 @@ Bungee_Jumping_Pokhara: {
             "Available year-round with clear skies and good weather conditions."
           ],
           "facilities": [
-            "Green Valley Nepal Treks assures the best and most adventurous ultralight flight experience for tourists.",
+            "Create Himalayan Adventure assures the best and most adventurous ultralight flight experience for tourists.",
             "We offer pickup and drop-off facilities from the hotel to Pokhara Airport.",
             "You can get your photos and videos taken during the flight.",
             "An overall ultralight flight adventure in Pokhara worth every cent you spend.",
-            "Special discounts for previous clients of Green Valley Nepal Treks."
+            "Special discounts for previous clients of Create Himalayan Adventure."
           ],
           "itinerary": [
             {
@@ -6181,18 +6182,18 @@ Bungee_Jumping_Pokhara: {
               "id": 40,
               "slug": "paragliding-pokhara",
               "category": "Adventure",
-              "img": "main_image_url",
+              "img": "/images/Pokhara-Paragliding-1-3a263fcf.jpeg",
               "description": "Paragliding in Pokhara offers a unique opportunity to soar above the beautiful mountains, lakes, and natural features surrounding Pokhara City.",
               "title": "Paragliding in Pokhara Nepal - 1 Day",
               "location": "Pokhara, Nepal",
               "days": "1 Day",
               "people": "1 to 20",
               "subimages": [
-                "image1_url",
-                "image2_url",
-                "image3_url",
-                "image4_url",
-                "image5_url"
+                "/images/paragliding-over-pokhara-nepal.jpg",
+                "/images/paragliding-social.jpg",
+                "/images/Pokhara-Paragliding-1-3a263fcf.jpeg",
+                "/images/paragliding-in-pokhara-03.webp",
+                "/images/58e929b3-8699-4a11-a0cc-773ed512eb54_1-day-pokhara-zip-flyer.png"
               ],
               "overView": {
                 "duration": "1 Day",
@@ -6229,7 +6230,7 @@ Bungee_Jumping_Pokhara: {
                 "The distinctive topography of Nepal, which includes mountains, hills, rivers, rich vegetation, and more, contributes to a distinctive paragliding experience. Although Pokhara Sarangkot paragliding is a relatively new adventure activity in Nepal, fans have promoted it to unbelievable levels. With a breathtaking perspective of the gorgeous Himalayas, kites, Himalayan griffin vultures, eagles, and other birds may be seen gliding above villages, monasteries, temples, lakes, and forests at Mountain View.",
                 "The Pokhara valley in the Annapurna region of Nepal is the primary location for paragliding. This lakefront community is tucked behind the Annapurna Himal. These paragliding flights take off from Sarangkot (1592m), which also provides spectacular dawn and sunset views of the Himalayas and Phewa Lake, and land alongside the lake. No prior flying experience is necessary because qualified pilots give a quick briefing before the start of the paragliding trip.",
                 "The 30 to 45 minutes trip is a fantastic chance to get a birds-eye perspective of Pokhara and the surrounding hills. There is simply too much to see in the globe, and Pokhara's environment captures the essence of all that is beautiful about nature. The little town of Pokhara has all the potential natural wonders that are now known to exist. The pleasure of seeing everything in one image is rewarding.",
-                "We at Green Valley Nepal Treks and Research Hub are pleased to present our well-planned Paragliding in Pokhara Nepal package, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. For more questions regarding the paragliding in Pokhara Sarangkot package cost, please don't hesitate to contact us."
+                "We at Create Himalayan Adventure and Research Hub are pleased to present our well-planned Paragliding in Pokhara Nepal package, which will give you the experience of a lifetime. Booking is now available for 2024 and 2025. Based on your time, budget, and endurance, we are willing to modify this package to meet your requirements. For more questions regarding the paragliding in Pokhara Sarangkot package cost, please don't hesitate to contact us."
               ],
               "highlights": [
                 "Beautiful mountains, lakes, and other natural features surround Pokhara City.",
@@ -6273,18 +6274,18 @@ Bungee_Jumping_Pokhara: {
     id: 41,
     slug: "seven-world-heritage-kathmandu-day-tour",
     category: "Sightseeing",
-    img: "path/to/image.jpg",
+    img: "/images/kathmandu-heritage-tour.webp",
     description: "Explore the UNESCO World Heritage Sites in Kathmandu Valley in a single day. Visit historic temples, stupas, and durbar squares that reflect the rich cultural and spiritual heritage of Nepal.",
     title: "Seven World Heritage Kathmandu Day Tour",
     location: "Kathmandu, Nepal",
     days: "1",
     people: "1 to 20",
     subimages: [
-      "path/to/image1.jpg",
-      "path/to/image2.jpg",
-      "path/to/image3.jpg",
-      "path/to/image4.jpg",
-      "path/to/image5.jpg"
+      "/images/Kathmandu-world-Heritage-Sites-Day-Tour.webp",
+      "/images/kathmandu-heritage-tour.webp",
+      "/images/patan-durbar.webp",
+      "/images/Seven Heritage Kathmandu Durbar Square.jpg",
+      "/images/swayambhunath.jpgYJg.jpg"
     ],
     overView: {
       duration: "1 Day",
@@ -6353,18 +6354,18 @@ Bungee_Jumping_Pokhara: {
     id: 42,
     slug: "chandragiri-hill-day-tour",
     category: "Day Tour",
-    img: "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-day-tour.jpg",
+    img: "/images/1_chandragiri-hills-day-tour-with-cable-car-ride-from-kathmandu.webp",
     description: "Experience the stunning panoramic views of the Himalayas and Kathmandu Valley with a day tour to Chandragiri Hill.",
     title: "Chandragiri Hill Day Tour",
     location: "Kathmandu, Nepal",
     days: "1 Day",
     people: "1 to 20",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-1.jpg",
-      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-2.jpg",
-      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-3.jpg",
-      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-4.jpg",
-      "https://www.greenvalleynepaltreks.com/images/chandragiri-hill-5.jpg"
+      "/images/1-16.jpg",
+      "/images/chandragiri-cable.webp",
+      "/images/chandragiri-hill-cable-car-day-tour.jpg",
+      "/images/1_chandragiri-hills-day-tour-with-cable-car-ride-from-kathmandu.webp",
+      "/images/dd0c66d6-d2a4-4afe-b0cb-51f315ef1be7_chandragiri-hills-tour-by-cable-car-ride-with-lunch-from-kathmandu-medium.jpg"
     ],
     overView: {
       duration: "1 Day",
@@ -6429,18 +6430,18 @@ Bungee_Jumping_Pokhara: {
     id: 43,
     slug: "kathmandu-city-tour",
     category: "City Tour",
-    img: "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour.jpg",
+    img: "/images/nepal-kathmandu-city-view.jpg",
     description: "Explore the rich cultural heritage of Kathmandu with visits to its most iconic landmarks and UNESCO World Heritage Sites.",
     title: "Kathmandu City Tour",
     location: "Kathmandu, Nepal",
     days: "1 Day",
     people: "1 to 20",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-1.jpg",
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-2.jpg",
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-3.jpg",
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-4.jpg",
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-city-tour-5.jpg"
+      "/images/Kathmandu-city.gif",
+      "/images/nepal-kathmandu-city-view.jpg",
+      "/images/98567.jpg",
+      "/images/78.jpg",
+      "/images/5c11199627f39acf56aead1b_best places to visit in Kathmandu"
     ],
     overView: {
       duration: "1 Day",
@@ -6505,18 +6506,18 @@ Bungee_Jumping_Pokhara: {
     id: 44,
     slug: "everest-mountain-sightseeing-flight-by-plane",
     category: "Sightseeing Flight",
-    img: "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight.jpg",
+    img: "/images/5d.jpg",
     description: "Experience breathtaking views of Mount Everest and the Himalayas on a scenic flight from Kathmandu. Enjoy a panoramic view of the world's highest peak and surrounding mountain ranges.",
     title: "Everest Mountain Sightseeing Flight by Plane",
     location: "Kathmandu, Nepal",
     days: "1 Day",
     people: "1 to 10",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-1.jpg",
-      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-2.jpg",
-      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-3.jpg",
-      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-4.jpg",
-      "https://www.greenvalleynepaltreks.com/images/everest-mountain-sightseeing-flight-5.jpg"
+      "/images/32.jpg",
+      "/images/5d.jpg",
+      "/images/Everest-Mountain-Flight-Photo.jpg",
+      "/images/mount-everest-from-airplane-window-600x450.jpg.webp",
+      "/images/untitled-1-of-1-scaled.jpg"
     ],
     overView: {
       duration: "1 Hour",
@@ -6581,18 +6582,18 @@ Bungee_Jumping_Pokhara: {
     id: 45,
     slug: "bungmati-khokana-village-tour",
     category: "Cultural Tour",
-    img: "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour.jpg",
+    img: "/images/1-Day-Khokana-Bungmati-Tour.jpg",
     description: "Explore the traditional Newari villages of Bungmati and Khokana, known for their rich cultural heritage and ancient architecture. Experience local life, traditional crafts, and stunning landscapes.",
     title: "Bungmati-Khokana Village Tour",
     location: "Kathmandu Valley, Nepal",
     days: "1 Day",
     people: "1 to 15",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-1.jpg",
-      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-2.jpg",
-      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-3.jpg",
-      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-4.jpg",
-      "https://www.greenvalleynepaltreks.com/images/bungmati-khokana-village-tour-5.jpg"
+      "/images/16.jpg",
+      "/images/1-Day-Khokana-Bungmati-Tour.jpg",
+      "/images/Bungamati-–-Khokana-Village-Day-tour1.jpg",
+      "/images/Bungmati-Khokana-1-day-tour-2-1024x429.jpg.webp",
+      "/images/pimage_tympanum-karya-binayak.jpg"
     ],
     overView: {
       duration: "1 Day",
@@ -6656,18 +6657,18 @@ Bungee_Jumping_Pokhara: {
     id: 46,
     slug: "paragliding-in-nepal",
     category: "Adventure",
-    img: "https://www.greenvalleynepaltreks.com/images/paragliding-nepal.jpg",
+    img: "/images/145677.jpg",
     description: "Experience the thrill of paragliding in Nepal with breathtaking aerial views of the Himalayas and picturesque landscapes. Ideal for adventure seekers and nature lovers.",
     title: "Paragliding in Nepal",
     location: "Pokhara, Nepal",
     days: "1 Day",
     people: "1",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/paragliding-flying.jpg",
-      "https://www.greenvalleynepaltreks.com/images/paragliding-landscape.jpg",
-      "https://www.greenvalleynepaltreks.com/images/paragliding-setup.jpg",
-      "https://www.greenvalleynepaltreks.com/images/paragliding-team.jpg",
-      "https://www.greenvalleynepaltreks.com/images/paragliding-safety.jpg"
+      "/images/b1glqwvvvym3qkvqeqrq.jpg",
+      "/images/paragliding-in-pokhara.jpg",
+      "/images/paragliding-in-pokhara.webp",
+      "/images/take-off.jpg",
+      "/images/145677.jpg"
     ],
     overView: {
       duration: "1 Day",
@@ -6680,22 +6681,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Paragliding Gear",
-        image: "https://www.greenvalleynepaltreks.com/images/paragliding-gear.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/paragliding-gear.jpg",
         description: "Includes parachute, harness, and helmet."
       },
       {
         title: "Comfortable Clothing",
-        image: "https://www.greenvalleynepaltreks.com/images/comfortable-clothing.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/comfortable-clothing.jpg",
         description: "Wear lightweight and weather-appropriate clothing."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/camera.jpg",
         description: "Capture the stunning aerial views and adventure moments."
       },
       {
         title: "Sun Protection",
-        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
         description: "Sunscreen, sunglasses, and a hat for sun protection."
       }
     ],
@@ -6724,24 +6725,24 @@ Bungee_Jumping_Pokhara: {
         "Wear comfortable, weather-appropriate clothing suitable for the flight. Bring a camera to capture the beautiful views and the excitement of the experience. Ensure you have sun protection, including sunscreen, sunglasses, and a hat. Listen carefully to the safety briefing provided by the instructors and follow all instructions during the flight."
       ]
     },
-    path: ["https://www.greenvalleynepaltreks.com/paragliding-in-nepal"]
+    path: ["/images/://www.greenvalleynepaltreks.com/paragliding-in-nepal"]
   },
   Kathmandu_Day_Tour: {
     id: 47,
     slug: "kathmandu-day-tour",
     category: "Sightseeing",
-    img: "https://www.greenvalleynepaltreks.com/images/kathmandu-day-tour.jpg",
+    img: "/images/14456785.jpg",
     description: "Explore the cultural and historical highlights of Kathmandu in a day. Visit iconic UNESCO World Heritage Sites, ancient temples, and vibrant local markets.",
     title: "Kathmandu Day Tour",
     location: "Kathmandu, Nepal",
     days: "1 Day",
     people: "1-20",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/images/kathmandu-durbar-square.jpg",
-      "https://www.greenvalleynepaltreks.com/images/swayambhunath-stupa.jpg",
-      "https://www.greenvalleynepaltreks.com/images/pashupatinath-temple.jpg",
-      "https://www.greenvalleynepaltreks.com/images/boudhanath-stupa.jpg",
-      "https://www.greenvalleynepaltreks.com/images/bhaktapur-durbar-square.jpg"
+      "/images/Basantapur-Temple-1024x575.webp",
+      "/images/bouddhanath.jpgorj.jpg",
+      "/images/main-qimg-7091325b9c945413f727e18fc6c775f9-lq.jpeg",
+      "/images/nepal-day-tour.jpg",
+      "/images/pashupatinath.jpg"
     ],
     overView: {
       duration: "1 Day",
@@ -6754,22 +6755,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Comfortable Walking Shoes",
-        image: "https://www.greenvalleynepaltreks.com/images/walking-shoes.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/walking-shoes.jpg",
         description: "Wear comfortable shoes as the tour involves walking."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/camera.jpg",
         description: "Capture the beautiful sights and landmarks of Kathmandu."
       },
       {
         title: "Water Bottle",
-        image: "https://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
         description: "Stay hydrated throughout the day."
       },
       {
         title: "Sun Protection",
-        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
         description: "Bring sunscreen, sunglasses, and a hat."
       }
     ],
@@ -6808,18 +6809,18 @@ Bungee_Jumping_Pokhara: {
     id: 48,
     slug: "chitwan-national-park-tour",
     category: "Wildlife Tour",
-    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    img: "/images/3-nights-4-days-chitwan-jungle-safari.jpg",  // Example image, replace with actual URL if available
     description: "Experience the wildlife and culture of Chitwan National Park with this 3 nights, 4 days tour. Includes jungle safari, cultural performances, and more.",
     title: "3 Nights 4 Days Chitwan National Park Tour",
     location: "Chitwan National Park, Nepal",
     days: "4",
     people: "1 to 20",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+      "/images/Chitwan-elephants-1024x700-785x400.jpeg.jpg",  // Example image, replace with actual URL if available
+      "/images/ChitwanNationalParkTourfromPokhara-Klook.jpg",
+      "/images/one-horned-rhinos-in-chitwan-national-park.jpg",
+      "/images/Tiger-Encounter-in-Chitwan-National-Park",
+      "/images/3-nights-4-days-chitwan-jungle-safari.jpg"
     ],
     overView: {
       duration: "4 Days",
@@ -6832,22 +6833,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Binoculars",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
         description: "Used for bird watching and spotting wildlife from a distance."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
         description: "To capture the beautiful moments and scenery."
       },
       {
         title: "First Aid Kit",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
         description: "Basic medical supplies for minor injuries."
       },
       {
         title: "Insect Repellent",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
         description: "Protects against insect bites during jungle walks."
       }
     ],
@@ -6901,18 +6902,18 @@ Bungee_Jumping_Pokhara: {
     id: 49,
     slug: "chitwan-national-park-tour-2n3d",
     category: "Wildlife Tour",
-    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    img: "/images/2-nights-3-days-chitwan-tour--package.webp",  // Example image, replace with actual URL if available
     description: "Explore the diverse wildlife and culture of Chitwan National Park with this 2 nights, 3 days tour. Includes jungle safari, cultural shows, and more.",
     title: "2 Nights 3 Days Chitwan National Park Tour",
     location: "Chitwan National Park, Nepal",
     days: "3",
     people: "1 to 20",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+      "/images/bardiya-banner.webp",  // Example image, replace with actual URL if available
+      "/images/2-nights-3-days-chitwan-tour--package.webp",
+      "/images/elephant-safari-chitwan-national-park-4.webp",
+      "/images/jungle_safari.jpg",
+      "/images/Media-21.jpg"
     ],
     overView: {
       duration: "3 Days",
@@ -6925,22 +6926,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Binoculars",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
         description: "Used for bird watching and spotting wildlife from a distance."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
         description: "To capture the beautiful moments and scenery."
       },
       {
         title: "First Aid Kit",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
         description: "Basic medical supplies for minor injuries."
       },
       {
         title: "Insect Repellent",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
         description: "Protects against insect bites during jungle walks."
       }
     ],
@@ -6989,18 +6990,18 @@ Bungee_Jumping_Pokhara: {
     id: 50,
     slug: "bardia-national-park-tour",
     category: "Wildlife Tour",
-    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    img: "/images/02.jpg",  // Example image, replace with actual URL if available
     description: "Explore the untouched wilderness of Bardia National Park with this 3 nights, 4 days tour. Includes jungle safari, bird watching, and cultural experiences.",
     title: "3 Nights 4 Days Bardia National Park Tour",
     location: "Bardia National Park, Nepal",
     days: "4",
     people: "1 to 15",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+      "/images/02.jpg",  // Example image, replace with actual URL if available
+      "/images/Bardia National Park safari 3.jpg",
+      "/images/bardia-national-park.jpeg",
+      "/images/Bardia-National-Park.jpg",
+      "/images/bardiya-national-park.jpg"
     ],
     overView: {
       duration: "4 Days",
@@ -7013,22 +7014,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Binoculars",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
         description: "Used for bird watching and spotting wildlife from a distance."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
         description: "To capture the beautiful moments and scenery."
       },
       {
         title: "First Aid Kit",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
         description: "Basic medical supplies for minor injuries."
       },
       {
         title: "Insect Repellent",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
         description: "Protects against insect bites during jungle walks."
       }
     ],
@@ -7082,18 +7083,18 @@ Bungee_Jumping_Pokhara: {
     id: 51,
     slug: "bardia-jungle-safari-tour",
     category: "Wildlife Tour",
-    img: "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/1.jpg",  // Example image, replace with actual URL if available
+    img: "/images/4-nights-5days-bardia-jungle-safari-tour-banner.webp",  // Example image, replace with actual URL if available
     description: "Experience the wild and untouched beauty of Bardia National Park with this comprehensive jungle safari tour. Includes wildlife spotting, cultural tours, and more.",
     title: "Bardia Jungle Safari Tour",
     location: "Bardia National Park, Nepal",
     days: "5",
     people: "1 to 15",
     subimages: [
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/2.jpg",  // Example image, replace with actual URL if available
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/3.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/4.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/5.jpg",
-      "https://www.greenvalleynepaltreks.com/assets/img/portfolio/fullsize/6.jpg"
+      "/images/bardia-national-park-safari-tour.jpg",  // Example image, replace with actual URL if available
+      "/images/chitwan-jungle-safari-995x650.jpg",
+      "/images/chitwan-pokhara-kathmandu-package.webp",
+      "/images/safari4_88e30f988d.jpeg",
+      "/images/4-nights-5days-bardia-jungle-safari-tour-banner.webp"
     ],
     overView: {
       duration: "5 Days",
@@ -7106,22 +7107,22 @@ Bungee_Jumping_Pokhara: {
     equipment: [
       {
         title: "Binoculars",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
         description: "Used for bird watching and spotting wildlife from a distance."
       },
       {
         title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
         description: "To capture the beautiful moments and scenery."
       },
       {
         title: "First Aid Kit",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
         description: "Basic medical supplies for minor injuries."
       },
       {
         title: "Insect Repellent",
-        image: "https://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
+        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
         description: "Protects against insect bites during jungle walks."
       }
     ],
@@ -7181,18 +7182,18 @@ Nepal_Golden_Triangle_Tour: {
     id: 52,
     slug: "nepal-golden-triangle-tour",
     category: "Touring",
-    img: "https://example.com/nepal-golden-triangle.jpg",
+    img: "/images/Nepal-Golden-Triangle-Tour.jpg",
     description: "Explore the cultural and natural wonders of Nepal, including Kathmandu, Chitwan National Park, and Pokhara on an 8-day guided tour.",
     title: "Nepal Golden Triangle Tour - 8 Days",
     location: "Nepal",
     days: "8 Days",
     people: "2 to 10",
     subimages: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-      "https://example.com/image4.jpg",
-      "https://example.com/image5.jpg",
+      "/images/Lumbini-TOur-Package.jpg",
+      "/images/Nepal-Golden-Triangle-Tour.jpg",
+      "/images/kathmandu-sightseeing-deal-thumb.jpeg",
+      "/images/ccd5a803-21a0-4e09-9f7f-194dad70c99e_8-days-tour-of-essential-india-classic-nepal-golden-triangle-with-ka.webp",
+      "/images/17ac21f0-257e-49e4-bdc8-0923bea75dd7_7-nights-8-days-golden-triangle-of-india-with-nepal.png",
     ],
     overView: {
       duration: "8 Days",
@@ -7205,22 +7206,22 @@ Nepal_Golden_Triangle_Tour: {
     equipment: [
       {
         title: "Comfortable Clothing",
-        image: "https://example.com/clothing.jpg",
+        image: "/images/://example.com/clothing.jpg",
         description: "Pack lightweight and comfortable clothing suitable for the varied climates of Kathmandu, Chitwan, and Pokhara.",
       },
       {
         title: "Insect Repellent",
-        image: "https://example.com/repellent.jpg",
+        image: "/images/://example.com/repellent.jpg",
         description: "Essential for protection against insects, especially during jungle activities in Chitwan National Park.",
       },
       {
         title: "Camera",
-        image: "https://example.com/camera.jpg",
+        image: "/images/://example.com/camera.jpg",
         description: "Capture the beautiful landscapes, wildlife, and cultural sites of Nepal.",
       },
       {
         title: "Water Bottle",
-        image: "https://example.com/waterbottle.jpg",
+        image: "/images/://example.com/waterbottle.jpg",
         description: "Stay hydrated throughout the tour by carrying a refillable water bottle.",
       },
     ],
@@ -7249,7 +7250,7 @@ Nepal_Golden_Triangle_Tour: {
       {
         day: 1,
         description: "Arrive in Kathmandu",
-        details: "You will arrive at the Tribhuvan International Airport where a delegate from Green Valley Nepal Treks and Research Hub will greet you. He will take you to the hotel and help you check-in. After getting some rest at your hotel you can come to meet us at our office to discuss the Nepal Golden Triangle Tour Itinerary. To show our appreciation and welcome you to Nepal, the company will organize a welcome dinner for you.",
+        details: "You will arrive at the Tribhuvan International Airport where a delegate from Create Himalayan Adventure and Research Hub will greet you. He will take you to the hotel and help you check-in. After getting some rest at your hotel you can come to meet us at our office to discuss the Nepal Golden Triangle Tour Itinerary. To show our appreciation and welcome you to Nepal, the company will organize a welcome dinner for you.",
       },
       {
         day: 2,
@@ -7303,18 +7304,18 @@ Nepal_Tour_Packages_from_Dhaka_Bangladesh: {
     id: 53,
     slug: "nepal-tour-packages-dhaka",
     category: "Tour Package",
-    img: "",
+    img: "/images/10061f000001gque75618.jpg",
     description: "Experience the beauty of Nepal with this 4-day tour package starting from Dhaka, Bangladesh. Explore Kathmandu, witness stunning sunrises in Nagarkot, and immerse in the cultural heritage of Bhaktapur.",
     title: "Nepal Tour Packages from Dhaka Bangladesh - 4 Days",
     location: "Nepal",
     days: "4",
     people: "1 to 50",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/HD-wallpaper-rainydhaka-bangladesh-dhaka-rain-rainy-raat.jpg",
+      "/images/10061f000001gque75618.jpg",
+      "/images/location174.jpg",
+      "/images/premium_photo-1681550093390-14477e7b196a.jpeg",
+      "/images/yrdbo2sjav3ksi8s4xue.webp",
     ],
     overView: {
       duration: "4 Days",
@@ -7372,7 +7373,7 @@ Nepal_Tour_Packages_from_Dhaka_Bangladesh: {
       {
         day: 1,
         description: "Arrival in Kathmandu",
-        details: "Upon arrival at Tribhuvan International Airport, a representative from Green Valley Nepal Treks will greet you and escort you to your hotel. Enjoy a welcome cocktail dinner hosted by Green Valley Nepal Treks.",
+        details: "Upon arrival at Tribhuvan International Airport, a representative from Create Himalayan Adventure will greet you and escort you to your hotel. Enjoy a welcome cocktail dinner hosted by Create Himalayan Adventure.",
       },
       {
         day: 2,
@@ -7382,7 +7383,7 @@ Nepal_Tour_Packages_from_Dhaka_Bangladesh: {
       {
         day: 3,
         description: "Chandragiri Hills and Swayambhunath Stupa",
-        details: "Visit Chandragiri Hills for breathtaking views of the Kathmandu Valley and distant Himalayan peaks. Afterward, explore the spiritual Swayambhunath Stupa, also known as the Monkey Temple. In the evening, enjoy a farewell dinner with Green Valley Nepal Treks.",
+        details: "Visit Chandragiri Hills for breathtaking views of the Kathmandu Valley and distant Himalayan peaks. Afterward, explore the spiritual Swayambhunath Stupa, also known as the Monkey Temple. In the evening, enjoy a farewell dinner with Create Himalayan Adventure.",
       },
       {
         day: 4,
@@ -7405,18 +7406,18 @@ Glimpse_Of_Nepal_Tour: {
     id: 54,
     slug: "glimpse-of-nepal-tour",
     category: "Tour",
-    img: "glimpse_of_nepal.jpg",
+    img: "/images/boudhanath-stupa.webp",
     description: "Explore the best of Nepal with this 5-day tour, including Kathmandu and Nagarkot.",
     title: "Glimpse of Nepal Tour - 5 Days",
     location: "Nepal",
     days: "5 Days",
     people: "2 to 20",
     subimages: [
-      "kathmandu_durbar_square.jpg",
-      "nagarkot_view.jpg",
-      "bhaktapur_durbar_square.jpg",
-      "pashupatinath_temple.jpg",
-      "swayambhunath_stupa.jpg"
+      "/images/glimpse-of-nepal-tour-5-days14.jpg",
+      "/images/glimpse-of-nepal-tour-5-days77.jpg",
+      "/images/Kathmandu-Durbar-Square-Sightseeing.jpg",
+      "/images/boudhanath-stupa.webp",
+      "/images/trips2Fnepal-tour-package-kathamandu-burbar-square.webp"
     ],
     overView: {
       duration: "5 Days",
@@ -7429,22 +7430,22 @@ Glimpse_Of_Nepal_Tour: {
     equipment: [
       {
         title: "Camera",
-        image: "camera.jpg",
+        image: "/images/camera.jpg",
         description: "To capture the stunning landscapes and cultural attractions.",
       },
       {
         title: "Comfortable Walking Shoes",
-        image: "walking_shoes.jpg",
+        image: "/images/walking_shoes.jpg",
         description: "For exploring the historical sites and city streets.",
       },
       {
         title: "Warm Clothing",
-        image: "warm_clothing.jpg",
+        image: "/images/warm_clothing.jpg",
         description: "For chilly mornings and evenings, especially in Nagarkot.",
       },
       {
         title: "Travel Adapter",
-        image: "travel_adapter.jpg",
+        image: "/images/travel_adapter.jpg",
         description: "To charge your electronic devices during the trip.",
       },
     ],
@@ -7510,18 +7511,18 @@ Nepal_Tour_Package_From_India: {
     id: 55,
     slug: "nepal-tour-package-from-india",
     category: "Tour",
-    img: "nepal_tour_package.jpg",
+    img: "/images/10-Days-Nepal-Tour-Package.jpeg",
     description: "Experience the best of Nepal with this 5-day tour package from India, exploring Kathmandu and Pokhara.",
     title: "Nepal Tour Package from India - 5 Days",
     location: "Nepal",
     days: "5 Days",
     people: "2 to 20",
     subimages: [
-      "pashupatinath_temple.jpg",
-      "everest_flight.jpg",
-      "pokhara.jpg",
-      "sarangkot.jpg",
-      "chandragiri_hills.jpg"
+      "/images/10-Days-Nepal-Tour-Package.jpeg",
+      "/images/fewa-lake-pokhara.jpg",
+      "/images/nagarkot.jpeg",
+      "/images/shiva-temple-pumdikot.webp",
+      "/images/View-on-Namche-Bazar_-Khumbu-district_-Himalayas_-Nepal.webp"
     ],
     overView: {
       duration: "5 Days",
@@ -7534,22 +7535,22 @@ Nepal_Tour_Package_From_India: {
     equipment: [
       {
         title: "Camera",
-        image: "camera.jpg",
+        image: "/images/camera.jpg",
         description: "To capture the stunning landscapes and cultural attractions.",
       },
       {
         title: "Comfortable Walking Shoes",
-        image: "walking_shoes.jpg",
+        image: "/images/walking_shoes.jpg",
         description: "For exploring the historical sites and city streets.",
       },
       {
         title: "Warm Clothing",
-        image: "warm_clothing.jpg",
+        image: "/images/warm_clothing.jpg",
         description: "For chilly mornings and evenings, especially in the hills.",
       },
       {
         title: "Travel Adapter",
-        image: "travel_adapter.jpg",
+        image: "/images/travel_adapter.jpg",
         description: "To charge your electronic devices during the trip.",
       },
     ],
@@ -7620,18 +7621,18 @@ buddhist_pilgrimage_tour_nepal: {
       "id": 56,
       "slug": "buddhist-pilgrimage-tour-nepal",
       "category": "Cultural Tour",
-      "img": "main_image.jpg",
+      "img": "/images/1703751821-bouddhanath-stupa.webp",
       "description": "Explore the most significant Buddhist pilgrimage sites in Nepal over 8 days, including visits to sacred temples and monasteries, and immerse yourself in the rich cultural heritage of Nepal.",
       "title": "Buddhist Pilgrimage Tour in Nepal – 8 Days",
       "location": "Nepal",
       "days": "8 Days",
       "people": "2 to 8",
       "subimages": [
-        "image1.jpg",
-        "image2.jpg",
-        "image3.jpg",
-        "image4.jpg",
-        "image5.jpg"
+        "/images/bouddha_dip.png",
+        "/images/buddhist-pilgrimage-tour.webp",
+        "/images/lumbini-1.jpg",
+        "/images/Lumbini-Garden.jpg",
+        "/images/Nepal-holiday-panorama3-1024x768-1.webp"
       ],
       "overView": {
         "duration": "8 Days",
@@ -7644,22 +7645,22 @@ buddhist_pilgrimage_tour_nepal: {
       "equipment": [
         {
           "title": "Comfortable Shoes",
-          "image": "shoes.jpg",
+          "image": "/images/shoes.jpg",
           "description": "Suitable for walking and light trekking."
         },
         {
           "title": "Sunscreen",
-          "image": "sunscreen.jpg",
+          "image": "/images/sunscreen.jpg",
           "description": "Protection against the sun during outdoor visits."
         },
         {
           "title": "Hat",
-          "image": "hat.jpg",
+          "image": "/images/hat.jpg",
           "description": "To protect from sun exposure during the day."
         },
         {
           "title": "Reusable Water Bottle",
-          "image": "water_bottle.jpg",
+          "image": "/images/water_bottle.jpg",
           "description": "Stay hydrated while reducing plastic waste."
         }
       ],
@@ -7742,18 +7743,18 @@ Nepal_Beauty_Tour_6_Days: {
         id: 57,
         slug: "nepal-beauty-tour-6-days",
         category: "Tour",
-        img: "",
+        img: "/images/7-days-bhutan-classic-tour",
         description: "Explore the natural and cultural beauty of Nepal in a 6-day tour including Kathmandu, Pokhara, and Nagarkot.",
         title: "Nepal Beauty Tour - 6 Days",
         location: "Nepal",
         days: "6 Days",
         people: "2 to 15",
         subimages: [
-          "",
-          "",
-          "",
-          "",
-          "",
+          "/images/7-days-bhutan-classic-tour",
+          "/images/beautiful-place-in-nepal.webp",
+          "/images/hd-wallpaper-g03581969d_640",
+          "/images/image-asset.jpeg",
+          "/images/nepal-tour-packages1.jpg",
         ],
         overView: {
           duration: "6 Days",
@@ -7766,22 +7767,22 @@ Nepal_Beauty_Tour_6_Days: {
         equipment: [
           {
             title: "Travel Visa",
-            image: "",
+            image: "/images/",
             description: "Ensure you have a travel visa, obtainable upon arrival or from a Nepalese embassy.",
           },
           {
             title: "Travel Insurance",
-            image: "",
+            image: "/images/",
             description: "Essential for covering emergency medical expenses and evacuation, especially for adventure activities.",
           },
           {
             title: "Cash",
-            image: "",
+            image: "/images/",
             description: "Bring Nepalese rupees as credit cards are not widely accepted.",
           },
           {
             title: "Reusable Water Bottle",
-            image: "",
+            image: "/images/",
             description: "Stay hydrated, especially during treks and physical activities.",
           },
         ],
@@ -7852,18 +7853,18 @@ Pokhara_Valley_Tour: {
         id: 58,
         slug: "pokhara-valley-tour",
         category: "Sightseeing",
-        img: "pokhara-valley.jpg",
+        img: "/images/97.jpg",
         description: "Explore the stunning landscapes and rich culture of the Pokhara Valley in Nepal over a two-day sightseeing tour.",
         title: "Pokhara Valley Tour - 2 Days",
         location: "Pokhara, Nepal",
         days: "2",
         people: "2 to 20",
         subimages: [
-          "phewa-lake.jpg",
-          "sarangkot-view.jpg",
-          "world-peace-pagoda.jpg",
-          "bindabasini-temple.jpg",
-          "devis-falls.jpg",
+          "/images/423904123_7317608531636724_7041677299527396103_n.jpg",
+          "/images/97.jpg",
+          "/images/Pokhara-view.jpg",
+          "/images/Shiva-Temple-Pumdikot-Pokhara-1.jpg",
+          "/images/titas-gurung-ntBPI4OnXZ0-unsplash-2.webp",
         ],
         overView: {
           duration: "2 Days",
@@ -7876,22 +7877,22 @@ Pokhara_Valley_Tour: {
         equipment: [
           {
             title: "Comfortable Clothing",
-            image: "clothing.jpg",
+            image: "/images/clothing.jpg",
             description: "Wear comfortable, weather-appropriate clothing suitable for hiking and sightseeing.",
           },
           {
             title: "Sturdy Footwear",
-            image: "footwear.jpg",
+            image: "/images/footwear.jpg",
             description: "Bring sturdy footwear for walking and hiking on uneven terrain.",
           },
           {
             title: "Sunscreen and Insect Repellent",
-            image: "sunscreen.jpg",
+            image: "/images/sunscreen.jpg",
             description: "Protect yourself from the sun and insects with sunscreen and repellent.",
           },
           {
             title: "Camera",
-            image: "camera.jpg",
+            image: "/images/camera.jpg",
             description: "Capture the beautiful landscapes and cultural landmarks with a camera.",
           },
         ],
@@ -7952,18 +7953,18 @@ Nepal_Adventure_Tour: {
         id: 59,
         slug: "nepal-adventure-tour",
         category: "Tour",
-        img: "nepal_adventure_tour_main_image.jpg",
+        img: "/images/5 days Nepal tour with Pokhara and Chitwan Safari 10.jpg",
         description: "Explore the cultural and natural beauty of Nepal with this 8-day adventure tour.",
         title: "Nepal Adventure Tour - 8 Days",
         location: "Nepal",
         days: "8",
         people: "2 to 20",
         subimages: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-          "image5.jpg",
+          "/images/image1bungee-jumping-adventure-tour-1505631816.webp.jpg",
+          "/images/image_processing20180723-4-1fjm9pz.jpg",
+          "/images/image_processing20181012-4-1ejqt1l.jpg",
+          "/images/mardi-himal-trek.webp",
+          "/images/nepal-adventure-tour.jpg",
         ],
         overView: {
           duration: "8 Days",
@@ -7976,22 +7977,22 @@ Nepal_Adventure_Tour: {
         equipment: [
           {
             title: "Trekking Shoes",
-            image: "trekking_shoes.jpg",
+            image: "/images/trekking_shoes.jpg",
             description: "Comfortable and sturdy shoes suitable for walking and trekking.",
           },
           {
             title: "Sunscreen",
-            image: "sunscreen.jpg",
+            image: "/images/sunscreen.jpg",
             description: "Essential for protection against the sun during outdoor activities.",
           },
           {
             title: "Water Bottle",
-            image: "water_bottle.jpg",
+            image: "/images/water_bottle.jpg",
             description: "Reusable water bottle to stay hydrated throughout the tour.",
           },
           {
             title: "Camera",
-            image: "camera.jpg",
+            image: "/images/camera.jpg",
             description: "Capture the beautiful moments and stunning landscapes.",
           },
         ],
@@ -8022,7 +8023,7 @@ Nepal_Adventure_Tour: {
           {
             day: 1,
             description: "Arrival in Kathmandu (1400m)",
-            details: "At Tribhuwan International Airport, our airport representative will receive you. He will provide a private tourist vehicle transfer to your accommodation and assist you with check-in. The tour guide will give you a quick overview of the itinerary for the Nepal Adventure Tour after serving you a welcome drink when you arrive at the hotel. A welcome dinner will be served at a nearby Nepalese restaurant organized by Green Valley Nepal Treks.",
+            details: "At Tribhuwan International Airport, our airport representative will receive you. He will provide a private tourist vehicle transfer to your accommodation and assist you with check-in. The tour guide will give you a quick overview of the itinerary for the Nepal Adventure Tour after serving you a welcome drink when you arrive at the hotel. A welcome dinner will be served at a nearby Nepalese restaurant organized by Create Himalayan Adventure.",
           },
           {
             day: 2,
@@ -8071,18 +8072,18 @@ Muktinath_Darshan_by_Jeep: {
     id: 60,
     slug: "muktinath-darshan-by-jeep",
     category: "Tour",
-    img: "link_to_image", // Add the URL of the image
+    img: "/images/1454662327-108-holy-taps-in-muktinath.webp", // Add the URL of the image
     description: "A 6-day jeep tour to the revered Muktinath Temple in Nepal, offering a combination of adventure and spirituality with scenic views of the Himalayas.",
     title: "Muktinath Darshan by Jeep",
     location: "Nepal",
     days: "6",
     people: "2 to 10",
     subimages: [
-      "link_to_image1", // Add the URLs of the images
-      "link_to_image2",
-      "link_to_image3",
-      "link_to_image4",
-      "link_to_image5",
+      "/images/D6.79-Muktinath-Temple_.jpg", // Add the URLs of the images
+      "/images/1454662327-108-holy-taps-in-muktinath.webp",
+      "/images/muktinath-darshan-by-jeep.jpg",
+      "/images/muktinath-jeep-6.jpg",
+      "/images/Muktinath-jeep-tour.jpg",
     ],
     overView: {
       duration: "6 Days",
@@ -8095,22 +8096,22 @@ Muktinath_Darshan_by_Jeep: {
     equipment: [
       {
         title: "Warm Clothes",
-        image: "link_to_image", // Add the URL of the image
+        image: "/images/link_to_image", // Add the URL of the image
         description: "Pack warm clothing including jackets, sweaters, and gloves for the cold weather.",
       },
       {
         title: "Comfortable Shoes",
-        image: "link_to_image",
+        image: "/images/link_to_image",
         description: "Sturdy and comfortable shoes suitable for trekking and rough terrain.",
       },
       {
         title: "Medical Kit",
-        image: "link_to_image",
+        image: "/images/link_to_image",
         description: "Carry essential medications, a first aid kit, and altitude sickness medication.",
       },
       {
         title: "Snacks and Water",
-        image: "link_to_image",
+        image: "/images/link_to_image",
         description: "Carry enough water and snacks, as food options may be limited during the journey.",
       },
     ],
@@ -8181,18 +8182,18 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     id: 61,
     slug: "annapurna-base-camp-helicopter-tour",
     category: "Helicopter Tour",
-    img: "https://example.com/main_image.jpg",
+    img: "/images/ABC-P-Heli.webp",
     description: "Experience the majestic beauty of the Annapurna Himalayas in just two hours with our exclusive helicopter tour, offering breathtaking aerial views and a landing at the base camp for a unique adventure.",
     title: "Annapurna Base Camp Helicopter Tour - 2 Hours",
     location: "Nepal",
     days: "1",
     people: "1 to 5",
     subimages: [
-      "https://example.com/subimage1.jpg",
-      "https://example.com/subimage2.jpg",
-      "https://example.com/subimage3.jpg",
-      "https://example.com/subimage4.jpg",
-      "https://example.com/subimage5.jpg"
+      "/images/annapurna-base-camp-helicopter-tour25.jpeg",
+      "/images/annapurna-helicopter-tour.jpg",
+      "/images/helicopter-over-annapurna_640_480.jpg",
+      "/images/Helicopter-tour-to-Annapurna-Base-Camp.webp",
+      "/images/ABC-P-Heli.webp"
     ],
     overView: {
       duration: "2 Hours",
@@ -8205,22 +8206,22 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     equipment: [
       {
         title: "Green Valley Nepal Trek T-Shirt",
-        image: "https://example.com/tshirt_image.jpg",
+        image: "/images/https://example.com/tshirt_image.jpg",
         description: "Complimentary T-shirt provided as a token of the tour."
       },
       {
         title: "Medical Kits",
-        image: "https://example.com/medical_kit_image.jpg",
+        image: "/images/https://example.com/medical_kit_image.jpg",
         description: "Essential medical kits provided for safety and emergencies."
       },
       {
         title: "Oxygen Cylinders",
-        image: "https://example.com/oxygen_cylinder_image.jpg",
+        image: "/images/https://example.com/oxygen_cylinder_image.jpg",
         description: "Oxygen cylinders provided to ensure passenger safety at high altitudes."
       },
       {
         title: "Experienced Guides",
-        image: "https://example.com/guide_image.jpg",
+        image: "/images/https://example.com/guide_image.jpg",
         description: "Professional guides provide insights into the region's history, culture, and geography."
       }
     ],
@@ -8277,18 +8278,18 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     id: 62,
     slug: "damodar-kund-muktinath-helicopter-tour",
     category: "Helicopter Tour",
-    img: "",
+    img: "/images/Jomsom-to-Muktinath-Helicopter.jpg",
     description: "A one-day helicopter tour exploring the holy sites of Muktinath and Damodar Kunda in Nepal, offering breathtaking views of the Himalayas and cultural experiences.",
     title: "Damodar Kund - Muktinath Helicopter Tour - 1 Day",
     location: "Nepal",
     days: "1",
     people: "2 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/Jomsom-to-Muktinath-Helicopter.jpg",
+      "/images/muktinath-helicopter-tour-7-1024x589.jpg",
+      "/images/muktinath-yatra-by-heli (1).jpg",
+      "/images/muktinath-temple-covered-by-snow.jpg",
+      "/images/muktinath-yatra-by-heli (1).jpg",
     ],
     overView: {
       duration: "1 Day",
@@ -8368,18 +8369,18 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     id: 63,
     slug: "muktinath-helicopter-tour",
     category: "Helicopter Tour",
-    img: "https://example.com/muktinath-helicopter-tour.jpg",
+    img: "/images/149775_5291f252.jpg",
     description: "A scenic helicopter tour from Pokhara to the sacred site of Muktinath, offering breathtaking views of the Himalayas.",
     title: "Muktinath Helicopter Tour from Pokhara",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-      "https://example.com/image4.jpg",
-      "https://example.com/image5.jpg",
+      "/images/mardi-himal-helicopter-tour.jpg",
+      "/images/muktinath-helicopter-tour.webp",
+      "/images/Pokhara-to-Muktinath-Helicopter-1.webp",
+      "/images/temple-with-snow.jpg",
+      "/images/149775_5291f252.jpg",
     ],
     overView: {
       duration: "3 Hours",
@@ -8392,22 +8393,22 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     equipment: [
       {
         title: "Warm Clothing",
-        image: "https://example.com/warm-clothing.jpg",
+        image: "/images/https://example.com/warm-clothing.jpg",
         description: "Essential for staying warm at high altitudes.",
       },
       {
         title: "Comfortable Shoes",
-        image: "https://example.com/comfortable-shoes.jpg",
+        image: "/images/https://example.com/comfortable-shoes.jpg",
         description: "Ideal for walking around the Muktinath area.",
       },
       {
         title: "Sunscreen",
-        image: "https://example.com/sunscreen.jpg",
+        image: "/images/https://example.com/sunscreen.jpg",
         description: "To protect against the sun at high altitudes.",
       },
       {
         title: "Camera",
-        image: "https://example.com/camera.jpg",
+        image: "/images/https://example.com/camera.jpg",
         description: "Capture the stunning views and memories.",
       },
     ],
@@ -8457,18 +8458,18 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     id: 64,
     slug: "everest-base-camp-helicopter-tour",
     category: "Helicopter Tour",
-    img: "https://example.com/main-image.jpg",
+    img: "/images/Everest-Base-Camp-Helicopter-Tour-With-Landing-at-Everest-View-Hotel-990x490.jpg",
     description: "Experience the thrill of flying over the world's highest mountain, Mt. Everest, and enjoy a landing at the Everest View Hotel for a breathtaking breakfast with panoramic views.",
     title: "Everest Base Camp Helicopter Tour with Landing at Everest View Hotel",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-      "https://example.com/image4.jpg",
-      "https://example.com/image5.jpg"
+      "/images/Everest-Base-Camp-Helicopter-Tour-With-Landing-at-Everest-View-Hotel-990x490.jpg",
+      "/images/everest-base-camp-heli-tour (1).jpg",
+      "/images/Return from Everest Base Camp in Helicopter.jpg",
+      "/images/everest-base-camp-heli-tourjpg",
+      "/images/s6jMV8erLtYii9BK1720742400.webp"
     ],
     overView: {
       duration: "1 Day",
@@ -8481,22 +8482,22 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     equipment: [
       {
         title: "Warm Clothing",
-        image: "https://example.com/warm-clothing.jpg",
+        image: "/images/https://example.com/warm-clothing.jpg",
         description: "Layered clothing to keep warm in high altitudes."
       },
       {
         title: "Camera",
-        image: "https://example.com/camera.jpg",
+        image: "/images/https://example.com/camera.jpg",
         description: "For capturing the stunning views."
       },
       {
         title: "Sunglasses",
-        image: "https://example.com/sunglasses.jpg",
+        image: "/images/https://example.com/sunglasses.jpg",
         description: "Protect your eyes from the bright mountain glare."
       },
       {
         title: "Snacks",
-        image: "https://example.com/snacks.jpg",
+        image: "/images/https://example.com/snacks.jpg",
         description: "Light snacks to keep your energy up during the trip."
       }
     ],
@@ -8541,18 +8542,18 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     id: 65,
     slug: "",
     category: "Tour",
-    img: "",
+    img: "/images/5c.jpg",
     description: "Experience the breathtaking beauty of the Langtang region from the air, with stunning views of snow-capped peaks, lush valleys, and pristine landscapes. This helicopter tour offers a unique perspective on the natural and cultural wonders of the Langtang Valley.",
     title: "Langtang Helicopter Tour from Kathmandu - 1 Day",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/5c.jpg",
+      "/images/langtang-helicopter-tour.jpglx5",
+      "/images/langtang-helicopter-tour-1",
+      "/images/Langtang-Helicopter-Tour-1-635x347",
+      "/images/Over-flying-Helicopter-to-Langtang.webp",
     ],
     overView: {
       duration: "2 Hours",
@@ -8631,18 +8632,18 @@ Lukla_to_Kathmandu_Helicopter_Flight: {
     id: 66,
     slug: "lukla-to-kathmandu-helicopter-flight",
     category: "Helicopter Tour",
-    img: "",
+    img: "/images/53377215222_c440767ca2_b.jpg",
     description: "A quick and scenic helicopter flight from Lukla to Kathmandu, offering breathtaking aerial views of the landscape.",
     title: "Lukla to Kathmandu Helicopter Flight - 1 Hour",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/666833353436676166357767616766673666353477356573663435657366347366626666866ac7c2c1e1720085191.jpg",
+      "/images/helicopter-flight-to-lukla.webp",
+      "/images/Kathmanmdu-Lukla-helicopter-flight-ql9ini3aazjhpt69m6k45evm8v2nhwnq5i80t1m40o.jpg",
+      "/images/muktinath-helicopter-tour-nepal-tibbet-500x500.webp",
+      "/images/53377215222_c440767ca2_b.jpg",
     ],
     overView: {
       duration: "1 Day",
@@ -8721,18 +8722,18 @@ Kathmandu_to_Lukla_Helicopter_Flight: {
     id: 67,
     slug: "kathmandu-to-lukla-helicopter-flight",
     category: "Helicopter Tour",
-    img: "",
+    img: "/images/28852_385823451735_8169232_n.jpg",
     description: "A quick and scenic helicopter flight from Kathmandu to Lukla, offering breathtaking aerial views of the landscape.",
     title: "Kathmandu to Lukla Helicopter Flight - 1 Hour",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/28852_385823451735_8169232_n.jpg",
+      "/images/Gorekshep-990x490.jpg",
+      "/images/kalapatthar-helicopter-tour-nepal.webp",
+      "/images/Kathmandu-to-Lukla-helicopter-flight.png",
+      "/images/pexels-bijay-chaurasia-13241480-scaled.jpg",
     ],
     overView: {
       duration: "1 Day",
@@ -8792,7 +8793,7 @@ Kathmandu_to_Lukla_Helicopter_Flight: {
       {
         day: 1,
         description: "Take a Helicopter Flight from Kathmandu to Lukla",
-        details: "5:30 to 6:00 AM: A representative from Green Valley Nepal Treks will pick you up from the hotel and take you to the domestic terminal of Kathmandu Airport.\n\n6:00 to 7:00 AM: From the parking, go for about 5 minutes to the domestic terminal, where you may check in. At the domestic terminal, a representative from Green Valley Nepal Treks gives you a boarding pass for the helicopter flight and waits for the chopper.\n\n7:00 to 8:00 AM: From Kathmandu, the flight takes around 40 to 50 minutes, and you will land at the airport in Lukla.",
+        details: "5:30 to 6:00 AM: A representative from Create Himalayan Adventure will pick you up from the hotel and take you to the domestic terminal of Kathmandu Airport.\n\n6:00 to 7:00 AM: From the parking, go for about 5 minutes to the domestic terminal, where you may check in. At the domestic terminal, a representative from Create Himalayan Adventure gives you a boarding pass for the helicopter flight and waits for the chopper.\n\n7:00 to 8:00 AM: From Kathmandu, the flight takes around 40 to 50 minutes, and you will land at the airport in Lukla.",
       },
     ],
     HowToPrepare: {
@@ -8811,18 +8812,18 @@ Gorakshep_to_Kathmandu_Helicopter_Flight: {
     id: 68,
     slug: "gorakshep-to-kathmandu-helicopter-flight",
     category: "Helicopter Tour",
-    img: "",
+    img: "/images/04.jpg",
     description: "A luxurious helicopter flight offering breathtaking aerial views of the Everest region and a quick return to Kathmandu.",
     title: "Gorakshep to Kathmandu Helicopter Flight - 3 Hours",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/04.jpg",
+      "/images/2023-06-22-2133.jpg",
+      "/images/gorakshep-lukla-b.webp",
+      "/images/Gorakshep-to-Kathmandu-Heli-service-1024x468.jpg",
+      "/images/",
     ],
     overView: {
       duration: "1 Day",
@@ -8858,7 +8859,7 @@ Gorakshep_to_Kathmandu_Helicopter_Flight: {
       "The helicopter flight from Gorakshep to Kathmandu provides a unique opportunity to see the Everest region from the sky and avoid the long trek back.",
       "This one-hour flight covers 151 kilometers and offers spectacular views of Mount Everest and other Himalayan peaks.",
       "The helicopter ride is ideal for trekkers who want a relaxing return journey after reaching the Everest Base Camp.",
-      "Green Valley Nepal Treks offers experienced pilots and comfortable flights, ensuring safety and reliability.",
+      "Create Himalayan Adventure offers experienced pilots and comfortable flights, ensuring safety and reliability.",
       "The flight includes a stop at Lukla for refueling, allowing a brief glimpse of this iconic airport.",
     ],
     highlights: [
@@ -8881,7 +8882,7 @@ Gorakshep_to_Kathmandu_Helicopter_Flight: {
       {
         day: 1,
         description: "Gorakshep to Kathmandu Helicopter Flight Itinerary",
-        details: "Early Morning in Gorakshep\nWake up to the cool morning air and stunning views of Everest. Have a light breakfast and pack your belongings.\n\nTransfer to Helipad in Gorakshep\nA short transfer to the helipad by Green Valley Nepal Treks representative. Enjoy panoramic Himalayan views while waiting for the helicopter.\n\nHelicopter Flight from Gorakshep\nBoard the helicopter for a thrilling 40-60 minute ride to Kathmandu. Experience breathtaking scenery including Everest, Lhotse, Nuptse, and the Khumbu Glacier.\n\nShort Break at Lukla\nA brief stopover to refuel, offering views of Lukla and its surroundings.\n\nArrival in Kathmandu\nArrive at Kathmandu's domestic terminal, with beautiful views of the Himalayas and Kathmandu Valley. Arrange transportation to your hotel.",
+        details: "Early Morning in Gorakshep\nWake up to the cool morning air and stunning views of Everest. Have a light breakfast and pack your belongings.\n\nTransfer to Helipad in Gorakshep\nA short transfer to the helipad by Create Himalayan Adventure representative. Enjoy panoramic Himalayan views while waiting for the helicopter.\n\nHelicopter Flight from Gorakshep\nBoard the helicopter for a thrilling 40-60 minute ride to Kathmandu. Experience breathtaking scenery including Everest, Lhotse, Nuptse, and the Khumbu Glacier.\n\nShort Break at Lukla\nA brief stopover to refuel, offering views of Lukla and its surroundings.\n\nArrival in Kathmandu\nArrive at Kathmandu's domestic terminal, with beautiful views of the Himalayas and Kathmandu Valley. Arrange transportation to your hotel.",
       },
     ],
     HowToPrepare: {
@@ -8900,18 +8901,18 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     id: 69,
     slug: "gorakshep-to-lukla-helicopter-flight",
     category: "Helicopter Tour",
-    img: "gorakshep-to-lukla.jpg",
+    img: "/images/2023-06-23-4629.jpg",
     description: "A quick and luxurious helicopter flight from Gorakshep to Lukla, offering stunning aerial views of the Himalayas and a convenient way to end your trek.",
     title: "Gorakshep to Lukla Helicopter Flight - 20 Minutes",
     location: "Nepal",
     days: "1 Hour",
     people: "1 to 4",
     subimages: [
-      "helicopter-view.jpg",
-      "everest-region.jpg",
-      "sherpa-villages.jpg",
-      "khumbu-glacier.jpg",
-      "lukla-airport.jpg"
+      "/images/lukla-to-kathmandu-helicopter-flight.webp",
+      "/images/2023-06-23-4629.jpg",
+      "/images/caption.jpg",
+      "/images/everest-helicopter-tour-10.webp",
+      "/images/lukla-helicopter.jpg"
     ],
     overView: {
       duration: "1 Hour",
@@ -8946,7 +8947,7 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     about: [
       "Gorakshep to Lukla Helicopter Flight is a 30-minute-long helicopter ride in the Everest region. This flight is perfect for anyone who seeks some luxury after a challenging trek to the Everest Base Camp.",
       "This helicopter flight from Gorakshep to Lukla offers an amazing bird-eye view of different villages habituated by the Sherpa people, tradition-influenced lifestyle, houses, and vegetation of the locals.",
-      "Green Valley Nepal Treks offers an exciting, relaxing, and amazing helicopter ride to trekkers who do not want to walk down the same path they followed while trekking to the Everest Base Camp.",
+      "Create Himalayan Adventure offers an exciting, relaxing, and amazing helicopter ride to trekkers who do not want to walk down the same path they followed while trekking to the Everest Base Camp.",
     ],
     highlights: [
       "A time-saving way to descend from Gorakshep to Lukla with much less physical strain.",
@@ -8968,7 +8969,7 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
       {
         day: 1,
         description: "Gorakshep to Lukla Helicopter Flight Itinerary",
-        details: "Assuming you have already completed the trek to Gorakshep and spent the night there, you will want a very early start. This is because weather conditions are typically best for helicopter flights in the morning before clouds roll in. Contact Green Valley Nepal Treks the day before to confirm the pick-up time at the Gorakshep helipad. We will provide a specific window or ask you to be ready at sunrise. Upon landing in Lukla, you will disembark and make arrangements for onward travel.",
+        details: "Assuming you have already completed the trek to Gorakshep and spent the night there, you will want a very early start. This is because weather conditions are typically best for helicopter flights in the morning before clouds roll in. Contact Create Himalayan Adventure the day before to confirm the pick-up time at the Gorakshep helipad. We will provide a specific window or ask you to be ready at sunrise. Upon landing in Lukla, you will disembark and make arrangements for onward travel.",
       },
     ],
     HowToPrepare: {
@@ -8986,18 +8987,18 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     id: 70,
     slug: "kalapatthar-to-kathmandu-helicopter-flight",
     category: "Helicopter Tour",
-    img: "",
+    img: "/images/20180319_095656.jpg",
     description: "Experience a breathtaking helicopter flight from Kalapatthar to Kathmandu, witnessing the majestic Mount Everest and the remote beauty of the Khumbu region.",
     title: "Kalapatthar to Kathmandu Helicopter Flight",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "/images/17468463394_883296451b_k-1.jpg",
+      "/images/captirt54on.jpg",
+      "/images/heli-tour-to-kalapathar-1620206019188.jpg",
+      "/images/lukla-to-kathmandu-helicopter-flight.webp",
+      "/images/20180319_095656.jpg",
     ],
     overView: {
       duration: "3 Hours",
@@ -9067,18 +9068,18 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     id: 71,
     slug: "namche-to-kathmandu-helicopter-flight",
     category: "Helicopter Flight",
-    img: "namche_kathmandu_helicopter.jpg",
+    img: "/images/c9.jpg",
     description: "Experience a breathtaking helicopter journey from Namche Bazaar to Kathmandu, offering unparalleled views of the Himalayas.",
     title: "Namche to Kathmandu Helicopter Flight",
     location: "Nepal",
     days: "1 Day",
     people: "1 to 5",
     subimages: [
-      "namche_view.jpg",
-      "helicopter_in_himalayas.jpg",
-      "lukla_stop.jpg",
-      "kathmandu_skyline.jpg",
-      "aerial_view_everest.jpg",
+      "/images/c9.jpg",
+      "/images/namche-Helicopter.webp",
+      "/images/namche-ktm-banner.webp",
+      "/images/Namche-To-Kathmandu-Helicopter-990x490.jpg.jpg",
+      "/images/namche-to-lukla-helicopter-flight83.jpg",
     ],
     overView: {
       duration: "2 Hours",
@@ -9218,7 +9219,7 @@ Astam_Village_Day_Hiking: {
     ],
     HowToPrepare: {
       paragraph: [
-        "Plan the hike with Green Valley Nepal Treks for guidance.",
+        "Plan the hike with Create Himalayan Adventure for guidance.",
         "Be physically and mentally prepared for 3-4 hours of hiking.",
         "Engage in physical exercises like running, cardiovascular training, and walking to enhance strength and flexibility.",
         "Avoid negative habits like smoking or drinking to maintain physical and mental strength.",
@@ -9287,7 +9288,7 @@ Australian_Camp_Day_Hike: {
     facilities: [
       "Pickup from the hotel in a private vehicle to Kande and vice versa.",
       "A local professional guide to lead the way and provide insights throughout the hike.",
-      "Green Valley Nepal Treks labeled T-shirt as a souvenir.",
+      "Create Himalayan Adventure labeled T-shirt as a souvenir.",
       "Cooperating guides and team support throughout the trip.",
     ],
     itinerary: [
@@ -9370,7 +9371,7 @@ Kahun_Danda_Hiking: {
     facilities: [
       "Pickup from the hotel in a private vehicle.",
       "Professional English-speaking guide for the hike.",
-      "Green Valley Nepal Treks labeled T-shirt as a souvenir.",
+      "Create Himalayan Adventure labeled T-shirt as a souvenir.",
       "Discounts and offers for regular and old customers.",
     ],
     itinerary: [
@@ -9454,7 +9455,7 @@ Kalikasthan_Thulakot_Day_Hike: {
           "Pickup and drop-off from the hotel in a private vehicle.",
           "Professional English-speaking guide.",
           "Comfortable and insightful hiking experience.",
-          "Green Valley Nepal Treks T-shirt as a souvenir.",
+          "Create Himalayan Adventure T-shirt as a souvenir.",
           "Discounts and extra services for returning customers.",
         ],
         itinerary: [
@@ -9720,7 +9721,7 @@ Pumdikot_Hike_with_World_Peace_Pagoda: {
     ],
     HowToPrepare: {
       paragraph: [
-        "Plan your hike with Green Valley Nepal Treks for the best experience.",
+        "Plan your hike with Create Himalayan Adventure for the best experience.",
         "Ensure your fitness level matches the hike’s requirements.",
         "Research cultural and historical aspects of the World Peace Pagoda and Pumdikot.",
         "Pack light and carry necessary items like water and cash.",
@@ -10454,7 +10455,7 @@ Tamang_Heritage_Trail_Trek: {
       "facilities": [
         "Tea house or lodge accommodation during the trek.",
         "Free international airport pickup and drop-off services.",
-        "Green Valley Nepal Treks duffle bag and t-shirt.",
+        "Create Himalayan Adventure duffle bag and t-shirt.",
         "Map of the Tamang Heritage Trek route.",
         "Oximeter for checking blood oxygen levels.",
         "Medical kits for emergencies.",
@@ -10464,7 +10465,7 @@ Tamang_Heritage_Trail_Trek: {
         {
           "day": 1,
           "description": "Arrival in Kathmandu",
-          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Green Valley Nepal Treks office."
+          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Create Himalayan Adventure office."
         },
         {
           "day": 2,
@@ -10590,7 +10591,7 @@ Helambu_Circuit_Trek: {
       "facilities": [
         "Tea house or lodge accommodation during the trek.",
         "Free international airport pickup and drop-off services.",
-        "Green Valley Nepal Treks duffle bag and t-shirt.",
+        "Create Himalayan Adventure duffle bag and t-shirt.",
         "Map of the Helambu Circuit Trek route.",
         "Oximeter to check blood oxygen levels.",
         "Medical kits for emergencies.",
@@ -10601,7 +10602,7 @@ Helambu_Circuit_Trek: {
         {
           "day": 1,
           "description": "Arrival in Kathmandu",
-          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Green Valley Nepal Treks office."
+          "details": "Pick up from the airport and transfer to accommodation. Option for a pre-trip meeting at the Create Himalayan Adventure office."
         },
         {
           "day": 2,
@@ -10727,7 +10728,7 @@ Langtang_Ganja_La_Pass_Trek: {
       {
         day: 1,
         description: "Arrival in Kathmandu",
-        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Green Valley Nepal Treks office. Accommodation: 3 Star Hotel in Thamel"
+        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Create Himalayan Adventure office. Accommodation: 3 Star Hotel in Thamel"
       },
       {
         day: 2,
@@ -10886,7 +10887,7 @@ Gosaikunda_Lake_Trek: {
       {
         day: 1,
         description: "Arrival in Kathmandu",
-        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Green Valley Nepal Treks office. Accommodation: 3 Star Hotel in Thamel"
+        details: "Airport pickup and transfer to the hotel. Pre-trip meeting at Create Himalayan Adventure office. Accommodation: 3 Star Hotel in Thamel"
       },
       {
         day: 2,
@@ -11536,8 +11537,8 @@ Kanchenjunga_Circuit_Trek: {
   ],
   facilities: [
     "International and Domestic Airport Pickup and Drop-off service",
-    "Green Valley Nepal Treks Duffle Bag",
-    "Green Valley Nepal Treks T-Shirt",
+    "Create Himalayan Adventure Duffle Bag",
+    "Create Himalayan Adventure T-Shirt",
     "Free Kanchenjunga Circuit Trek Map",
     "An Oximeter to Check Blood Oxygen Saturation Levels",
     "Medical Kits",
@@ -11652,7 +11653,7 @@ Kanchenjunga_Circuit_Trek: {
     {
       day: 22,
       description: "Final Departure or Onward For Next Program",
-      details: "Transfer to the airport for your flight home or extend your stay with additional packages from Green Valley Nepal Treks."
+      details: "Transfer to the airport for your flight home or extend your stay with additional packages from Create Himalayan Adventure."
     }
   ],
   HowToPrepare: {
