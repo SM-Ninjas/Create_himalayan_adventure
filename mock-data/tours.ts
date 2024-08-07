@@ -23,28 +23,24 @@ export const tourRegions: TrekAndTours[] = [
         slug: "Kahun_Danda_Hiking",
       },
       {
-        name: "",
+        name: "Kalikasthan Thulakot Day Hike from Pokhara",
         slug: "Kalikasthan_Thulakot_Day_Hike",
       },
       {
-        name: "",
+        name: "Naudanda Sarangkot Day Hike",
         slug: "Naudanda_Sarangkot_Day_Hike",
       },
       {
-        name: "",
+        name: "Sarangkot Viewpoint Hike from Pokhara",
         slug: "Sarangkot_Viewpoint_Hike_from_Pokhara",
       },
       {
-        name: "",
+        name: "Pumdikot Hike with World Peace Pagoda",
         slug: "Pumdikot_Hike_with_World_Peace_Pagoda",
       },
       {
         name: "Five Himalayan Viewpoint Tour from Pokhara",
         slug: "five_himalayan_viewpoint_tour_pokhara",
-      },
-      {
-        name: "Pokhara Day Tour with Sunrise View from Sarangkot",
-        slug: "pokhara_day_tour_sunrise_sarangkot",
       },
     ],
     route: routes.treks,
@@ -53,40 +49,40 @@ export const tourRegions: TrekAndTours[] = [
     name: "Multiple Day Tours",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Nepal Golden Triangle Tour - 8 Days",
+        slug: "Nepal_Golden_Triangle_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nepal Tour Packages from Dhaka Bangladesh - 4 Days",
+        slug: "Nepal_Tour_Packages_from_Dhaka_Bangladesh",
       },
       {
-        name: "",
-        slug: "",
+        name: "Glimpse of Nepal Tour - 5 Days",
+        slug: "Glimpse_Of_Nepal_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nepal Tour Package from India - 5 Days",
+        slug: "Nepal_Tour_Package_From_India",
       },
       {
-        name: "",
-        slug: "",
+        name: "Buddhist Pilgrimage Tour in Nepal – 8 Days",
+        slug: "buddhist_pilgrimage_tour_nepal",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nepal Beauty Tour - 6 Days",
+        slug: "Nepal_Beauty_Tour_6_Days",
       },
       {
-        name: "",
-        slug: "",
+        name: "Pokhara Valley Tour - 2 Days",
+        slug: "Pokhara_Valley_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nepal Adventure Tour - 8 Days",
+        slug: "Nepal_Adventure_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Muktinath Darshan by Jeep",
+        slug: "Muktinath_Darshan_by_Jeep",
       },
     ],
     route: routes.treks,
@@ -95,32 +91,32 @@ export const tourRegions: TrekAndTours[] = [
     name: "Day Hikes From Kathmandu",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Champadevi Day Hike - 1 Day",
+        slug: "champadevi_day_hike",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nagarjung Jamcho Day Hike - 1 Day",
+        slug: "nagarjung_jamcho_day_hike",
       },
       {
-        name: "",
-        slug: "",
+        name: "Namobuddha to Panauti Day Hiking - 1 Day",
+        slug: "namobuddha_panauti_day_hike",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nagarkot Sunrise View and Nagarkot to Changunarayan Hike",
+        slug: "nagarkot_sunrise_view_changunarayan_hike",
       },
       {
-        name: "",
-        slug: "",
+        name: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
+        slug: "nagarkot_dhulikhel_day_hike",
       },
       {
-        name: "",
-        slug: "",
+        name: "Phulchoki Day Hiking",
+        slug: "Phulchoki_Day_Hiking",
       },
       {
-        name: "",
-        slug: "",
+        name: "Shivapuri Day Hike",
+        slug: "Shivapuri_Day_Hike",
       },
     ],
     route: routes.treks,
@@ -129,24 +125,24 @@ export const tourRegions: TrekAndTours[] = [
     name: "Helicopter Tour In Nepal",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Annapurna Base Camp Helicopter Tour",
+        slug: "Annapurna_Base_Camp_Helicopter_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Damodar Kund - Muktinath Helicopter Day Tour",
+        slug: "Damodar_Kund_Muktinath_Helicopter_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Muktinath Helicopter Tour from Pokhara",
+        slug: "Muktinath_Helicopter_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Everest Base Camp Helicopter Tour with Landing at Everest View Hotel",
+        slug: "Everest_Base_Camp_Helicopter_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Langtang Helicopter Tour from Kathmandu",
+        slug: "Langtang_Helicopter_Tour",
       },
     ],
     route: routes.treks,
@@ -155,32 +151,32 @@ export const tourRegions: TrekAndTours[] = [
     name: "Day Tours From Kathmandu",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Seven World Heritage Kathmandu Day Tour",
+        slug: "Seven_World_Heritage_Kathmandu_Day_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Chandragiri Hill Day Tour",
+        slug: "Chandragiri_Hill_Day_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Kathmandu City Tour",
+        slug: "Kathmandu_City_Tou",
       },
       {
-        name: "",
-        slug: "",
+        name: "Everest Mountain Sightseeing Flight by Plane",
+        slug: "Everest_Mountain_Sightseeing_Flight_By_Plane",
       },
       {
-        name: "",
-        slug: "",
+        name: "Bungmati-Khokana Village Tour",
+        slug: "Bungmati_Khokana_Village_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Paragliding in Nepal",
+        slug: "Paragliding_in_Nepal",
       },
       {
-        name: "",
-        slug: "",
+        name: "Kathmandu Day Tour",
+        slug: "Kathmandu_Day_Tour",
       },
     ],
     route: routes.treks,
@@ -189,28 +185,24 @@ export const tourRegions: TrekAndTours[] = [
     name: "Adventure Activities in Pokhara",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Bungee Jumping in Pokhara",
+        slug: "Bungee_Jumping_Pokhara",
       },
       {
-        name: "",
-        slug: "",
+        name: "Seti River Rafting in Pokhara",
+        slug: "Rafting_Pokhara",
       },
       {
-        name: "",
-        slug: "",
+        name: "Sarangkot to Hemja, Pokhara, Nepal",
+        slug: "Zipline_Pokhara",
       },
       {
-        name: "",
-        slug: "",
+        name: "Ultra Light Flight in Pokhara Nepal",
+        slug: "Ultra_Light_Flight_Pokhara",
       },
       {
-        name: "",
-        slug: "",
-      },
-      {
-        name: "",
-        slug: "",
+        name: "Paragliding in Pokhara Nepal",
+        slug: "Paragliding_Pokhara",
       },
     ],
     route: routes.treks,
@@ -219,28 +211,28 @@ export const tourRegions: TrekAndTours[] = [
     name: "Helicopter Flights In Nepal",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Lukla to Kathmandu Helicopter Flight - 1 Hour",
+        slug: "Lukla_to_Kathmandu_Helicopter_Flight",
       },
       {
-        name: "",
-        slug: "",
+        name: "Kathmandu to Lukla Helicopter Flight - 1 Hour",
+        slug: "Kathmandu_to_Lukla_Helicopter_Flight",
       },
       {
-        name: "",
-        slug: "",
+        name: "Gorakshep to Kathmandu Helicopter Flight - 3 Hours",
+        slug: "Gorakshep_to_Kathmandu_Helicopter_Flight",
       },
       {
-        name: "",
-        slug: "",
+        name: "Gorakshep to Lukla Helicopter Flight - 20 Minutes",
+        slug: "Gorakshep_to_Lukla_Helicopter_Flight",
       },
       {
-        name: "",
-        slug: "",
+        name: "Kalapatthar to Kathmandu Helicopter Flight",
+        slug: "Kalapatthar_to_Kathmandu_Helicopter_Flight",
       },
       {
-        name: "",
-        slug: "",
+        name: "Namche to Kathmandu Helicopter Flight",
+        slug: "Namche_to_Kathmandu_Helicopter_Flight",
       },
     ],
     route: routes.treks,
@@ -249,12 +241,12 @@ export const tourRegions: TrekAndTours[] = [
     name: "Rafting In Nepal",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "Trishuli River Rafting - 1 Day",
+        slug: "Trishuli_River_Rafting",
       },
       {
-        name: "",
-        slug: "",
+        name: "1 Night 2 Days Trishuli River Rafting",
+        slug: "Night_Days_Trishuli_River_Rafting",
       },
     ],
     route: routes.treks,
@@ -263,20 +255,20 @@ export const tourRegions: TrekAndTours[] = [
     name: "Wildlife Tours",
     options: [
       {
-        name: "",
-        slug: "",
+        name: "3 Nights 4 Days Chitwan National Park Tour",
+        slug: "Chitwan_National_Park_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "2 Nights 3 Days Chitwan National Park Tour",
+        slug: "Chitwan_National_Park_Tour_2N3D:",
       },
       {
-        name: "",
-        slug: "",
+        name: "3 Nights 4 Days Bardia National Park Tour",
+        slug: "Bardia_National_Park_Tour",
       },
       {
-        name: "",
-        slug: "",
+        name: "Bardia Jungle Safari Tour",
+        slug: "Bardia_Jungle_Safari_Tour",
       },
     ],
     route: routes.treks,

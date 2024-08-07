@@ -9,7 +9,7 @@ export const carouselData = [
     category: "Trekking",
     img: "/locations/annapurna.webp",
     description: "14 Days Annapurna Base Camp Trek guided by the professionals",
-    title: "Annapurna Base",
+    title: "Annapurna Base Camp",
     location: "Gandaki",
     days: "14 days",
     people: "1-12",

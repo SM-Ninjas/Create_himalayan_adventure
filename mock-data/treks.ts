@@ -132,118 +132,115 @@ export const trekRegions: TrekAndTours[] = [
     route: routes.treks,
   },
   {
-    name: "Annapurna Region Trekking",
+    name: "Langtang Region Treckking",
     options: [
       {
-        name: "Annapurna Base Camp Trek - 14 Days",
-        slug: "annapurna_base_camp_trek",
+        name: "Langtang Valley Trek - 10 Days",
+        slug: "Langtang_Valley_Trek",
       },
       {
-        name: "Annapurna Circuit Trek - 12 Days",
-        slug: "annapurna_circuit_trek",
+        name: "Langtang Gosaikunda Lake Trek – 15 Day",
+        slug: "Langtang_Gosaikunda_Lake_Trek",
       },
       {
-        name: "Mardi Himal Trek - 9 Days",
-        slug: "mardi_himal_trek",
+        name: "Tamang Heritage Trail Trek – 10 Days",
+        slug: "Tamang_Heritage_Trail_Trek",
       },
       {
-        name: "Ghorepani Poonhill Trek - 8 Days",
-        slug: "ghorepani_poonhill_trek",
+        name: "Helambu Circuit Trek – 8 Days",
+        slug: "Helambu_Circuit_Trek",
       },
       {
-        name: "Short ABC Trek - 9 Days",
-        slug: "short_abc_trek",
+        name: "Langtang Ganja La Pass Trek – 14 Days",
+        slug: "Langtang_Ganja_La_Pass_Trek",
       },
       {
-        name: "Poon Hill Trek - 2 Days",
-        slug: "poon_hill_trek",
+        name: "Gosaikunda Lake Trek – 7 Days",
+        slug: "Gosaikunda_Lake_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Makalu Region Trekking",
+    options: [
+      {
+        name: "Makalu-Barun National Park",
+        slug: "Makalu_Base_Camp_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Kanchenjunga Region Trekking",
+    options: [
+      {
+        name: "Kanchenjunga North Base Camp Trek - 20 Days",
+        slug: "Kanchenjunga_North_Base_Camp_Trek_20_Days",
       },
       {
-        name: "Poon Hill Mardi Himal Trek - 12 Days",
-        slug: "poon_hill_mardi_himal_trek",
+        name: "Kanchenjunga South Base Camp Trek - 13 Days",
+        slug: "Kanchenjunga_South_Base_Camp_Trek_13_Days",
       },
       {
-        name: "Annapurna Full Circuit Trek - 17 Days",
-        slug: "annapurna_full_circuit_trek",
+        name: "Kanchenjunga Circuit Trek",
+        slug: "Kanchenjunga_Circuit_Trek",
       },
     ],
     route: routes.treks,
   },
   {
-    name: "Annapurna Region Trekking",
+    name: "Dolpa Region Trekking",
     options: [
       {
-        name: "Annapurna Base Camp Trek - 14 Days",
-        slug: "annapurna_base_camp_trek",
+        name: "Upper Dolpo Trek",
+        slug: "Upper_Dolpo_Trek",
       },
       {
-        name: "Annapurna Circuit Trek - 12 Days",
-        slug: "annapurna_circuit_trek",
+        name: "Lower Dolpo Trek - 18 Days",
+        slug: "Lower_Dolpo_Trek",
       },
-      {
-        name: "Mardi Himal Trek - 9 Days",
-        slug: "mardi_himal_trek",
-      },
-      {
-        name: "Ghorepani Poonhill Trek - 8 Days",
-        slug: "ghorepani_poonhill_trek",
-      },
-      {
-        name: "Short ABC Trek - 9 Days",
-        slug: "short_abc_trek",
-      },
-      {
-        name: "Poon Hill Trek - 2 Days",
-        slug: "poon_hill_trek",
-      },
-      {
-        name: "Poon Hill Mardi Himal Trek - 12 Days",
-        slug: "poon_hill_mardi_himal_trek",
-      },
-      {
-        name: "Annapurna Full Circuit Trek - 17 Days",
-        slug: "annapurna_full_circuit_trek",
-      },
+     
     ],
     route: routes.treks,
   },
   {
-    name: "Annapurna Region Trekking",
+    name: "Manaslu Region Trekking",
     options: [
       {
-        name: "Annapurna Base Camp Trek - 14 Days",
-        slug: "annapurna_base_camp_trek",
+        name: "Manaslu Circuit Trek - 14 Days",
+        slug: "Manaslu_Circuit_Trek_14_Days",
       },
       {
-        name: "Annapurna Circuit Trek - 12 Days",
-        slug: "annapurna_circuit_trek",
+        name: "Short Manaslu Trek - 11 Days",
+        slug: "Short_Manaslu_Trek_11_Days",
       },
       {
-        name: "Mardi Himal Trek - 9 Days",
-        slug: "mardi_himal_trek",
+        name: "Manaslu Tsum Valley Trek - 19 Days",
+        slug: "Manaslu_Tsum_Valley_Trek",
       },
-      {
-        name: "Ghorepani Poonhill Trek - 8 Days",
-        slug: "ghorepani_poonhill_trek",
-      },
-      {
-        name: "Short ABC Trek - 9 Days",
-        slug: "short_abc_trek",
-      },
-      {
-        name: "Poon Hill Trek - 2 Days",
-        slug: "poon_hill_trek",
-      },
-      {
-        name: "Poon Hill Mardi Himal Trek - 12 Days",
-        slug: "poon_hill_mardi_himal_trek",
-      },
-      {
-        name: "Annapurna Full Circuit Trek - 17 Days",
-        slug: "annapurna_full_circuit_trek",
-      },
+
+     
     ],
     route: routes.treks,
   },
+  {
+    name: "Mustang Region Trekking",
+    options: [
+      {
+        name: "Upper Mustang Overland Tour - 8 Days",
+        slug: "Upper_Mustang_Overland_Tour",
+      },
+      {
+        name: "Upper Mustang Trek - 17 Days",
+        slug: "Upper_Mustang_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  
   
 ];
