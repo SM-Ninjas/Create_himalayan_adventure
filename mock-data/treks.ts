@@ -131,5 +131,119 @@ export const trekRegions: TrekAndTours[] = [
     ],
     route: routes.treks,
   },
+  {
+    name: "Annapurna Region Trekking",
+    options: [
+      {
+        name: "Annapurna Base Camp Trek - 14 Days",
+        slug: "annapurna_base_camp_trek",
+      },
+      {
+        name: "Annapurna Circuit Trek - 12 Days",
+        slug: "annapurna_circuit_trek",
+      },
+      {
+        name: "Mardi Himal Trek - 9 Days",
+        slug: "mardi_himal_trek",
+      },
+      {
+        name: "Ghorepani Poonhill Trek - 8 Days",
+        slug: "ghorepani_poonhill_trek",
+      },
+      {
+        name: "Short ABC Trek - 9 Days",
+        slug: "short_abc_trek",
+      },
+      {
+        name: "Poon Hill Trek - 2 Days",
+        slug: "poon_hill_trek",
+      },
+      {
+        name: "Poon Hill Mardi Himal Trek - 12 Days",
+        slug: "poon_hill_mardi_himal_trek",
+      },
+      {
+        name: "Annapurna Full Circuit Trek - 17 Days",
+        slug: "annapurna_full_circuit_trek",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Annapurna Region Trekking",
+    options: [
+      {
+        name: "Annapurna Base Camp Trek - 14 Days",
+        slug: "annapurna_base_camp_trek",
+      },
+      {
+        name: "Annapurna Circuit Trek - 12 Days",
+        slug: "annapurna_circuit_trek",
+      },
+      {
+        name: "Mardi Himal Trek - 9 Days",
+        slug: "mardi_himal_trek",
+      },
+      {
+        name: "Ghorepani Poonhill Trek - 8 Days",
+        slug: "ghorepani_poonhill_trek",
+      },
+      {
+        name: "Short ABC Trek - 9 Days",
+        slug: "short_abc_trek",
+      },
+      {
+        name: "Poon Hill Trek - 2 Days",
+        slug: "poon_hill_trek",
+      },
+      {
+        name: "Poon Hill Mardi Himal Trek - 12 Days",
+        slug: "poon_hill_mardi_himal_trek",
+      },
+      {
+        name: "Annapurna Full Circuit Trek - 17 Days",
+        slug: "annapurna_full_circuit_trek",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Annapurna Region Trekking",
+    options: [
+      {
+        name: "Annapurna Base Camp Trek - 14 Days",
+        slug: "annapurna_base_camp_trek",
+      },
+      {
+        name: "Annapurna Circuit Trek - 12 Days",
+        slug: "annapurna_circuit_trek",
+      },
+      {
+        name: "Mardi Himal Trek - 9 Days",
+        slug: "mardi_himal_trek",
+      },
+      {
+        name: "Ghorepani Poonhill Trek - 8 Days",
+        slug: "ghorepani_poonhill_trek",
+      },
+      {
+        name: "Short ABC Trek - 9 Days",
+        slug: "short_abc_trek",
+      },
+      {
+        name: "Poon Hill Trek - 2 Days",
+        slug: "poon_hill_trek",
+      },
+      {
+        name: "Poon Hill Mardi Himal Trek - 12 Days",
+        slug: "poon_hill_mardi_himal_trek",
+      },
+      {
+        name: "Annapurna Full Circuit Trek - 17 Days",
+        slug: "annapurna_full_circuit_trek",
+      },
+    ],
+    route: routes.treks,
+  },
   
 ];

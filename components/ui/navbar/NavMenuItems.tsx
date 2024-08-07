@@ -25,7 +25,7 @@ export function MenuItems() {
             Trekking in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3  bg-white p-4 md:w-[500px] md:grid-cols-2 lg:w-[800px]">
+            <ul className="grid w-[400px] gap-3  bg-white p-4 md:w-[500px] md:grid-cols-4 lg:w-[1000px] "style={{height:'50vh',overflowY:'scroll'}}>
               {trekRegions.map((item, index) => (
                 <ListItem title={item.name} key={index}>
                   <div className="flex max-h-[60vh] flex-col overflow-auto">
@@ -33,7 +33,8 @@ export function MenuItems() {
                       <Link href={`${item.route}/${each.slug}`}>
                         <p
                           key={index}
-                          className="regular-text mb-2 line-clamp-2 font-normal text-gray-900 hover:text-blue-700"
+                          className="regular-text mb-1 line-clamp-2 font-normal text-gray-900 hover:text-blue-700"
+                          style={{fontSize:'12px'}}
                         >
                           {each.name}
                         </p>
@@ -50,7 +51,7 @@ export function MenuItems() {
             Tours in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 bg-white p-4 md:w-[500px] md:grid-cols-2 lg:w-[800px]">
+            <ul className="grid w-[400px] gap-3 bg-white p-4 md:w-[500px] md:grid-cols-4 lg:w-[1000px]"style={{height:'50vh',overflowY:'scroll'}}>
               {tourRegions.map((item, index) => (
                 <ListItem title={item.name} key={index}>
                   <div className="flex max-h-[60vh] flex-col overflow-auto">
@@ -58,7 +59,9 @@ export function MenuItems() {
                       <Link href={`${item.route}/${each.slug}`} key={index}>
                         <p
                           key={index}
-                          className="regular-text mb-1 line-clamp-2 font-normal text-gray-600 hover:text-blue-700"
+                          className="regular-text mb-1 line-clamp-2 font-normal text-gray-900 hover:text-blue-700"
+                          
+                          style={{fontSize:'12px'}}
                         >
                           {each.name}
                         </p>
