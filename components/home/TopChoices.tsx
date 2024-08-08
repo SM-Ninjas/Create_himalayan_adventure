@@ -191,7 +191,7 @@ export const exploreMoreItems = [
     id: 1,
     url: "/locations/gosaikunda.webp",
     title: "Gosaikunda Trek",
-    slug: "treks/gosaikunda_trek",
+    slug: "treks/Gosaikunda_Lake_Trek",
   },
   {
     id: 2,
