@@ -10409,7 +10409,7 @@ Tamang_Heritage_Trail_Trek: {
       "days": "10 Days",
       "people": "1 to 10",
       "subimages": [
-        "/images/8FhUxFV77dQAw0Nsr8L6kPW9fuGi7O2Y5IbjPSpL.jpg",
+        "/images/8FhUxFV77dQAw0Nsr8L6kPW9fuGi7O2Y5IbjPSpL.jpeg",
         "/images/new-project---2022-11-13t153448.734-(1).webp",
         "/images/mountain-view-from-ghoretabela.webp",
         "/images/tamang-heritage-trail75.jpg",
@@ -10947,7 +10947,7 @@ Makalu_Base_Camp_Trek: {
   days: "19",
   people: "Small Group",
   subimages: [
-    "/images/makalu-base-camp.jpg",
+    "/images/makalu-base-camp.jpeg",
     "/images/makalu-base-camp-trek.jpeg",
     "/images/makalu-base-camp-trek.jpg",
     "/images/makalu-base-camp-trekking-in-nepal.webp",
