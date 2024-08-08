@@ -12839,7 +12839,6 @@ Upper_Mustang_Trek: {
     "Drive from Pokhara to Kathmandu",
   ],
 },
-<<<<<<< HEAD
 //    Trekking and Hiking in Bhutan
 snowman_trek_30_days: {
   id: 0,
@@ -13189,37 +13188,10 @@ DrukPathTrek: {
     endingPoint: "Thimphu",
     peoples: "Varies by group size",
     category: "Trekking",
-=======
-///////////////////////////////////////////////////////////////////////////BHUTAN//////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////Culture and City Tour///////////////////////
-best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
-  id: 1,
-  slug: "best_of_bhutan_tour_with_paro_punakha_and_thimphu",
-  title: "Best of Bhutan Tour with Paro, Punakha, and Thimphu",
-  category: "Tour",
-  img: "/locations/Paro-Tiger-Nest-Monastery.jpg",
-  description: "Explore the beautiful landscapes and cultural treasures of Bhutan in this comprehensive tour.",
-  location: "Bhutan",
-  days: "8 days",
-  people: "1-10",
-  subimages: [
-    "/locations/Paro-Tiger-Nest-Monastery.jpg",
-    "/locations/Punakha-Zong.jpg",
-    "/locations/Thimphu-Tsechu.jpg",
-    "/locations/Bhutan-Landscape.jpg",
-  ],
-  overView: {
-    duration: "An 8-day adventure through the cultural and natural highlights of Bhutan.",
-    startingPoint: "Arrival at Paro International Airport",
-    endingPoint: "Departure from Paro International Airport",
-    peoples: "Perfect for small groups or families.",
-    category: "Cultural and scenic tour.",
->>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
     bestSeason: "Spring and Autumn",
   },
   equipment: [
     {
-<<<<<<< HEAD
       title: "Trekking Boots",
       image: "path_to_boots_image.jpg",
       description: "Ensure you have sturdy and comfortable trekking boots.",
@@ -13265,52 +13237,10 @@ best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
     "All meals during the trek.",
     "Transport as per the itinerary.",
     "Permits and entrance fees."
-=======
-      title: "Travel Backpack",
-      image: "/images/travel_backpack.png",
-      description: "A sturdy and spacious backpack for all your travel needs.",
-    },
-    {
-      title: "Camera",
-      image: "/images/camera.png",
-      description: "Capture the breathtaking views and cultural sites.",
-    },
-    {
-      title: "Comfortable Shoes",
-      image: "/images/comfortable_shoes.png",
-      description: "Essential for exploring and sightseeing.",
-    },
-    {
-      title: "Travel Guidebook",
-      image: "/images/guidebook.png",
-      description: "Helpful for learning about Bhutan's culture and attractions.",
-    },
-  ],
-  about: [
-    "The Best of Bhutan Tour offers a comprehensive exploration of Bhutan's most renowned destinations, including the stunning Paro Valley, the majestic Punakha Dzong, and the vibrant city of Thimphu. Experience Bhutan's unique culture, majestic landscapes, and ancient monasteries.",
-    "Begin your journey in Paro, where you'll visit the iconic Tiger's Nest Monastery. Continue to Punakha, known for its beautiful dzong and picturesque valley. Finally, explore Thimphu, Bhutan's capital, and experience its vibrant culture and traditions.",
-    "Throughout the tour, you'll enjoy breathtaking views of the Himalayas, visit traditional Bhutanese temples and monasteries, and immerse yourself in the rich cultural heritage of this enchanting kingdom.",
-  ],
-  highlights: [
-    "Visit the Tiger's Nest Monastery perched on a cliff in Paro.",
-    "Explore the majestic Punakha Dzong, a masterpiece of Bhutanese architecture.",
-    "Discover the vibrant culture and traditions of Thimphu.",
-    "Enjoy stunning Himalayan landscapes and serene valleys.",
-    "Experience traditional Bhutanese festivals and cultural events.",
-    "Engage with local communities and learn about Bhutanese customs.",
-  ],
-  facilities: [
-    "Airport pick-up and drop-off service.",
-    "Accommodation in comfortable hotels.",
-    "Daily breakfast and selected meals included.",
-    "Guided tours and cultural activities.",
-    "Travel insurance and medical kit.",
->>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
   ],
   itinerary: [
     {
       day: 1,
-<<<<<<< HEAD
       description: "Arrival in Paro (2,280m/7,480ft)",
       details: "The tour begins with a scenic flight to Paro, the valley town, just west of Thimphu - the capital of Bhutan. As you look down from your window, you will witness the stunning views of Paro Dzong and the surrounding Himalayas. Upon your landing in Paro, our Bhutanese guide from Third Rock Adventures will come to welcome you and escort you to your hotel. After some rest and refreshment, you will be briefed on the trek itinerary. During the evening, you can stroll out in the town of Paro. As you pass the main streets, you can observe many traditional buildings.  After returning to the hotel, you will prepare for the next day’s hike. Overnight stay at a hotel in Paro."
     },
@@ -13343,45 +13273,10 @@ best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
       day: 7,
       description: "Trek from Simkotra Tsho Lake (4,110m/13,485ft) to Thimphu (2,350m/7,709ft) via Phajodhing Monastery - 6 to 7 hours (14km) trek",
       details: "Today you will reach the highest point of the trek at 4,210m/13,812ft before descending to Thimphu. As you follow the trail with a wide range of vegetation, you will see the Phajodhing Monastery. Gangkar Puensum, the highest mountain in Bhutan, can be seen vividly from here. The trail then continues down through a forest of blue pine and silver fir until you reach Thimphu. At Thimphu, you will visit Tashichho Dzong. The dzong is a Buddhist monastery and fortress on the western bank of the Wang Chu River. It has been the seat of the Druk Desi, or the head of the civil government of Bhutan, since 1952. You can enjoy your evening by strolling around the streets of Thimphu looking for a souvenir to take back home and also rejoice in the culmination of this successful trek. Overnight at a hotel in Thimphu."
-=======
-      description: "Arrival in Paro",
-      details: "Upon arrival at Paro International Airport, you'll be met by your guide and transferred to your hotel. Take some time to relax and acclimate to the altitude.",
-    },
-    {
-      day: 2,
-      description: "Paro Valley Exploration",
-      details: "Visit the Tiger's Nest Monastery, a must-see landmark. Explore other local attractions in Paro Valley, including traditional Bhutanese temples and markets.",
-    },
-    {
-      day: 3,
-      description: "Drive to Punakha",
-      details: "Travel to Punakha, known for its picturesque dzong and scenic beauty. Explore the Punakha Dzong and enjoy the serene surroundings.",
-    },
-    {
-      day: 4,
-      description: "Punakha Sightseeing",
-      details: "Continue exploring Punakha, visiting local monasteries and enjoying the natural beauty of the region.",
-    },
-    {
-      day: 5,
-      description: "Drive to Thimphu",
-      details: "Travel to Thimphu, the capital city of Bhutan. Explore key attractions, including the Tashichho Dzong and the Buddha Dordenma statue.",
-    },
-    {
-      day: 6,
-      description: "Thimphu Sightseeing",
-      details: "Continue your exploration of Thimphu, visiting local markets, museums, and cultural sites.",
-    },
-    {
-      day: 7,
-      description: "Return to Paro",
-      details: "Return to Paro for your final day. Explore any remaining sights or enjoy some last-minute shopping.",
->>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
     },
     {
       day: 8,
       description: "Departure",
-<<<<<<< HEAD
       details: "Your Druk Path Trek concludes today. After breakfast, our representative will drive you to the Paro International Airport for your onward journey."
     }
   ],
@@ -13774,20 +13669,11 @@ Soi_Yaksa_Trek: {
       }
     ],
 },
-=======
-      details: "Transfer to Paro International Airport for your departure flight. Farewell and safe travels.",
-    },
-  ],
-  HowToPrepare: {
-    paragraph: [
-      "Prepare for your Bhutan tour by ensuring you have all necessary travel documents, including a valid passport and visa. Pack comfortable clothing suitable for a range of temperatures and weather conditions. Bring essentials such as a camera, comfortable shoes, and a travel guidebook. It is also advisable to carry any personal medications and a basic first aid kit. Acclimate to the altitude by taking it easy on the first day and staying hydrated.",
-    ],
-  },
-  path: ["/images/BhutanTourMap.jpg"],
-},
-bhutan_tour_via_phuentsholing_7_days: {
-  "id": 2,
-  "slug": "bhutan_tour_via_phuentsholing_7_days",
+ 
+
+bhutan_tour_via_phuentsholing_days: {
+  id : 2,
+  slug : "bhutan_tour_via_phuentsholing_7_days",
   "title": "Bhutan Tour via Phuentsholing - 7 days",
   "category": "Tour",
   "img": "/locations/Bhutan-Phuentsholing.jpg",
@@ -18534,7 +18420,6 @@ gomkora_tshechu_festival_tour_13_days: {
 }
 }
 
->>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
 
 };
 
