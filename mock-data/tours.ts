@@ -260,7 +260,7 @@ export const tourRegions: TrekAndTours[] = [
       },
       {
         name: "2 Nights 3 Days Chitwan National Park Tour",
-        slug: "Chitwan_National_Park_Tour_2N3D:",
+        slug: "Chitwan_National_Park_Tour_2N3D",
       },
       {
         name: "3 Nights 4 Days Bardia National Park Tour",

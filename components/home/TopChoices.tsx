@@ -193,29 +193,24 @@ export const exploreMoreItems = [
     title: "Gosaikunda Trek",
     slug: "treks/Gosaikunda_Lake_Trek",
   },
-  {
-    id: 2,
-    url: "/locations/darjeeling.webp",
-    title: "Darjeeling Tour",
-    slug: "treks/five_himalayan_viewpoint_tour_pokhara",
-  },
+  
   {
     id: 3,
     url: "/locations/muktinath.jpeg",
-    title: "Muktinath Trek",
-    slug: "treks/muktinath_trek",
+    title: "Muktinath Helicopter Tour from Pokhara",
+    slug: "treks/Muktinath_Helicopter_Tour",
   },
   {
     id: 4,
     url: "/locations/pokhara.jpeg",
     title: "Pokhara Aventure",
-    slug: "treks/pokhara_day_tour_sunrise_sarangkot",
+    slug: "treks/pokhara_adventure",
   },
   {
     id: 5,
     url: "/locations/upper-mustang.jpeg",
     title: "Upper Mustang Trek",
-    slug: "treks/upper_mustang_trek",
+    slug: "treks/Upper_Mustang_Trek",
   },
   {
     id: 6,

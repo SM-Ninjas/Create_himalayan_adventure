@@ -26,7 +26,7 @@ export function MenuItems() {
             Trekking in Nepal
           </NavigationMenuTrigger>
           <NavigationMenuContent style={{}}>
-            <ul className="grid w-[400px] gap-1 p-4 md:w-[500px] md:grid-cols-3 lg:w-[1000px] "style={{height:'50vh',overflowY:'scroll',background:'#fff',opacity:'1 !important'}}>
+            <ul className="grid w-[400px] gap-1 p-4 md:w-[500px] md:grid-cols-3 lg:w-[1000px] bg-white opacity-1 "style={{height:'50vh',overflowY:'scroll'}}>
               {trekRegions.map((item, index) => (
                 <ListItem title={item.name} key={index}>
                   <div className="flex max-h-[60vh] flex-col overflow-auto">
