@@ -9824,7 +9824,7 @@ Phulchoki_Day_Hiking: {
       "Godawari to Kathmandu"
     ]
   },
-  Shivapuri_Day_Hike: {
+Shivapuri_Day_Hike: {
     id: 80,
     slug: "shivapuri-day-hike",
     category: "Hiking",

@@ -1,6 +1,6 @@
 import { staggerContainer, textVariant } from "@/lib/motion";
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -44,6 +44,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
+            <Link href={`/blogs/${item.id}`}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
@@ -60,6 +61,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
                   </div>
                 </div>
               </div>
+            </Link>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -82,6 +84,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
+              <Link href={`/blogs/${item.id}`}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
@@ -98,6 +101,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
                   </div>
                 </div>
               </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -120,6 +124,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
+              <Link href={`/blogs/${item.id}`}>
               <div className="flex flex-col gap-y-2">
                 <div className="relative h-96 w-auto">
                   <Image
@@ -136,6 +141,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
                   </div>
                 </div>
               </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
