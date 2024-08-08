@@ -12839,6 +12839,357 @@ Upper_Mustang_Trek: {
     "Drive from Pokhara to Kathmandu",
   ],
 },
+<<<<<<< HEAD
+//    Trekking and Hiking in Bhutan
+snowman_trek_30_days: {
+  id: 0,
+  slug: "snowman-trek-30-days",
+  category: "Featured Trip",
+  img: "snowman-trek-thumbnail.jpg",
+  description: "Snowman Trek is a challenging trek that takes you to a relatively untouched region of Bhutan. Not many men have ventured along this tough trail known to test one's limits to the fullest.",
+  title: "Snowman Trek - 30 days",
+  location: "Bhutan",
+  days: "30",
+  people: "Varies",
+  subimages: [
+    "snowman-trek-camp.jpg",
+    "snowman-trek-passes.jpg",
+    "snowman-trek-glaciers.jpg"
+  ],
+  overView:{ 
+    duration: "30 Days",
+    startingPoint: "Paro",
+    endingPoint: "Kathmandu",
+    peoples: "1 to 10",
+    category: "Moderate Trekking",
+    bestSeason: "Spring and Autumn",
+   },
+   equipment: [
+    {
+      title: "Oximeter",
+      image: "path/to/oximeter_image.jpg",
+      description: "An oximeter to check blood oxygen saturation levels during the trek.",
+    },
+    {
+      title: "Medical Kits",
+      image: "path/to/medical_kits_image.jpg",
+      description: "Essential medical kits for emergencies during the trek.",
+    },
+    {
+      title: "Sleeping Bags",
+      image: "path/to/sleeping_bags_image.jpg",
+      description: "Arrangement of sleeping bags and down jackets if required.",
+    },
+    {
+      title: "Trekking Map",
+      image: "path/to/map_image.jpg",
+      description: "Map of Upper Mustang Trekking via Muktinath.",
+    },
+  ],
+about: [
+"You will be crossing 11 high mountain passes, glaciers, mountain lakes, Himalayan rivers, and nomadic settlements during your adventure. You will be walking past grazing pastures of yaks and Blue Sheep. You get to visit some of the highest villages in Bhutan, interact with villages and learn more about the ethnic culture.",
+],
+  highlights: [
+    "The most challenging Himalayan trek that takes you to altitudes above 5,000 meters.",
+    "The route weaves across a wild landscape filled with high mountain passes, yak pastures, mountain lakes, and giant Himalayan peaks.",
+    "Campsites are located in idyllic surroundings near the dwellings of nomadic yak herders.",
+    "Opportunity to interact with the herdsmen at their tent made of yak hair.",
+    "Walk past the natural habitats of Blue Sheep, Himalayan Black Bear, and snow leopard.",
+    "Cross 11 mountain passes and several rivers and waterfalls.",
+    "Close-up views of Bhutan's tallest mountains – Mount Jomolhari, Jichu Drake, and Gangkar Museum.",
+    "Visit some of Bhutan's highest villages.",
+    "A classic camping adventure. Fully organized camping trek. Sleeping and dining in tents."
+  ],
+  facilities: [
+    "Camping equipment",
+    "Guide services",
+    "Food and meals",
+    "Transportation to and from trailheads"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Paro (2,235m/7,331ft)",
+      details: "It is a thrilling experience to fly into Paro international airport, located amidst the mountains. After the immigration formalities, your Bhutanese guide will meet you at the airport terminal and drive you to your hotel. Check-in and take a rest. No activity is planned for today. If you wish, you can stroll around and explore a bit of the city on your own."
+    },
+    {
+      day: 2,
+      description: "Paro Sightseeing",
+      details: "Your Paro sightseeing tour will commence after breakfast. Visit the most popular heritage spots in the city - Rinpung Dzong, Ta Dzong. Kyichu Monastery and Drugyel Dzong. Built-in the traditional style of architecture, the dzongs of fortresses used to be key defense posts of the Bhutanese military in the ancient days. Now, these buildings have been converted into museums, monasteries, and government offices."
+    },
+    {
+      day: 3,
+      description: "Drive from Paro to Shana (2,870m/9,416ft)",
+      details: "Today you will start your trek by driving from Paro to the starting point at Shana. The drive takes about 3-4 hours. Upon arrival at Shana, you will set up your campsite and prepare for the trek ahead."
+    },
+    {
+      day: 4,
+      description: "Shana to Soi Thangthangkha (3,610m/11,847ft)",
+      details: "Today's trek involves a steady climb from Shana to Soi Thangthangkha. The trek will take you through lush forests and along the river. Upon arrival at Soi Thangthangkha, set up your camp and rest for the night."
+    },
+    {
+      day: 5,
+      description: "Soi Thangthangkha to Jangothang (4,040m/13,250ft)",
+      details: "Today’s hike is relatively easier as you ascend to Jangothang. You will be treated to stunning views of the surrounding peaks. At Jangothang, set up your campsite near a yak herder’s camp and enjoy the views of Mount Jomolhari."
+    },
+    {
+      day: 6,
+      description: "Rest day at Jangothang",
+      details: "A rest day at Jangothang to acclimatize. You can explore the area, visit the nearby yak herder camps, and enjoy the beautiful landscape."
+    },
+    {
+      day: 7,
+      description: "Jangothang to Lingshi (4,010m/13,156ft)",
+      details: "Today's trek involves crossing the Jangothang River and ascending to Lingshi. The trail provides magnificent views of Jomolhari and Jichu Drake. Set up your camp at Lingshi and enjoy the surrounding landscapes."
+    },
+    {
+      day: 8,
+      description: "Lingshi to Chebisa (3,890m/12,762ft)",
+      details: "You will cross the Gombu La Pass today, offering panoramic views of the surrounding peaks. After descending, arrive at Chebisa and set up camp in the beautiful village."
+    },
+    {
+      day: 9,
+      description: "Chebisa to Shomuthang (4,340m/14,270ft)",
+      details: "The trail leads you through forests and high-altitude pastures to Shomuthang. The area is known for its scenic beauty and is a great place to set up camp."
+    },
+    {
+      day: 10,
+      description: "Shomuthang to Robluthang (4,370m/14,340ft)",
+      details: "Today you will cross the Jarela Pass, which offers spectacular views of the Himalayas. Continue to Robluthang, where you will set up your camp and enjoy the serene surroundings."
+    },
+    {
+      day: 11,
+      description: "Robluthang to Lemithang (4,280m/14,042ft)",
+      details: "The trek takes you through high-altitude pastures and across the Pass of Tsarila. Arrive at Lemithang and set up camp for the night."
+    },
+    {
+      day: 12,
+      description: "Lemithang to Laya (3,880m/12,730ft)",
+      details: "Today’s trek involves crossing the high-altitude terrain to reach Laya, one of the highest villages in Bhutan. Set up your camp in Laya and experience the local culture."
+    },
+    {
+      day: 13,
+      description: "Rest day at Laya",
+      details: "A rest day in Laya to acclimatize and explore the village. You can visit local homes and experience the traditional lifestyle of the people living in this remote area."
+    },
+    {
+      day: 14,
+      description: "Laya to Karsum (3,870m/12,696ft)",
+      details: "Today you will trek to Karsum, crossing several high-altitude passes. The trail offers stunning views of the surrounding mountains."
+    },
+    {
+      day: 15,
+      description: "Karsum to Gasa (3,380m/11,090ft)",
+      details: "The trek takes you down from the high-altitude terrain to the warmer climate of Gasa. You will have a chance to relax and visit the local hot springs."
+    },
+    {
+      day: 16,
+      description: "Rest day at Gasa",
+      details: "Enjoy a relaxing day at Gasa with a visit to the local hot springs. This day is meant for rest and recuperation."
+    },
+    {
+      day: 17,
+      description: "Gasa to Gelephu (2,290m/7,510ft)",
+      details: "Travel from Gasa to Gelephu by vehicle, leaving the high-altitude trek behind. Gelephu is known for its warm climate and lush surroundings."
+    },
+    {
+      day: 18,
+      description: "Gelephu to Tashigang (1,920m/6,299ft)",
+      details: "Continue your journey by road to Tashigang. The region is known for its vibrant culture and beautiful landscapes."
+    },
+    {
+      day: 19,
+      description: "Tashigang to Bumthang (2,600m/8,530ft)",
+      details: "Travel from Tashigang to Bumthang, known for its rich cultural heritage and beautiful monasteries."
+    },
+    {
+      day: 20,
+      description: "Bumthang Sightseeing",
+      details: "Explore Bumthang, visiting important monasteries and cultural sites. Enjoy the local cuisine and experience the rich heritage of Bhutan."
+    },
+    {
+      day: 21,
+      description: "Bumthang to Punakha (1,200m/3,937ft)",
+      details: "Travel from Bumthang to Punakha by road. Punakha is known for its stunning dzong and beautiful landscapes."
+    },
+    {
+      day: 22,
+      description: "Punakha Sightseeing",
+      details: "Explore the beautiful Punakha Dzong and the surrounding areas. Enjoy the scenic beauty and cultural significance of the region."
+    },
+    {
+      day: 23,
+      description: "Punakha to Thimphu (2,320m/7,656ft)",
+      details: "Travel from Punakha to Thimphu, the capital city of Bhutan. Explore the city's landmarks and cultural sites."
+    },
+    {
+      day: 24,
+      description: "Thimphu Sightseeing",
+      details: "Spend the day exploring Thimphu. Visit important sites such as the Buddha Dordenma, Tashichho Dzong, and the local markets."
+    },
+    {
+      day: 25,
+      description: "Thimphu to Paro (2,235m/7,331ft)",
+      details: "Return to Paro from Thimphu. Spend time exploring any sites you missed earlier or shopping for souvenirs."
+    },
+    {
+      day: 26,
+      description: "Paro Sightseeing",
+      details: "Visit the Tiger’s Nest Monastery and other notable sites in Paro. Enjoy the breathtaking views and final moments in Bhutan."
+    },
+    {
+      day: 27,
+      description: "Free day in Paro",
+      details: "A free day in Paro to relax, explore, or do any last-minute shopping."
+    },
+    {
+      day: 28,
+      description: "Prepare for Departure",
+      details: "Final preparations for departure. Pack your belongings and enjoy the last moments in Bhutan."
+    },
+    {
+      day: 29,
+      description: "Departure from Bhutan",
+      details: "Transfer to the airport for your flight back home. Bid farewell to Bhutan and the beautiful memories of the trek."
+    },
+    {
+      day: 30,
+      description: "Arrive Home",
+      details: "Arrive back home and reflect on your incredible journey through the Snowman Trek."
+    }
+  ],
+  HowToPrepare: {
+  paragraph: [
+  "Prepare for the trek by ensuring you have high-altitude trekking gear, warm clothing, and are physically prepared for challenging hiking conditions. Familiarize yourself with high-altitude trekking techniques and be prepared for a physically demanding experience."
+  ]
+}
+},
+Bhutan_Tour_with_Bumdra_High_Camp_Trek: {
+  id: 0,
+  slug: "bhutan-tour-with-bumdra-high-camp-trek",
+  category: "Trekking",
+  img: "path_to_main_image.jpg",
+  description: "Bhutan Tour with Bumdra High Camp trek combines visits to cultural sites with religious significance, Bumdra Trek Camp amidst the wilderness. The six days trek is short but comprehensive of all the adventures you can have in Bhutan. Bumdra high camp trek takes you on a camping trip to the heights of 3,800m/12,467ft and offers you an insight into its ancient beliefs that were primal in the establishment of Bumdra Monastery.",
+  title: "Bhutan Tour With Bumdra High Camp Trek",
+  location: "Bhutan",
+  days: "6 days",
+  people: "Group size varies",
+  subimages: [
+    "path_to_image1.jpg",
+    "path_to_image2.jpg",
+    "path_to_image3.jpg",
+    "path_to_image4.jpg",
+    "path_to_image5.jpg",
+  ],
+  overView: {
+    duration: "6 days",
+    startingPoint: "Paro",
+    endingPoint: "Paro",
+    peoples: "Varies",
+    category: "Trekking, Cultural Tour",
+    bestSeason: "Spring, Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Shoes",
+      image: "path_to_trekking_shoes_image.jpg",
+      description: "Comfortable and sturdy trekking shoes for rough terrains.",
+    },
+    {
+      title: "Backpack",
+      image: "path_to_backpack_image.jpg",
+      description: "Spacious backpack to carry all your essentials.",
+    },
+    {
+      title: "Warm Clothing",
+      image: "path_to_warm_clothing_image.jpg",
+      description: "Warm clothes for the chilly nights at high altitude.",
+    },
+    {
+      title: "Sleeping Bag",
+      image: "path_to_sleeping_bag_image.jpg",
+      description: "Comfortable sleeping bag suitable for cold weather.",
+    },
+  ],
+  about: [
+    "Bhutan Tour with Bumdra High Camp trek combines visits to cultural sites with religious significance, Bumdra Trek Camp amidst the wilderness. The six days trek is short but comprehensive of all the adventures you can have in Bhutan. Bumdra high camp trek takes you on a camping trip to the heights of 3,800m/12,467ft and offers you an insight into its ancient beliefs that were primal in the establishment of Bumdra Monastery."
+  ],
+  highlights: [
+    "Visit the age-old Rinpung Dzong built in the 15th century and see the beautiful wood carvings on its exterior.",
+    "Get a chance to walk to one of the oldest temples in Bhutan, Jowo Temple, located in the vicinity of Kichu Lhakhang in Paro Valley.",
+    "Be mesmerized with the panoramic views of Mt. Jumolhari and rolling green hills from the viewpoint of Chele La pass at an elevation of 3,988m/13,083ft.",
+    "Take a drive through the Bondey-Haa Highway, watching the traditionally built houses and restaurants nestled between mountains into the Hidden Rice Valley; Haa valley.",
+    "Visit the first model monastery in Bhutan, the Dobji Dzong, built in the 15th century.",
+    "Get a chance to visit the monastery that serves as the seat of Druk Desi/King of Bhutan in Tashichho Dzong.",
+    "Stroll around the Sang Choekor Monastery, serving as a college for as many as 150 monks who study and practice Buddhism.",
+    "Enjoy the mesmerizing views of the valley and mountains from the Bumdra campsite.",
+    "Visit the Bumdra Monastery known for the imprints of Dakinis/sky dweller who, as per belief, served Guru Rimpoche when he visited the monastery for meditation.",
+    "Visit the two caves Thulo Phuk and Pel Phuk in the Tiger’s Nest Monastery, sitting at the cliff in Paro, where Guru Rimpoche came on a Tiger’s back and meditated for three months."
+  ],
+  facilities: [
+    "Comfortable accommodation in hotels and camps.",
+    "Meals as per itinerary.",
+    "Experienced guide and porter services.",
+    "Transportation during the tour.",
+    "Entrance fees to the monuments and monasteries."
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Paro (2,253m/7,331ft) and sightseeing tour",
+      details: "On this day, you will arrive at the Paro International Airport in Paro, Bhutan. The flight towards the airport is very exciting and one of the most thrilling as you head close to the hills. You can spot the mountains on the far end while the hills are surrounding the airport. Upon your landing, you will be greeted by our Bhutanese guide from Third Rock Adventures and drive you to your hotel. At your hotel, you will get refreshed and then briefed about the next day’s tour. However, the sightseeing tour will begin now itself. You will visit the Rinpung Dzong, which is very close to your hotel. After crossing a wooden bridge, you will get to Rinpung, which translates to ‘Fortress of the Heaps of Jewels.’ The exterior of the monastery is colored red and has beautiful wood carvings. Rinpung was built by the Drukpa Lineage of the Kagyu sect in the 15th century. At present, it serves as the administrative body for the government of Bhutan. After your visit to Rinpung, you will also go on to visit Kichu Lhakhang. It is situated in Lango Gewong, with one of the oldest temples, Jowo Temple, constructed in the vicinity. It was built by the Tibetan Emperor, Songtsen, sometime in the 7th century. As per the Bhutanese myth, spiritual leader Guru Rimpoche came down here and concealed some spiritual treasures. You will head back to your hotel after enjoying the views. Overnight at a hotel in Paro."
+    },
+    {
+      day: 2,
+      description: "Drive from Paro to Haa Valley via Chele La Pass - 2 hours (60km) drive",
+      details: "The second day takes you on a drive from Paro to Haa Valley. The long drive is very exciting as you get to drive through long pine forests stretching to a distance. In about an hour from Paro, you will reach the Chele La Pass at an elevation of 3,988m/13,083ft. The views from Chele La are the fascinating thing about today's hike. You will be bestowed with the views of Mt. Jumolhari, and the pass is adorned with Buddhist prayer flags fluttering with the wind. Chele La is the highest motorable pass. In the winter season, it is covered by heaps of snow. But the diver is well trained to drive to the toughest road conditions. The second half of the drive continues towards Haa Valley. With views of the incredible mountains and valley, you will head on through a forest of fir, oak, and blue pine to reach Haa. Haa Valley is a tourist attraction since it connects to Hiking and Camping tours in Bhutan. The valley sits nestled between mountains. Haa valley is also dubbed as the hidden land Rice Valley due to the high rice production. The weather is chilly most of the seasons. You can visit the Haa Dzong and explore the nearby local village, where you can interact with the locals with assistance from your guide. Overnight stay at your hotel in Haa Valley."
+    },
+    {
+      day: 3,
+      description: "Drive from Haa to Thimphu and sightseeing tour - 3 to 4 hours (115km) drive",
+      details: "The third day begins with a lovely morning drive towards Thimphu, the capital city of Bhutan. The drive takes anywhere from three to four hours. The road takes you through the beautiful pine forest along the way. You can make a stop at the Dobji Dzong on the way if you like. Dobji is known to be the first model monastery built in Bhutan. Dobji, also known as the Dokar fortress, was built in the 15th century by Ngawang Chogyal. Inside the dzong vicinity, you can observe the statues of Jetsun Milarepa, Dungsy Dewa Zangpo, Guru Langdarchen, and Ngawang Chogyal. After enjoying the visit, you can head back on the road and join the main road at Chhuzom. The Chhuzom is a major road junction that connects the river in Paro, Pa Chhu, and the river in Thimphu, Thimp Chhu. The word Chhuzom is translated to ’where the rivers meet.’ Along with the confluence point, you can spot the locals selling the local produce like cheese, apples, vegetables, and more. You will head on towards Thimphu. Upon reaching your hotel in Thimphu, you can head out to the streets and go for a sightseeing tour, although a short one. You can opt to visit the Tashichho Dzong, which is a fortified monastery known best to be the seat of the Druk Desi/ King of Bhutan. The structure is large and architecturally beautiful. From there on, you can head on to the Buddha Dordenma, which is only half an hour's walk from Tashiccho. The Dordenma has a huge statue of Shakyamuni Buddha with a height of 54m/177ft. After the short tour, you will head back to your hotel and rest. Overnight stay at your hotel in Thimphu."
+    },
+    {
+      day: 4,
+      description: "Drive from Thimphu to Sang Choekor Monastery and trek to Bumdra (3,800m/12,467ft) - 2 hours (60km) drive and 5 to 6 hours trek",
+      details: "On the fourth day, you will begin the first hike of the tour. After having your breakfast at your hotel, you will get ready with the essentials for a hike. A short drive from Thimphu, you will reach the Sang Choekor Monastery. Sang Choekor is about an hour's drive from Thimphu and two hours from Paro. It serves as a college for monks where about 150 monks study. You can take a stroll around the monastery and enjoy the views of the Paro valley below. From there, you will begin your hike towards Bumdra Camp, which is at an altitude of 3,800m/12,467ft. The trail is steep, but with the help of your guide, you will hike slowly. Following a trail through the forest of blue pine, you will head on to reach Chhoe Tse Lhakhang. Along the way, you will also come across colorful rhododendron flowers, which adds to the aesthetic views of the landscape. Reaching the Chhoe Tse Lhakhang, you can enjoy the views of the snowy mountains of Chomolhari in the far distance. You will enjoy your packed lunch and then continue on the trail to finally reach Bumdra Camp. The camp sits atop a meadow adorned with prayer flags. Bumdra camp is one of the best viewpoints from where you can observe the lovely views of Paro Valley and the Himalayas to the north. The day’s trek is over after you reach the campsite, so you can refresh, have dinner, and then rest. Overnight stay at the campsite in Bumdra."
+    },
+    {
+      day: 5,
+      description: "Trek from Bumdra to Tiger’s Nest Monastery (3,120m/10,236ft) and drive to Paro - 5 to 6 hours trek and 30 minutes drive",
+      details: "On the fifth day, you will get to visit the famous Tiger’s Nest Monastery in Bhutan, also known as Paro Taktsang. The day’s trek begins after your breakfast at Bumdra Camp. You will then descend towards the Paro Valley. The downhill trail passes through lovely pine and oak forests. After an hour of hiking down, you will come across the Zangto Pelri Lhakhang temple. After a short rest and a visit, you will continue downhill on a short trail that leads to the Tiger’s Nest Monastery at an elevation of 3,120m/10,236ft. It is a place of historical significance in Bhutan. The trail to Tiger’s Nest has a viewpoint where you can observe the Paro valley and the beautiful landscape of Bhutan. The monastery sits atop a cliff. Upon reaching the monastery, you will get to see the two caves where Guru Rimpoche is believed to have meditated for three months. One is Thulo Phuk, and the other is Pel Phuk. According to the local myth, Guru Rimpoche flew to the cave on a tiger's back, hence the name Tiger’s Nest. You can also interact with the monks residing in the monastery, ask them questions about their history and life as a monk. After the visit, you will head downhill on a short trail and reach the road junction where you will be met by your driver. You will then drive back to Paro. Overnight stay at a hotel in Paro."
+    },
+    {
+      day: 6,
+      description: "Departure from Paro",
+      details: "The sixth day marks the end of your tour in Bhutan. After your breakfast, you will gather your luggage and essentials and get ready to drive to the Paro International Airport. You will have the morning to yourself to explore the nearby places. From Paro, you will catch your flight to your next destination. With lovely memories and the experience of visiting Bhutan, you will head on to your next journey. Our representative will bid you farewell at the airport."
+    },
+  ],
+},
+DrukPathTrek: {
+  id: 1,
+  slug: "druk-path-trek-8-days",
+  category: "Trekking",
+  img: "path_to_main_image.jpg",
+  description: "Druk Path Trek integrates an experience of the Bhutanese culture, traditions, age-old artifacts, and mesmerizing landscape in the heart of Bhutan from Paro to Thimphu. The 8-day itinerary ensures a glimpse of the remarkable landmarks in Bhutan with their spiritual values and beliefs.",
+  title: "Druk Path Trek - 8 days",
+  location: "Bhutan",
+  days: "8",
+  people: "Varies by group size",
+  subimages: [
+    "path_to_subimage1.jpg",
+    "path_to_subimage2.jpg",
+    "path_to_subimage3.jpg",
+    "path_to_subimage4.jpg",
+    "path_to_subimage5.jpg",
+  ],
+  overView: {
+    duration: "8 Days",
+    startingPoint: "Paro",
+    endingPoint: "Thimphu",
+    peoples: "Varies by group size",
+    category: "Trekking",
+=======
 ///////////////////////////////////////////////////////////////////////////BHUTAN//////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////Culture and City Tour///////////////////////
 best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
@@ -12863,10 +13214,58 @@ best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
     endingPoint: "Departure from Paro International Airport",
     peoples: "Perfect for small groups or families.",
     category: "Cultural and scenic tour.",
+>>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
     bestSeason: "Spring and Autumn",
   },
   equipment: [
     {
+<<<<<<< HEAD
+      title: "Trekking Boots",
+      image: "path_to_boots_image.jpg",
+      description: "Ensure you have sturdy and comfortable trekking boots.",
+    },
+    {
+      title: "Warm Clothing",
+      image: "path_to_clothing_image.jpg",
+      description: "Pack layers of warm clothing suitable for high-altitude trekking.",
+    },
+    {
+      title: "Backpack",
+      image: "path_to_backpack_image.jpg",
+      description: "A quality backpack to carry all your essentials during the trek.",
+    },
+    {
+      title: "Sleeping Bag",
+      image: "path_to_sleeping_bag_image.jpg",
+      description: "A warm sleeping bag for the cold nights at high altitudes.",
+    },
+  ],
+  about: [
+    "The Druk Path Trek is a one-of-a-kind trek in the Land of the Druk; Bhutan opens up to mystical Buddhist monasteries, temples, and lush green landscapes. The trek begins with a scenic flight to the Paro International Airport, which lands in the mesmerizing Paro valley. Paro gives you a first-hand insight into the warm and welcoming people of Bhutan.",
+    "Bhutan boasts the enchanting Tiger’s Nest Monastery sitting at the edge of a cliff. On the second day of your trip, you’ll get a chance to take a short hike to this monastery. Visiting the monastery will be more than you expected as you learn about Guru Rinpoche's myth and why the monastery is regarded as a pilgrimage for Buddhists.",
+    "After the acclimatization and sightseeing hike to the Tiger’s Nest, the trekking starts on the third day. Following a drive to Damchena Village via Ta Dzong, the National Museum of Bhutan, you get ready for the trek. From Damchena Village, the trail leads to Jele Dzong through a gravel path amidst green pastures on this day. The peaceful Paro Valley can be seen on the horizon with Mt. Jumolhari on the backdrop. On the fourth day of your trek, the silent trail will take you through lush alpine and rhododendron forest towards Jele La. With the sweet sound of Monal peasant singing, you reach your campsite at Jangchulakha.",
+    "The classic trek then reaches Jimilangtsho Lakes on the fifth day. Jimilangtsho is known primarily for the giant Trout fishes found there. Views of snow-capped mountains - Jichu Drake and Gangkar Puensum can be seen throughout the day. The trek offers a walk through the rhododendron forest to Janetsho Lake on the sixth day. Our campsite is near the undeniably beautiful Simkotra Tsho Lake, another highlight of the Druk Path Trek.",
+    "As the trek comes to an end on the seventh day, there is a change in the scenery from Simkotra Tsho to Thimphu. Views of Mt. Gangkar Puensum in the backdrop never leave your sight as the trail leads through the age-old Phajodhing Monastery into the city area of Thimphu. You can enjoy your evening by strolling around the streets of Thimphu looking for a souvenir to take back home and also rejoice in the culmination of this successful trek.",
+    "The eighth day marks an end to your wonderful Druk Path Trek as you head to the Paro International Airport for departure."
+  ],
+  highlights: [
+    "Druk Path Trek commences from the Paro valley and concludes in Thimphu city.",
+    "Stroll through the streets of Paro to observe the traditional buildings.",
+    "Visit the mystical and artistically majestic Tiger’s Nest Monastery sitting on a high cliff.",
+    "Observe the National Museum of Bhutan- Ta Dzong.",
+    "Savor the panoramic view of Mt. Jumolhari on the way to Jele Dzong.",
+    "Walk through the alpine pastures, lush pine, and rhododendron forest on the way to Jangchulakha.",
+    "Marvel at the beauty of Jimilangtsho Lakes, Janetsho Lake, and Simkotra Tsho Lake.",
+    "Get a chance to view the highest mountain of Bhutan - Gangkar Puensum (7497m).",
+    "Experience the remote nomadic life of the yak herders on the trail to Simkotra Tsho."
+  ],
+  facilities: [
+    "Accommodation in hotels and campsites.",
+    "Guided tours and treks.",
+    "All meals during the trek.",
+    "Transport as per the itinerary.",
+    "Permits and entrance fees."
+=======
       title: "Travel Backpack",
       image: "/images/travel_backpack.png",
       description: "A sturdy and spacious backpack for all your travel needs.",
@@ -12906,10 +13305,45 @@ best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
     "Daily breakfast and selected meals included.",
     "Guided tours and cultural activities.",
     "Travel insurance and medical kit.",
+>>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
   ],
   itinerary: [
     {
       day: 1,
+<<<<<<< HEAD
+      description: "Arrival in Paro (2,280m/7,480ft)",
+      details: "The tour begins with a scenic flight to Paro, the valley town, just west of Thimphu - the capital of Bhutan. As you look down from your window, you will witness the stunning views of Paro Dzong and the surrounding Himalayas. Upon your landing in Paro, our Bhutanese guide from Third Rock Adventures will come to welcome you and escort you to your hotel. After some rest and refreshment, you will be briefed on the trek itinerary. During the evening, you can stroll out in the town of Paro. As you pass the main streets, you can observe many traditional buildings.  After returning to the hotel, you will prepare for the next day’s hike. Overnight stay at a hotel in Paro."
+    },
+    {
+      day: 2,
+      description: "Sightseeing and Acclimatization Hike to Tiger’s Nest Monastery (3,180m/10,433ft) - 4 to 5 hours (5km) trek",
+      details: "Early in the morning, after having breakfast, you will hike to the Tiger’s Nest Monastery. The hike takes a 900m steep ascend and about four to five hours to reach the monastery. On the way to the monastery, you will be enchanted by the pine forest and the calming sound of the prayer flag fluttering with the swift wind. You’ll even walk past temples and a sacred pool. The mesmerizing monastery, seemingly sitting on the edge of a cliff, is perhaps the most famous in Bhutan. It is also known as Paro Taktsang or Taktsang Palphug Monastery. As per the mystical legend surrounding it, Guru Rimpoche/Padmasambhava flew to this very location on the back of a tigress after identifying it as a secret place to meditate three months after that. Guru Rimpoche is known to be a tantric who brought Buddhism to Bhutan. It is in this cave of the monastery that he practiced Vajrayana - tantra teaching. It was built in 1684 by the Penlop of Paro and has become a place of worship and tourism. Return to Paro and overnight stay at hotel."
+    },
+    {
+      day: 3,
+      description: "Drive to Damchena Village (2,487m/8,159ft) and trek to Jele Dzong (3,400m/11,152ft) - 4 to 5 hours (9km) trek",
+      details: "After breakfast, you will drive for 30 minutes through apple orchards and pine forests to reach Damchena Village. There, you will meet your trekking crew and begin the trek. After a quick descent from the ridge below Jele Dzong, you reach the campsite. On a clear day, the peaceful Paro Valley can be seen vividly, with Mt. Jumolhari (7,314m) on the backdrop. The other snow-capped mountains look equally beautiful, almost like a wonderful landscape painting. Jele Dzong is of equal prominence to the Bhutanese as it was the residing place of Ngawang Chhogye, the cousin of Lama Drukpa Kunley. Overnight at Camp."
+    },
+    {
+      day: 4,
+      description: "Trek from Jele Dzong (3,400m/11,154ft) to Jangchulakha (3,650m/11,975ft) - 3 to 4 hours (10km) trek",
+      details: "Today the trek begins with a steep climb for an hour and a half, followed by a gradual ascent along the ridge. The silent trail through the thick alpine forest and rhododendron takes you to a place of solitude. Upon crossing Jele La at 3,490m/11,450ft, you begin to see yak herders around the campsite. Mt. Jomolhari and other snow-capped peaks can be seen even more clearly from Jangchulakha, where we camp tonight."
+    },
+    {
+      day: 5,
+      description: "Trek from Jangchulakha (3,650m/11,975ft) to Jimilangtsho Lake (3,880m/12,730ft) - 4 to 5 hours (11km) trek",
+      details: "As you continue walking along the ridge, you will begin to notice the day-to-day life of nomadic yak herders. The scenic views of Jichu Drake (6,989m) and Gangkar Puensum (7,497m), the highest peak in Bhutan, provide more reason to stop and admire the beauty of Bhutan. You’ll reach Jimilangtsho, the famous lake, after walking through the forested ridges. If you are lucky, you’ll witness the giant trout fish in the lake. The word Jimilangtsho means Sand Ox Lake, which is named after a bull that transported the legendary treasures of Terton Pema Lingpa. Overnight at Camp."
+    },
+    {
+      day: 6,
+      description: "Trek from Jimilangtsho Lake (3,880m/12,730ft) to Simkotra Tsho Lake (4,110m/13,485ft) - 4 to 5 hours (11km) trek",
+      details: "You begin the day by walking along the path that traverses the ridges to reach Janetsho Lake. The trail passes through dwarf rhododendron trees and junipers. Along the way, you will see yak herder’s camps. The descent then takes you to Simkotra Tsho Lake. It is undeniably one of the most beautiful lakes in Bhutan. Overnight at Camp."
+    },
+    {
+      day: 7,
+      description: "Trek from Simkotra Tsho Lake (4,110m/13,485ft) to Thimphu (2,350m/7,709ft) via Phajodhing Monastery - 6 to 7 hours (14km) trek",
+      details: "Today you will reach the highest point of the trek at 4,210m/13,812ft before descending to Thimphu. As you follow the trail with a wide range of vegetation, you will see the Phajodhing Monastery. Gangkar Puensum, the highest mountain in Bhutan, can be seen vividly from here. The trail then continues down through a forest of blue pine and silver fir until you reach Thimphu. At Thimphu, you will visit Tashichho Dzong. The dzong is a Buddhist monastery and fortress on the western bank of the Wang Chu River. It has been the seat of the Druk Desi, or the head of the civil government of Bhutan, since 1952. You can enjoy your evening by strolling around the streets of Thimphu looking for a souvenir to take back home and also rejoice in the culmination of this successful trek. Overnight at a hotel in Thimphu."
+=======
       description: "Arrival in Paro",
       details: "Upon arrival at Paro International Airport, you'll be met by your guide and transferred to your hotel. Take some time to relax and acclimate to the altitude.",
     },
@@ -12942,10 +13376,405 @@ best_of_bhutan_tour_with_paro_punakha_and_thimphu: {
       day: 7,
       description: "Return to Paro",
       details: "Return to Paro for your final day. Explore any remaining sights or enjoy some last-minute shopping.",
+>>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
     },
     {
       day: 8,
       description: "Departure",
+<<<<<<< HEAD
+      details: "Your Druk Path Trek concludes today. After breakfast, our representative will drive you to the Paro International Airport for your onward journey."
+    }
+  ],
+  HowToPrepare:{
+    paragraph: [
+    "Build your stamina with regular exercise, including cardio and strength training.",
+    "Pack necessary trekking gear, ensuring quality and comfort.",
+    "Acclimatize properly by staying hydrated and taking necessary breaks.",
+    "Familiarize yourself with the altitude and possible weather conditions.",
+    "Consult a doctor and get necessary vaccinations and medications."
+  ],
+},
+},
+Dagala_Thousand_Lakes_Trek: {
+  id: 1,
+  slug: "dagala-thousand-lakes-trek",
+  category: "Trek",
+  img: "path/to/main/image.jpg",
+  description: "Dagala Thousand Lakes Trek is an exclusive trek in the unspoiled Land of Dragon, Bhutan, offering many lakes and mountain vistas.",
+  title: "Dagala Thousand Lakes Trek - 8 days",
+  location: "Bhutan",
+  days: "8",
+  people: "Varies",
+  subimages: [
+    "path/to/image1.jpg",
+    "path/to/image2.jpg",
+    "path/to/image3.jpg",
+    "path/to/image4.jpg",
+    "path/to/image5.jpg",
+  ],
+  overView: {
+    duration: "8 days",
+    startingPoint: "Paro",
+    endingPoint: "Thimphu",
+    peoples: "Varies",
+    category: "Trek",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Poles",
+      image: "path/to/trekking_poles.jpg",
+      description: "Essential for stability on uneven terrain."
+    },
+    {
+      title: "Hiking Boots",
+      image: "path/to/hiking_boots.jpg",
+      description: "Comfortable and sturdy boots for long hikes."
+    },
+    {
+      title: "Camping Gear",
+      image: "path/to/camping_gear.jpg",
+      description: "Includes tents, sleeping bags, and mats."
+    },
+    {
+      title: "First Aid Kit",
+      image: "path/to/first_aid_kit.jpg",
+      description: "Basic medical supplies for emergencies."
+    },
+  ],
+  about: [
+    "Dagala Thousand Lakes Trek is an exclusive trek in the unspoiled Land of Dragon, Bhutan, offering many lakes and mountain vistas. This 8-day Dagala Bhutan trek not just offers tranquility amidst the natural landscape but opens up to ancient monasteries and temples, giving light to the Buddhist culture. While there aren't 1000s of lakes in the trek as the name suggests, it has come metaphorically from all the mythical stories of how the place once consisted of thousands of lakes. The high mountain lakes like Utsho Tsho, Relitsho, Setsho, Hentsho, and Jagetsho lakes at Labatama are enough to entice you.",
+    "During most of the seasons on this trek, you will get the mountains, hills, and lakes all to yourself as the trail has very few or no tourists. You reach altitudes above 4,000m/13,123ft and might have to catch your breath once a while as you take a sharp and steep descend and ascends. The entire experience of visiting the pristine nature that the Bhutanese so dearly wish to preserve is a humbling experience.",
+    "This trek throws you into the arms of nature and blesses you will sight, unlike any place you have seen. From some of the highest mountain ranges to the Dzongs built late in the 15th and 17th centuries, you get the uncut beauty of Bhutan. No other experience can compare to the feeling of being disconnected from the materialistic and commercial world, then walking through remote locations with the views of the Himalayas in the backdrop. If you love to go on unique treks and, most often unbeaten, virgin track, this is the trek for you."
+  ],
+  highlights: [
+    "Trek begins from Genekha village and concludes at the Chamgang village.",
+    "Visit the ancient Rinpung Dzong, the largest Buddhist monastery built in the 15th century at the Drukpa Lineage of the Kagyu school.",
+    "Marvel at the ancient architecture of Kichu Lakhang, a Buddhist temple in Lango Gewog.",
+    "Get the most iconic pictures clicked at Tiger's Nest Monastery in Paro, a 17th-century masterpiece and the most famous monastery among tourists and Buddhist pilgrims alike.",
+    "Genekha village is perhaps best known for producing matsutake and chantarelle mushrooms.",
+    "Walk through the lush green forest of Juniper, Birch, adorned with rhododendron meadows amidst wildflowers and Himalayan Blue Poppy.",
+    "Observe the panoramic view of Mt. Kanchenjunga, one of the highest in the world, after a tiring trek to the Paga Labsta pass at 4,250m/13,943ft elevation.",
+    "Observe the majestic Dagala mountain range as you leave from Panka.",
+    "Get to camp beside the turquoise Utsho Tsho lake at an elevation of 4,300m and explore the lakes like Relitsho, Setsho, Hentsho, and Jagetsho Lakes at Labatama.",
+    "Enjoy the panoramic views of the high-standing mountains like Mt. Everest, Mt. Kanchenjunga, Mt. Jumolhari, Mt. Jichu Drake, MT. Tshering Gang, Mt. Tsende Gang, Mt. Gangche Ta, Mt. Khangbum, and Mt. Masang Gang from the Dala Tsho lakeside sit at an altitude of 4,520m/14,829ft.",
+    "Visit the 15th century built Talakha Goempa at 3,080m/10,104ft on Chamganag from Panka."
+  ],
+  facilities: [
+    "Guided tours",
+    "Camping equipment",
+    "Meals provided",
+    "Transportation",
+    "Accommodation in hotels and campsites"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival at Paro",
+      details: "The flight to Bhutan lands at the Paro International Airport, the only international airport in Bhutan. As you look out the window of your plane, you will see the high-standing mountains on the far horizon with green hills sitting below them. Upon your arrival, you will be greeted by our Bhutanese guide at Third Rock Adventures. After being driven to your hotel for the stay, you will be briefed about the entire trek by your guide. Your stay at Paro can be made special by visiting the nearby landmarks famous to the valley. In the afternoon, you can visit the Rinpung Dzong. It is a large Buddhist monastery that was once a fortress to the Drukpa Lineage of the Kagyu school, built in the 15th century. Rinpung has been inducted into Bhutan's Tentative List for UNESCO inclusion. From there, you will pass a traditional wooden bridge and towards Kichu Lhakhang. Kichu Lakhang is a beautiful Buddhist temple in Lango Gewog with ancient architecture. After the interesting tour, you will take a stroll in the street of Paro, which is filled with ancient architectural buildings on the side. Overnight stay at a hotel in Paro."
+    },
+    {
+      day: 2,
+      description: "Hike to Tiger's Nest Monastery hike and transfer to Thimphu – 5 to 6 hours hike",
+      details: "After having breakfast, you will prepare for one of the most exciting sightseeing hikes in Bhutan. The Tiger's Nest Monastery, known locally as Paro Taktsang or Taktsang Palphug Monastery, is one of the thirteen caves where Guru Rimpoche meditated and practiced Vajrayana. Guru Rimpoche is a legendary tantric who, as per myth, flew on the back of a Tigress and identified this place for meditation for about three months. Guru Rimpoche is perhaps the most followed spiritual leader in Bhutan. Tiger's Nest in Paro was built in the 17th century by Gyalse Tenzin Rabgye and has become a pilgrimage for Buddhist pilgrims. There are four main temples and eight caves. The ambiance of the monastery is amplified by the lush trees on the sides of the cliff. There is a nearby shrine and a prayer wheel, and further above it is Phaphug Lakhang, a holy cave temple. After returning from the wonderful tour, you will take a drive towards Thimphu. Stay overnight at the hotel in Thimphu."
+    },
+    {
+      day: 3,
+      description: "Trek from Genekha to Gur (3290m/10,793ft) – 5 to 6 hours (7km) trek",
+      details: "Today is the first day of your trek which will start early in the morning after taking a drive from your hotel to Genekha Village which takes about 45 minutes. Genekha village is perhaps best known for producing matsutake and chantarelle mushrooms. You begin your trek with a short descends to the river. The trail runs through terraced fields and coniferous trees and other alpine flora. From there on, you will start with a climb after crossing the river. You will keep up the walk until you reach a rock platform. You will instantly spot a spectacular view of the valley. Two hours from there you will reach Gur (3290m). Gur is a wide area of yak pastures. After a short walk you reach your campsite amidst an abundance of wildflowers. Stay overnight at camp in Gur."
+    },
+    {
+      day: 4,
+      description: "Trek from Gur to Labatama (4,300m/14,107ft) - 6 to 7 hours (12km) trek",
+      details: "Today you will begin the trek by following a trail across the high ridges. Amidst the rough and rugged landscape, you can observe the vegetation unique to Bhutan. In the spring, the best season for Dagala Thousand Lakes Trek, the wildflowers and asparagus along the way can be spotted. The rhododendron-adorned path brings you to the pass at 4240m, with a panoramic view of Kanchenjunga (the 3rd highest mountain in the world), and the highest peaks of Bhutan – Chomolhari, Jichu Drake, etc. You will finally reach Labatama by the side of the turquoise Utsho Tsho Lake. Stay overnight at camp beside the lake."
+    },
+    {
+      day: 5,
+      description: "Excursion around Labatama (4,300m/14,107ft)",
+      details: "Today you will enjoy an entire day visiting the lakes and exploring the nearby area. You can either opt for an acclimatization hike to any of three nearby lakes: Reli Tsho, Hen Tsho, or Setso Tsho, or relax at the camp with the views of Mt. Everest, Kanchenjunga, Chomolhari, Jichu Drake, Tshering Gang, Gangche Ta, and more high standing mountains. Overnight stay at camp in Labatama."
+    },
+    {
+      day: 6,
+      description: "Trek from Labatama to Panka (4,000m/13,123ft) - 6 to 7 hours (8km) trek",
+      details: "Today you start your journey to Panka by walking towards the Dala Tsho Lake. After a short while, you reach the lakeside to the next ascend at 4,520m/14,829ft. From there on you get the panoramic views of some of the high-standing mountains. From there the trail is wide and easy to walk on. You start with an ascends and then descend only to ascend again through the rugged paths. On your way, you will be able to spot several varieties of Blue Poppy (Bhutan’s national flower) and other mountain floras. In this particular trek, you may spot rare animals like Himalayan Monal and Blood Pheasants. Walk further and you will reach your campsite at Panka. Stay overnight at camp."
+    },
+    {
+      day: 7,
+      description: "Trek from Panka to Talakha and drive to Thimphu (3,080m/10,104ft) - 8km, 6 to 7 hours",
+      details: "Today you will start with an ascend from Panka, then further follow the trail across several passes. From there, you might get a glimpse of the majestic view of the Himalayan ranges. After crossing the last pass, Tale La at 4,180m/13,714ft, you descend toward the Chamgang village. After a while, you will spot the beautiful Talakha monastery, a temple built in the 15th century. You will further descend towards the village of Chamgang. After reaching the village, you will be driven to Thimphu in a private vehicle. Stay overnight at a hotel in Thimphu."
+    },
+    {
+      day: 8,
+      description: "Departure from Thimphu",
+      details: "Your trip to Bhutan and the lovely trek conclude today. After having breakfast at the hotel, you will be driven to the Paro International Airport for your flight back home."
+    },
+  ],
+},
+Jomolhari_Trek: {
+  id: 0,
+  slug: "jomolhari-trek",
+  category: "trekking",
+  img: "path_to_main_image.jpg",
+  description: "Jomolhari Trek is one of the most sought-after trekking destinations in Bhutan. This trek is also known as Chomolhari or Jumolhari Trek in Bhutan. The panoramic views of the Jomolhari mountain are a major highlight of this 11-day trek.",
+  title: "Jomolhari Trek - 11 days",
+  location: "Bhutan",
+  days: "11",
+  people: "Varies",
+  subimages: [
+    "path_to_image1.jpg",
+    "path_to_image2.jpg",
+    "path_to_image3.jpg",
+    "path_to_image4.jpg",
+    "path_to_image5.jpg",
+  ],
+  overView: {
+    duration: "11 days",
+    startingPoint: "Paro",
+    endingPoint: "Thimphu",
+    peoples: "Varies",
+    category: "Trekking",
+    bestSeason: "Spring and Autumn",
+  },
+  equipment: [
+    {
+      title: "Trekking Poles",
+      image: "path_to_trekking_poles_image.jpg",
+      description: "Sturdy trekking poles to assist you on uneven terrain.",
+    },
+    {
+      title: "Hiking Boots",
+      image: "path_to_hiking_boots_image.jpg",
+      description: "Comfortable and durable hiking boots.",
+    },
+    {
+      title: "Sleeping Bag",
+      image: "path_to_sleeping_bag_image.jpg",
+      description: "Warm sleeping bag suitable for high altitudes.",
+    },
+    {
+      title: "Backpack",
+      image: "path_to_backpack_image.jpg",
+      description: "A large backpack to carry all your essentials.",
+    },
+  ],
+  about: [
+    "The Jomolhari Trek offers a once-in-a-lifetime opportunity to experience the true monastic life and remarkable landmarks with amazing architecture. Even the ruins of the age-old monasteries throughout the trek take you back in time and introduce you to the true Bhutan.",
+    "The trek that takes an average of five to six hours a day is not as difficult as others in Bhutan. However, the Jomolhari trek difficulty is observed as you cross Nylie La pass and Yeli La pass. However, the trek is worth it as you get the opportunity of viewing high-standing snowcapped mountains like Jomolhari, Jichu Drake, and Tshering Gang.",
+    "Most of the trekking destinations pass through farmlands, pastures, and forests. On the way to Jangothang, you observe the lifestyle of the Bhutanese people living in small villages of Sio, Takethang, and Dangochang. The villages have traditional houses that reflect the rural side of Bhutan. The trail even passes wooden bridges above swift-flowing rivers. But the best of all is perhaps the cool mountain wind that blows on your face as you reach the highest point at Nylie La pass at 4,830m on the way to Lingshi from Jangothang.",
+  ],
+  highlights: [
+    "The trek commences from the valley town of Paro and concludes at the modern city of Thimphu.",
+    "Visit Bhutan's mystical and most prominent landmark- Tiger’s Nest Monastery, sitting on the edge of a cliff.",
+    "Learn about the ancient beliefs and myths surrounding various monasteries throughout the trek.",
+    "Enjoy walking by the rice terrace and millet field as you pass by small villages with traditionally built houses on the way to Shana.",
+    "Savor the beauty of the snowcapped Jomolhari mountain at a distance from your campsite at Thangthagkha.",
+    "Observe the way of life of the Bhutanese people in the small village of Sio, Takethang, and Dangochang.",
+    "Get a chance to spot birds like Fire-tailed Sunbird, White-throated Dipper, Yellow-billed Chough, and more.",
+    "Relish the panoramic views of mountains like Jichu Drake and Tshering Gang.",
+    "Experience trekking to the high pass of Nylie La at 4,830m/15,846ft and Yeli La at 4,820m.",
+    "Walk beside the Pachu river in the first few days and Wang Chhu river through the last few days of the trek.",
+    "Walk past rhododendron, blue pine, birch, and conifers rich forest mostly throughout the trek.",
+    "Get a chance to spot the Langur monkeys on the trees in the Jigme Dorji National Park.",
+  ],
+  facilities: [
+    "Guided tours",
+    "Accommodation in hotels and camps",
+    "Meals",
+    "Transportation",
+    "Permits and entry fees",
+    "Emergency medical services",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival at Paro (2,235m/7,331ft)",
+      details: "Your Jomolhari trek begins with a scenic flight to the valley town of Paro, Bhutan. Upon your arrival at Paro, our Bhutanese guide will pick you up and drive you to your hotel for your stay. You will visit Rimpung Dzong and Kichu Lhakhang.",
+    },
+    {
+      day: 2,
+      description: "Sightseeing and Acclimatization Hike to Tiger’s Nest Monastery (3,180m/10,433ft) - 5 to 6 hours hike",
+      details: "The hike to Tiger’s Nest Monastery begins early in the morning. The monastery is a mystical place sitting on the edge of a high cliff surrounded by mist. You will head back to your hotel at Paro for an overnight stay.",
+    },
+    {
+      day: 3,
+      description: "Drive to Shana (2,850m/9,350ft) & Trek to Sio Thangthangkha (3,750m/12,303ft) – 30 minutes (17km) drive & 6 to 7 hours (21km) trek",
+      details: "You will drive to Shana and start the trek. The trail goes through small ups and downs, leading to a meadow where a camp will be set up. From here, if weather permits, you will have the first great view of Mt. Jumolhari.",
+    },
+    {
+      day: 4,
+      description: "Sio Thangthangkha to Jangothang (4,050m/13,287ft) - 5 to 6 hours (19km) trek",
+      details: "The trek leads to Paro Chuu Valley, passing through an alpine meadow and forest. You will walk beside the Pachu River and pass some small villages before reaching the Jangothang Base Camp.",
+    },
+    {
+      day: 5,
+      description: "Acclimatize at Jangothang",
+      details: "You will take a rest day at Jangothang. You can take a small hike around the nearby landscape or up to Tsophu Lake. The views of Jomolhari and Jichu Drake from a distance are breathtaking.",
+    },
+    {
+      day: 6,
+      description: "Trek from Jangothang to Lingshi (4,100m/13,451ft) - 6 to 7 hours (19km) trek",
+      details: "The trek heads to Lingshi, starting with a steep climb above the base camp into glacial moraine. You will walk through a snowy path to Nylie La pass and then descend to Lingshi campsite.",
+    },
+    {
+      day: 7,
+      description: "Trek from Lingshi to Shodu (4,100m/13,451ft) - 8 to 9 hours (22km) trek",
+      details: "You will take a long trek to Shodu, starting with a climb upwards to a chorten on a ridge into the Mo Chhu valley. You will cross a river and ascend to the Yeli La pass before reaching the Shodu campsite.",
+    },
+    {
+      day: 8,
+      description: "Trek from Shodu to Barshong (3,600m/11,810ft) - 7 to 8 hours (22km) trek",
+      details: "The path follows the Thimphu River, descending through rhododendron, juniper, and other alpine forests. You will gradually ascend to the ruins of Barshong Dzong and camp in Barshong.",
+    },
+    {
+      day: 9,
+      description: "Trek from Barshong to Domshisa & Drive to Thimphu - 30 minutes (about 500 m) trek & 2 to 3 hours (35 km) drive",
+      details: "After breakfast, you will walk to the road point where a car will take you to Thimphu. You can celebrate your return to civilization with a refreshing shower at a comfortable hotel.",
+    },
+    {
+      day: 10,
+      description: "Thimphu Sightseeing Tour & Drive to Paro – 1 hour (54 km) drive",
+      details: "You will go on a full day of sightseeing in Thimphu, visiting places like King’s Memorial Chorten, National Institute of Traditional Medicine, and Tashichho Dzong. After sightseeing, you will drive to Paro.",
+    },
+    {
+      day: 11,
+      description: "Final Departure",
+      details: "You will be driven to Paro International Airport for your final departure.",
+    },
+  ],
+},
+Soi_Yaksa_Trek: {
+    id: 0,
+    slug: "soi-yaksa-trek",
+    category: "Trekking",
+    img: "main_image.jpg",
+    description: "Soi Yaksa Trek discovers the transcendental valley of Soi Yaksa nestled in between the hills and mountains of mystic Bhutan. The 12-day trek begins with a quick tour to Haa Valley, into the laps of Jumolhari mountain at Jangothang, crossing Bonte La pass towards Soi Yaksa Valley, and ends at Thimphu. Soi Yaksa Trek is also often referred concurrently to Jumolhari trek because of parts of the route match. However, the second half of the trek is contemporary. It pushes you back to an ancient era with all the yak herders’ huts and Buddhist monasteries scattered in the terrain.",
+    title: "Soi Yaksa Trek",
+    location: "Bhutan",
+    days: "12",
+    people: "Min 1",
+    subimages: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg",
+      "image4.jpg",
+      "image5.jpg"
+    ],
+    overView: {
+      duration: "12 days",
+      startingPoint: "Paro",
+      endingPoint: "Paro",
+      peoples: "Min 1",
+      category: "Trekking",
+      bestSeason: "Spring, Autumn"
+    },
+    equipment: [
+      {
+        title: "Trekking Poles",
+        image: "equipment1.jpg",
+        description: "Useful for maintaining balance on uneven terrain."
+      },
+      {
+        title: "Hiking Boots",
+        image: "equipment2.jpg",
+        description: "Comfortable and sturdy boots for trekking."
+      },
+      {
+        title: "Backpack",
+        image: "equipment3.jpg",
+        description: "Spacious backpack for carrying essentials."
+      },
+      {
+        title: "Sleeping Bag",
+        image: "equipment4.jpg",
+        description: "Warm sleeping bag for camping nights."
+      }
+    ],
+    about: [
+      "The Soi Yaksa Trek is a challenging yet rewarding journey through the picturesque landscapes of Bhutan, taking you through remote valleys, high passes, and serene lakes. The trek offers stunning views of some of the highest peaks in the world, including Mt. Jumolhari and Mt. Kanchenjunga. This trek is ideal for adventure seekers and nature lovers who want to experience the untouched beauty of Bhutan."
+    ],
+    highlights: [
+      "Trek begins from Thangthangkha and concludes at Shana.",
+      "Visit the age-old fortress turned monastery Rinpung Dzong in Paro along with the Buddhist temple, Kichu Lakhang in Lango Gewog, Paro.",
+      "Drive to the highest motorable pass route in Chele La at the altitude of 3,988m/13,083ft.",
+      "Drive through the Bondey-Haa Highway to reach the Hidden Land Rice Valley, Haa Valley.",
+      "Enjoy the first clear views of one of the highest mountains in the world, Jumolhari, at the altitude of 7,326m/24,035ft in the Thangthagkha campsite.",
+      "Come across the national flower of Bhutan-Himalayan Blue Poppy, Golden Eagles, and Himalayan Rhubarb along the route.",
+      "Camp beside the Tsho Phu lake is a pair of lakes that were once stacked with brown trout, now banned by the government for fishing.",
+      "Cross the highest pass of the trek, Bonte La pass at 4890m to enter the amazing Soi Yaksa valley.",
+      "Visit King’s Memorial Chorten, giant Buddha Dordenma Statue, Folk Heritage Museum, and the office of the king, Tashichho Dzong, at Thimphu.",
+      "Marvel at the views of the snowcapped mountains; Jumolhari, Jichu Drake, Kanchenjunga, and Teri Kang."
+    ],
+    facilities: [
+      "Experienced guides",
+      "Camping equipment",
+      "Meals during the trek",
+      "Transportation",
+      "Permits and fees"
+    ],
+    itinerary: [
+      {
+        "day": 1,
+        "description": "Arrival at Paro (2,235m/7,331ft)",
+        "details": "Arrive at Paro International Airport, transfer to hotel, visit Rinpung Dzong and Kichu Lakhang."
+      },
+      {
+        "day": 2,
+        "description": "Drive from Paro to Haa through Chele La (3,575m/11,729ft)",
+        "details": "Drive through the highest motorable pass to Haa valley, visit Katsho village block, return to Paro."
+      },
+      {
+        "day": 3,
+        "description": "Sightseeing and Acclimatization Hike to Tiger’s Nest Monastery (3,180m/10,433ft)",
+        "details": "Hike through pine forests to the Tiger’s Nest Monastery, return to Paro."
+      },
+      {
+        "day": 4,
+        "description": "Trek from Drukgyal Dzong (Paro) to Shana (2,850m/9,350ft) – 5 to 6 hours (17km) trek",
+        "details": "Begin trek from Drukgyal Dzong, pass through small villages and blue pine forests, camp at Shana."
+      },
+      {
+        "day": 5,
+        "description": "Trek from Shana to Sio Thangthangkha (3,750m/12,303ft) - 7 to 8 hours (21km) trek",
+        "details": "Trek through blue pine, oak, and rhododendron forests, camp at Sio Thangthangkha."
+      },
+      {
+        "day": 6,
+        "description": "Trek from Thangthagka to Jangothang (4,050m/13,271ft) - 5 to 6 hours (19km) trek",
+        "details": "Trek through alpine meadows, pass army camp, reach Jangothang Base Camp with views of Mt. Jumolhari."
+      },
+      {
+        "day": 7,
+        "description": "Acclimatize at Jangothang (4,010m/13,156ft)",
+        "details": "Short hike to Tso Phu Lake, enjoy views of Mt. Jumolhari and Jichu Drake, return to camp."
+      },
+      {
+        "day": 8,
+        "description": "Jangothang to Soi Yaksa (4,890m/16,043ft) - 6 to 7 hours (16km) trek",
+        "details": "Cross Bonte La pass, descend to Dhumzo Chhu, camp at Soi Yaksa."
+      },
+      {
+        "day": 9,
+        "description": "Soi Yaksa to Thombu Shong (4,180m/13,714ft) - 4 to 5 hours (11km) trek",
+        "details": "Climb over ridge, cross stream, ascend to Takhung La, descend to Thombu Shong, camp at Thombu Shong."
+      },
+      {
+        "day": 10,
+        "description": "Thombu Shong to Gunitsawa to Thimphu (4,380m/14,370ft) - 4 to 5 hours (13km) trek",
+        "details": "Climb to Thombu La, descend to Gunitsawa, drive to Thimphu, overnight stay in Thimphu."
+      },
+      {
+        "day": 11,
+        "description": "Sightseeing tour at Thimphu",
+        "details": "Visit King’s Memorial Chorten, Buddha Dordenma Statue, Folk Heritage Museum, Tashichho Dzong."
+      },
+      {
+        "day": 12,
+        "description": "Drive from Thimphu to Paro and final departure",
+        "details": "Drive to Paro International Airport, departure."
+      }
+    ],
+},
+=======
       details: "Transfer to Paro International Airport for your departure flight. Farewell and safe travels.",
     },
   ],
@@ -17705,6 +18534,7 @@ gomkora_tshechu_festival_tour_13_days: {
 }
 }
 
+>>>>>>> 8256624477921dc31b233996f9d50a6f6d441056
 
 };
 
