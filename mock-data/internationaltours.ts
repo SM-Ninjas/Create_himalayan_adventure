@@ -189,42 +189,35 @@ export const internationalRegions: TrekAndTours[] = [
       }, {
         name: "Tibet",
         options: [
-          {
-            name: "",
-            slug: "",
-          },
-          {
-            name: "",
-            slug: "",
-          },
-          {
-            name: "",
-            slug: "",
-          },
-          {
-            name: "",
-            slug: "",
-          },
+     
         ],
         route: routes.treks,
       }, {
         name: "Culture And City Tours in Tibet",
         options: [
           {
-            name: "",
-            slug: "",
+            name: "Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse - 8 days",
+            slug: "Tibet_Tour_Lhasa_Tsedang_Samye_Gyantse_Shigatse_8_Days",
           },
           {
-            name: "",
-            slug: "",
+            name: "Lhasa to Everest Base Camp Tour - 8 Days",
+            slug: "Lhasa_Everest_Base_Camp_Tour",
           },
           {
-            name: "",
-            slug: "",
+            name: "Lhasa and Shigatse Tour - 6 days",
+            slug: "LhasaAndShigatseTour",
           },
           {
-            name: "",
-            slug: "",
+            name: "Lhasa and Yamdrok Lake Tour - 5 days",
+            slug: "Lhasa_and_Yamdrok_Lake_Tour",
+          },
+          {
+            name: "Lhasa Short Tour - 4 days",
+            slug: "Lhasa_Short_Tour",
+          },
+          {
+            name: "Lhasa and Tsedang Tour - 6 days",
+            slug: "Lhasa_and_Tsedang_Tour",
           },
         ],
         route: routes.treks,

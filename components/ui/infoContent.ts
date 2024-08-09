@@ -18419,8 +18419,663 @@ gomkora_tshechu_festival_tour_13_days: {
   ]
 }
 },
+//Tibet
+Tibet_Tour_Lhasa_Tsedang_Samye_Gyantse_Shigatse_8_Days: {
+  id: 0,
+  slug: "tibet-tour-lhasa-tsedang-samye-gyantse-shigatse-8-days",
+  category: "Tibet Tour",
+  img: "link_to_image.jpg",
+  description: "The Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse takes you to the cultural heart of Tibet. Discover the rich cultural heritage and ancient history of the Tibetans. Starting from Lhasa, you will travel to the center of the Roof of the World and explore the ancient citadels, palaces, and monasteries built by Tibetan kings and revered Buddhist saints. The journey will introduce you to the stark and stunning beauty of the bare Tibetan landscape, which is bound to leave you captivated.",
+  title: "Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse - 8 days",
+  location: "Tibet",
+  days: "8",
+  people: "Small Group",
+  subimages: [
+    "link_to_image_1.jpg",
+    "link_to_image_2.jpg",
+    "link_to_image_3.jpg"
+  ],
+  overView: {
+    duration: "8 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Lhasa",
+    peoples: "Small Group",
+    category: "Tibet Tour",
+    bestSeason: "Spring and Autumn"
+  },
+  equipment: [
+    {
+      title: "Comfortable walking shoes",
+      image: "link_to_image.jpg",
+      description: "Essential for walking tours and monastery visits."
+    },
+    {
+      title: "Warm clothing",
+      image: "link_to_image.jpg",
+      description: "Necessary due to Tibet's cold climate, especially in higher altitudes."
+    },
+    {
+      title: "Sunglasses",
+      image: "link_to_image.jpg",
+      description: "To protect your eyes from the bright Tibetan sun."
+    },
+    {
+      title: "Sun protection",
+      image: "link_to_image.jpg",
+      description: "Sunblock and a hat are recommended to protect against strong UV rays."
+    }
+  ],
+  about: [
+    "The Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse is an 8-day journey that offers a deep dive into the rich cultural and spiritual heritage of Tibet. Starting from Lhasa, you will explore the Potala Palace, Jokhang Temple, and Barkhor Street. The tour continues to Tsedang, known as the cradle of Tibetan civilization, and Samye, the first Buddhist monastery in Tibet. The journey also includes visits to Gyantse and Shigatse, where you will experience the grandeur of Tibetan monasteries and the stunning beauty of the Tibetan landscape."
+  ],
+  highlights: [
+    "Experience the attractions of the highest capital city in the world, Lhasa (3560 m)",
+    "Step inside the sacred palace of the Dalai Lama, Potala Palace",
+    "Visit the ancient learning centers of Tibetan Buddhism - Drepung Monastery and Sera Monastery",
+    "Discover the origin of Tibetan civilization at Tsedang in the Yarlung Valley",
+    "Walk inside the first Buddhist monastery in Tibet at Samye and visit the meditation caves of Guru Padmasambhava",
+    "Get awed by the grandeur of the Tashilunpo Monastery in Shigatse, Karo La Glacier, and Yamdrok Tsho Lake",
+    "Check out the massive Kumbum Stupa, the biggest stupa in the world"
+  ],
+  facilities: [
+    "Guided tours with a licensed Tibetan guide",
+    "Private vehicle for overland transfers",
+    "Accommodation in comfortable hotels",
+    "Supplementary oxygen and medical assistance if needed"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650 m/11,980 ft) - Transfer to Hotel",
+      details: "Arrive in Lhasa via air or train. A representative will pick you up and transfer you to your hotel. Rest and acclimatize to the high altitude."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour (Potala Palace, Jokhang Temple, and Barkhor Street)",
+      details: "Visit Potala Palace, Jokhang Temple, and explore Barkhor Street. Experience the rich cultural heritage of Lhasa."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour (Drepung Monastery and Sera Monastery)",
+      details: "Explore Drepung and Sera Monasteries, two important learning centers of Tibetan Buddhism."
+    },
+    {
+      day: 4,
+      description: "Drive to Samye via Tsedang and sightseeing around Tsedang (Yumbu Lakhang Palace) - 3 to 4 hours (200 km) drive",
+      details: "Travel to Tsedang and visit the Yumbu Lakhang Palace, the first palace built in Tibet. Continue the journey to Samye."
+    },
+    {
+      day: 5,
+      description: "Sightseeing Tour of Samye (Samye Monastery and Chimphu Hermitage)",
+      details: "Visit the Samye Monastery, the first Buddhist monastery in Tibet, and explore the Chimphu Hermitage."
+    },
+    {
+      day: 6,
+      description: "Drive from Samye to Shigatse (3,800 m/12,470 ft) via Gyantse (4,000 m/12,470 ft) and Gyantse Sightseeing (Pelkor Chöde Monastery, Kumbum Stupa) - 6 to 7 hours (380 km) drive",
+      details: "Travel to Shigatse with a stop at Gyantse. Visit the Pelkor Chöde Monastery and Kumbum Stupa."
+    },
+    {
+      day: 7,
+      description: "Shigatse Sightseeing Tour (Tashilhunpo Monastery) and Drive to Lhasa - 6 to 7 hours (280 km) drive",
+      details: "Explore the Tashilhunpo Monastery in Shigatse, the seat of the Panchen Lama, before returning to Lhasa."
+    },
+    {
+      day: 8,
+      description: "Final Departure from Lhasa",
+      details: "After breakfast, transfer to the airport or train station for your departure."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Consult your physician before traveling, especially if you have heart or respiratory issues.",
+      "Acclimatize properly to the high altitude upon arrival.",
+      "Pack warm clothing and essential medications."
+    ]
+  },
+  path: ["/tours/tibet/tibet-tour-lhasa-tsedang-samye-gyantse-shigatse"]
+},
+Lhasa_Everest_Base_Camp_Tour: {
+  id: 1,
+  slug: "lhasa-to-everest-base-camp-tour-8-days",
+  category: "Trekking",
+  img: "lhasa-everest-base-camp-tour.jpg",
+  description: "An epic 8-day journey from Lhasa to Everest Base Camp, traversing through the heart of Tibet's ancient cities, sacred monasteries, and breathtaking landscapes. The tour offers a unique opportunity to experience Tibetan culture and witness the stunning north face of Mt. Everest.",
+  title: "Lhasa to Everest Base Camp Tour - 8 Days",
+  location: "Tibet",
+  days: "8",
+  people: "Group Tour",
+  subimages: [
+    "potala-palace.jpg",
+    "jokhang-temple.jpg",
+    "yamdrok-lake.jpg",
+    "rongbuk-monastery.jpg",
+    "everest-base-camp.jpg"
+  ],
+  overView: {
+    duration: "8 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Everest Base Camp",
+    peoples: "Group Tour",
+    category: "Trekking",
+    bestSeason: "Spring, Autumn"
+  },
+  equipment: [
+    {
+      title: "Warm clothing",
+      image: "warm-clothing.jpg",
+      description: "Necessary to protect against the cold temperatures in high-altitude regions."
+    },
+    {
+      title: "Trekking boots",
+      image: "trekking-boots.jpg",
+      description: "Sturdy boots suitable for trekking in mountainous terrain."
+    },
+    {
+      title: "Sunglasses",
+      image: "sunglasses.jpg",
+      description: "Protects your eyes from the intense UV rays at high altitudes."
+    },
+    {
+      title: "Sunscreen",
+      image: "sunscreen.jpg",
+      description: "Important for protecting your skin from sunburn during the trek."
+    }
+  ],
+  about: [
+    "This 8-day Lhasa to Everest Base Camp tour offers an unparalleled opportunity to explore Tibet's rich culture and natural beauty. Starting in Lhasa, you'll visit iconic landmarks like the Potala Palace and Jokhang Temple before embarking on a scenic drive through Gyantse and Shigatse, ultimately reaching the North Everest Base Camp."
+  ],
+  highlights: [
+    "Explore the Potala Palace and Jokhang Temple in Lhasa",
+    "Scenic drive through Yamdrok Lake and Karola Glacier",
+    "Visit historical monasteries such as Drepung, Sera, and Tashi Lhunpo",
+    "Experience the Tibetan culture in Lhasa and Shigatse",
+    "Witness the breathtaking views of Mt. Everest from Rongbuk Monastery",
+    "See the stunning north face of Mt. Everest from the base camp",
+    "Drive through high mountain passes including Gyatso La and Geu La"
+  ],
+  facilities: [
+    "Accommodation in 3-star hotels",
+    "Breakfasts included",
+    "Private transportation",
+    "English-speaking guide",
+    "Entrance fees to all mentioned sites"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft)",
+      details: "Transfer to Hotel and tour preparation. Spend the day acclimating to the high altitude and exploring the surroundings at your own pace."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour - Potala Palace, Jokhang Temple, Barkhor Street",
+      details: "Visit the Potala Palace, Jokhang Temple, and explore the bustling Barkhor Street in Lhasa."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour - Drepung Monastery and Sera Monastery",
+      details: "Explore Drepung Monastery, one of the largest in Tibet, and witness the monks debating at Sera Monastery."
+    },
+    {
+      day: 4,
+      description: "Lhasa - Shigatse via Gyantse (360km drive)",
+      details: "Embark on a scenic drive to Shigatse via Gyantse, passing through Kamba La and Karo La Pass, and visiting Yamdrok Lake and Pelkor Chode Monastery."
+    },
+    {
+      day: 5,
+      description: "Shigatse to Rongbuk Monastery (365km drive)",
+      details: "Visit Tashi Lhunpo Monastery in Shigatse before driving to Rongbuk Monastery, with stunning views of Mt. Everest along the way."
+    },
+    {
+      day: 6,
+      description: "Explore Everest Base Camp and Return to Shigatse (365km drive)",
+      details: "Visit the North Everest Base Camp and enjoy the breathtaking view of the world's highest peak before returning to Shigatse."
+    },
+    {
+      day: 7,
+      description: "Shigatse to Lhasa (350km drive)",
+      details: "Drive back to Lhasa, passing through the scenic Yalung Valley."
+    },
+    {
+      day: 8,
+      description: "Departure from Lhasa, Tibet",
+      details: "End your 8-day tour with a departure from Lhasa to your next destination."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "To prepare for this high-altitude journey, it is recommended to gradually acclimate by staying hydrated and avoiding strenuous activities upon arrival.",
+      "Pack warm clothing, comfortable trekking boots, and any necessary personal medication."
+    ]
+  },
+  path: ["/tours/lhasa-to-everest-base-camp-tour-8-days"]
+},
+LhasaAndShigatseTour: {
+  id: 0,
+  slug: "lhasa-and-shigatse-tour",
+  category: "tour",
+  img: "potala-palace.jpg",
+  description: "Lhasa and Shigatse Tour will take you on an epic odyssey to Tibet's three most fascinating cities; Lhasa, Gyantse, and Shigatse. The major highlight of this land journey is riding through the Tibetan golden tourist route from Lhasa to Shigatse, the second-largest city of Tibet. It's one of the stopovers en route to Lhasa to Everest Base Camp Tour on the Tibetan side. This tour perfectly blends the most classic Lhasa tour with a spectacular drive to Shigatse, which is truly icing on the cake.",
+  title: "Lhasa and Shigatse Tour - 6 days",
+  location: "Lhasa, Tibet",
+  days: "6 days",
+  people: "Variable based on group size",
+  subimages: [
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
+    "image4.jpg",
+    "image5.jpg",
+  ],
+  overView: {
+    duration: "6 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Lhasa",
+    peoples: "Variable based on group size",
+    category: "Cultural Tour",
+    bestSeason: "May to October",
+  },
+  equipment: [
+    {
+      title: "Warm Clothing",
+      image: "warm_clothing.jpg",
+      description: "Ensure to pack warm clothing as Tibet has a cold climate, especially during early mornings and evenings.",
+    },
+    {
+      title: "Comfortable Footwear",
+      image: "comfortable_footwear.jpg",
+      description: "Comfortable walking shoes are essential for exploring various monasteries and sites.",
+    },
+    {
+      title: "Personal Medication",
+      image: "personal_medication.jpg",
+      description: "Carry any necessary personal medications, as medical facilities may be limited in remote areas.",
+    },
+    {
+      title: "Sunglasses and Sunscreen",
+      image: "sunglasses_sunscreen.jpg",
+      description: "Protect yourself from the intense sun at high altitudes with good quality sunglasses and sunscreen.",
+    },
+  ],
+  about: [
+    "This comprehensive tour offers a unique overview of Tibet, featuring an exciting mix of profound Tibetan culture, history, and unrivaled nature."
+  ],
+  highlights: [
+    "Visit Tibet's three major cities: Lhasa, Gyantse, and Shigatse.",
+    "Explore the iconic Potala Palace and Jokhang Temple in Lhasa.",
+    "Take a road journey through the stunning Tibetan landscape to Shigatse.",
+    "Admire the breathtaking views of Yamdrok Lake and Karola Glacier.",
+    "Discover the rich Tibetan culture and Buddhism in ancient monasteries."
+  ],
+  facilities: [
+    "Comfortable hotel accommodations",
+    "Experienced local guides",
+    "Transportation with driver",
+    "Sightseeing entrance fees",
+    "Daily breakfast"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet",
+      details: "Arrive at Lhasa airport, and your Tibetan guide will welcome you and drive you to the hotel. Rest and acclimatize to the high altitude."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour",
+      details: "Explore Potala Palace, Jokhang Temple, and Barkhor Street. Experience Tibetan culture and history in these iconic sites."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour",
+      details: "Visit Drepung Monastery and Sera Monastery. Witness the monk's debate and explore the grand monasteries."
+    },
+    {
+      day: 4,
+      description: "Lhasa to Shigatse via Gyantse",
+      details: "Drive through the Friendship Highway, with stops at Yamdrok Lake, Gyantse, and Karola Glacier. Visit Palcho Monastery and Kumbum Stupa."
+    },
+    {
+      day: 5,
+      description: "Shigatse to Lhasa",
+      details: "Visit Tashi Lhunpo Monastery in Shigatse and then drive back to Lhasa. Explore the lively Barkhor Square in the evening."
+    },
+    {
+      day: 6,
+      description: "Departure from Lhasa",
+      details: "Your tour ends with a transfer to the airport for your departure."
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Take time to acclimatize to the high altitude upon arrival.",
+      "Ensure to bring warm clothing, comfortable footwear, and personal medications.",
+      "Be ready to explore rich cultural and historical sites in Tibet."
+    ],
+  },
+  path: ["Lhasa", "Gyantse", "Shigatse"],
+},
+Lhasa_and_Yamdrok_Lake_Tour: {
+  id: 1,
+  slug: "lhasa-and-yamdrok-lake-tour",
+  category: "Cultural Tour",
+  img: "path/to/lhasa-and-yamdrok-lake.jpg",
+  description: "The Lhasa and Yamdrok Lake Tour covers the famous landmarks in Lhasa city and a scenic ride to Yamdrok Lake, renowned for its spectacular setting with rugged mountains surrounding it. Suitable for all age groups and doable all year round.",
+  title: "Lhasa and Yamdrok Lake Tour - 5 days",
+  location: "Lhasa, Tibet",
+  days: "5",
+  people: "Varies",
+  subimages: [
+    "path/to/potala-palace.jpg",
+    "path/to/jokhang-temple.jpg",
+    "path/to/drepung-monastery.jpg",
+    "path/to/sera-monastery.jpg",
+    "path/to/yamdrok-lake.jpg",
+  ],
+  overView: {
+    duration: "5 days",
+    startingPoint: "Lhasa, Tibet",
+    endingPoint: "Lhasa, Tibet",
+    peoples: "Varies",
+    category: "Cultural Tour",
+    bestSeason: "All year round",
+  },
+  equipment: [
+    {
+      title: "Comfortable Walking Shoes",
+      image: "path/to/shoes.jpg",
+      description: "Suitable for walking long distances on uneven terrain.",
+    },
+    {
+      title: "Warm Clothing",
+      image: "path/to/warm-clothing.jpg",
+      description: "For the colder temperatures, especially at higher altitudes.",
+    },
+    {
+      title: "Sunscreen",
+      image: "path/to/sunscreen.jpg",
+      description: "To protect from the high-altitude sun.",
+    },
+    {
+      title: "Camera",
+      image: "path/to/camera.jpg",
+      description: "To capture the stunning landscapes and cultural sites.",
+    },
+  ],
+  about: [
+    "This tour comprehends the major historic sites of Lhasa city like Potala Palace, Jokhang Temple, Barkhor Street, Drepung, and Sera Monastery. You'll also take a day trip to Yamdrok Lake, one of the three holy lakes in Tibet.",
+    "The major attraction is the additional exciting trip to the sacred Yamdrok Lake, offering breathtaking views and a spiritual experience.",
+  ],
+  highlights: [
+    "A perfect blend of the classic Lhasa tour with a scenic drive to Yamdrok Lake.",
+    "Full-day excursion to Lhasa city, the 'land of the Holiness'.",
+    "Explore Potala Palace, the winter palace of the Dalai Lama.",
+    "Visit Jokhang Temple, home to the statues of Shakyamuni Buddha.",
+    "Take a circular walk around Jokhang Temple.",
+    "Wander around Barkhor Street, a famous pilgrim circuit in Lhasa.",
+    "Attend the prayer ceremony at Drepung Monastery, the biggest monastery in the world.",
+    "Enjoy the renowned debate session in Sera Monastery.",
+    "Savor the impeccable view of Yamdrok Lake from the S307 pass.",
+    "A scenic drive from Lhasa to Yamdrok Lake, one of the three sacred lakes of Tibet.",
+    "A short stopover at Kamba La Pass (4,794m/15,728ft).",
+    "Enjoy bird watching along the bank of Yamdrok Lake.",
+    "Relish the serenity and tranquil environment with glaring turquoise blue water.",
+    "Admire the stunning scenery of Yamdrok Lake surrounded by snow-capped mountains.",
+    "Spot some wild animals like wild goats and foxes around Yamdrok Lake.",
+    "Get an opportunity to take a snap of Tibetan Mastiff.",
+    "Immerse yourself in the ancient Tibetan culture, tradition, and lifestyle.",
+    "Learn about the rich traditions of Tibetan Buddhism.",
+  ],
+  facilities: [
+    "Comfortable accommodations in Lhasa.",
+    "Experienced Tibetan guide.",
+    "Private transportation.",
+    "Entrance fees to all attractions.",
+    "Meals during the tour.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft) - Transfer to Hotel and tour Preparation",
+      details: "Tashi Delek! Welcome to Tibet- Lhasa, the land of Gods! Upon arrival at Lhasa airport, meet our Tibetan guide, who will transfer you to the hotel. Rest and adjust to the high altitude.",
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour- Potala Palace, Jokhang Temple, and Barkhor Street",
+      details: "Explore the Potala Palace, Jokhang Temple, and Barkhor Street, soaking in the rich history and culture of Lhasa.",
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour- Drepung Monastery and Sera Monastery",
+      details: "Visit the Drepung and Sera Monasteries, experiencing the religious fervor and stunning views of Lhasa.",
+    },
+    {
+      day: 4,
+      description: "Day Trip to Yamdrok Lake (4,441m/14,570ft)",
+      details: "Take a scenic drive to Yamdrok Lake, enjoying the breathtaking views and peaceful surroundings.",
+    },
+    {
+      day: 5,
+      description: "Departure from Lhasa, Tibet",
+      details: "After breakfast, check out from the hotel, and your Tibetan guide will escort you to the airport.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Prepare for high altitudes by acclimatizing before arrival.",
+      "Pack warm clothing and comfortable walking shoes.",
+      "Stay hydrated and protect yourself from the sun.",
+      "Respect local customs and traditions.",
+    ],
+  },
+  path: ["path/to/lhasa-map.jpg"],
+},
+Lhasa_Short_Tour: {
+  id: 1,
+  slug: "lhasa-short-tour-4-days",
+  category: "Cultural Tour",
+  img: "path_to_main_image.jpg",
+  description: "Lhasa Short Tour is an awe-inspiring 4-day itinerary that provides an excellent opportunity to explore the culturally rich, mysterious Lhasa city. This ancient religious city has developed by modernization but still kept its cultural and historical sites well-preserved and well to visit. It is the easy and shortest possible tour of Lhasa that helps you learn about Tibetan culture in a short time.",
+  title: "Lhasa Short Tour - 4 days",
+  location: "Lhasa, Tibet",
+  days: "4",
+  people: "Varies",
+  subimages: [
+    "path_to_image1.jpg",
+    "path_to_image2.jpg",
+    "path_to_image3.jpg",
+    "path_to_image4.jpg",
+    "path_to_image5.jpg",
+  ],
+  overView: {
+    duration: "4 Days",
+    startingPoint: "Lhasa, Tibet",
+    endingPoint: "Lhasa, Tibet",
+    peoples: "Varies",
+    category: "Cultural Tour",
+    bestSeason: "April to November",
+  },
+  equipment: [
+    {
+      title: "Comfortable Clothing",
+      image: "path_to_clothing_image.jpg",
+      description: "Wear comfortable clothing suitable for both warm and cool weather.",
+    },
+    {
+      title: "Sunscreen",
+      image: "path_to_sunscreen_image.jpg",
+      description: "High-altitude sun exposure can be intense, so bring sunscreen.",
+    },
+    {
+      title: "Water Bottle",
+      image: "path_to_waterbottle_image.jpg",
+      description: "Staying hydrated is crucial, especially at high altitudes.",
+    },
+    {
+      title: "Camera",
+      image: "path_to_camera_image.jpg",
+      description: "Capture the stunning sights of Lhasa with a good camera.",
+    },
+  ],
+  about: [
+    "This short tour allows you to explore the major cultural and historical sites of Lhasa, including the Potala Palace, Jokhang Temple, Barkhor Street, and ancient monasteries like Drepung and Sera. It is a perfect introduction to Tibetan culture and Buddhism, suitable for all types of travelers.",
+  ],
+  highlights: [
+    "Explore the Potala Palace, former residence of Dalai Lamas.",
+    "Visit the sacred Jokhang Temple, the holiest place in Tibet.",
+    "Stroll through Barkhor Street, the heart of Lhasa's old town.",
+    "Admire the architecture and art at Drepung Monastery.",
+    "Attend a famous monk's debate session at Sera Monastery.",
+  ],
+  facilities: [
+    "Accommodation in Lhasa",
+    "Guided Sightseeing Tours",
+    "Transportation in Lhasa",
+    "Entrance Fees to Monuments",
+    "Tibetan Guide",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft)",
+      details: "Upon arrival, meet your Tibetan guide and transfer to your hotel in Lhasa. Rest and acclimate to the high altitude.",
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour - Potala Palace, Jokhang Temple, Barkhor Street",
+      details: "Visit the Potala Palace, Jokhang Temple, and Barkhor Street. Explore the cultural and historical heart of Lhasa.",
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour - Drepung Monastery and Sera Monastery",
+      details: "Discover the spiritual and historical significance of Drepung and Sera Monasteries. Attend a monk's debate session at Sera.",
+    },
+    {
+      day: 4,
+      description: "Final Departure from Lhasa or Trip Extension",
+      details: "After breakfast, transfer to the airport for your departure flight or extend your trip to other parts of Tibet or neighboring countries.",
+    },
+  ],
 
-
+  HowToPrepare: {
+    paragraph: [
+      "Prepare for high altitudes by drinking plenty of water and taking it easy on your first day.",
+      "Bring comfortable clothing for varying temperatures, sunscreen for sun exposure, and a camera to capture the sights.",
+      "Be respectful of local customs and religious practices while visiting monasteries and temples.",
+    ],
+  },
+  path: ["Cultural Tour", "Lhasa", "Tibet"],
+},
+  Lhasa_and_Tsedang_Tour: {
+    "id": 0,
+    "slug": "lhasa-tsedang-tour-6-days",
+    "category": "Cultural Tour",
+    "img": "url_to_image",
+    "description": "Explore the cultural heart of Tibet with a 6-day tour covering Lhasa and Tsedang. Visit iconic landmarks, historical monasteries, and experience Tibetan culture.",
+    "title": "Lhasa and Tsedang Tour - 6 days",
+    "location": "Lhasa and Tsedang, Tibet",
+    "days": "6",
+    "people": "",
+    "subimages": [
+      "url_to_image1",
+      "url_to_image2",
+      "url_to_image3",
+      "url_to_image4",
+      "url_to_image5"
+    ],
+    "overView": {
+      "duration": "6 days",
+      "startingPoint": "Lhasa",
+      "endingPoint": "Lhasa",
+      "peoples": "",
+      "category": "Cultural Tour",
+      "bestSeason": "Spring and Autumn"
+    },
+    "equipment": [
+      {
+        "title": "Camera",
+        "image": "url_to_image",
+        "description": "For capturing the stunning landscapes and historical sites."
+      },
+      {
+        "title": "Warm Clothing",
+        "image": "url_to_image",
+        "description": "Due to high altitudes and cool temperatures, warm clothing is essential."
+      },
+      {
+        "title": "Sunscreen",
+        "image": "url_to_image",
+        "description": "Protects against the strong sun at high altitudes."
+      },
+      {
+        "title": "Water Bottle",
+        "image": "url_to_image",
+        "description": "Stay hydrated during your tour."
+      }
+    ],
+    "about": [
+      "The Lhasa and Tsedang Tour is a comprehensive cultural journey through Tibet's most significant historical sites and landmarks. It offers a deep dive into Tibetan history, culture, and spirituality."
+    ],
+    "highlights": [
+      "Explore Lhasa, the capital city of Tibet, a mecca for Tibetan Buddhists.",
+      "Visit Potala Palace, the highest palace in the world.",
+      "Witness the Jowo Shakyamuni Statue at Jokhang Temple, decorated with gold, jewels, and precious stones.",
+      "Walk around Barkhor Street with crowds of pilgrims and local Tibetans.",
+      "See the famous Buddhism Sutra Debate at Sera Monastery.",
+      "Tour Tsedang, the cradle of Tibetan civilization.",
+      "Visit Yumbulhakhang Palace, the first fortress in Tibetan history.",
+      "Discover Trandruk Monastery, one of the main three royal temples.",
+      "Explore Samye Monastery, one of the first Buddhist monasteries in Tibet."
+    ],
+    "facilities": [
+      "Accommodation in local hotels",
+      "Transportation throughout the tour",
+      "Guided tours and entrance fees to all listed sites"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrival in Tibet, Lhasa",
+        "details": "Transfer to Hotel and tour preparation. Enjoy the beautiful scenery and acclimate to the high altitude."
+      },
+      {
+        "day": 2,
+        "description": "Lhasa Tour: Potala Palace, Jokhang, and Barkhor Street",
+        "details": "Visit Potala Palace, Jokhang Temple, and walk around Barkhor Street. Explore Tibetan culture and history."
+      },
+      {
+        "day": 3,
+        "description": "Lhasa Tour: Drepung Monastery and Sera Monastery",
+        "details": "Tour Drepung Monastery and Sera Monastery. Witness the famous Buddhist Sutra Debate."
+      },
+      {
+        "day": 4,
+        "description": "Head to Tsedang: Yumbulhakhang Palace and Trandruk Monastery",
+        "details": "Explore Yumbulhakhang Palace and Trandruk Monastery in Tsedang. Discover ancient Tibetan architecture and art."
+      },
+      {
+        "day": 5,
+        "description": "Day Tour at Samye Monastery and Journey Back to Lhasa",
+        "details": "Visit Samye Monastery, the first Buddhist monastery in Tibet. Return to Lhasa for overnight stay."
+      },
+      {
+        "day": 6,
+        "description": "Departure from Lhasa",
+        "details": "Transfer to Lhasa airport for departure. Option to continue your vacation in neighboring countries like Nepal, Bhutan, or India."
+      }
+    ],
+    "HowToPrepare": {
+      "paragraph": [
+        "Ensure you are in good health and acclimatized to high altitudes before starting the tour.",
+        "Pack appropriate clothing for both warm and cold weather.",
+        "Carry necessary medications for altitude sickness and personal health.",
+        "Have a valid passport and any required travel permits for Tibet."
+      ]
+    },
+    "path": [
+      "Arrival in Lhasa -> Potala Palace -> Jokhang Temple -> Barkhor Street -> Drepung Monastery -> Sera Monastery -> Tsedang -> Yumbulhakhang Palace -> Trandruk Monastery -> Samye Monastery -> Return to Lhasa -> Departure"
+    ]
+  },
 };
 
 export default infoContent;
