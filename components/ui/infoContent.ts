@@ -13374,7 +13374,7 @@ Dagala_Thousand_Lakes_Trek: {
   people: "Varies",
   subimages: [
     "/images/bhutan-dagala-thousand-lake-trek.jpg",
-    "/images/dagala-thousand.webp.jpg",
+    "/images/dagala-thousand.webp",
     "/images/dagala-thousand-lake.jpg",
     "/images/images.jpg",
     "/images/unnamed6-e1515555944857.jpg",
@@ -14643,7 +14643,7 @@ bhutan_heritage_tour_8_days: {
 "days": "8 days",
 "people": "1-10",
 "subimages": [
-  "/images/6c41c7e9c6b965e57713a0538321a340jpg",
+  "/images/6c41c7e9c6b965e57713a0538321a340.jpg",
   "/images/16877920653_f5c78b3fc2_k.jpg",
   "/images/Gangtey-Monastery-1200x1200.jpg",
   "/images/image787s.jpg",
@@ -15025,9 +15025,9 @@ bhutan_west_east_traverse_tour_14_days: {
 "people": "1-10",
 "subimages": [
   "/images/dochula-pass.jpgQFe.jpg",
-  "/images/images (1)5676.jpg",
-  "/images/punakha-dzong.webp",
   "/images/Trashigang-Dzong-Courtesy-of-Scarlette-DG-qni7iblufceu3kjy239uy3r6iuc6yfqpygilyikywc.jpg",
+  "/images/punakha-dzong.webp",
+  "/images/yongphula.jpg",  
   "/images/yongphula.jpg",
 ],
 "overView": {
@@ -15193,8 +15193,8 @@ bhutan_tour_with_day_hikes_and_bumdra_camp_7_days: {
 "people": "1-10",
 "subimages": [
   "/images/day-hike-and-cultural-tours.webp",
-  "/images/images787675.jpeg",
-  "/images/Bumdra-Camp.jpg",
+  "/images/bumdra-monastery.jpgj9I.jpg",
+  "/images/Bumdra-Camp-Site-Bumdra-Trek-2-day-hike-in-Paro-Bhutan-1024x630.jpg",
   "/images/bumdra-monastery.jpgj9I.jpg",
   "/images/Bumdra-Camp-Site-Bumdra-Trek-2-day-hike-in-Paro-Bhutan-1024x630.jpg",
   ],
@@ -15420,9 +15420,10 @@ hidden_secret_of_bhutan_overnight_at_camp_and_monastery_5_days: {
 "people": "1-10",
 "subimages": [
   "/images/bumdra-monastery.webp",
-  "/images/Tented-Camp.jpg",
+  "/images/images (134).jpeg",
+  "/images/photo0jpg.jpg",
   "/images/2323fgt.jpeg",
-  "/images/photo0jpg",
+  
   "/images/Sangchen Choekhor Rabtentse Dharma Shedrupling Monastery, Paro In Bhutan.png"
 ],
 "overView": {
@@ -15646,7 +15647,7 @@ bhutan_tour_with_day_hikes_and_haa_valley_8_days:{
 "days": "8 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Tour-Day-Hikes-Haa-Valley.jpg",
+  "/images/haa-valley-700-1.jpg",
   "/images/haa-valley.jpg",
   "/images/haa-valley-tips.jpg",
   "/images/haa-valley-trekking.webp",
@@ -17713,9 +17714,10 @@ druk_wangyel_festival_tour_7_days: {
 "subimages": [
   "/images/DuTaNpzXcAE-r2t.jpeg",
   "/images/unname56d.jpg",
-  "/images/Thimphu.jpg",
+  "/images/Druk-Wangyel-Festival.jpgSJs.jpg",
+  "/images/Druk-Wangyel-Tshechu-Festival-Tour1.jpg",
   "/images/Dochula-Festival-1-e1593749007444.jpg",
-  "/images/Druk-Wangyel-Festival.jpgSJs.jpg"
+  
 ],
 "overView": {
   "duration": "7 days",
