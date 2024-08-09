@@ -35,14 +35,10 @@ const SearchComponent = () => {
           <select className="w-full border-none text-sm outline-none">
             <option value="any">Any Destination</option>
             <option value="nepal">Nepal</option>
-            <option value="nepal-india">Nepal-India Tour</option>
-            <option value="nepal-tibet">Nepal Tibet Tour</option>
-            <option value="india-china">India China</option>
             <option value="nepal-bhutan">Nepal Bhutan Tour</option>
             <option value="nepal-tibet-bhutan">Nepal Tibet Bhutan Tour</option>
             <option value="tibet">Tibet</option>
             <option value="bhutan">Bhutan</option>
-            <option value="india">India</option>
           </select>
         </div>
 

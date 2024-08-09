@@ -1819,7 +1819,7 @@ luxury_trek_gokyo_helicopter: {
     days: "6 days",
     people: "1-10",
     subimages: [
-      "/images/timthumb.jpg",
+      "/images/everest-base-camp-trekking.webp",
       "/images/AnnapurnaSanctuary_client_lee.webp",
       "/images/annapurna-base-camp-trek-3-1.jpg",
       "/images/Annapurna-Basecamp-image1-1.webp",
@@ -2258,9 +2258,9 @@ ebc_trek_14_days: {
         "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
     },
     {
-      day: 9,
+      day:9,
       description:
-        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m)",
       details:
         "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
     },
@@ -5143,7 +5143,7 @@ five_himalayan_viewpoint_tour_pokhara: {
   people: "1-12",
   subimages: [
     "/images/146 (1).jpg",
-    "/images/147.jpeg",
+    "/images/147.jpg",
     "/images/himalaya-in-pokhara-nepal-persefoni-photo-images.jpg",
     "/images/pexels-zenith-photographics-1498-2.jpg",
     "/images/viewpoints-in-pokhara.jpg",
@@ -5648,7 +5648,7 @@ annapurna_circuit_trek:{
   people: "1-12",
   subimages: [
     "/images/Under_stars_and_snows.jpg",
-    "/images/ice-lake-act-trek.webp.jpg",
+    "/images/ice-lake-act-trek.webp",
     "/images/Annapurna-Circuit-Trek-Upper-Pisang-View-M.jpg",
     "/images/annapurna-circuit-trek-guide-nepal.jpg",
     "/images/9 Days Annapurna Circuit Trek.jpg",
@@ -5834,24 +5834,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Bungee Harness",
-        image: "path_to_harness_image.jpg",
-        description: "A secure harness to ensure your safety during the jump."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Safety Helmet",
-        image: "path_to_helmet_image.jpg",
-        description: "A helmet to protect your head during the jump."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Bungee Cord",
-        image: "path_to_cord_image.jpg",
-        description: "High-quality bungee cord made by HighGround."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Safety Briefing",
-        image: "path_to_briefing_image.jpg",
-        description: "Comprehensive safety briefing before the jump."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -5923,24 +5924,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Life Jacket",
-        image: "life-jacket.jpg",
-        description: "Safety gear to keep you afloat in the water."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Helmet",
-        image: "helmet.jpg",
-        description: "Protective headgear to ensure your safety."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Paddle",
-        image: "paddle.jpg",
-        description: "Used to steer and propel the raft."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Raft",
-        image: "raft.jpg",
-        description: "Inflatable boat designed for navigating rivers."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -6015,27 +6017,28 @@ Bungee_Jumping_Pokhara: {
         "category": "Zipline",
         "bestSeason": "Whole Year"
       },
-      "equipment": [
+      equipment: [
         {
-          "title": "Harness",
-          "image": "harness_image_url",
-          "description": "Safety harness for secure ziplining experience."
+          title: "Trekking Backpack",
+          image: "/images/bagpack.png",
+          description: "A durable backpack designed for trekking adventures.",
         },
         {
-          "title": "Helmet",
-          "image": "helmet_image_url",
-          "description": "Protective helmet provided for all participants."
+          title: "Walking Stick",
+          image: "/images/walkingStick.png",
+          description: "A sturdy walking stick to provide support during treks.",
         },
         {
-          "title": "GoPro Camera",
-          "image": "gopro_image_url",
-          "description": "Capture your thrilling adventure with a GoPro camera."
+          title: "Sunglasses",
+          image: "/images/glasses.png",
+          description: "UV-protected sunglasses to protect your eyes from glare.",
         },
         {
-          "title": "Zipline Kit",
-          "image": "zipline_kit_image_url",
-          "description": "Complete zipline kit for a smooth and safe ride."
-        }
+          title: "Trekking Shoes",
+          image: "/images/shoes.png",
+          description:
+            "Waterproof and high-ankle shoes with good grip for trekking.",
+        },
       ],
       "about": [
         "Zipline in Pokhara is one of the most adventurous and adrenaline-rushing activities one can do in this city. Anyone who wants to raise their adrenaline level and get on the highest zip-lining adventure can go for the Zip-lining in Pokhara.",
@@ -6110,27 +6113,28 @@ Bungee_Jumping_Pokhara: {
             "category": "Sightseeing",
             "bestSeason": "Whole Year"
           },
-          "equipment": [
+          equipment: [
             {
-              "title": "Ultralight Aircraft",
-              "image": "ultralight_aircraft_image_url",
-              "description": "A small, engine-powered aircraft designed for a unique flying experience."
+              title: "Trekking Backpack",
+              image: "/images/bagpack.png",
+              description: "A durable backpack designed for trekking adventures.",
             },
             {
-              "title": "Pilot Gear",
-              "image": "pilot_gear_image_url",
-              "description": "Safety gear and communication devices for the pilot."
+              title: "Walking Stick",
+              image: "/images/walkingStick.png",
+              description: "A sturdy walking stick to provide support during treks.",
             },
             {
-              "title": "Flight Suit",
-              "image": "flight_suit_image_url",
-              "description": "Comfortable and protective flight suit for passengers."
+              title: "Sunglasses",
+              image: "/images/glasses.png",
+              description: "UV-protected sunglasses to protect your eyes from glare.",
             },
             {
-              "title": "GoPro Camera",
-              "image": "gopro_image_url",
-              "description": "Capture your thrilling adventure with a GoPro camera."
-            }
+              title: "Trekking Shoes",
+              image: "/images/shoes.png",
+              description:
+                "Waterproof and high-ankle shoes with good grip for trekking.",
+            },
           ],
           "about": [
             "Ultra Light Flight in Pokhara is an adventurous activity that provides unparalleled views of green forests, local villages, hills, and mountains.",
@@ -6206,27 +6210,28 @@ Bungee_Jumping_Pokhara: {
                 "category": "Paragliding",
                 "bestSeason": "Spring and Autumn"
               },
-              "equipment": [
+              equipment: [
                 {
-                  "title": "Paraglider",
-                  "image": "paraglider_image_url",
-                  "description": "A lightweight, free-flying, foot-launched glider aircraft."
+                  title: "Trekking Backpack",
+                  image: "/images/bagpack.png",
+                  description: "A durable backpack designed for trekking adventures.",
                 },
                 {
-                  "title": "Harness",
-                  "image": "harness_image_url",
-                  "description": "Safety harness for secure paragliding experience."
+                  title: "Walking Stick",
+                  image: "/images/walkingStick.png",
+                  description: "A sturdy walking stick to provide support during treks.",
                 },
                 {
-                  "title": "Helmet",
-                  "image": "helmet_image_url",
-                  "description": "Protective helmet provided for all participants."
+                  title: "Sunglasses",
+                  image: "/images/glasses.png",
+                  description: "UV-protected sunglasses to protect your eyes from glare.",
                 },
                 {
-                  "title": "GoPro Camera",
-                  "image": "gopro_image_url",
-                  "description": "Capture your thrilling adventure with a GoPro camera."
-                }
+                  title: "Trekking Shoes",
+                  image: "/images/shoes.png",
+                  description:
+                    "Waterproof and high-ankle shoes with good grip for trekking.",
+                },
               ],
               "about": [
                 "Paragliding in Pokhara will be your greatest option if you are thinking about engaging in any challenging and thrilling sports to get over your phobia. In Nepal, paragliding is one of the most popular adventure activities. Your initial paragliding adventure might be started at Pokhara. With mountains, lakes, and beautiful terrain, Pokhara City's surroundings are breathtaking. Pilots who have received international certification are used in paragliding operations. Paragliding in Pokhara shouldn't be missed if you enjoy adventure and are visiting Nepal.",
@@ -6300,25 +6305,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Comfortable Clothing",
-        image: "path/to/equipment1.jpg",
-        description: "Wear comfortable clothes and shoes suitable for walking and climbing stairs."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "path/to/equipment2.jpg",
-        description: "Bring a camera or smartphone to capture beautiful memories of the tour."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sun Protection",
-        image: "path/to/equipment3.jpg",
-        description: "Carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Medical Kit",
-        image: "path/to/equipment4.jpg",
-        description: "A small first aid kit to handle any unforeseen injuries."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "This day tour covers the major UNESCO World Heritage Sites in Kathmandu Valley, including historic durbar squares, temples, and stupas."
@@ -6380,24 +6386,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Comfortable Walking Shoes",
-        image: "https://www.greenvalleynepaltreks.com/images/shoes.jpg",
-        description: "Good for walking and light hiking."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Weather-Appropriate Clothing",
-        image: "https://www.greenvalleynepaltreks.com/images/clothing.jpg",
-        description: "Light jacket or sweater depending on the season."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "To capture the stunning views."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Sunglasses and Sunscreen",
-        image: "https://www.greenvalleynepaltreks.com/images/sunscreen.jpg",
-        description: "Protection from the sun during the day."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -6456,24 +6463,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Comfortable Walking Shoes",
-        image: "https://www.greenvalleynepaltreks.com/images/shoes.jpg",
-        description: "Ideal for exploring city landmarks."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Weather-Appropriate Clothing",
-        image: "https://www.greenvalleynepaltreks.com/images/clothing.jpg",
-        description: "Dress according to the weather, layers are recommended."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "Capture the historical and cultural landmarks."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Guidebook or Map",
-        image: "https://www.greenvalleynepaltreks.com/images/map.jpg",
-        description: "Helpful for understanding the historical context."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -6532,24 +6540,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "Capture stunning aerial views of Everest and the Himalayas."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Warm Clothing",
-        image: "https://www.greenvalleynepaltreks.com/images/warm-clothing.jpg",
-        description: "Dress warmly as the temperatures at high altitudes can be cold."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "https://www.greenvalleynepaltreks.com/images/sunglasses.jpg",
-        description: "Protect your eyes from the glare of the sun at high altitudes."
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Binoculars",
-        image: "https://www.greenvalleynepaltreks.com/images/binoculars.jpg",
-        description: "Enhance your view of distant peaks and landmarks."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -6608,24 +6617,25 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Comfortable Walking Shoes",
-        image: "https://www.greenvalleynepaltreks.com/images/comfortable-walking-shoes.jpg",
-        description: "Suitable for walking on uneven terrain in the villages."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "https://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "Capture the scenic beauty and traditional architecture of the villages."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sun Protection",
-        image: "https://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
-        description: "Carry sunscreen, a hat, and sunglasses to protect yourself from the sun."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Water Bottle",
-        image: "https://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
-        description: "Stay hydrated throughout the tour."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -6683,25 +6693,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Paragliding Gear",
-        image: "/images/://www.greenvalleynepaltreks.com/images/paragliding-gear.jpg",
-        description: "Includes parachute, harness, and helmet."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Clothing",
-        image: "/images/://www.greenvalleynepaltreks.com/images/comfortable-clothing.jpg",
-        description: "Wear lightweight and weather-appropriate clothing."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera",
-        image: "/images/://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "Capture the stunning aerial views and adventure moments."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Sun Protection",
-        image: "/images/://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
-        description: "Sunscreen, sunglasses, and a hat for sun protection."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Paragliding in Nepal offers an exhilarating experience with incredible views of the Himalayas and lakes. The most popular location for paragliding is Pokhara, where you can enjoy a bird’s-eye view of the serene Phewa Lake and the surrounding mountains. The adventure is suitable for both beginners and experienced flyers."
@@ -6757,25 +6768,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Comfortable Walking Shoes",
-        image: "/images/://www.greenvalleynepaltreks.com/images/walking-shoes.jpg",
-        description: "Wear comfortable shoes as the tour involves walking."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "/images/://www.greenvalleynepaltreks.com/images/camera.jpg",
-        description: "Capture the beautiful sights and landmarks of Kathmandu."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Water Bottle",
-        image: "/images/://www.greenvalleynepaltreks.com/images/water-bottle.jpg",
-        description: "Stay hydrated throughout the day."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Sun Protection",
-        image: "/images/://www.greenvalleynepaltreks.com/images/sun-protection.jpg",
-        description: "Bring sunscreen, sunglasses, and a hat."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Kathmandu Day Tour provides an opportunity to explore the rich cultural heritage and historical landmarks of Kathmandu in just one day. This tour includes visits to key UNESCO World Heritage Sites, including ancient temples, royal palaces, and vibrant squares, offering a comprehensive overview of the city's history and culture."
@@ -6819,7 +6831,7 @@ Bungee_Jumping_Pokhara: {
     days: "4",
     people: "1 to 20",
     subimages: [
-      "/images/Chitwan-elephants-1024x700-785x400.jpeg.jpg",  // Example image, replace with actual URL if available
+      "/images/Chitwan-elephants-1024x700-785x400.jpeg",  // Example image, replace with actual URL if available
       "/images/ChitwanNationalParkTourfromPokhara-Klook.jpg",
       "/images/one-horned-rhinos-in-chitwan-national-park.jpg",
       "/images/Tiger-Encounter-in-Chitwan-National-Park",
@@ -6835,25 +6847,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Binoculars",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
-        description: "Used for bird watching and spotting wildlife from a distance."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
-        description: "To capture the beautiful moments and scenery."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "First Aid Kit",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
-        description: "Basic medical supplies for minor injuries."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Insect Repellent",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
-        description: "Protects against insect bites during jungle walks."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Chitwan National Park is one of the premier wildlife destinations in Nepal, offering a chance to see a variety of animals including Bengal tigers, one-horned rhinoceroses, and over 500 species of birds."
@@ -6928,25 +6941,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Binoculars",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
-        description: "Used for bird watching and spotting wildlife from a distance."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
-        description: "To capture the beautiful moments and scenery."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "First Aid Kit",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
-        description: "Basic medical supplies for minor injuries."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Insect Repellent",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
-        description: "Protects against insect bites during jungle walks."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Chitwan National Park is a renowned wildlife destination in Nepal, home to various species including Bengal tigers, one-horned rhinoceroses, and over 500 species of birds."
@@ -7109,25 +7123,26 @@ Bungee_Jumping_Pokhara: {
     },
     equipment: [
       {
-        title: "Binoculars",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/binoculars.jpg",  // Example image, replace with actual URL if available
-        description: "Used for bird watching and spotting wildlife from a distance."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/camera.jpg",
-        description: "To capture the beautiful moments and scenery."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "First Aid Kit",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/firstaid.jpg",
-        description: "Basic medical supplies for minor injuries."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Insect Repellent",
-        image: "/images/://www.greenvalleynepaltreks.com/assets/img/equipment/insectrepellent.jpg",
-        description: "Protects against insect bites during jungle walks."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Bardia National Park offers an off-the-beaten-path safari experience with diverse wildlife including Bengal tigers, wild elephants, and various bird species."
@@ -7208,24 +7223,25 @@ Nepal_Golden_Triangle_Tour: {
     },
     equipment: [
       {
-        title: "Comfortable Clothing",
-        image: "/images/://example.com/clothing.jpg",
-        description: "Pack lightweight and comfortable clothing suitable for the varied climates of Kathmandu, Chitwan, and Pokhara.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Insect Repellent",
-        image: "/images/://example.com/repellent.jpg",
-        description: "Essential for protection against insects, especially during jungle activities in Chitwan National Park.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera",
-        image: "/images/://example.com/camera.jpg",
-        description: "Capture the beautiful landscapes, wildlife, and cultural sites of Nepal.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Water Bottle",
-        image: "/images/://example.com/waterbottle.jpg",
-        description: "Stay hydrated throughout the tour by carrying a refillable water bottle.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -7330,24 +7346,25 @@ Nepal_Tour_Packages_from_Dhaka_Bangladesh: {
     },
     equipment: [
       {
-        title: "Comfortable Clothing",
-        image: "",
-        description: "Wear lightweight and comfortable clothing suitable for mild to moderate climates.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Travel Documents",
-        image: "",
-        description: "Carry a valid passport, visa, and travel insurance documents.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sunscreen and Hat",
-        image: "",
-        description: "Protect yourself from the sun with a high-SPF sunscreen and a wide-brimmed hat.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "",
-        description: "Capture the stunning landscapes and cultural sites of Nepal.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -7432,24 +7449,25 @@ Glimpse_Of_Nepal_Tour: {
     },
     equipment: [
       {
-        title: "Camera",
-        image: "/images/camera.jpg",
-        description: "To capture the stunning landscapes and cultural attractions.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Walking Shoes",
-        image: "/images/walking_shoes.jpg",
-        description: "For exploring the historical sites and city streets.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Warm Clothing",
-        image: "/images/warm_clothing.jpg",
-        description: "For chilly mornings and evenings, especially in Nagarkot.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Travel Adapter",
-        image: "/images/travel_adapter.jpg",
-        description: "To charge your electronic devices during the trip.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -7537,24 +7555,25 @@ Nepal_Tour_Package_From_India: {
     },
     equipment: [
       {
-        title: "Camera",
-        image: "/images/camera.jpg",
-        description: "To capture the stunning landscapes and cultural attractions.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Walking Shoes",
-        image: "/images/walking_shoes.jpg",
-        description: "For exploring the historical sites and city streets.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Warm Clothing",
-        image: "/images/warm_clothing.jpg",
-        description: "For chilly mornings and evenings, especially in the hills.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Travel Adapter",
-        image: "/images/travel_adapter.jpg",
-        description: "To charge your electronic devices during the trip.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -7645,27 +7664,28 @@ buddhist_pilgrimage_tour_nepal: {
         "category": "Tour",
         "bestSeason": "All Four Seasons"
       },
-      "equipment": [
+      equipment: [
         {
-          "title": "Comfortable Shoes",
-          "image": "/images/shoes.jpg",
-          "description": "Suitable for walking and light trekking."
+          title: "Trekking Backpack",
+          image: "/images/bagpack.png",
+          description: "A durable backpack designed for trekking adventures.",
         },
         {
-          "title": "Sunscreen",
-          "image": "/images/sunscreen.jpg",
-          "description": "Protection against the sun during outdoor visits."
+          title: "Walking Stick",
+          image: "/images/walkingStick.png",
+          description: "A sturdy walking stick to provide support during treks.",
         },
         {
-          "title": "Hat",
-          "image": "/images/hat.jpg",
-          "description": "To protect from sun exposure during the day."
+          title: "Sunglasses",
+          image: "/images/glasses.png",
+          description: "UV-protected sunglasses to protect your eyes from glare.",
         },
         {
-          "title": "Reusable Water Bottle",
-          "image": "/images/water_bottle.jpg",
-          "description": "Stay hydrated while reducing plastic waste."
-        }
+          title: "Trekking Shoes",
+          image: "/images/shoes.png",
+          description:
+            "Waterproof and high-ankle shoes with good grip for trekking.",
+        },
       ],
       "about": [
         "Nepal, a country rich in spiritual heritage, offers a profound experience for Buddhist pilgrims seeking to connect with the history and teachings of Buddhism. This 8-day tour takes you to some of the most important Buddhist sites, including Swayambhunath, Boudhanath, Kopan Monastery, and Lumbini, the birthplace of Buddha. Engage with local communities, participate in spiritual practices, and enjoy the stunning natural landscapes of Nepal."
@@ -7753,9 +7773,9 @@ Nepal_Beauty_Tour_6_Days: {
         days: "6 Days",
         people: "2 to 15",
         subimages: [
-          "/images/7-days-bhutan-classic-tour",
+          "/images/7-days-bhutan-classic-tour.jpg",
           "/images/beautiful-place-in-nepal.webp",
-          "/images/hd-wallpaper-g03581969d_640",
+          "/images/hd-wallpaper-g03581969d_640.jpg",
           "/images/image-asset.jpeg",
           "/images/nepal-tour-packages1.jpg",
         ],
@@ -7769,24 +7789,25 @@ Nepal_Beauty_Tour_6_Days: {
         },
         equipment: [
           {
-            title: "Travel Visa",
-            image: "/images/",
-            description: "Ensure you have a travel visa, obtainable upon arrival or from a Nepalese embassy.",
+            title: "Trekking Backpack",
+            image: "/images/bagpack.png",
+            description: "A durable backpack designed for trekking adventures.",
           },
           {
-            title: "Travel Insurance",
-            image: "/images/",
-            description: "Essential for covering emergency medical expenses and evacuation, especially for adventure activities.",
+            title: "Walking Stick",
+            image: "/images/walkingStick.png",
+            description: "A sturdy walking stick to provide support during treks.",
           },
           {
-            title: "Cash",
-            image: "/images/",
-            description: "Bring Nepalese rupees as credit cards are not widely accepted.",
+            title: "Sunglasses",
+            image: "/images/glasses.png",
+            description: "UV-protected sunglasses to protect your eyes from glare.",
           },
           {
-            title: "Reusable Water Bottle",
-            image: "/images/",
-            description: "Stay hydrated, especially during treks and physical activities.",
+            title: "Trekking Shoes",
+            image: "/images/shoes.png",
+            description:
+              "Waterproof and high-ankle shoes with good grip for trekking.",
           },
         ],
         about: [
@@ -7879,24 +7900,25 @@ Pokhara_Valley_Tour: {
         },
         equipment: [
           {
-            title: "Comfortable Clothing",
-            image: "/images/clothing.jpg",
-            description: "Wear comfortable, weather-appropriate clothing suitable for hiking and sightseeing.",
+            title: "Trekking Backpack",
+            image: "/images/bagpack.png",
+            description: "A durable backpack designed for trekking adventures.",
           },
           {
-            title: "Sturdy Footwear",
-            image: "/images/footwear.jpg",
-            description: "Bring sturdy footwear for walking and hiking on uneven terrain.",
+            title: "Walking Stick",
+            image: "/images/walkingStick.png",
+            description: "A sturdy walking stick to provide support during treks.",
           },
           {
-            title: "Sunscreen and Insect Repellent",
-            image: "/images/sunscreen.jpg",
-            description: "Protect yourself from the sun and insects with sunscreen and repellent.",
+            title: "Sunglasses",
+            image: "/images/glasses.png",
+            description: "UV-protected sunglasses to protect your eyes from glare.",
           },
           {
-            title: "Camera",
-            image: "/images/camera.jpg",
-            description: "Capture the beautiful landscapes and cultural landmarks with a camera.",
+            title: "Trekking Shoes",
+            image: "/images/shoes.png",
+            description:
+              "Waterproof and high-ankle shoes with good grip for trekking.",
           },
         ],
         about: [
@@ -7963,7 +7985,7 @@ Nepal_Adventure_Tour: {
         days: "8",
         people: "2 to 20",
         subimages: [
-          "/images/image1bungee-jumping-adventure-tour-1505631816.webp.jpg",
+          "/images/bungee-jumping-adventure-tour-1505631816.webp",
           "/images/image_processing20180723-4-1fjm9pz.jpg",
           "/images/image_processing20181012-4-1ejqt1l.jpg",
           "/images/mardi-himal-trek.webp",
@@ -7979,24 +8001,25 @@ Nepal_Adventure_Tour: {
         },
         equipment: [
           {
+            title: "Trekking Backpack",
+            image: "/images/bagpack.png",
+            description: "A durable backpack designed for trekking adventures.",
+          },
+          {
+            title: "Walking Stick",
+            image: "/images/walkingStick.png",
+            description: "A sturdy walking stick to provide support during treks.",
+          },
+          {
+            title: "Sunglasses",
+            image: "/images/glasses.png",
+            description: "UV-protected sunglasses to protect your eyes from glare.",
+          },
+          {
             title: "Trekking Shoes",
-            image: "/images/trekking_shoes.jpg",
-            description: "Comfortable and sturdy shoes suitable for walking and trekking.",
-          },
-          {
-            title: "Sunscreen",
-            image: "/images/sunscreen.jpg",
-            description: "Essential for protection against the sun during outdoor activities.",
-          },
-          {
-            title: "Water Bottle",
-            image: "/images/water_bottle.jpg",
-            description: "Reusable water bottle to stay hydrated throughout the tour.",
-          },
-          {
-            title: "Camera",
-            image: "/images/camera.jpg",
-            description: "Capture the beautiful moments and stunning landscapes.",
+            image: "/images/shoes.png",
+            description:
+              "Waterproof and high-ankle shoes with good grip for trekking.",
           },
         ],
         about: [
@@ -8098,24 +8121,25 @@ Muktinath_Darshan_by_Jeep: {
     },
     equipment: [
       {
-        title: "Warm Clothes",
-        image: "/images/link_to_image", // Add the URL of the image
-        description: "Pack warm clothing including jackets, sweaters, and gloves for the cold weather.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Shoes",
-        image: "/images/link_to_image",
-        description: "Sturdy and comfortable shoes suitable for trekking and rough terrain.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Medical Kit",
-        image: "/images/link_to_image",
-        description: "Carry essential medications, a first aid kit, and altitude sickness medication.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Snacks and Water",
-        image: "/images/link_to_image",
-        description: "Carry enough water and snacks, as food options may be limited during the journey.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8208,25 +8232,26 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     },
     equipment: [
       {
-        title: "Green Valley Nepal Trek T-Shirt",
-        image: "/images/https://example.com/tshirt_image.jpg",
-        description: "Complimentary T-shirt provided as a token of the tour."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Medical Kits",
-        image: "/images/https://example.com/medical_kit_image.jpg",
-        description: "Essential medical kits provided for safety and emergencies."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Oxygen Cylinders",
-        image: "/images/https://example.com/oxygen_cylinder_image.jpg",
-        description: "Oxygen cylinders provided to ensure passenger safety at high altitudes."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Experienced Guides",
-        image: "/images/https://example.com/guide_image.jpg",
-        description: "Professional guides provide insights into the region's history, culture, and geography."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Annapurna Base Camp Helicopter Tour is designed for those who want to witness the beauty of the Annapurna region without the long trek. It's a quick yet awe-inspiring way to experience the Himalayas.",
@@ -8304,24 +8329,25 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     },
     equipment: [
       {
-        title: "Warm Clothing",
-        image: "",
-        description: "Pack warm clothing suitable for high-altitude weather conditions.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Shoes",
-        image: "",
-        description: "Wear comfortable and sturdy shoes for trekking at high altitudes.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Photography Equipment",
-        image: "",
-        description: "Bring a camera or smartphone to capture the stunning views.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Personal Items",
-        image: "",
-        description: "Carry sunscreen, sunglasses, a hat, and a water bottle.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8395,24 +8421,25 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     },
     equipment: [
       {
-        title: "Warm Clothing",
-        image: "/images/https://example.com/warm-clothing.jpg",
-        description: "Essential for staying warm at high altitudes.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Comfortable Shoes",
-        image: "/images/https://example.com/comfortable-shoes.jpg",
-        description: "Ideal for walking around the Muktinath area.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sunscreen",
-        image: "/images/https://example.com/sunscreen.jpg",
-        description: "To protect against the sun at high altitudes.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "/images/https://example.com/camera.jpg",
-        description: "Capture the stunning views and memories.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8484,25 +8511,26 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     },
     equipment: [
       {
-        title: "Warm Clothing",
-        image: "/images/https://example.com/warm-clothing.jpg",
-        description: "Layered clothing to keep warm in high altitudes."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Camera",
-        image: "/images/https://example.com/camera.jpg",
-        description: "For capturing the stunning views."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "/images/https://example.com/sunglasses.jpg",
-        description: "Protect your eyes from the bright mountain glare."
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Snacks",
-        image: "/images/https://example.com/snacks.jpg",
-        description: "Light snacks to keep your energy up during the trip."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Everest Base Camp Helicopter Tour offers a unique opportunity to experience the majesty of Mt. Everest without the extended time commitment of a trek. This one-day tour allows you to fly from Kathmandu to the Everest region, enjoy a landing at the famous Everest View Hotel, and return to Kathmandu, all within a few hours."
@@ -8553,8 +8581,8 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     people: "1 to 5",
     subimages: [
       "/images/5c.jpg",
-      "/images/langtang-helicopter-tour.jpglx5",
-      "/images/langtang-helicopter-tour-1",
+      "/images/langtang-helicopter-tour.jpglx5.jpg",
+      "/images/langtang-helicopter-tour-1.jpg",
       "/images/Langtang-Helicopter-Tour-1-635x347",
       "/images/Over-flying-Helicopter-to-Langtang.webp",
     ],
@@ -8568,24 +8596,25 @@ Annapurna_Base_Camp_Helicopter_Tour: {
     },
     equipment: [
       {
-        title: "Camera",
-        image: "",
-        description: "Capture stunning landscapes and unique moments of your helicopter tour with a camera featuring ample storage.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "",
-        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Comfortable Footwear",
-        image: "",
-        description: "Wear lightweight, ankle-supporting shoes for ease of movement during any ground exploration.",
-      },
-      {
-        title: "Reusable Water Bottle",
-        image: "",
-        description: "Stay hydrated by carrying a reusable water bottle during the tour.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8658,24 +8687,25 @@ Lukla_to_Kathmandu_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Comfortable Footwear",
-        image: "",
-        description: "Wear lightweight, ankle-supporting shoes for ease of movement.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "",
-        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "",
-        description: "Capture stunning landscapes with a camera equipped with ample storage.",
-      },
-      {
-        title: "Travel Insurance",
-        image: "",
-        description: "Ensure you have travel insurance covering helicopter tours and emergencies.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8748,24 +8778,25 @@ Kathmandu_to_Lukla_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Comfortable Footwear",
-        image: "",
-        description: "Wear lightweight, ankle-supporting shoes for ease of movement.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "",
-        description: "Protect your eyes from the intense mountain sun with a good pair of sunglasses.",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "",
-        description: "Capture stunning landscapes with a camera equipped with ample storage.",
-      },
-      {
-        title: "Travel Insurance",
-        image: "",
-        description: "Ensure you have travel insurance covering helicopter tours and emergencies.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8838,24 +8869,25 @@ Gorakshep_to_Kathmandu_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Warm Clothing",
-        image: "",
-        description: "Wear layers of warm clothing as temperatures can be low at high altitudes.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
         title: "Sunglasses",
-        image: "",
-        description: "Protect your eyes from the intense sun and glare from the snow.",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "",
-        description: "Capture stunning aerial views of the Himalayas and landscapes.",
-      },
-      {
-        title: "Travel Insurance",
-        image: "",
-        description: "Ensure coverage for helicopter tours and emergency evacuations.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -8927,24 +8959,25 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Helicopter",
-        image: "helicopter.jpg",
-        description: "A well-maintained and quality-checked helicopter for a safe and comfortable flight.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Oxygen Mask",
-        image: "oxygen-mask.jpg",
-        description: "Available on board for safety at high altitudes.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Pilot Headset",
-        image: "pilot-headset.jpg",
-        description: "For communication between passengers and pilots.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Life Vest",
-        image: "life-vest.jpg",
-        description: "Provided for emergency safety during the flight.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9013,24 +9046,25 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Helicopter",
-        image: "",
-        description: "A high-quality helicopter for a safe and comfortable flight experience."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Oxygen Mask",
-        image: "",
-        description: "Provided in case of emergencies to ensure safety and comfort."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Warm Clothing",
-        image: "",
-        description: "Recommended for the cold conditions at high altitudes."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "",
-        description: "Capture stunning aerial views of the Everest region."
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9094,24 +9128,25 @@ Gorakshep_to_Lukla_Helicopter_Flight: {
     },
     equipment: [
       {
-        title: "Helicopter",
-        image: "helicopter_equipment.jpg",
-        description: "Modern helicopter equipped for high-altitude flights and emergency evacuations.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Oxygen Mask",
-        image: "oxygen_mask.jpg",
-        description: "Oxygen masks are available for emergencies during the flight.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Safety Gear",
-        image: "safety_gear.jpg",
-        description: "Includes seat belts and other safety equipment for a secure flight.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Personal Belongings",
-        image: "personal_belongings.jpg",
-        description: "Pack light, as helicopters have limited space and weight capacity.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9177,24 +9212,25 @@ Astam_Village_Day_Hiking: {
     },
     equipment: [
       {
-        title: "Hiking Boots",
-        image: "hiking-boots.jpg",
-        description: "Sturdy boots suitable for rough terrain.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "water-bottle.jpg",
-        description: "A refillable bottle to stay hydrated.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Backpack",
-        image: "backpack.jpg",
-        description: "A comfortable pack to carry your essentials.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Rain Jacket",
-        image: "rain-jacket.jpg",
-        description: "A waterproof jacket for unexpected weather.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9257,24 +9293,25 @@ Australian_Camp_Day_Hike: {
     },
     equipment: [
       {
-        title: "Hiking Boots",
-        image: "hiking-boots.jpg",
-        description: "Sturdy boots suitable for rough terrain.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "water-bottle.jpg",
-        description: "A refillable bottle to stay hydrated.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Backpack",
-        image: "backpack.jpg",
-        description: "A comfortable pack to carry your essentials.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Rain Jacket",
-        image: "rain-jacket.jpg",
-        description: "A waterproof jacket for unexpected weather.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9339,24 +9376,25 @@ Kahun_Danda_Hiking: {
     },
     equipment: [
       {
-        title: "Hiking Shoes",
-        image: "hiking-shoes.jpg",
-        description: "Comfortable shoes suitable for walking on uneven terrain.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "water-bottle.jpg",
-        description: "Bring a water bottle to stay hydrated throughout the hike.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Daypack",
-        image: "daypack.jpg",
-        description: "A small backpack to carry your essentials for the day.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Hat and Sunscreen",
-        image: "hat-sunscreen.jpg",
-        description: "Protect yourself from the sun with a hat and sunscreen.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9408,7 +9446,7 @@ Kalikasthan_Thulakot_Day_Hike: {
         subimages: [
           "/images/b2.jpg",
           "/images/amazing-view-from-thulakot-viewpoint.webp",
-          "/images/images copy 2.jpg",
+          "/images/images copy 2.jpeg",
           "/images/the-royal-trek.webp",
           "/images/Tue-12-43-09-1233242581-begnas lake.jpg",
         ],
@@ -9422,24 +9460,25 @@ Kalikasthan_Thulakot_Day_Hike: {
         },
         equipment: [
           {
-            title: "Hiking Shoes",
-            image: "hiking-shoes.jpg",
-            description: "Sturdy shoes for walking on varied terrain.",
+            title: "Trekking Backpack",
+            image: "/images/bagpack.png",
+            description: "A durable backpack designed for trekking adventures.",
           },
           {
-            title: "Water Bottle",
-            image: "water-bottle.jpg",
-            description: "Essential to stay hydrated during the hike.",
+            title: "Walking Stick",
+            image: "/images/walkingStick.png",
+            description: "A sturdy walking stick to provide support during treks.",
           },
           {
-            title: "Daypack",
-            image: "daypack.jpg",
-            description: "Small backpack to carry personal items and snacks.",
+            title: "Sunglasses",
+            image: "/images/glasses.png",
+            description: "UV-protected sunglasses to protect your eyes from glare.",
           },
           {
-            title: "Hat and Sunscreen",
-            image: "hat-sunscreen.jpg",
-            description: "Protection from the sun is crucial for comfort.",
+            title: "Trekking Shoes",
+            image: "/images/shoes.png",
+            description:
+              "Waterproof and high-ankle shoes with good grip for trekking.",
           },
         ],
         about: [
@@ -9507,24 +9546,25 @@ Naudanda_Sarangkot_Day_Hike: {
     },
     equipment: [
       {
-        title: "Hiking Boots",
-        image: "path/to/hiking_boots.jpg",
-        description: "Sturdy hiking boots for comfortable and safe trekking.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Backpack",
-        image: "path/to/backpack.jpg",
-        description: "A light backpack to carry essentials such as water, snacks, and a camera.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sun Protection",
-        image: "path/to/sun_protection.jpg",
-        description: "Sunscreen and sunglasses to protect against the sun.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "path/to/camera.jpg",
-        description: "A camera to capture the stunning views and memories.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9592,24 +9632,25 @@ Sarangkot_Viewpoint_Hike_from_Pokhara: {
     },
     equipment: [
       {
-        title: "Hiking Boots",
-        image: "path/to/hiking_boots.jpg",
-        description: "Comfortable and durable boots suitable for hiking.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Backpack",
-        image: "path/to/backpack.jpg",
-        description: "A lightweight backpack for carrying essentials.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sun Protection",
-        image: "path/to/sun_protection.jpg",
-        description: "Sunscreen and sunglasses to protect from sun.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "path/to/camera.jpg",
-        description: "A camera for capturing the stunning sunrise and landscapes.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -9677,25 +9718,26 @@ Pumdikot_Hike_with_World_Peace_Pagoda: {
     },
     equipment: [
       {
-        title: "Comfortable Hiking Shoes",
-        image: "path_to_equipment_image1.jpg",
-        description: "Ensure you have sturdy and comfortable hiking shoes for the trek."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "path_to_equipment_image2.jpg",
-        description: "Carry sufficient water to stay hydrated during the hike."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sun Protection",
-        image: "path_to_equipment_image3.jpg",
-        description: "Bring sunscreen, a hat, and sunglasses to protect yourself from the sun."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Camera",
-        image: "path_to_equipment_image4.jpg",
-        description: "Capture the stunning views and memorable moments of the hike."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Pumdikot Hike with World Peace Pagoda offers a refreshing and scenic experience, combining cultural landmarks with natural beauty. The trek includes a boat ride on Phewa Lake and hikes to two major viewpoints, providing an insight into local traditions and breathtaking landscapes."
@@ -9765,25 +9807,26 @@ Phulchoki_Day_Hiking: {
     },
     equipment: [
       {
-        title: "Comfortable Hiking Shoes",
-        image: "path_to_equipment_image1.jpg",
-        description: "Wear sturdy and comfortable hiking shoes for the trek."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "path_to_equipment_image2.jpg",
-        description: "Carry sufficient water to stay hydrated during the hike."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera and Binoculars",
-        image: "path_to_equipment_image3.jpg",
-        description: "Capture stunning views and spot birds along the trail."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Warm Clothing",
-        image: "path_to_equipment_image4.jpg",
-        description: "Pack layers of warm clothing as temperatures can drop, especially at higher altitudes."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Phulchoki Hill is the highest peak around Kathmandu Valley, providing panoramic views of the Himalayan peaks and Kathmandu Valley. The hike takes you through diverse vegetation and is ideal for bird watching. The summit offers a rewarding view and a chance to experience a local religious celebration at the shrine of Phulchoki Mai."
@@ -9851,25 +9894,26 @@ Shivapuri_Day_Hike: {
     },
     equipment: [
       {
-        title: "Comfortable Hiking Shoes",
-        image: "path_to_equipment_image1.jpg",
-        description: "Wear sturdy and comfortable hiking shoes for a smooth trek."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Water Bottle",
-        image: "path_to_equipment_image2.jpg",
-        description: "Carry sufficient water to stay hydrated throughout the hike."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Camera and Binoculars",
-        image: "path_to_equipment_image3.jpg",
-        description: "Capture the stunning views and spot birds along the trail."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Warm Clothing",
-        image: "path_to_equipment_image4.jpg",
-        description: "Pack layers of warm clothing as temperatures can drop at higher altitudes."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "Shivapuri Hill, standing at 2563 meters, offers spectacular views of the Kathmandu Valley and the Himalayan ranges. The hill is also a prime spot for bird watching and is home to the Shivapuri Conservation Area, which protects a diverse range of flora and fauna. The hike includes visits to the Budhanil Kantha temple and Nagi Gompa, providing insights into local Hindu and Buddhist practices."
@@ -9940,25 +9984,26 @@ Trishuli_River_Rafting: {
     },
     equipment: [
       {
-        title: "Safety Gear",
-        image: "path_to_equipment_image1.jpg",
-        description: "Life jackets and helmets are provided for safety during the rafting experience."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Waterproof Camera",
-        image: "path_to_equipment_image2.jpg",
-        description: "Capture the exciting moments and stunning views with a waterproof camera."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Quick-Drying Clothes",
-        image: "path_to_equipment_image3.jpg",
-        description: "Wear quick-drying clothes such as polyester or nylon to stay comfortable."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Comfortable Footwear",
-        image: "path_to_equipment_image4.jpg",
-        description: "Footwear with good grip is essential for walking on slippery rocks and wet surfaces."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Trishuli River, located in central Nepal, offers a thrilling rafting experience with rapids graded Class II to III. The river flows through picturesque landscapes, including lush forests, terraced farms, and traditional villages. It's ideal for both beginners and experienced rafters, providing a mix of adventure and relaxation. The trip is easily accessible and provides an opportunity to experience local culture and stunning natural beauty."
@@ -10008,18 +10053,18 @@ Night_Days_Trishuli_River_Rafting: {
   "id": 82,
   "slug": "trishuli-river-rafting-1-night-2-days",
   "category": "Adventure",
-  "img": "/images/_main_image.jpg",
+  "img": "/images/bhotekoshi-river-rafting.jpg",
   "description": "Experience the thrill of river rafting on the Trishuli River with a 1-night, 2-day adventure. Enjoy exciting rapids, scenic views, and local culture in this moderate-grade rafting trip.",
   "title": "1 Night 2 Days Trishuli River Rafting",
   "location": "Charaudi to Gaighat, Nepal",
   "days": "2",
   "people": "1 to 13",
   "subimages": [
-    "/images/_image1.jpg",
-    "/images/_image2.jpg",
-    "/images/_image3.jpg",
-    "/images/_image4.jpg",
-    "/images/_image5.jpg"
+    "/images/bhotekoshi-river-rafting.jpg",
+    "/images/trisuli-social.jpg",
+    "/images/Kayaking-in-Trishuli-river-1.jpg",
+    "/images/trishuli-river-rafting-1-night-2-days-2.jpg",
+    "/images/images56443.jpeg"
   ],
   "overView": {
     "duration": "2 Days",
@@ -10029,27 +10074,28 @@ Night_Days_Trishuli_River_Rafting: {
     "category": "Moderate",
     "bestSeason": "Spring and Autumn"
   },
-  "equipment": [
+  equipment: [
     {
-      "title": "Helmet",
-      "image": "path_to_helmet_image.jpg",
-      "description": "Provides protection during the rafting trip."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Life Jacket",
-      "image": "path_to_life_jacket_image.jpg",
-      "description": "Essential for safety and buoyancy in the water."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Paddle",
-      "image": "path_to_paddle_image.jpg",
-      "description": "Used to navigate and steer the raft."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Raft",
-      "image": "path_to_raft_image.jpg",
-      "description": "The main equipment for rafting on the river."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
     "The 1 Night 2 Days Trishuli River Rafting package offers a blend of thrilling rapids and serene moments, with an opportunity to explore the beautiful landscapes of Nepal."
@@ -10124,25 +10170,26 @@ Langtang_Valley_Trek: {
     },
     equipment: [
       {
-        title: "Trekking Poles",
-        image: "trekking_poles.jpg",
-        description: "Essential for providing stability on uneven terrain."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Hiking Boots",
-        image: "hiking_boots.jpg",
-        description: "Comfortable and sturdy boots to support your feet during the trek."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Backpack",
-        image: "backpack.jpg",
-        description: "A durable backpack to carry your essentials."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Sleeping Bag",
-        image: "sleeping_bag.jpg",
-        description: "A warm sleeping bag suitable for cold mountain nights."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Langtang Valley Trek is one of the most well-known and stunning trekking packages in Nepal, offering breathtaking views of the Himalayan ranges, wonderful culture, and various wildlife species.",
@@ -10253,24 +10300,25 @@ Langtang_Gosaikunda_Lake_Trek: {
     },
     equipment: [
       {
-        title: "Backpack",
-        image: "backpack.jpg",
-        description: "A sturdy and comfortable backpack to carry all your essentials.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Trekking Poles",
-        image: "trekking-poles.jpg",
-        description: "Adjustable poles to provide stability on uneven terrain.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Sleeping Bag",
-        image: "sleeping-bag.jpg",
-        description: "A warm and insulated sleeping bag suitable for cold nights.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Hiking Boots",
-        image: "hiking-boots.jpg",
-        description: "Durable and comfortable boots for long days of trekking.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -10423,27 +10471,28 @@ Tamang_Heritage_Trail_Trek: {
         "category": "Trekking",
         "bestSeason": "Spring and Autumn"
       },
-      "equipment": [
+      equipment: [
         {
-          "title": "Backpack",
-          "image": "path_to_image.jpg",
-          "description": "A sturdy backpack is essential for carrying your gear throughout the trek."
+          title: "Trekking Backpack",
+          image: "/images/bagpack.png",
+          description: "A durable backpack designed for trekking adventures.",
         },
         {
-          "title": "Hiking Boots",
-          "image": "path_to_image.jpg",
-          "description": "Durable and comfortable hiking boots are crucial for trekking on varied terrain."
+          title: "Walking Stick",
+          image: "/images/walkingStick.png",
+          description: "A sturdy walking stick to provide support during treks.",
         },
         {
-          "title": "Sleeping Bag",
-          "image": "path_to_image.jpg",
-          "description": "A high-quality sleeping bag will keep you warm during the trek."
+          title: "Sunglasses",
+          image: "/images/glasses.png",
+          description: "UV-protected sunglasses to protect your eyes from glare.",
         },
         {
-          "title": "Rain Gear",
-          "image": "path_to_image.jpg",
-          "description": "Rain gear is necessary to protect against unpredictable weather conditions."
-        }
+          title: "Trekking Shoes",
+          image: "/images/shoes.png",
+          description:
+            "Waterproof and high-ankle shoes with good grip for trekking.",
+        },
       ],
       "about": [
         "The Tamang Heritage Trail Trek offers a unique opportunity to experience the rich culture and natural beauty of the Langtang region. The trek takes you through traditional Tamang villages, lush forests, and stunning mountain landscapes."
@@ -10557,27 +10606,28 @@ Helambu_Circuit_Trek: {
         "category": "Trekking",
         "bestSeason": "Spring and Autumn"
       },
-      "equipment": [
+      equipment: [
         {
-          "title": "Backpack",
-          "image": "/images/_image.jpg",
-          "description": "A durable backpack is essential for carrying your gear throughout the trek."
+          title: "Trekking Backpack",
+          image: "/images/bagpack.png",
+          description: "A durable backpack designed for trekking adventures.",
         },
         {
-          "title": "Hiking Boots",
-          "image": "/images/_image.jpg",
-          "description": "Comfortable and sturdy hiking boots are crucial for trekking on varied terrain."
+          title: "Walking Stick",
+          image: "/images/walkingStick.png",
+          description: "A sturdy walking stick to provide support during treks.",
         },
         {
-          "title": "Sleeping Bag",
-          "image": "/images/_image.jpg",
-          "description": "A good quality sleeping bag will keep you warm at night."
+          title: "Sunglasses",
+          image: "/images/glasses.png",
+          description: "UV-protected sunglasses to protect your eyes from glare.",
         },
         {
-          "title": "Rain Gear",
-          "image": "/images/_image.jpg",
-          "description": "Rain gear is necessary to protect against unexpected weather conditions."
-        }
+          title: "Trekking Shoes",
+          image: "/images/shoes.png",
+          description:
+            "Waterproof and high-ankle shoes with good grip for trekking.",
+        },
       ],
       "about": [
         "The Helambu Circuit Trek is a remarkable short trek near Kathmandu, renowned for its scenic beauty, cultural experiences, and diverse landscapes. It provides a glimpse into the traditional lives of Sherpa and Tamang communities, offering stunning views of the Himalayas and rich flora and fauna along the way."
@@ -10685,24 +10735,25 @@ Langtang_Ganja_La_Pass_Trek: {
     },
     equipment: [
       {
-        title: "Duffel Bag",
-        image: "/images/duffel_bag.jpg",
-        description: "Green Valley Nepal Trek Duffle Bag.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "T-Shirt",
-        image: "/images/tshirt.jpg",
-        description: "Green Valley Nepal Trek T-Shirt.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Map",
-        image: "/images/map.jpg",
-        description: "Map of Ganja La Pass Trek route.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Oximeter",
-        image: "/images/oximeter.jpg",
-        description: "To check blood oxygen saturation levels.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -10844,24 +10895,25 @@ Gosaikunda_Lake_Trek: {
     },
     equipment: [
       {
-        title: "Duffel Bag",
-        image: "/images/duffel_bag.jpg",
-        description: "Green Valley Nepal Trek Duffle Bag.",
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "T-Shirt",
-        image: "/images/tshirt.jpg",
-        description: "Green Valley Nepal Trek T-Shirt.",
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Map",
-        image: "/images/map.jpg",
-        description: "Map of Gosaikunda trek route.",
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Oximeter",
-        image: "/images/oximeter.jpg",
-        description: "To check blood oxygen saturation levels.",
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
       },
     ],
     about: [
@@ -10963,25 +11015,26 @@ Makalu_Base_Camp_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Boots",
-      image: "trekking-boots.jpg",
-      description: "Durable and comfortable trekking boots suitable for rugged terrain."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Sleeping Bag",
-      image: "sleeping-bag.jpg",
-      description: "High-quality sleeping bag rated for cold temperatures."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Trekking Poles",
-      image: "trekking-poles.jpg",
-      description: "Adjustable trekking poles for added stability."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Backpack",
-      image: "backpack.jpg",
-      description: "Spacious and comfortable backpack with rain cover."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   about: [
     "The Makalu Base Camp Trek takes you deep into the heart of the Himalayas, offering breathtaking views and a challenging adventure. The trek passes through diverse landscapes, including lush forests, terraced fields, and high-altitude terrains."
@@ -11153,27 +11206,28 @@ Kanchenjunga_North_Base_Camp_Trek_20_Days: {
     "category": "Trekking",
     "bestSeason": "Spring (March to May) and Autumn (September to November)"
   },
-  "equipment": [
+  equipment: [
     {
-      "title": "Warm Clothing",
-      "image": "warm-clothing.jpg",
-      "description": "Essential for high-altitude trekking to keep warm."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Hiking Boots",
-      "image": "hiking-boots.jpg",
-      "description": "Sturdy boots for rough and uneven terrain."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Sleeping Bag",
-      "image": "sleeping-bag.jpg",
-      "description": "For comfortable and warm sleep during the trek."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Trekking Poles",
-      "image": "trekking-poles.jpg",
-      "description": "Helpful for stability and support on steep and uneven trails."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
     "Kanchenjunga North Base Camp Trek is a strenuous trek that requires good physical fitness and acclimatization. It traverses remote and rugged terrain, offering a unique adventure and cultural encounters."
@@ -11343,24 +11397,25 @@ Kanchenjunga_South_Base_Camp_Trek_13_Days: {
   },
   equipment: [
     {
-      title: "Trekking Boots",
-      image: "",
-      description: "Essential for trekking in rugged terrain, providing comfort and support.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Warm Clothing",
-      image: "",
-      description: "Includes down jackets, fleece, and hats to keep warm at high altitudes.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Backpack",
-      image: "",
-      description: "A sturdy backpack to carry your essentials and trekking gear.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Sleeping Bag",
-      image: "",
-      description: "A high-altitude sleeping bag to ensure a good night’s sleep in cold conditions.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -11508,24 +11563,25 @@ Kanchenjunga_Circuit_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Boots",
-      image: "boots_image.jpg",
-      description: "Sturdy and comfortable trekking boots are essential for navigating rough terrain and ensuring foot protection."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Sleeping Bag",
-      image: "sleeping_bag_image.jpg",
-      description: "A high-altitude sleeping bag rated for cold temperatures will keep you warm during the trek."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Water Purification System",
-      image: "water_purification_image.jpg",
-      description: "Carry a reliable water purification system to ensure safe drinking water throughout the trek."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Trekking Poles",
-      image: "trekking_poles_image.jpg",
-      description: "Trekking poles can provide stability and support on steep or uneven trails."
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -11717,25 +11773,26 @@ Upper_Dolpo_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Poles",
-      image: "/images/trekking_poles.jpg",
-      description: "Essential for stability and support on rugged terrain."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Down Jacket",
-      image: "/images/down_jacket.jpg",
-      description: "Provides warmth in cold high-altitude environments."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Sleeping Bag",
-      image: "/images/sleeping_bag.jpg",
-      description: "Necessary for cold nights at high altitudes."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Waterproof Gear",
-      image: "/images/waterproof_gear.jpg",
-      description: "Protects against rain and snow."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   about: [
     "The Upper Dolpo Trek takes you through one of Nepal's most remote and rugged regions. Known for its breathtaking natural beauty and ancient Tibetan culture, this trek offers a unique adventure for seasoned trekkers."
@@ -11912,25 +11969,26 @@ Lower_Dolpo_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Boots",
-      image: "/images/equipment1.jpg",
-      description: "Sturdy and comfortable trekking boots are essential for rugged terrain."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Sleeping Bag",
-      image: "/images/equipment2.jpg",
-      description: "A high-quality sleeping bag to keep warm in cold temperatures."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Warm Clothing",
-      image: "/images/equipment3.jpg",
-      description: "Layered warm clothing is necessary for high-altitude conditions."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Backpack",
-      image: "/images/equipment4.jpg",
-      description: "A durable and comfortable backpack for carrying your gear."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   about: [
     "The Lower Dolpo Trek is one of Nepal's most remote and unspoiled trekking routes. It takes you through stunning landscapes, traditional villages, and high-altitude lakes, offering a unique and authentic experience."
@@ -12079,27 +12137,28 @@ Manaslu_Circuit_Trek_14_Days: {
     "category": "Challenging",
     "bestSeason": "Spring and Autumn"
   },
-  "equipment": [
+  equipment: [
     {
-      "title": "Trekking Boots",
-      "image": "/images/_image",
-      "description": "Sturdy and comfortable trekking boots suitable for rugged terrain."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Warm Layers",
-      "image": "/images/_image",
-      "description": "Insulating clothing to keep you warm in high altitudes."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Waterproof Jacket",
-      "image": "/images/_image",
-      "description": "A waterproof jacket to protect against rain and snow."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Trekking Poles",
-      "image": "/images/_image",
-      "description": "Poles to aid in balance and reduce strain on the knees."
-    }
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
     "Manaslu Circuit Trek is one of Nepal's adventure treks combining high Himalayan beauty with cultural richness and biological diversity.",
@@ -12229,27 +12288,28 @@ Short_Manaslu_Trek_11_Days: {
       "category": "Challenging",
       "bestSeason": "Spring and Autumn"
     },
-    "equipment": [
+    equipment: [
       {
-        "title": "Backpack",
-        "image": "",
-        "description": "A sturdy backpack for carrying your essentials during the trek."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        "title": "Hiking Boots",
-        "image": "",
-        "description": "Good quality hiking boots with ankle support."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        "title": "Warm Clothing",
-        "image": "",
-        "description": "Layered warm clothing for cold temperatures, including a down jacket."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        "title": "Waterproof Gear",
-        "image": "",
-        "description": "Rain jacket and pants to keep you dry in wet conditions."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     "about": [
       "The Short Manaslu Trek offers stunning mountain views, traditional village life, and a chance to experience local culture in a shorter time frame."
@@ -12382,24 +12442,25 @@ Manaslu_Tsum_Valley_Trek: {
   },
   equipment: [
     {
-      title: "Hiking Boots",
-      image: "/images/_boots_image.jpg",
-      description: "Sturdy and waterproof hiking boots for rough terrains.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Backpack",
-      image: "/images/_backpack_image.jpg",
-      description: "Comfortable backpack with rain cover.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Trekking Poles",
-      image: "/images/_poles_image.jpg",
-      description: "Adjustable trekking poles for support and balance.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Sleeping Bag",
-      image: "/images/_sleeping_bag_image.jpg",
-      description: "Warm sleeping bag suitable for cold temperatures.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -12554,24 +12615,25 @@ Upper_Mustang_Overland_Tour: {
   },
   equipment: [
     {
-      title: "Warm Clothing",
-      image: "/images/_clothing_image.jpg",
-      description: "Insulated and waterproof clothing for cold and wet conditions.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Comfortable Shoes",
-      image: "/images/_shoes_image.jpg",
-      description: "Durable and comfortable walking shoes suitable for rugged terrains.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Hat or Head Covering",
-      image: "/images/_hat_image.jpg",
-      description: "Protective headgear against the sun and cold weather.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "First Aid Kit",
-      image: "/images/_first_aid_kit_image.jpg",
-      description: "Basic medical supplies for emergencies.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -12680,24 +12742,25 @@ Upper_Mustang_Trek: {
   },
   equipment: [
     {
-      title: "Oximeter",
-      image: "/images/oximeter_image.jpg",
-      description: "An oximeter to check blood oxygen saturation levels during the trek.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Medical Kits",
-      image: "/images/medical_kits_image.jpg",
-      description: "Essential medical kits for emergencies during the trek.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Sleeping Bags",
-      image: "/images/sleeping_bags_image.jpg",
-      description: "Arrangement of sleeping bags and down jackets if required.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Trekking Map",
-      image: "/images/map_image.jpg",
-      description: "Map of Upper Mustang Trekking via Muktinath.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -12871,24 +12934,25 @@ snowman_trek_30_days: {
    },
    equipment: [
     {
-      title: "Oximeter",
-      image: "path/to/oximeter_image.jpg",
-      description: "An oximeter to check blood oxygen saturation levels during the trek.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Medical Kits",
-      image: "path/to/medical_kits_image.jpg",
-      description: "Essential medical kits for emergencies during the trek.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Sleeping Bags",
-      image: "path/to/sleeping_bags_image.jpg",
-      description: "Arrangement of sleeping bags and down jackets if required.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Trekking Map",
-      image: "path/to/map_image.jpg",
-      description: "Map of Upper Mustang Trekking via Muktinath.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
 about: [
@@ -13096,24 +13160,25 @@ Bhutan_Tour_with_Bumdra_High_Camp_Trek: {
   },
   equipment: [
     {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
       title: "Trekking Shoes",
-      image: "path_to_trekking_shoes_image.jpg",
-      description: "Comfortable and sturdy trekking shoes for rough terrains.",
-    },
-    {
-      title: "Backpack",
-      image: "path_to_backpack_image.jpg",
-      description: "Spacious backpack to carry all your essentials.",
-    },
-    {
-      title: "Warm Clothing",
-      image: "path_to_warm_clothing_image.jpg",
-      description: "Warm clothes for the chilly nights at high altitude.",
-    },
-    {
-      title: "Sleeping Bag",
-      image: "path_to_sleeping_bag_image.jpg",
-      description: "Comfortable sleeping bag suitable for cold weather.",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -13198,24 +13263,25 @@ DrukPathTrek: {
   },
   equipment: [
     {
-      title: "Trekking Boots",
-      image: "path_to_boots_image.jpg",
-      description: "Ensure you have sturdy and comfortable trekking boots.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Warm Clothing",
-      image: "path_to_clothing_image.jpg",
-      description: "Pack layers of warm clothing suitable for high-altitude trekking.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Backpack",
-      image: "path_to_backpack_image.jpg",
-      description: "A quality backpack to carry all your essentials during the trek.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Sleeping Bag",
-      image: "path_to_sleeping_bag_image.jpg",
-      description: "A warm sleeping bag for the cold nights at high altitudes.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -13323,24 +13389,25 @@ Dagala_Thousand_Lakes_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Poles",
-      image: "path/to/trekking_poles.jpg",
-      description: "Essential for stability on uneven terrain."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Hiking Boots",
-      image: "path/to/hiking_boots.jpg",
-      description: "Comfortable and sturdy boots for long hikes."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Camping Gear",
-      image: "path/to/camping_gear.jpg",
-      description: "Includes tents, sleeping bags, and mats."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "First Aid Kit",
-      image: "path/to/first_aid_kit.jpg",
-      description: "Basic medical supplies for emergencies."
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -13438,24 +13505,25 @@ Jomolhari_Trek: {
   },
   equipment: [
     {
-      title: "Trekking Poles",
-      image: "path_to_trekking_poles_image.jpg",
-      description: "Sturdy trekking poles to assist you on uneven terrain.",
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      title: "Hiking Boots",
-      image: "path_to_hiking_boots_image.jpg",
-      description: "Comfortable and durable hiking boots.",
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      title: "Sleeping Bag",
-      image: "path_to_sleeping_bag_image.jpg",
-      description: "Warm sleeping bag suitable for high altitudes.",
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      title: "Backpack",
-      image: "path_to_backpack_image.jpg",
-      description: "A large backpack to carry all your essentials.",
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
   ],
   about: [
@@ -13570,25 +13638,26 @@ Soi_Yaksa_Trek: {
     },
     equipment: [
       {
-        title: "Trekking Poles",
-        image: "equipment1.jpg",
-        description: "Useful for maintaining balance on uneven terrain."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        title: "Hiking Boots",
-        image: "equipment2.jpg",
-        description: "Comfortable and sturdy boots for trekking."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        title: "Backpack",
-        image: "equipment3.jpg",
-        description: "Spacious backpack for carrying essentials."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        title: "Sleeping Bag",
-        image: "equipment4.jpg",
-        description: "Warm sleeping bag for camping nights."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     about: [
       "The Soi Yaksa Trek is a challenging yet rewarding journey through the picturesque landscapes of Bhutan, taking you through remote valleys, high passes, and serene lakes. The trek offers stunning views of some of the highest peaks in the world, including Mt. Jumolhari and Mt. Kanchenjunga. This trek is ideal for adventure seekers and nature lovers who want to experience the untouched beauty of Bhutan."
@@ -13675,6 +13744,8 @@ Soi_Yaksa_Trek: {
       }
     ],
 },
+ 
+// 
 bhutan_tour_via_phuentsholing_days: {
   id : 2,
   slug : "bhutan_tour_via_phuentsholing_7_days",
@@ -13710,27 +13781,28 @@ bhutan_tour_via_phuentsholing_days: {
   "Experience warm Bhutanese hospitality at a village homestay in Gangtey.",
   "Hike to the famous Tiger's Nest Monastery."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the breathtaking landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for the hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Bhutan Tour via Phuentsholing offers an in-depth exploration of Bhutan's rich cultural and natural heritage over seven days. Begin your journey in the border town of Phuentsholing, then proceed to Thimphu, Punakha, Gangtey, and finally Paro.",
@@ -13822,27 +13894,28 @@ paro_festival_tour_8_days: {
   "Discover Dumtse Lhakhang and Kichu Lhakhang in Paro.",
   "Hike to the iconic Tiger's Nest Monastery perched atop a cliff at 3,180 meters."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the vibrant festival, landscapes, and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and exploring various sites."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for understanding Bhutan's culture and landmarks."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Paro Festival Tour is an immersive journey into Bhutanese culture, featuring the Paro Festival, a significant cultural event. This 8-day tour includes visits to Thimphu, Punakha, and Paro, combining festival experiences with sightseeing and cultural immersion.",
@@ -13940,27 +14013,28 @@ shortest_bhutan_tour_3_days: {
   "See the Takin, Bhutan's unique national animal, in a local reserve.",
   "Visit National Memorial Chorten, a significant religious landmark in Bhutan."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Shortest Bhutan Tour offers a quick yet enriching exploration of Bhutan's cultural and natural highlights in just three days. Start in Thimphu, visiting landmarks like the King's Memorial Chorten and Buddha Point, then drive to Paro to hike to the iconic Tiger's Nest Monastery.",
@@ -14035,27 +14109,28 @@ cultural_tour_village_homestay_bhutan_11_days: {
       "Visit Jakar Dzong and the ancient Jambay Lhakhang in Bumthang Valley.",
       "Enjoy the spiritual trek to Tiger’s Nest Monastery, perched on a cliffside."
     ],
-    "equipment": [
+    equipment: [
       {
-        "title": "Travel Backpack",
-        "image": "/images/travel_backpack.png",
-        "description": "A reliable backpack for carrying your essentials during the tour."
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
       },
       {
-        "title": "Camera",
-        "image": "/images/camera.png",
-        "description": "Capture the stunning landscapes and cultural sites."
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
       },
       {
-        "title": "Comfortable Shoes",
-        "image": "/images/comfortable_shoes.png",
-        "description": "Essential for hiking and sightseeing activities."
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
       },
       {
-        "title": "Travel Guidebook",
-        "image": "/images/guidebook.png",
-        "description": "Helpful for learning about Bhutan's culture and landmarks."
-      }
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
     ],
     "about": [
       "The Cultural Tour with Village Homestay in Bhutan offers an immersive experience of Bhutan’s cultural richness over 11 days. The tour includes visits to significant dzongs, monasteries, and scenic valleys, complemented by stays with local families.",
@@ -14168,27 +14243,28 @@ glimpse_of_bhutan_tour_4_days: {
   "Hike to the sacred Tiger’s Nest Monastery and enjoy spectacular views of Paro Valley.",
   "Experience Bhutan’s rich biodiversity and cultural heritage."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Glimpse of Bhutan Tour is designed for travelers who want to experience the essence of Bhutan in a short period. Over four days, this tour covers the key highlights of Bhutan's western and central regions, offering a compact yet comprehensive introduction to the country.",
@@ -14261,41 +14337,30 @@ bhutan_cultural_tour_5_days: {
   "category": "Cultural tour",
   "bestSeason": "March to November"
   },
-  "highlights": [
-  "Immerse yourself in Bhutanese culture by visiting traditional forts, monasteries, and local markets.",
-  "Enjoy a homestay with a local family and experience Bhutanese hospitality firsthand.",
-  "Dress up in traditional Bhutanese attire and explore local markets and cultural sites.",
-  "Pamper yourself with a traditional hot-stone bath, known for its therapeutic benefits.",
-  "Hike to the iconic Tiger's Nest Monastery, perched on a cliffside with breathtaking views of the Paro Valley.",
-  "Travel through picturesque landscapes, including the Dochula Pass with views of the Himalayan peaks."
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  },
-  {
-      "title": "Traditional Attire",
-      "image": "/images/traditional_attire.png",
-      "description": "Wear traditional Bhutanese dress during local visits for an authentic experience."
-  }
-  ],
+  
   "about": [
   "The Bhutan Cultural Tour offers a deep dive into Bhutan's unique cultural heritage and traditions. Over five days, you will explore key cultural sites, including ancient monasteries, dzongs, and traditional homes. Begin in Paro and visit significant landmarks such as the Paro Dzong and Tiger's Nest Monastery. Journey to Thimphu to experience Bhutanese art, visit the King's Memorial Chorten, and dress in traditional attire. Continue to Punakha to enjoy a traditional hot-stone bath, visit Punakha Dzong, and interact with locals.",
   "This tour provides a blend of cultural immersion and scenic exploration, showcasing Bhutan's stunning landscapes and rich history. From traditional homestays and local markets to sacred Buddhist sites and majestic Himalayan views, the tour is designed to give you a comprehensive experience of Bhutan’s heritage and natural beauty.",
@@ -14377,32 +14442,28 @@ grand_cultural_tour_bhutan_6_days: {
   "Return to Paro and explore Paro Dzong, Kichu Lhakhang, and enjoy authentic Bhutanese cuisine.",
   "Hike to the iconic Taktsang Monastery (Tiger's Nest) for panoramic views and a spiritual experience."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A reliable backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  },
-  {
-      "title": "Traditional Attire",
-      "image": "/images/traditional_attire.png",
-      "description": "Wear traditional Bhutanese dress during local visits for an authentic experience."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Grand Cultural Tour of Bhutan provides an in-depth exploration of Bhutan's rich cultural heritage and stunning natural landscapes. Over six days, you will visit key sites in Thimphu, Punakha, and Paro, experiencing Bhutanese traditions, architecture, and natural beauty. The tour begins with a scenic flight to Paro, followed by visits to major cultural landmarks such as the King’s Memorial Chorten, the National Institute of Traditional Medicine, and Buddha Point. You'll explore Thimphu's vibrant arts scene and visit the historic Tashi Chhoedzong.",
@@ -14488,32 +14549,28 @@ western_bhutan_tour_7_days: {
   "Explore Phobjikha Valley, visit Gangtey Goenpa Monastery, and observe the Black-necked Cranes.",
   "Return to Paro for visits to Paro Dzong, Kichu Lhakhang, and a hike to the iconic Tiger’s Nest Monastery."
   ],
-  "equipment": [
-  {
-      "title": "Travel Backpack",
-      "image": "/images/travel_backpack.png",
-      "description": "A sturdy backpack for carrying your essentials during the tour."
-  },
-  {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
-  },
-  {
-      "title": "Comfortable Shoes",
-      "image": "/images/comfortable_shoes.png",
-      "description": "Essential for hiking and sightseeing activities."
-  },
-  {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "Helpful for learning about Bhutan's culture and landmarks."
-  },
-  {
-      "title": "Warm Clothing",
-      "image": "/images/warm_clothing.png",
-      "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
   ],
   "about": [
   "The Western Bhutan Tour offers a comprehensive exploration of the stunning landscapes and cultural treasures of Western Bhutan. Over the course of seven days, you will traverse the diverse geography from the lush valleys of Paro and Phobjikha to the majestic heights of Dochula Pass.",
@@ -14609,32 +14666,28 @@ bhutan_heritage_tour_8_days: {
   "Hike to Tiger’s Nest, Sky Burial Ground, and Kila Gompa.",
   "Enjoy a relaxing soak at a traditional hot stone bath."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Bhutan Heritage Tour takes you on an incredible journey across the cultural hotspots of Bhutan, offering a deep dive into the rich history, traditions, and natural beauty of this fascinating Himalayan kingdom. You will explore old cities filled with traditional buildings, hilltop monasteries, and the nesting sites of the endangered Black-necked Cranes.",
@@ -14739,32 +14792,28 @@ bhutan_tour_with_haa_valley_8_days: {
   "Marvel at the stunning houses of Rinchengang Village in Wangdue.",
   "Hike to Taktsang Monastery (Tiger’s Nest), dramatically perched on a hill overlooking Paro Valley."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Bhutan Tour with Haa Valley takes you on an incredible journey across Bhutan, offering a deep dive into the rich history, traditions, and natural beauty of this fascinating Himalayan kingdom. You will explore old cities filled with traditional buildings, hilltop monasteries, and the lesser-known but stunning Haa Valley.",
@@ -14866,32 +14915,28 @@ western_and_central_bhutan_tour_9_days: {
   "Explore the cultural hub of Bumthang with its ancient monasteries and temples.",
   "Hike to Taktsang Monastery (Tiger’s Nest), dramatically perched on a hill overlooking Paro Valley."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Western and Central Bhutan Tour takes you on an incredible journey across Bhutan, offering a deep dive into the rich history, traditions, and natural beauty of this fascinating Himalayan kingdom. You will explore old cities filled with traditional buildings, hilltop monasteries, and the serene Phobjikha and Bumthang valleys.",
@@ -15017,32 +15062,28 @@ bhutan_west_east_traverse_tour_14_days: {
   "Get an insight into the remarkable thirteen art forms of Bhutan with a visit to the Painting School.",
   "Discover different traditional herbs and medicinal plants at the National Institute of Traditional Medicine."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Bhutan West East Traverse Tour offers a comprehensive exploration of Bhutan, spanning from the lush landscapes of the west to the serene and cultural eastern regions. Experience a diverse array of Bhutanese culture, history, and natural beauty.",
@@ -15172,32 +15213,28 @@ bhutan_tour_with_day_hikes_and_bumdra_camp_7_days: {
   "Interact with novice monks and learn more about monastic life at Dodeydra and Dechen Phodrang Gompas.",
   "Visit a traditional paper factory and learn more about the process of creating handmade paper."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Bhutan Tour with Day Hikes and Bumdra Camp offers an immersive experience into Bhutan’s natural beauty and cultural heritage. Enjoy scenic hikes and overnight camping while exploring the country’s sacred sites and ancient trails.",
@@ -15288,32 +15325,28 @@ bhutan_tour_with_homestay_7_days: {
   "Explore the scenic landscapes and enjoy nature hikes.",
   "Learn about Bhutan's unique customs and traditions."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Travel Backpack",
-    "image": "/images/travel_backpack.png",
-    "description": "A sturdy backpack for carrying your essentials during the tour."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Comfortable Shoes",
-    "image": "/images/comfortable_shoes.png",
-    "description": "Essential for hiking and sightseeing activities."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Helpful for learning about Bhutan's culture and landmarks."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Dress in layers to accommodate varying temperatures, especially in higher altitudes."
-  }
 ],
 "about": [
   "The Bhutan Tour with Homestay is designed for travelers seeking an immersive cultural experience. By staying with local families, you'll gain insight into Bhutanese life, customs, and traditions. This tour is perfect for those who want to experience authentic Bhutanese hospitality while exploring the country's stunning landscapes and historic sites.",
@@ -15407,32 +15440,28 @@ hidden_secret_of_bhutan_overnight_at_camp_and_monastery_5_days: {
   "Trek to Tiger’s Nest Monastery.",
   "Relax with a traditional hot stone bath."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Trekking Gear",
-    "image": "/images/trekking_gear.png",
-    "description": "Essential for hiking and exploring, including trekking poles and rain gear."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camping Equipment",
-    "image": "/images/camping_equipment.png",
-    "description": "Includes sleeping bags, tents, and camping mats."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the breathtaking landscapes and spiritual sites."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Necessary for varying temperatures, especially at higher altitudes. Include thermal layers, a windproof jacket, and gloves."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Bring any personal medications and a basic first aid kit, including items for altitude sickness."
-  }
 ],
 "about": [
   "The Hidden Secret of Bhutan tour combines adventure with spiritual exploration. It features unique experiences such as camping in the Himalayan foothills and staying at a remote monastery, offering a rare glimpse into Bhutan’s spiritual heritage and pristine natural beauty.",
@@ -15520,32 +15549,28 @@ cultural_tour_with_trans_bhutan_trail_hike_7_days: {
   "Experience rural Bhutanese life with a homestay in Laptsakha.",
   "Interact with monks and learn about Buddhist practices."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Trekking Gear",
-    "image": "/images/trekking_gear.png",
-    "description": "Essential for the hike, including trekking poles, comfortable shoes, and rain gear."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the breathtaking landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Necessary for varying temperatures, especially at higher altitudes. Include thermal layers and a windproof jacket."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Bring personal medications and a basic first aid kit. Consider altitude sickness remedies."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "A guidebook can be useful for additional information on Bhutanese culture and landmarks."
-  }
 ],
 "about": [
   "The Cultural Tour with Trans Bhutan Trail Hike offers a deep dive into Bhutan’s rich cultural and spiritual heritage. This seven-day journey combines exploration of ancient monasteries, traditional practices, and the iconic Trans Bhutan Trail.",
@@ -15646,6 +15671,29 @@ bhutan_tour_with_day_hikes_and_haa_valley_8_days:{
   "Marvel at the architectural splendor of Punakha Dzong, Bhutan's second largest and second oldest dzong.",
   "In Paro, visit Ta Dzong, the national museum and the tallest building in Bhutan."
 ],
+equipment: [
+  {
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
+  },
+  {
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
+  },
+  {
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
+  },
+  {
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
+  },
+],
 "facilities": [
   "Airport pick-up and drop-off service.",
   "Accommodation in hotels, a homestay, and traditional tented camps.",
@@ -15718,17 +15766,17 @@ bhutan_cultural_tour_with_day_hikes_6_days: {
 "slug": "bhutan_cultural_tour_with_day_hikes_6_days",
 "title": "Bhutan Cultural Tour with Day Hikes",
 "category": "Cultural Tour",
-"img": "/images/Bhutan-Cultural-Tour.jpg",
+"img": "/images/imagefr4fs.jpeg",
 "description": "Explore Bhutan's rich culture, history, and natural beauty through Paro, Thimphu, and Punakha with scenic hikes and cultural visits.",
 "location": "Bhutan",
 "days": "6 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Cultural-Tour.jpg",
-  "/images/National-Memorial.jpg",
-  "/images/Dodeydra-Monastery.jpg",
-  "/images/Lungchutse-Goempa.jpg",
-  "/images/Tigers-Nest-Monastery.jpg"
+  "/images/imagefr4fs.jpeg  ",
+  "/images/a2.jpg",
+  "/images/Casa-del-Guardian-Machu-Picchu-900x791.webp",
+  "/images/casa-guardian-machu-picchu.jpg",
+  "/images/hiking-to-machu-picchu-feature-600x478.jpg"
 ],
 "overView": {
   "duration": "6 days",
@@ -15745,32 +15793,28 @@ bhutan_cultural_tour_with_day_hikes_6_days: {
   "Discover the National Memorial Chorten, Buddha Dordenma, and Simtokha Dzong in Thimphu.",
   "Tour the National Museum of Bhutan in Paro and shop for local souvenirs."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Hiking Gear",
-    "image": "/images/hiking_gear.png",
-    "description": "Comfortable hiking shoes, trekking poles, and rain gear for the day hikes."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Layered clothing suitable for varying temperatures and elevations."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Personal medications and a basic first aid kit. Consider altitude sickness remedies."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "A guidebook for additional information on Bhutanese culture and landmarks."
-  }
 ],
 "about": [
   "The 6-day Bhutan Cultural Tour offers a comprehensive experience of Bhutan’s rich cultural and natural heritage. Starting in Paro, the tour explores the vibrant culture of Thimphu, the ancient traditions of Punakha, and the breathtaking natural beauty of Bhutan.",
@@ -15836,17 +15880,17 @@ bhutan_day_hikes_with_cultural_tour_5_days: {
 "slug": "bhutan_day_hikes_with_cultural_tour_5_days",
 "title": "Bhutan Day Hikes with Cultural Tour",
 "category": "Cultural Tour",
-"img": "/images/Bhutan-Day-Hikes-Tour.jpg",
+"img": "/images/47.jpg",
 "description": "Experience Bhutan’s cultural and natural wonders with a 5-day tour including hikes to Lungchutse Gompa, Khamsum Yulley Namgyal, and Tiger's Nest Monastery.",
 "location": "Bhutan",
 "days": "5 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Day-Hikes-Tour.jpg",
-  "/images/Dochula-Pass.jpg",
-  "/images/Lungchutse-Goempa.jpg",
-  "/images/Khamsum-Yulley-Namgyal.jpg",
-  "/images/Tigers-Nest-Monastery.jpg"
+  "/images/47.jpg",
+  "/images/bhutan-cultural-tour.jpg",
+  "/images/images copy 3.jpeg",
+  "/images/punakha.jpg8Nt.jpg",
+  "/images/ThimphuDzong1_53649-430w.webp"
 ],
 "overView": {
   "duration": "5 days",
@@ -15862,32 +15906,28 @@ bhutan_day_hikes_with_cultural_tour_5_days: {
   "Hike to the iconic Tiger's Nest Monastery in Paro.",
   "Experience the rich culture and stunning landscapes of Bhutan through engaging hikes and cultural visits."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Hiking Gear",
-    "image": "/images/hiking_gear.png",
-    "description": "Comfortable hiking shoes, trekking poles, and rain gear for the hikes."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the breathtaking views and cultural sites."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Warm Clothing",
-    "image": "/images/warm_clothing.png",
-    "description": "Layered clothing suitable for changing temperatures and elevations."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Any personal medications and a basic first aid kit. Consider altitude sickness remedies."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "A guidebook for additional information on Bhutanese culture and landmarks."
-  }
 ],
 "about": [
   "The 5-day Bhutan Day Hikes with Cultural Tour offers a compact yet comprehensive exploration of Bhutan’s highlights. This tour covers the cultural richness of Thimphu, the historical significance of Punakha, and the spiritual allure of Paro.",
@@ -15945,16 +15985,17 @@ bhutan_tour_with_day_hikes_4_days: {
   "slug": "bhutan_tour_with_day_hikes_4_days",
   "title": "Bhutan Tour with Day Hikes",
   "category": "Cultural Tour",
-  "img": "/images/Bhutan-Day-Hikes-4-Days.jpg",
+  "img": "/images/images (1567).jpeg",
   "description": "A 4-day Bhutan tour featuring day hikes to Dodeydra Monastery and Tiger's Nest Monastery, exploring key cultural and historical sites in Paro and Thimphu.",
   "location": "Bhutan",
   "days": "4 days",
   "people": "1-12",
   "subimages": [
-    "/images/Bhutan-Day-Hikes-4-Days.jpg",
-    "/images/Rinpung-Dzong.jpg",
-    "/images/Dodeydra-Monastery.jpg",
-    "/images/Tigers-Nest-Monastery.jpg"
+    "/images/images (1567).jpeg",
+    "/images/Buddha-Dordenma-1.png",
+    "/images/Bhutan-Tour-6-Night-7-Days-From-Nepal.jpg",
+    "/images/shutterstock_152743238-1.webp",
+    "/images/night-days.jpg",
   ],
   "overView": {
     "duration": "4 days",
@@ -15971,32 +16012,28 @@ bhutan_tour_with_day_hikes_4_days: {
     "Hike to the iconic Tiger's Nest Monastery (Paro Taktsang) at an elevation of 3,180 meters.",
     "Interact with local Tibetan Buddhists and experience their lifestyle and culture."
   ],
-  "equipment": [
+  equipment: [
     {
-      "title": "Hiking Gear",
-      "image": "/images/hiking_gear.png",
-      "description": "Comfortable hiking shoes, trekking poles, and rain gear for the hikes."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes and cultural sites."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Warm Clothing",
-      "image": "/images/warm_clothing.png",
-      "description": "Layered clothing suitable for varying weather conditions and elevations."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Personal Medications",
-      "image": "/images/medications.png",
-      "description": "Any personal medications and a basic first aid kit. Consider altitude sickness remedies."
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
-    {
-      "title": "Travel Guidebook",
-      "image": "/images/guidebook.png",
-      "description": "A guidebook for additional information on Bhutanese culture and landmarks."
-    }
   ],
   "about": [
     "The 4-day Bhutan Tour with Day Hikes provides a unique and compact way to experience the rich cultural and natural heritage of Bhutan. This tour is perfect for travelers with limited time who want to immerse themselves in Bhutan’s spiritual and historical essence while exploring some of its most famous landmarks.",
@@ -16081,18 +16118,17 @@ bhutan_highlights_tour_14_days: {
 "slug": "bhutan_highlights_tour_14_days",
 "title": "Bhutan Highlights Tour - 14 Days",
 "category": "Cultural Tour",
-"img": "/images/Bhutan-Highlights-Tour-14-Days.jpg",
+"img": "/images/bhutan-7-days-banner.webp",
 "description": "Experience a comprehensive 14-day journey through Bhutan, covering major cultural and natural highlights across Paro, Thimphu, Punakha, Phobjikha, Gangtey, Bumthang, Trongsa, Tang, and Haa.",
 "location": "Bhutan",
 "days": "14 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Highlights-Tour-14-Days.jpg",
-  "/images/Tashichho-Dzong.jpg",
-  "/images/Punakha-Dzong.jpg",
-  "/images/Gangtey-Valley.jpg",
-  "/images/Bumthang-Valley.jpg",
-  "/images/Tiger-Nest-Monastery.jpg"
+  "/images/Bhutan-Tour-4-Thimphu-valley_1800x1200.jpeg",
+  "/images/Bruised-Passports-Bhutan-Itinerary-Guide-featured-40.jpg",
+  "/images/image-asset.jpeg",
+  "/images/punakha-576x400.jpg",
+  "/images/Tigers-Nest-Monastery-Paro-Taktsang-Bhutan-875x585-c-default.jpg"
 ],
 "overView": {
   "duration": "14 days",
@@ -16109,32 +16145,28 @@ bhutan_highlights_tour_14_days: {
   "Enjoy scenic drives and hikes through breathtaking valleys and mountain ranges.",
   "Interact with locals and gain insights into Bhutanese culture and traditions."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Hiking Shoes",
-    "image": "/images/hiking_shoes.png",
-    "description": "Essential for trekking through Bhutan’s varied terrain."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural landmarks."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Warm and Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Prepare for varying weather conditions, especially in higher elevations."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Bring any personal medications and a basic first aid kit."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "A guidebook will enhance your understanding of Bhutanese culture and history."
-  }
 ],
 "about": [
   "The Bhutan Highlights Tour - 14 Days offers an extensive exploration of Bhutan, combining its cultural, spiritual, and natural wonders into a comprehensive journey.",
@@ -16281,18 +16313,17 @@ bhutan_culture_and_nature_tour_with_hiking_10_days: {
 "slug": "bhutan_culture_and_nature_tour_with_hiking_10_days",
 "title": "Bhutan Culture and Nature Tour with Hiking - 10 Days",
 "category": "Cultural and Nature Tour",
-"img": "/images/Bhutan-Culture-Nature-Tour-10-Days.jpg",
+"img": "/images/22332fef.jpeg",
 "description": "Immerse yourself in a 10-day journey through Bhutan's rich cultural heritage and natural beauty, featuring scenic hikes, cultural landmarks, and breathtaking landscapes.",
 "location": "Bhutan",
 "days": "10 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Culture-Nature-Tour-10-Days.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Punakha-Dzong.jpg",
-  "/images/Gangtey-Valley.jpg",
-  "/images/Bumthang-Valley.jpg",
-  "/images/Thimphu-City.jpg"
+  "/images/22332fef.jpeg",
+  "/images/Haengebrueck-in-Bhutan-mit-Stupa-1.webp",
+  "/images/hikers-with-ama-dablam-in-the-background-1202.jpg",
+  "/images/image_processing20181012-4-7e3yic.jpg",
+  "/images/images (1)34.jpeg"
 ],
 "overView": {
   "duration": "10 days",
@@ -16309,32 +16340,28 @@ bhutan_culture_and_nature_tour_with_hiking_10_days: {
   "Enjoy the vibrant cultural heritage of Bumthang Valley.",
   "Immerse yourself in Bhutanese traditions and scenic landscapes."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Hiking Shoes",
-    "image": "/images/hiking_shoes.png",
-    "description": "Essential for trekking through Bhutan’s diverse terrain."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes and cultural landmarks."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Warm and Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Prepare for varying weather conditions, especially in higher elevations."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Bring any personal medications and a basic first aid kit."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "A guidebook will enhance your understanding of Bhutanese culture and history."
-  }
 ],
 "about": [
   "The Bhutan Culture and Nature Tour with Hiking - 10 Days offers a captivating blend of Bhutan’s rich cultural heritage and breathtaking natural beauty. This tour provides an immersive experience for those interested in exploring Bhutan’s historical landmarks and scenic landscapes.",
@@ -16468,18 +16495,17 @@ village_walking_tour_in_bhutan_7_days: {
 "slug": "village_walking_tour_in_bhutan_7_days",
 "title": "Village Walking Tour in Bhutan - 7 Days",
 "category": "Village Walking Tour",
-"img": "/images/Village-Walking-Tour-Bhutan.jpg",
+"img": "/images/clock-tower.jpg",
 "description": "Experience the heart of Bhutan with this 7-day village walking tour, exploring age-old villages, interacting with locals, and discovering Bhutanese traditions and lifestyles.",
 "location": "Bhutan",
 "days": "7 days",
 "people": "1-12",
 "subimages": [
-  "/images/Village-Walking-Tour-Bhutan.jpg",
-  "/images/Metshina-Village.jpg",
-  "/images/Talo-Village.jpg",
-  "/images/Nobgang-Village.jpg",
-  "/images/Rinchegang-Village.jpg",
-  "/images/Bhutan-Village-Lifestyle.jpg"
+  "/images/Galem.jpg",
+  "/images/clock-tower.jpg",
+  "/images/image45fds.jpeg",
+  "/images/mxxmydybwa-1600694825.webp",
+  "/images/villages-in-bhutan-lovely.jpg"
 ],
 "overView": {
   "duration": "7 days",
@@ -16496,32 +16522,28 @@ village_walking_tour_in_bhutan_7_days: {
   "Enjoy scenic walks through lush landscapes and terraced fields.",
   "Immerse yourself in the unique cultural and historical significance of each village."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/walking_shoes.png",
-    "description": "Essential for traversing village trails and uneven terrain."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the picturesque village scenes and interactions with locals."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Prepare for varying weather conditions, especially in higher elevations."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Personal Medications",
-    "image": "/images/medications.png",
-    "description": "Bring any personal medications and a basic first aid kit."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Guidebook",
-    "image": "/images/guidebook.png",
-    "description": "Enhance your understanding of Bhutanese culture and village life."
-  }
 ],
 "about": [
   "The Village Walking Tour in Bhutan - 7 Days offers an immersive and authentic experience of rural Bhutan. This tour takes you through some of Bhutan’s most picturesque and culturally significant villages, providing an opportunity to interact with local communities and witness their traditional ways of life.",
@@ -16630,18 +16652,17 @@ bhutan_hiking_and_camping_tour_7_days:{
 "slug": "bhutan_hiking_and_camping_tour_7_days",
 "title": "Bhutan Hiking and Camping Tour - 7 Days",
 "category": "Hiking and Camping Tour",
-"img": "/images/Bhutan-Hiking-Camping-Tour.jpg",
+"img": "/images/trekking-in-bhutan90.webp",
 "description": "Embark on an adventurous 7-day hiking and camping tour in Bhutan, immersing yourself in the natural beauty of the Himalayas. This tour offers a blend of challenging hikes, serene campsites, and breathtaking views, showcasing Bhutan's diverse landscapes and rich cultural heritage.",
 "location": "Bhutan",
 "days": "7 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bhutan-Hiking-Camping-Tour.jpg",
-  "/images/Tiger-Nest-Monastery-Hike.jpg",
-  "/images/Phobjikha-Valley.jpg",
-  "/images/Gangtey-Temple.jpg",
-  "/images/Jangbi-Village.jpg",
-  "/images/Black-Necked-Crane.jpg"
+  "/images/trekking-in-bhutan90.webp",
+  "/images/trekking-in-bhutan90 (1).webp",
+  "/images/d586cf70-0ba4-498e-a4d6-06d38136cb75.webp",
+  "/images/bhutan-trekking-tour-11-days.jpg",
+  "/images/Bhutan-Camping-Tours.jpg"
 ],
 "overView": {
   "duration": "7 days",
@@ -16658,32 +16679,28 @@ bhutan_hiking_and_camping_tour_7_days:{
   "Experience local culture and hospitality in Jangbi Village.",
   "Camp in pristine wilderness, surrounded by breathtaking Himalayan views."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Hiking Boots",
-    "image": "/images/hiking_boots.png",
-    "description": "Essential for trekking on rugged trails and uneven terrain."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Sleeping Bag",
-    "image": "/images/sleeping_bag.png",
-    "description": "Comfortable and suitable for cold weather camping."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Prepare for varying temperatures and weather conditions."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Backpack",
-    "image": "/images/backpack.png",
-    "description": "For carrying your essentials during hikes and camping."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture stunning landscapes and unique moments during the tour."
-  }
 ],
 "about": [
   "The Bhutan Hiking and Camping Tour - 7 Days is an exhilarating journey through some of Bhutan’s most breathtaking landscapes. This tour combines challenging hikes with serene camping experiences, allowing you to fully immerse yourself in the natural beauty and cultural richness of Bhutan.",
@@ -16792,17 +16809,17 @@ bhutan_day_hikes_and_cultural_discovery_7_days: {
 "slug": "bhutan_day_hikes_and_cultural_discovery_7_days",
 "title": "Day Hikes in Bhutan and Cultural Discovery - 7 Days",
 "category": "Hiking and Cultural Discovery Tour",
-"img": "/images/Day-Hikes-Cultural-Discovery.jpg",
+"img": "/images/images7654d.jpeg",
 "description": "Experience an enriching 7-day journey through Bhutan, combining invigorating day hikes with deep cultural immersion. This tour offers scenic hikes, visits to significant cultural sites, and opportunities to engage with Bhutanese traditions and lifestyle.",
 "location": "Bhutan",
 "days": "7 days",
 "people": "1-12",
 "subimages": [
-  "/images/Day-Hikes-Cultural-Discovery.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Dochula-Pass.jpg",
-  "/images/Thimphu-Cultural-Sites.jpg",
-  "/images/Punakha-Zong.jpg",
+  "/images/images7654d.jpeg",
+  "/images/bhutan-culture-tour.webp",
+  "/images/IMG_8699-2.jpg",
+  "/images/Punakha-Dzong.jpg",
+  "/images/yoga-trek-to-bhutan-1711359910995.png",
   "/images/Traditional-Bhutanese-Village.jpg"
 ],
 "overView": {
@@ -16820,32 +16837,28 @@ bhutan_day_hikes_and_cultural_discovery_7_days: {
   "Discover the grandeur of Punakha Dzong, an architectural marvel situated at the confluence of two rivers, and explore its surrounding landscapes.",
   "Engage with local culture in traditional Bhutanese villages, experiencing authentic rural life and Bhutanese hospitality."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Hiking Boots",
-    "image": "/images/hiking_boots.png",
-    "description": "Essential for trekking on various trails, providing support and traction on rugged terrain."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "For carrying essentials such as water, snacks, a first-aid kit, and a camera during day hikes."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Adapt to varying temperatures and weather conditions with moisture-wicking base layers, insulating layers, and waterproof outer layers."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Water Bottle",
-    "image": "/images/water_bottle.png",
-    "description": "Stay hydrated throughout your hikes and explorations. Consider carrying a reusable water bottle to reduce waste."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes, cultural sites, and memorable moments during your tour."
-  }
 ],
 "about": [
   "The Day Hikes in Bhutan and Cultural Discovery - 7 Days tour is meticulously designed to offer a well-rounded experience of Bhutan’s natural beauty and cultural heritage. This tour provides a perfect balance of outdoor adventure and immersive cultural experiences.",
@@ -16950,17 +16963,17 @@ bhutan_drukyul_hiking_tour_12_days: {
   "slug": "bhutan_drukyul_hiking_tour_12_days",
   "title": "Bhutan Drukyul Hiking Tour - 12 Days",
   "category": "Hiking and Cultural Discovery Tour",
-  "img": "/images/Drukyul-Hiking-Tour.jpg",
+  "img": "/images/082427annapurna-royal-trek81.jpg",
   "description": "Embark on an unforgettable 12-day journey through Bhutan with the Drukyul Hiking Tour. This extensive tour combines immersive cultural experiences with challenging hikes, offering a comprehensive exploration of Bhutan's majestic landscapes and vibrant culture.",
   "location": "Bhutan",
   "days": "12 days",
   "people": "1-12",
   "subimages": [
-    "/images/Drukyul-Hiking-Tour.jpg",
-    "/images/Tiger-Nest-Monastery.jpg",
-    "/images/Gangtey-Valley.jpg",
-    "/images/Dochula-Pass.jpg",
-    "/images/Punakha-Dzong.jpg",
+    "/images/082427annapurna-royal-trek81.jpg",
+    "/images/142632_1cea1f5d.jpg",
+    "/images/bhutan-himalayan-explorer-heli-adventure-mountains-2560x1440.jpg",
+    "/images/bhutan-luxury-trekking-como-uma-druk-path-trek-2560x1440_1.jpg",
+    "/images/rinpung-dzong-paro.jpgdrf.jpg",
   ],
   "overView": {
     "duration": "12 days",
@@ -16977,32 +16990,28 @@ bhutan_drukyul_hiking_tour_12_days: {
     "Visit the majestic Punakha Dzong, an architectural marvel situated at the confluence of two rivers, and delve into its historical significance.",
     "Admire the panoramic views from Dochula Pass and visit the Druk Wangyal Lhakhang, a temple dedicated to Bhutanese soldiers and their victory."
   ],
-  "equipment": [
+  equipment: [
     {
-      "title": "Hiking Boots",
-      "image": "/images/hiking_boots.png",
-      "description": "Essential for trekking on diverse trails, providing support and traction on various terrains."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Daypack",
-      "image": "/images/daypack.png",
-      "description": "For carrying essentials such as water, snacks, a first-aid kit, and a camera during hikes."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Layered Clothing",
-      "image": "/images/layered_clothing.png",
-      "description": "Adapt to changing temperatures with moisture-wicking base layers, insulating layers, and waterproof outer layers."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Water Bottle",
-      "image": "/images/water_bottle.png",
-      "description": "Stay hydrated throughout your hikes and explorations. A reusable water bottle is recommended to minimize waste."
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
-    {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the stunning landscapes, cultural sites, and memorable moments throughout your tour."
-    }
   ],
   "about": [
     "The Bhutan Drukyul Hiking Tour - 12 Days is meticulously designed for those seeking an extensive and immersive experience in Bhutan. This tour blends challenging hikes with rich cultural exploration, offering a comprehensive insight into Bhutan’s landscapes and heritage.",
@@ -17139,20 +17148,17 @@ thimphu_festival_tour_8_days: {
   "slug": "thimphu_festival_tour_8_days",
   "title": "Thimphu Festival Tour - 8 Days",
   "category": "Cultural Festival Tour",
-  "img": "/images/Thimphu-Festival-Tour.jpg",
+  "img": "/images/6-1280x568.jpg",
   "description": "Experience the vibrant culture of Bhutan through the annual Thimphu Festival with this 8-day tour. Explore stunning landscapes, immerse in local traditions, and witness the grandeur of Bhutanese festivals and heritage sites.",
   "location": "Bhutan",
   "days": "8 days",
   "people": "1-12",
   "subimages": [
-    "/images/Thimphu-Festival-Tour.jpg",
-    "/images/Tashichho-Dzong.jpg",
-    "/images/Rinpung-Dzong.jpg",
-    "/images/Kichu-Lhakhang.jpg",
-    "/images/Haa-Valley.jpg",
-    "/images/Punakha-Dzong.jpg",
-    "/images/Dochula-Pass.jpg",
-    "/images/Tiger-Nest-Monastery.jpg"
+    "/images/6-1280x568.jpg",
+    "/images/Festival-in-Thimphu-Dzong-.jpg",
+    "/images/Thimphu-Festival-scaled.jpg",
+    "/images/Thimphu-Festival-Tourpic.jpg",
+    "/images/Thimphu-Tshechu-1.jpg"
   ],
   "overView": {
     "duration": "8 days",
@@ -17171,32 +17177,28 @@ thimphu_festival_tour_8_days: {
     "Enjoy scenic views from Dochula Pass and visit the Chimi Lhakhang Temple and Lamperi Botanical Garden on your way to Paro.",
     "Hike to the famous Tiger's Nest Monastery, perched on a cliffside at 3,180 meters."
   ],
-  "equipment": [
+  equipment: [
     {
-      "title": "Comfortable Walking Shoes",
-      "image": "/images/comfortable_walking_shoes.png",
-      "description": "Essential for exploring cultural sites and attending festival events."
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
     },
     {
-      "title": "Daypack",
-      "image": "/images/daypack.png",
-      "description": "For carrying personal items such as water, snacks, and a camera during daily excursions."
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
     },
     {
-      "title": "Layered Clothing",
-      "image": "/images/layered_clothing.png",
-      "description": "Dress in layers to adapt to varying temperatures, including light, warm, and waterproof clothing."
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
     },
     {
-      "title": "Water Bottle",
-      "image": "/images/water_bottle.png",
-      "description": "Stay hydrated throughout your journey. A reusable bottle is recommended."
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
     },
-    {
-      "title": "Camera",
-      "image": "/images/camera.png",
-      "description": "Capture the vibrant festival scenes, stunning landscapes, and cultural sites."
-    }
   ],
   "about": [
     "The Thimphu Festival Tour - 8 Days offers an unparalleled opportunity to experience the rich cultural heritage of Bhutan during one of its most significant festivals. This tour is designed to immerse travelers in Bhutanese traditions, spiritual practices, and local customs while exploring some of the country's most iconic landmarks.",
@@ -17321,20 +17323,17 @@ bumthang_nimalung_tshechu_tour_11_days: {
 "slug": "bumthang_nimalung_tshechu_tour_11_days",
 "title": "Bumthang Nimalung Tshechu Tour - 11 Days",
 "category": "Cultural Festival Tour",
-"img": "/images/Bumthang-Nimalung-Tshechu-Tour.jpg",
+"img": "/images/1803visit bhutan Nimalung Tshechu (3).jpg",
 "description": "Experience the unique cultural heritage of Bhutan with the Bumthang Nimalung Tshechu Tour. This 11-day adventure takes you through breathtaking landscapes, vibrant festivals, and key historical sites in the Bumthang Valley.",
 "location": "Bhutan",
 "days": "11 days",
 "people": "1-12",
 "subimages": [
-  "/images/Bumthang-Nimalung-Tshechu-Tour.jpg",
-  "/images/Jakar-Dzong.jpg",
-  "/images/Nimalung-Tshechu.jpg",
-  "/images/Trongsa-Dzong.jpg",
-  "/images/Paro-Tiger-Nest.jpg",
-  "/images/Phobjikha-Valley.jpg",
-  "/images/Tashichho-Dzong.jpg",
-  "/images/Chimi-Lhakhang.jpg"
+  "/images/1803visit bhutan Nimalung Tshechu (3).jpg",
+  "/images/8956visit bhutan Nimalung Tshechu (2).jpg",
+  "/images/drukasia_071913_final_drukasia_071913_dscf6038.jpg.jpg",
+  "/images/Nimalung-Tshechu-Festival-Bhutan-1.jpg",
+  "/images/trashigang-tshechu-bhutan.jpg",
 ],
 "overView": {
   "duration": "11 days",
@@ -17352,32 +17351,28 @@ bumthang_nimalung_tshechu_tour_11_days: {
   "Tour the capital Thimphu, including Tashichho Dzong and the Buddha Dordenma Statue.",
   "Hike to the iconic Tiger's Nest Monastery in Paro, offering spectacular views and spiritual significance."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Essential for exploring cultural sites and attending festival events."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "For carrying personal items such as water, snacks, and a camera during daily excursions."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Dress in layers to adapt to varying temperatures, including light, warm, and waterproof clothing."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Water Bottle",
-    "image": "/images/water_bottle.png",
-    "description": "Stay hydrated throughout your journey. A reusable bottle is recommended."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the vibrant festival scenes, stunning landscapes, and cultural sites."
-  }
 ],
 "about": [
   "The Bumthang Nimalung Tshechu Tour - 11 Days offers an immersive experience into Bhutan’s unique cultural heritage, focusing on one of the country’s most significant festivals. This tour is a blend of cultural exploration, scenic beauty, and spiritual experiences, tailored for travelers seeking to dive deep into Bhutanese traditions.",
@@ -17522,20 +17517,17 @@ jambay_lhakhang_drup_festival_tour_10_days: {
 "slug": "jambay_lhakhang_drup_festival_tour_10_days",
 "title": "Jambay Lhakhang Drup Festival Tour - 10 Days",
 "category": "Cultural Festival Tour",
-"img": "/images/Jambay-Lhakhang-Drup-Festival-Tour.jpg",
+"img": "/images/6-Link-Image-of-Jambay-Drup.webp",
 "description": "Experience the vibrant Jambay Lhakhang Drup Festival on this 10-day journey through Bhutan. Immerse yourself in local traditions, explore ancient monasteries, and witness spectacular cultural celebrations in the Bumthang Valley.",
 "location": "Bhutan",
 "days": "10 days",
 "people": "1-12",
 "subimages": [
-  "/images/Jambay-Lhakhang-Drup-Festival-Tour.jpg",
-  "/images/Jambay-Lhakhang.jpg",
-  "/images/Bumthang-Valley.jpg",
-  "/images/Trongsa-Dzong.jpg",
-  "/images/Phobjikha-Valley.jpg",
-  "/images/Tashichho-Dzong.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Chimi-Lhakhang.jpg"
+  "/images/3317visit bhutan Jambay Lhakhang Drup (1).jpg",
+  "/images/9753visit bhutan Jambay Lhakhang Drup (7).jpg",
+  "/images/1604723104_thump.jpeg",
+  "/images/jambay_lhakhang_drup_festival4.jpg",
+  "/images/jambay-lhakhang-drup-festival-380.webp"
 ],
 "overView": {
   "duration": "10 days",
@@ -17553,32 +17545,28 @@ jambay_lhakhang_drup_festival_tour_10_days: {
   "Tour the capital city of Thimphu, including key attractions like Tashichho Dzong and the Buddha Dordenma Statue.",
   "Hike to the iconic Tiger's Nest Monastery in Paro, offering stunning views and spiritual significance."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Essential for exploring cultural sites and attending festival events."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "For carrying personal items such as water, snacks, and a camera during daily excursions."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Dress in layers to adapt to varying temperatures, including light, warm, and waterproof clothing."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Water Bottle",
-    "image": "/images/water_bottle.png",
-    "description": "Stay hydrated throughout your journey. A reusable bottle is recommended."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the vibrant festival scenes, stunning landscapes, and cultural sites."
-  }
 ],
 "about": [
   "The Jambay Lhakhang Drup Festival Tour - 10 Days provides a rich and immersive experience into Bhutan’s vibrant cultural traditions, focusing on one of the country’s most significant festivals. This tour offers a combination of cultural exploration, historical site visits, and natural beauty, providing a comprehensive view of Bhutanese life and traditions.",
@@ -17717,18 +17705,17 @@ druk_wangyel_festival_tour_7_days: {
 "slug": "druk_wangyel_festival_tour_7_days",
 "title": "Druk Wangyel Festival Tour - 7 Days",
 "category": "Cultural Festival Tour",
-"img": "/images/Druk-Wangyel-Festival-Tour.jpg",
+"img": "/images/unname56d.jpg",
 "description": "Experience the Druk Wangyel Festival on this 7-day journey through Bhutan. Join the vibrant celebration of Bhutanese culture and history while exploring key cultural sites and natural beauty in the western region of Bhutan.",
 "location": "Bhutan",
 "days": "7 days",
 "people": "1-12",
 "subimages": [
-  "/images/Druk-Wangyel-Festival-Tour.jpg",
-  "/images/Dochula-Pass.jpg",
+  "/images/DuTaNpzXcAE-r2t.jpeg",
+  "/images/unname56d.jpg",
   "/images/Thimphu.jpg",
-  "/images/Punakha-Dzong.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Buddha-Dordenma.jpg"
+  "/images/Dochula-Festival-1-e1593749007444.jpg",
+  "/images/Druk-Wangyel-Festival.jpgSJs.jpg"
 ],
 "overView": {
   "duration": "7 days",
@@ -17745,32 +17732,28 @@ druk_wangyel_festival_tour_7_days: {
   "Hike to the iconic Tiger's Nest Monastery in Paro, offering stunning views and spiritual significance.",
   "Experience the breathtaking views of the Himalayas from Dochula Pass."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Essential for exploring cultural sites and attending festival events."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "For carrying personal items such as water, snacks, and a camera during daily excursions."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Dress in layers to adapt to varying temperatures, including light, warm, and waterproof clothing."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Water Bottle",
-    "image": "/images/water_bottle.png",
-    "description": "Stay hydrated throughout your journey. A reusable bottle is recommended."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the vibrant festival scenes, stunning landscapes, and cultural sites."
-  }
 ],
 "about": [
   "The Druk Wangyel Festival Tour - 7 Days offers an enriching cultural experience centered around the Druk Wangyel Festival, a significant celebration that takes place at Dochula Pass. The festival honors the Fourth King of Bhutan and the Royal Bhutan Army, acknowledging their contributions to the nation's peace and stability.",
@@ -17877,18 +17860,17 @@ black_necked_crane_festival_tour_8_days: {
 "slug": "black_necked_crane_festival_tour_8_days",
 "title": "Black Necked Crane Festival Tour - 8 Days",
 "category": "Cultural and Nature Tour",
-"img": "/images/Black-Necked-Crane-Festival-Tour.jpg",
+"img": "/images/4318visit bhutan Black Necked Crane Festival tour (2).jpg",
 "description": "Experience the annual Black Necked Crane Festival in the Phobjikha Valley on this 8-day tour. Celebrate Bhutan's unique cultural heritage while exploring the natural beauty of the valley and the surrounding regions.",
 "location": "Bhutan",
 "days": "8 days",
 "people": "1-12",
 "subimages": [
-  "/images/Black-Necked-Crane-Festival-Tour.jpg",
-  "/images/Phobjikha-Valley.jpg",
-  "/images/Gangtey-Monastery.jpg",
-  "/images/Punakha-Dzong.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Dochula-Pass.jpg"
+  "/images/black-necked-crane-festival1.jpg",
+  "/images/4318visit bhutan Black Necked Crane Festival tour (2).jpg",
+  "/images/black-necked-crane-festival1521446956_850_400.jpg",
+  "/images/Black-Necked-Crane-Festival-Amedewa-Tours-And-Trek.jpg",
+  "/images/Black-Necked-Crane-Festival-uploaded-14-Nov-2019.jpg"
 ],
 "overView": {
   "duration": "8 days",
@@ -17905,32 +17887,28 @@ black_necked_crane_festival_tour_8_days: {
   "Hike to the iconic Tiger's Nest Monastery in Paro, offering stunning views and spiritual significance.",
   "Experience the breathtaking views of the Himalayas from Dochula Pass."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Binoculars",
-    "image": "/images/binoculars.png",
-    "description": "Essential for spotting Black Necked Cranes and other wildlife in the Phobjikha Valley."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Ideal for exploring nature trails and attending festival events."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Dress in layers to adapt to varying temperatures, including light, warm, and waterproof clothing."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "For carrying personal items such as water, snacks, and a camera during daily excursions."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the stunning landscapes, wildlife, and cultural scenes throughout the tour."
-  }
 ],
 "about": [
   "The Black Necked Crane Festival Tour - 8 Days offers a unique blend of cultural and natural experiences centered around the Black Necked Crane Festival in Bhutan’s Phobjikha Valley. This festival, dedicated to the conservation of the endangered Black Necked Cranes, is a vibrant celebration featuring traditional Bhutanese dances, songs, and performances by local children.",
@@ -18046,18 +18024,17 @@ ura_yakchoe_festival_tour_9_days: {
 "slug": "ura_yakchoe_festival_tour_9_days",
 "title": "Ura Yakchoe Festival Tour - 9 Days",
 "category": "Cultural Tour",
-"img": "/images/Ura-Yakchoe-Festival-Tour.jpg",
+"img": "/images5.-Nimalung-Tshechu-Festival-1024x731.jpg",
 "description": "Immerse yourself in the spiritual and cultural richness of Bhutan during the Ura Yakchoe Festival. This 9-day tour takes you through the picturesque Ura Valley, allowing you to experience one of Bhutan’s most unique festivals and explore the country's stunning landscapes and ancient monasteries.",
 "location": "Bhutan",
 "days": "9 days",
 "people": "1-12",
 "subimages": [
-  "/images/Ura-Yakchoe-Festival-Tour.jpg",
-  "/images/Ura-Valley.jpg",
-  "/images/Thimphu.jpg",
-  "/images/Punakha-Dzong.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Bumthang.jpg"
+  "/images/1034808m.jpg",
+  "/images/1034809m.jpg",
+  "/images/1034813m.jpg",
+  "/images/Ura Yakchoe.jpg",
+  "/images/5.-Nimalung-Tshechu-Festival-1024x731.jpg"
 ],
 "overView": {
   "duration": "9 days",
@@ -18074,32 +18051,28 @@ ura_yakchoe_festival_tour_9_days: {
   "Experience a hike to the iconic Tiger's Nest Monastery, one of Bhutan’s most revered sites.",
   "Discover the serene beauty of the Bhutanese countryside, with visits to Thimphu, Punakha, and the Ura Valley."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Essential for exploring monasteries, temples, and festival grounds."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Adapt to Bhutan's varying temperatures with light, warm, and waterproof layers."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "Carry your personal items, including water, snacks, and a camera during daily excursions."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the vibrant scenes of the Ura Yakchoe Festival and the stunning Bhutanese landscapes."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Journal",
-    "image": "/images/travel_journal.png",
-    "description": "Document your experiences and reflections throughout the cultural journey."
-  }
 ],
 "about": [
   "The Ura Yakchoe Festival Tour - 9 Days is a deep dive into Bhutan’s cultural and spiritual heritage. Centered around the Ura Yakchoe Festival, this tour offers a rare opportunity to witness a sacred dance and ritual performed in the Ura Valley, located in the Bumthang region, considered the spiritual heartland of Bhutan.",
@@ -18222,18 +18195,17 @@ gomkora_tshechu_festival_tour_13_days: {
 "slug": "gomkora_tshechu_festival_tour_13_days",
 "title": "Gomkora Tshechu Festival Tour - 13 Days",
 "category": "Cultural Tour",
-"img": "/images/Gomkora-Tshechu-Festival-Tour.jpg",
+"img": "/images/gomkora-festival (1).jpg",
 "description": "Join the Gomkora Tshechu Festival Tour for a 13-day exploration of Bhutan's vibrant culture, deep spirituality, and breathtaking landscapes. This tour offers a unique opportunity to witness the sacred Gomkora Tshechu Festival while visiting key cultural and religious sites across Bhutan.",
 "location": "Bhutan",
 "days": "13 days",
 "people": "1-12",
 "subimages": [
-  "/images/Gomkora-Tshechu-Festival-Tour.jpg",
-  "/images/Trashigang.jpg",
-  "/images/Trongsa-Dzong.jpg",
-  "/images/Tashichho-Dzong.jpg",
-  "/images/Tiger-Nest-Monastery.jpg",
-  "/images/Paro.jpg"
+  "/images/gomkora-festival (1).jpg",
+  "/images/Gomkora-Festival.jpg",
+  "/images/gomkora-tshechu-festival.jpgkoU.jpg",
+  "/images/Gomphu-Kora-Festival-Tour.jpg",
+  "/images/Gomphu-Kora-Tsechu-Gomphu-Kora-Festival.jpg"
 ],
 "overView": {
   "duration": "13 days",
@@ -18250,32 +18222,28 @@ gomkora_tshechu_festival_tour_13_days: {
   "Experience a hike to the iconic Tiger's Nest Monastery, perched on a cliffside above Paro.",
   "Immerse yourself in Bhutan's rural life with visits to local villages and interactions with the local community."
 ],
-"equipment": [
+equipment: [
   {
-    "title": "Comfortable Walking Shoes",
-    "image": "/images/comfortable_walking_shoes.png",
-    "description": "Essential for exploring monasteries, temples, and festival grounds."
+    title: "Trekking Backpack",
+    image: "/images/bagpack.png",
+    description: "A durable backpack designed for trekking adventures.",
   },
   {
-    "title": "Layered Clothing",
-    "image": "/images/layered_clothing.png",
-    "description": "Adapt to Bhutan's varying temperatures with light, warm, and waterproof layers."
+    title: "Walking Stick",
+    image: "/images/walkingStick.png",
+    description: "A sturdy walking stick to provide support during treks.",
   },
   {
-    "title": "Daypack",
-    "image": "/images/daypack.png",
-    "description": "Carry your personal items, including water, snacks, and a camera during daily excursions."
+    title: "Sunglasses",
+    image: "/images/glasses.png",
+    description: "UV-protected sunglasses to protect your eyes from glare.",
   },
   {
-    "title": "Camera",
-    "image": "/images/camera.png",
-    "description": "Capture the vibrant scenes of the Gomkora Tshechu Festival and the stunning Bhutanese landscapes."
+    title: "Trekking Shoes",
+    image: "/images/shoes.png",
+    description:
+      "Waterproof and high-ankle shoes with good grip for trekking.",
   },
-  {
-    "title": "Travel Journal",
-    "image": "/images/travel_journal.png",
-    "description": "Document your experiences and reflections throughout the cultural journey."
-  }
 ],
 "about": [
   "The Gomkora Tshechu Festival Tour - 13 Days is a journey through Bhutan's spiritual and cultural heartland. Centered around the Gomkora Tshechu Festival, this tour provides a unique opportunity to witness traditional Bhutanese religious practices in one of the country’s most sacred sites.",
@@ -18419,9 +18387,672 @@ gomkora_tshechu_festival_tour_13_days: {
     "Consult with your travel agent or guide for specific preparation or gear recommendations to ensure a smooth and enjoyable experience."
   ]
 }
-}
+},
+//Tibet
+Tibet_Tour_Lhasa_Tsedang_Samye_Gyantse_Shigatse_8_Days: {
+  id: 0,
+  slug: "tibet-tour-lhasa-tsedang-samye-gyantse-shigatse-8-days",
+  category: "Tibet Tour",
+  img: "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge.webp",
+  description: "The Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse takes you to the cultural heart of Tibet. Discover the rich cultural heritage and ancient history of the Tibetans. Starting from Lhasa, you will travel to the center of the Roof of the World and explore the ancient citadels, palaces, and monasteries built by Tibetan kings and revered Buddhist saints. The journey will introduce you to the stark and stunning beauty of the bare Tibetan landscape, which is bound to leave you captivated.",
+  title: "Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse - 8 days",
+  location: "Tibet",
+  days: "8",
+  people: "Small Group",
+  subimages: [
+    "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge.webp",
+    "/images/6day-lhasa-tsedang-tour6.webp",
+    "/images/6-days-lhasa-and-tsedang-small-group-tour480.jpeg",
+    "/images/images54567.jpeg",
+    "/images/Shigatse-Tibet-China-4896.jpg"
+  ],
+  overView: {
+    duration: "8 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Lhasa",
+    peoples: "Small Group",
+    category: "Tibet Tour",
+    bestSeason: "Spring and Autumn"
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "The Tibet Tour with Lhasa, Tsedang, Samye, Gyantse, and Shigatse is an 8-day journey that offers a deep dive into the rich cultural and spiritual heritage of Tibet. Starting from Lhasa, you will explore the Potala Palace, Jokhang Temple, and Barkhor Street. The tour continues to Tsedang, known as the cradle of Tibetan civilization, and Samye, the first Buddhist monastery in Tibet. The journey also includes visits to Gyantse and Shigatse, where you will experience the grandeur of Tibetan monasteries and the stunning beauty of the Tibetan landscape."
+  ],
+  highlights: [
+    "Experience the attractions of the highest capital city in the world, Lhasa (3560 m)",
+    "Step inside the sacred palace of the Dalai Lama, Potala Palace",
+    "Visit the ancient learning centers of Tibetan Buddhism - Drepung Monastery and Sera Monastery",
+    "Discover the origin of Tibetan civilization at Tsedang in the Yarlung Valley",
+    "Walk inside the first Buddhist monastery in Tibet at Samye and visit the meditation caves of Guru Padmasambhava",
+    "Get awed by the grandeur of the Tashilunpo Monastery in Shigatse, Karo La Glacier, and Yamdrok Tsho Lake",
+    "Check out the massive Kumbum Stupa, the biggest stupa in the world"
+  ],
+  facilities: [
+    "Guided tours with a licensed Tibetan guide",
+    "Private vehicle for overland transfers",
+    "Accommodation in comfortable hotels",
+    "Supplementary oxygen and medical assistance if needed"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650 m/11,980 ft) - Transfer to Hotel",
+      details: "Arrive in Lhasa via air or train. A representative will pick you up and transfer you to your hotel. Rest and acclimatize to the high altitude."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour (Potala Palace, Jokhang Temple, and Barkhor Street)",
+      details: "Visit Potala Palace, Jokhang Temple, and explore Barkhor Street. Experience the rich cultural heritage of Lhasa."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour (Drepung Monastery and Sera Monastery)",
+      details: "Explore Drepung and Sera Monasteries, two important learning centers of Tibetan Buddhism."
+    },
+    {
+      day: 4,
+      description: "Drive to Samye via Tsedang and sightseeing around Tsedang (Yumbu Lakhang Palace) - 3 to 4 hours (200 km) drive",
+      details: "Travel to Tsedang and visit the Yumbu Lakhang Palace, the first palace built in Tibet. Continue the journey to Samye."
+    },
+    {
+      day: 5,
+      description: "Sightseeing Tour of Samye (Samye Monastery and Chimphu Hermitage)",
+      details: "Visit the Samye Monastery, the first Buddhist monastery in Tibet, and explore the Chimphu Hermitage."
+    },
+    {
+      day: 6,
+      description: "Drive from Samye to Shigatse (3,800 m/12,470 ft) via Gyantse (4,000 m/12,470 ft) and Gyantse Sightseeing (Pelkor Chöde Monastery, Kumbum Stupa) - 6 to 7 hours (380 km) drive",
+      details: "Travel to Shigatse with a stop at Gyantse. Visit the Pelkor Chöde Monastery and Kumbum Stupa."
+    },
+    {
+      day: 7,
+      description: "Shigatse Sightseeing Tour (Tashilhunpo Monastery) and Drive to Lhasa - 6 to 7 hours (280 km) drive",
+      details: "Explore the Tashilhunpo Monastery in Shigatse, the seat of the Panchen Lama, before returning to Lhasa."
+    },
+    {
+      day: 8,
+      description: "Final Departure from Lhasa",
+      details: "After breakfast, transfer to the airport or train station for your departure."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Consult your physician before traveling, especially if you have heart or respiratory issues.",
+      "Acclimatize properly to the high altitude upon arrival.",
+      "Pack warm clothing and essential medications."
+    ]
+  },
+  path: ["/tours/tibet/tibet-tour-lhasa-tsedang-samye-gyantse-shigatse"]
+},
+Lhasa_Everest_Base_Camp_Tour: {
+  id: 1,
+  slug: "lhasa-to-everest-base-camp-tour-8-days",
+  category: "Trekking",
+  img: "/images/8945.jpg",
+  description: "An epic 8-day journey from Lhasa to Everest Base Camp, traversing through the heart of Tibet's ancient cities, sacred monasteries, and breathtaking landscapes. The tour offers a unique opportunity to experience Tibetan culture and witness the stunning north face of Mt. Everest.",
+  title: "Lhasa to Everest Base Camp Tour - 8 Days",
+  location: "Tibet",
+  days: "8",
+  people: "Group Tour",
+  subimages: [
+    "/images/8945.jpg",
+    "/images/Everest-Base-Camp.jpg",
+    "/images/image567754s.jpeg",
+    "/images/Lhasa Everest Basecamp Tour BANNER-.webp",
+    "/images/lhasa-everest-base-camp-tour.webp"
+  ],
+  overView: {
+    duration: "8 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Everest Base Camp",
+    peoples: "Group Tour",
+    category: "Trekking",
+    bestSeason: "Spring, Autumn"
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "This 8-day Lhasa to Everest Base Camp tour offers an unparalleled opportunity to explore Tibet's rich culture and natural beauty. Starting in Lhasa, you'll visit iconic landmarks like the Potala Palace and Jokhang Temple before embarking on a scenic drive through Gyantse and Shigatse, ultimately reaching the North Everest Base Camp."
+  ],
+  highlights: [
+    "Explore the Potala Palace and Jokhang Temple in Lhasa",
+    "Scenic drive through Yamdrok Lake and Karola Glacier",
+    "Visit historical monasteries such as Drepung, Sera, and Tashi Lhunpo",
+    "Experience the Tibetan culture in Lhasa and Shigatse",
+    "Witness the breathtaking views of Mt. Everest from Rongbuk Monastery",
+    "See the stunning north face of Mt. Everest from the base camp",
+    "Drive through high mountain passes including Gyatso La and Geu La"
+  ],
+  facilities: [
+    "Accommodation in 3-star hotels",
+    "Breakfasts included",
+    "Private transportation",
+    "English-speaking guide",
+    "Entrance fees to all mentioned sites"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft)",
+      details: "Transfer to Hotel and tour preparation. Spend the day acclimating to the high altitude and exploring the surroundings at your own pace."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour - Potala Palace, Jokhang Temple, Barkhor Street",
+      details: "Visit the Potala Palace, Jokhang Temple, and explore the bustling Barkhor Street in Lhasa."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour - Drepung Monastery and Sera Monastery",
+      details: "Explore Drepung Monastery, one of the largest in Tibet, and witness the monks debating at Sera Monastery."
+    },
+    {
+      day: 4,
+      description: "Lhasa - Shigatse via Gyantse (360km drive)",
+      details: "Embark on a scenic drive to Shigatse via Gyantse, passing through Kamba La and Karo La Pass, and visiting Yamdrok Lake and Pelkor Chode Monastery."
+    },
+    {
+      day: 5,
+      description: "Shigatse to Rongbuk Monastery (365km drive)",
+      details: "Visit Tashi Lhunpo Monastery in Shigatse before driving to Rongbuk Monastery, with stunning views of Mt. Everest along the way."
+    },
+    {
+      day: 6,
+      description: "Explore Everest Base Camp and Return to Shigatse (365km drive)",
+      details: "Visit the North Everest Base Camp and enjoy the breathtaking view of the world's highest peak before returning to Shigatse."
+    },
+    {
+      day: 7,
+      description: "Shigatse to Lhasa (350km drive)",
+      details: "Drive back to Lhasa, passing through the scenic Yalung Valley."
+    },
+    {
+      day: 8,
+      description: "Departure from Lhasa, Tibet",
+      details: "End your 8-day tour with a departure from Lhasa to your next destination."
+    }
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "To prepare for this high-altitude journey, it is recommended to gradually acclimate by staying hydrated and avoiding strenuous activities upon arrival.",
+      "Pack warm clothing, comfortable trekking boots, and any necessary personal medication."
+    ]
+  },
+  path: ["/tours/lhasa-to-everest-base-camp-tour-8-days"]
+},
+LhasaAndShigatseTour: {
+  id: 0,
+  slug: "lhasa-and-shigatse-tour",
+  category: "tour",
+  img: "/images/1452931714-potala-palace-and-lhasa-city.webp",
+  description: "Lhasa and Shigatse Tour will take you on an epic odyssey to Tibet's three most fascinating cities; Lhasa, Gyantse, and Shigatse. The major highlight of this land journey is riding through the Tibetan golden tourist route from Lhasa to Shigatse, the second-largest city of Tibet. It's one of the stopovers en route to Lhasa to Everest Base Camp Tour on the Tibetan side. This tour perfectly blends the most classic Lhasa tour with a spectacular drive to Shigatse, which is truly icing on the cake.",
+  title: "Lhasa and Shigatse Tour - 6 days",
+  location: "Lhasa, Tibet",
+  days: "6 days",
+  people: "Variable based on group size",
+  subimages: [
+    "/images/1452931714-potala-palace-and-lhasa-city.webp",
+    "/images/images (1)3456.jpeg",
+    "/images/Kumbum-Stupa-Gyantse.webp",
+    "/images/Potala-Dalai-Lama-Residence-.jpg",
+    "/images/tibet-shigatse-mobile-1.webp",
+  ],
+  overView: {
+    duration: "6 days",
+    startingPoint: "Lhasa",
+    endingPoint: "Lhasa",
+    peoples: "Variable based on group size",
+    category: "Cultural Tour",
+    bestSeason: "May to October",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "This comprehensive tour offers a unique overview of Tibet, featuring an exciting mix of profound Tibetan culture, history, and unrivaled nature."
+  ],
+  highlights: [
+    "Visit Tibet's three major cities: Lhasa, Gyantse, and Shigatse.",
+    "Explore the iconic Potala Palace and Jokhang Temple in Lhasa.",
+    "Take a road journey through the stunning Tibetan landscape to Shigatse.",
+    "Admire the breathtaking views of Yamdrok Lake and Karola Glacier.",
+    "Discover the rich Tibetan culture and Buddhism in ancient monasteries."
+  ],
+  facilities: [
+    "Comfortable hotel accommodations",
+    "Experienced local guides",
+    "Transportation with driver",
+    "Sightseeing entrance fees",
+    "Daily breakfast"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet",
+      details: "Arrive at Lhasa airport, and your Tibetan guide will welcome you and drive you to the hotel. Rest and acclimatize to the high altitude."
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour",
+      details: "Explore Potala Palace, Jokhang Temple, and Barkhor Street. Experience Tibetan culture and history in these iconic sites."
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour",
+      details: "Visit Drepung Monastery and Sera Monastery. Witness the monk's debate and explore the grand monasteries."
+    },
+    {
+      day: 4,
+      description: "Lhasa to Shigatse via Gyantse",
+      details: "Drive through the Friendship Highway, with stops at Yamdrok Lake, Gyantse, and Karola Glacier. Visit Palcho Monastery and Kumbum Stupa."
+    },
+    {
+      day: 5,
+      description: "Shigatse to Lhasa",
+      details: "Visit Tashi Lhunpo Monastery in Shigatse and then drive back to Lhasa. Explore the lively Barkhor Square in the evening."
+    },
+    {
+      day: 6,
+      description: "Departure from Lhasa",
+      details: "Your tour ends with a transfer to the airport for your departure."
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Take time to acclimatize to the high altitude upon arrival.",
+      "Ensure to bring warm clothing, comfortable footwear, and personal medications.",
+      "Be ready to explore rich cultural and historical sites in Tibet."
+    ],
+  },
+  path: ["Lhasa", "Gyantse", "Shigatse"],
+},
+Lhasa_and_Yamdrok_Lake_Tour: {
+  id: 1,
+  slug: "lhasa-and-yamdrok-lake-tour",
+  category: "Cultural Tour",
+  img: "/images/Yamdrok-Lake.jpg",
+  description: "The Lhasa and Yamdrok Lake Tour covers the famous landmarks in Lhasa city and a scenic ride to Yamdrok Lake, renowned for its spectacular setting with rugged mountains surrounding it. Suitable for all age groups and doable all year round.",
+  title: "Lhasa and Yamdrok Lake Tour - 5 days",
+  location: "Lhasa, Tibet",
+  days: "5",
+  people: "Varies",
+  subimages: [
+    "/images/lhasa-yamdrok-lake-tour1493194064.jpg",
+    "/images/lhasa-yamdrok-lake-tour-5-days16.jpg",
+    "/images/lhasa-and-yamdrok-lake-tour26.jpg",
+    "/images/718cf350-9561-4e2b-8c6f-fd92a65a7610_5-day-small-group-lhasa-and-yamdrok-lake-tour-from-zhuhai-large.jpg",
+    "/images/Yamdrok-Lake.jpg",
+  ],
+  overView: {
+    duration: "5 days",
+    startingPoint: "Lhasa, Tibet",
+    endingPoint: "Lhasa, Tibet",
+    peoples: "Varies",
+    category: "Cultural Tour",
+    bestSeason: "All year round",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "This tour comprehends the major historic sites of Lhasa city like Potala Palace, Jokhang Temple, Barkhor Street, Drepung, and Sera Monastery. You'll also take a day trip to Yamdrok Lake, one of the three holy lakes in Tibet.",
+    "The major attraction is the additional exciting trip to the sacred Yamdrok Lake, offering breathtaking views and a spiritual experience.",
+  ],
+  highlights: [
+    "A perfect blend of the classic Lhasa tour with a scenic drive to Yamdrok Lake.",
+    "Full-day excursion to Lhasa city, the 'land of the Holiness'.",
+    "Explore Potala Palace, the winter palace of the Dalai Lama.",
+    "Visit Jokhang Temple, home to the statues of Shakyamuni Buddha.",
+    "Take a circular walk around Jokhang Temple.",
+    "Wander around Barkhor Street, a famous pilgrim circuit in Lhasa.",
+    "Attend the prayer ceremony at Drepung Monastery, the biggest monastery in the world.",
+    "Enjoy the renowned debate session in Sera Monastery.",
+    "Savor the impeccable view of Yamdrok Lake from the S307 pass.",
+    "A scenic drive from Lhasa to Yamdrok Lake, one of the three sacred lakes of Tibet.",
+    "A short stopover at Kamba La Pass (4,794m/15,728ft).",
+    "Enjoy bird watching along the bank of Yamdrok Lake.",
+    "Relish the serenity and tranquil environment with glaring turquoise blue water.",
+    "Admire the stunning scenery of Yamdrok Lake surrounded by snow-capped mountains.",
+    "Spot some wild animals like wild goats and foxes around Yamdrok Lake.",
+    "Get an opportunity to take a snap of Tibetan Mastiff.",
+    "Immerse yourself in the ancient Tibetan culture, tradition, and lifestyle.",
+    "Learn about the rich traditions of Tibetan Buddhism.",
+  ],
+  facilities: [
+    "Comfortable accommodations in Lhasa.",
+    "Experienced Tibetan guide.",
+    "Private transportation.",
+    "Entrance fees to all attractions.",
+    "Meals during the tour.",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft) - Transfer to Hotel and tour Preparation",
+      details: "Tashi Delek! Welcome to Tibet- Lhasa, the land of Gods! Upon arrival at Lhasa airport, meet our Tibetan guide, who will transfer you to the hotel. Rest and adjust to the high altitude.",
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour- Potala Palace, Jokhang Temple, and Barkhor Street",
+      details: "Explore the Potala Palace, Jokhang Temple, and Barkhor Street, soaking in the rich history and culture of Lhasa.",
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour- Drepung Monastery and Sera Monastery",
+      details: "Visit the Drepung and Sera Monasteries, experiencing the religious fervor and stunning views of Lhasa.",
+    },
+    {
+      day: 4,
+      description: "Day Trip to Yamdrok Lake (4,441m/14,570ft)",
+      details: "Take a scenic drive to Yamdrok Lake, enjoying the breathtaking views and peaceful surroundings.",
+    },
+    {
+      day: 5,
+      description: "Departure from Lhasa, Tibet",
+      details: "After breakfast, check out from the hotel, and your Tibetan guide will escort you to the airport.",
+    },
+  ],
+  HowToPrepare: {
+    paragraph: [
+      "Prepare for high altitudes by acclimatizing before arrival.",
+      "Pack warm clothing and comfortable walking shoes.",
+      "Stay hydrated and protect yourself from the sun.",
+      "Respect local customs and traditions.",
+    ],
+  },
+  path: ["path/to/lhasa-map.jpg"],
+},
+Lhasa_Short_Tour: {
+  id: 1,
+  slug: "lhasa-short-tour-4-days",
+  category: "Cultural Tour",
+  img: "/images/ab0f6b16-2cfa-405d-8067-9cc38a5eba00_6-day-small-group-lhasa-city-and-holy-lake-namtso-tour-from-shanghai-medium.jpg",
+  description: "Lhasa Short Tour is an awe-inspiring 4-day itinerary that provides an excellent opportunity to explore the culturally rich, mysterious Lhasa city. This ancient religious city has developed by modernization but still kept its cultural and historical sites well-preserved and well to visit. It is the easy and shortest possible tour of Lhasa that helps you learn about Tibetan culture in a short time.",
+  title: "Lhasa Short Tour - 4 days",
+  location: "Lhasa, Tibet",
+  days: "4",
+  people: "Varies",
+  subimages: [
+    "/images/cfbe584fcc8af820daf5f1403498b4ad.jpg",
+    "/images/lhasa.jpg",
+    "/images/lhasa-city-tour2.jpg",
+    "/images/lhasa-potala-palace.webp",
+    "/images/ab0f6b16-2cfa-405d-8067-9cc38a5eba00_6-day-small-group-lhasa-city-and-holy-lake-namtso-tour-from-shanghai-medium.jpg",
+  ],
+  overView: {
+    duration: "4 Days",
+    startingPoint: "Lhasa, Tibet",
+    endingPoint: "Lhasa, Tibet",
+    peoples: "Varies",
+    category: "Cultural Tour",
+    bestSeason: "April to November",
+  },
+  equipment: [
+    {
+      title: "Trekking Backpack",
+      image: "/images/bagpack.png",
+      description: "A durable backpack designed for trekking adventures.",
+    },
+    {
+      title: "Walking Stick",
+      image: "/images/walkingStick.png",
+      description: "A sturdy walking stick to provide support during treks.",
+    },
+    {
+      title: "Sunglasses",
+      image: "/images/glasses.png",
+      description: "UV-protected sunglasses to protect your eyes from glare.",
+    },
+    {
+      title: "Trekking Shoes",
+      image: "/images/shoes.png",
+      description:
+        "Waterproof and high-ankle shoes with good grip for trekking.",
+    },
+  ],
+  about: [
+    "This short tour allows you to explore the major cultural and historical sites of Lhasa, including the Potala Palace, Jokhang Temple, Barkhor Street, and ancient monasteries like Drepung and Sera. It is a perfect introduction to Tibetan culture and Buddhism, suitable for all types of travelers.",
+  ],
+  highlights: [
+    "Explore the Potala Palace, former residence of Dalai Lamas.",
+    "Visit the sacred Jokhang Temple, the holiest place in Tibet.",
+    "Stroll through Barkhor Street, the heart of Lhasa's old town.",
+    "Admire the architecture and art at Drepung Monastery.",
+    "Attend a famous monk's debate session at Sera Monastery.",
+  ],
+  facilities: [
+    "Accommodation in Lhasa",
+    "Guided Sightseeing Tours",
+    "Transportation in Lhasa",
+    "Entrance Fees to Monuments",
+    "Tibetan Guide",
+  ],
+  itinerary: [
+    {
+      day: 1,
+      description: "Arrival in Lhasa, Tibet (3,650m/11,980ft)",
+      details: "Upon arrival, meet your Tibetan guide and transfer to your hotel in Lhasa. Rest and acclimate to the high altitude.",
+    },
+    {
+      day: 2,
+      description: "Lhasa Tour - Potala Palace, Jokhang Temple, Barkhor Street",
+      details: "Visit the Potala Palace, Jokhang Temple, and Barkhor Street. Explore the cultural and historical heart of Lhasa.",
+    },
+    {
+      day: 3,
+      description: "Lhasa Tour - Drepung Monastery and Sera Monastery",
+      details: "Discover the spiritual and historical significance of Drepung and Sera Monasteries. Attend a monk's debate session at Sera.",
+    },
+    {
+      day: 4,
+      description: "Final Departure from Lhasa or Trip Extension",
+      details: "After breakfast, transfer to the airport for your departure flight or extend your trip to other parts of Tibet or neighboring countries.",
+    },
+  ],
 
-
+  HowToPrepare: {
+    paragraph: [
+      "Prepare for high altitudes by drinking plenty of water and taking it easy on your first day.",
+      "Bring comfortable clothing for varying temperatures, sunscreen for sun exposure, and a camera to capture the sights.",
+      "Be respectful of local customs and religious practices while visiting monasteries and temples.",
+    ],
+  },
+  path: ["Cultural Tour", "Lhasa", "Tibet"],
+},
+  Lhasa_and_Tsedang_Tour: {
+    "id": 0,
+    "slug": "lhasa-tsedang-tour-6-days",
+    "category": "Cultural Tour",
+    "img": "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge copy.webp",
+    "description": "Explore the cultural heart of Tibet with a 6-day tour covering Lhasa and Tsedang. Visit iconic landmarks, historical monasteries, and experience Tibetan culture.",
+    "title": "Lhasa and Tsedang Tour - 6 days",
+    "location": "Lhasa and Tsedang, Tibet",
+    "days": "6",
+    "people": "",
+    "subimages": [
+      "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge copy.webp",
+      "/images/6day-lhasa-tsedang-tour6.webp",
+      "/images/6-days-lhasa-and-tsedang-small-group-tour480.jpeg",
+      "/images/images54567.jpeg",
+      "/images/Shigatse-Tibet-China-4896.jpg"
+    ],
+    "overView": {
+      "duration": "6 days",
+      "startingPoint": "Lhasa",
+      "endingPoint": "Lhasa",
+      "peoples": "",
+      "category": "Cultural Tour",
+      "bestSeason": "Spring and Autumn"
+    },
+    equipment: [
+      {
+        title: "Trekking Backpack",
+        image: "/images/bagpack.png",
+        description: "A durable backpack designed for trekking adventures.",
+      },
+      {
+        title: "Walking Stick",
+        image: "/images/walkingStick.png",
+        description: "A sturdy walking stick to provide support during treks.",
+      },
+      {
+        title: "Sunglasses",
+        image: "/images/glasses.png",
+        description: "UV-protected sunglasses to protect your eyes from glare.",
+      },
+      {
+        title: "Trekking Shoes",
+        image: "/images/shoes.png",
+        description:
+          "Waterproof and high-ankle shoes with good grip for trekking.",
+      },
+    ],
+    "about": [
+      "The Lhasa and Tsedang Tour is a comprehensive cultural journey through Tibet's most significant historical sites and landmarks. It offers a deep dive into Tibetan history, culture, and spirituality."
+    ],
+    "highlights": [
+      "Explore Lhasa, the capital city of Tibet, a mecca for Tibetan Buddhists.",
+      "Visit Potala Palace, the highest palace in the world.",
+      "Witness the Jowo Shakyamuni Statue at Jokhang Temple, decorated with gold, jewels, and precious stones.",
+      "Walk around Barkhor Street with crowds of pilgrims and local Tibetans.",
+      "See the famous Buddhism Sutra Debate at Sera Monastery.",
+      "Tour Tsedang, the cradle of Tibetan civilization.",
+      "Visit Yumbulhakhang Palace, the first fortress in Tibetan history.",
+      "Discover Trandruk Monastery, one of the main three royal temples.",
+      "Explore Samye Monastery, one of the first Buddhist monasteries in Tibet."
+    ],
+    "facilities": [
+      "Accommodation in local hotels",
+      "Transportation throughout the tour",
+      "Guided tours and entrance fees to all listed sites"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrival in Tibet, Lhasa",
+        "details": "Transfer to Hotel and tour preparation. Enjoy the beautiful scenery and acclimate to the high altitude."
+      },
+      {
+        "day": 2,
+        "description": "Lhasa Tour: Potala Palace, Jokhang, and Barkhor Street",
+        "details": "Visit Potala Palace, Jokhang Temple, and walk around Barkhor Street. Explore Tibetan culture and history."
+      },
+      {
+        "day": 3,
+        "description": "Lhasa Tour: Drepung Monastery and Sera Monastery",
+        "details": "Tour Drepung Monastery and Sera Monastery. Witness the famous Buddhist Sutra Debate."
+      },
+      {
+        "day": 4,
+        "description": "Head to Tsedang: Yumbulhakhang Palace and Trandruk Monastery",
+        "details": "Explore Yumbulhakhang Palace and Trandruk Monastery in Tsedang. Discover ancient Tibetan architecture and art."
+      },
+      {
+        "day": 5,
+        "description": "Day Tour at Samye Monastery and Journey Back to Lhasa",
+        "details": "Visit Samye Monastery, the first Buddhist monastery in Tibet. Return to Lhasa for overnight stay."
+      },
+      {
+        "day": 6,
+        "description": "Departure from Lhasa",
+        "details": "Transfer to Lhasa airport for departure. Option to continue your vacation in neighboring countries like Nepal, Bhutan, or India."
+      }
+    ],
+    "HowToPrepare": {
+      "paragraph": [
+        "Ensure you are in good health and acclimatized to high altitudes before starting the tour.",
+        "Pack appropriate clothing for both warm and cold weather.",
+        "Carry necessary medications for altitude sickness and personal health.",
+        "Have a valid passport and any required travel permits for Tibet."
+      ]
+    },
+    "path": [
+      "Arrival in Lhasa -> Potala Palace -> Jokhang Temple -> Barkhor Street -> Drepung Monastery -> Sera Monastery -> Tsedang -> Yumbulhakhang Palace -> Trandruk Monastery -> Samye Monastery -> Return to Lhasa -> Departure"
+    ]
+  },
 };
 
 export default infoContent;
