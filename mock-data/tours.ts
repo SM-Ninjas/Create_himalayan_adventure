@@ -11,8 +11,32 @@ export const tourRegions: TrekAndTours[] = [
     name: "Day Hikes and Tours From Pokhara",
     options: [
       {
-        name: "Pokhara Day Tour with Sunrise View from Sarangkot",
-        slug: "pokhara_day_tour_sunrise_sarangkot",
+        name: "Astam Village Day Hiking from Pokhara",
+        slug: "Astam_Village_Day_Hiking",
+      },
+      {
+        name: "Australian Camp Day Hike from Pokhara",
+        slug: "Australian_Camp_Day_Hike",
+      },
+      {
+        name: "Kahun Danda Hiking from Pokhara",
+        slug: "Kahun_Danda_Hiking",
+      },
+      {
+        name: "Kalikasthan Thulakot Day Hike from Pokhara",
+        slug: "Kalikasthan_Thulakot_Day_Hike",
+      },
+      {
+        name: "Naudanda Sarangkot Day Hike",
+        slug: "Naudanda_Sarangkot_Day_Hike",
+      },
+      {
+        name: "Sarangkot Viewpoint Hike from Pokhara",
+        slug: "Sarangkot_Viewpoint_Hike_from_Pokhara",
+      },
+      {
+        name: "Pumdikot Hike with World Peace Pagoda",
+        slug: "Pumdikot_Hike_with_World_Peace_Pagoda",
       },
       {
         name: "Five Himalayan Viewpoint Tour from Pokhara",
@@ -22,83 +46,207 @@ export const tourRegions: TrekAndTours[] = [
     route: routes.treks,
   },
   {
-    name: "Day Hikes Nepal",
+    name: "Multiple Day Tours",
     options: [
       {
-        name: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
-        slug: "nagarkot_dhulikhel_day_hike",
+        name: "Nepal Golden Triangle Tour - 8 Days",
+        slug: "Nepal_Golden_Triangle_Tour",
+      },
+      {
+        name: "Nepal Tour Packages from Dhaka Bangladesh - 4 Days",
+        slug: "Nepal_Tour_Packages_from_Dhaka_Bangladesh",
+      },
+      {
+        name: "Glimpse of Nepal Tour - 5 Days",
+        slug: "Glimpse_Of_Nepal_Tour",
+      },
+      {
+        name: "Nepal Tour Package from India - 5 Days",
+        slug: "Nepal_Tour_Package_From_India",
+      },
+      {
+        name: "Buddhist Pilgrimage Tour in Nepal – 8 Days",
+        slug: "buddhist_pilgrimage_tour_nepal",
+      },
+      {
+        name: "Nepal Beauty Tour - 6 Days",
+        slug: "Nepal_Beauty_Tour_6_Days",
+      },
+      {
+        name: "Pokhara Valley Tour - 2 Days",
+        slug: "Pokhara_Valley_Tour",
+      },
+      {
+        name: "Nepal Adventure Tour - 8 Days",
+        slug: "Nepal_Adventure_Tour",
+      },
+      {
+        name: "Muktinath Darshan by Jeep",
+        slug: "Muktinath_Darshan_by_Jeep",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Day Hikes From Kathmandu",
+    options: [
+      {
+        name: "Champadevi Day Hike - 1 Day",
+        slug: "champadevi_day_hike",
+      },
+      {
+        name: "Nagarjung Jamcho Day Hike - 1 Day",
+        slug: "nagarjung_jamcho_day_hike",
+      },
+      {
+        name: "Namobuddha to Panauti Day Hiking - 1 Day",
+        slug: "namobuddha_panauti_day_hike",
       },
       {
         name: "Nagarkot Sunrise View and Nagarkot to Changunarayan Hike",
         slug: "nagarkot_sunrise_view_changunarayan_hike",
       },
       {
-        name: "Namobuddha to Panauti Day Hiking _ 1 Day",
-        slug: "namobuddha_panauti_day_hike",
+        name: "Nagarkot to Dhulikhel Day Hiking Trip – 1 Day",
+        slug: "nagarkot_dhulikhel_day_hike",
       },
       {
-        name: "Nagarjung Jamcho Day Hike _ 1 Day",
-        slug: "nagarjung_jamcho_day_hike",
+        name: "Phulchoki Day Hiking",
+        slug: "Phulchoki_Day_Hiking",
       },
       {
-        name: "Champadevi Day Hike _ 1 Day",
-        slug: "champadevi_day_hike",
+        name: "Shivapuri Day Hike",
+        slug: "Shivapuri_Day_Hike",
       },
     ],
     route: routes.treks,
   },
   {
-    name: "Multiple Day Tours",
+    name: "Helicopter Tour In Nepal",
     options: [
       {
-        name: "Everest Three High Passes Trek _ 18 Days",
-        slug: "everest_three_high_passes_trek_18_days",
-      },
-
-      // no data for this as well
-      {
-        name: "Budget Everest Base Camp Trek _ 12 Days",
-        slug: "budget_ebc_trek_12_days",
+        name: "Annapurna Base Camp Helicopter Tour",
+        slug: "Annapurna_Base_Camp_Helicopter_Tour",
       },
       {
-        name: "Everest High Passes Trek Clockwise _ 18 Days",
-        slug: "everest_high_passes_trek_clockwise_18_days",
+        name: "Damodar Kund - Muktinath Helicopter Day Tour",
+        slug: "Damodar_Kund_Muktinath_Helicopter_Tour",
       },
       {
-        name: "Gokyo Valley Circuit Trek _ 13 Days",
-        slug: "gokyo_valley_circuit_trek_13_days",
+        name: "Muktinath Helicopter Tour from Pokhara",
+        slug: "Muktinath_Helicopter_Tour",
       },
       {
-        name: "Everest View Trek _ 9 Days",
-        slug: "everest_view_trek_9_days",
+        name: "Everest Base Camp Helicopter Tour with Landing at Everest View Hotel",
+        slug: "Everest_Base_Camp_Helicopter_Tour",
       },
       {
-        name: "Everest Trek Cost for Indians _ 14 Days",
-        slug: "everest_trek_cost_indians_14_days",
+        name: "Langtang Helicopter Tour from Kathmandu",
+        slug: "Langtang_Helicopter_Tour",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Day Tours From Kathmandu",
+    options: [
+      {
+        name: "Seven World Heritage Kathmandu Day Tour",
+        slug: "Seven_World_Heritage_Kathmandu_Day_Tour",
       },
       {
-        name: "Everest Gokyo Trek via Salleri _ 20 Days",
-        slug: "everest_gokyo_trek_via_salleri_20_days",
-      },
-      // no data
-      {
-        name: "12 Days Everest Base Camp Trek",
-        slug: "ebc_trek_12_days",
-      },
-      // no data for this 
-      {
-        name: "Rapid (Short) Everest Base Camp Trek _ 9 Days",
-        slug: "rapid_ebc_trek_9_days",
+        name: "Chandragiri Hill Day Tour",
+        slug: "Chandragiri_Hill_Day_Tour",
       },
       {
-        name: "EBC Trek via Gokyo Cho La Pass _ 17 Days",
-        slug: "ebc_trek_via_gokyo_cho_la_pass_17_days",
+        name: "Kathmandu City Tour",
+        slug: "Kathmandu_City_Tou",
       },
-
-      // no data for this one 
       {
-        name: "Everest Base Camp Trek Helicopter Return to Kathmandu _ 10 Days",
-        slug: "ebc_trek_helicopter_return_kathmandu_10_days",
+        name: "Everest Mountain Sightseeing Flight by Plane",
+        slug: "Everest_Mountain_Sightseeing_Flight_By_Plane",
+      },
+      {
+        name: "Bungmati-Khokana Village Tour",
+        slug: "Bungmati_Khokana_Village_Tour",
+      },
+      {
+        name: "Paragliding in Nepal",
+        slug: "Paragliding_in_Nepal",
+      },
+      {
+        name: "Kathmandu Day Tour",
+        slug: "Kathmandu_Day_Tour",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Adventure Activities in Pokhara",
+    options: [
+      {
+        name: "Bungee Jumping in Pokhara",
+        slug: "Bungee_Jumping_Pokhara",
+      },
+      {
+        name: "Seti River Rafting in Pokhara",
+        slug: "Rafting_Pokhara",
+      },
+      {
+        name: "Sarangkot to Hemja, Pokhara, Nepal",
+        slug: "Zipline_Pokhara",
+      },
+      {
+        name: "Ultra Light Flight in Pokhara Nepal",
+        slug: "Ultra_Light_Flight_Pokhara",
+      },
+      {
+        name: "Paragliding in Pokhara Nepal",
+        slug: "Paragliding_Pokhara",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Helicopter Flights In Nepal",
+    options: [
+      {
+        name: "Lukla to Kathmandu Helicopter Flight - 1 Hour",
+        slug: "Lukla_to_Kathmandu_Helicopter_Flight",
+      },
+      {
+        name: "Kathmandu to Lukla Helicopter Flight - 1 Hour",
+        slug: "Kathmandu_to_Lukla_Helicopter_Flight",
+      },
+      {
+        name: "Gorakshep to Kathmandu Helicopter Flight - 3 Hours",
+        slug: "Gorakshep_to_Kathmandu_Helicopter_Flight",
+      },
+      {
+        name: "Gorakshep to Lukla Helicopter Flight - 20 Minutes",
+        slug: "Gorakshep_to_Lukla_Helicopter_Flight",
+      },
+      {
+        name: "Kalapatthar to Kathmandu Helicopter Flight",
+        slug: "Kalapatthar_to_Kathmandu_Helicopter_Flight",
+      },
+      {
+        name: "Namche to Kathmandu Helicopter Flight",
+        slug: "Namche_to_Kathmandu_Helicopter_Flight",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Rafting In Nepal",
+    options: [
+      {
+        name: "Trishuli River Rafting - 1 Day",
+        slug: "Trishuli_River_Rafting",
+      },
+      {
+        name: "1 Night 2 Days Trishuli River Rafting",
+        slug: "Night_Days_Trishuli_River_Rafting",
       },
     ],
     route: routes.treks,
@@ -107,29 +255,20 @@ export const tourRegions: TrekAndTours[] = [
     name: "Wildlife Tours",
     options: [
       {
-        name: "Everest High Passes Trek Clockwise _ 18 Days",
-        slug: "everest_high_passes_trek_clockwise_18_days",
+        name: "3 Nights 4 Days Chitwan National Park Tour",
+        slug: "Chitwan_National_Park_Tour",
       },
       {
-        name: "Gokyo Valley Circuit Trek _ 13 Days",
-        slug: "gokyo_valley_circuit_trek_13_days",
+        name: "2 Nights 3 Days Chitwan National Park Tour",
+        slug: "Chitwan_National_Park_Tour_2N3D",
       },
       {
-        name: "Everest View Trek _ 9 Days",
-        slug: "everest_view_trek_9_days",
+        name: "3 Nights 4 Days Bardia National Park Tour",
+        slug: "Bardia_National_Park_Tour",
       },
       {
-        name: "Gokyo Chola Pass Trekking via EBC _ 17 Days",
-        slug: "gokyo_chola_pass_trekking_via_ebc_17_days",
-      },
-      {
-        name: "Pikey Peak Trek _ 10 Days",
-        slug: "pikey_peak_trek_10_days",
-      },
-      // No data for this
-      {
-        name: "Everest Base Camp Trek by Road _ 16 Days",
-        slug: "ebc_trek_by_road_16_days",
+        name: "Bardia Jungle Safari Tour",
+        slug: "Bardia_Jungle_Safari_Tour",
       },
     ],
     route: routes.treks,

@@ -46,6 +46,87 @@ export const trekRegions: TrekAndTours[] = [
     route: routes.treks,
   },
   {
+    name: "Manaslu Region Trekking",
+    options: [
+      {
+        name: "Manaslu Circuit Trek - 14 Days",
+        slug: "Manaslu_Circuit_Trek_14_Days",
+      },
+      {
+        name: "Short Manaslu Trek - 11 Days",
+        slug: "Short_Manaslu_Trek_11_Days",
+      },
+      {
+        name: "Manaslu Tsum Valley Trek - 19 Days",
+        slug: "Manaslu_Tsum_Valley_Trek",
+      },
+
+     
+    ],
+    route: routes.treks,
+  },
+  
+  {
+    name: "Kanchenjunga Region Trekking",
+    options: [
+      {
+        name: "Kanchenjunga North Base Camp Trek - 20 Days",
+        slug: "Kanchenjunga_North_Base_Camp_Trek_20_Days",
+      },
+      {
+        name: "Kanchenjunga South Base Camp Trek - 13 Days",
+        slug: "Kanchenjunga_South_Base_Camp_Trek_13_Days",
+      },
+      {
+        name: "Kanchenjunga Circuit Trek",
+        slug: "Kanchenjunga_Circuit_Trek",
+      },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Makalu Region Trekking",
+    options: [
+      {
+        name: "Makalu-Barun National Park",
+        slug: "Makalu_Base_Camp_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Dolpa Region Trekking",
+    options: [
+      {
+        name: "Upper Dolpo Trek",
+        slug: "Upper_Dolpo_Trek",
+      },
+      {
+        name: "Lower Dolpo Trek - 18 Days",
+        slug: "Lower_Dolpo_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  
+  {
+    name: "Mustang Region Trekking",
+    options: [
+      {
+        name: "Upper Mustang Overland Tour - 8 Days",
+        slug: "Upper_Mustang_Overland_Tour",
+      },
+      {
+        name: "Upper Mustang Trek - 17 Days",
+        slug: "Upper_Mustang_Trek",
+      },
+     
+    ],
+    route: routes.treks,
+  },
+  {
     name: "Everest Region Trekking",
     options: [
       {
@@ -128,6 +209,37 @@ export const trekRegions: TrekAndTours[] = [
         name: "Everest Base Camp Trek by Road - 16 Days",
         slug: "ebc_trek_by_road_16_days",
       },
+    ],
+    route: routes.treks,
+  },
+  {
+    name: "Langtang Region Treckking",
+    options: [
+      {
+        name: "Langtang Valley Trek - 10 Days",
+        slug: "Langtang_Valley_Trek",
+      },
+      {
+        name: "Langtang Gosaikunda Lake Trek – 15 Day",
+        slug: "Langtang_Gosaikunda_Lake_Trek",
+      },
+      {
+        name: "Tamang Heritage Trail Trek – 10 Days",
+        slug: "Tamang_Heritage_Trail_Trek",
+      },
+      {
+        name: "Helambu Circuit Trek – 8 Days",
+        slug: "Helambu_Circuit_Trek",
+      },
+      {
+        name: "Langtang Ganja La Pass Trek – 14 Days",
+        slug: "Langtang_Ganja_La_Pass_Trek",
+      },
+      {
+        name: "Gosaikunda Lake Trek – 7 Days",
+        slug: "Gosaikunda_Lake_Trek",
+      },
+     
     ],
     route: routes.treks,
   },
