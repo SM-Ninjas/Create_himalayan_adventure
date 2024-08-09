@@ -18966,7 +18966,7 @@ Lhasa_Short_Tour: {
   },
   path: ["Cultural Tour", "Lhasa", "Tibet"],
 },
-  Lhasa_and_Tsedang_Tour: {
+Lhasa_and_Tsedang_Tour: {
     "id": 0,
     "slug": "lhasa-tsedang-tour-6-days",
     "category": "Cultural Tour",
