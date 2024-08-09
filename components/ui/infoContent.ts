@@ -2258,9 +2258,9 @@ ebc_trek_14_days: {
         "The trek begins with a climb through the Khumbu Khola valley to Duglha. As you get closer to Dusa, the valley begins to shrink. The route is difficult, with various massive boulders and mountain yaks going by at a high height nearby. Many memorials with praying flags and stones in remembrance of climbers who died on the way to Mt. Everest may also be found. You will then arrive at the path that connects Gokyo Lakes and Cho-La Pass. Peaks like Khumbuste (6,636m), Lingtren (6,749m), and Pumori (7,161m) may also be seen. In a usual hike towards Lobuche, you might easily become fatigued walking across the mountainous terrain. Only a few residences exist in Lobuche.",
     },
     {
-      day: 9,
+      day:9,
       description:
-        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m) and back to Gorakshep (5140m) ",
+        "Trek from Lobuche (4910m) to Gorakshep (5140m) then Everest Base Camp (5364m)",
       details:
         "You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.You will walk to Gorakshep after breakfast in Lobuche. This is going to be the finest day of 14 day Everest base camp trek as you will finally reach the base camp. It will take between two and three hours. After that, you will stop at Gorakshep for lunch. You will begin your journey to Mt. Everest Base Camp after lunch. It will take roughly 3 to 4 hours to go to Everest Base Camp from Gorakshep. Everest Base Camp is breathtaking. From the base camp, you will get spectacular views of the Nuptse, Khumbuste, and Pumori peaks. You will hike back to Gorakshep, where you will spend the night, after taking in the scenery.",
     },
@@ -13670,7 +13670,7 @@ Soi_Yaksa_Trek: {
     ],
 },
  
-
+// 
 bhutan_tour_via_phuentsholing_days: {
   id : 2,
   slug : "bhutan_tour_via_phuentsholing_7_days",
@@ -18418,7 +18418,7 @@ gomkora_tshechu_festival_tour_13_days: {
     "Consult with your travel agent or guide for specific preparation or gear recommendations to ensure a smooth and enjoyable experience."
   ]
 }
-}
+},
 
 
 };
