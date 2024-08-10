@@ -15,7 +15,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
   return (
     <motion.div
       variants={staggerContainer(0, 0)}
-      className="mt-8 bg-[#ECF6FF] p-2 rounded"
+      className="mt-8 bg-[#ECF6FF] p-4 rounded"
     >
       <TitleText title="Overview" textStyles="subtitle-text" />
       <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3 sm:gap-6">

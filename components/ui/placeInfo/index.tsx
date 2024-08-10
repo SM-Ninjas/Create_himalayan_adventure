@@ -2,10 +2,8 @@ import React from "react";
 import Highlight from "./details/highlights";
 import AboutActivity from "./details/about";
 import Benefits from "./details/benefits";
-import infoContent from "../infoContent";
 import Itinerary from "./details/itinerary";
 import HowToPrepareComponent from "./details/Howtoprepare";
-import { useRouter } from "next/router";
 import PathImg from "./details/pathImg";
 import { TrekkingContent } from "@/components/ui/infoContent";
 
@@ -46,12 +44,9 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
             Road map of this journey
           </h1>
           <PathImg
-            pathImg={
-              currentPlaceInfo && currentPlaceInfo.path
-                ? currentPlaceInfo.path[0]
-                : undefined
-            }
-          />
+            pathImg={currentPlaceInfo && currentPlaceInfo.path
+              ? currentPlaceInfo.path[0]
+              : undefined} mapCenter={{ lat: 27.712987623893596, lng: 85.32390120211947 }} zoom={10}          /> 
         </div>
         <div className="mb-6">
           <h1 className="text-gray-800 subtitle-text mb-4">

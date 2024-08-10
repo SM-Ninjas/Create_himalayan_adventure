@@ -18,7 +18,6 @@ function PlacesDetails() {
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
 
   const currentPlaceData = infoContent[index] ;
-  console.log(currentPlaceData?.id, "placedata hehhhhhhhhhhh hhhhhhhhh");
   // const currentPlaceOverview = currentPlaceDat.overView;
 
   const subImg: subimages = currentPlaceData?.subimages || [];
