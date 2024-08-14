@@ -3,8 +3,8 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
 interface PathImageTypes {
   pathImg?: string | undefined;
-  mapCenter: google.maps.LatLngLiteral; // Add center for map
-  zoom: number; // Add zoom level for the map
+  mapCenter: google.maps.LatLngLiteral; 
+  zoom: number; 
 }
 
 function PathImg({ pathImg, mapCenter, zoom }: PathImageTypes) {
@@ -16,15 +16,6 @@ function PathImg({ pathImg, mapCenter, zoom }: PathImageTypes) {
 
   return (
     <div>
-      {/* <div className="mt-4">
-        <img
-          src={pathImg}
-          height={400}
-          width={800}
-          alt="Path Image"
-        />
-      </div> */}
-
       <div className="mt-4">
         <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY || ''}>
           <GoogleMap
@@ -32,7 +23,6 @@ function PathImg({ pathImg, mapCenter, zoom }: PathImageTypes) {
             center={mapCenter}
             zoom={zoom}
           >
-            {/* You can add markers or other components here */}
           </GoogleMap>
         </LoadScript>
       </div>

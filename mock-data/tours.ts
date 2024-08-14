@@ -1,10 +1,11 @@
 import { routes } from "@/lib/routes";
 
-interface TrekAndTours {
+export interface TrekAndTours {
   name: string;
   options: { name: string; slug: string }[];
   route: string;
 }
+
 
 export const tourRegions: TrekAndTours[] = [
   {

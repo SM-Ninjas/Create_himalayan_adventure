@@ -1,44 +1,32 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import { internationalRegions } from "@/mock-data/internationaltours";
-import { tourRegions } from "@/mock-data/tours";
+import { tourRegions, TrekAndTours } from "@/mock-data/tours";
 import { trekRegions } from "@/mock-data/treks";
 import infoContent, { TrekkingContent } from '@/components/ui/infoContent';
-import Link from 'next/link'; 
+import Link from 'next/link';
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineDateRange } from "react-icons/md";
 
-interface ActivityTypes {
-  id?: number;
+interface CardProps {
   name: string;
   slug: string;
-  category?: string;
-  activityType?: string;
-  img?: string;
-  description?: string;
-  title?: string;
-  location?: string;
-  days?: string;
-  people?: string;
-}
-interface Region {
-  name?: string;
-  options: ActivityTypes[];
 }
 
-function Treks_Tours() {
+
+const Treks_Tours = () => {
   const router = useRouter();
   const { slug } = router.query;
 
-  const getActivityData = (activityType: string | string[] | undefined): Region[] => {
+  const getActivityData = (activityType: string | string[] | undefined) => {
     switch (activityType) {
       case 'treks':
-        return trekRegions as unknown as Region[];
+        return trekRegions;
       case 'tours':
-        return tourRegions as Region[];
+        return tourRegions;
       case 'international_tours':
-        return internationalRegions as Region[];
+        return internationalRegions;
       default:
         return [];
     }
@@ -63,8 +51,8 @@ function Treks_Tours() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
               {region.options.map((activity) => (
                 <ActivityCard
-                  key={activity.slug}
-                  card={activity as ActivityTypes}
+                  // key={activity.slug}
+                  card={activity as CardProps}  // Type assertion here
                   infoContent={infoContent}
                   activityType={slug as string}
                 />
@@ -75,31 +63,34 @@ function Treks_Tours() {
       </div>
     </div>
   );
-}
+};
+
 
 const ActivityCard = ({
   card,
   infoContent,
   activityType
 }: {
-  card: ActivityTypes,
+  card: CardProps,
   infoContent: { [key: string]: TrekkingContent },
   activityType: string
 }) => {
+  const activityInfo = infoContent[card.slug] || {};
+
   return (
     <div className="group relative h-[400px] overflow-hidden rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl">
       <Link href={`/${activityType}/${card.slug}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
-          {card.img && (
-            <img src={card.img} alt={card.name} className="w-full h-full object-cover" />
+          {activityInfo.img && (
+            <img src={activityInfo.img} alt={card.name} className="w-full h-full object-cover" />
           )}
         </div>
         <div className="absolute inset-x-0 bottom-0 z-10 bg-white p-8 bg-gradient-to-b from-transparent to-white/90">
           <h3 className="text-lg font-bold uppercase text-gray-800">{card.name}</h3>
           <div className="flex justify-between text-gray-700 mt-2">
-            <p className='flex items-center gap-2'><IoLocationSharp className="text-blue-500" /> {card.location}</p>
-            <p className='flex items-center gap-2'><MdOutlineDateRange className="text-blue-500" /> {card.days}</p>
-            <p className='flex items-center gap-2'><FaPeopleGroup className="text-blue-500" /> {card.people}</p>
+            <p className='flex items-center gap-2'><IoLocationSharp className="text-blue-500" /> {activityInfo.location}</p>
+            <p className='flex items-center gap-2'><MdOutlineDateRange className="text-blue-500" /> {activityInfo.days}</p>
+            <p className='flex items-center gap-2'><FaPeopleGroup className="text-blue-500" /> {activityInfo.people}</p>
           </div>
         </div>
       </Link>
@@ -107,4 +98,5 @@ const ActivityCard = ({
   );
 };
 
-export default Treks_Tours;
+
+export default Treks_Tours

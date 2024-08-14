@@ -16,7 +16,6 @@ import { MdGroups } from "react-icons/md";
 function PlacesDetails() {
   const router = useRouter()
   const { slug } = router.query;
-  console.log(slug)
   const { query } = useRouter();
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
 
