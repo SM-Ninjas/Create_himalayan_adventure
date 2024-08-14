@@ -12,86 +12,25 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navbar/navigation-menu";
 import { cn } from "@/lib/utils";
-import { tourRegions } from "@/mock-data/tours";
-import { trekRegions } from "@/mock-data/treks";
 import Link from "next/link";
-import { internationalRegions } from "@/mock-data/internationaltours";
 
 export function MenuItems() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white regular-text ">
-            Trekking in Nepal
-          </NavigationMenuTrigger>
-          <NavigationMenuContent style={{}}>
-            <ul className="grid w-[400px] gap-1 p-4 md:w-[500px] md:grid-cols-3 lg:w-[1000px] bg-white opacity-1 "style={{height:'50vh',overflowY:'scroll'}}>
-              {trekRegions.map((item, index) => (
-                <ListItem title={item.name} key={index}>
-                  <div className="flex max-h-[60vh] flex-col overflow-auto">
-                    {item.options.map((each, index) => (
-                      <Link href={`${item.route}/${each.slug}`}>
-                        <p
-                          key={index}
-                          className="regular-text  line-clamp-1.5 font-normal text-gray-900 hover:text-blue-700"
-                          style={{fontSize:'14px'}}
-                        >
-                          {each.name}
-                        </p>
-                      </Link>
-                    ))}
-                  </div>
-                </ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white regular-text">
-            Tours in Nepal
+      <NavigationMenuItem className="">
+          <NavigationMenuTrigger className="text-white emphasized-text">
+            Treks And Tours
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-1 bg-white p-4 md:w-[500px] md:grid-cols-3 lg:w-[1000px]"style={{height:'50vh',overflowY:'scroll',opacity:'1'}}>
-              {tourRegions.map((item, index) => (
-                <ListItem title={item.name} key={index}>
-                  <div className="flex max-h-[60vh] flex-col overflow-auto">
-                    {item.options.map((each, index) => (
-                      <Link href={`${item.route}/${each.slug}`} key={index}>
-                        <p
-                          key={index}
-                          className="regular-text line-clamp-1.5 font-normal text-gray-900 hover:text-blue-700"
-                          
-                          style={{fontSize:'14px'}}
-                        >
-                          {each.name}
-                        </p>
-                      </Link>
-                    ))}
-                  </div>
-                </ListItem>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white regular-text">
-            International Tours
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-1 bg-white md:w-[500px] md:grid-cols-3 lg:w-[1000px]"style={{height:'50vh',overflowY:'scroll',opacity:'1'}}>
-              {internationalRegions.map((item, index) => (
-                <ListItem title={item.name} key={index}>
-                  <div className="flex max-h-[60vh] flex-col overflow-auto">
-                    {item.options.map((each, index) => (
-                      <Link href={`${item.route}/${each.slug}`} key={index}>
-                        <p
-                          key={index}
-                          className="regular-text line-clamp-1.5 font-normal text-gray-900 hover:text-blue-700"
-                          
-                          style={{fontSize:'14px'}}
-                        >
-                          {each.name}
+            <ul className="grid w-[300px] gap-3 p-4 md:grid-cols-3 lg:w-[600px] bg-white" style={{maxHeight: '60vh', overflowY: 'auto'}}>
+              {trek_tours.map((category, index) => (
+                <ListItem key={index} title={category.name}>
+                  <div className="flex flex-col space-y-2">
+                    {category.options.map((item, itemIndex) => (
+                      <Link key={itemIndex} href={`/${item.slug}`}>
+                        <p className="regular-text line-clamp-1 font-normal text-gray-900 hover:text-blue-700" style={{fontSize:'14px'}}>
+                          {item.name}
                         </p>
                       </Link>
                     ))}
@@ -159,3 +98,27 @@ const ListItem = React.forwardRef<
   );
 });
 ListItem.displayName = "ListItem";
+
+
+
+
+export const trek_tours: {
+  [x: string]: any; name: string; options: { name: string; slug: string; }[]; 
+}[] = [
+  {
+    name: "Tours and Treks Avaliable",
+    options: [
+      {
+        name: "Treks in Nepal",
+        slug: "treks",
+      },
+      {
+        name: "Tours in Nepal",
+        slug: "tours",
+      },
+      {
+        name: "International Tours",
+        slug: "international_tours",
+      },
+    ],
+  }]

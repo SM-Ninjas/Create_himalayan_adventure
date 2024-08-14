@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="mt-4 flex cursor-pointer flex-col gap-y-2">
               <div className="flex items-center gap-x-4">
-                <IoLocationSharp />
+                <IoLocationSharp   className="text-blue-400"/>
                 <a
                   href="https://maps.app.goo.gl/SWa8dYXRTtAp4bQYA"
                   target="_blank"
@@ -44,7 +44,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center gap-x-4">
-                <HiPhone />
+                <HiPhone className="text-blue-400" />
                 <a
                   href="tel:9841128881"
                   className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center gap-x-4">
-                <IoMail />
+                <IoMail className="text-blue-400" />
                 <a
                   href="mailto:example@mail.com"
                   className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"

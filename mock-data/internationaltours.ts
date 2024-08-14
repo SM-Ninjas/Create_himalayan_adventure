@@ -6,12 +6,6 @@ interface TrekAndTours {
   route: string;
 }
 export const internationalRegions: TrekAndTours[] = [
-    {
-        name: "Bhutan",
-        options: [
-        ],
-        route: routes.treks,
-      },
       {
         name: "Trekking and Hiking in Bhutan",
         options: [
@@ -40,7 +34,7 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "Soi_Yaksa_Trek",
           },
         ],
-        route: routes.treks,
+        route: routes.international_tour,
       },
       {
         name: "Culture and City Tour in Bhutan",
@@ -87,13 +81,7 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "bhutan_west_east_traverse_tour_14_days",
           },
         ],
-        route: routes.treks,
-      },
-      {
-        name: "",
-        options: [
-        ],
-        route: routes.treks,
+        route: routes.international_tour,
       },
       {
         name: "Day Hikes And Cultural Tour in Bhutan",
@@ -151,7 +139,7 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "bhutan_drukyul_hiking_tour_12_days",
           },  
         ],
-        route: routes.treks,
+        route: routes.international_tour,
       },
       {
         name: "Festival Tour in Bhutan",
@@ -185,13 +173,7 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "gomkora_tshechu_festival_tour_13_days",
           },
         ],
-        route: routes.treks,
-      }, {
-        name: "Tibet",
-        options: [
-     
-        ],
-        route: routes.treks,
+        route: routes.international_tour,
       }, {
         name: "Culture And City Tours in Tibet",
         options: [
@@ -220,6 +202,6 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "Lhasa_and_Tsedang_Tour",
           },
         ],
-        route: routes.treks,
+        route: routes.international_tour,
       },
 ];

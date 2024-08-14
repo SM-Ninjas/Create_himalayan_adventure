@@ -53,6 +53,9 @@ importers:
       framer-motion:
         specifier: ^10.12.16
         version: 10.18.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      iconsax-react:
+        specifier: ^0.0.8
+        version: 0.0.8(react@18.2.0)
       leaflet:
         specifier: ^1.9.4
         version: 1.9.4
@@ -1012,6 +1015,11 @@ packages:
 
   hyphenate-style-name@1.1.0:
     resolution: {integrity: sha512-WDC/ui2VVRrz3jOVi+XtjqkDjiVjTtFaAGiW37k6b+ohyQ5wYDOGkvCZa8+H0nx3gyvv0+BST9xuOgIyGQ00gw==}
+
+  iconsax-react@0.0.8:
+    resolution: {integrity: sha512-l3dVk4zGtkkJHgvNYqAf0wDKqnKxXykee5/DoESGo2JvSYwaxajJUHSX2YrPRXSov8Hd8ClGFwJxCEaEjrFD1Q==}
+    peerDependencies:
+      react: '*'
 
   iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
@@ -2896,6 +2904,11 @@ snapshots:
       entities: 3.0.1
 
   hyphenate-style-name@1.1.0: {}
+
+  iconsax-react@0.0.8(react@18.2.0):
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
 
   iconv-lite@0.6.3:
     dependencies:

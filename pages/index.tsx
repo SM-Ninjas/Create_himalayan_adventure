@@ -33,9 +33,9 @@ export default function Home() {
       <BestSellers />
       <HowTo />
       <About />
-      <TopChoices scrollToSection={scrollToFAQ} />
+      <TopChoices />
       <Blogs blogsRef={scrollRef} />
-      <OurTeam />
+      {/* <OurTeam /> */}
       <Partners />
       <Testimonials />
       <TripAdvisorReview />

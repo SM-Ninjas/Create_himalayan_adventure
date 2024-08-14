@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .container {
-  /* @apply mx-auto w-full px-4 md:w-4/5 xl:w-2/3 xl:p-0; */
+  /* @apply mx-auto w-full px-4   xl:p-0; */
 
-  @apply mx-auto w-full px-4 md:w-3/4 xl:w-3/4 xl:p-0;
+  @apply mx-auto w-full md:w-5/6 px-4 xl:w-11/12 xl:p-0;
 }
 .small-text {
   @apply text-xs lg:text-sm;

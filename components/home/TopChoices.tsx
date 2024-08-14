@@ -1,14 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef } from "react";
-
+import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "@/lib/motion";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { FaMouse } from "react-icons/fa";
-
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { TitleText } from "../ui/text/typingText";
 
 interface CardProps {
@@ -18,24 +12,7 @@ interface CardProps {
   slug: string; 
 }
 
-interface TopChoicesProps {
-  scrollToSection: () => void;
-}
-
-const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
-  const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
-
-  // dispose useScroll
-  useEffect(() => {
-    return () => {
-      scrollYProgress.destroy();
-    };
-  }, [scrollYProgress]);
-
+const TopChoices = () => {
   return (
     <section className="relative mx-0 lg:px-0">
       <motion.article
@@ -43,9 +20,9 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.1 }}
-        className="relative flex flex-col items-center gap-y-2"
+        className="relative flex flex-col items-center gap-y-8"
       >
-        <div className="container top-20 mx-auto flex flex-col gap-y-4 px-4 lg:sticky lg:px-0">
+        <div className="container mx-auto flex flex-col gap-y-4 px-4 lg:px-0">
           <TitleText title="Explore More" />
           <motion.p variants={textVariant(0.25)} className="regular-text">
             Embark on a journey of discovery with our "Explore More" section,
@@ -62,103 +39,12 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
           </motion.p>
         </div>
 
-        <div ref={targetRef} className="relative hidden h-[300vh] lg:block">
-          <div className="sticky top-56 flex h-[75vh] w-screen items-center overflow-hidden">
-            <motion.div style={{ x }} className="flex gap-4">
-              {exploreMoreItems.map((item) => (
-                <Card card={item} key={item.id} />
-              ))}
-              <div className="relative h-[450px] w-[450px] bg-white">
-                <div className="absolute inset-0 z-10 grid place-content-center">
-                  <p className="rounded-md bg-gradient-to-br from-blue-600/20 to-blue-600/0 p-8 text-xl font-black uppercase text-blue-600 backdrop-blur-lg">
-                    View More
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-          <div
-            className="sticky left-1/2 top-[90%] h-max w-max -translate-x-1/2 cursor-pointer rounded-full bg-blue-600 p-4"
-            onClick={scrollToSection}
-          >
-            <FaMouse className="h-6 w-6 text-white" />
-          </div>
-        </div>
-
-        <div className="hidden md:block lg:hidden">
-          <Swiper
-            slidesPerView={2}
-            slidesPerGroup={2}
-            spaceBetween={30}
-            loop={true}
-            pagination={{ clickable: true }}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            navigation={true}
-            modules={[Navigation, Pagination]}
-            className="mySwiper w-full"
-          >
-            {exploreMoreItems.map((item, index) => (
-              <SwiperSlide key={index}>
-                <a href={`/${item.slug}`} className="flex flex-col gap-y-2">
-                  <div className="relative h-96 w-auto">
-                    <Image
-                      src={item.url}
-                      alt={item.title}
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-lg"
-                    />
-                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
-                      <p className="text-xl font-black uppercase text-white">
-                        {item.title}
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </SwiperSlide>
+        <div className="container mx-auto px-4 lg:px-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {exploreMoreItems.map((item) => (
+              <Card card={item} key={item.id} />
             ))}
-          </Swiper>
-        </div>
-
-        <div className="block w-full px-4 md:hidden">
-          <Swiper
-            slidesPerView={1}
-            slidesPerGroup={1}
-            spaceBetween={10}
-            loop={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            navigation={true}
-            pagination={{ clickable: true }}
-            modules={[Navigation]}
-            className="mySwiper w-full"
-          >
-            {exploreMoreItems.map((item, index) => (
-              <SwiperSlide key={index}>
-                <a href={`/${item.slug}`} className=" border border-black flex flex-col gap-y-2">
-                  <div className="relative h-96 w-auto">
-                    <Image
-                      src={item.url}
-                      alt={item.title}
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-lg"
-                    />
-                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
-                      <p className="text-xl font-black uppercase text-white">
-                        {item.title}
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          </div>
         </div>
       </motion.article>
     </section>
@@ -167,7 +53,7 @@ const TopChoices = ({ scrollToSection }: TopChoicesProps) => {
 
 const Card = ({ card }: { card: CardProps }) => {
   return (
-    <div className="group relative h-[450px] w-[450px] overflow-hidden rounded-lg bg-gray-200">
+    <div className="group relative h-[300px] overflow-hidden rounded-lg bg-gray-200">
       <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
         <Image
           src={card.url}
