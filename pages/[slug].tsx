@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineDateRange } from "react-icons/md";
+import { People } from "iconsax-react"
 
 interface CardProps {
   name: string;
@@ -90,7 +91,7 @@ const ActivityCard = ({
           <div className="flex justify-between text-gray-700 mt-2">
             <p className='flex items-center gap-2'><IoLocationSharp className="text-blue-500" /> {activityInfo.location}</p>
             <p className='flex items-center gap-2'><MdOutlineDateRange className="text-blue-500" /> {activityInfo.days}</p>
-            <p className='flex items-center gap-2'><FaPeopleGroup className="text-blue-500" /> {activityInfo.people}</p>
+            <p className='flex items-center gap-2'><People size="24" color="#3B82F6" /> {activityInfo.people}</p>
           </div>
         </div>
       </Link>
