@@ -22,6 +22,7 @@ function PlacesDetails() {
   const currentPlaceData = infoContent[index];
   // const currentPlaceOverview = currentPlaceDat.overView;
 
+
   const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
 

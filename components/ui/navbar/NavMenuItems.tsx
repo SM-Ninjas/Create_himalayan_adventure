@@ -13,23 +13,22 @@ import {
 } from "@/components/ui/navbar/navigation-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-
 export function MenuItems() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-      <NavigationMenuItem className="">
-          <NavigationMenuTrigger className="text-white emphasized-text">
+    <NavigationMenu className="mx-auto h-20">
+      <NavigationMenuList className="h-full m-56 flex justify-center items-center space-x-12">
+        <NavigationMenuItem className="flex items-center h-full">
+          <NavigationMenuTrigger className="emphasized-text h-full flex items-center">
             Treks And Tours
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[300px] gap-3 p-4 md:grid-cols-3 lg:w-[600px] bg-white" style={{maxHeight: '60vh', overflowY: 'auto'}}>
+            <ul className="w-[380px] bg-white">
               {trek_tours.map((category, index) => (
-                <ListItem key={index} title={category.name}>
+                <ListItem key={index} title={category.name} className="">
                   <div className="flex flex-col space-y-2">
                     {category.options.map((item, itemIndex) => (
-                      <Link key={itemIndex} href={`/${item.slug}`}>
-                        <p className="regular-text line-clamp-1 font-normal text-gray-900 hover:text-blue-700" style={{fontSize:'14px'}}>
+                      <Link key={itemIndex} className="" href={`/${item.slug}`}>
+                        <p className="emphasized-text  font-normal text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 ">
                           {item.name}
                         </p>
                       </Link>
@@ -40,30 +39,38 @@ export function MenuItems() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/about" className="regular-text" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
+        <NavigationMenuItem className="flex items-center h-full">
+          <Link href="/about" className="regular-text h-full" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} emphasized-text h-full flex items-center`}
+            >
               About us
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/blogs" className="regular-text" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
+        <NavigationMenuItem className="flex items-center h-full">
+          <Link href="/blogs" className="regular-text h-full" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} emphasized-text h-full flex items-center`}
+            >
               Blogs
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/contact" className="regular-text" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
+        <NavigationMenuItem className="flex items-center h-full">
+          <Link href="/contact" className="regular-text h-full" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} emphasized-text h-full flex items-center`}
+            >
               Contact
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/forum" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} emphasized-text`}>
+        <NavigationMenuItem className="flex items-center h-full">
+          <Link href="/forum" className="h-full" legacyBehavior passHref>
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} emphasized-text h-full flex items-center`}
+            >
               Forum
             </NavigationMenuLink>
           </Link>
@@ -88,7 +95,7 @@ const ListItem = React.forwardRef<
           )}
           {...props}
         >
-          <div className="mb-4 text-lg font-bold leading-none text-black">
+          <div className="mb-4  subtitle-text p-2 font-bold  leading-none text-blue-950">
             {title}
           </div>
           {children}
@@ -103,22 +110,22 @@ ListItem.displayName = "ListItem";
 
 
 export const trek_tours: {
-  [x: string]: any; name: string; options: { name: string; slug: string; }[]; 
+  [x: string]: any; name: string; options: { name: string; slug: string; }[];
 }[] = [
-  {
-    name: "Tours and Treks Avaliable",
-    options: [
-      {
-        name: "Treks in Nepal",
-        slug: "treks",
-      },
-      {
-        name: "Tours in Nepal",
-        slug: "tours",
-      },
-      {
-        name: "International Tours",
-        slug: "international_tours",
-      },
-    ],
-  }]
+    {
+      name: "Tours and Treks Avaliable",
+      options: [
+        {
+          name: "Treks in Nepal",
+          slug: "treks",
+        },
+        {
+          name: "Tours in Nepal",
+          slug: "tours",
+        },
+        {
+          name: "International Tours",
+          slug: "international_tours",
+        },
+      ],
+    }]

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 import { internationalRegions } from "@/mock-data/internationaltours";
 import { tourRegions, TrekAndTours } from "@/mock-data/tours";
 import { trekRegions } from "@/mock-data/treks";
@@ -15,10 +15,11 @@ interface CardProps {
   slug: string;
 }
 
-
 const Treks_Tours = () => {
   const router = useRouter();
   const { slug } = router.query;
+
+  const [activePlace, setActivePlace] = useState<string | null>(null);
 
   const getActivityData = (activityType: string | string[] | undefined) => {
     switch (activityType) {
@@ -36,36 +37,58 @@ const Treks_Tours = () => {
   const activityData = getActivityData(slug);
 
   return (
-    <div className='mt-[92px]'>
+    <div className=''>
       <div className="relative flex justify-center">
-        <img src="/images/about1.jpg" className="h-[600px] w-full object-cover" alt="aboutImage" />
-        <div className='absolute bottom-10 container'>
-          <h1 className="title-text text-white">
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 to-blue-900/30 z-10"></div>
+        <img src="/images/about1.jpg" className="h-[400px] w-full object-cover" alt="aboutImage" />
+        <div className='absolute inset-0 flex items-center justify-center z-20'>
+          <h1 className="title-text text-white text-center">
             Browse <span className='capitalize'>{slug}</span>
           </h1>
         </div>
       </div>
-      <div className='container'>
+      <div className='container mt-10'>
+        <div className="flex flex-wrap justify-center gap-4 my-6">
+          <button
+            className={`px-4 py-2 rounded ${activePlace === null ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
+              }`}
+            onClick={() => setActivePlace(null)}
+          >
+            All Places
+          </button>
+          {activityData.map((region) => (
+            // category buttons 
+            <button
+              key={region.name}
+              className={`px-4  py-2 rounded ${activePlace === region.name ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
+                }`}
+              onClick={() => setActivePlace(region.name)}
+            >
+              {region.name}
+            </button>
+          ))}
+        </div>
         {activityData.map((region) => (
-          <div key={region.name} className=''>
-            <h2 className='title-text mb-4 mt-6'>{region.name}</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-              {region.options.map((activity) => (
-                <ActivityCard
-                  // key={activity.slug}
-                  card={activity as CardProps}  // Type assertion here
-                  infoContent={infoContent}
-                  activityType={slug as string}
-                />
-              ))}
+          activePlace === null || activePlace === region.name ? (
+            <div key={region.name} className=''>
+              {/* <h2 className='title-text mb-4 mt-6'>{region.name}</h2> */}
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-4 gap-4'>
+                {region.options.map((activity) => (
+                  <ActivityCard
+                    // key={activity.slug}
+                    card={activity as CardProps}
+                    infoContent={infoContent}
+                    activityType={slug as string}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
+          ) : null
         ))}
       </div>
     </div>
   );
 };
-
 
 const ActivityCard = ({
   card,
@@ -79,7 +102,7 @@ const ActivityCard = ({
   const activityInfo = infoContent[card.slug] || {};
 
   return (
-    <div className="group relative h-[400px] overflow-hidden rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl">
+    <div className="group relative h-[400px] overflow-hidden rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl mt-4">
       <Link href={`/${activityType}/${card.slug}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
           {activityInfo.img && (
@@ -99,5 +122,4 @@ const ActivityCard = ({
   );
 };
 
-
-export default Treks_Tours
+export default Treks_Tours;
