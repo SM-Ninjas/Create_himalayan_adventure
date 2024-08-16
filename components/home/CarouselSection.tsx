@@ -78,22 +78,22 @@ const CarouselSection = () => {
   return (
     <article
       className={`
-        relative hidden min-h-screen w-full select-none flex-col gap-y-16 text-white antialiased lg:flex`}
+       relative hidden min-h-screen w-full select-none flex-col gap-y-16 text-white antialiased xl:flex`}
     >
       <AnimatePresence>
         <BackgroundImage
           transitionData={transitionData}
           currentSlideData={currentSlideData}
         />
-        <div className="absolute z-20 h-full w-full">
-          <div className="flex h-full w-full grid-cols-10 flex-col md:grid">
-            <div className="col-span-4 mb-3 flex h-full flex-1 flex-col justify-end px-5 md:mb-0 md:justify-center md:px-10">
+        <div className="absolute z-20 w-full h-full">
+          <div className="flex flex-col w-full h-full grid-cols-10 md:grid">
+            <div className="flex flex-col justify-end flex-1 h-full col-span-4 px-5 mb-3 md:mb-0 md:justify-center md:px-10">
               <SlideInfo
                 transitionData={transitionData}
                 currentSlideData={currentSlideData}
               />
             </div>
-            <div className="col-span-6 flex h-full flex-1 flex-col justify-start p-4 md:justify-center md:p-10">
+            <div className="flex flex-col justify-start flex-1 h-full col-span-6 p-4 md:justify-center md:p-10">
               <Slides
                 data={data}
                 handleChangeSlide={(id: number) => handleChangeSlide(id)}

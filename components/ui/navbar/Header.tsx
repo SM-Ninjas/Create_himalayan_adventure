@@ -42,26 +42,26 @@ function Header() {
             <p className={` leading-tight`}>Adventure</p>
           </div>
         </div>
-        <div className="ml-auto flex items-center gap-8">
+        <div className="flex items-center gap-8 ml-auto">
           {/* <MobileNavigation /> */}
         </div>
       </ContentWrapper>
-      <ContentWrapper className="hidden flex-1 items-center justify-between py-0 md:flex">
+      <ContentWrapper className="items-center justify-between flex-1 hidden py-0 md:flex">
         <div className="flex items-center gap-x-16">
           <Link href="/">
             <div className="flex items-center gap-2 font-medium tracking-[4px]">
               <Logo />
               <div>
-                <p className="subtitle-text scale-90 leading-tight text-white">
+                <p className="leading-tight text-white scale-90 subtitle-text">
                   Create Himalaya
                 </p>
-                <p className="scale-90 subtitle-text leading-tight text-white">
+                <p className="leading-tight text-white scale-90 subtitle-text">
                   Adventure
                 </p>
               </div>
             </div>
           </Link>
-          <div className="-ml-4 mt-1">
+          <div className="mt-1 -ml-4">
             <MenuItems />
           </div>
         </div>
@@ -100,7 +100,7 @@ const ListItem = React.forwardRef<
           {...props}
         >
           <div className="font-medium leading-none">{title}</div>
-          <p className="text-muted-foreground line-clamp-2 leading-snug">
+          <p className="leading-snug text-muted-foreground line-clamp-2">
             {children}
           </p>
         </a>

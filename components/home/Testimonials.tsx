@@ -5,53 +5,18 @@ import { TitleText } from "../ui/text/typingText";
 
 const Testimonials = () => {
   return (
-    <section className="container relative">
-      {/* Illustration behind content */}
-      <div
-        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 hidden -translate-x-1/2 transform lg:block"
-        aria-hidden="true"
-      >
-        <svg
-          width="1760"
-          height="518"
-          viewBox="0 0 1760 518"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              x1="50%"
-              y1="0%"
-              x2="50%"
-              y2="100%"
-              id="illustration-02"
-            >
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
-            </linearGradient>
-          </defs>
-          <g
-            transform="translate(0 -3)"
-            fill="url(#illustration-02)"
-            fillRule="evenodd"
-          >
-            <circle cx="1630" cy="128" r="128" />
-            <circle cx="178" cy="481" r="40" />
-          </g>
-        </svg>
-      </div>
-
+    <div>
       <motion.div
         variants={staggerContainer(0, 0)}
-        className="mx-auto px-4 sm:px-6"
+        className="px-4 mx-auto sm:px-6"
       >
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="mx-auto pb-12 md:pb-16">
+          <div className="pb-12 mx-auto md:pb-16">
             <TitleText title="A Message of Adventure and Connection" />
             <motion.p
               variants={fadeIn("up", "tween", 0.25, 1)}
-              className="regular-text mt-4"
+              className="mt-4 regular-text"
             >
               Step into the world of adventure and exploration with insights
               straight from the heart of our founder. Discover the driving
@@ -63,21 +28,21 @@ const Testimonials = () => {
 
           {/* Testimonials */}
           <motion.div variants={zoomIn(1, 0.5)} className="mx-auto mt-4">
-            <div className="relative flex items-start rounded bg-white">
+            <div className="relative flex items-start bg-white rounded">
               {/* Testimonial */}
-              <div className="mx-4 px-4 py-8 pt-20 md:mx-0 lg:px-12">
+              <div className="px-4 py-8 pt-20 mx-4 md:mx-0 lg:px-12">
                 <div className="absolute top-0 -mt-8 transform">
                   <svg
-                    className="absolute right-0 top-0 -mr-8 -mt-3 h-16 w-16 fill-current text-blue-600"
+                    className="absolute top-0 right-0 w-16 h-16 -mt-3 -mr-8 text-blue-600 fill-current"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                   </svg>
-                  <div className="h-24 w-24">
+                  <div className="w-24 h-24">
                     <Image
-                      className="relative rounded-full object-top"
+                      className="relative object-top rounded-full"
                       src="/images/ceo.jpg"
                       alt="Testimonial from Founder"
                       layout="fill"
@@ -85,7 +50,7 @@ const Testimonials = () => {
                     />
                   </div>
                 </div>
-                <blockquote className="regular-text mb-4">
+                <blockquote className="mb-4 regular-text">
                   “As the founder of our trekking company, I am thrilled to
                   share with you the essence of our journey. From the very core
                   of my passion for exploration and connection, each step we
@@ -97,10 +62,10 @@ const Testimonials = () => {
                   horizons and every moment is infused with the spirit of
                   adventure. “
                 </blockquote>
-                <cite className="emphasized-text mb-1 block font-bold not-italic">
+                <cite className="block mb-1 not-italic font-bold emphasized-text">
                   Founder Name
                 </cite>
-                <div className="regular-text text-gray-600">
+                <div className="text-gray-600 regular-text">
                   <span>CEO & Co-Founder</span>{" "}
                   <a className="text-blue-600 hover:underline" href="#0">
                     @Reach Founder
@@ -111,7 +76,7 @@ const Testimonials = () => {
           </motion.div>
         </div>
       </motion.div>
-    </section>
+    </div>
   );
 };
 

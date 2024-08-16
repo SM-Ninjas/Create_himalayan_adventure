@@ -26,30 +26,36 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
     <div className="mt-16">
       <div className="">
         <div className="my-6">
-          <h1 className="text-gray-800 subtitle-text mb-4">Highlight</h1>
+          <h1 className="mb-4 text-gray-800 subtitle-text">Highlight</h1>
           <Highlight highlightData={currentPlaceInfo?.highlights} />
           <AboutActivity aboutData={currentPlaceInfo?.about} />
         </div>
 
         <div className="mb-6">
-          <h1 className="text-gray-800 subtitle-text mb-4">Benefits</h1>
+          <h1 className="mb-4 text-gray-800 subtitle-text">Benefits</h1>
           <Benefits benefitData={currentPlaceInfo.facilities} />
         </div>
         <div className="mb-6">
-          <h1 className="text-gray-800 subtitle-text mb-4">Itinerary</h1>
+          <h1 className="mb-4 text-gray-800 subtitle-text">Itinerary</h1>
           <Itinerary itineraryData={currentPlaceInfo.itinerary} />
         </div>
         <div className="mb-6">
-          <h1 className="text-gray-800 subtitle-text mb-4">
+          <h1 className="mb-4 text-gray-800 subtitle-text">
             Road map of this journey
           </h1>
-          <PathImg
-            pathImg={currentPlaceInfo && currentPlaceInfo.path
-              ? currentPlaceInfo.path[0]
-              : undefined} mapCenter={{ lat: 27.712987623893596, lng: 85.32390120211947 }} zoom={10}          /> 
+          {
+            currentPlaceInfo && currentPlaceInfo.path ?
+            <PathImg
+              pathImg={currentPlaceInfo.path[0]} 
+              mapCenter={{ lat: 27.712987623893596, lng: 85.32390120211947 }}
+              zoom={10}          
+            /> 
+            :
+            <></> 
+          }
         </div>
         <div className="mb-6">
-          <h1 className="text-gray-800 subtitle-text mb-4">
+          <h1 className="mb-4 text-gray-800 subtitle-text">
             How to Prepare for{" "}
             <span className="capitalize">{currentPlaceName}</span>
           </h1>

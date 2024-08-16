@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const CarouselMobileResponsive = () => {
   return (
-    <div className="lg:hidden">
+    <div className="xl:hidden">
       <Swiper
         slidesPerView={1}
         slidesPerGroup={1}
@@ -22,7 +22,7 @@ const CarouselMobileResponsive = () => {
         navigation={true}
         pagination={{ clickable: true }}
         modules={[Navigation]}
-        className="mySwiper w-full"
+        className="w-full mySwiper"
       >
         {carouselData.map((item, index) => (
           <SwiperSlide key={index}>
@@ -34,7 +34,7 @@ const CarouselMobileResponsive = () => {
                 objectFit="cover"
                 className=""
               />
-              <div className="absolute z-50 flex h-full w-full items-end bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+              <div className="absolute z-50 flex items-end w-full h-full p-4 bg-gradient-to-b from-transparent to-gray-900/80">
                 <motion.div className="flex flex-col gap-2">
                   <div>
                     <motion.div
@@ -50,11 +50,11 @@ const CarouselMobileResponsive = () => {
                   </div>
                   <motion.h1
                     layoutId={item.title}
-                    className="title-text leading-6 text-gray-50"
+                    className="leading-6 title-text text-gray-50"
                   >
                     {item.title}
                   </motion.h1>
-                  <motion.p className="regular-text text-gray-200">
+                  <motion.p className="text-gray-200 regular-text">
                     {item.description}
                   </motion.p>
                   <Link
