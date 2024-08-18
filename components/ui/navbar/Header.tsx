@@ -29,8 +29,8 @@ function Header() {
 
   return (
     <nav
-      className={cn( 
-        "fixed top-0 z-50 hidden w-screen gap-2 bg-black px-5 py-4 font-medium text-white opacity-80 backdrop-blur-sm md:px-10 lg:flex",
+      className={cn(
+        " fixed top-0 z-50 hidden w-screen gap-2 bg-black px-5 py-4 font-medium text-white backdrop-blur-sm md:px-10 lg:flex",
         top && "border-b border-gray-800 bg-black backdrop-blur"
       )}
     >
@@ -46,29 +46,33 @@ function Header() {
           {/* <MobileNavigation /> */}
         </div>
       </ContentWrapper>
-      <ContentWrapper className="hidden flex-1 items-center justify-between py-0 md:flex">
-        <div className="flex items-center gap-x-16">
-          <Link href="/">
-            <div className="flex items-center gap-2 font-medium tracking-[4px]">
-              <Logo />
-              <div>
-                <p className="subtitle-text scale-90 leading-tight text-white">
-                  Create Himalaya
-                </p>
-                <p className="scale-90 subtitle-text leading-tight text-white">
-                  Adventure
-                </p>
-              </div>
+      <ContentWrapper className="hidden flex-1 py-0 md:flex">
+        <div className="flex items-center justify-between w-full">
+          {/* Left Logo Section */}
+          <Link href="/" className="flex items-center gap-2 font-medium tracking-[4px]">
+            <Logo />
+            <div>
+              <p className="subtitle-text scale-90 leading-tight text-white">
+                Create Himalaya
+              </p>
+              <p className="scale-90 subtitle-text leading-tight text-white">
+                Adventure
+              </p>
             </div>
           </Link>
-          <div className="-ml-4 mt-1">
+
+          {/* Center Menu Items */}
+          <div className="mt-1 flex-1 flex justify-center">
             <MenuItems />
           </div>
-        </div>
-        <div className="flex items-center gap-x-8">
-          <IoMdPerson className={`text-lg`} />
+
+          {/* Right Profile Icon */}
+          <div className="flex items-center gap-x-8">
+            <IoMdPerson className="text-lg" />
+          </div>
         </div>
       </ContentWrapper>
+
     </nav>
   );
 }

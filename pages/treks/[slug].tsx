@@ -18,6 +18,8 @@ function PlacesDetails() {
   const { slug } = router.query;
   console.log(slug)
   const { query } = useRouter();
+  const cleanedQuery = query;
+  console.log(cleanedQuery, "cleaned query is here after so long")
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
 
   const currentPlaceData = infoContent[index];
