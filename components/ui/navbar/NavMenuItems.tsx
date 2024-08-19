@@ -38,7 +38,7 @@ export function MenuItems() {
               <p className="subtitle-text text-gray-900 my-2">Trekking in Nepal</p>
               {trekRegions.map((region, index) => (
                 <li key={index} className="p-2">
-                  <Link href={`/treks/${region.slug}`}>
+                  <Link onClick={() => { setHoveredDestination(null) }} href={`/treks?category=${region.name.replace(/ /g, '_')}`}>
                     <span className="emphasized-text font-normal text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
                       {region.name}
                     </span>
@@ -58,7 +58,7 @@ export function MenuItems() {
               <p className="subtitle-text text-gray-900 my-2">Tours in Nepal</p>
               {tourRegions.map((region, index) => (
                 <li key={index} className="p-2">
-                  <Link href={`/tours/${region}`}>
+                  <Link onClick={() => { setHoveredDestination(null) }} href={`/tours?category=${region.name.replace(/ /g, '_')}`}>
                     <span className="emphasized-text font-normal text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
                       {region.name}
                     </span>
@@ -91,7 +91,7 @@ export function MenuItems() {
                     <ul className="absolute right-[378px] top-0 w-[400px] bg-white shadow-lg rounded-lg p-2">
                       {destination.option.map((categoryName, optionIndex) => (
                         <li key={optionIndex} className="">
-                          <Link href={`${destination.slug}/${categoryName}`} className="block">
+                          <Link onClick={() => { setHoveredDestination(null) }} href={`/${destination.slug}?category=${categoryName}`}>
                             <p className="text-gray-700 m-2 emphasized-text hover:text-blue-500 transition duration-300">
                               {formatCategoryName(categoryName)}
                             </p>
@@ -133,29 +133,6 @@ export function MenuItems() {
   );
 }
 
-export const trek_tours: {
-  [x: string]: any;
-  name: string;
-  options: { name: string; slug: string }[];
-}[] = [
-    {
-      name: "Tours and Treks Available",
-      options: [
-        {
-          name: "Treks in Nepal",
-          slug: "treks",
-        },
-        {
-          name: "Tours in Nepal",
-          slug: "tours",
-        },
-        {
-          name: "International Tours",
-          slug: "international_tours",
-        },
-      ],
-    },
-  ];
 
 const destinations = [
   {

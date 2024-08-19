@@ -1,7 +1,7 @@
 import { routes } from "@/lib/routes";
 
 export interface TrekAndTours {
-  slug: any;
+  // slug: any;
   name: string;
   options: { name: string; slug: string }[];
   route: string;

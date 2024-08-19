@@ -26,7 +26,7 @@ export default function Home() {
   };
 
   return (
-    <section className="flex flex-col gap-y-16">
+    <section className="flex flex-col min-w-full gap-y-16">
       <CarouselSection />
       <CarouselMobileResponsive />
       <SearchComponent />

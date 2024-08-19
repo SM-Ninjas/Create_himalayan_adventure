@@ -42,27 +42,26 @@ function Header() {
             <p className={` leading-tight`}>Adventure</p>
           </div>
         </div>
-        <div className="ml-auto flex items-center gap-8">
+        <div className="flex items-center gap-8 ml-auto">
           {/* <MobileNavigation /> */}
         </div>
       </ContentWrapper>
-      <ContentWrapper className="hidden flex-1 py-0 md:flex">
-        <div className="flex items-center justify-between w-full">
-          {/* Left Logo Section */}
-          <Link href="/" className="flex items-center gap-2 font-medium tracking-[4px]">
-            <Logo />
-            <div>
-              <p className="subtitle-text scale-90 leading-tight text-white">
-                Create Himalaya
-              </p>
-              <p className="scale-90 subtitle-text leading-tight text-white">
-                Adventure
-              </p>
+      <ContentWrapper className="items-center justify-between flex-1 hidden py-0 md:flex">
+        <div className="flex items-center gap-x-16">
+          <Link href="/">
+            <div className="flex items-center gap-2 font-medium tracking-[4px]">
+              <Logo />
+              <div>
+                <p className="leading-tight text-white scale-90 subtitle-text">
+                  Create Himalaya
+                </p>
+                <p className="leading-tight text-white scale-90 subtitle-text">
+                  Adventure
+                </p>
+              </div>
             </div>
           </Link>
-
-          {/* Center Menu Items */}
-          <div className="mt-1 flex-1 flex justify-center">
+          <div className="mt-1 -ml-4">
             <MenuItems />
           </div>
 
@@ -104,7 +103,7 @@ const ListItem = React.forwardRef<
           {...props}
         >
           <div className="font-medium leading-none">{title}</div>
-          <p className="text-muted-foreground line-clamp-2 leading-snug">
+          <p className="leading-snug text-muted-foreground line-clamp-2">
             {children}
           </p>
         </a>

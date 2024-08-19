@@ -23,7 +23,7 @@ function MobileNavbar() {
       className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl lg:hidden ${toggleNavBar && "h-screen"
         }`}
     >
-      <div className="flex h-full flex-col justify-start lg:hidden">
+      <div className="flex flex-col justify-start h-full lg:hidden">
         <div className="flex items-center justify-between p-2">
           <Link href="/">
             <Logo />
@@ -52,10 +52,10 @@ function MobileNavbar() {
           </div>
         </div>
         {toggleNavBar && (
-          <div className="flex h-full flex-col items-start justify-start">
-            <div className="mt-8 flex flex-1 flex-col items-center justify-start gap-4 text-gray-400">
+          <div className="flex flex-col items-start justify-start h-full">
+            <div className="flex flex-col items-center justify-start flex-1 gap-4 mt-8 text-gray-400">
               <Link
-                className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border"
+                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
                 href="/"
               >
@@ -63,7 +63,7 @@ function MobileNavbar() {
                 home
               </Link>
               <Link
-                className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border hover:border-black"
+                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border hover:border-black"
                 onClick={handleCloseToggleOnClick}
                 href="/Pokhara?index=4"
               >
@@ -71,7 +71,7 @@ function MobileNavbar() {
                 tour
               </Link>
               <Link
-                className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border "
+                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
                 href="/Gandaki?index=0"
               >
@@ -79,7 +79,7 @@ function MobileNavbar() {
                 trek
               </Link>
               <Link
-                className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border"
+                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
                 href="/blogs"
               >
@@ -87,7 +87,7 @@ function MobileNavbar() {
                 blog
               </Link>
               <Link
-                className="border-blac8 emphasized-text flex w-full items-center gap-8 p-2 capitalize hover:border"
+                className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
                 href="/login"
               >
@@ -103,7 +103,7 @@ function MobileNavbar() {
                     login
                     </Link> */}
               <Link
-                className="emphasized-text flex w-full items-center gap-8 border-black p-2 capitalize hover:border"
+                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
                 href="/contact"
               >

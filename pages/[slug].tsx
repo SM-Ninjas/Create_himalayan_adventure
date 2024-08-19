@@ -1,12 +1,13 @@
+"use client"
+
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { internationalRegions } from "@/mock-data/internationaltours";
 import { tourRegions, TrekAndTours } from "@/mock-data/tours";
 import { trekRegions } from "@/mock-data/treks";
 import infoContent, { TrekkingContent } from '@/components/ui/infoContent';
 import Link from 'next/link';
 import { IoLocationSharp } from "react-icons/io5";
-import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineDateRange } from "react-icons/md";
 import { People } from "iconsax-react"
 
@@ -17,7 +18,8 @@ interface CardProps {
 
 const Treks_Tours = () => {
   const router = useRouter();
-  const { slug } = router.query;
+  const { slug, category } = router.query;
+  console.log(category, "category selected.")
 
   const [activePlace, setActivePlace] = useState<string | null>(null);
 
@@ -33,35 +35,55 @@ const Treks_Tours = () => {
         return [];
     }
   };
+  const formatCategoryName = (name: string) => {
+    return name
+      .replace(/_/g, ' ')   // Replace underscores with spaces
+      .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitalize each word
+  };
 
   const activityData = getActivityData(slug);
+
+  useEffect(() => {
+
+    if (category) {
+      const formattedCategory = (category as string).replace(/_/g, ' ').toLowerCase();
+      const matchingRegion = activityData.find(region =>
+        region.name.toLowerCase() === formattedCategory
+      );
+
+      if (matchingRegion) {
+        setActivePlace(matchingRegion.name);
+      }
+    }
+  }, [category, activityData]);
+
 
   return (
     <div className=''>
       <div className="relative flex justify-center">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 to-blue-900/30 z-10"></div>
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-blue-900/70 to-blue-900/30"></div>
         <img src="/images/about1.jpg" className="h-[400px] w-full object-cover" alt="aboutImage" />
-        <div className='absolute inset-0 flex items-center justify-center z-20'>
-          <h1 className="title-text text-white text-center">
-            Browse <span className='capitalize'>{slug}</span>
+        <div className='absolute inset-0 z-20 flex items-center justify-center'>
+          <h1 className="text-center text-white title-text">
+            Browse <span className='capitalize'>{
+              slug ? formatCategoryName(slug as string) : ''
+            }
+            </span>
           </h1>
         </div>
       </div>
       <div className='container mt-10'>
         <div className="flex flex-wrap justify-center gap-4 my-6">
           <button
-            className={`px-4 py-2 rounded ${activePlace === null ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
-              }`}
+            className={`px-4 py-2 rounded ${activePlace === null ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'}`}
             onClick={() => setActivePlace(null)}
           >
             All Places
           </button>
           {activityData.map((region) => (
-            // category buttons 
             <button
               key={region.name}
-              className={`px-4  py-2 rounded ${activePlace === region.name ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
-                }`}
+              className={`px-4 py-2 rounded ${activePlace === region.name ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'}`}
               onClick={() => setActivePlace(region.name)}
             >
               {region.name}
@@ -71,11 +93,9 @@ const Treks_Tours = () => {
         {activityData.map((region) => (
           activePlace === null || activePlace === region.name ? (
             <div key={region.name} className=''>
-              {/* <h2 className='title-text mb-4 mt-6'>{region.name}</h2> */}
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-4 gap-4'>
+              <div className='grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3'>
                 {region.options.map((activity) => (
                   <ActivityCard
-                    // key={activity.slug}
                     card={activity as CardProps}
                     infoContent={infoContent}
                     activityType={slug as string}
@@ -106,12 +126,12 @@ const ActivityCard = ({
       <Link href={`/${activityType}/${card.slug}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
           {activityInfo.img && (
-            <img src={activityInfo.img} alt={card.name} className="w-full h-full object-cover" />
+            <img src={activityInfo.img} alt={card.name} className="object-cover w-full h-full" />
           )}
         </div>
-        <div className="absolute inset-x-0 bottom-0 z-10 bg-white p-8 bg-gradient-to-b from-transparent to-white/90">
-          <h3 className="text-lg font-bold uppercase text-gray-800">{card.name}</h3>
-          <div className="flex justify-between text-gray-700 mt-2">
+        <div className="absolute inset-x-0 bottom-0 z-10 p-8 bg-white bg-gradient-to-b from-transparent to-white/90">
+          <h3 className="text-lg font-bold text-gray-800 uppercase">{card.name}</h3>
+          <div className="flex justify-between mt-2 text-gray-700">
             <p className='flex items-center gap-2'><IoLocationSharp className="text-blue-500" /> {activityInfo.location}</p>
             <p className='flex items-center gap-2'><MdOutlineDateRange className="text-blue-500" /> {activityInfo.days}</p>
             <p className='flex items-center gap-2'><People size="24" color="#3B82F6" /> {activityInfo.people}</p>
