@@ -10,6 +10,7 @@ import SearchComponent from "@/components/home/SearchComponent";
 import Testimonials from "@/components/home/Testimonials";
 import TopChoices from "@/components/home/TopChoices";
 import TripAdvisorReview from "@/components/home/TripAdvisorReview";
+import PhotoGallery  from "@/components/PhotoGallery";
 import { Metadata } from "next";
 import React from "react";
 
@@ -35,8 +36,9 @@ export default function Home() {
       <About />
       <TopChoices />
       <Blogs blogsRef={scrollRef} />
-      {/* <OurTeam /> */}
+      <OurTeam />
       <Partners />
+      <PhotoGallery location="Bhutan" />
       <Testimonials />
       <TripAdvisorReview />
     </section>

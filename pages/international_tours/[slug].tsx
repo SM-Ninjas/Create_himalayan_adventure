@@ -21,61 +21,56 @@ function PlacesDetails() {
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
 
   const currentPlaceData = infoContent[index];
-  // const currentPlaceOverview = currentPlaceDat.overView;
-
   const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
+  console.log(currentPlaceData)
 
   return (
-    <div className="relative pt-24">
-      <div key={currentPlaceData?.id} className="mb-4">
-        <div className="container flex flex-col gap-y-2">
-          <h1 className="title-text">{currentPlaceData?.title}</h1>
-          <div className="flex gap-x-8">
-            <p className="small-text flex items-center gap-2 text-gray-600">
-              <FaClock size={18} /> {currentPlaceData?.days}{" "}
-            </p>
-            <p className="flex items-center gap-2 text-gray-600">
-              <MdGroups size={30} />
-              {currentPlaceData?.people}
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <Carousel images={subImg} />
-      <div className="flex gap-8 container mt-8">
-        <div className="w-full xl:w-8/12">
-          <div className="flex gap-16">
-            <div>
-              <OverView currentPlaceInfo={currentPlaceData} />
-              <PlaceInfo currentPlaceInfo={currentPlaceData} />
+    <>
+      <div className="relative pt-28">
+        <div key={currentPlaceData?.id} className="mb-4">
+          <div className="container flex flex-col gap-y-2">
+            <h1 className="title-text">{currentPlaceData?.title}</h1>
+            <div className="flex gap-x-8">
+              <p className="small-text flex items-center gap-2 text-gray-600">
+                <FaClock size={18} /> {currentPlaceData?.days}{" "}
+              </p>
+              <p className="flex items-center gap-2 text-gray-600">
+                <MdGroups size={30} />
+                {currentPlaceData?.people}
+              </p>
             </div>
           </div>
-          <div className="xl:hidden">
-            <InfoCard currentPlaceData={currentPlaceData} />
+        </div>
+        <div className="px-2">
+      <Carousel images={subImg} />
+        </div>
+
+        <div className="flex gap-8 container mt-8">
+          <div className="w-full xl:w-8/12">
+            <div className="flex gap-16">
+              <div>
+                <OverView currentPlaceInfo={currentPlaceData} />
+                <PlaceInfo currentPlaceInfo={currentPlaceData} />
+              </div>
+            </div>
+            <div className="xl:hidden">
+              <InfoCard currentPlaceData={currentPlaceData} />
+            </div>
+          </div>
+          <div className="hidden sm:hidden xl:block w-5/12">
+            <div className="sticky top-40">
+              <InfoCard currentPlaceData={currentPlaceData} />
+            </div>
           </div>
         </div>
-        <div className="hidden sm:hidden xl:block w-5/12">
-          <div className="sticky top-40">
-            <InfoCard currentPlaceData={currentPlaceData} />
-          </div>
+        <div className="container">
+          <Gallery />
+          <Equipment currentEquipmentData={equipment} />
+
         </div>
       </div>
-      <div className="container">
-        <Gallery />
-        <Equipment currentEquipmentData={equipment} />
-        <div>
-          <h1 className="mt-6 text-lg font-semibold">
-            What our clients have to say about this trip
-          </h1>
-          <div className="grid grid-cols-1 gap-10 sm:gap-4 lg:grid-cols-2">
-            <CustomTestimonials name="Michelle Copper" />
-            <CustomTestimonials name="Jason Brown" />
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 }
 

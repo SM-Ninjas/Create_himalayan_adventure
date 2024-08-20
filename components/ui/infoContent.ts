@@ -12145,7 +12145,6 @@ const infoContent: { [key: string]: TrekkingContent } = {
     slug: "upper-mustang-trek",
     category: "Trekking",
     activityType: "treks",
-
     img: "/images/Upper-Mustang-Ghiling-Valley-View.jpg",
     description: "The Upper Mustang Trek offers an incredible journey through the legendary kingdom of Mustang, showcasing its unique culture, landscapes, and spiritual sites.",
     title: "Upper Mustang Trek - 17 Days",

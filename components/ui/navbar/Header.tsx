@@ -28,20 +28,25 @@ function Header() {
   }, [top, location]);
 
   return (
-    <nav className="fixed top-0 z-50 w-screen font-medium text-white backdrop-blur-sm transition-all duration-300">
+    <nav
+      className={cn(
+        "fixed top-0 z-50 w-screen bg-black px-5 py-1 font-medium text-white backdrop-blur-sm md:px-10 lg:flex",
+        top && "border-b border-gray-800 bg-black backdrop-blur"
+      )}
+    >
       {/* Mobile Navbar - Visible below xl size */}
-      <ContentWrapper className="flex items-center justify-between xl:hidden">
+      <ContentWrapper className="flex items-center justify-between xl:hidden border border-red-800">
         <MobileNavbar />
       </ContentWrapper>
 
       {/* Desktop Navbar - Visible at xl size and above */}
       <ContentWrapper
         className={cn(
-          "hidden items-center justify-between xl:flex",
-          top ? " bg-transparent" : "bg-black opacity-90"
+          "hidden items-center justify-between xl:flex w-full px-4",
+          top ? "bg-transparent" : "bg-black opacity-90"
         )}
       >
-        <Link href="/">
+        <Link href="/" className="">
           <div className="flex items-center gap-2 font-medium tracking-[4px]">
             <Logo />
             <div>
@@ -54,7 +59,7 @@ function Header() {
             </div>
           </div>
         </Link>
-        <div className="flex items-center gap-x-16">
+        <div className="flex items-center justify-around flex-grow gap-x-16">
           <MenuItems />
           <IoMdPerson className="text-lg" />
         </div>

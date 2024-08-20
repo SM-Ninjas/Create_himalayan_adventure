@@ -45,7 +45,7 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
           </h1>
             {/* currentPlaceInfo && currentPlaceInfo.path ? */}
             <PathImg
-              pathImg={currentPlaceInfo?.path?.[0]}          
+              pathImg={currentPlaceInfo?.path?.[0]}         
             /> 
         </div>
         <div className="mb-6">
