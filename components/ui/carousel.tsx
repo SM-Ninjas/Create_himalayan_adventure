@@ -10,7 +10,7 @@ interface CarouselProps {
 function Carousel({ images }: CarouselProps) {
   return (
     <div className="">
-      <div className="hidden px-4 lg:block">
+      <div className="hidden lg:block">
         <Swiper
           slidesPerView={3}
           slidesPerGroup={3}

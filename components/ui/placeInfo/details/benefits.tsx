@@ -9,7 +9,7 @@ type BenefitProps = {
 function Benefits({ benefitData }: BenefitProps) {
   return (
     <div>
-      <div className="">
+      <div className=" container">
         {benefitData?.map((data, i) => (
           <div key={i} className="flex mb-2 gap-6 ">
             <div>

@@ -28,9 +28,9 @@ export function MenuItems() {
 
   return (
     <nav className="mx-auto">
-      <ul className="h-full flex justify-center items-center gap-10 space-x-12">
+      <ul className="h-full flex justify-center items-center gap-10 sm:gap-2 space-x-12">
         <li className="group relative flex items-center h-full">
-          <button className="emphasized-text h-full flex items-center">
+          <button className="regular-text h-full flex items-center">
             Trekking
           </button>
           <div className="absolute top-full left-0 hidden group-hover:block">
@@ -50,7 +50,7 @@ export function MenuItems() {
         </li>
 
         <li className="group relative flex items-center h-full">
-          <button className="emphasized-text h-full flex items-center">
+          <button className="regular-text h-full flex items-center">
             Tours
           </button>
           <div className="absolute top-full left-0 hidden group-hover:block">
@@ -71,7 +71,7 @@ export function MenuItems() {
 
 
         <li className="group relative flex items-center h-full">
-          <button className="emphasized-text h-full flex items-center">
+          <button className="regular-text h-full flex items-center">
             Destination
           </button>
           <div className="absolute top-full left-0 hidden group-hover:block">
@@ -108,23 +108,23 @@ export function MenuItems() {
 
 
         <li className="flex items-center h-full">
-          <Link href="/about" className="regular-text h-full emphasized-text flex items-center">
-            About us
+          <Link href="/about" className="regular-text h-full regular-text flex items-center">
+            About
           </Link>
         </li>
 
         <li className="flex items-center h-full">
-          <Link href="/blogs" className="regular-text h-full emphasized-text flex items-center">
+          <Link href="/blogs" className="regular-text h-full regular-text flex items-center">
             Blogs
           </Link>
         </li>
         <li className="flex items-center h-full">
-          <Link href="/contact" className="regular-text h-full emphasized-text flex items-center">
+          <Link href="/contact" className="regular-text h-full regular-text flex items-center">
             Contact
           </Link>
         </li>
         <li className="flex items-center h-full">
-          <Link href="/forum" className="regular-text h-full emphasized-text flex items-center">
+          <Link href="/forum" className="regular-text h-full regular-text flex items-center">
             Forum
           </Link>
         </li>

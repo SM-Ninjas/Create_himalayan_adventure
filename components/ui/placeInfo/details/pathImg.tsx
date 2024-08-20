@@ -1,33 +1,13 @@
 import React from "react";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
-interface PathImageTypes {
+interface pathImageTypes {
   pathImg?: string | undefined;
-  mapCenter: google.maps.LatLngLiteral; 
-  zoom: number; 
 }
-
-function PathImg({ pathImg, mapCenter, zoom }: PathImageTypes) {
-  // Define the container style for the map
-  const containerStyle = {
-    width: '800px',
-    height: '400px'
-  };
-
+function PathImg(pathImg: pathImageTypes) {
   return (
-    <div>
-      <div className="mt-4">
-        <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY || ''}>
-          <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={mapCenter}
-            zoom={zoom}
-          >
-          </GoogleMap>
-        </LoadScript>
-      </div>
+    <div className="mt-4">
+      <img src={pathImg?.pathImg} height={400} width={800} alt="Image not avaliable" className="border" />
     </div>
   );
 }
-
 export default PathImg;

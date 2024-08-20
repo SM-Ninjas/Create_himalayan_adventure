@@ -7,9 +7,9 @@ import { IoMdPerson } from "react-icons/io";
 import Logo from "../Logo";
 import { ContentWrapper } from "./ContentWrapper";
 import { MenuItems } from "./NavMenuItems";
+import MobileNavbar from "./MobileNavbar";
 
 function Header() {
-  // const [active, setActive] = React.useState(0);
   const [top, setTop] = useState<boolean>(true);
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
 
@@ -25,53 +25,40 @@ function Header() {
     scrollHandler();
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
-  }, [top, location, scrollHandler]);
+  }, [top, location]);
 
   return (
-    <nav
-      className={cn(
-        " fixed top-0 z-50 hidden w-screen gap-2 bg-black px-5 py-4 font-medium text-white backdrop-blur-sm md:px-10 lg:flex",
-        top && "border-b border-gray-800 bg-black backdrop-blur"
-      )}
-    >
-      <ContentWrapper className="flex items-center justify-between gap-4 md:hidden">
-        <div className="flex items-center gap-2 text-lg font-medium ">
-          <Logo />
-          <div>
-            <p className={` leading-tight`}>Create Himalayan</p>
-            <p className={` leading-tight`}>Adventure</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-8 ml-auto">
-          {/* <MobileNavigation /> */}
-        </div>
+    <nav className="fixed top-0 z-50 w-screen font-medium text-white backdrop-blur-sm transition-all duration-300">
+      {/* Mobile Navbar - Visible below xl size */}
+      <ContentWrapper className="flex items-center justify-between xl:hidden">
+        <MobileNavbar />
       </ContentWrapper>
-      <ContentWrapper className="items-center justify-between flex-1 hidden py-0 md:flex">
-        <div className="flex items-center gap-x-16">
-          <Link href="/">
-            <div className="flex items-center gap-2 font-medium tracking-[4px]">
-              <Logo />
-              <div>
-                <p className="leading-tight text-white scale-90 subtitle-text">
-                  Create Himalaya
-                </p>
-                <p className="leading-tight text-white scale-90 subtitle-text">
-                  Adventure
-                </p>
-              </div>
+
+      {/* Desktop Navbar - Visible at xl size and above */}
+      <ContentWrapper
+        className={cn(
+          "hidden items-center justify-between xl:flex",
+          top ? " bg-transparent" : "bg-black opacity-90"
+        )}
+      >
+        <Link href="/">
+          <div className="flex items-center gap-2 font-medium tracking-[4px]">
+            <Logo />
+            <div>
+              <p className="leading-tight text-white scale-90 subtitle-text">
+                Create Himalaya
+              </p>
+              <p className="leading-tight text-white scale-90 subtitle-text">
+                Adventure
+              </p>
             </div>
-          </Link>
-          <div className="mt-1 -ml-4">
-            <MenuItems />
           </div>
-
-          {/* Right Profile Icon */}
-          <div className="flex items-center gap-x-8">
-            <IoMdPerson className="text-lg" />
-          </div>
+        </Link>
+        <div className="flex items-center gap-x-16">
+          <MenuItems />
+          <IoMdPerson className="text-lg" />
         </div>
       </ContentWrapper>
-
     </nav>
   );
 }
@@ -80,7 +67,7 @@ export default Header;
 
 const menus = [
   "Home",
-  "Holdidays",
+  "Holidays",
   "Destinations",
   "Flights",
   "Offers",

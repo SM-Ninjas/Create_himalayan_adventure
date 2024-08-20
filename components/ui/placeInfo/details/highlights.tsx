@@ -8,7 +8,7 @@ type highlightType = {
 function Highlight({ highlightData }: highlightType) {
   return (
     <div>
-      <div className="">
+      <div className="container">
         {highlightData?.map((data, i) => (
           <div key={i} className="flex mb-2 gap-6">
             <div>

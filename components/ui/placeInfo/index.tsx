@@ -23,7 +23,7 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
   }
 
   return (
-    <div className="mt-16">
+    <div className="">
       <div className="">
         <div className="my-6">
           <h1 className="mb-4 text-gray-800 subtitle-text">Highlight</h1>
@@ -43,16 +43,10 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
           <h1 className="mb-4 text-gray-800 subtitle-text">
             Road map of this journey
           </h1>
-          {
-            currentPlaceInfo && currentPlaceInfo.path ?
+            {/* currentPlaceInfo && currentPlaceInfo.path ? */}
             <PathImg
-              pathImg={currentPlaceInfo.path[0]} 
-              mapCenter={{ lat: 27.712987623893596, lng: 85.32390120211947 }}
-              zoom={10}          
+              pathImg={currentPlaceInfo?.path?.[0]}          
             /> 
-            :
-            <></> 
-          }
         </div>
         <div className="mb-6">
           <h1 className="mb-4 text-gray-800 subtitle-text">

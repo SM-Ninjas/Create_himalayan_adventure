@@ -15,7 +15,7 @@ function Itinerary(itineraryData: itineraryTypes) {
   return (
     <div className="">
       {itineraryData.itineraryData?.map((data, i) => (
-        <div className="mb-2" key={i}>
+        <div className="mb-2 container" key={i}>
           <div
             className="flex regular-text cursor-pointer items-center small-text text-gray-900 font-medium "
             onClick={() => {

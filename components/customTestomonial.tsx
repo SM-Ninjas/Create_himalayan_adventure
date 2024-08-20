@@ -11,7 +11,7 @@ function CustomTestimonials({ name, title, message }: TestimonialProps) {
   return (
     <section className="">
       <div
-        className="pointer-events-none absolute bottom-0 left-1/2 -mb-32 hidden -translate-x-1/2 transform lg:block"
+        className="pointer-events-none absolute bottom-0 left-1/2 hidden -translate-x-1/2 transform lg:block"
         aria-hidden="true"
       >
         <svg

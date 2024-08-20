@@ -59,7 +59,7 @@ const Treks_Tours = () => {
 
 
   return (
-    <div className=''>
+    <div className='border border-black'>
       <div className="relative flex justify-center">
         <div className="absolute inset-0 z-10 bg-gradient-to-b from-blue-900/70 to-blue-900/30"></div>
         <img src="/images/about1.jpg" className="h-[400px] w-full object-cover" alt="aboutImage" />

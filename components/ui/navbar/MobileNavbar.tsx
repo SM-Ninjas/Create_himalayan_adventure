@@ -20,10 +20,10 @@ function MobileNavbar() {
   }
   return (
     <div
-      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl lg:hidden ${toggleNavBar && "h-screen"
+      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl xl:hidden ${toggleNavBar && "h-screen"
         }`}
     >
-      <div className="flex flex-col justify-start h-full lg:hidden">
+      <div className="flex flex-col justify-start h-full xl:hidden">
         <div className="flex items-center justify-between p-2">
           <Link href="/">
             <Logo />
@@ -65,7 +65,7 @@ function MobileNavbar() {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border hover:border-black"
                 onClick={handleCloseToggleOnClick}
-                href="/Pokhara?index=4"
+                href="/tours"
               >
                 <MdTour className="text-xl text-gray-200" />
                 tour
@@ -73,7 +73,7 @@ function MobileNavbar() {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
-                href="/Gandaki?index=0"
+                href="/treks"
               >
                 <TbTrekking className="text-xl text-gray-200" />
                 trek
@@ -89,11 +89,10 @@ function MobileNavbar() {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
-                href="/login"
+                href="/forum"
               >
                 <CgProfile className="text-xl text-gray-200" />
-                Profile
-              </Link>
+                Forum</Link>
               {/* <Link
                     className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
                     onClick={handleCloseToggleOnClick}
@@ -112,14 +111,14 @@ function MobileNavbar() {
               </Link>
             </div>
 
-            <div className="w-full px-4 py-2">
+            {/* <div className="w-full px-4 py-2">
               <Link href="/login">
                 <Buttons
                   text="Login"
                   customColor="bg-blue-500 text-gray-50 w-full"
                 ></Buttons>
               </Link>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
