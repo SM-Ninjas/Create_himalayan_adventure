@@ -15,8 +15,8 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
 
   const photos = galleryData.filter(item => item.type === 'treks' || "tours" || "international_tours").map((item, index) => ({
     src: item.img,
-    width: index % 2 === 0 ? 8 : 4,
-    height: index % 3 === 0 ? 3 : 4,
+    width: index % 2 === 0 ? 6 : 3, // Reduced width
+    height: index % 3 === 0 ? 2 : 3, // Reduced height
     alt: item.title,
     title: item.title,
     type: item.type,
@@ -34,18 +34,18 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
   }
 
   return (
-    <div className="container mx-auto p-4 mt-8">
+    <div className="container mx-auto p-2 mt-4">
       <h2 className="title-text font-bold mb-6">International Tour Gallery</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6"> 
         {photos.map((photo, index) => (
           <motion.div
             key={index}
-            className={`relative overflow-hidden rounded-lg shadow-lg cursor-pointer ${photo.isLarge ? 'col-span-2 row-span-2' : ''}`}
+            className={`relative overflow-hidden  shadow-lg cursor-pointer ${photo.isLarge ? 'col-span-2 row-span-2' : ''}`}
             whileHover={{ scale: 1.05, rotate: photo.isLarge ? 2 : -2 }}
             transition={{ duration: 0.3 }}
             onClick={() => openLightbox(index)}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
             <img
               src={photo.src}

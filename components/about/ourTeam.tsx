@@ -42,7 +42,7 @@ function OurTeam() {
   return (
     <div className="container mx-auto p-4" data-aos="fade-up">
       <div className="mt-6">
-        <div className="bg-utils flex justify-center h-[304px] pt-[103px]">
+        <div className="bg-utils flex justify-center h-[160px]">
           <h1 className="text-[2rem] font-bold text-black mbl:text-[18px]">
             Meet The Team
           </h1>
@@ -74,7 +74,7 @@ function OurTeam() {
                     <img
                       src={teamMember.MemberImg}
                       alt={teamMember.member_name}
-                      className="rounded-[8px] w-full h-[400px] object-cover mbl:h-[200px] mbl:w-full"
+                      className="rounded-[8px] w-full h-[320px] object-cover mbl:h-[200px]"
                     />
                     <h1 className="text-utils subtitle-text mt-2 opacity-[0.6] mbl:text-[16px]">
                       {teamMember.member_name}
