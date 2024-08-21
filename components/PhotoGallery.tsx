@@ -34,8 +34,8 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
   }
 
   return (
-    <div className="container mx-auto p-4">
-      <h2 className="title-text font-bold mb-4">{location} Trek Gallery</h2>
+    <div className="container mx-auto p-4 mt-8">
+      <h2 className="title-text font-bold mb-6">International Tour Gallery</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {photos.map((photo, index) => (
           <motion.div
@@ -45,7 +45,7 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
             transition={{ duration: 0.3 }}
             onClick={() => openLightbox(index)}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-10"></div>
 
             <img
               src={photo.src}
@@ -54,7 +54,7 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
             />
             <div className="absolute bottom-0 left-0 bg-gradient-to-t from-black via-transparent to-transparent text-white p-4 z-10">
               <h3 className="subtitle-text font-bold">{photo.title}</h3>
-              <p className='capitalize emphasized-text'>{photo.type}</p>
+              <p className='capitalize emphasized-text bg-gray-300 text-black px-1 w-fit'>{photo.type}</p>
               <Link href={photo.slug}>
                 <p className="mt-2 inline-block bg-blue-500 text-white font-semibold py-1 px-3 rounded hover:bg-gray-300 hover:text-black transition">View Details</p>
               </Link>

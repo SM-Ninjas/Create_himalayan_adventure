@@ -1,5 +1,6 @@
 import About from "@/components/about/AboutUs";
 import OurTeam from "@/components/about/ourTeam";
+import Destinations from "@/components/DestinationCard";
 import BestSellers from "@/components/home/BestSellers";
 import Blogs from "@/components/home/BlogsComponentHome";
 import CarouselMobileResponsive from "@/components/home/CarouselMobileResponsve";
@@ -10,7 +11,7 @@ import SearchComponent from "@/components/home/SearchComponent";
 import Testimonials from "@/components/home/Testimonials";
 import TopChoices from "@/components/home/TopChoices";
 import TripAdvisorReview from "@/components/home/TripAdvisorReview";
-import PhotoGallery  from "@/components/PhotoGallery";
+import PhotoGallery from "@/components/PhotoGallery";
 import { Metadata } from "next";
 import React from "react";
 
@@ -31,16 +32,17 @@ export default function Home() {
       <CarouselSection />
       <CarouselMobileResponsive />
       <SearchComponent />
+      <Destinations />
       <BestSellers />
       <HowTo />
       <About />
+      <TripAdvisorReview />
       <TopChoices />
       <Blogs blogsRef={scrollRef} />
       <OurTeam />
-      <Partners />
       <PhotoGallery location="Bhutan" />
+      <Partners />
       <Testimonials />
-      <TripAdvisorReview />
     </section>
   );
 }
