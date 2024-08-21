@@ -30,7 +30,7 @@ function Header() {
   return (
     <nav
       className={cn(
-        "fixed top-0 z-50 w-screen bg-black px-5 py-1 font-medium text-white backdrop-blur-sm md:px-10 lg:flex",
+        "fixed top-0 z-50 w-screen bg-black px-5 font-medium text-white backdrop-blur-sm md:px-10 lg:flex",
         top && "border-b border-gray-800 bg-black backdrop-blur"
       )}
     >
