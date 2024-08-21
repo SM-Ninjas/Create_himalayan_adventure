@@ -8,7 +8,7 @@ const Testimonials = () => {
     <div>
       <motion.div
         variants={staggerContainer(0, 0)}
-        className="px-4 mx-auto sm:px-6"
+        className="px-4 mx-auto sm:px-6 container"
       >
         <div className="py-12 md:py-20">
           {/* Section header */}

@@ -5,7 +5,6 @@ import * as React from "react";
 import Link from "next/link";
 import { trekRegions } from "@/mock-data/treks";
 import { tourRegions } from "@/mock-data/tours";
-// import { internationalRegions } from "@/mock-data/internationaltours";
 
 export function MenuItems() {
 
@@ -28,7 +27,7 @@ export function MenuItems() {
 
   return (
     <nav className="mx-auto">
-      <ul className="h-full flex justify-center items-center gap-10 sm:gap-2 space-x-12">
+      <ul className="h-full flex justify-center items-center gap-10 sm:gap-8 space-x-12">
         <li className="group relative flex items-center h-full">
           <button className="regular-text h-full flex items-center">
             Trekking
@@ -80,13 +79,16 @@ export function MenuItems() {
               {destinations.map((destination, destinationIndex) => (
                 <li
                   key={destinationIndex}
-                  className="relative"
+                  className="relative "
                   onMouseEnter={() => handleMouseEnter(destinationIndex)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <p className="emphasized-text font-normal text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm transition duration-300 p-2">
-                    {destination.name}
-                  </p>
+                  <Link href={`/${destination.slug}`}>
+                    <p className="emphasized-text font-normal w-[100%] text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm transition duration-300 p-2">
+                      {destination.name}
+
+                    </p>
+                  </Link>
                   {hoveredDestination === destinationIndex && (
                     <ul className="absolute right-[378px] top-0 w-[400px] bg-white shadow-lg rounded-lg p-2">
                       {destination.option.map((categoryName, optionIndex) => (
@@ -123,11 +125,11 @@ export function MenuItems() {
             Contact
           </Link>
         </li>
-        <li className="flex items-center h-full">
+        {/* <li className="flex items-center h-full">
           <Link href="/forum" className="regular-text h-full regular-text flex items-center">
             Forum
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

@@ -4,15 +4,18 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "@/lib/motion";
 import { TitleText } from "../ui/text/typingText";
+import { useRouter } from "next/router";
 
 interface CardProps {
   url: string;
   title: string;
   id: number;
-  slug: string; 
+  slug: string;
 }
 
 const TopChoices = () => {
+  const router = useRouter();
+
   return (
     <section className="relative mx-0 lg:px-0">
       <motion.article
@@ -44,6 +47,18 @@ const TopChoices = () => {
             {exploreMoreItems.map((item) => (
               <Card card={item} key={item.id} />
             ))}
+
+            <div
+              key="explore-more"
+              onClick={() => router.push("/treks")}
+              // className="my-auto mx-auto h-16 w-40  rounded-lg bg-blue-600 text-white font-bold text-xl border "
+              className="rounded-lg w-full h-full flex justify-center items-center bg-gray-200   text-blue-600 font-bold"
+            
+            >
+              <button className="px-6 py-3 emphasized-text text-gray-800 rounded-lg hover:bg-blue-500 hover:text-white">
+                Explore More
+              </button>
+            </div>
           </div>
         </div>
       </motion.article>
@@ -53,7 +68,7 @@ const TopChoices = () => {
 
 const Card = ({ card }: { card: CardProps }) => {
   return (
-    <div className="group relative h-[300px] overflow-hidden rounded-lg bg-gray-200">
+    <div className="group relative h-[300px] overflow-hidden rounded-lg bg-gray-200 ">
       <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
         <Image
           src={card.url}
@@ -63,7 +78,10 @@ const Card = ({ card }: { card: CardProps }) => {
           objectPosition="center"
         />
       </div>
-      <a href={`/${card.slug}`} className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+      <a
+        href={`/${card.slug}`}
+        className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4"
+      >
         <p className="text-xl font-black uppercase text-white">{card.title}</p>
       </a>
     </div>
@@ -79,7 +97,6 @@ export const exploreMoreItems = [
     title: "Gosaikunda Trek",
     slug: "treks/Gosaikunda_Lake_Trek",
   },
-  
   {
     id: 3,
     url: "/locations/muktinath.jpeg",
@@ -89,7 +106,7 @@ export const exploreMoreItems = [
   {
     id: 4,
     url: "/locations/pokhara.jpeg",
-    title: "Pokhara Aventure",
+    title: "Pokhara Adventure",
     slug: "treks/pokhara_adventure",
   },
   {
@@ -121,5 +138,5 @@ export const exploreMoreItems = [
     url: "/locations/chitwan.jpeg",
     title: "Chitwan Sightseeing",
     slug: "treks/chitwan_national_park_tour",
-  },
+  }
 ];
