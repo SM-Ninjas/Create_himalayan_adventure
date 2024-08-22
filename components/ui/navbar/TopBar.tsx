@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Logo from "../Logo";
 import { IoMdMail, IoMdCall } from "react-icons/io";
+import { QuoteDown, QuoteUp } from "iconsax-react";
 
 function TopBar() {
   return (
@@ -15,9 +16,15 @@ function TopBar() {
 
       {/* Slogan in the center with typing animation */}
       <div className="flex-grow flex justify-center">
-        <p className="ml-32 leading-tight text-center text-white tracking-wider emphasied-text typing-animation">
-          Trekking for All Season....
+        <QuoteUp size={18} />
+        <p className=" border border-black leading-tight text-center text-[#FFD700] tracking-wider emphasied-text typing-animation flex items-center">
+          <div>
+          </div>
+          <p>
+            Trekking for All Season - Create Vacation, Create Memories
+          </p>
         </p>
+          <QuoteDown size={18} />
       </div>
 
       {/* Placeholder for right side (could be social links, etc.) */}

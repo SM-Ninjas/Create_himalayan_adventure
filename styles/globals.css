@@ -102,7 +102,7 @@ article {
   overflow: hidden;
   white-space: nowrap;
   border-right: 4px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
-  animation: typing 1.4s steps(23, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2s steps(23, end), blink-caret 0.75s step-end infinite;
   letter-spacing: 0.1em; /* Increase letter spacing */
 }
 
