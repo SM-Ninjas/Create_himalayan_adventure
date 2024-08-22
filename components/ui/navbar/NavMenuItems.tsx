@@ -26,8 +26,8 @@ export function MenuItems() {
 
 
   return (
-    <nav className="mx-auto">
-      <ul className="h-full flex justify-center items-center gap-10 sm:gap-8 space-x-12">
+    <nav className="mx-auto ">
+      <ul className="h-full flex justify-center items-center gap-10 sm:gap-4 space-x-12">
         <li className="group relative flex items-center h-full">
           <button className="regular-text h-full flex items-center">
             Trekking

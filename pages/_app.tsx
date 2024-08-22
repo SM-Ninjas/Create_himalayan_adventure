@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
         ${inter.className}
           relative mx-0 min-h-screen max-w-screen bg-gray-50 px-0`}
       >
-         <Header />
+        <Header />
         <Component {...pageProps} />
         <ToTop />
         <ContactLinks />
