@@ -51,7 +51,7 @@ function Header() {
         <ContentWrapper
           className={cn(
             "hidden items-center justify-between md:hidden lg:flex w-full px-4",
-            top ? "bg-transparent" : "opacity-90"
+            top ? "bg-transparent" : ""
           )}
         >
           <div className="flex items-center justify-around flex-grow gap-x-16">

@@ -14,25 +14,29 @@ article {
   padding: 0;
 }
 .container {
-  /* @apply w-full px-4 mx-auto xl:p-0; */
-
   @apply w-full mx-auto xl:w-11/12 xl:p-0;
 }
+
 .small-text {
-  @apply text-xs lg:text-sm;
+  @apply text-xs sm:text-xs md:text-sm lg:text-base;
 }
+
 .regular-text {
-  @apply text-sm lg:text-base;
+  @apply text-sm sm:text-sm md:text-base lg:text-lg;
 }
+
 .title-text {
-  @apply text-[27px] font-black lg:text-[36px];
+  @apply text-[24px] sm:text-[20px] md:text-[27px] lg:text-[36px] font-black;
 }
+
 .subtitle-text {
-  @apply text-[18px] font-bold lg:text-[24px];
+  @apply text-[16px] sm:text-[14px] md:text-[18px] lg:text-[24px] font-bold;
 }
+
 .emphasized-text {
-  @apply text-base lg:text-lg;
+  @apply text-sm sm:text-xs md:text-base lg:text-lg;
 }
+
 .zoom-in-transition {
   @apply transition-transform duration-500 ease-in-out;
 }
@@ -96,7 +100,6 @@ article {
   scrollbar-color: transparent transparent;
 }
 
-
 .typing-animation {
   display: inline-block;
   overflow: hidden;
@@ -108,12 +111,21 @@ article {
 
 /* Animation for typing */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 23ch; } /* Adjust width to match the character count of your text */
+  from {
+    width: 0;
+  }
+  to {
+    width: 23ch;
+  } /* Adjust width to match the character count of your text */
 }
 
 /* Animation for blinking cursor */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgba(255, 255, 255, 0.75); }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.75);
+  }
 }
