@@ -1,5 +1,4 @@
 export type TrekkingContent = {
-  inclusions: boolean;
   id?: number;
   slug?: string;
   activityType?: String;
@@ -19,6 +18,7 @@ export type TrekkingContent = {
   subimages?: subimages;
   HowToPrepare?: HowToPrepare;
   path?: string[];
+  inclusions: boolean;
 };
 export type subimages = string[];
 

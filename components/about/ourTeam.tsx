@@ -6,34 +6,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const teamData = [
   {
     id: 1,
-    member_name: "John Doe",
-    Mem_position: "CEO",
-    MemberImg: "/images/ppl1.webp"
+    member_name: "Ram Chandra Lamichhane",
+    Mem_position: "Director",
+    MemberImg: "/images/team/ram_chandra_lamichhane.jpg"
   },
   {
     id: 2,
     member_name: "Jane Smith",
-    Mem_position: "CTO",
-    MemberImg: "/images/ppl2.png"
+    Mem_position: "Accountant",
+    MemberImg: "/images/team/accountant.jpg"
   },
   {
     id: 3,
-    member_name: "Bob Johnson",
-    Mem_position: "Lead Developer",
-    MemberImg: "/images/ppl3.jpg"
+    member_name: "Mari engh",
+    Mem_position: "Foreign Consultant",
+    MemberImg: "/images/team/mary.jpg"
   },
   {
     id: 4,
-    member_name: "Alice Williams",
-    Mem_position: "Project Manager",
-    MemberImg: "/images/ppl2.png"
+    member_name: "Nawaraj Bhatta",
+    Mem_position: "Advisor",
+    MemberImg: "/images/team/advisor.jpg"
   },
-  {
-    id: 5,
-    member_name: "Michael Brown",
-    Mem_position: "UX Designer",
-    MemberImg: "/images/ppl3.jpg"
-  },
+  
 ];
 
 function OurTeam() {
@@ -74,7 +69,7 @@ function OurTeam() {
                     <img
                       src={teamMember.MemberImg}
                       alt={teamMember.member_name}
-                      className="rounded-[8px] w-full h-[320px] object-cover mbl:h-[200px]"
+                      className="rounded-[8px] w-[450px] h-[380px] object-cover mbl:h-[200px]"
                     />
                     <h1 className="text-utils subtitle-text mt-2 opacity-[0.6] mbl:text-[16px]">
                       {teamMember.member_name}

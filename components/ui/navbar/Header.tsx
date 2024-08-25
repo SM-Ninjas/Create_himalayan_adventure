@@ -57,14 +57,10 @@ function Header() {
           <div className="flex items-center justify-around flex-grow gap-x-16">
             {!showTopBar &&
               <Link href="/">
-                <div>
-
                 <Logo />
-                </div>
               </Link>
             }
             <MenuItems />
-
           </div>
         </ContentWrapper>
       </nav>
