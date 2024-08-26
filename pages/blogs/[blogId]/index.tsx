@@ -37,14 +37,14 @@ function Blogs() {
 
         const date = new Date(dateString);
         const year = date.getUTCFullYear();
-        const month = String(date.getUTCMonth() + 1).padStart(2, '0'); // Months are 0-based
+        const month = String(date.getUTCMonth() + 1).padStart(2, '0');
         const day = String(date.getUTCDate()).padStart(2, '0');
         const formattedDate = `${year}-${month}-${day}`;
         return formattedDate;
     }
 
     return (
-        <div className='container mt-28'>
+        <div className='container mt-32'>
             <h1 className='subtitle-text font-bold text-center'>
                 {currentBlogData?.title}
             </h1>
@@ -54,7 +54,7 @@ function Blogs() {
             <img
                 src={currentBlogData?.coverImage}
                 alt='blog image'
-                className='w-full h-[600px]'
+                className='w-full h-[600px] object-cover'
             />
             <p className='text-gray-600 regular-text mt-6'>
                 {currentBlogData?.content}

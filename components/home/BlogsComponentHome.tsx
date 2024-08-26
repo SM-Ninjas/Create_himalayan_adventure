@@ -8,6 +8,7 @@ import useBlogHook from "@/hooks/useBlogHook";
 
 interface BlogPost {
   _id: string;
+  slug: string;
   title: string;
   createdAt: string;
   content: string;
@@ -65,15 +66,15 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-              <Link href={`/blogs/${item._id}`}>
+              <Link href={`/blogs/${item.slug}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
-                    <img
+                    <Image
                       src={item.coverImage}
                       alt={item.title}
-                      // layout="fill"
-                      // objectFit="cover"
-                      className="rounded-lg object-cover"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
                     />
                     <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
                       <p className="text-xl font-black uppercase text-white">
