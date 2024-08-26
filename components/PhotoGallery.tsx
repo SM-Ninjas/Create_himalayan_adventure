@@ -15,8 +15,8 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
 
   const photos = galleryData.filter(item => item.type === 'treks' || "tours" || "international_tours").map((item, index) => ({
     src: item.img,
-    width: index % 2 === 0 ? 6 : 3, // Reduced width
-    height: index % 3 === 0 ? 2 : 3, // Reduced height
+    width: index % 2 === 0 ? 6 : 3,
+    height: index % 3 === 0 ? 2 : 3, 
     alt: item.title,
     title: item.title,
     type: item.type,
@@ -40,7 +40,7 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
         {photos.map((photo, index) => (
           <motion.div
             key={index}
-            className={`relative overflow-hidden  shadow-lg cursor-pointer ${photo.isLarge ? 'col-span-2 row-span-2' : ''}`}
+            className={`relative overflow-hidden rounded-sm shadow-lg cursor-pointer ${photo.isLarge ? 'col-span-2 row-span-2' : ''}`}
             whileHover={{ scale: 1.05, rotate: photo.isLarge ? 2 : -2 }}
             transition={{ duration: 0.3 }}
             onClick={() => openLightbox(index)}
