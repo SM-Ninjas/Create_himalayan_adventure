@@ -30,7 +30,7 @@ export const internationalRegions: TrekAndTours[] = [
             slug: "Jomolhari_Trek",
           },
           {
-            name: "Soi Yaksa Trek",
+            name: "Soi Yaksa Trek", 
             slug: "Soi_Yaksa_Trek",
           },
         ],

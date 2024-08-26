@@ -1,18 +1,41 @@
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useQuery } from "@tanstack/react-query";
+import { promises } from "dns";
+
+interface Partner {
+  _id: string;
+  logo: string;
+  name: string;
+}
+
+interface PartnersResponse {
+  partners: Partner[];
+}
+
+
+
+const fetchPartners = async ():Promise<PartnersResponse> => {
+  const response = await fetch("http://localhost:8800/api/partners");
+  if (!response.ok) {
+    throw new Error("Network response was not ok");
+  }
+  return response.json();
+};
 
 const Partners = () => {
+  const { data , error, isLoading } = useQuery(
+    {
+      queryKey: ["partners"], queryFn: fetchPartners
+    });
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error.message}</div>;
+
   return (
     <div className="container overflow-hidden">
       <h1 className="title-text mb-8">Our Partners</h1>
-      {/* <div className="flex gap-24 infinite-scroll-animation">
-        {partners.map((partner, index) => (
-          <div key={index} className="flex items-center justify-center">
-            <img className="h-10" src={partner.src} alt={partner.name} />
-          </div>
-        ))}
-      </div> */}
       <Swiper
         centeredSlides
         autoplay={{
@@ -38,11 +61,11 @@ const Partners = () => {
         modules={[Autoplay, Navigation]}
         className="flex items-center"
       >
-        {partners.map((partner, index) => (
-          <SwiperSlide key={index}>
+        {data?.partners.map((partner) => (
+          <SwiperSlide key={partner._id}>
             <img
-              className="h-16 lg:h-16"
-              src={partner.src}
+              className="h-16 lg:h-16 object-contain"
+              src={partner.logo}
               alt={partner.name}
             />
           </SwiperSlide>
@@ -54,40 +77,3 @@ const Partners = () => {
 
 export default Partners;
 
-const partners = [
-  {
-    id: 1,
-    name: "Nepal Government",
-    src: "partners/nepalGoverment.svg",
-  },
-  {
-    id: 2,
-    name: "NMA",
-    src: "partners/nma.svg",
-  },
-  {
-    id: 3,
-    name: "NTB",
-    src: "partners/ntb.svg",
-  },
-  {
-    id: 4,
-    name: "TAAN",
-    src: "partners/taan.svg",
-  },
-  {
-    id: 5,
-    name: "keep",
-    src: "partners/keep.webp",
-  },
-  {
-    id: 6,
-    name: "Bookmundi",
-    src: "partners/bookmudi.webp",
-  },
-  {
-    id: 7,
-    name: "Guide",
-    src: "partners/guide.webp",
-  },
-];

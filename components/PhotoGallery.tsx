@@ -35,8 +35,8 @@ const TrekkingGallery: React.FC<TrekkingGalleryProps> = ({ location }) => {
 
   return (
     <div className="container mx-auto p-2 mt-4">
-      <h2 className="title-text font-bold mb-6">International Tour Gallery</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5"> 
+      <h2 className="title-text font-bold mb-6">Gallery</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6"> 
         {photos.map((photo, index) => (
           <motion.div
             key={index}

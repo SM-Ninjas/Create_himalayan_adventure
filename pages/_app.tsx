@@ -9,6 +9,11 @@ import Header from "@/components/ui/navbar/Header";
 import Head from "next/head";
 import "swiper/css";
 import ContactLinks from "@/components/ui/contactLink";
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+
 
 const inter = Noto_Sans({
   subsets: ["latin"],
@@ -18,6 +23,7 @@ const inter = Noto_Sans({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <QueryClientProvider client={new QueryClient}>
       <Head>
         <title>Create Himalayan Adventure</title>
         <meta name="description" content="Create Himalayan Trek" />
@@ -29,15 +35,16 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <main
         className={`
-        ${inter.className}
+          ${inter.className}
           relative mx-0 min-h-screen max-w-screen bg-gray-50 px-0`}
-      >
-         <Header />
+          >
+        <Header />
         <Component {...pageProps} />
         <ToTop />
         <ContactLinks />
         <Footer />
       </main>
+        </QueryClientProvider>
     </>
   );
 }

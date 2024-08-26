@@ -6,10 +6,22 @@ export const galleryData = [
     slug: "bhutan_tour_via_phuentsholing_days",
   },
   {
+    slug: "chitwan_national_park_tour",
+    type: "tours",
+    title: "Chitwan National Park Tour",
+    img: "/locations/chitwan.jpeg",
+  },
+  {
     img: "/images/chele-la-pass-soi-yaksa-trek-bhutan.jpg",
     title: "Soi Yaksa trek",
     type: "treks",
     slug: "Soi_Yaksa_Trek",
+  },
+  {
+    slug: "rara_lake_tour",
+    img: "/images/raralaketour.jpg",
+    type: "tours",
+    title: "Rara Lake Tour",
   },
   {
     img: "/images/bhutan-dagala-thousand-lake-trek.jpg",
@@ -18,22 +30,34 @@ export const galleryData = [
     slug: "Dagala_Thousand_Lakes_Trek",
   },
   {
+    slug: "mardi_himal_trek",
+    title: "Mardi Himal Trek",
+    img: "/locations/Mt-Fishtail-from-Badal-Danda.jpeg",
+    type: "treks",
+  },
+  {
+    slug: "everest_base_camp_treck",
+    img: "/locations/everest.avif",
+    title: "Everest Base Camp",
+    type: "treks",
+  },
+  {
     img: "/images/druk-path-trek (1).webp",
     title: "Druk Path trek - 8 days",
     type: "treks",
     slug: "DrukPathTrek",
   },
   {
-    img: "/images/9d0e7b5cf5e9634ef457d6f6ac7d1c69.jpg",
-    title: "Bhutan Tour With Bumdra High Camp trek",
-    type: "treks",
-    slug: "Bhutan_Tour_with_Bumdra_High_Camp_Trek",
-  },
-  {
     img: "/images/bhutan-snowman-trek.jpg",
     title: "Snowman trek - 30 days",
     type: "treks",
     slug: "snowman_trek_30_days",
+  },
+  {
+    title: "Annapurna Base Camp",
+    slug: "annapurna_base_camp_trek",
+    img: "/images/Annapurna Base Camp Trek -14 Days/AnnapurnaSanctuary_client_lee.webp",
+    type: "treks",
   },
   {
     img: "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge.webp",
@@ -47,11 +71,5 @@ export const galleryData = [
     title: "Lhasa and Shigatse Tour - 6 days",
     type: "international_tours",
     slug: "LhasaAndShigatseTour",
-  },
-  {
-    title: "Lhasa and Tsedang Tour - 6 days",
-    slug: "Lhasa_and_Tsedang_Tour",
-    type: "international_tours",
-    img: "/images/4a52c6a5-db57-4f04-927b-e0edb3f826e4_6-day-private-tour-from-lhasa-to-tsedang-in-tibet-xlarge copy.webp",
   },
 ];
