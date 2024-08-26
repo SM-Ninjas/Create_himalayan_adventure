@@ -3,15 +3,35 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import Image from "next/image";
-import { blogPosts } from "../../pages/blogs/index";
+import useBlogHook from "@/hooks/useBlogHook";
+
+interface BlogPost {
+  _id: string;
+  title: string;
+  createdAt: string;
+  content: string;
+  coverImage: string;
+  isFeatured: boolean;
+}
 
 interface BlogsProps {
-  blogsRef: React.RefObject<HTMLDivElement>;
+  blogsRef: React.RefObject<HTMLElement>;
 }
 
 const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
+  const { data, isLoading, isError } = useBlogHook();
+
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+
+  if (isError) {
+    return <p>Failed to load blogs.</p>;
+  }
+
+  const blogPosts: BlogPost[] = data?.blogs || [];
+
   return (
     <motion.article
       ref={blogsRef}
@@ -27,6 +47,7 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         </motion.h2>
       </div>
 
+      {/* Desktop View */}
       <div className="hidden lg:block">
         <Swiper
           slidesPerView={4}
@@ -44,29 +65,30 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-            <Link href={`/blogs/${item.id}`}>
-              <div className="flex flex-col gap-y-2">
-                <div className="relative h-96 w-auto">
-                  <Image
-                    src={item.featured_image}
-                    alt={item.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
-                  />
-                  <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
-                    <p className="text-xl font-black uppercase text-white">
-                      {item.title}
-                    </p>
+              <Link href={`/blogs/${item._id}`}>
+                <div className="flex flex-col gap-y-2">
+                  <div className="relative h-96 w-auto">
+                    <img
+                      src={item.coverImage}
+                      alt={item.title}
+                      // layout="fill"
+                      // objectFit="cover"
+                      className="rounded-lg object-cover"
+                    />
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                      <p className="text-xl font-black uppercase text-white">
+                        {item.title}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
+      {/* Tablet View */}
       <div className="hidden md:block lg:hidden">
         <Swiper
           slidesPerView={2}
@@ -84,29 +106,30 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-              <Link href={`/blogs/${item.id}`}>
-              <div className="flex flex-col gap-y-2">
-                <div className="relative h-96 w-auto">
-                  <Image
-                    src={item.featured_image}
-                    alt={item.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
-                  />
-                  <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
-                    <p className="text-xl font-black uppercase text-white">
-                      {item.title}
-                    </p>
+              <Link href={`/blogs/${item._id}`}>
+                <div className="flex flex-col gap-y-2">
+                  <div className="relative h-96 w-auto">
+                    <Image
+                      src={item.coverImage}
+                      alt={item.title}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                      <p className="text-xl font-black uppercase text-white">
+                        {item.title}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
+      {/* Mobile View */}
       <div className="md:hidden">
         <Swiper
           slidesPerView={1}
@@ -124,23 +147,23 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-              <Link href={`/blogs/${item.id}`}>
-              <div className="flex flex-col gap-y-2">
-                <div className="relative h-96 w-auto">
-                  <Image
-                    src={item.featured_image}
-                    alt={item.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
-                  />
-                  <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
-                    <p className="text-xl font-black uppercase text-white">
-                      {item.title}
-                    </p>
+              <Link href={`/blogs/${item._id}`}>
+                <div className="flex flex-col gap-y-2">
+                  <div className="relative h-96 w-auto">
+                    <Image
+                      src={item.coverImage}
+                      alt={item.title}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                      <p className="text-xl font-black uppercase text-white">
+                        {item.title}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
             </SwiperSlide>
           ))}

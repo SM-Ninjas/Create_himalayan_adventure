@@ -1,4 +1,9 @@
 import { Head, Html, Main, NextScript } from "next/document";
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+
 
 export default function Document() {
   return (
