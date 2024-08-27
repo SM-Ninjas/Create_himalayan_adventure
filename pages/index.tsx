@@ -10,10 +10,12 @@ import Partners from "@/components/home/Partners";
 import SearchComponent from "@/components/home/SearchComponent";
 import Testimonials from "@/components/home/Testimonials";
 import TopChoices from "@/components/home/TopChoices";
-import TripAdvisorReview from "@/components/home/TripAdvisorReview";
 import PhotoGallery from "@/components/PhotoGallery";
 import { Metadata } from "next";
 import React from "react";
+import ReviewsCHA from "@/components/reviews/Reviews";
+import ReviewsSection from "@/components/reviews/ReviewsSection";
+
 
 export const metadata: Metadata = {
   title: "Create Himalayan Adventure",
@@ -33,16 +35,18 @@ export default function Home() {
       <CarouselMobileResponsive />
       <SearchComponent />
       <Destinations />
+      <ReviewsCHA />
       <BestSellers />
       <HowTo />
       <About />
-      <TripAdvisorReview />
+      <ReviewsSection />
       <TopChoices />
       <Blogs blogsRef={scrollRef} />
       <OurTeam />
       <PhotoGallery location="Bhutan" />
       <Partners />
       <Testimonials />
+
     </section>
   );
 }
