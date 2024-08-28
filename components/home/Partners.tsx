@@ -15,10 +15,8 @@ interface PartnersResponse {
   partners: Partner[];
 }
 
-
-
 const fetchPartners = async ():Promise<PartnersResponse> => {
-  const response = await fetch("http://localhost:8800/api/partners");
+  const response = await fetch("https://server.createhimalaya.com/api/partners");
   if (!response.ok) {
     throw new Error("Network response was not ok");
   }

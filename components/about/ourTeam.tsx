@@ -35,7 +35,7 @@ function OurTeam() {
   const [team] = useState(teamData);
 
   return (
-    <div className="container mx-auto p-4" data-aos="fade-up">
+    <div className="container mx-auto p-4 mt-12" data-aos="fade-up">
       <div className="mt-6">
         <div className="bg-utils flex justify-center h-[160px]">
           <h1 className="text-[2rem] font-bold text-black mbl:text-[18px]">

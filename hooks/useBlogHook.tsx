@@ -2,7 +2,7 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 
 
 const fetchBlogs = async () => {
-    const response = await fetch("http://localhost:8800/api/blogs",
+    const response = await fetch("https://server.createhimalaya.com/api/blogs",
         {
             method: "GET",
             credentials: "include",
