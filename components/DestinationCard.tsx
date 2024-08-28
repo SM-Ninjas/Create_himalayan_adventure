@@ -39,7 +39,7 @@ const DestinationCard = ({ name, image, slug }: DestinationCardProps) => {
             <img
                 src={image}
                 alt={name}
-                className=" w-full h-96 rounded-lg group-hover:opacity-80 transition-opacity duration-300 hover:opacity-10"
+                className=" w-full h-96 object-cover rounded-lg group-hover:opacity-80 transition-opacity duration-300 hover:opacity-10"
             />
             <div className="absolute bottom-4 left-4 text-white subtitle-text font-bold transition-transform duration-300 transform group-hover:translate-y-1 group-hover:scale-105">
                 {name} <span className="ml-2 transition-transform duration-300 group-hover:translate-x-2">→</span>
@@ -50,7 +50,7 @@ const DestinationCard = ({ name, image, slug }: DestinationCardProps) => {
 
 const Destinations = () => {
     return (
-        <div className="container mx-auto text-center py-12">
+        <div className="container text-center">
             <h2 className="title-text font-bold mb-4">CHOOSE YOUR DESTINATIONS</h2>
             <p className="text-lg text-gray-600 mb-8">
                 Embark on an extraordinary adventure. Discover the allure of Himalayan journeys and unforgettable escapes.

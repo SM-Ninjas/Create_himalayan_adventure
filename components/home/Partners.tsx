@@ -2,12 +2,13 @@ import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useQuery } from "@tanstack/react-query";
-import { promises } from "dns";
+import Link from "next/link";
 
 interface Partner {
   _id: string;
   logo: string;
   name: string;
+  url : string
 }
 
 interface PartnersResponse {
@@ -57,17 +58,19 @@ const Partners = () => {
             spaceBetween: 120,
           },
         }}
-        navigation
+        // navigation
         modules={[Autoplay, Navigation]}
         className="flex items-center"
       >
         {data?.partners.map((partner) => (
           <SwiperSlide key={partner._id}>
+            <Link href={`${partner.url}`}>
             <img
-              className="h-16 lg:h-16 object-contain"
+              className="h-16 lg:h-16"
               src={partner.logo}
               alt={partner.name}
-            />
+              />
+              </Link>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -76,4 +79,3 @@ const Partners = () => {
 };
 
 export default Partners;
-

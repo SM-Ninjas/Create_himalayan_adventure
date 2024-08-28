@@ -5,5 +5,5 @@ export const routes = {
   treks: "/treks",
   tours: "/tours",
   international_tour: "/international_tours",
-  // international_treks: "/international_treks",
+  peak_climbing: "/peak_climbing",
 };
