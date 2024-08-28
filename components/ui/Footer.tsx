@@ -49,7 +49,7 @@ const Footer = () => {
                   href="tel:9841128881"
                   className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
-                  984-1128881
+                  +977 9702542143
                 </a>
               </div>
               <div className="flex items-center gap-x-4">
@@ -120,7 +120,7 @@ const Footer = () => {
                   href="/tours/nagarjung_jamcho_day_hike"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                 Nagarjung Jamcho Day Hike
+                  Nagarjung Jamcho Day Hike
                 </a>
               </li>
               <li className="mb-2">
@@ -244,12 +244,14 @@ const Footer = () => {
             <h2 className="emphasized-text">We are associated with</h2>
             <div className="flex flex-wrap gap-x-8">
               {associated.map((partner) => (
-                <img
-                  key={partner.id}
-                  src={partner.src}
-                  alt={partner.name}
-                  className="h-6 md:h-8"
-                />
+                <a href={`${partner.url}`}>
+                  <img
+                    key={partner.id}
+                    src={partner.src}
+                    alt={partner.name}
+                    className="h-6 md:h-8"
+                  />
+                </a>
               ))}
             </div>
           </div>
@@ -257,12 +259,14 @@ const Footer = () => {
             <h2 className="emphasized-text">Partners</h2>
             <div className="flex flex-wrap gap-x-8">
               {partners.map((partner) => (
-                <img
-                  key={partner.id}
-                  src={partner.src}
-                  alt={partner.name}
-                  className="h-6 md:h-8"
-                />
+                <a href={`${partner.url}`}>
+                  <img
+                    key={partner.id}
+                    src={partner.src}
+                    alt={partner.name}
+                    className="h-6 md:h-8"
+                  />
+                </a>
               ))}
             </div>
           </div>
@@ -285,7 +289,7 @@ const Footer = () => {
           <ul className="mb-4 flex md:mb-0 md:ml-4">
             <li>
               <a
-                href="#0"
+                href="https://x.com/create_himalaya?lang=en"
                 className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
                 aria-label="Twitter"
               >
@@ -301,7 +305,7 @@ const Footer = () => {
 
             <li className="ml-4">
               <a
-                href="#0"
+                href="https://www.facebook.com/createhimalaya/"
                 className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
                 aria-label="Facebook"
               >
@@ -328,25 +332,30 @@ const associated = [
     id: 1,
     name: "Nepal Government",
     src: "partners/nepalGoverment.svg",
+    url: "https://www.nepal.gov.np/",
   },
   {
     id: 2,
     name: "NMA",
     src: "partners/nma.svg",
+    url: "https://www.nepalmountaineering.org/",
   },
   {
     id: 3,
     name: "NTB",
+    url: "https://ntb.gov.np/",
     src: "partners/ntb.svg",
   },
   {
     id: 4,
     name: "TAAN",
+    url: "https://www.taan.org.np/",
     src: "partners/taan.svg",
   },
   {
     id: 5,
     name: "keep",
+    url: "https://keepnepal.org/",
     src: "partners/keep.webp",
   },
 ];
@@ -355,11 +364,13 @@ const partners = [
   {
     id: 1,
     name: "Bookmundi",
+    url: "https://www.bookmundi.com/",
     src: "partners/bookmudi.webp",
   },
   {
     id: 2,
     name: "Guide",
+    url: "https://www.getyourguide.com/",
     src: "partners/guide.webp",
   },
 ];
