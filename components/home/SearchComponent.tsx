@@ -1,53 +1,90 @@
+import React, { useState } from "react";
+import { useRouter } from "next/router";
 import { FaFlag } from "react-icons/fa";
-import { IoSearch, IoTime } from "react-icons/io5";
-import Button from "../ui/Button";
+import { LuActivity } from "react-icons/lu";
+import { RiH1 } from "react-icons/ri";
 
-type Duration = {
-  value: string;
-  label: string;
-};
+const activities = ["Treks", "Tours", "Peak Climbing"];
+const destinations = [
+  "Nepal",
+  "Nepal Bhutan Tour",
+  "Nepal Tibet Bhutan Tour",
+  "Tibet",
+  "Bhutan",
+];
 
 const SearchComponent = () => {
+  const [activity, setActivity] = useState("");
+  const [destination, setDestination] = useState("");
+  const [searchAttempt , setSearchAttempt] = useState(false);
+  const router = useRouter();
+
+  const handleSearch = () => {
+    if (activity) {
+      switch (activity.toLowerCase()) {
+        case "treks":
+          router.push("/treks");
+          break;
+        case "tours":
+          router.push("/tours");
+          break;
+        case "peak climbing":
+          router.push("/peak_climbing");
+          break;
+        default:
+          console.log("No specific route for this activity");
+      }
+    } else {
+      // alert("Please select an activity");
+      setSearchAttempt(true);
+    }
+  };
+
   return (
-    <div className="container">
-      <div className="flex w-full flex-col justify-between gap-x-4 gap-y-8 rounded-md border border-gray-400 bg-white px-4 py-2 lg:flex-row lg:flex-wrap lg:items-center lg:rounded-full lg:px-8">
-        <div className="flex items-center gap-x-4">
-          <IoSearch className="text-xl text-gray-400" />
-          <input
-            type="text"
-            placeholder="Keyword"
-            className="w-full border-none outline-none placeholder:regular-text"
-          />
-        </div>
-        <div className="flex items-center gap-x-4">
-          <IoTime className="text-xl text-gray-400" />
-          <select className="w-full border-none regular-text outline-none ">
-            <option value="any">Any Duration</option>
-            <option value="one">1 Day</option>
-            <option value="short">2-4 Days</option>
-            <option value="week">5-7 Days</option>
-            <option value="long">7+ Days</option>
+    <div className="container mx-auto p-4">
+          {searchAttempt && !activity && (
+        <h1 className="subtitle-text text-center py-2 text-red-500">Please select an activity and destination</h1>
+      )}
+      <div className="flex border flex-col lg:flex-row items-center justify-between gap-4 bg-white rounded-lg shadow-md p-4">
+        <div className="flex items-center gap-2 w-full lg:w-2/5">
+          {/* <IoTime  /> */}
+          <LuActivity className="subtitle-text text-gray-400 font-bold" />
+          <select
+            className="w-full p-2 border rounded"
+            value={activity}
+            onChange={(e) => setActivity(e.target.value)}
+          >
+            <option value="">Any Activity</option>
+            {activities.map((act, index) => (
+              <option key={index} value={act}>
+                {act}
+              </option>
+            ))}
           </select>
         </div>
-        <div className="flex items-center gap-x-4">
+
+        <div className="flex items-center gap-2 w-full lg:w-2/5">
           <FaFlag className="text-xl text-gray-400" />
-
-          <select className="w-full border-none regular-text outline-none">
-            <option value="any">Any Destination</option>
-            <option value="nepal">Nepal</option>
-            <option value="nepal-bhutan">Nepal Bhutan Tour</option>
-            <option value="nepal-tibet-bhutan">Nepal Tibet Bhutan Tour</option>
-            <option value="tibet">Tibet</option>
-            <option value="bhutan">Bhutan</option>
+          <select
+            className="w-full p-2 border rounded"
+            value={destination}
+            onChange={(e) => setDestination(e.target.value)}
+          >
+            <option value="">Any Destination</option>
+            {destinations.map((dest, index) => (
+              <option key={index} value={dest.toLowerCase().replace(/ /g, "-")}>
+                {dest}
+              </option>
+            ))}
           </select>
         </div>
 
-        <div className="ml-8">
-          <Button
-            text="Search"
-            customColor="bg-blue-600 hover:bg-blue-500 text-white regular-text"
-          />
-        </div>
+        <button
+          onClick={handleSearch}
+          className="w-full lg:w-1/5 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-500 transition duration-300"
+        >
+          Search
+        </button>
       </div>
     </div>
   );

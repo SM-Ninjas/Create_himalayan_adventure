@@ -31,21 +31,21 @@ export default function Home() {
 
   return (
     <section className="flex flex-col min-w-full gap-y-16">
-      <CarouselSection />
-      <CarouselMobileResponsive />
-      <SearchComponent />
-      <Destinations />
-      <ReviewsCHA />
-      <BestSellers />
-      <HowTo />
-      <About />
-      <ReviewsSection />
-      <TopChoices />
-      <Blogs blogsRef={scrollRef} />
-      <OurTeam />
-      <PhotoGallery location="Bhutan" />
-      <Partners />
-      <Testimonials />
+               <CarouselSection />
+          <CarouselMobileResponsive />
+          <SearchComponent />
+          <Destinations />
+          <BestSellers />
+          <ReviewsCHA />
+          <HowTo />
+          <About />
+          <PhotoGallery location="Bhutan" />
+          <TopChoices />
+          <ReviewsSection />
+          <Blogs blogsRef={scrollRef} />
+          <OurTeam />
+          <Partners />
+          <Testimonials />
 
     </section>
   );
