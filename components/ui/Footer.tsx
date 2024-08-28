@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="mt-4 flex cursor-pointer flex-col gap-y-2">
               <div className="flex items-center gap-x-4">
-                <IoLocationSharp   className="text-blue-400"/>
+                <IoLocationSharp className="text-blue-400" />
                 <a
                   href="https://maps.app.goo.gl/SWa8dYXRTtAp4bQYA"
                   target="_blank"
@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/treks/annapurna_circuit_trek"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Annapurna Base Camp Trek
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/treks/ebc_trek_14_days"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Everest Base Camp Trek
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/treks/Langtang_Gosaikunda_Lake_Trek"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Gosaikunda Trip
@@ -101,7 +101,7 @@ const Footer = () => {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/tours/Astam_Village_Day_Hiking"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Adventure in Pokhara
@@ -109,7 +109,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/tours/Rafting_Pokhara"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Chitwan Jungle Safari
@@ -117,15 +117,15 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/tours/nagarjung_jamcho_day_hike"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Lumbini Pilgrimage Tour
+                 Nagarjung Jamcho Day Hike
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/tours/Kathmandu_City_Tour"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Kathmandu City Tour
@@ -133,7 +133,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/tours/Paragliding_Pokhara"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Rara Lake Adventure
@@ -148,7 +148,7 @@ const Footer = () => {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Gallery
@@ -156,7 +156,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Trekking Guide
@@ -164,7 +164,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Inquiries
@@ -172,7 +172,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Pricing
@@ -180,7 +180,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Privacy Policy

@@ -43,7 +43,7 @@ const Testimonials = () => {
                   <div className="w-24 h-24">
                     <Image
                       className="relative object-top rounded-full"
-                      src="/images/ceo.jpg"
+                      src="/DirectorImg.jpeg"
                       alt="Testimonial from Founder"
                       layout="fill"
                       objectFit="cover"
@@ -63,12 +63,12 @@ const Testimonials = () => {
                   adventure. “
                 </blockquote>
                 <cite className="block mb-1 not-italic font-bold emphasized-text">
-                  Founder Name
+                Ram Chandra lamichhane
                 </cite>
                 <div className="text-gray-600 regular-text">
-                  <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
-                    @Reach Founder
+                  <span>Managing Director</span>{" "}
+                  <a className="text-blue-600 hover:underline" href="https://np.linkedin.com/in/ramchandra-lamichhane-b82685114">
+                    @Reach Director
                   </a>
                 </div>
               </div>
