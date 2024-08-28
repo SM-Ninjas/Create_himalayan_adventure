@@ -51,8 +51,8 @@ const About = () => {
               <img
                 src="/images/Annapurnabasecamp.jpg"
                 alt="Create Himalaya Adventure"
-                width={600}
-                height={400}
+                // width={600}
+                // height={400}
                 className="w-full h-auto rounded-lg"
               />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -62,8 +62,9 @@ const About = () => {
             </div>
           ) : (
             <iframe
-              width="800px"
-              height="450px"
+              // width="800px"
+              // height="450px"
+              className="w-full h-96"
               src="https://www.youtube.com/embed/6LCgR92DSis"
               title="Create Himalaya Adventure Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"

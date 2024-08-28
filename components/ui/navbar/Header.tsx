@@ -44,7 +44,7 @@ function Header() {
       >
         {/* Mobile Navbar - Visible below xl size */}
         <ContentWrapper className="flex items-center justify-between lg:hidden md:block">
-          <MobileNavbar />
+          <MobileNavbar showTopBar = {showTopBar} />
         </ContentWrapper>
 
         {/* Desktop Navbar - Visible at xl size and above */}

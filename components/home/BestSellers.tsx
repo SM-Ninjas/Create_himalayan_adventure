@@ -28,7 +28,7 @@ const BestSellers = () => {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          navigation
+          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper hidden w-full lg:block"
@@ -71,7 +71,7 @@ const BestSellers = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          navigation={true}
+          // navigation={true}
           modules={[Navigation, Pagination]}
           className="mySwiper hidden w-full md:block lg:hidden"
         >
@@ -112,7 +112,7 @@ const BestSellers = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          navigation={true}
+          // navigation={true}
           pagination={{ clickable: true }}
           modules={[Navigation]}
           className="mySwiper w-full md:hidden"

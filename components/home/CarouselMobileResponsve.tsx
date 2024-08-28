@@ -19,7 +19,7 @@ const CarouselMobileResponsive = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        navigation={true}
+        // navigation={true}
         pagination={{ clickable: true }}
         modules={[Navigation]}
         className="w-full mySwiper"

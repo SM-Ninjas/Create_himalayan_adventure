@@ -16,7 +16,6 @@ import React from "react";
 import ReviewsCHA from "@/components/reviews/Reviews";
 import ReviewsSection from "@/components/reviews/ReviewsSection";
 
-
 export const metadata: Metadata = {
   title: "Create Himalayan Adventure",
   description: "",
@@ -31,22 +30,21 @@ export default function Home() {
 
   return (
     <section className="flex flex-col min-w-full gap-y-16">
-               <CarouselSection />
-          <CarouselMobileResponsive />
-          <SearchComponent />
-          <Destinations />
-          <BestSellers />
-          <ReviewsCHA />
-          <HowTo />
-          <About />
-          <PhotoGallery location="Bhutan" />
-          <TopChoices />
-          <ReviewsSection />
-          <Blogs blogsRef={scrollRef} />
-          <OurTeam />
-          <Partners />
-          <Testimonials />
-
+      <CarouselSection />
+      <CarouselMobileResponsive />
+      <SearchComponent />
+      <Destinations />
+      <BestSellers />
+      <ReviewsCHA />
+      <HowTo />
+      <About />
+      <PhotoGallery location="Bhutan" />
+      <TopChoices />
+      <ReviewsSection />
+      <Blogs blogsRef={scrollRef} />
+      <OurTeam />
+      <Partners />
+      <Testimonials />
     </section>
   );
 }

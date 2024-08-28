@@ -9,7 +9,7 @@ import { TbTrekking } from "react-icons/tb";
 import Buttons from "../Buttons";
 import Logo from "../Logo";
 
-function MobileNavbar() {
+function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
   // const router = useRouter()
   const [toggleNavBar, settoggleNavBar] = useState(false);
   const handleNavToggle = () => {
@@ -20,34 +20,40 @@ function MobileNavbar() {
   }
   return (
     <div
-      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl xl:hidden ${toggleNavBar && "h-screen"
-        }`}
+      className={`fixed left-0 right-0 top-0 z-50 block bg-black/80 px-2 py-4 backdrop-blur-xl xl:hidden ${
+        toggleNavBar && "h-screen"
+      }`}
     >
       <div className="flex flex-col justify-start h-full xl:hidden">
         <div className="flex items-center justify-between p-2">
-          <Link href="/">
-            <Logo />
-          </Link>
+          {!showTopBar && (
+            <Link href="/">
+              <Logo />
+            </Link>
+          )}
           {/* Create a hamburger menu using 3 lines, when clicked translate it to a cross */}
           <div
             className="flex flex-col transition-all"
             onClick={handleNavToggle}
           >
             <div
-              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${toggleNavBar
-                ? "translate-y-1 rotate-45"
-                : "mt-2 -translate-y-0 rotate-0"
-                }`}
+              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${
+                toggleNavBar
+                  ? "translate-y-1 rotate-45"
+                  : "mt-2 -translate-y-0 rotate-0"
+              }`}
             ></div>
             <div
-              className={`h-0.5 w-6 rounded-full bg-white ${toggleNavBar ? "opacity-0" : "mt-2 opacity-100"
-                }`}
+              className={`h-0.5 w-6 rounded-full bg-white ${
+                toggleNavBar ? "opacity-0" : "mt-2 opacity-100"
+              }`}
             ></div>
             <div
-              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${toggleNavBar
-                ? "-translate-y-1 -rotate-45"
-                : "mt-2 translate-y-0 rotate-0"
-                }`}
+              className={`h-0.5 w-6 transform rounded-full bg-white transition-transform ${
+                toggleNavBar
+                  ? "-translate-y-1 -rotate-45"
+                  : "mt-2 translate-y-0 rotate-0"
+              }`}
             ></div>
           </div>
         </div>
@@ -92,7 +98,8 @@ function MobileNavbar() {
                 href="/forum"
               >
                 <CgProfile className="text-xl text-gray-200" />
-                Forum</Link>
+                Forum
+              </Link>
               {/* <Link
                     className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
                     onClick={handleCloseToggleOnClick}
