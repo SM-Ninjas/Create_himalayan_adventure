@@ -2,7 +2,6 @@ import React from 'react'
 import About from '../components/about/AboutUs'
 import OurTeam from '@/components/about/ourTeam'
 import Testimonials from '@/components/home/Testimonials'
-import ReviewsSection from '@/components/reviews/ReviewsSection'
 
 
 function AboutMain() {
@@ -20,7 +19,6 @@ function AboutMain() {
                 <About />
                 <OurTeam />
                 <Testimonials/>
-                <ReviewsSection/>
             </div>
         </div>
     )

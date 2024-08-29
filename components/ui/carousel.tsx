@@ -20,7 +20,7 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          navigation
+          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
@@ -52,7 +52,7 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          navigation
+          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
@@ -84,7 +84,7 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          navigation
+          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"

@@ -1,8 +1,12 @@
+import CustomTestimonials from "@/components/customTestomonial";
 import Equipment from "@/components/ui/Equipment";
 import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
-import infoContent,{subimages} from "@/components/ui/infoContent";
+import infoContent, {
+  TrekkingContent,
+  subimages,
+} from "@/components/ui/infoContent";
 import OverView from "@/components/ui/overView";
 import PlaceInfo from "@/components/ui/placeInfo";
 import { useRouter } from "next/router";
@@ -14,11 +18,10 @@ function PlacesDetails() {
   const { slug } = router.query;
   const { query } = useRouter();
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
-  console.log(slug)
+
   const currentPlaceData = infoContent[index];
   const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
-  console.log(currentPlaceData, "current place data is here");
 
   return (
     <>
@@ -43,7 +46,7 @@ function PlacesDetails() {
 
         <div className="flex gap-8 container mt-8">
           <div className="w-full xl:w-8/12">
-            <div className="flex gap-16">
+            <div className="flex gap-16 container">
               <div>
                 <OverView currentPlaceInfo={currentPlaceData} />
                 <PlaceInfo currentPlaceInfo={currentPlaceData} />

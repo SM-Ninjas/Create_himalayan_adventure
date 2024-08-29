@@ -4,7 +4,6 @@ import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
 import infoContent, {
-  TrekkingContent,
   subimages,
 } from "@/components/ui/infoContent";
 import OverView from "@/components/ui/overView";
@@ -23,11 +22,10 @@ function PlacesDetails() {
   const currentPlaceData = infoContent[index];
   const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
-  console.log(currentPlaceData)
 
   return (
     <>
-      <div className="relative pt-28">
+      <div className="relative container border border-black pt-28">
         <div key={currentPlaceData?.id} className="mb-4">
           <div className="container flex flex-col gap-y-2">
             <h1 className="title-text">{currentPlaceData?.title}</h1>
