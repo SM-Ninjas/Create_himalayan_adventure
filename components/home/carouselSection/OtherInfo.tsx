@@ -22,7 +22,7 @@ function OtherInfo({ data }: Props) {
         data={data?.location}
       />
       <AnimatedText
-        className=" my-1 text-4xl font-semibold md:my-3 md:text-8xl md:leading-[100px]"
+        className=" my-1 text-8xl font-semibold md:my-3 xl:text-7xl md:leading-[100px]"
         data={data?.title}
       />
       <AnimatedText className=" text-[#D5D5D6]" data={data?.description} />
