@@ -1,8 +1,10 @@
+import CustomTestimonials from "@/components/customTestomonial";
 import Equipment from "@/components/ui/Equipment";
 import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
 import infoContent, {
+  TrekkingContent,
   subimages,
 } from "@/components/ui/infoContent";
 import OverView from "@/components/ui/overView";
@@ -12,7 +14,7 @@ import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 
 function PlacesDetails() {
-  const router = useRouter()
+  const router = useRouter();
   const { slug } = router.query;
   const { query } = useRouter();
   const index = query.slug as keyof typeof infoContent; // keyof typeof infoContent to ensure type safety
@@ -20,7 +22,6 @@ function PlacesDetails() {
   const currentPlaceData = infoContent[index];
   const subImg: subimages = currentPlaceData?.subimages || [];
   const equipment = currentPlaceData?.equipment;
-  console.log(currentPlaceData)
 
   return (
     <>
@@ -40,12 +41,12 @@ function PlacesDetails() {
           </div>
         </div>
         <div className="px-2">
-      <Carousel images={subImg} />
+          <Carousel images={subImg} />
         </div>
 
         <div className="flex gap-8 container mt-8">
           <div className="w-full xl:w-8/12">
-            <div className="flex gap-16">
+            <div className="flex gap-16 container">
               <div>
                 <OverView currentPlaceInfo={currentPlaceData} />
                 <PlaceInfo currentPlaceInfo={currentPlaceData} />
@@ -64,7 +65,6 @@ function PlacesDetails() {
         <div className="container">
           <Gallery />
           <Equipment currentEquipmentData={equipment} />
-
         </div>
       </div>
     </>
