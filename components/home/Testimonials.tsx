@@ -5,12 +5,12 @@ import { TitleText } from "../ui/text/typingText";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="mt-4">
       <motion.div
         variants={staggerContainer(0, 0)}
         className="px-4 mx-auto sm:px-6 container"
       >
-        <div className="py-12 md:py-20">
+        <div className="">
           {/* Section header */}
           <div className="pb-12 mx-auto md:pb-16">
             <TitleText title="A Message of Adventure and Connection" />

@@ -12,13 +12,13 @@ const teamData = [
   },
   {
     id: 2,
-    member_name: "Jane Smith",
+    member_name: "Sanju Bhatta",
     Mem_position: "Accountant",
     MemberImg: "/images/team/accountant.jpg"
   },
   {
     id: 3,
-    member_name: "Mari engh",
+    member_name: "Mari Engh",
     Mem_position: "Foreign Consultant",
     MemberImg: "/images/team/mary.jpg"
   },
@@ -35,14 +35,14 @@ function OurTeam() {
   const [team] = useState(teamData);
 
   return (
-    <div className="container mx-auto p-4 mt-12" data-aos="fade-up">
+    <div className="container mx-auto p-4 mt-8" data-aos="fade-up">
       <div className="mt-6">
-        <div className="bg-utils flex justify-center h-[160px]">
+        <div className="bg-utils flex justify-center h-[60px]">
           <h1 className="text-[2rem] font-bold text-black mbl:text-[18px]">
             Meet The Team
           </h1>
         </div>
-        <div className="relative bottom-[90px]">
+        <div className="relative">
           <div className="flex justify-center flex-wrap tl:items-center tl:flex-col mbl:flex-col mbl:items-center">
             <Swiper
               spaceBetween={50}

@@ -19,7 +19,6 @@ function TopBar() {
 
       {/* Slogan in the center with typing animation */}
       <div className="flex-grow flex justify-center items-center">
-        <QuoteUp size={18} />
         <ReactTyped
           strings={[
             "Trekking for All Season",
@@ -28,18 +27,17 @@ function TopBar() {
           typeSpeed={50}
           backSpeed={30}
           loop
-          className="leading-tight text-center text-[#FFD700] tracking-wider flex items-center mx-2"
+          className="leading-tight text-center text-white tracking-wider flex items-center mx-2"
         />
-        <QuoteDown size={18} />
       </div>
 
       {/* Placeholder for right side (could be social links, etc.) */}
       <div className="hidden md:block">
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1">
+          <a href="https://mail.google.com/mail/u/0/#inbox" className="flex items-center gap-1">
             <IoMdMail />
             <span>info@createhimalaya.com</span>
-          </div>
+          </a>
           <div className="flex items-center gap-1">
             <IoMdCall />
             <span>+977 9702542143</span>

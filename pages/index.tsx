@@ -43,7 +43,7 @@ export default function Home() {
       <ReviewsSection />
       <Blogs blogsRef={scrollRef} />
       <OurTeam />
-      <Partners />
+      {/* <Partners /> */}
       <Testimonials />
     </section>
   );

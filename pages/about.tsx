@@ -1,7 +1,8 @@
 import React from 'react'
 import About from '../components/about/AboutUs'
 import OurTeam from '@/components/about/ourTeam'
-import TripAdvisorReview from '@/components/home/TripAdvisorReview'
+import Testimonials from '@/components/home/Testimonials'
+import ReviewsSection from '@/components/reviews/ReviewsSection'
 
 
 function AboutMain() {
@@ -18,7 +19,8 @@ function AboutMain() {
             <div className='my-8'>
                 <About />
                 <OurTeam />
-                <TripAdvisorReview />
+                <Testimonials/>
+                <ReviewsSection/>
             </div>
         </div>
     )

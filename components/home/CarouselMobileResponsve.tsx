@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const CarouselMobileResponsive = () => {
   return (
-    <div className="xl:hidden">
+    <div className="xl:hidden mt-20">
       <Swiper
         slidesPerView={1}
         slidesPerGroup={1}
@@ -32,7 +32,7 @@ const CarouselMobileResponsive = () => {
                 alt={item.title}
                 layout="fill"
                 objectFit="cover"
-                className=""
+                className="object-cover"
               />
               <div className="absolute z-50 flex items-end w-full h-full p-4 bg-gradient-to-b from-transparent to-gray-900/80">
                 <motion.div className="flex flex-col gap-2">
@@ -67,7 +67,7 @@ const CarouselMobileResponsive = () => {
                   >
                     <button
                       className="small-text mt-4 w-fit rounded-full border-[1px] border-[#ffffff8f] px-6 py-3 font-thin text-gray-50 
-          transition duration-300 ease-in-out hover:bg-white "
+          transition duration-300 ease-in-out hover:bg-white hover:text-black "
                     >
                       DETAILS
                     </button>
