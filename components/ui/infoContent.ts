@@ -2531,7 +2531,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/renjola-small.jpg",
       "/images/gokyo-lake.jpg",
       "/images/Gokyo_lake-scaled.jpg",
-      "/images/E3PT-Solo-Guide-01.jpg",
+      "/images/E3PT-Solo-Guide-01.jpeg",
     ],
     overView: {
       duration:
@@ -2732,7 +2732,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     days: "12 days",
     people: "1-12",
     subimages: [
-      "/images/Everest-Base-Camp-Trek-1.jpg",
+      "/images/Everest-Base-Camp-Trek-1 copy.jpg",
       "/images/Everest-Base-Camp-Nepal.jpg.webp",
       "/images/everest-base-camp-budget-trek.jpg",
       "/images/amenities-Everest-base-camp_EBC.jpg",
@@ -3786,7 +3786,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     people: "1-12",
     subimages: [
       "/images/khumbu-glacier-12-days-everest-base-camp-trek.webp",
-      "/images/Everest-Trek.jpg",
+      "/images/Everest-Trek copy.jpg",
       "/images/everest-base-camp-trek-12-days.webp",
       "/images/Everest-base-camp.jpg",
       "/images/distance-from-Base-Camp-to-Everest-Summit.jpg",
@@ -4805,7 +4805,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/pk3.jpg",
       "/images/Piky peak.jpg",
       "/images/pikey-peak-trek-1280x720.jpg",
-      "/images/Pikey-Peak.jpeg",
+      "/images/Pikey-Peak.jpg",
       "/images/1647266567-pikey-peak-trek.jpg",
     ],
     overView: {
@@ -5702,7 +5702,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/view-from-champadevi-hike.jpg",
       "/images/Day-hiking-to-CHAMPADEVI-2285-m-Kathmandu-II.jpg",
       "/images/Chmapdevi-Hike-Route.gif",
-      "/images/chapadevi.webpg",
+      "/images/chapadevi.webp",
       "/images/aa51b90ef3a5330b6f06cb60c62cf2cc.jpg",
     ],
     overView: {
@@ -6981,7 +6981,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/Chitwan-elephants-1024x700-785x400.jpeg", // Example image, replace with actual URL if available
       "/images/ChitwanNationalParkTourfromPokhara-Klook.jpg",
       "/images/one-horned-rhinos-in-chitwan-national-park.jpg",
-      "/images/Tiger-Encounter-in-Chitwan-National-Park",
+      "/images/Tiger-Encounter-in-Chitwan-National-Park.jpg",
       "/images/3-nights-4-days-chitwan-jungle-safari.jpg",
     ],
     overView: {
@@ -8759,7 +8759,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/Everest-Base-Camp-Helicopter-Tour-With-Landing-at-Everest-View-Hotel-990x490.jpg",
       "/images/everest-base-camp-heli-tour (1).jpg",
       "/images/Return from Everest Base Camp in Helicopter.jpg",
-      "/images/everest-base-camp-heli-tourjpg",
+      "/images/everest-base-camp-heli-tour.jpg",
       "/images/s6jMV8erLtYii9BK1720742400.webp",
     ],
     overView: {
@@ -8855,7 +8855,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/5c.jpg",
       "/images/langtang-helicopter-tour.jpglx5.jpg",
       "/images/langtang-helicopter-tour-1.jpg",
-      "/images/Langtang-Helicopter-Tour-1-635x347",
+      "/images/Langtang-Helicopter-Tour-1-635x347.jpg",
       "/images/Over-flying-Helicopter-to-Langtang.webp",
     ],
     overView: {
@@ -9138,7 +9138,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/2023-06-22-2133.jpg",
       "/images/gorakshep-lukla-b.webp",
       "/images/Gorakshep-to-Kathmandu-Heli-service-1024x468.jpg",
-      "/images/",
+      "/images/04.jpg",
     ],
     overView: {
       duration: "1 Day",
@@ -9405,7 +9405,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/c9.jpg",
       "/images/namche-Helicopter.webp",
       "/images/namche-ktm-banner.webp",
-      "/images/Namche-To-Kathmandu-Helicopter-990x490.jpg.jpg",
+      "/images/Namche-To-Kathmandu-Helicopter-990x490.jpg",
       "/images/namche-to-lukla-helicopter-flight83.jpg",
     ],
     overView: {
@@ -10036,7 +10036,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/6205d755a031a_Untitled-1.jpg",
       "/images/maxresdefault789.jpg",
       "/images/Pumdikot-Pokhara.jpg",
-      "/images/travellete-pumdikot.jpg",
+      "/images/travellete-pumdikot.jpeg",
     ],
     overView: {
       duration: "1 Day",
@@ -10127,7 +10127,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/1445666.jpg",
       "/images/5455c.jpg",
       "/images/Phulchowki-hill-tour.jpg",
-      "/images/phulchoeki-jpg.webp.jpg",
+      "/images/phulchoeki-jpg.webp",
       "/images/Top-10-Short-Day-Hiking-Trails-in-Kathmandu-rotated.jpg",
     ],
     overView: {
@@ -10310,7 +10310,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/c367898765.jpg",
       "/images/img_9903-scaled.jpg",
       "/images/rafting-bhotekoshi.jpg",
-      "/images/rafting-in-nepal.webp.jpg",
+      "/images/rafting-in-nepal.webp",
       "/images/white-river-rafting-nepal.jpg",
     ],
     overView: {
@@ -11119,11 +11119,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     days: "14",
     people: "1 to 10",
     subimages: [
-      "/images/langtang-ganjala-pass-trek.webp",
+      "/images/langtang-valley-trek-with-ganja-la-pass-14-days.jpg",     
       "/images/langtang-ganja-la-pass-trekking70.jpeg",
       "/images/ganjala-pass-trek8.jpg",
       "/images/Langtang-Ganja-la-trek.webp",
-      "/images/langtang-valley-trek-with-ganja-la-pass-14-days.jpg",
+      "/images/langtang-ganjala-pass-trek.webp",
     ],
     overView: {
       duration: "14 Days",
@@ -15015,7 +15015,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/glimpse-of-nepal-india-bhutan.jpg",
       "/images/images678987654.jpeg",
       "/images/nepal-bhutan-tour.jpg",
-      "/images/Tango-Monastery-1350x670jpg",
+      "/images/Tango-Monastery-1350x670.jpg",
     ],
     overView: {
       duration:
@@ -15127,7 +15127,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/bhutan-cultural-tour.jpg",
       "/images/bhutan-tour-holiday.webp",
       "/images/bhuu.jpg",
-      "/images/khamsum_yuelley_templejpg",
+      "/images/khamsum_yuelley_temple.jpg",
     ],
     overView: {
       duration:
@@ -15476,7 +15476,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/6c41c7e9c6b965e57713a0538321a340.jpg",
       "/images/16877920653_f5c78b3fc2_k.jpg",
       "/images/Gangtey-Monastery-1200x1200.jpg",
-      "/images/image787s.jpg",
+      "/images/image787s.jpeg",
       "/images/Travel-to-Bhutan-and-uncover-the-hidden-gems-of-this-Dragon-Kingdom.jpg",
     ],
     overView: {
@@ -15756,8 +15756,8 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "/images/bhutan_mask_dancer.jpg",
       "/images/9-daybhutantour480.webp",
       "/images/mini_magick20180414-4-1nq5yy1.jpg",
-      "/images/rrtedcsdsc.jpg",
-      "/images/western-bhutan-tour.jpg",
+      "/images/rrtedcsdsc.jpeg",
+      "/images/western-bhutan-tour copy.jpg",
     ],
     overView: {
       duration:
@@ -15905,11 +15905,12 @@ const infoContent: { [key: string]: TrekkingContent } = {
     days: "14 days",
     people: "1-10",
     subimages: [
+      "/images/yongphula.jpg",
       "/images/dochula-pass.jpgQFe.jpg",
       "/images/Trashigang-Dzong-Courtesy-of-Scarlette-DG-qni7iblufceu3kjy239uy3r6iuc6yfqpygilyikywc.jpg",
       "/images/punakha-dzong.webp",
       "/images/yongphula.jpg",
-      "/images/yongphula.jpg",
+      
     ],
     overView: {
       duration:
@@ -18929,7 +18930,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     slug: "ura_yakchoe_festival_tour_9_days",
     title: "Ura Yakchoe Festival Tour - 9 Days",
     category: "Cultural Tour",
-    img: "/images5.-Nimalung-Tshechu-Festival-1024x731.jpg",
+    img: "/images/1034808m.jpg",
     description:
       "Immerse yourself in the spiritual and cultural richness of Bhutan during the Ura Yakchoe Festival. This 9-day tour takes you through the picturesque Ura Valley, allowing you to experience one of Bhutan’s most unique festivals and explore the country's stunning landscapes and ancient monasteries.",
     location: "Bhutan",
@@ -19442,7 +19443,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     people: "Group Tour",
     subimages: [
       "/images/8945.jpg",
-      "/images/Everest-Base-Camp.jpg",
+      "/images/Everest-Base-Camp copy.jpg",
       "/images/image567754s.jpeg",
       "/images/Lhasa Everest Basecamp Tour BANNER-.webp",
       "/images/lhasa-everest-base-camp-tour.webp",
@@ -20787,7 +20788,7 @@ Kyajo_Ri_Peak_Climbing_17_Days: {
     "/peak_climbing/kyajo-ri-peak-climbing-1.webp",
     "/peak_climbing/kailash-with-simikot.webp",
     "/peak_climbing/home-climbing-sliders-ae2999e2.jpeg",
-    "/peak_climbing/Everest-Base-Camp-Trek-Ein-Abenteuer-im-Herzen-des-Himalayas-min-scaled",
+    "/peak_climbing/Everest-Base-Camp-Trek-Ein-Abenteuer-im-Herzen-des-Himalayas-min-scaled.jpg",
     "/peak_climbing/depositphotos_454144964-stock-photo-mountaineers-make-climbing-mount-island.jpg"
   ],
   overView: {
