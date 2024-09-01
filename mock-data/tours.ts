@@ -162,7 +162,7 @@ export const tourRegions: TrekAndTours[] = [
       },
       {
         name: "Kathmandu City Tour",
-        slug: "Kathmandu_City_Tou",
+        slug: "Kathmandu_City_Tour",
       },
       {
         name: "Everest Mountain Sightseeing Flight by Plane",

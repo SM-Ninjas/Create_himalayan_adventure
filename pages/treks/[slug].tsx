@@ -4,7 +4,6 @@ import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
 import infoContent, {
-  TrekkingContent,
   subimages,
 } from "@/components/ui/infoContent";
 import OverView from "@/components/ui/overView";

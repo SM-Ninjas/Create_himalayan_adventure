@@ -25,7 +25,7 @@ function PlacesDetails() {
 
   return (
     <>
-      <div className="relative container border border-black pt-28">
+      <div className="relative  pt-28">
         <div key={currentPlaceData?.id} className="mb-4">
           <div className="container flex flex-col gap-y-2">
             <h1 className="title-text">{currentPlaceData?.title}</h1>
