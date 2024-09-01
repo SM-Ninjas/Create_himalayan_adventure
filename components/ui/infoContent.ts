@@ -6565,8 +6565,8 @@ const infoContent: { [key: string]: TrekkingContent } = {
   },
   Kathmandu_City_Tour: {
     id: 43,
-    slug: "kathmandu-city-tour",
-    category: "City Tour",
+    slug: "Kathmandu_City_Tour",
+  category: "City Tour",
     img: "/images/nepal-kathmandu-city-view.jpg",
     description:
       "Explore the rich cultural heritage of Kathmandu with visits to its most iconic landmarks and UNESCO World Heritage Sites.",
