@@ -520,7 +520,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Always follow the safety guidelines provided by your tour guide or park officials. Avoid venturing into the jungle alone or without a guide, and do not feed or touch the animals. In case of an emergency, contact the park officials immediately.    ",
       ],
     },
-    path: ["/images/ChitawanMap.png"],
+    path: ["/images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   //                                                                               rara-lake-tour
@@ -5684,7 +5684,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
       points: [],
     },
-    path: ["/image/mapmain.jpg"],
+    path: ["/image/Nagarjung Jamcho Day Hike - 1 Day.png"],
     inclusions: false,
   },
   //                                                          Champadevi Day Hike - 1 Day
@@ -6015,7 +6015,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Retain from looking downwards; instead, look straight forward.",
       ],
     },
-    path: ["path_to_additional_info1.jpg", "path_to_additional_info2.jpg"],
+    path: ["/images/Bungee Jumping in Pokhara.png"],
     inclusions: false,
   },
   Rafting_Pokhara: {
@@ -6110,10 +6110,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "rafting-pokhara-path-1.jpg",
-      "rafting-pokhara-path-2.jpg",
-      "rafting-pokhara-path-3.jpg",
-    ],
+      "images/seti_river_map.png"],
     inclusions: false,
   },
   Zipline_Pokhara: {
@@ -6208,7 +6205,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "If you have any severe/serious problem with your back, we recommend you not to go for this adventurous activity.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Zipline (Zip Flyer) in Pokhara.png"],
     inclusions: false,
   },
   Ultra_Light_Flight_Pokhara: {
@@ -6304,7 +6301,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "If you are below 18, make sure that your parents have signed the waiver.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Ultra Light Flight in Pokhara Nepal - 1 Day.png"],
     inclusions: false,
   },
   Paragliding_Pokhara: {
@@ -6394,7 +6391,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "You must confirm that you are using a licensed and registered business before you go paragliding. One must make sure that the business they select is insured. There is no assurance, despite some businesses' claims to the contrary. Therefore, it is important to pick a reliable business that will guarantee and provide insurance. Additionally, one must make sure they adhere to all of the pilot's directions and correctly tighten the harnesses and belts. Additionally, it's critical to maintain composure because panicking might worsen the situation. Give the pilot authority in any scenario because you can trust them to know what to do. Exhilarating and enthralling, paragliding in Pokhara is a once-in-a-lifetime experience. Everyone should do it at least once in their lives, without a doubt.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Paragliding in Nepal.png"],
     inclusions: false,
   },
   //Day Tours from Kathmandu
@@ -6480,7 +6477,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Consider a guide: Hiring a local guide can enhance your understanding of the heritage sites.",
       ],
     },
-    path: ["path/to/detailed-itinerary"],
+    path: ["/images/Seven World Heritage Kathmandu Day Tour.jpg"],
     inclusions: false,
   },
   Chandragiri_Hill_Day_Tour: {
@@ -6721,7 +6718,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "https://www.greenvalleynepaltreks.com/everest-mountain-sightseeing-flight-by-plane",
+      "/images/Everest Base Camp Helicopter Tour with Landing at Everest View Hotel.jpg",
     ],
     inclusions: false,
   },
@@ -6802,7 +6799,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "https://www.greenvalleynepaltreks.com/bungmati-khokana-village-tour",
+      "/images/Bungmati-Khokana Village Tour.png",
     ],
     inclusions: false,
   },
@@ -6881,7 +6878,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Wear comfortable, weather-appropriate clothing suitable for the flight. Bring a camera to capture the beautiful views and the excitement of the experience. Ensure you have sun protection, including sunscreen, sunglasses, and a hat. Listen carefully to the safety briefing provided by the instructors and follow all instructions during the flight.",
       ],
     },
-    path: ["/images/://www.greenvalleynepaltreks.com/paragliding-in-nepal"],
+    path: ["/images/Paragliding in Nepal.png"],
     inclusions: false,
   },
   Kathmandu_Day_Tour: {
@@ -6961,7 +6958,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Wear comfortable walking shoes and dress appropriately for temple visits. Bring a camera to capture the sights and a water bottle to stay hydrated. Ensure you have sun protection such as sunscreen, sunglasses, and a hat. Be respectful of local customs and traditions, especially when visiting religious sites.",
       ],
     },
-    path: ["https://www.greenvalleynepaltreks.com/kathmandu-day-tour"],
+    path: ["images/Kathmandu Day Tour.png"],
     inclusions: false,
   },
 
@@ -7062,7 +7059,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Chitwan National Park"],
+    path: ["/images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   Chitwan_National_Park_Tour_2N3D: {
@@ -7156,7 +7153,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Chitwan National Park"],
+    path: ["images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   Bardia_National_Park_Tour: {
@@ -7260,7 +7257,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Bardia National Park"],
+    path: ["/images/3 Nights 4 Days Bardia National Park.jpg"],
     inclusions: false,
   },
   Bardia_Jungle_Safari_Tour: {
@@ -7366,7 +7363,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Bardia National Park"],
+    path: ["/images/Bardia Jungle Safari Tour.jpg"],
     inclusions: false,
   },
   //Multiple Day Tours
@@ -8555,7 +8552,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Communicate with the tour operator about any concerns or questions before the tour.",
       ],
     },
-    path: ["https://example.com/path1", "https://example.com/path2"],
+    path: ["/images/Annapurna Base Camp Helicopter Tour - 2 Hours.png"],
     inclusions: false,
   },
   Damodar_Kund_Muktinath_Helicopter_Tour: {
@@ -8650,7 +8647,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Weather conditions: The tour is dependent on weather conditions, and flights may be delayed or canceled due to unfavorable weather. It is important to keep this in mind when planning your trip and have some flexibility in your schedule.",
       ],
     },
-    path: [""],
+    path: ["/images/Damodar Kund - Muktinath Helicopter Tour - 1 Day.png"],
     inclusions: false,
   },
   Muktinath_Helicopter_Tour: {
@@ -8740,7 +8737,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Be prepared for weather changes: The weather can change quickly in the mountains, and it's important to be prepared for unexpected weather conditions. Bring warm clothing and waterproof gear in case of rain or snow.",
       ],
     },
-    path: ["https://example.com/muktinath-tour-path"],
+    path: ["/images/Damodar Kund - Muktinath Helicopter Tour - 1 Day.png"],
     inclusions: false,
   },
   Everest_Base_Camp_Helicopter_Tour: {
@@ -8831,12 +8828,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu",
-      "Lukla",
-      "Everest Base Camp",
-      "Kalapatthar",
-      "Everest View Hotel",
-      "Kathmandu",
+      "/images/Everest Base Camp Helicopter Tour with Landing at Everest View Hotel.jpg"
     ],
     inclusions: false,
   },
@@ -8930,7 +8922,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack essentials such as a small backpack, personal identification, and necessary medications.",
       ],
     },
-    path: [""],
+    path: ["/images/Langtang Helicopter Tour from Kathmandu.png"],
     inclusions: false,
   },
   //Helicopter Flights in Nepal
@@ -9025,7 +9017,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
       ],
     },
-    path: ["Lukla to Kathmandu Helicopter Flight"],
+    path: ["/images/Lukla to Kathmandu Helicopter Flight - 1 Hour.png"],
     inclusions: false,
   },
   Kathmandu_to_Lukla_Helicopter_Flight: {
@@ -9119,7 +9111,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
       ],
     },
-    path: ["Kathmandu to Lukla Helicopter Flight"],
+    path: ["/images/Lukla to Kathmandu Helicopter Flight - 1 Hour.png"],
     inclusions: false,
   },
   Gorakshep_to_Kathmandu_Helicopter_Flight: {
@@ -9212,7 +9204,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Capture memories with a camera or smartphone to enjoy the experience fully.",
       ],
     },
-    path: ["Gorakshep to Kathmandu Helicopter Flight"],
+    path: ["/images/Gorakshep to Kathmandu Helicopter Flight - 3 Hours.jpg"],
     inclusions: false,
   },
   Gorakshep_to_Lukla_Helicopter_Flight: {
@@ -9302,7 +9294,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "What to wear: Dress warmly for your flight. Even in summer, temperatures at high altitudes can be cold. Wear layers of clothing that you can easily add or remove, as well as sturdy shoes. Sunglasses and a hat are also recommended, as the sun's rays are stronger at high altitudes.",
       ],
     },
-    path: ["Gorakshep", "Lukla"],
+    path: ["/images/Gorakshep to Lukla Helicopter Flight - 20 Minutes.jpg"],
     inclusions: false,
   },
   Kalapatthar_to_Kathmandu_Helicopter_Flight: {
@@ -9387,7 +9379,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Be prepared for potential delays due to weather conditions.",
       ],
     },
-    path: ["Kalapatthar", "Lukla", "Kathmandu"],
+    path: ["/images/Kalapatthar to Kathmandu Helicopter Flight.jpg"],
     inclusions: false,
   },
   Namche_to_Kathmandu_Helicopter_Flight: {
@@ -9473,7 +9465,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Follow crew instructions and remain seated with seatbelts fastened during the flight.",
       ],
     },
-    path: ["helicopter", "namche", "kathmandu", "everest", "himalayas"],
+    path: ["/images/Namche to Kathmandu Helicopter Flight.png"],
     inclusions: false,
   },
   //Day Hikes and Tours from Pokhara
@@ -9558,7 +9550,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Avoid negative habits like smoking or drinking to maintain physical and mental strength.",
       ],
     },
-    path: ["Pokhara", "Hemja", "Astam Village", "Return to Hemja"],
+    path: ["/images/Astam Village Day Hiking from Pokhara - 1 Day.png"],
     inclusions: false,
   },
   Australian_Camp_Day_Hike: {
@@ -9646,12 +9638,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Kande",
-      "Australian Camp",
-      "Dhampus Village",
-      "Phedi",
-      "Return to Kande",
+      "images/Australian Camp Day Hike from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9739,12 +9726,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Seti Bridge",
-      "Kahun Danda",
-      "Matepani Gumba",
-      "Bhadrakali Temple",
-      "Return to Pokhara",
+     "/images/Kahun Danda Hiking from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9834,13 +9816,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Begnas Lake",
-      "Kalikasthan Village",
-      "Thulakot",
-      "Kaulekote",
-      "Begnas Lake",
-      "Return to Pokhara",
+     "/images/Kalikasthan Thulakot Day Hike from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9929,7 +9905,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Discuss the hike details with your guide before starting.",
       ],
     },
-    path: ["Pokhara → Phedi → Naudanda → Sarangkot → Pokhara"],
+    path: ["/images/Naudanda Sarangkot Day Hike.png"],
     inclusions: false,
   },
   Sarangkot_Viewpoint_Hike_from_Pokhara: {
@@ -10017,7 +9993,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Follow the instructions and advice of your local guide for safety and convenience.",
       ],
     },
-    path: ["Pokhara → Kaharaya Area → Sarangkot Viewpoint → Pokhara"],
+    path: ["/images/Sarangkot Viewpoint Hike from Pokhara.png"],
     inclusions: false,
   },
   Pumdikot_Hike_with_World_Peace_Pagoda: {
@@ -10105,9 +10081,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Phewa Lake to World Peace Pagoda",
-      "World Peace Pagoda to Pumdikot Hill",
-      "Pumdikot Hill back to Pokhara",
+      "/images/Pumdikot_map.png"
     ],
     inclusions: false,
   },
@@ -10195,10 +10169,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Godawari",
-      "Godawari to Phulchoki Hill",
-      "Phulchoki Hill back to Godawari",
-      "Godawari to Kathmandu",
+     "/images/Phulchoki Day Hiking.png"
     ],
     inclusions: false,
   },
@@ -10287,10 +10258,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Budhanil Kantha",
-      "Budhanil Kantha to Shivapuri Hill",
-      "Shivapuri Hill to Kapan",
-      "Kapan to Kathmandu",
+      "/images/Shivapuri_map.png"
     ],
     inclusions: false,
   },
@@ -10384,9 +10352,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu/Pokhara/Chitwan to Charaudi",
-      "Rafting from Charaudi to Kurintar",
-      "Return drive from Kurintar to Kathmandu/Pokhara/Chitwan",
+     "/images/Trishuli River Rafting - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -10480,7 +10446,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Check if your travel insurance covers adventure activities.",
       ],
     },
-    path: ["https://www.example.com/trishuli-river-rafting"],
+    path: ["/images/Trishuli River Rafting - 1 Day.png"],
     inclusions: false,
   },
 
@@ -10629,7 +10595,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Avoid coffee and alcohol to minimize the risk of altitude sickness.",
       ],
     },
-    path: ["langtang_valley_path.jpg"],
+    path: ["/images/Langtang Valley Trek - 10 Days.jpg"],
     inclusions: false,
   },
   Langtang_Gosaikunda_Lake_Trek: {
@@ -10942,14 +10908,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Syabrubesi",
-      "Syabrubesi to Gatlang",
-      "Gatlang to Tatopani",
-      "Tatopani to Thuman via Nagthali Bhyang",
-      "Thuman to Briddhim",
-      "Briddhim to Lama Hotel",
-      "Lama Hotel to Syabrubesi",
-      "Syabrubesi to Kathmandu",
+     "/images/Helambu Circuit Trek – 8 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11084,13 +11043,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Sundarijal",
-      "Sundarijal to Chisapani",
-      "Chisapani to Kutumsang",
-      "Kutumsang to Melamchigaon",
-      "Melamchigaon to Sermathang",
-      "Sermathang to Melamchi Pul Bazaar",
-      "Melamchi Pul Bazaar to Kathmandu",
+      "/images/Helambu Circuit Trek – 8 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11259,15 +11212,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Syabrubesi to Lama Hotel",
-      "Lama Hotel to Langtang Village",
-      "Langtang Village to Kyanjin Gompa",
-      "Kyanjin Gompa to Nyengang Kharka",
-      "Nyengang Kharka to Keldang via Ganja La Pass",
-      "Keldang to Dukpu",
-      "Dukpu to Tarkeghyang",
-      "Tarkeghyang to Sermathang",
-      "Sermathang to Melamchi Pul Bazar",
+      "/images/Langtang Ganja La Pass Trek – 14 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11394,9 +11339,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Dhunche to Chandanbari",
-      "Chandanbari to Gosaikunda",
-      "Gosaikunda to Dhunche",
+      "/images/Gosaikunda Lake Trek – 7 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11791,7 +11734,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure good physical fitness and acclimatization. Prepare for high-altitude trekking with warm clothing, high-altitude gear, and adequate provisions. Consult with your trekking company for specific requirements and safety measures.",
       ],
     },
-    path: [""],
+    path: ["/images/Kanchenjunga North Base Camp Trek - 20 Days.jpg"],
     inclusions: false,
   },
   Kanchenjunga_South_Base_Camp_Trek_13_Days: {
@@ -11959,22 +11902,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Bhadrapur by flight",
-      "Bhadrapur to Illam by drive",
-      "Illam to Taplejung by drive",
-      "Taplejung to Lali Kharka by trek",
-      "Lali Kharka to Khesewa by trek",
-      "Khesewa to Pumphe Danda by trek",
-      "Pumphe Danda to Yamphuding by trek",
-      "Yamphuding to Torongding by trek",
-      "Torongding to Cheram by trek",
-      "Cheram to Ramche by trek",
-      "Ramche to Torongding by trek",
-      "Torongding to Yamphuding by trek",
-      "Yamphuding to Ranipul by trek",
-      "Ranipul to Phidim by drive",
-      "Phidim to Bhadrapur by drive",
-      "Bhadrapur to Kathmandu by flight",
+      "/images/Kanchenjunga North Base Camp Trek - 20 Days.jpg"
     ],
     inclusions: false,
   },
@@ -12192,25 +12120,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Bhadrapur",
-      "Bhadrapur to Taplejung",
-      "Taplejung to Sekathum",
-      "Sekathum to Amjilasa",
-      "Amjilasa to Gyabla",
-      "Gyabla to Ghunsa",
-      "Ghunsa to Kambachen",
-      "Kambachen to Lonak",
-      "Lonak to Kanchenjunga North Base Camp",
-      "Kanchenjunga North Base Camp to Lonak",
-      "Lonak to Ghunsa",
-      "Ghunsa to Sele La Camp",
-      "Sele La Camp to Cheram",
-      "Cheram to Ramche",
-      "Ramche to Oktang Viewpoint and Back",
-      "Ramche to Tortang",
-      "Tortang to Sekathum",
-      "Sekathum to Illam or Taplejung",
-      "Illam or Taplejung to Kathmandu",
+      "/images/Kanchenjunga Circuit Trek.jpg"
     ],
     inclusions: false,
   },
