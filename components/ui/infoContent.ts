@@ -520,7 +520,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Always follow the safety guidelines provided by your tour guide or park officials. Avoid venturing into the jungle alone or without a guide, and do not feed or touch the animals. In case of an emergency, contact the park officials immediately.    ",
       ],
     },
-    path: ["/images/ChitawanMap.png"],
+    path: ["/images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   //                                                                               rara-lake-tour
@@ -592,9 +592,9 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup and Drop off facilities",
-      "Green Valley Nepal Trek T-Shirt and Duffle Bag",
+      "Create Himalaya Trek T-Shirt and Duffle Bag",
       "Medical Kits might be necessary in Certain Cases",
-      "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
+      "Free Excess Luggage Stored at Create Himalaya Store During the Trek",
       "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
       "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
     ],
@@ -668,9 +668,9 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup and Drop off facilities",
-      "Green Valley Nepal Trek T-Shirt and Duffle Bag",
+      "Create Himalaya Trek T-Shirt and Duffle Bag",
       "Medical Kits might be necessary in Certain Cases",
-      "Free Excess Luggage Stored at Green Valley Nepal Store During the Trek",
+      "Free Excess Luggage Stored at Create Himalaya Store During the Trek",
       "Be accompanied by a knowledgeable trek leader, assistant guides, and porters who will not only provide you with all the assistance and direction you need but also educate you about the fascinating Sherpa culture of the area.",
       "Know that you are assisting a firm that runs its treks following principles that guarantee respectful, secure, and equitable working conditions both in Nepal and on all tours undertaken worldwide.",
     ],
@@ -1519,11 +1519,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International Airport Pickup And Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Map of Annapurna Full Circuit Trek",
       "An Oximeter to Check Blood Oxygen Saturation Levels.",
       "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
+      "Free Excess Luggage Storing At Create Himalaya Store During The Trek",
       "Arrangement of sleeping bags and down jackets if required",
     ],
     itinerary: [
@@ -5684,7 +5684,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
       points: [],
     },
-    path: ["/image/mapmain.jpg"],
+    path: ["/image/Nagarjung Jamcho Day Hike - 1 Day.png"],
     inclusions: false,
   },
   //                                                          Champadevi Day Hike - 1 Day
@@ -6015,7 +6015,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Retain from looking downwards; instead, look straight forward.",
       ],
     },
-    path: ["path_to_additional_info1.jpg", "path_to_additional_info2.jpg"],
+    path: ["/images/Bungee Jumping in Pokhara.png"],
     inclusions: false,
   },
   Rafting_Pokhara: {
@@ -6086,7 +6086,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "You also get a pickup service from your hotel in Lakeside to the rafting's starting point.",
       "You can expect a drop-off service in a private vehicle from the ending point of rafting to your hotel.",
       "Along with rafting, we also try to give visitors more insights about the places.",
-      "With Green Valley, you will be accompanied by one of Nepal's best trekking and travel agencies with over two decades of experience.",
+      "With Create Himalayawill be accompanied by one of Nepal's best trekking and travel agencies with over two decades of experience.",
     ],
     itinerary: [
       {
@@ -6110,10 +6110,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "rafting-pokhara-path-1.jpg",
-      "rafting-pokhara-path-2.jpg",
-      "rafting-pokhara-path-3.jpg",
-    ],
+      "images/seti_river_map.png"],
     inclusions: false,
   },
   Zipline_Pokhara: {
@@ -6208,7 +6205,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "If you have any severe/serious problem with your back, we recommend you not to go for this adventurous activity.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Zipline (Zip Flyer) in Pokhara.png"],
     inclusions: false,
   },
   Ultra_Light_Flight_Pokhara: {
@@ -6304,7 +6301,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "If you are below 18, make sure that your parents have signed the waiver.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Ultra Light Flight in Pokhara Nepal - 1 Day.png"],
     inclusions: false,
   },
   Paragliding_Pokhara: {
@@ -6375,8 +6372,8 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Take advantage of a smooth landing by the lake, which is regarded as a beautiful and exciting experience in and of itself.",
     ],
     facilities: [
-      "Green Valley Nepal Trek T-Shirt as a souvenir.",
-      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trip.",
+      "Create Himalaya Trek T-Shirt as a souvenir.",
+      "Free Excess Luggage Storing At Create Himalaya Store During The Trip.",
       "Arrangement of the best hotels at a reasonable price.",
       "Pick up from the hotel to Sarangkot (start) then back to the hotel from Pame (end).",
       "Discounts and extra services for old customers.",
@@ -6394,7 +6391,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "You must confirm that you are using a licensed and registered business before you go paragliding. One must make sure that the business they select is insured. There is no assurance, despite some businesses' claims to the contrary. Therefore, it is important to pick a reliable business that will guarantee and provide insurance. Additionally, one must make sure they adhere to all of the pilot's directions and correctly tighten the harnesses and belts. Additionally, it's critical to maintain composure because panicking might worsen the situation. Give the pilot authority in any scenario because you can trust them to know what to do. Exhilarating and enthralling, paragliding in Pokhara is a once-in-a-lifetime experience. Everyone should do it at least once in their lives, without a doubt.",
       ],
     },
-    path: ["path1_url", "path2_url", "path3_url"],
+    path: ["/images/Paragliding in Nepal.png"],
     inclusions: false,
   },
   //Day Tours from Kathmandu
@@ -6458,7 +6455,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Hotel pickup and drop-off service.",
-      "Green Valley Nepal Trek T-Shirt.",
+      "Create Himalaya Trek T-Shirt.",
       "Medical Kits available if necessary.",
       "Discounts and extra services for repeat customers.",
       "Arrangement of best hotels at reasonable prices upon request.",
@@ -6480,7 +6477,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Consider a guide: Hiring a local guide can enhance your understanding of the heritage sites.",
       ],
     },
-    path: ["path/to/detailed-itinerary"],
+    path: ["/images/Seven World Heritage Kathmandu Day Tour.jpg"],
     inclusions: false,
   },
   Chandragiri_Hill_Day_Tour: {
@@ -6565,8 +6562,8 @@ const infoContent: { [key: string]: TrekkingContent } = {
   },
   Kathmandu_City_Tour: {
     id: 43,
-    slug: "kathmandu-city-tour",
-    category: "City Tour",
+    slug: "Kathmandu_City_Tour",
+  category: "City Tour",
     img: "/images/nepal-kathmandu-city-view.jpg",
     description:
       "Explore the rich cultural heritage of Kathmandu with visits to its most iconic landmarks and UNESCO World Heritage Sites.",
@@ -6721,7 +6718,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "https://www.greenvalleynepaltreks.com/everest-mountain-sightseeing-flight-by-plane",
+      "/images/Everest Base Camp Helicopter Tour with Landing at Everest View Hotel.jpg",
     ],
     inclusions: false,
   },
@@ -6802,7 +6799,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "https://www.greenvalleynepaltreks.com/bungmati-khokana-village-tour",
+      "/images/Bungmati-Khokana Village Tour.png",
     ],
     inclusions: false,
   },
@@ -6881,7 +6878,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Wear comfortable, weather-appropriate clothing suitable for the flight. Bring a camera to capture the beautiful views and the excitement of the experience. Ensure you have sun protection, including sunscreen, sunglasses, and a hat. Listen carefully to the safety briefing provided by the instructors and follow all instructions during the flight.",
       ],
     },
-    path: ["/images/://www.greenvalleynepaltreks.com/paragliding-in-nepal"],
+    path: ["/images/Paragliding in Nepal.png"],
     inclusions: false,
   },
   Kathmandu_Day_Tour: {
@@ -6961,7 +6958,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Wear comfortable walking shoes and dress appropriately for temple visits. Bring a camera to capture the sights and a water bottle to stay hydrated. Ensure you have sun protection such as sunscreen, sunglasses, and a hat. Be respectful of local customs and traditions, especially when visiting religious sites.",
       ],
     },
-    path: ["https://www.greenvalleynepaltreks.com/kathmandu-day-tour"],
+    path: ["images/Kathmandu Day Tour.png"],
     inclusions: false,
   },
 
@@ -7062,7 +7059,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Chitwan National Park"],
+    path: ["/images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   Chitwan_National_Park_Tour_2N3D: {
@@ -7156,7 +7153,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Chitwan National Park"],
+    path: ["images/3 Nights 4 Days Chitwan National Park Tour.png"],
     inclusions: false,
   },
   Bardia_National_Park_Tour: {
@@ -7260,7 +7257,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Bardia National Park"],
+    path: ["/images/3 Nights 4 Days Bardia National Park.jpg"],
     inclusions: false,
   },
   Bardia_Jungle_Safari_Tour: {
@@ -7366,7 +7363,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack insect repellent, sunscreen, and a hat for protection against the sun and insects.",
       ],
     },
-    path: ["Kathmandu", "Bardia National Park"],
+    path: ["/images/Bardia Jungle Safari Tour.jpg"],
     inclusions: false,
   },
   //Multiple Day Tours
@@ -7435,7 +7432,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup And Drop off service.",
-      "Green Valley Nepal Trek T-Shirt.",
+      "Create Himalaya Trek T-Shirt.",
       "Medical Kits - Which May Be Necessary In Certain Cases.",
       "Discounts and Extra services for old customers.",
       "Arrangement of the best hotels at a reasonable price.",
@@ -7682,7 +7679,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup And Drop off service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits - Which May Be Necessary In Certain Cases",
       "Arrangement of the best hotels at a reasonable price",
       "Delicious Nepalese cuisine",
@@ -7800,7 +7797,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup and Drop-off service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits - Which May Be Necessary In Certain Cases",
       "Arrangement of the best hotels at a reasonable price",
       "Delicious Nepalese cuisine",
@@ -7916,7 +7913,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "International and domestic airport pickup and drop-off service.",
       "Twin sharing room with attached bath and AC.",
       "7 breakfasts and a farewell dinner.",
-      "Green Valley Nepal Trek T-shirt.",
+      "Create Himalaya Trek T-shirt.",
       "Medical kits for emergencies.",
       "Experienced guides and support staff.",
     ],
@@ -8049,7 +8046,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup And Drop off service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits",
       "Discounts and Extra services for old customers",
       "Arrangement of the best hotels at reasonable prices",
@@ -8171,7 +8168,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup and Drop off service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits - Which May Be Necessary In Certain Cases",
       "Discounts and Extra services for old customers",
       "Arrangement of the best hotels at reasonable prices",
@@ -8280,7 +8277,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup And Drop off service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits - Which May Be Necessary In Certain Cases.",
       "Discounts and Extra services for old customers",
       "Arrangement of the best hotels at a reasonable price",
@@ -8402,7 +8399,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Airport Pickup and Drop-off Service",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits",
       "Discounts and Extra Services for Old Customers",
       "Arrangement of the Best Hotels at Reasonable Prices",
@@ -8533,7 +8530,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     facilities: [
       "Well-maintained helicopters operated by experienced pilots",
       "Professional guides to enhance your experience",
-      "Complimentary Green Valley Nepal Trek T-Shirt",
+      "Complimentary Create Himalaya Trek T-Shirt",
       "Safety equipment, including oxygen cylinders and medical kits",
       "Transfer to and from the airport",
     ],
@@ -8555,7 +8552,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Communicate with the tour operator about any concerns or questions before the tour.",
       ],
     },
-    path: ["https://example.com/path1", "https://example.com/path2"],
+    path: ["/images/Annapurna Base Camp Helicopter Tour - 2 Hours.png"],
     inclusions: false,
   },
   Damodar_Kund_Muktinath_Helicopter_Tour: {
@@ -8626,7 +8623,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Explore Tibetan-style monasteries and gompas in the Mustang region.",
     ],
     facilities: [
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits",
       "Discounts and Extra services for old customers",
       "Arrangement of the best hotels at reasonable prices",
@@ -8650,7 +8647,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Weather conditions: The tour is dependent on weather conditions, and flights may be delayed or canceled due to unfavorable weather. It is important to keep this in mind when planning your trip and have some flexibility in your schedule.",
       ],
     },
-    path: [""],
+    path: ["/images/Damodar Kund - Muktinath Helicopter Tour - 1 Day.png"],
     inclusions: false,
   },
   Muktinath_Helicopter_Tour: {
@@ -8716,7 +8713,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Visit to the Muktinath monastery, a Tibetan Buddhist monastery known for its stunning architecture and spiritual significance.",
     ],
     facilities: [
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek T-Shirt",
       "Medical Kits",
       "Discounts and Extra services for returning customers",
       "Arrangement of the best hotels at reasonable prices",
@@ -8740,7 +8737,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Be prepared for weather changes: The weather can change quickly in the mountains, and it's important to be prepared for unexpected weather conditions. Bring warm clothing and waterproof gear in case of rain or snow.",
       ],
     },
-    path: ["https://example.com/muktinath-tour-path"],
+    path: ["/images/Damodar Kund - Muktinath Helicopter Tour - 1 Day.png"],
     inclusions: false,
   },
   Everest_Base_Camp_Helicopter_Tour: {
@@ -8831,12 +8828,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu",
-      "Lukla",
-      "Everest Base Camp",
-      "Kalapatthar",
-      "Everest View Hotel",
-      "Kathmandu",
+      "/images/Everest Base Camp Helicopter Tour with Landing at Everest View Hotel.jpg"
     ],
     inclusions: false,
   },
@@ -8930,7 +8922,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Pack essentials such as a small backpack, personal identification, and necessary medications.",
       ],
     },
-    path: [""],
+    path: ["/images/Langtang Helicopter Tour from Kathmandu.png"],
     inclusions: false,
   },
   //Helicopter Flights in Nepal
@@ -9025,7 +9017,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
       ],
     },
-    path: ["Lukla to Kathmandu Helicopter Flight"],
+    path: ["/images/Lukla to Kathmandu Helicopter Flight - 1 Hour.png"],
     inclusions: false,
   },
   Kathmandu_to_Lukla_Helicopter_Flight: {
@@ -9119,7 +9111,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure you have comprehensive travel insurance that covers helicopter tours and potential medical emergencies.",
       ],
     },
-    path: ["Kathmandu to Lukla Helicopter Flight"],
+    path: ["/images/Lukla to Kathmandu Helicopter Flight - 1 Hour.png"],
     inclusions: false,
   },
   Gorakshep_to_Kathmandu_Helicopter_Flight: {
@@ -9212,7 +9204,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Capture memories with a camera or smartphone to enjoy the experience fully.",
       ],
     },
-    path: ["Gorakshep to Kathmandu Helicopter Flight"],
+    path: ["/images/Gorakshep to Kathmandu Helicopter Flight - 3 Hours.jpg"],
     inclusions: false,
   },
   Gorakshep_to_Lukla_Helicopter_Flight: {
@@ -9302,7 +9294,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "What to wear: Dress warmly for your flight. Even in summer, temperatures at high altitudes can be cold. Wear layers of clothing that you can easily add or remove, as well as sturdy shoes. Sunglasses and a hat are also recommended, as the sun's rays are stronger at high altitudes.",
       ],
     },
-    path: ["Gorakshep", "Lukla"],
+    path: ["/images/Gorakshep to Lukla Helicopter Flight - 20 Minutes.jpg"],
     inclusions: false,
   },
   Kalapatthar_to_Kathmandu_Helicopter_Flight: {
@@ -9387,7 +9379,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Be prepared for potential delays due to weather conditions.",
       ],
     },
-    path: ["Kalapatthar", "Lukla", "Kathmandu"],
+    path: ["/images/Kalapatthar to Kathmandu Helicopter Flight.jpg"],
     inclusions: false,
   },
   Namche_to_Kathmandu_Helicopter_Flight: {
@@ -9473,7 +9465,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Follow crew instructions and remain seated with seatbelts fastened during the flight.",
       ],
     },
-    path: ["helicopter", "namche", "kathmandu", "everest", "himalayas"],
+    path: ["/images/Namche to Kathmandu Helicopter Flight.png"],
     inclusions: false,
   },
   //Day Hikes and Tours from Pokhara
@@ -9534,7 +9526,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Scenic, adventurous, and enjoyable hiking to the Astam Village starting from Pokhara.",
       "Stunning 360-degree view of the mountain ranges and hilly landscapes.",
       "Check out the Astam village, currently known as the eco-village.",
-      "Walk through amazing green valleys, stone-paved paths, traditional houses, and mind-blowing rivers and forests.",
+      "Walk through amazing Create Himalayane-paved paths, traditional houses, and mind-blowing rivers and forests.",
       "Meet the locals and try unique and tasty delicacies prepared by the villagers.",
     ],
     facilities: [
@@ -9558,7 +9550,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Avoid negative habits like smoking or drinking to maintain physical and mental strength.",
       ],
     },
-    path: ["Pokhara", "Hemja", "Astam Village", "Return to Hemja"],
+    path: ["/images/Astam Village Day Hiking from Pokhara - 1 Day.png"],
     inclusions: false,
   },
   Australian_Camp_Day_Hike: {
@@ -9646,12 +9638,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Kande",
-      "Australian Camp",
-      "Dhampus Village",
-      "Phedi",
-      "Return to Kande",
+      "images/Australian Camp Day Hike from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9739,12 +9726,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Seti Bridge",
-      "Kahun Danda",
-      "Matepani Gumba",
-      "Bhadrakali Temple",
-      "Return to Pokhara",
+     "/images/Kahun Danda Hiking from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9834,13 +9816,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Pokhara",
-      "Begnas Lake",
-      "Kalikasthan Village",
-      "Thulakot",
-      "Kaulekote",
-      "Begnas Lake",
-      "Return to Pokhara",
+     "/images/Kalikasthan Thulakot Day Hike from Pokhara - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -9929,7 +9905,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Discuss the hike details with your guide before starting.",
       ],
     },
-    path: ["Pokhara → Phedi → Naudanda → Sarangkot → Pokhara"],
+    path: ["/images/Naudanda Sarangkot Day Hike.png"],
     inclusions: false,
   },
   Sarangkot_Viewpoint_Hike_from_Pokhara: {
@@ -9997,7 +9973,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Pickup and drop-off service from/to your hotel.",
       "Professional English-speaking guide.",
       "A T-shirt as a souvenir.",
-      "Safety and adventure ensured by Green Valley Adventures.",
+      "Safety and adventure ensured by Create Himalayatures.",
     ],
     itinerary: [
       {
@@ -10017,7 +9993,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Follow the instructions and advice of your local guide for safety and convenience.",
       ],
     },
-    path: ["Pokhara → Kaharaya Area → Sarangkot Viewpoint → Pokhara"],
+    path: ["/images/Sarangkot Viewpoint Hike from Pokhara.png"],
     inclusions: false,
   },
   Pumdikot_Hike_with_World_Peace_Pagoda: {
@@ -10105,9 +10081,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Phewa Lake to World Peace Pagoda",
-      "World Peace Pagoda to Pumdikot Hill",
-      "Pumdikot Hill back to Pokhara",
+      "/images/Pumdikot_map.png"
     ],
     inclusions: false,
   },
@@ -10195,10 +10169,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Godawari",
-      "Godawari to Phulchoki Hill",
-      "Phulchoki Hill back to Godawari",
-      "Godawari to Kathmandu",
+     "/images/Phulchoki Day Hiking.png"
     ],
     inclusions: false,
   },
@@ -10287,10 +10258,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Budhanil Kantha",
-      "Budhanil Kantha to Shivapuri Hill",
-      "Shivapuri Hill to Kapan",
-      "Kapan to Kathmandu",
+      "/images/Shivapuri_map.png"
     ],
     inclusions: false,
   },
@@ -10384,9 +10352,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu/Pokhara/Chitwan to Charaudi",
-      "Rafting from Charaudi to Kurintar",
-      "Return drive from Kurintar to Kathmandu/Pokhara/Chitwan",
+     "/images/Trishuli River Rafting - 1 Day.png"
     ],
     inclusions: false,
   },
@@ -10480,7 +10446,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Check if your travel insurance covers adventure activities.",
       ],
     },
-    path: ["https://www.example.com/trishuli-river-rafting"],
+    path: ["/images/Trishuli River Rafting - 1 Day.png"],
     inclusions: false,
   },
 
@@ -10553,11 +10519,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup And Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Free Langtang Valley Trek map",
       "Oximeter to check blood oxygen saturation levels",
       "Medical Kits",
-      "Free excess luggage storing at Green Valley Nepal Store during the trek",
+      "Free excess luggage storing at Create Himalaya Store during the trek",
       "Arrangement of sleeping bags and down jackets if required",
     ],
     itinerary: [
@@ -10629,7 +10595,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Avoid coffee and alcohol to minimize the risk of altitude sickness.",
       ],
     },
-    path: ["langtang_valley_path.jpg"],
+    path: ["/images/Langtang Valley Trek - 10 Days.jpg"],
     inclusions: false,
   },
   Langtang_Gosaikunda_Lake_Trek: {
@@ -10703,11 +10669,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Tea House or Lodge During Trek",
       "Meals provided: Breakfast, Lunch, and Dinner",
       "Free International Airport Pickup and Drop off Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Map of Langtang Gosaikunda Trek route",
       "An Oximeter to Check Blood Oxygen Saturation Levels",
       "Medical Kits - Which May Be Necessary In Certain Cases",
-      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
+      "Free Excess Luggage Storing At Create Himalaya Store During The Trek",
     ],
     itinerary: [
       {
@@ -10799,18 +10765,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "kathmandu",
-      "syabrubesi",
-      "lama-hotel",
-      "langtang-village",
-      "kyanjin-gompa",
-      "thulo-syabru",
-      "shin-gompa",
-      "gosaikunda",
-      "ghopte",
-      "kutumsang",
-      "chisapani",
-      "sundarijal",
+      "/images/Langtang Gosaikunda Lake Trek – 15 Days.jpg"
     ],
     inclusions: false,
   },
@@ -10953,14 +10908,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Syabrubesi",
-      "Syabrubesi to Gatlang",
-      "Gatlang to Tatopani",
-      "Tatopani to Thuman via Nagthali Bhyang",
-      "Thuman to Briddhim",
-      "Briddhim to Lama Hotel",
-      "Lama Hotel to Syabrubesi",
-      "Syabrubesi to Kathmandu",
+     "/images/Helambu Circuit Trek – 8 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11095,13 +11043,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Sundarijal",
-      "Sundarijal to Chisapani",
-      "Chisapani to Kutumsang",
-      "Kutumsang to Melamchigaon",
-      "Melamchigaon to Sermathang",
-      "Sermathang to Melamchi Pul Bazaar",
-      "Melamchi Pul Bazaar to Kathmandu",
+      "/images/Helambu Circuit Trek – 8 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11171,11 +11113,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup and Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as souvenirs",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as souvenirs",
       "Map of Ganja La Pass Trek route",
       "An Oximeter to Check Blood Oxygen Saturation Levels",
       "Medical Kits",
-      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek",
+      "Free Excess Luggage Storing at Create Himalaya Store During the Trek",
       "Arrangement of sleeping bags and down jackets if required",
     ],
     itinerary: [
@@ -11270,15 +11212,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Syabrubesi to Lama Hotel",
-      "Lama Hotel to Langtang Village",
-      "Langtang Village to Kyanjin Gompa",
-      "Kyanjin Gompa to Nyengang Kharka",
-      "Nyengang Kharka to Keldang via Ganja La Pass",
-      "Keldang to Dukpu",
-      "Dukpu to Tarkeghyang",
-      "Tarkeghyang to Sermathang",
-      "Sermathang to Melamchi Pul Bazar",
+      "/images/Langtang Ganja La Pass Trek – 14 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11348,11 +11282,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup and Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as souvenirs",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as souvenirs",
       "Map of Gosainkunda trek route",
       "An Oximeter to Check Blood Oxygen Saturation Levels",
       "Medical Kits",
-      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek",
+      "Free Excess Luggage Storing at Create Himalaya Store During the Trek",
       "Arrangement of sleeping bags and down jackets if required",
     ],
     itinerary: [
@@ -11405,9 +11339,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Dhunche to Chandanbari",
-      "Chandanbari to Gosaikunda",
-      "Gosaikunda to Dhunche",
+      "/images/Gosaikunda Lake Trek – 7 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11601,24 +11533,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu",
-      "Tumlingtar",
-      "Chichira",
-      "Num",
-      "Seduwa",
-      "Tashigaon",
-      "Khongma Danda",
-      "Dobate",
-      "Yangle Kharka",
-      "Langmale Kharka",
-      "Makalu Base Camp",
-      "Yangle Kharka",
-      "Dobate",
-      "Khongma Danda",
-      "Tashigaon",
-      "Num",
-      "Tumlingtar",
-      "Kathmandu",
+      "/images/Makalu Base Camp Trek - 19 Days.jpg"
     ],
     inclusions: false,
   },
@@ -11819,7 +11734,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         "Ensure good physical fitness and acclimatization. Prepare for high-altitude trekking with warm clothing, high-altitude gear, and adequate provisions. Consult with your trekking company for specific requirements and safety measures.",
       ],
     },
-    path: [""],
+    path: ["/images/Kanchenjunga North Base Camp Trek - 20 Days.jpg"],
     inclusions: false,
   },
   Kanchenjunga_South_Base_Camp_Trek_13_Days: {
@@ -11987,22 +11902,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Bhadrapur by flight",
-      "Bhadrapur to Illam by drive",
-      "Illam to Taplejung by drive",
-      "Taplejung to Lali Kharka by trek",
-      "Lali Kharka to Khesewa by trek",
-      "Khesewa to Pumphe Danda by trek",
-      "Pumphe Danda to Yamphuding by trek",
-      "Yamphuding to Torongding by trek",
-      "Torongding to Cheram by trek",
-      "Cheram to Ramche by trek",
-      "Ramche to Torongding by trek",
-      "Torongding to Yamphuding by trek",
-      "Yamphuding to Ranipul by trek",
-      "Ranipul to Phidim by drive",
-      "Phidim to Bhadrapur by drive",
-      "Bhadrapur to Kathmandu by flight",
+      "/images/Kanchenjunga North Base Camp Trek - 20 Days.jpg"
     ],
     inclusions: false,
   },
@@ -12076,7 +11976,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       "Free Kanchenjunga Circuit Trek Map",
       "An Oximeter to Check Blood Oxygen Saturation Levels",
       "Medical Kits",
-      "Free Excess Luggage Storage at Green Valley Nepal Store",
+      "Free Excess Luggage Storage at Create Himalaya Store",
     ],
     itinerary: [
       {
@@ -12204,7 +12104,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         day: 21,
         description: "Flight from Illam to Bhadrapur then Kathmandu",
         details:
-          "Fly back to Kathmandu and enjoy some free time in the city before a farewell dinner with the Green Valley Nepal Trek team.",
+          "Fly back to Kathmandu and enjoy some free time in the city before a farewell dinner with the Create Himalaya Trek team.",
       },
       {
         day: 22,
@@ -12220,25 +12120,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Bhadrapur",
-      "Bhadrapur to Taplejung",
-      "Taplejung to Sekathum",
-      "Sekathum to Amjilasa",
-      "Amjilasa to Gyabla",
-      "Gyabla to Ghunsa",
-      "Ghunsa to Kambachen",
-      "Kambachen to Lonak",
-      "Lonak to Kanchenjunga North Base Camp",
-      "Kanchenjunga North Base Camp to Lonak",
-      "Lonak to Ghunsa",
-      "Ghunsa to Sele La Camp",
-      "Sele La Camp to Cheram",
-      "Cheram to Ramche",
-      "Ramche to Oktang Viewpoint and Back",
-      "Ramche to Tortang",
-      "Tortang to Sekathum",
-      "Sekathum to Illam or Taplejung",
-      "Illam or Taplejung to Kathmandu",
+      "/images/Kanchenjunga Circuit Trek.jpg"
     ],
     inclusions: false,
   },
@@ -12809,7 +12691,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Machha Khola to Jagat to Deng to Namrung to Lho to Samagaon to Samdo to Larkya Phedi to Bimthang to Dharapani to Kathmandu or Pokhara",
+      "/images/Manaslu Circuit Trek - 14 Days.jpg",
     ],
     inclusions: false,
   },
@@ -12878,12 +12760,12 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International and Domestic Airport Pickup and Drop-off service",
-      "Green Valley Nepal Trek Duffle Bag",
-      "Green Valley Nepal Trek T-Shirt",
+      "Create Himalaya Trek Duffle Bag",
+      "Create Himalaya Trek T-Shirt",
       "Free Manaslu Short Trek Map",
       "An Oximeter to Check Blood Oxygen Saturation Levels",
       "Medical Kits",
-      "Free Excess Luggage Storing at Green Valley Nepal Store During the Trek",
+      "Free Excess Luggage Storing at Create Himalaya Store During the Trek",
     ],
     itinerary: [
       {
@@ -12966,18 +12848,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu to Soti Khola",
-      "Soti Khola to Machha Khola",
-      "Machha Khola to Jagat",
-      "Jagat to Deng",
-      "Deng to Namrung",
-      "Namrung to Lho",
-      "Lho to Samagaon",
-      "Samagaon to Samdo",
-      "Samdo to Dharamsala",
-      "Dharamsala to Bhimthang via Larkya La Pass",
-      "Bhimthang to Dharapani",
-      "Dharapani to Kathmandu",
+      "/images/Short Manaslu Trek - 11 Days.jpg"
     ],
     inclusions: false,
   },
@@ -13169,8 +13040,8 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu - Soti Khola - Machha Khola - Jagat - Chisopani - Chumling - Chokhangparo - Nile - Mu Gompa - Rachen Gompa - Chumje - Bihi - Namrung - Samagaun - Samdo - Dharmashala - Bimthang - Tilije - Tal - Syange - Besisahar - Kathmandu",
-    ],
+      "/images/Manaslu Tsum Valley Trek - 19 Days.jpg"
+      ],
     inclusions: false,
   },
   //Mustang Region Trekking
@@ -13308,8 +13179,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Kathmandu - Pokhara - Jomsom - Kagbeni - Chele - Samar - Syangboche - Ghami - Tsarang La Pass - Lo Manthang - Muktinath - Jomsom - Pokhara - Kathmandu",
-    ],
+      "/images/Upper Mustang Overland Tour - 8 Days.jpg"],
     inclusions: false,
   },
   Upper_Mustang_Trek: {
@@ -13380,11 +13250,11 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "International Airport Pickup And Drop Services",
-      "Green Valley Nepal Trek Duffle Bag and T-Shirt as a souvenir",
+      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Map of Upper Mustang Trekking via Muktinath",
       "An Oximeter to Check Blood Oxygen Saturation Levels.",
       "Medical Kits - Which May Be Necessary In Certain Cases.",
-      "Free Excess Luggage Storing At Green Valley Nepal Store During The Trek",
+      "Free Excess Luggage Storing At Create Himalaya Store During The Trek",
       "Arrangement of sleeping bags and down jackets if required",
     ],
     itinerary: [
@@ -13501,21 +13371,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       ],
     },
     path: [
-      "Drive from Kathmandu to Pokhara",
-      "Flight from Pokhara to Jomsom",
-      "Trek from Jomsom to Kagbeni",
-      "Trek from Kagbeni to Chele",
-      "Trek from Chele to Syanboche",
-      "Trek from Syanboche to Ghami",
-      "Trek from Ghami to Charang",
-      "Trek from Charang to Lo-Manthang",
-      "Trek from Lo-Manthang to Yara",
-      "Trek from Yara to Tangge",
-      "Trek from Tangge to Chhusang",
-      "Trek from Chhusang to Muktinath",
-      "Trek from Muktinath to Jomsom",
-      "Flight from Jomsom to Pokhara",
-      "Drive from Pokhara to Kathmandu",
+      "/images/Upper Mustang Trek - 17 Days.jpg"
     ],
     inclusions: false,
   },
@@ -13859,7 +13715,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         day: 1,
         description: "Arrival in Paro (2,253m/7,331ft) and sightseeing tour",
         details:
-          "On this day, you will arrive at the Paro International Airport in Paro, Bhutan. The flight towards the airport is very exciting and one of the most thrilling as you head close to the hills. You can spot the mountains on the far end while the hills are surrounding the airport. Upon your landing, you will be greeted by our Bhutanese guide from Third Rock Adventures and drive you to your hotel. At your hotel, you will get refreshed and then briefed about the next day’s tour. However, the sightseeing tour will begin now itself. You will visit the Rinpung Dzong, which is very close to your hotel. After crossing a wooden bridge, you will get to Rinpung, which translates to ‘Fortress of the Heaps of Jewels.’ The exterior of the monastery is colored red and has beautiful wood carvings. Rinpung was built by the Drukpa Lineage of the Kagyu sect in the 15th century. At present, it serves as the administrative body for the government of Bhutan. After your visit to Rinpung, you will also go on to visit Kichu Lhakhang. It is situated in Lango Gewong, with one of the oldest temples, Jowo Temple, constructed in the vicinity. It was built by the Tibetan Emperor, Songtsen, sometime in the 7th century. As per the Bhutanese myth, spiritual leader Guru Rimpoche came down here and concealed some spiritual treasures. You will head back to your hotel after enjoying the views. Overnight at a hotel in Paro.",
+          "On this day, you will arrive at the Paro International Airport in Paro, Bhutan. The flight towards the airport is very exciting and one of the most thrilling as you head close to the hills. You can spot the mountains on the far end while the hills are surrounding the airport. Upon your landing, you will be greeted by our Bhutanese guide from  and drive you to your hotel. At your hotel, you will get refreshed and then briefed about the next day’s tour. However, the sightseeing tour will begin now itself. You will visit the Rinpung Dzong, which is very close to your hotel. After crossing a wooden bridge, you will get to Rinpung, which translates to ‘Fortress of the Heaps of Jewels.’ The exterior of the monastery is colored red and has beautiful wood carvings. Rinpung was built by the Drukpa Lineage of the Kagyu sect in the 15th century. At present, it serves as the administrative body for the government of Bhutan. After your visit to Rinpung, you will also go on to visit Kichu Lhakhang. It is situated in Lango Gewong, with one of the oldest temples, Jowo Temple, constructed in the vicinity. It was built by the Tibetan Emperor, Songtsen, sometime in the 7th century. As per the Bhutanese myth, spiritual leader Guru Rimpoche came down here and concealed some spiritual treasures. You will head back to your hotel after enjoying the views. Overnight at a hotel in Paro.",
       },
       {
         day: 2,
@@ -13981,7 +13837,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         day: 1,
         description: "Arrival in Paro (2,280m/7,480ft)",
         details:
-          "The tour begins with a scenic flight to Paro, the valley town, just west of Thimphu - the capital of Bhutan. As you look down from your window, you will witness the stunning views of Paro Dzong and the surrounding Himalayas. Upon your landing in Paro, our Bhutanese guide from Third Rock Adventures will come to welcome you and escort you to your hotel. After some rest and refreshment, you will be briefed on the trek itinerary. During the evening, you can stroll out in the town of Paro. As you pass the main streets, you can observe many traditional buildings.  After returning to the hotel, you will prepare for the next day’s hike. Overnight stay at a hotel in Paro.",
+          "The tour begins with a scenic flight to Paro, the valley town, just west of Thimphu - the capital of Bhutan. As you look down from your window, you will witness the stunning views of Paro Dzong and the surrounding Himalayas. Upon your landing in Paro, our Bhutanese guide from  will come to welcome you and escort you to your hotel. After some rest and refreshment, you will be briefed on the trek itinerary. During the evening, you can stroll out in the town of Paro. As you pass the main streets, you can observe many traditional buildings.  After returning to the hotel, you will prepare for the next day’s hike. Overnight stay at a hotel in Paro.",
       },
       {
         day: 2,
@@ -14122,7 +13978,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         day: 1,
         description: "Arrival at Paro",
         details:
-          "The flight to Bhutan lands at the Paro International Airport, the only international airport in Bhutan. As you look out the window of your plane, you will see the high-standing mountains on the far horizon with green hills sitting below them. Upon your arrival, you will be greeted by our Bhutanese guide at Third Rock Adventures. After being driven to your hotel for the stay, you will be briefed about the entire trek by your guide. Your stay at Paro can be made special by visiting the nearby landmarks famous to the valley. In the afternoon, you can visit the Rinpung Dzong. It is a large Buddhist monastery that was once a fortress to the Drukpa Lineage of the Kagyu school, built in the 15th century. Rinpung has been inducted into Bhutan's Tentative List for UNESCO inclusion. From there, you will pass a traditional wooden bridge and towards Kichu Lhakhang. Kichu Lakhang is a beautiful Buddhist temple in Lango Gewog with ancient architecture. After the interesting tour, you will take a stroll in the street of Paro, which is filled with ancient architectural buildings on the side. Overnight stay at a hotel in Paro.",
+          "The flight to Bhutan lands at the Paro International Airport, the only international airport in Bhutan. As you look out the window of your plane, you will see the high-standing mountains on the far horizon with green hills sitting below them. Upon your arrival, you will be greeted by our Bhutanese guide at . After being driven to your hotel for the stay, you will be briefed about the entire trek by your guide. Your stay at Paro can be made special by visiting the nearby landmarks famous to the valley. In the afternoon, you can visit the Rinpung Dzong. It is a large Buddhist monastery that was once a fortress to the Drukpa Lineage of the Kagyu school, built in the 15th century. Rinpung has been inducted into Bhutan's Tentative List for UNESCO inclusion. From there, you will pass a traditional wooden bridge and towards Kichu Lhakhang. Kichu Lakhang is a beautiful Buddhist temple in Lango Gewog with ancient architecture. After the interesting tour, you will take a stroll in the street of Paro, which is filled with ancient architectural buildings on the side. Overnight stay at a hotel in Paro.",
       },
       {
         day: 2,

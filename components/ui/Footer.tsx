@@ -5,10 +5,10 @@ import Logo from "./Logo";
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <footer>
+    <footer className="bg-blue-100">
       <div className="container mx-auto mt-8 px-4 sm:px-6">
         {/* Top area: Blocks */}
-        <div className="grid gap-8 border-t border-gray-200 py-8 sm:grid-cols-12 md:py-12">
+        <div className="grid gap-8 py-8 sm:grid-cols-12 md:py-12">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2 flex gap-2">
@@ -17,17 +17,17 @@ const Footer = () => {
                 Create Himalaya <br /> Adventure
               </p>
             </div>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-gray-700">
               <a
                 href="#0"
-                className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
               >
                 Terms
               </a>{" "}
               ·{" "}
               <a
                 href="#0"
-                className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
               >
                 Privacy Policy
               </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <a
                   href="https://maps.app.goo.gl/SWa8dYXRTtAp4bQYA"
                   target="_blank"
-                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                  className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
                   Kathmandu, Nepal
                 </a>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <HiPhone className="text-blue-400" />
                 <a
                   href="tel:9841128881"
-                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                  className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
                   +977 9702542143
                 </a>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <IoMail className="text-blue-400" />
                 <a
                   href="mailto:example@mail.com"
-                  className="text-sm text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                  className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                 >
                   createhimalaya16@gmail.com
                 </a>
@@ -71,7 +71,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/treks/annapurna_circuit_trek"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Annapurna Base Camp Trek
                 </a>
@@ -79,7 +79,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/treks/ebc_trek_14_days"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Everest Base Camp Trek
                 </a>
@@ -87,7 +87,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/treks/Langtang_Gosaikunda_Lake_Trek"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Gosaikunda Trip
                 </a>
@@ -102,7 +102,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/tours/Astam_Village_Day_Hiking"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Adventure in Pokhara
                 </a>
@@ -110,7 +110,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/tours/Rafting_Pokhara"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Chitwan Jungle Safari
                 </a>
@@ -118,7 +118,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/tours/nagarjung_jamcho_day_hike"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Nagarjung Jamcho Day Hike
                 </a>
@@ -126,7 +126,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/tours/Kathmandu_City_Tour"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Kathmandu City Tour
                 </a>
@@ -134,7 +134,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/tours/Paragliding_Pokhara"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Rara Lake Adventure
                 </a>
@@ -149,7 +149,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Gallery
                 </a>
@@ -157,7 +157,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Trekking Guide
                 </a>
@@ -165,7 +165,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Inquiries
                 </a>
@@ -173,7 +173,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Pricing
                 </a>
@@ -181,7 +181,7 @@ const Footer = () => {
               <li className="mb-2">
                 <a
                   href="/"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Privacy Policy
                 </a>
@@ -192,7 +192,7 @@ const Footer = () => {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="mb-2 font-bold text-gray-800">Subscribe</h6>
-            <p className="mb-4 text-sm text-gray-600">
+            <p className="mb-4 text-sm text-gray-700">
               Get the latest news and articles to your inbox every month.
             </p>
             <form>
@@ -239,7 +239,7 @@ const Footer = () => {
         </div>
 
         {/* Partners */}
-        <div className="mb-8 flex flex-col gap-8 border-t border-gray-200 pt-6 md:flex-row md:items-center md:justify-between md:pt-8">
+        <div className="mb-8 flex flex-col gap-8 border-t border-gray-300 pt-6 md:flex-row md:items-center md:justify-between md:pt-8">
           <div className="flex flex-col gap-y-4">
             <h2 className="emphasized-text">We are associated with</h2>
             <div className="flex flex-wrap gap-x-8">
@@ -273,9 +273,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom area */}
-        <div className="flex flex-col items-center justify-center gap-y-8 border-t border-gray-200 py-6 md:flex md:flex-row md:justify-between md:py-8">
+        <div className="flex flex-col items-center justify-center gap-y-8 border-t border-gray-300 py-6 md:flex md:flex-row md:justify-between md:py-8">
           {/* Copyrights note */}
-          <div className="mr-4 text-sm text-gray-600">
+          <div className="mr-4 text-sm text-gray-700">
             &copy; Copyright {date} All rights reserved.
           </div>
 
@@ -290,7 +290,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://x.com/create_himalaya?lang=en"
-                className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
+                className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-700 shadow transition duration-150 ease-in-out hover:text-gray-900"
                 aria-label="Twitter"
               >
                 <svg
@@ -306,7 +306,7 @@ const Footer = () => {
             <li className="ml-4">
               <a
                 href="https://www.facebook.com/createhimalaya/"
-                className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-600 shadow transition duration-150 ease-in-out hover:text-gray-900"
+                className="hover:bg-white-100 flex items-center justify-center rounded-full bg-white text-gray-700 shadow transition duration-150 ease-in-out hover:text-gray-900"
                 aria-label="Facebook"
               >
                 <svg

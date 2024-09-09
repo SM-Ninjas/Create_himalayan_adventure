@@ -27,9 +27,12 @@ function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
       <div className="flex flex-col justify-start h-full xl:hidden">
         <div className="flex items-center justify-between p-2">
           {!showTopBar && (
-            <Link href="/">
-              <Logo />
-            </Link>
+            <div className="flex items-center gap-2">
+              <Link href="/">
+                <Logo />
+              </Link>
+              <h1 className="w-1/2 regular-text">Create Himalaya Adventure</h1>
+            </div>
           )}
           {/* Create a hamburger menu using 3 lines, when clicked translate it to a cross */}
           <div
@@ -61,71 +64,40 @@ function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
           <div className="flex flex-col items-start justify-start h-full">
             <div className="flex flex-col items-center justify-start flex-1 gap-4 mt-8 text-gray-400">
               <Link
-                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
-                onClick={handleCloseToggleOnClick}
-                href="/"
-              >
-                <IoMdHome className="text-xl text-gray-200" />
-                home
-              </Link>
-              <Link
-                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border hover:border-black"
+                className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border hover:border-black"
                 onClick={handleCloseToggleOnClick}
                 href="/tours"
               >
-                <MdTour className="text-xl text-gray-200" />
-                tour
+                <MdTour className="text-xl text-gray-100" />
+                <p className="text-white">Tour</p>
               </Link>
               <Link
-                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border "
+                className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
                 href="/treks"
               >
-                <TbTrekking className="text-xl text-gray-200" />
-                trek
+                <TbTrekking className="text-xl text-gray-100" />
+                <p className="text-white">Trek</p>
               </Link>
               <Link
-                className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
+                className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
-                href="/blogs"
+                href="/peak_climbing"
               >
-                <FaBlogger className="text-xl text-gray-200" />
-                blog
+                <TbTrekking className="text-xl text-gray-100" />
+                <p className="text-white">Peak Climbing</p>
               </Link>
-              <Link
-                className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
-                onClick={handleCloseToggleOnClick}
-                href="/forum"
-              >
-                <CgProfile className="text-xl text-gray-200" />
-                Forum
-              </Link>
-              {/* <Link
-                    className="flex items-center w-full gap-8 p-2 capitalize border-blac8 emphasized-text hover:border"
-                    onClick={handleCloseToggleOnClick}
-                    href="/login"
-                    >
-                    <IoLogIn className="text-xl text-gray-200" />
-                    login
-                    </Link> */}
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize border-black emphasized-text hover:border"
                 onClick={handleCloseToggleOnClick}
                 href="/contact"
               >
                 <RiContactsBookFill className="text-xl text-gray-200" />
+                <p className="text-white">
                 contact
+                </p>
               </Link>
             </div>
-
-            {/* <div className="w-full px-4 py-2">
-              <Link href="/login">
-                <Buttons
-                  text="Login"
-                  customColor="bg-blue-500 text-gray-50 w-full"
-                ></Buttons>
-              </Link>
-            </div> */}
           </div>
         )}
       </div>
