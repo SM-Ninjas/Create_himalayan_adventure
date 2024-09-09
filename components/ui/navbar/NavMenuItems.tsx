@@ -111,7 +111,7 @@ export function MenuItems() {
                     </p>
                   </Link>
                   {hoveredDestination === destinationIndex && (
-                    <ul className="absolute left-[100%] top-0 w-[340px] sm:w-[280px] bg-white shadow-lg rounded-lg p-2">
+                    <ul className="absolute right-[100%] top-0 w-[340px] sm:w-[280px] bg-white shadow-lg rounded-lg p-2">
                       {destination.option.map((categoryName, optionIndex) => (
                         <li key={optionIndex}>
                           <Link
