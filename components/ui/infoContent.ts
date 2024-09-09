@@ -16432,7 +16432,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     slug: "bhutan_tour_with_day_hikes_and_haa_valley_8_days",
     title: "Bhutan Tour with Day Hikes and Haa Valley - 8 days",
     category: "Cultural Tour",
-    img: "/images/haa-valley.jpg",
+    img: "/images/haa-valley-700-1.jpg",
     description:
       "Experience Bhutan’s unique blend of culture, religion, and nature with a tour through Paro, Thimphu, Punakha, and the Haa Valley. Enjoy scenic hikes and visit iconic monasteries.",
     location: "Bhutan",
@@ -16440,7 +16440,6 @@ const infoContent: { [key: string]: TrekkingContent } = {
     people: "1-12",
     subimages: [
       "/images/haa-valley-700-1.jpg",
-      "/images/haa-valley.jpg",
       "/images/haa-valley-tips.jpg",
       "/images/haa-valley-trekking.webp",
       "/images/The_Rialb_Valley-e1599812799868.png",
@@ -17604,7 +17603,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     id: 26,
     slug: "bhutan_day_hikes_and_cultural_discovery_7_days",
     title: "Day Hikes in Bhutan and Cultural Discovery - 7 Days",
-    category: "Hiking and Cultural Discovery Tour",
+    category: "Hiking",
     img: "/images/images7654d.jpeg",
     description:
       "Experience an enriching 7-day journey through Bhutan, combining invigorating day hikes with deep cultural immersion. This tour offers scenic hikes, visits to significant cultural sites, and opportunities to engage with Bhutanese traditions and lifestyle.",
@@ -17625,7 +17624,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       endingPoint: "Departure from Paro International Airport",
       peoples:
         "Ideal for travelers seeking a blend of active hiking and cultural exploration in Bhutan.",
-      category: "Hiking and Cultural Discovery Tour",
+      category: "Hiking",
       bestSeason:
         "Spring (March to May) and autumn (September to November) offer the most favorable weather conditions, with clear skies and pleasant temperatures for hiking and sightseeing.",
     },
@@ -17755,7 +17754,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     id: 27,
     slug: "bhutan_drukyul_hiking_tour_12_days",
     title: "Bhutan Drukyul Hiking Tour - 12 Days",
-    category: "Hiking and Cultural Discovery Tour",
+    category: "Hiking",
     img: "/images/082427annapurna-royal-trek81.jpg",
     description:
       "Embark on an unforgettable 12-day journey through Bhutan with the Drukyul Hiking Tour. This extensive tour combines immersive cultural experiences with challenging hikes, offering a comprehensive exploration of Bhutan's majestic landscapes and vibrant culture.",
@@ -17775,7 +17774,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
       endingPoint: "Departure from Paro International Airport",
       peoples:
         "Perfect for adventurers and culture enthusiasts looking for an in-depth exploration of Bhutan's diverse landscapes and cultural heritage.",
-      category: "Hiking and Cultural Discovery Tour",
+      category: "Hiking",
       bestSeason:
         "Spring (March to May) and autumn (September to November) offer the most favorable weather conditions, with clear skies and comfortable temperatures for hiking and sightseeing.",
     },

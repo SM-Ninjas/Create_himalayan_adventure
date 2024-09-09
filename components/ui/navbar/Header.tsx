@@ -8,8 +8,6 @@ import TopBar from "./TopBar";
 import Logo from "../Logo";
 import Link from "next/link";
 
-
-
 function Header() {
   const [top, setTop] = useState<boolean>(true);
   const [showTopBar, setShowTopBar] = useState<boolean>(true);
@@ -44,22 +42,36 @@ function Header() {
       >
         {/* Mobile Navbar - Visible below xl size */}
         <ContentWrapper className="flex items-center justify-between lg:hidden md:block">
-          <MobileNavbar showTopBar = {showTopBar} />
+          <MobileNavbar showTopBar={showTopBar} />
         </ContentWrapper>
 
         {/* Desktop Navbar - Visible at xl size and above */}
         <ContentWrapper
           className={cn(
-            "hidden items-center justify-between md:hidden lg:flex w-full px-4",
+            "hidden items-center md:hidden lg:flex w-full px-4",
+            top ? "justify-center" : "justify-between", // Center items when `top` is true, space-between when `top` is false
             top ? "bg-transparent" : ""
           )}
         >
-          <div className="flex items-center justify-around flex-grow gap-x-16">
-            {!showTopBar &&
+          {/* Left side: Logo and Title */}
+          {!top && (
+            <div className="flex items-center gap-4">
               <Link href="/">
                 <Logo />
               </Link>
-            }
+              <h1 className="w-1/2 emphasized-text">
+                Create Himalaya Adventure
+              </h1>
+            </div>
+          )}
+
+          {/* Right side: Menu Items */}
+          <div
+            className={cn(
+              "flex items-center gap-4",
+              top ? "ml-0" : "ml-auto" // Center the items when `top` is true, push them to the right when `top` is false
+            )}
+          >
             <MenuItems />
           </div>
         </ContentWrapper>
