@@ -39,7 +39,7 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
           <h1 className="mb-4 text-gray-800 subtitle-text">Itinerary</h1>
           <Itinerary itineraryData={currentPlaceInfo.itinerary} />
         </div>
-        <div className="mb-6">
+        <div className="mb-8">
           <h1 className="mb-4 text-gray-800 subtitle-text">
             Road map of this journey
           </h1>
