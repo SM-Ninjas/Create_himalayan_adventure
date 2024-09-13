@@ -1,40 +1,54 @@
 import React, { useState } from "react";
-import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { ItineraryType } from "../../infoContent";
-type itineraryTypes = {
-  itineraryData?: ItineraryType[]; // as it's array of objects
+
+type ItineraryProps = {
+  itineraryData?: ItineraryType[];
 };
 
-function Itinerary(itineraryData: itineraryTypes) {
-  const [openIndex, setOpenIndex] = useState<null | number>(0);
+const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  function handleToggleDetails(index: number) {
+  const handleToggleDetails = (index: number) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
-  }
+  };
 
   return (
-    <div className="">
-      {itineraryData.itineraryData?.map((data, i) => (
-        <div className="mb-2 container" key={i}>
-          <div
-            className="flex regular-text cursor-pointer items-center small-text text-gray-900 font-medium "
-            onClick={() => {
-              handleToggleDetails(i);
-            }}
+    <div className="space-y-4 ">
+      {itineraryData.map((data, i) => (
+        <div
+          key={i}
+          className="border border-gray-200 rounded-lg overflow-hidden shadow-sm transition-all duration-300 ease-in-out"
+        >
+          <button
+            onClick={() => handleToggleDetails(i)}
+            className="w-full text-left p-4 focus:outline-none hover:bg-gray-50 transition-colors duration-200"
           >
-            {openIndex === i ? <FaAngleDown /> : <FaAngleRight />}
-            Day:{" "} {data.day}
-            <h1 className="regular-text ml-2">
-              {data.description}
-            </h1>
-          </div>
-          <h1 className="ml-6 p-2 text small-text text-gray-600 opacity-70">
-            {openIndex === i && <div>{data.details}</div>}
-          </h1>
+            <div className="flex justify-between items-center">
+              <div className="flex items-center space-x-4">
+                <span className="text-xl font-semibold text-blue-600">
+                  Day {data.day}:
+                </span>
+                <h3 className="text-lg font-medium text-gray-800">
+                  {data.description}
+                </h3>
+              </div>
+              {openIndex === i ? (
+                <FaAngleUp className="text-blue-600 text-xl" />
+              ) : (
+                <FaAngleDown className="text-blue-600 text-xl" />
+              )}
+            </div>
+          </button>
+          {openIndex === i && (
+            <div className="p-4 bg-gray-50 border-t border-gray-200">
+              <p className="text-gray-700 leading-relaxed">{data.details}</p>
+            </div>
+          )}
         </div>
       ))}
     </div>
   );
-}
+};
 
 export default Itinerary;

@@ -59,7 +59,7 @@ function Header() {
               <Link href="/">
                 <Logo />
               </Link>
-              <h1 className="w-1/2 emphasized-text">
+              <h1 className="w-1/2 text-xl font-bold">
                 Create Himalaya Adventure
               </h1>
             </div>

@@ -1,12 +1,13 @@
 // import { DataTypes } from "@/components/home/CarouselSection";
+"use client"
 
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { FiMinus } from "react-icons/fi";
 import Buttons from "./Buttons";
-import Link from "next/link";
-import{ TrekkingContent } from "@/components/ui/infoContent";
 
+import Link from "next/link";
+import { TrekkingContent } from "@/components/ui/infoContent";
 
 interface infoCardType {
   currentPlaceData: TrekkingContent | undefined;
@@ -23,32 +24,29 @@ function InfoCard({ currentPlaceData }: infoCardType) {
   function handleDecreasePeople() {
     if (count > 1) setCount(count - 1);
   }
+  const placeUrl = `${location.href}`;
+
   return (
     <div className="mt-8 w-full rounded-xl border bg-[#fff] p-2 px-6">
       <div className="">
         <h1 className="subtitle-text mt-2 text-gray-800">
           {currentPlaceData?.title}
         </h1>
-        <h3 className="small-text mb-4 opacity-80">
-          {currentPlaceData?.days}
-        </h3>
+        <h3 className="small-text mb-4 opacity-80">{currentPlaceData?.days}</h3>
         <div className="mb-4 flex items-center gap-2">
           {/* <MdAddBox onClick={handleIncreasePeople} color="#0075FF" size={27} /> */}
           <div
             onClick={handleDecreasePeople}
             className="rounded bg-blue-500 p-2"
           >
-            <FiMinus
-              size={8} className="text-white" />
+            <FiMinus size={8} className="text-white" />
           </div>
           <p className="text-lg font-semibold">{count} </p>
           <div
             onClick={handleIncreasePeople}
-
             className="rounded bg-blue-500 p-2"
           >
-            <FaPlus
-              size={8} className="text-gray-50" />
+            <FaPlus size={8} className="text-gray-50" />
           </div>
           <p className="small-text">Number of Travelers</p>
         </div>
@@ -67,7 +65,7 @@ function InfoCard({ currentPlaceData }: infoCardType) {
           />
         </div>
         <div className="mb-8 mt-12 flex gap-4">
-          <Link href={'/bookingForm'}>
+          <Link href={"/bookingForm"}>
             {/* pass the current place details to the booking form so that i can send that in email about the selected place and the input box for that place should be disabled */}
             <Buttons text="Book Now" customColor="bg-blue-500 text-white" />
           </Link>
