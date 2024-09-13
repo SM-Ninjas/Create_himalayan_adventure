@@ -7,14 +7,16 @@
   margin: 0;
   padding: 0;
 }
+
 article {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
+
 .container {
-  @apply w-[98%] mx-auto px-2 sm:px-6 lg:px-8;  
+  @apply w-full max-w-[95vw] sm:max-w-[92vw] md:max-w-[88vw] lg:max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .small-text {
@@ -43,12 +45,10 @@ article {
 
 .get-started-bg {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(2, 0, 36, 0) 0%,
       rgba(17, 17, 17, 0.8) 50%,
-      rgba(17, 17, 17, 0.8491771708683473) 100%
-    ),
+      rgba(17, 17, 17, 0.8491771708683473) 100%),
     url("/images/trek.jpg");
   background-size: cover;
   background-position: center;
@@ -56,12 +56,10 @@ article {
 
 @media (max-width: 768px) {
   .get-started-bg {
-    background: linear-gradient(
-        90deg,
+    background: linear-gradient(90deg,
         rgba(2, 0, 36, 0.8) 0%,
         rgba(17, 17, 17, 0.8) 50%,
-        rgba(17, 17, 17, 0.8) 100%
-      ),
+        rgba(17, 17, 17, 0.8) 100%),
       url("/images/trek.jpg");
     background-size: cover;
     background-position: center;
@@ -77,6 +75,7 @@ article {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -87,16 +86,20 @@ article {
   width: 10px;
   height: 0;
 }
+
 ::-webkit-scrollbar-thumb {
   @apply bg-gray-400;
 }
+
 ::-webkit-scrollbar-track {
   @apply bg-transparent;
 }
 
 .hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
   scrollbar-color: transparent transparent;
 }
 
@@ -104,9 +107,11 @@ article {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  border-right: 4px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
+  border-right: 4px solid rgba(255, 255, 255, 0.75);
+  /* Cursor effect */
   animation: typing 2s steps(23, end), blink-caret 0.75s step-end infinite;
-  letter-spacing: 0.1em; /* Increase letter spacing */
+  letter-spacing: 0.1em;
+  /* Increase letter spacing */
 }
 
 /* Animation for typing */
@@ -114,19 +119,23 @@ article {
   from {
     width: 0;
   }
+
   to {
     width: 23ch;
-  } /* Adjust width to match the character count of your text */
+  }
+
+  /* Adjust width to match the character count of your text */
 }
 
 /* Animation for blinking cursor */
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: rgba(255, 255, 255, 0.75);
   }
 }
-
