@@ -79,8 +79,8 @@ function PlacesDetails() {
                   }
                   placeUrl={placeUrl}
                 />
-                <WhyChooseUs />
               </div>
+              <WhyChooseUs />
             </div>
           </div>
 
