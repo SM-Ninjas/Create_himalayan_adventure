@@ -11,6 +11,7 @@ import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import ShareButtons from "@/components/SocialMediaPreFill";
+import WhyChooseUs from "@/components/ui/whyChooseUs";
 
 function PlacesDetails() {
   const router = useRouter();
@@ -64,11 +65,27 @@ function PlacesDetails() {
               </div>
             </div>
             <div className="xl:hidden">
+              <div>
+
+              </div>
               <InfoCard currentPlaceData={currentPlaceData} />
+
+              <div className="flex items-center gap-4 mt-4 shadow-lg border  p-4 rounded-lg">
+                <h1 className="regular-text">Share with Friends</h1>
+                <ShareButtons
+                  title={currentPlaceData?.title || ""}
+                  imageUrl={
+                    "https://createhimalaya.com/_next/image?url=%2Fimages%2FAnnapurna%20Base%20Camp%20Trek%20-14%20Days%2FAnnapurna-Basecamp-image1-1.webp&w=1920&q=75"
+                  }
+                  placeUrl={placeUrl}
+                />
+              </div>
+              <WhyChooseUs />
             </div>
           </div>
 
           <div className="hidden sm:hidden xl:block w-5/12">
+            <WhyChooseUs />
             <div className="sticky top-40">
               <InfoCard currentPlaceData={currentPlaceData} />
               {/* Share Buttons */}
@@ -95,5 +112,3 @@ function PlacesDetails() {
 }
 
 export default PlacesDetails;
-
-
