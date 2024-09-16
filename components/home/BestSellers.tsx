@@ -46,7 +46,7 @@ const BestSellers = () => {
                       objectFit="cover"
                       className="rounded-lg"
                     />
-                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b rounded-lg from-transparent to-gray-900/80 p-4">
                       <p className="text-xl font-black uppercase text-white">
                         {item.title}
                       </p>
@@ -88,7 +88,7 @@ const BestSellers = () => {
                       objectFit="cover"
                       className="rounded-lg"
                     />
-                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b rounded-lg from-transparent to-gray-900/80 p-4">
                       <p className="text-xl font-black uppercase text-white">
                         {item.title}
                       </p>
@@ -130,7 +130,7 @@ const BestSellers = () => {
                       objectFit="cover"
                       className="rounded-lg"
                     />
-                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start bg-gradient-to-b from-transparent to-gray-900/80 p-4">
+                    <div className="absolute inset-0 z-10 flex h-full w-full items-end justify-start rounded-lg bg-gradient-to-b from-transparent to-gray-900/80 p-4">
                       <p className="text-xl font-black uppercase text-white">
                         {item.title}
                       </p>

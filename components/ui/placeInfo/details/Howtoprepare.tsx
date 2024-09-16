@@ -8,8 +8,7 @@ type howToPrepareType = {
 function HowToPrepare({ howToPrepare }: howToPrepareType) {
 
     return (
-        <div>
-            <div className="container">
+            <div className="">
                 {howToPrepare?.paragraph.map((data, i) => (
                     <div key={i} className="flex mb-4 gap-6">
                         <h1 key={i} className="regular-tex t opacity-70">
@@ -28,7 +27,6 @@ function HowToPrepare({ howToPrepare }: howToPrepareType) {
                     </div>
                 ))} */}
             </div>
-        </div>
     );
 }
 

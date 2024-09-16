@@ -54,12 +54,19 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-x-4">
                 <IoMail className="text-blue-400" />
-                <a
-                  href="mailto:example@mail.com"
-                  className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
-                >
-                  createhimalaya16@gmail.com
-                </a>
+                <div className="flex flex-wrap">
+                  <a
+                    href="mailto:example@mail.com"
+                    className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                  >
+                    createhimalaya16@gmail.com
+                  </a>,<a
+                    href="mailto:example@mail.com"
+                    className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
+                  >info@createhimalaya1.com
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>

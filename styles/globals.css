@@ -16,7 +16,7 @@ article {
 }
 
 .container {
-  @apply w-full max-w-[95vw] sm:max-w-[92vw] md:max-w-[88vw] lg:max-w-[90vw] mx-auto px-4 sm:px-6 lg:px-8;
+  @apply w-full max-w-[95vw] sm:max-w-[92vw] md:max-w-[88vw] mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .small-text {

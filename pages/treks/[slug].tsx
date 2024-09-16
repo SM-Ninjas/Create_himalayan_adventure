@@ -65,6 +65,16 @@ function PlacesDetails() {
             </div>
             <div className="xl:hidden">
               <InfoCard currentPlaceData={currentPlaceData} />
+              <div className="flex items-center gap-4 mt-4 shadow-lg border  p-4 rounded-lg">
+                <h1 className="regular-text">Share with Friends</h1>
+                <ShareButtons
+                  title={currentPlaceData?.title || ""}
+                  imageUrl={
+                    "https://createhimalaya.com/_next/image?url=%2Fimages%2FAnnapurna%20Base%20Camp%20Trek%20-14%20Days%2FAnnapurna-Basecamp-image1-1.webp&w=1920&q=75"
+                  }
+                  placeUrl={placeUrl}
+                />
+              </div>
             </div>
           </div>
 

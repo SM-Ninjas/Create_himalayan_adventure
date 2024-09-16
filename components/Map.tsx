@@ -1,22 +1,42 @@
-// "use client";
-// import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-// import { LatLngTuple } from "leaflet";
+import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet"
+import "leaflet/dist/leaflet.css"
+// import "leaflet-defaulticon-compatibility"
+import { RiMapPin2Fill } from "react-icons/ri";
+// import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
+import L from 'leaflet';
 
-// import "leaflet/dist/leaflet.css";
+// Custom marker icon
+const customIcon = new L.Icon({
+    iconUrl: '/pointmap1.png',
+    iconSize: [50, 50], // Adjust size
+    iconAnchor: [10, 30], // Adjust anchor
+});
 
-// export default function MyMap() {
-//   const position: LatLngTuple = [27.636806, 82.973381];
-//   return (
-//     <MapContainer center={position} zoom={11} scrollWheelZoom={false}>
-//       <TileLayer
-//         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-//         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-//       />
-//       <Marker position={position}>
-//         <Popup>
-//           A pretty CSS3 popup. <br /> Easily customizable.
-//         </Popup>
-//       </Marker>
-//     </MapContainer>
-//   );
-// }
+
+function Map() {
+    const position: [number, number] = [27.7158144256679, 85.31192594602251];
+
+    return (
+        <div className="w-full h-full">
+            <MapContainer
+                center={position}
+                zoom={15}
+                scrollWheelZoom={false}
+                style={{ height: "100%", width: "100%" }}
+            >
+                <TileLayer
+                    attribution="Google Maps"
+                    url="https://www.google.cn/maps/vt?lyrs=m@189&gl=cn&x={x}&y={y}&z={z}"
+                />
+                <Marker position={position} icon={customIcon} >
+                    <Popup>
+                        Create Himalaya Adventure
+                        <br />
+                    </Popup>
+                </Marker>
+            </MapContainer>
+        </div>
+    );
+}
+
+export default Map
