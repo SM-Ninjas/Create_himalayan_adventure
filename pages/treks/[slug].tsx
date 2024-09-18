@@ -27,7 +27,7 @@ function PlacesDetails() {
   React.useEffect(() => {
     setPlaceUrl(window.location.href);
   }, []);
-
+ 
   if (!currentPlaceData) {
     return <div>Loading...</div>;
   }
