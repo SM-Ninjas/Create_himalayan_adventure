@@ -2,14 +2,14 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { trekRegions } from "@/mock-data/treks";
-import { tourRegions } from "@/mock-data/tours";
-import { peakClimbingRegions } from "@/mock-data/peak_climbing_regions";
+import useAllActivities from "@/hooks/useActivitiesHook";
 
 export function MenuItems() {
   const [hoveredDestination, setHoveredDestination] = React.useState<
     number | null
   >(null);
+  const { data, isLoading, isError } = useAllActivities();
+  console.log(data?.activities[0], "activities");
 
   const handleMouseEnter = (index: number) => {
     setHoveredDestination(index);
@@ -25,10 +25,23 @@ export function MenuItems() {
       .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitalize each word
   };
 
+  if (isLoading) {
+    return <div>Loading activities...</div>;
+  }
+
+  if (isError || !data) {
+    return <div>Error loading activities</div>;
+  }
+  // unique category 
+  const uniqueCategory = Array.from(
+    new Set(data?.activities.map((activity: any) => activity.category))
+  );
+
+
   return (
     <nav className="mx-auto">
       <ul className="flex justify-center items-center gap-4 sm:gap-2 space-x-4 sm:space-x-2 md:space-x-6 lg:space-x-10">
-        <li className="group relative flex items-center">
+        {/* <li className="group relative flex items-center">
           <button className="regular-text">Trekking</button>
           <div className="absolute top-full left-0 hidden group-hover:block">
             <ul className="w-[420px] sm:w-[420px] bg-white p-4 shadow-md rounded-lg">
@@ -39,7 +52,7 @@ export function MenuItems() {
                 <li key={index} className="p-2">
                   <Link
                     onClick={() => setHoveredDestination(null)}
-                    href={`/treks?category=${region.name.replace(/ /g, "_")}`}
+                    href={`/${region.name}}`}
                   >
                     <span className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
                       {region.name}
@@ -49,17 +62,19 @@ export function MenuItems() {
               ))}
             </ul>
           </div>
-        </li>
-        <li className="group relative flex items-center">
+        </li> */}
+        {/* <li className="group relative flex items-center">
           <button className="regular-text">Peak Climbing</button>
           <div className="absolute top-full left-0 hidden group-hover:block">
             <ul className="w-[340px] sm:w-[420px] bg-white p-4 shadow-md rounded-lg">
-              <p className="subtitle-text text-gray-900 my-2">Peak Climbing Adventures</p>
+              <p className="subtitle-text text-gray-900 my-2">
+                Peak Climbing Adventures
+              </p>
               {peakClimbingRegions.map((region, index) => (
                 <li key={index} className="p-2">
                   <Link
                     onClick={() => setHoveredDestination(null)}
-                    href={`/peak_climbing?category=${region.name.replace(/ /g, "_")}`}
+                    href={`/${region}}`}
                   >
                     <span className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
                       {region.name}
@@ -69,20 +84,21 @@ export function MenuItems() {
               ))}
             </ul>
           </div>
-        </li>
+        </li> */}
         <li className="group relative flex items-center">
-          <button className="regular-text">Tours</button>
+          <button className="regular-text">Activities</button>
           <div className="absolute top-full left-0 hidden group-hover:block">
             <ul className="w-[340px] sm:w-[420px] bg-white p-4 shadow-md rounded-lg">
-              <p className="subtitle-text text-gray-900 my-2">Tours in Nepal</p>
-              {tourRegions.map((region, index) => (
+              <p className="subtitle-text text-gray-900 my-2">Activities</p>
+              {uniqueCategory?.map((region, index) => (
                 <li key={index} className="p-2">
                   <Link
                     onClick={() => setHoveredDestination(null)}
-                    href={`/tours?category=${region.name.replace(/ /g, "_")}`}
+                    // href={`/tours?category=${region.name.replace(/ /g, "_")}`}
+                    href={`/${region}`}
                   >
-                    <span className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
-                      {region.name}
+                    <span className="emphasized-text capitalize text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
+                      {region as React.ReactNode}
                     </span>
                   </Link>
                 </li>

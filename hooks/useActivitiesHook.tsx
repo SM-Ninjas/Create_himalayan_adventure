@@ -1,20 +1,19 @@
 import { useQuery } from "@tanstack/react-query";
 
-const fetchActivities = async (type, location, level) => {
-    const query = new URLSearchParams({ type, location, level }).toString();
-    const response = await fetch(`http://localhost:8802/api/activities?${query}`);
+const fetchAllActivities = async () => {
+    const response = await fetch("http://localhost:8802/api/activities");
     if (!response.ok) {
         throw new Error("Failed to fetch activities");
     }
+    // console.log(await response.json() , "from hook")
     return response.json();
 };
 
-const useActivities = (type, location, level) => {
+const useAllActivities = () => {
     return useQuery({
-        queryKey: ["activities", type, location, level],
-        queryFn: () => fetchActivities(type, location, level),
-        enabled: !!type, // Ensures it's only fetched when type is selected
+        queryKey: ["allActivities"],
+        queryFn: fetchAllActivities,
     });
 };
 
-export default useActivities;
+export default useAllActivities;
