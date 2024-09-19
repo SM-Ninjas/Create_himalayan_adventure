@@ -4,34 +4,15 @@ import Link from "next/link";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import useBlogHook from "@/hooks/useBlogHook";
-
-interface BlogPost {
-  _id: string;
-  slug: string;
-  title: string;
-  createdAt: string;
-  content: string;
-  coverImage: string;
-  isFeatured: boolean;
-}
+import { trekkingData } from "@/blogData";
 
 interface BlogsProps {
   blogsRef: React.RefObject<HTMLElement>;
 }
 
 const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
-  const { data, isLoading, isError } = useBlogHook();
-
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
-
-  if (isError) {
-    return <p>Failed to load blogs.</p>;
-  }
-
-  const blogPosts: BlogPost[] = data?.blogs || [];
+  // Replace the old blog data with trekkingData
+  const blogPosts = trekkingData;
 
   return (
     <motion.article
@@ -70,8 +51,13 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
-                      src={item.coverImage}
-                      alt={item.title}
+                      src={
+                        (item.images && item.images[0]?.url) ||
+                        "/default-image.jpg"
+                      }
+                      alt={
+                        (item.images && item.images[0]?.altText) || item.title
+                      }
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
@@ -107,12 +93,17 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-              <Link href={`/blogs/${item._id}`}>
+              <Link href={`/blogs/${item.slug}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
-                      src={item.coverImage}
-                      alt={item.title}
+                      src={
+                        (item.images && item.images[0]?.url) ||
+                        "/default-image.jpg"
+                      }
+                      alt={
+                        (item.images && item.images[0]?.altText) || item.title
+                      }
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
@@ -148,12 +139,17 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
         >
           {blogPosts.map((item, index) => (
             <SwiperSlide key={index}>
-              <Link href={`/blogs/${item._id}`}>
+              <Link href={`/blogs/${item.slug}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
-                      src={item.coverImage}
-                      alt={item.title}
+                      src={
+                        (item.images && item.images[0]?.url) ||
+                        "/default-image.jpg"
+                      }
+                      alt={
+                        (item.images && item.images[0]?.altText) || item.title
+                      }
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
