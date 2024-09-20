@@ -111,7 +111,7 @@ const Treks_Tours = () => {
 const ActivityCard = ({ activity }: { activity: Activity }) => {
   return (
     <div className="group relative h-[400px] overflow-hidden shadow-lg transition-shadow duration-300 hover:shadow-2xl mt-4 rounded-md">
-      <Link href={`/${activity.slug}`}>
+      <Link href={`/activity/${activity.slug}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
           {activity.subimages.length > 0 && (
             <img
