@@ -1,11 +1,13 @@
 "use client";
 
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React from "react";
 import useActivitiesByCategoryHook from "@/hooks/useActivitiesByCategoryHook";
 import Link from "next/link";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineDateRange } from "react-icons/md";
+import { FaMountain } from "react-icons/fa";
+import { BiCategory } from "react-icons/bi";
 import { People } from "iconsax-react";
 
 interface Activity {
@@ -20,9 +22,6 @@ interface Activity {
   minPeople: number;
   pricePerPerson: number;
   subimages: string[];
-}
-interface paramsType {
-  category: string | undefined;
 }
 
 const Treks_Tours = () => {
@@ -44,6 +43,16 @@ const Treks_Tours = () => {
 
   const activities = data?.activities || [];
 
+  // Extract unique regions using Set
+  const uniqueRegions = new Set(activities.map((activity: Activity) => activity.location));
+  const regionCount = uniqueRegions.size;
+  console.log(uniqueRegions,"unique regions")
+
+  // Get duration range (min to max)
+  const durations = activities.map((activity: Activity) => activity.duration);
+  const minDuration = Math.min(...durations);
+  const maxDuration = Math.max(...durations);
+
   return (
     <div className="">
       <div className="relative flex justify-center">
@@ -62,6 +71,28 @@ const Treks_Tours = () => {
           </h1>
         </div>
       </div>
+
+      {/* Fancy Stats Bar */}
+      <div className="bg-blue-50 py-6 flex justify-around items-center mt-6 rounded-md">
+        <div className="text-center text-blue-950 flex flex-col items-center">
+          <FaMountain size={30} color="#2563EB" className="mb-2" />
+          <h3 className="text-3xl font-bold">{regionCount}</h3>
+          <p className="text-sm">Total Regions</p>
+        </div>
+        <div className="text-center text-blue- flex flex-col items-center">
+          <MdOutlineDateRange color="#2563EB" size={30} className="mb-2" />
+          <h3 className="text-3xl font-bold">
+            {minDuration} - {maxDuration} Days
+          </h3>
+          <p className="text-sm">Duration Range</p>
+        </div>
+        <div className="text-center text-blue- flex flex-col items-center">
+          <BiCategory color="#2563EB" size={30} className="mb-2" />
+          <h3 className="text-3xl font-bold">{activities.length} Activities</h3>
+          <p className="text-sm">Total Activities</p>
+        </div>
+      </div>
+
       <div className="container mt-10">
         {activities.length === 0 ? (
           <div>No activities found for this category.</div>
@@ -80,7 +111,7 @@ const Treks_Tours = () => {
 const ActivityCard = ({ activity }: { activity: Activity }) => {
   return (
     <div className="group relative h-[400px] overflow-hidden shadow-lg transition-shadow duration-300 hover:shadow-2xl mt-4 rounded-md">
-      <Link href={`/${activity.slug}`}>
+      <Link href={`/activity/${activity.slug}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
           {activity.subimages.length > 0 && (
             <img

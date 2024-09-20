@@ -36,7 +36,7 @@ function Header() {
 
       <nav
         className={cn(
-          "w-full bg-gray-900 font-medium text-white backdrop-blur-sm md:px-2 lg:flex",
+          "w-full bg-gray-900 font-medium text-white backdrop-blur-sm md:px-2 lg:flex ",
           top && "bg-gray-500-blur"
         )}
       >
@@ -48,9 +48,9 @@ function Header() {
         {/* Desktop Navbar - Visible at xl size and above */}
         <ContentWrapper
           className={cn(
-            "hidden items-center md:hidden lg:flex w-full px-4",
+            "hidden items-center md:hidden lg:flex w-full px-6 p-4",
             top ? "justify-center" : "justify-between", // Center items when `top` is true, space-between when `top` is false
-            top ? "bg-transparent" : ""
+            // top ? "bg-transparent" : ""
           )}
         >
           {/* Left side: Logo and Title */}
