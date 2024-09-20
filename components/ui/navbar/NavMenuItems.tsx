@@ -33,10 +33,19 @@ export function MenuItems() {
     return <div>Error loading activities</div>;
   }
   // unique category 
-  const uniqueCategory = Array.from(
-    new Set(data?.activities.map((activity: any) => activity.category))
-  );
+// Inside your MenuItems component:
 
+const uniqueCategory = Array.from(
+  new Set(
+    data?.activities.map((activity: any) => {
+
+      return activity.category
+    })
+  )
+);
+
+
+console.log(uniqueCategory,"unique categories")
 
   return (
     <nav className="mx-auto">
@@ -97,7 +106,7 @@ export function MenuItems() {
                     // href={`/tours?category=${region.name.replace(/ /g, "_")}`}
                     href={`/${region}`}
                   >
-                    <span className="emphasized-text capitalize text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
+                    <span className="emphasized-text  text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
                       {region as React.ReactNode}
                     </span>
                   </Link>

@@ -46,6 +46,7 @@ const Treks_Tours = () => {
   // Extract unique regions using Set
   const uniqueRegions = new Set(activities.map((activity: Activity) => activity.location));
   const regionCount = uniqueRegions.size;
+  console.log(uniqueRegions,"unique regions")
 
   // Get duration range (min to max)
   const durations = activities.map((activity: Activity) => activity.duration);

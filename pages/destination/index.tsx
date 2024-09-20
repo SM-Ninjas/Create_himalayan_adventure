@@ -1,7 +1,10 @@
+import useLocations from "@/hooks/useLocationHook";
 import React from "react";
 
 function Destinations() {
-  return <div></div>;
+  const { data } = useLocations();
+  console.log(data);
+  return <div className="py-80">hello this is by location</div>;
 }
 
 export default Destinations;

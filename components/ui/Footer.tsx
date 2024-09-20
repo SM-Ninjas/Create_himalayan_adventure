@@ -63,7 +63,7 @@ const Footer = () => {
                   </a>,<a
                     href="mailto:example@mail.com"
                     className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
-                  >info@createhimalaya1.com
+                  >info@createhimalaya.com
                   </a>
                 </div>
 
