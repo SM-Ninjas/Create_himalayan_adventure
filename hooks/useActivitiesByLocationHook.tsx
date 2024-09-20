@@ -1,18 +1,23 @@
 import { useQuery } from "@tanstack/react-query";
 
-const fetchActivitiesByLocation = async (country: string) => {
+const fetchActivitiesByCountry = async (country: string) => {
+  if (!country) {
+    throw new Error("country is required");
+  }
+  console.log(country, "country from useActivitiesByCountryHook");
   const response = await fetch(
-    `http://localhost:8802/api/activities/country/${location}`
+    `http://localhost:8802/api/activities/country/${country}`
   );
   if (!response.ok) throw new Error("Failed to fetch activities by country");
-  return response.json();
+  return await response.json();
 };
 
-const useActivitiesByLocationHook = (country: string) => {
+const useActivitiesByCountryHook = (country: string) => {
   return useQuery({
-    queryKey: ["activities", country],
-    queryFn: () => fetchActivitiesByLocation(country),
+    queryKey: ["activities", "country", country],
+    queryFn: () => fetchActivitiesByCountry(country),
+    enabled: !!country, // Only run the query if country is truthy
   });
 };
 
-export default useActivitiesByLocationHook;
+export default useActivitiesByCountryHook;
