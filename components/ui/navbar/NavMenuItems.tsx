@@ -3,14 +3,15 @@
 import * as React from "react";
 import Link from "next/link";
 import useAllActivities from "@/hooks/useActivitiesHook";
-import useActivitiesByLocationHook from "@/hooks/useActivitiesByLocationHook";
+import useActivitiesByCountryHook from "@/hooks/useActivitiesByLocationHook";
+
 
 export function MenuItems() {
   const [hoveredDestination, setHoveredDestination] = React.useState<
     string | null
   >(null);
   const { data: allActivities, isLoading, isError } = useAllActivities();
-  const { data: countryActivities } = useActivitiesByLocationHook(
+  const { data: countryActivities } = useActivitiesByCountryHook(
     hoveredDestination || ""
   );
 
@@ -99,7 +100,7 @@ export function MenuItems() {
                   onMouseEnter={() => handleMouseEnter(country)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <Link href={`/country?country=${country}`}>
+                  <Link href={`/country/${country}`}>
                     <p className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm transition duration-300 p-2 capitalize">
                       {country}
                     </p>
@@ -108,10 +109,7 @@ export function MenuItems() {
                     <ul className="absolute right-[100%] top-0 w-[340px] sm:w-[280px] bg-white shadow-lg rounded-lg p-2">
                       {regions.map((region, optionIndex) => (
                         <li key={optionIndex}>
-                          <Link
-                            onClick={() => setHoveredDestination(null)}
-                            href={`/country?country=${country}&region=${region}`}
-                          >
+                          <Link href={`/country/region/${region}`}>
                             <p className="text-gray-700 m-2 emphasized-text hover:text-blue-500 transition duration-300">
                               {formatCategoryName(region)}
                             </p>
