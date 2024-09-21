@@ -6,13 +6,10 @@ import ActivityCard from "@/components/ui/Activity";
 function RegionPage() {
   const router = useRouter();
   const regionslug = router.query.regionSlug;
-  console.log(regionslug, "this is the region slug");
 
   const { data, isLoading, isError, error } = useActivitiesByRegionHook(
     regionslug as string
   );
-
-  console.log("Region Page Data:", data);
 
   if (isLoading) return <div className="my-80">Loading activities...</div>;
   if (isError) return <div>Error loading activities: {error.message}</div>;

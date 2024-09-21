@@ -4,6 +4,7 @@ import { People } from "iconsax-react";
 import { MdOutlineDateRange } from "react-icons/md";
 
 export interface Activity {
+  _id: string;
   slug: string;
   title: string;
   location: string;
@@ -20,7 +21,7 @@ export interface Activity {
 const ActivityCard = ({ activity }: { activity: Activity }) => {
   return (
     <div className="group relative h-[400px] overflow-hidden shadow-lg transition-shadow duration-300 hover:shadow-2xl mt-4 rounded-md">
-      <Link href={`/activity/${activity.slug}`}>
+      <Link href={`/activity/details/${activity._id}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
           {activity.subimages.length > 0 && (
             <img
