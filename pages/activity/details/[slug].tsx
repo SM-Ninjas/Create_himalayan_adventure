@@ -16,7 +16,8 @@ import useActivityByIdHook from "@/hooks/useActivityByIdHook";
 function ActivityDetail() {
   const router = useRouter();
   const slug = router?.query?.slug;
-  const { data, isLoading, isError } = useActivityByIdHook(slug);
+  const id = Array.isArray(slug) ? slug[0] : slug;
+  const { data, isLoading, isError } = useActivityByIdHook(id);
   const [placeUrl, setPlaceUrl] = React.useState("");
 
   React.useEffect(() => {
@@ -32,6 +33,14 @@ function ActivityDetail() {
   }
   const currentPlaceData = data.activity;
   const subImg: string[] = currentPlaceData?.subimages || [];
+
+  // if (!currentPlaceData) {
+  //   return <h1>Activity not found</h1>;
+  // }
+  if (!currentPlaceData) {
+    router.push("/404");
+    return null;
+  }
 
   console.log(currentPlaceData.subimages, "current place data is here");
   return (
