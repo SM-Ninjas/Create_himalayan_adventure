@@ -66,7 +66,7 @@ function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border hover:border-black"
                 onClick={handleCloseToggleOnClick}
-                href="/tours"
+                href="/activity/tours"
               >
                 <MdTour className="text-xl text-gray-100" />
                 <p className="text-white">Tour</p>
@@ -74,7 +74,7 @@ function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
-                href="/treks"
+                href="/activity/trekking"
               >
                 <TbTrekking className="text-xl text-gray-100" />
                 <p className="text-white">Trek</p>
@@ -82,7 +82,7 @@ function MobileNavbar({ showTopBar }: { showTopBar: boolean }) {
               <Link
                 className="flex items-center w-full gap-8 p-2 capitalize  emphasized-text hover:border "
                 onClick={handleCloseToggleOnClick}
-                href="/peak_climbing"
+                href="/activity/peak_climbing"
               >
                 <TbTrekking className="text-xl text-gray-100" />
                 <p className="text-white">Peak Climbing</p>
