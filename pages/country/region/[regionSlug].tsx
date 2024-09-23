@@ -14,6 +14,12 @@ function RegionPage() {
   if (isLoading) return <div className="my-80">Loading activities...</div>;
   if (isError) return <div>Error loading activities: {error.message}</div>;
 
+  const formatCategoryName = (name: string) => {
+    return name
+      .replace(/_/g, " ")
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+  };
+
   return (
     <div>
       <div className="relative flex justify-center">
@@ -25,7 +31,10 @@ function RegionPage() {
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <h1 className="text-center text-white title-text">
-            Activities in <span className="capitalize">{data?.region}</span>
+            Activities in{" "}
+            <span className="capitalize">
+              {formatCategoryName(data?.region ?? "")}
+            </span>
           </h1>
         </div>
       </div>

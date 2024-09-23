@@ -25,22 +25,20 @@ function ActivityDetail() {
   }, []);
 
   if (isLoading) {
-    return <h1>Loadingi</h1>;
+    return <h1>Loading</h1>;
   }
 
   if (isError) {
-    return <h1>something went wrong</h1>;
+    return <h1>Something went wrong</h1>;
   }
+
+  // Add null check here
+  if (!data || !data.activity) {
+    return <h1>Activity not found</h1>;
+  }
+
   const currentPlaceData = data.activity;
   const subImg: string[] = currentPlaceData?.subimages || [];
-
-  // if (!currentPlaceData) {
-  //   return <h1>Activity not found</h1>;
-  // }
-  if (!currentPlaceData) {
-    router.push("/404");
-    return null;
-  }
 
   console.log(currentPlaceData.subimages, "current place data is here");
   return (

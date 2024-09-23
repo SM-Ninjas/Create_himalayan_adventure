@@ -51,7 +51,7 @@ const SearchComponent = () => {
         </h1>
       )}
 
-      <div className="w-11/12 md:w-8/12 flex border flex-col lg:flex-row items-center justify-between gap-4 bg-white rounded-lg shadow-md p-4">
+      <div className="w-11/12 md:w-8/12 flex border flex-col lg:flex-row items-center justify-between gap-4 bg-white rounded-3xl shadow-md p-4">
         <div className="flex items-center gap-2 w-full lg:w-2/5">
           <LuActivity className="subtitle-text text-gray-400 font-bold" />
           <select
