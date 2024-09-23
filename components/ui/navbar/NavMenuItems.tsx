@@ -5,7 +5,6 @@ import Link from "next/link";
 import useAllActivities from "@/hooks/useActivitiesHook";
 import useActivitiesByCountryHook from "@/hooks/useActivitiesByLocationHook";
 
-
 export function MenuItems() {
   const [hoveredDestination, setHoveredDestination] = React.useState<
     string | null
@@ -41,7 +40,6 @@ export function MenuItems() {
     new Set(allActivities.activities.map((activity: any) => activity.category))
   );
 
-  // Create a map of countries to their regions
   const countryRegionsMap = allActivities.activities.reduce(
     (acc: { [key: string]: Set<string> }, activity: any) => {
       if (!acc[activity.country]) {
@@ -53,29 +51,32 @@ export function MenuItems() {
     {}
   );
 
-  // Convert the map to an array of objects for easier rendering
   const countriesWithRegions = Object.entries(countryRegionsMap).map(
     ([country, regions]) => ({
       country,
-      regions: Array.from(regions as Set<string>),
+      regions: Array.from(regions as Set<string>)
     })
   );
 
   return (
-    <nav className="mx-auto">
-      <ul className="flex justify-center items-center gap-4 sm:gap-2 space-x-4 sm:space-x-2 md:space-x-6 lg:space-x-10">
+    <nav className="mx-auto px-4 py-2">
+      <ul className="flex justify-center items-center gap-6 md:gap-8 lg:gap-10">
         <li className="group relative flex items-center">
-          <button className="regular-text">Activities</button>
-          <div className="absolute top-full left-0 hidden group-hover:block">
-            <ul className="w-[340px] sm:w-[420px] bg-white p-4 shadow-md rounded-lg">
-              <p className="subtitle-text text-gray-900 my-2">Activities</p>
+          <button className="regular-text hover:text-blue-500 transition duration-300">
+            Activities
+          </button>
+          <div className="absolute top-full left-0 hidden group-hover:block z-10">
+            <ul className="bg-white p-3 shadow-lg rounded-lg min-w-[200px]">
+              <p className="subtitle-text text-gray-900 mb-2 pb-2 border-b">
+                Activities
+              </p>
               {uniqueCategories.map((category, index) => (
-                <li key={index} className="p-2">
+                <li key={index} className="py-1">
                   <Link
                     onClick={() => setHoveredDestination(null)}
                     href={`/activity/${category}`}
                   >
-                    <span className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm p-2 transition duration-300">
+                    <span className="emphasized-text capitalize text-gray-700 hover:text-blue-500 block px-2 py-1 rounded-md transition duration-300">
                       {category as React.ReactNode}
                     </span>
                   </Link>
@@ -85,32 +86,33 @@ export function MenuItems() {
           </div>
         </li>
 
-        {/* Destination dropdown */}
         <li className="group relative flex items-center">
-          <button className="regular-text">Destination</button>
-          <div className="absolute top-full left-0 hidden group-hover:block">
-            <ul className="w-[300px] sm:w-[250px] bg-white shadow-md rounded-lg">
-              <p className="subtitle-text text-gray-900 p-2">
-                International Treks
+          <button className="regular-text hover:text-blue-500 transition duration-300">
+            Destination
+          </button>
+          <div className="absolute top-full left-0 hidden group-hover:block z-10">
+            <ul className="bg-white shadow-lg rounded-lg p-3 min-w-[280px]">
+              <p className="subtitle-text text-gray-900 mb-2 pb-2 border-b">
+                Choose a destination
               </p>
               {countriesWithRegions.map(({ country, regions }, index) => (
                 <li
                   key={index}
-                  className="relative"
+                  className="relative py-1"
                   onMouseEnter={() => handleMouseEnter(country)}
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link href={`/country/${country}`}>
-                    <p className="emphasized-text text-gray-900 hover:bg-blue-500 hover:text-white rounded-sm transition duration-300 p-2 capitalize">
+                    <p className="emphasized-text capitalize text-gray-700 hover:text-blue-500 px-2 py-1 rounded-md transition duration-300 ">
                       {country}
                     </p>
                   </Link>
                   {hoveredDestination === country && (
-                    <ul className="absolute right-[100%] top-0 w-[340px] sm:w-[280px] bg-white shadow-lg rounded-lg p-2">
+                    <ul className="absolute right-full top-0 bg-white shadow-lg rounded-lg p-3 ml-2 min-w-[200px]">
                       {regions.map((region, optionIndex) => (
-                        <li key={optionIndex}>
+                        <li key={optionIndex} className="py-1">
                           <Link href={`/country/region/${region}`}>
-                            <p className="text-gray-700 m-2 emphasized-text hover:text-blue-500 transition duration-300">
+                            <p className="text-gray-700 emphasized-text hover:text-blue-500 px-2 py-1 rounded-md transition duration-300">
                               {formatCategoryName(region)}
                             </p>
                           </Link>
@@ -125,19 +127,28 @@ export function MenuItems() {
         </li>
 
         <li className="flex items-center">
-          <Link href="/about" className="regular-text">
+          <Link
+            href="/about"
+            className="regular-text hover:text-blue-500 transition duration-300"
+          >
             About
           </Link>
         </li>
 
         <li className="flex items-center">
-          <Link href="/blogs" className="regular-text">
+          <Link
+            href="/blogs"
+            className="regular-text hover:text-blue-500 transition duration-300"
+          >
             Blogs
           </Link>
         </li>
 
         <li className="flex items-center">
-          <Link href="/contact" className="regular-text">
+          <Link
+            href="/contact"
+            className="regular-text hover:text-blue-500 transition duration-300"
+          >
             Contact
           </Link>
         </li>

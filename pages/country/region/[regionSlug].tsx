@@ -6,16 +6,19 @@ import ActivityCard from "@/components/ui/Activity";
 function RegionPage() {
   const router = useRouter();
   const regionslug = router.query.regionSlug;
-  console.log(regionslug, "this is the region slug");
 
   const { data, isLoading, isError, error } = useActivitiesByRegionHook(
     regionslug as string
   );
 
-  console.log("Region Page Data:", data);
-
   if (isLoading) return <div className="my-80">Loading activities...</div>;
   if (isError) return <div>Error loading activities: {error.message}</div>;
+
+  const formatCategoryName = (name: string) => {
+    return name
+      .replace(/_/g, " ")
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+  };
 
   return (
     <div>
@@ -28,7 +31,10 @@ function RegionPage() {
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <h1 className="text-center text-white title-text">
-            Activities in <span className="capitalize">{data?.region}</span>
+            Activities in{" "}
+            <span className="capitalize">
+              {formatCategoryName(data?.region ?? "")}
+            </span>
           </h1>
         </div>
       </div>

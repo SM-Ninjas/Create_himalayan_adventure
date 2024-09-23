@@ -1,5 +1,6 @@
 import { HiPhone } from "react-icons/hi2";
 import { IoLocationSharp, IoMail } from "react-icons/io5";
+import { FaTripadvisor } from "react-icons/fa";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -60,13 +61,15 @@ const Footer = () => {
                     className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
                   >
                     createhimalaya16@gmail.com
-                  </a>,<a
+                  </a>
+                  ,
+                  <a
                     href="mailto:example@mail.com"
                     className="text-sm text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 hover:underline"
-                  >info@createhimalaya.com
+                  >
+                    info@createhimalaya.com
                   </a>
                 </div>
-
               </div>
             </div>
           </div>
@@ -80,7 +83,7 @@ const Footer = () => {
                   href="/treks/annapurna_circuit_trek"
                   className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Annapurna Base Camp Trek
+                  Annapurna Base Camp
                 </a>
               </li>
               <li className="mb-2">
@@ -88,7 +91,7 @@ const Footer = () => {
                   href="/treks/ebc_trek_14_days"
                   className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Everest Base Camp Trek
+                  Everest Base Camp
                 </a>
               </li>
               <li className="mb-2">
@@ -158,7 +161,7 @@ const Footer = () => {
                   href="/"
                   className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Gallery
+                  Certificates
                 </a>
               </li>
               <li className="mb-2">
@@ -373,6 +376,18 @@ const partners = [
     name: "Bookmundi",
     url: "https://www.bookmundi.com/",
     src: "partners/bookmudi.webp",
+  },
+  {
+    id: 4,
+    name: "Tour Radar",
+    url: "https://www.tourradar.com/",
+    src: "tourradar.webp",
+  },
+  {
+    id: 3,
+    name: "Trip Advisor",
+    url: "https://www.tripadvisor.com/Attraction_Review-g293890-d11877391-Reviews-Create_Himalaya_Adventure-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+    src: "Ellipse.svg",
   },
   {
     id: 2,

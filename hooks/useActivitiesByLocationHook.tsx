@@ -4,7 +4,6 @@ const fetchActivitiesByCountry = async (country: string) => {
   if (!country) {
     throw new Error("country is required");
   }
-  console.log(country, "country from useActivitiesByCountryHook");
   const response = await fetch(
     `http://localhost:8802/api/activities/country/${country}`
   );

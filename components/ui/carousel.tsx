@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { subImages } from "../home/CarouselSection";
+
 
 interface CarouselProps {
-  images: subImages;
+  images: string[];  
 }
 
 function Carousel({ images }: CarouselProps) {
@@ -20,18 +20,17 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
         >
-          {images?.map((image, index) => (
+          {images.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="flex">
                 <div className="relative aspect-video flex-1 justify-center rounded-lg">
                   <Image
                     src={image}
-                    alt={image}
+                    alt={`image-${index}`}  // update alt text dynamically
                     layout="fill"
                     objectFit="cover"
                     className="rounded-lg"
@@ -52,7 +51,6 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
@@ -63,7 +61,7 @@ function Carousel({ images }: CarouselProps) {
                 <div className="relative aspect-video flex-1 justify-center rounded-lg">
                   <Image
                     src={image}
-                    alt={image}
+                    alt={`image-${index}`}
                     layout="fill"
                     objectFit="cover"
                     className="rounded-lg"
@@ -84,7 +82,6 @@ function Carousel({ images }: CarouselProps) {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          // navigation
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation]}
           className="mySwiper flex w-full"
@@ -95,7 +92,7 @@ function Carousel({ images }: CarouselProps) {
                 <div className="relative aspect-video flex-1 justify-center rounded-lg">
                   <Image
                     src={image}
-                    alt={image}
+                    alt={`image-${index}`}
                     layout="fill"
                     objectFit="cover"
                     className="rounded-lg"
