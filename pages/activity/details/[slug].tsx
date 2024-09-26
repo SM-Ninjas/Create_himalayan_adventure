@@ -12,6 +12,7 @@ import { MdGroups } from "react-icons/md";
 import ShareButtons from "@/components/SocialMediaPreFill";
 import WhyChooseUs from "@/components/ui/whyChooseUs";
 import useActivityByIdHook from "@/hooks/useActivityByIdHook";
+import Spinner from "@/components/spinner";
 
 function ActivityDetail() {
   const router = useRouter();
@@ -25,7 +26,11 @@ function ActivityDetail() {
   }, []);
 
   if (isLoading) {
-    return <h1>Loading</h1>;
+    return (
+      <h1>
+        <Spinner />
+      </h1>
+    );
   }
 
   if (isError) {

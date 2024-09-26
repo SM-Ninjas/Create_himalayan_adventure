@@ -1,4 +1,4 @@
-export type TrekkingContent = {
+﻿export type TrekkingContent = {
   id?: number;
   slug?: string;
   activityType?: String;
