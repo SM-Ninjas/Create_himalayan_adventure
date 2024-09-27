@@ -5649,8 +5649,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         title: "Trekking Shoes",
         image: "/images/shoes.png",
         description:
-          "Waterproof and high-ankle shoes with good grip for trekking.",
-      },
+          "Waterproof and high-ankle shoes with good grip for trekking.",      },
     ],
     about: [],
     highlights: [

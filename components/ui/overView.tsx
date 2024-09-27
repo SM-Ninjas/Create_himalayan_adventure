@@ -9,7 +9,7 @@ import { TitleText } from "./text/typingText";
 import { TrekkingContent } from "@/components/ui/infoContent";
 
 interface OverViewProps {
-  currentPlaceInfo: TrekkingContent | undefined;
+  currentPlaceInfo: any;
 }
 export default function OverView({ currentPlaceInfo }: OverViewProps) {
   return (
@@ -28,7 +28,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Duration
             </p>
             <p className="small-text text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.duration}
+              {currentPlaceInfo?.overview?.duration}
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Start From
             </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.startingPoint}
+              {currentPlaceInfo?.overview?.startingPoint}
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Ends At
             </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.endingPoint}
+              {currentPlaceInfo?.overview?.endingPoint}
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Group:
             </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.peoples}
+              {currentPlaceInfo?.overview?.peoples}
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Activity
             </h1>
             <p className="small-text tex text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.category}
+              {currentPlaceInfo?.overview?.category}
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Best Season
             </h1>
             <p className="small-text  text-gray-600 opacity-70">
-              {currentPlaceInfo?.overView?.bestSeason}
+              {currentPlaceInfo?.overview?.bestSeason}
             </p>
           </div>
         </div>

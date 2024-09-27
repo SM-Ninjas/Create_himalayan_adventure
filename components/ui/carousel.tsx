@@ -2,14 +2,14 @@ import Image from "next/image";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 interface CarouselProps {
-  images: string[];  
+  images: string[];
 }
 
 function Carousel({ images }: CarouselProps) {
   return (
     <div className="">
+
       <div className="hidden lg:block">
         <Swiper
           slidesPerView={3}
@@ -30,7 +30,7 @@ function Carousel({ images }: CarouselProps) {
                 <div className="relative aspect-video flex-1 justify-center rounded-lg">
                   <Image
                     src={image}
-                    alt={`image-${index}`}  // update alt text dynamically
+                    alt={`image-${index}`} // update alt text dynamically
                     layout="fill"
                     objectFit="cover"
                     className="rounded-lg"

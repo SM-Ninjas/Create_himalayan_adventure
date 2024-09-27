@@ -103,7 +103,7 @@ export function MenuItems() {
                   onMouseLeave={handleMouseLeave}
                 >
                   <Link href={`/country/${country}`}>
-                    <p className="emphasized-text capitalize text-gray-700 hover:text-blue-500 px-2 py-1 rounded-md transition duration-300 ">
+                    <p className="emphasized-text text-gray-700 hover:text-blue-500 px-2 py-1 rounded-md transition duration-300 ">
                       {country}
                     </p>
                   </Link>

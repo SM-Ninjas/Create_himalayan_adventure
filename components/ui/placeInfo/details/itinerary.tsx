@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
-import { ItineraryType } from "../../infoContent";
 
 type ItineraryProps = {
   itineraryData?: ItineraryType[];
+};
+
+type ItineraryType = {
+  day: number;
+  title: string;
+  description: string;
 };
 
 const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
@@ -12,12 +17,11 @@ const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
   const handleToggleDetails = (index: number) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
-
   return (
     <div className="space-y-4 ">
-      {itineraryData.map((data, i) => (
+      {itineraryData?.map((data, i) => (
         <div
-          key={i}
+          key={data.day}
           className="border border-gray-200 rounded-lg overflow-hidden shadow-sm transition-all duration-300 ease-in-out"
         >
           <button
@@ -30,7 +34,7 @@ const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
                   Day {data.day}:
                 </span>
                 <h3 className="text-lg font-medium text-gray-800">
-                  {data.description}
+                  {data.title}
                 </h3>
               </div>
               {openIndex === i ? (
@@ -42,7 +46,9 @@ const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
           </button>
           {openIndex === i && (
             <div className="p-4 bg-gray-50 border-t border-gray-200">
-              <p className="text-gray-700 leading-relaxed">{data.details}</p>
+              <p className="text-gray-700 leading-relaxed">
+                {data.description}
+              </p>
             </div>
           )}
         </div>

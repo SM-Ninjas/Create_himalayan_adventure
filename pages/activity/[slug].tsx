@@ -83,9 +83,10 @@ const Treks_Tours = () => {
           <div>No activities found for this category.</div>
         ) : (
           <div className="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
-            {activities.map((activity: Activity) => (
-              <ActivityCard key={activity.slug} activity={activity} />
-            ))}
+            {activities.map((activity: Activity) => {
+              console.log(activity);
+              return <ActivityCard key={activity.slug} activity={activity} />;
+            })}
           </div>
         )}
       </div>

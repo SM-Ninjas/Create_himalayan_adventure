@@ -43,9 +43,8 @@ function ActivityDetail() {
   }
 
   const currentPlaceData = data.activity;
-  const subImg: string[] = currentPlaceData?.subimages || [];
+  const subImg: string[] = currentPlaceData?.subImages 
 
-  console.log(currentPlaceData.subimages, "current place data is here");
   return (
     <>
       <div className="relative pt-28">
@@ -55,12 +54,13 @@ function ActivityDetail() {
               <h1 className="title-text">{currentPlaceData?.title}</h1>
               <div className="flex gap-x-8">
                 <p className="small-text flex items-center gap-2 text-gray-600">
-                  <FaClock size={18} /> {currentPlaceData?.days}{" "}
+                  <FaClock size={18} /> {currentPlaceData?.duration}{" "}
                 </p>
                 <p className="flex items-center gap-2 text-gray-600">
                   <MdGroups size={30} />
-                  {currentPlaceData?.people}
+                  {currentPlaceData?.minPeople} to {currentPlaceData?.maxPeople}
                 </p>
+
               </div>
             </div>
           </div>
