@@ -2,6 +2,7 @@ import useActivitiesByRegionHook from "@/hooks/useActivitiesByRegion";
 import { useRouter } from "next/router";
 import React from "react";
 import ActivityCard from "@/components/ui/Activity";
+import Spinner from "@/components/spinner";
 
 function RegionPage() {
   const router = useRouter();
@@ -11,7 +12,12 @@ function RegionPage() {
     regionslug as string
   );
 
-  if (isLoading) return <div className="my-80">Loading activities...</div>;
+  if (isLoading)
+    return (
+      <div className="my-80">
+        <Spinner />
+      </div>
+    );
   if (isError) return <div>Error loading activities: {error.message}</div>;
 
   const formatCategoryName = (name: string) => {

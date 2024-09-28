@@ -8,7 +8,7 @@ import PathImg from "./details/pathImg";
 import { TrekkingContent } from "@/components/ui/infoContent";
 
 interface CurrentPlaceType {
-  currentPlaceInfo: TrekkingContent | undefined;
+  currentPlaceInfo: any;
 }
 
 function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
@@ -43,10 +43,8 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
           <h1 className="mb-4 text-gray-800 subtitle-text">
             Road map of this journey
           </h1>
-            {/* currentPlaceInfo && currentPlaceInfo.path ? */}
-            <PathImg
-              pathImg={currentPlaceInfo?.path?.[0]}         
-            /> 
+          {/* currentPlaceInfo && currentPlaceInfo.path ? */}
+          <PathImg pathImg={currentPlaceInfo?.path?.[0]} />
         </div>
         <div className="mb-6">
           <h1 className="mb-4 text-gray-800 subtitle-text">
@@ -54,8 +52,7 @@ function PlaceInfo({ currentPlaceInfo }: CurrentPlaceType) {
             <span className="capitalize">{currentPlaceName}</span>
           </h1>
           <HowToPrepareComponent
-            howToPrepare={currentPlaceInfo?.HowToPrepare}
-          />
+            content={currentPlaceInfo.howToPrepare} title={""}          />
         </div>
       </div>
     </div>

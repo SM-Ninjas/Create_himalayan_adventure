@@ -1,4 +1,4 @@
-export type TrekkingContent = {
+﻿export type TrekkingContent = {
   id?: number;
   slug?: string;
   activityType?: String;
@@ -5649,8 +5649,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         title: "Trekking Shoes",
         image: "/images/shoes.png",
         description:
-          "Waterproof and high-ankle shoes with good grip for trekking.",
-      },
+          "Waterproof and high-ankle shoes with good grip for trekking.",      },
     ],
     about: [],
     highlights: [
@@ -10519,7 +10518,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup And Drop Services",
-      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
+      // "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Free Langtang Valley Trek map",
       "Oximeter to check blood oxygen saturation levels",
       "Medical Kits",

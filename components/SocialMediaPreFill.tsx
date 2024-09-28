@@ -4,7 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 interface ShareButtonsProps {
   title: string;
   imageUrl: string;
-  placeUrl: string; // The URL to be shared
+  placeUrl: string; 
 }
 
 const ShareButtons: React.FC<ShareButtonsProps> = ({
@@ -32,14 +32,6 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
     );
   };
 
-  const shareOnLinkedIn = () => {
-    const url = encodeURIComponent(placeUrl);
-    const text = encodeURIComponent(`Check out ${title}!`);
-    window.open(
-      `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${text}`,
-      "_blank"
-    );
-  };
 
   const shareOnWhatsApp = () => {
     const url = encodeURIComponent(placeUrl);
@@ -71,19 +63,6 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
         <FaTwitter
           size={24}
           className={`${hoveredButton === "twitter" ? "text-blue-400" : "text-gray-500"
-            }`}
-        />
-      </button>
-
-      <button
-        onClick={shareOnLinkedIn}
-        onMouseEnter={() => setHoveredButton("linkedin")}
-        onMouseLeave={() => setHoveredButton(null)}
-        className="text-xl"
-      >
-        <FaLinkedin
-          size={24}
-          className={`${hoveredButton === "linkedin" ? "text-blue-700" : "text-gray-500"
             }`}
         />
       </button>

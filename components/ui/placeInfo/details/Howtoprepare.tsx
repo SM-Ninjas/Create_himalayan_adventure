@@ -1,33 +1,27 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
-import type { HowToPrepare } from "../../infoContent";
 
-type howToPrepareType = {
-    howToPrepare: HowToPrepare | undefined 
+const HTMLContentRenderer = ({ content }: any) => {
+  return (
+    <div
+      className="html-content-wrapper"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
+  );
 };
-function HowToPrepare({ howToPrepare }: howToPrepareType) {
 
-    return (
-            <div className="">
-                {howToPrepare?.paragraph.map((data, i) => (
-                    <div key={i} className="flex mb-4 gap-6">
-                        <h1 key={i} className="regular-tex t opacity-70">
-                            {data}
-                        </h1>
-                    </div>
-                ))}
-                {/* {howToPrepare.points.map((data, i) => (
-                    <div key={i} className="flex mb-2 gap-6">
-                        <div>
-                            <FaArrowRight color="#0075FF" size={20} />
-                        </div>
-                        <h1 className="regular-text opacity-70">
-                            {data}
-                        </h1>
-                    </div>
-                ))} */}
-            </div>
-    );
-}
+const HowToPrepare = ({
+  title,
+  content,
+}: {
+  title: string;
+  content: string;
+}) => {
+  return (
+    <div className="how-to-prepare">
+      {title && <h2 className="mb-4 text-xl font-bold">{title}</h2>}
+      <HTMLContentRenderer content={content} />
+    </div>
+  );
+};
 
 export default HowToPrepare;

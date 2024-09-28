@@ -1,6 +1,7 @@
 "use client";
+
 import React from "react";
-import Equipment from "@/components/ui/Equipment";
+// import Equipment from "@/components/ui/Equipment";
 import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
@@ -12,6 +13,8 @@ import { MdGroups } from "react-icons/md";
 import ShareButtons from "@/components/SocialMediaPreFill";
 import WhyChooseUs from "@/components/ui/whyChooseUs";
 import useActivityByIdHook from "@/hooks/useActivityByIdHook";
+import Spinner from "@/components/spinner";
+// import useEquipment from "@/hooks/useEquipmentById";
 
 function ActivityDetail() {
   const router = useRouter();
@@ -25,36 +28,54 @@ function ActivityDetail() {
   }, []);
 
   if (isLoading) {
-    return <h1>Loading</h1>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <Spinner />
+      </div>
+    );
   }
 
   if (isError) {
-    return <h1>Something went wrong</h1>;
+    return <h1 className="text-center text-red-500">Something went wrong</h1>;
   }
 
   // Add null check here
   if (!data || !data.activity) {
-    return <h1>Activity not found</h1>;
+    return <h1 className="text-center">Activity not found</h1>;
   }
 
   const currentPlaceData = data.activity;
-  const subImg: string[] = currentPlaceData?.subimages || [];
+  const subImg = currentPlaceData?.subImages || [];
 
-  console.log(currentPlaceData.subimages, "current place data is here");
+  // Extract equipment IDs
+  // const equipmentIds = currentPlaceData.equipment.map((eq: { _id: string; }) => eq._id);
+
+  // // Fetch equipment data
+  // const {
+  //   data: equipmentData,
+  //   isLoading: isEquipmentLoading,
+  //   isError: isEquipmentError,
+  // } = useEquipment(equipmentIds);
+
   return (
     <>
       <div className="relative pt-28">
         <div key={currentPlaceData?.id} className="mb-4">
           <div className="container flex justify-between">
             <div className="flex flex-col gap-y-2">
-              <h1 className="title-text">{currentPlaceData?.title}</h1>
+              <h1 className="title-text capitalize">
+                {currentPlaceData?.title}
+              </h1>
               <div className="flex gap-x-8">
                 <p className="small-text flex items-center gap-2 text-gray-600">
-                  <FaClock size={18} /> {currentPlaceData?.days}{" "}
+                  <FaClock size={18} />{" "}
+                  {currentPlaceData?.duration === 1
+                    ? `${currentPlaceData?.duration} day`
+                    : `${currentPlaceData?.duration} days`}
                 </p>
                 <p className="flex items-center gap-2 text-gray-600">
                   <MdGroups size={30} />
-                  {currentPlaceData?.people}
+                  {currentPlaceData?.minPeople} to {currentPlaceData?.maxPeople}
                 </p>
               </div>
             </div>
@@ -74,10 +95,9 @@ function ActivityDetail() {
               </div>
             </div>
             <div className="xl:hidden">
-              <div></div>
               <InfoCard currentPlaceData={currentPlaceData} />
 
-              <div className="flex items-center gap-4 mt-4 shadow-lg border  p-4 rounded-lg">
+              <div className="flex items-center gap-4 mt-4 shadow-lg border p-4 rounded-lg">
                 <h1 className="regular-text">Share with Friends</h1>
                 <ShareButtons
                   title={currentPlaceData?.title || ""}
@@ -96,7 +116,7 @@ function ActivityDetail() {
             <div className="sticky top-40">
               <InfoCard currentPlaceData={currentPlaceData} />
               {/* Share Buttons */}
-              <div className="flex items-center gap-4 mt-4 shadow-lg border  p-4 rounded-lg">
+              <div className="flex items-center gap-4 mt-4 shadow-lg border p-4 rounded-lg">
                 <h1 className="regular-text">Share with Friends</h1>
                 <ShareButtons
                   title={currentPlaceData?.title || ""}
@@ -109,9 +129,26 @@ function ActivityDetail() {
             </div>
           </div>
         </div>
+
         <div className="container">
           <Gallery />
-          <Equipment currentEquipmentData={currentPlaceData?.equipment} />
+
+          {/* Handle Equipment Loading and Error States
+          {isEquipmentLoading && (
+            <div className="flex justify-center items-center">
+              <Spinner />
+            </div>
+          )}
+
+          {isEquipmentError && (
+            <div className="text-red-500">
+              Failed to load equipment data.
+            </div>
+          )} */}
+
+          {/* {!isEquipmentLoading && !isEquipmentError && equipmentData && (
+            <Equipment currentEquipmentData={equipmentData} />
+          )} */}
         </div>
       </div>
     </>

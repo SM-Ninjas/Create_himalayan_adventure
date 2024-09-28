@@ -15,17 +15,18 @@ export interface Activity {
   maxPeople: number;
   minPeople: number;
   pricePerPerson: number;
-  subimages: string[];
+  subImages: string[];
 }
 
 const ActivityCard = ({ activity }: { activity: Activity }) => {
+  console.log(activity)
   return (
     <div className="group relative h-[400px] overflow-hidden shadow-lg transition-shadow duration-300 hover:shadow-2xl mt-4 rounded-md">
       <Link href={`/activity/details/${activity._id}`}>
         <div className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110">
-          {activity.subimages.length > 0 && (
+          {activity.subImages.length > 0 && (
             <img
-              src={activity.subimages[0]}
+              src={activity.subImages[0]}
               alt={activity.title}
               className="object-cover w-full h-full"
             />
@@ -43,7 +44,8 @@ const ActivityCard = ({ activity }: { activity: Activity }) => {
               </p>
               <p className="flex items-center gap-1">
                 <MdOutlineDateRange className="text-blue-400" />{" "}
-                {activity.duration} days
+                {activity.duration === 1 ? `${activity.duration} day`
+                : `${activity.duration} days`}
               </p>
               <p className="flex items-center gap-1">
                 <People size="20" color="#60A5FA" /> {activity.minPeople}-
