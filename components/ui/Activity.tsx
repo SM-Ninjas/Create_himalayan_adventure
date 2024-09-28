@@ -44,7 +44,8 @@ const ActivityCard = ({ activity }: { activity: Activity }) => {
               </p>
               <p className="flex items-center gap-1">
                 <MdOutlineDateRange className="text-blue-400" />{" "}
-                {activity.duration} days
+                {activity.duration === 1 ? `${activity.duration} day`
+                : `${activity.duration} days`}
               </p>
               <p className="flex items-center gap-1">
                 <People size="20" color="#60A5FA" /> {activity.minPeople}-

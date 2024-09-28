@@ -6,12 +6,15 @@ import { FaClock, FaFlag } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { TitleText } from "./text/typingText";
-import { TrekkingContent } from "@/components/ui/infoContent";
 
 interface OverViewProps {
   currentPlaceInfo: any;
 }
 export default function OverView({ currentPlaceInfo }: OverViewProps) {
+  currentPlaceInfo?.overview?.duration === 1
+    ? console.log(currentPlaceInfo?.overview?.duration, "day")
+    : console.log(currentPlaceInfo?.overview?.duration,"days");
+
   return (
     <motion.div
       variants={staggerContainer(0, 0)}
@@ -28,7 +31,7 @@ export default function OverView({ currentPlaceInfo }: OverViewProps) {
               Duration
             </p>
             <p className="small-text text-gray-600 opacity-70">
-              {currentPlaceInfo?.overview?.duration}
+              {currentPlaceInfo?.overview?.duration === 1 ? `${currentPlaceInfo?.overview?.duration} day` : `${currentPlaceInfo?.overview?.duration} day`}
             </p>
           </div>
         </div>

@@ -33,7 +33,7 @@ const Itinerary: React.FC<ItineraryProps> = ({ itineraryData = [] }) => {
                 <span className="text-xl font-semibold text-blue-600">
                   Day {data.day}:
                 </span>
-                <h3 className="text-lg font-medium text-gray-800">
+                <h3 className="text-xl font-semibold  text-gray-800">
                   {data.title}
                 </h3>
               </div>

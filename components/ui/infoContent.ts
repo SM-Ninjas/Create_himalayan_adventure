@@ -10518,7 +10518,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
     ],
     facilities: [
       "Free International Airport Pickup And Drop Services",
-      "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
+      // "Create Himalaya Trek Duffle Bag and T-Shirt as a souvenir",
       "Free Langtang Valley Trek map",
       "Oximeter to check blood oxygen saturation levels",
       "Medical Kits",

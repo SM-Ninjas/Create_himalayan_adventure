@@ -1,12 +1,24 @@
+// components/ui/Equipment.tsx
 import React from "react";
-// import { DataTypes } from "../home/CarouselSection";
-import { Equipment as EquipmentTypes } from "../home/CarouselSection";
+import { FaArrowRight } from "react-icons/fa";
 
-interface currentEquipmentData {
-  currentEquipmentData: EquipmentTypes[] | undefined;
+interface EquipmentItem {
+  _id: string;
+  image: string;
+  title: string;
+  description: string;
 }
 
-function Equipment({ currentEquipmentData }: currentEquipmentData) {
+interface EquipmentProps {
+  currentEquipmentData: EquipmentItem[];
+}
+
+function Equipment({ currentEquipmentData }: EquipmentProps) {
+  console.log(currentEquipmentData, "current equipment data");
+
+  if (!currentEquipmentData || currentEquipmentData.length === 0) {
+    return <p>No equipment recommendations available.</p>;
+  }
 
   return (
     <div className="mt-12">
@@ -21,15 +33,22 @@ function Equipment({ currentEquipmentData }: currentEquipmentData) {
           with confidence and peace of mind.
         </p>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-4  mt-4 p-1">
-        {currentEquipmentData?.map((equipment, i) => (
-          <div key={i} className="flex m-2  bg-[#FFFF] rounded-[8px] border">
-            <img className="w-[110px] object-cover h-[125px]  rounded-[8px]" src={equipment.image} alt="alts" />
-            <div className="p-2">
-              <h1 className="text-sm text-gray-800 font-semibold mt-1">
+      <div className="grid grid-cols-1 xl:grid-cols-4 mt-4 p-1">
+        {currentEquipmentData.map((equipment) => (
+          <div
+            key={equipment._id}
+            className="flex m-2 bg-white rounded-lg border shadow-md"
+          >
+            <img
+              className="w-28 h-32 object-cover rounded-l-lg"
+              src={equipment.image}
+              alt={equipment.title}
+            />
+            <div className="p-2 flex flex-col justify-between">
+              <h2 className="text-sm font-semibold text-gray-800">
                 {equipment.title}
-              </h1>
-              <p className="text-[12px] mt-1 text-gray-600 ">{equipment.description}</p>
+              </h2>
+              <p className="text-xs text-gray-600">{equipment.description}</p>
             </div>
           </div>
         ))}

@@ -25,6 +25,7 @@
     "classnames": "^2.5.1",
     "clsx": "^2.1.0",
     "framer-motion": "^10.18.0",
+    "html-react-parser": "^5.1.16",
     "iconsax-react": "^0.0.8",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.441.0",
