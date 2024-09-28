@@ -10,7 +10,7 @@ interface EquipmentItem {
 }
 
 interface EquipmentProps {
-  currentEquipmentData: EquipmentItem[];
+  currentEquipmentData: any;
 }
 
 function Equipment({ currentEquipmentData }: EquipmentProps) {
@@ -34,7 +34,7 @@ function Equipment({ currentEquipmentData }: EquipmentProps) {
         </p>
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-4 mt-4 p-1">
-        {currentEquipmentData.map((equipment) => (
+        {currentEquipmentData.map((equipment: EquipmentItem) => (
           <div
             key={equipment._id}
             className="flex m-2 bg-white rounded-lg border shadow-md"
