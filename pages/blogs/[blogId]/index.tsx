@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Calendar } from "lucide-react";
 import useBlogHook from "@/hooks/useBlogHook";
+import Spinner from "@/components/spinner";
 
 const BlogPostPage: React.FC = () => {
   const router = useRouter();
@@ -11,7 +12,12 @@ const BlogPostPage: React.FC = () => {
 
   const { data: blogData, isLoading, isError } = useBlogHook();
 
-  if (isLoading) return <div className="text-center py-8">Loading...</div>;
+  if (isLoading)
+    return (
+      <div className="">
+        <Spinner />
+      </div>
+    );
   if (isError)
     return (
       <div className="text-center py-8 text-red-600">
@@ -29,8 +35,7 @@ const BlogPostPage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-24">
       <div className="flex flex-col md:flex-row md:space-x-8">
-       
-        <div className="md:w-2/3 border border-black">
+        <div className="md:w-2/3">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -54,7 +59,7 @@ const BlogPostPage: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="prose max-w-none border border-black m-1"
+            className="prose max-w-none  m-1"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>

@@ -10,7 +10,7 @@ const fetchActivitiesByRegion = async (
   region: string
 ): Promise<ActivityData> => {
   const response = await fetch(
-    `http://localhost:8802/api/activities/region/${region}`
+    `https://server.createhimalaya.com/api/activities/region/${region}`
   );
   if (!response.ok) throw new Error("Failed to fetch activities by region");
   return response.json();

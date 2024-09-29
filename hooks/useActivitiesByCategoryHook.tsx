@@ -6,7 +6,7 @@ const fetchActivitiesByCategory = async (category?: string) => {
   }
 
   const response = await fetch(
-    `http://localhost:8802/api/activities/category/${category}`
+    `https://server.createhimalaya.com/api/activities/category/${category}`
   );
   if (!response.ok) throw new Error("Failed to fetch activities by category");
   return response.json();

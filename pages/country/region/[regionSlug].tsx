@@ -14,7 +14,7 @@ function RegionPage() {
 
   if (isLoading)
     return (
-      <div className="my-80">
+      <div className="">
         <Spinner />
       </div>
     );

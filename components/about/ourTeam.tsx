@@ -54,7 +54,7 @@ function OurTeam() {
     <div className="container mx-auto p-4 mt-8" data-aos="fade-up">
       <div className="mt-6">
         <div className="bg-utils flex justify-center h-[60px]">
-          <h1 className="text-[2rem] font-bold text-black mbl:text-[18px]">
+          <h1 className="title-text text-black mbl:text-[18px]">
             Meet The Team
           </h1>
         </div>

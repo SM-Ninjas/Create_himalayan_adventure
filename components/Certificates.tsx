@@ -24,7 +24,7 @@ function Certificates() {
   return (
     <div className="container my-12">
       <div>
-        <h1 className="title-text my-4 text-center">Certificates</h1>
+        <h1 className="title-text my-4 text-center">Certification</h1>
       </div>
       <Swiper
         spaceBetween={20}

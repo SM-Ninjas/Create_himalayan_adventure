@@ -6,11 +6,12 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { People } from "iconsax-react";
 import Link from "next/link";
 import ActivityCard, { Activity } from "@/components/ui/Activity";
+import Spinner from "@/components/spinner";
 
 // fetch activities function
 const fetchActivitiesByCountry = async (country: string) => {
   const response = await fetch(
-    `http://localhost:8802/api/activities/country/${country}`
+    `https://server.createhimalaya.com/api/activities/country/${country}`
   );
   if (!response.ok) throw new Error("Failed to fetch activities by country");
   return await response.json();
@@ -31,7 +32,12 @@ const CountryActivities = () => {
     return <div>Error: {error.message}</div>;
   }
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading)
+    return (
+      <div>
+        <Spinner />
+      </div>
+    );
 
   if (!data || !data.activities || data.activities.length === 0) {
     return <div>No activities found for {country}</div>;

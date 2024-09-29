@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 const fetchActivityById = async (id: string) => {
-  const response = await fetch(`http://localhost:8802/api/activities/${id}`);
+  const response = await fetch(`https://server.createhimalaya.com/api/activities/${id}`);
   if (!response.ok) throw new Error("Failed to fetch activity");
   return response.json();
 };

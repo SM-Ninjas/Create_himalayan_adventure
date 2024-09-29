@@ -5,13 +5,15 @@ import Gallery from "@/components/ui/Gallery";
 import Carousel from "@/components/ui/carousel";
 import InfoCard from "@/components/ui/infoCard";
 import infoContent, { subimages } from "@/components/ui/infoContent";
-import OverView from "@/components/ui/overView";
-import PlaceInfo from "@/components/ui/placeInfo";
+
 import { useRouter } from "next/router";
 import { FaClock } from "react-icons/fa";
 import { MdGroups } from "react-icons/md";
 import ShareButtons from "@/components/SocialMediaPreFill";
 import WhyChooseUs from "@/components/ui/whyChooseUs";
+import PlaceInfo from "@/components/ui/placeInfo/placeinfoStatic";
+import OverviewStatic from "@/components/ui/overviewStatic";
+import Spinner from "@/components/spinner";
 
 function PlacesDetails() {
   const router = useRouter();
@@ -29,7 +31,11 @@ function PlacesDetails() {
   }, []);
 
   if (!currentPlaceData) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        <Spinner />
+      </div>
+    );
   }
 
   return (
@@ -60,14 +66,12 @@ function PlacesDetails() {
           <div className="w-full xl:w-8/12">
             <div className="flex gap-16">
               <div>
-                <OverView currentPlaceInfo={currentPlaceData} />
+                <OverviewStatic currentPlaceInfo={currentPlaceData} />
                 <PlaceInfo currentPlaceInfo={currentPlaceData} />
               </div>
             </div>
             <div className="xl:hidden">
-              <div>
-
-              </div>
+              <div></div>
               <InfoCard currentPlaceData={currentPlaceData} />
 
               <div className="flex items-center gap-4 mt-4 shadow-lg border  p-4 rounded-lg">
