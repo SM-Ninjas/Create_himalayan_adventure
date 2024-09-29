@@ -108,7 +108,7 @@ export function MenuItems() {
                     </p>
                   </Link>
                   {hoveredDestination === country && (
-                    <ul className="absolute right-full top-0 bg-white shadow-lg rounded-lg p-3 ml-2 min-w-[200px]">
+                    <ul className="absolute right-full top-0 bg-white shadow-lg rounded-lg p-3 ml-2 min-w-[320px]">
                       {regions.map((region, optionIndex) => (
                         <li key={optionIndex} className="py-1">
                           <Link href={`/country/region/${region}`}>

@@ -3,8 +3,8 @@ import React from "react";
 
 function Spinner() {
   return (
-    <div>
-      <Spin tip="Loading" size="small"></Spin>
+    <div className="h-screen flex justify-center items-center">
+      <Spin tip="Loading" size="large"></Spin>
     </div>
   );
 }

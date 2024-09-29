@@ -12288,7 +12288,7 @@ const infoContent: { [key: string]: TrekkingContent } = {
         day: 18,
         description: "Trek from Sibu to Jenga La Phedi",
         details:
-          "Ascend towards Jenga La Phedi, preparing for the high-altitude pass.",
+          "`Ascend towards Jenga La Phedi, preparing for the high-altitude pass.`",
       },
       {
         day: 19,
@@ -19287,7 +19287,6 @@ const infoContent: { [key: string]: TrekkingContent } = {
     slug: "lhasa-to-everest-base-camp-tour-8-days",
     category: "Trekking",
     activityType: "treks",
-
     img: "/images/8945.jpg",
     description:
       "An epic 8-day journey from Lhasa to Everest Base Camp, traversing through the heart of Tibet's ancient cities, sacred monasteries, and breathtaking landscapes. The tour offers a unique opportunity to experience Tibetan culture and witness the stunning north face of Mt. Everest.",

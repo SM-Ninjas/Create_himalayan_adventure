@@ -5,7 +5,7 @@ const fetchActivitiesByCountry = async (country: string) => {
     throw new Error("country is required");
   }
   const response = await fetch(
-    `http://localhost:8802/api/activities/country/${country}`
+    `https://server.createhimalaya.com/api/activities/country/${country}`
   );
   if (!response.ok) throw new Error("Failed to fetch activities by country");
   return await response.json();

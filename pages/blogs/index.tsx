@@ -2,13 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import useBlogHook from "@/hooks/useBlogHook";
 import { CalendarIcon } from "lucide-react";
+import Spinner from "@/components/spinner";
 
 export interface BlogPost {
   _id: string;
   slug: string;
   title: string;
   createdAt: string;
-  metaDesc	: string;
+  metaDesc: string;
   content: string;
   coverImage: string;
   isFeatured: boolean;
@@ -52,7 +53,7 @@ function BlogCard({ post }: { post: BlogPost }) {
           <h2 className="text-xl font-semibold mb-2 group-hover:text-blue-600">
             {post.title}
           </h2>
-          <p className="text-gray-600">{truncate(post.metaDesc	, 20)}</p>
+          <p className="text-gray-600">{truncate(post.metaDesc, 20)}</p>
         </div>
       </div>
     </Link>
@@ -62,7 +63,12 @@ function BlogCard({ post }: { post: BlogPost }) {
 function Blogs() {
   const { data, isLoading, isError } = useBlogHook();
 
-  if (isLoading) return <div className="text-center py-8">Loading...</div>;
+  if (isLoading)
+    return (
+      <div className="">
+        <Spinner />
+      </div>
+    );
   if (isError)
     return (
       <div className="text-center py-8 text-blue-600">

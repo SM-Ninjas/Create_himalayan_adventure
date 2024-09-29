@@ -7,6 +7,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { FaMountain } from "react-icons/fa";
 import { BiCategory } from "react-icons/bi";
 import ActivityCard, { Activity } from "@/components/ui/Activity";
+import Spinner from "@/components/spinner";
 
 const Treks_Tours = () => {
   const router = useRouter();
@@ -18,7 +19,11 @@ const Treks_Tours = () => {
   );
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="">
+        <Spinner />
+      </div>
+    );
   }
 
   if (isError) {
