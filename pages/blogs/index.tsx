@@ -77,7 +77,6 @@ function Blogs() {
     );
 
   const blogPosts: BlogPost[] = data?.blogs || [];
-  const featuredPosts = blogPosts.filter((blog) => blog.isFeatured);
   const normalPosts = blogPosts.filter((blog) => !blog.isFeatured);
 
   return (

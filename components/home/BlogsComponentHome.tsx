@@ -4,15 +4,44 @@ import Link from "next/link";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { trekkingData } from "@/blogData";
+import useBlogHook from "@/hooks/useBlogHook";
+import Spinner from "@/components/spinner";
 
 interface BlogsProps {
   blogsRef: React.RefObject<HTMLElement>;
 }
+export interface BlogPost {
+  _id: string;
+  slug: string;
+  title: string;
+  createdAt: string;
+  metaDesc: string;
+  content: string;
+  coverImage: string;
+  isFeatured: boolean;
+}
 
 const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
-  // Replace the old blog data with trekkingData
-  const blogPosts = trekkingData;
+  const { data, isLoading, isError } = useBlogHook();
+
+  if (isLoading) {
+    return (
+      <div className="flex justify-center items-center">
+        <Spinner />
+      </div>
+    );
+  }
+
+  if (isError) {
+    return (
+      <div className="text-center py-8 text-blue-600">
+        Failed to load blogs.
+      </div>
+    );
+  }
+
+  // Replace static blog data with dynamically fetched data
+  const blogPosts = data?.blogs || [];
 
   return (
     <motion.article
@@ -45,19 +74,17 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
           modules={[Pagination, Navigation]}
           className="mySwiper hidden w-full lg:block"
         >
-          {blogPosts.map((item, index) => (
-            <SwiperSlide key={index}>
-              <Link href={`/blogs/${item.slug}`}>
+          {blogPosts.map((item: BlogPost) => (
+            <SwiperSlide key={item._id}>
+              <Link href={`/blogs/${item._id}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
                       src={
-                        (item.images && item.images[0]?.url) ||
+                        (item.coverImage && item.coverImage) ||
                         "/default-image.jpg"
                       }
-                      alt={
-                        (item.images && item.images[0]?.altText) || item.title
-                      }
+                      alt={item.title}
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
@@ -91,19 +118,17 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
           modules={[Navigation, Pagination]}
           className="mySwiper hidden w-full md:block lg:hidden"
         >
-          {blogPosts.map((item, index) => (
-            <SwiperSlide key={index}>
+          {blogPosts.map((item: BlogPost) => (
+            <SwiperSlide key={item._id}>
               <Link href={`/blogs/${item.slug}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
                       src={
-                        (item.images && item.images[0]?.url) ||
+                        (item.coverImage && item.coverImage) ||
                         "/default-image.jpg"
                       }
-                      alt={
-                        (item.images && item.images[0]?.altText) || item.title
-                      }
+                      alt={item.title}
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
@@ -137,19 +162,17 @@ const BlogsComponentHome = ({ blogsRef }: BlogsProps) => {
           modules={[Navigation]}
           className="mySwiper w-full md:hidden"
         >
-          {blogPosts.map((item, index) => (
-            <SwiperSlide key={index}>
+          {blogPosts.map((item: BlogPost) => (
+            <SwiperSlide key={item._id}>
               <Link href={`/blogs/${item.slug}`}>
                 <div className="flex flex-col gap-y-2">
                   <div className="relative h-96 w-auto">
                     <Image
                       src={
-                        (item.images && item.images[0]?.url) ||
+                        (item.coverImage && item.coverImage) ||
                         "/default-image.jpg"
                       }
-                      alt={
-                        (item.images && item.images[0]?.altText) || item.title
-                      }
+                      alt={item.title}
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
